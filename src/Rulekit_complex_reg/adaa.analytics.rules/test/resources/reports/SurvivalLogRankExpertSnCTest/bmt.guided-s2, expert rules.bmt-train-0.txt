@@ -1,0 +1,7 @@
+
+
+Rules
+	IF [[CD34kgx10d6 = (-inf, 10)]] AND [[extcGvHD = {0}]] THEN 
+	IF [[extcGvHD = {0}]] AND [[CD34kgx10d6 = <10, inf)]] THEN 
+	IF [[CD34kgx10d6 = (-inf, 10)]] AND [[extcGvHD = {1}]] THEN 
+	IF [[CD34kgx10d6 = <10, inf)]] AND [[extcGvHD = {1}]] THEN 

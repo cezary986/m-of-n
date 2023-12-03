@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 1.0
+r6: 0.9999999983063323
+r7: 0.999999999999996
+r8: 0.9999999939464371
+r9: 0.8387397406756982
+r10: 0.9999992841444024
+r11: 0.8783677227808375
+________________________________
+r1: IF age != <64.05, 67) AND age != <63.30, 63.90) AND age != <75.20, 75.60) AND age != <79.95, 80.60) AND age != <82.25, 84) AND hgb != <90, 110) AND age != <58.05, 59) AND hgb != <150.50, 160) AND age != <73.05, 73.70) AND hgb != <141.50, 145) AND age != <58.50, 63) AND age != <65.50, 69) AND hgb != <134.50, 139) AND age != <18.75, 58) THEN  (p=112.0, n=0.0, P=487.0, N=0.0)
+r2: IF age != <46.65, 50.20) AND age != <55.30, 55.80) AND age != <54.25, 55) AND age != <38.95, 41) AND age != <55.90, 56.50) AND age = <20.75, 57) AND hgb != <123.50, 130) AND age != <43.45, 45.60) THEN  (p=128.0, n=0.0, P=487.0, N=0.0)
+r3: IF age != <64.05, 67) AND age != <77.15, 78) AND age != <69.05, 71) AND age != <58.05, 59) AND age != <73.05, 73.70) AND hgb != <90, 110) AND age != <59, 60.30) AND age != <61.55, 64) AND age != <65.50, 69) AND hgb != <141.50, 145) AND hgb != <134.50, 139) AND age != <18.75, 58) THEN  (p=101.0, n=0.0, P=487.0, N=0.0)
+r4: IF hgb != <134.50, 139) AND hgb != <125.50, 128) AND age != <79.95, 80.60) AND age != <82.25, 84) AND age != <68.75, 69) AND age != <73.05, 74.20) AND age != <69.05, 70) AND age != <69.50, 71.40) AND hgb != <141.50, 150) AND age != <65.50, 68.70) AND age != <76.50, 78.70) AND age = <60.20, 85) AND age != <61.20, 63.80) AND hgb != <152.50, 160) AND age != <64.05, 67) THEN  (p=55.0, n=0.0, P=487.0, N=0.0)
+r5: IF age != <64.05, 67) AND age != <77.15, 78) AND age != <58.05, 59) AND age != <73.05, 74.20) AND age != <69.05, 70) AND age != <59, 60.30) AND hgb != <141.50, 146) AND age != <67.10, 69) AND hgb != <151, 165) AND age != <61.20, 63.90) AND hgb != <134.50, 139) AND age != <18.75, 58) THEN  (p=98.0, n=0.0, P=487.0, N=0.0)
+r6: IF age < hgb AND age != <67.50, 69) AND age != <68.15, 73) AND age = (-inf, 70.15) AND age != <61.20, 62) THEN  (p=362.0, n=0.0, P=487.0, N=0.0)
+r7: IF age != <58.05, 59.50) AND age != <65.50, 67.70) AND age != <76.20, 77) AND age != <61.20, 64) AND age != <69.05, 71) AND age != <59.15, 61) AND age != <73.05, 74.20) AND hgb != <155, 165) AND hgb != <141.50, 146) AND hgb = (-inf, 167.50) AND age = (-inf, 81.30) AND hgb != <115, 140) AND hgb != <152.50, 160) AND age != <18.75, 58) THEN  (p=49.0, n=0.0, P=487.0, N=0.0)
+r8: IF age < hgb AND age != <59.15, 64) AND age = (-inf, 68.50) AND hgb != <141.50, 145) AND age != <59, 60.30) THEN  (p=285.0, n=0.0, P=487.0, N=0.0)
+r9: IF age != <70, 71.60) AND age = (-inf, 72.75) AND age = <63.50, inf) AND hgb = (-inf, 146.50) AND hgb != <122, 143) AND clinstg = (-inf, 1.50) AND age != <66.35, 69) THEN  (p=7.0, n=0.0, P=487.0, N=0.0)
+r10: IF hgb != <155, 165) AND hgb = (-inf, 157.50) AND age = (-inf, 74.05) AND age != <59.50, 73) AND hgb != <125.50, 130) AND age != <58.05, 59.50) THEN  (p=211.0, n=0.0, P=487.0, N=0.0)
+r11: IF age != <62.80, 64) AND age = (-inf, 70.20) AND age = <61.40, inf) AND hgb = <151, inf) AND clinstg = (-inf, 1.50) AND age != <61.90, 62.30) THEN  (p=8.0, n=0.0, P=487.0, N=0.0)

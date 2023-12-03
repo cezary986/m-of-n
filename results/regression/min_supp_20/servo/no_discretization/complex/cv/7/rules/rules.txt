@@ -1,0 +1,50 @@
+Rules qualities:
+r1: 0.6818181818181819
+r2: 0.6253501400560224
+r3: 0.6088659147869674
+r4: 0.6145894571820497
+r5: 0.5944580944580945
+r6: 0.599104599104599
+r7: 0.588654401154401
+r8: 0.598656245715069
+r9: 0.5967068186319523
+r10: 0.533910533910534
+r11: 0.5481666990857811
+r12: 0.4725712438141599
+r13: 0.47084423014056875
+r14: 0.4536745549283544
+r15: 0.4520950747365842
+r16: 0.41810848725742333
+r17: 0.5160896682635814
+r18: 0.5544292355371901
+r19: 0.4041498692571321
+r20: 0.39706110421836227
+r21: 0.36910669975186106
+r22: 0.4200223864494548
+r23: 0.3064183800070893
+r24: 0.07123047730258379
+________________________________
+r1: IF pgain = {6, 5} AND vgain = {2, 1} THEN class = {0.059} [0.059,0.059] (p=4.0, n=0.0, P=11.0, N=139.0)
+r2: IF motor != screw AND pgain = {6, 5} AND screw = {D, E, C} THEN class = {0.048} [0.04,0.057] (p=14.0, n=3.0, P=24.0, N=126.0)
+r3: IF pgain = {6, 5} AND screw = {D, E, C} THEN class = {0.048} [0.038,0.059] (p=15.0, n=4.0, P=24.0, N=126.0)
+r4: IF motor != screw AND motor = {B, A, C} AND pgain = {6, 5} THEN class = {0.054} [0.04,0.068] (p=23.0, n=4.0, P=42.0, N=108.0)
+r5: IF motor = {B, A, C} AND pgain = {6, 5} THEN class = {0.059} [0.044,0.075] (p=26.0, n=7.0, P=39.0, N=111.0)
+r6: IF motor != screw AND motor = {E, A, C} AND pgain = {6, 5} THEN class = {0.054} [0.041,0.066] (p=22.0, n=4.0, P=42.0, N=108.0)
+r7: IF motor != screw AND motor = {D, A, C} AND pgain = {6, 5} THEN class = {0.054} [0.043,0.065] (p=19.0, n=3.0, P=42.0, N=108.0)
+r8: IF motor != screw AND pgain = {6, 4, 5} AND screw = {B, E, C} AND vgain = {5, 2, 4} THEN class = {0.048} [0.031,0.066] (p=23.0, n=3.0, P=51.0, N=99.0)
+r9: IF pgain = {6, 4, 5} AND screw = {B, E, C} AND vgain = {5, 2, 4} THEN class = {0.048} [0.03,0.067] (p=28.0, n=5.0, P=51.0, N=99.0)
+r10: IF motor != screw AND motor = {B, A, C} AND pgain = {6, 4, 5} AND screw = {D, B, E} AND vgain = {5, 2, 4} THEN class = {0.054} [0.039,0.069] (p=18.0, n=4.0, P=42.0, N=108.0)
+r11: IF motor != screw AND pgain = {6, 4, 5} AND vgain = {5, 2, 4} THEN class = {0.054} [0.031,0.077] (p=37.0, n=11.0, P=53.0, N=97.0)
+r12: IF motor = {B, C} AND pgain = {6, 4, 5} AND screw = {A, B} THEN class = {0.075} [0.05,0.10] (p=18.0, n=5.0, P=47.0, N=103.0)
+r13: IF motor = {A, C} AND pgain = {6, 4, 5} AND screw = {A, B} THEN class = {0.081} [0.055,0.11] (p=17.0, n=6.0, P=38.0, N=112.0)
+r14: IF pgain = {6, 4, 5} AND screw = {A, B} AND vgain = {2, 1} THEN class = {0.081} [0.051,0.11] (p=17.0, n=4.0, P=56.0, N=94.0)
+r15: IF motor = {E, A} AND pgain = {6, 4, 5} AND screw = {A, B} THEN class = {0.097} [0.064,0.13] (p=16.0, n=5.0, P=44.0, N=106.0)
+r16: IF pgain = {6, 4, 5} AND screw = {A, B} THEN class = {0.081} [0.049,0.11] (p=36.0, n=16.0, P=56.0, N=94.0)
+r17: IF motor = {B, E, A} AND pgain = {6, 4, 5} AND screw = {D, E, C} AND vgain = {5, 2, 1} THEN class = {0.038} [0.021,0.054] (p=18.0, n=5.0, P=39.0, N=111.0)
+r18: IF motor = {B, C} AND pgain = {6, 4, 5} AND screw = {D, E, C} AND vgain = {2, 1} THEN class = {0.022} [0.0051,0.038] (p=9.0, n=2.0, P=22.0, N=128.0)
+r19: IF pgain = {6, 4, 5} AND screw = {D, E, C} THEN class = {0.048} [0.0094,0.087] (p=40.0, n=13.0, P=73.0, N=77.0)
+r20: IF motor = {D, E} AND vgain = {5, 3, 2} THEN class = {0.097} [-0.074,0.27] (p=30.0, n=2.0, P=124.0, N=26.0)
+r21: IF motor = {D, E} THEN class = {0.097} [-0.093,0.29] (p=46.0, n=4.0, P=124.0, N=26.0)
+r22: IF motor = {D, E, C} AND vgain = {3, 4, 1} THEN class = {0.097} [-0.064,0.26] (p=43.0, n=3.0, P=124.0, N=26.0)
+r23: IF motor = {D, E, C} THEN class = {0.086} [-0.11,0.28] (p=75.0, n=9.0, P=124.0, N=26.0)
+r24: IF motor != {A} THEN class = {0.086} [-0.13,0.30] (p=100.0, n=19.0, P=124.0, N=26.0)

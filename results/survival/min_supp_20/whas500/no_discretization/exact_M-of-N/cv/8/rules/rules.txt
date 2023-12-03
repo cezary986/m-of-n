@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.9999999999999999
+r2: 1.0
+r3: 0.9999999309305501
+r4: 0.9999711056985486
+r5: 0.9999999976555929
+r6: 0.9999999999619421
+r7: 0.9999999999835819
+r8: 1.0
+________________________________
+r1: IF hr < sysbp = {1} AND age != <72.50, 80) = {1} AND age < diasbp = {1} AND gender > sho = {0} AND gender = chf = {1} THEN  (p=134.0, n=0.0, P=450.0, N=0.0)
+r2: IF age = (-inf, 72) = {1} THEN  (p=219.0, n=0.0, P=450.0, N=0.0)
+r3: IF gender > afb = {1} AND gender > chf = {0} THEN  (p=54.0, n=0.0, P=450.0, N=0.0)
+r4: IF cvd > av3 = {0} AND hr > diasbp = {0} AND cvd > afb = {0} THEN  (p=53.0, n=0.0, P=450.0, N=0.0)
+r5: IF bmi != <27.09, 27.26) = {1} AND hr < sysbp = {1} AND bmi != <24.23, 24.63) = {1} AND bmi != <22.01, 22.49) = {1} AND 2-of-3(age != <72.50, 80), hr != <85.50, 90), bmi != <22.01, 22.49)) = {0} AND gender = sho = {1} AND sho < miord = {0} AND gender = av3 = {1} THEN  (p=123.0, n=0.0, P=450.0, N=0.0)
+r6: IF gender > av3 = {1} AND gender = chf = {1} THEN  (p=73.0, n=0.0, P=450.0, N=0.0)
+r7: IF bmi != <22.01, 22.49) = {1} AND hr > diasbp = {1} AND gender < chf = {1} THEN  (p=42.0, n=0.0, P=450.0, N=0.0)
+r8: IF age = (-inf, 72.50) = {0} THEN  (p=219.0, n=0.0, P=450.0, N=0.0)

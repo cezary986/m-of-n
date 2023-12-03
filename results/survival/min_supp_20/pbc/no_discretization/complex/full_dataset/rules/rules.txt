@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999999981487
+r2: 0.9999999999999942
+r3: 1.0
+r4: 1.0
+r5: 0.9999887107241547
+r6: 1.0
+________________________________
+r1: IF age != <49.78, 52.06) AND age = (-inf, 63.94) AND ast < platelet AND ascites = spiders AND hepato = edema AND trt > spiders AND trig != <134, 164) AND age != <52.07, 54.00) THEN  (p=86.0, n=0.0, P=418.0, N=0.0)
+r2: IF protime = (-inf, 11.10) THEN  (p=307.0, n=0.0, P=418.0, N=0.0)
+r3: IF bili = (-inf, 2.05) THEN  (p=256.0, n=0.0, P=418.0, N=0.0)
+r4: IF albumin = (-inf, 3.33) THEN  (p=121.0, n=0.0, P=418.0, N=0.0)
+r5: IF age = (-inf, 46.37) AND age != <45.14, 46.52) THEN  (p=133.0, n=0.0, P=418.0, N=0.0)
+r6: IF bili = <2.25, inf) THEN  (p=149.0, n=0.0, P=418.0, N=0.0)

@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 1.0
+r2: 0.9999999983760076
+r3: 0.9999996646012107
+r4: 0.9999999999999684
+r5: 0.999999942384318
+________________________________
+r1: IF age = (-inf, 71.50) = {1} THEN  (p=219.0, n=0.0, P=450.0, N=0.0)
+r2: IF 2-of-3(sho = chf, afb = miord, age < hr) = {0} AND sho < mitype = {0} AND 2-of-3(sho = mitype, afb = miord, age < hr) = {1} THEN  (p=59.0, n=0.0, P=450.0, N=0.0)
+r3: IF 2-of-3(sho = chf, afb = miord, age < hr) = {1} AND sho < mitype = {0} AND 2-of-3(sho = mitype, afb = miord, age < hr) = {0} THEN  (p=38.0, n=0.0, P=450.0, N=0.0)
+r4: IF afb < chf = {1} THEN  (p=109.0, n=0.0, P=450.0, N=0.0)
+r5: IF gender < chf = {0} THEN  (p=381.0, n=0.0, P=450.0, N=0.0)

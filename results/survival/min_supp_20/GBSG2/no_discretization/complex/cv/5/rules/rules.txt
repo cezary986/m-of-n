@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.9999999999787506
+r2: 1.0
+r3: 0.9999999999998332
+r4: 1.0
+r5: 0.999999999558846
+r6: 0.9999999999070518
+r7: 0.9999999992780789
+r8: 0.9999999938693003
+________________________________
+r1: IF pnodes < progrec AND progrec != <2.50, 5) AND estrec != <2.50, 5) AND estrec != <38.50, 42) AND progrec != <13.50, 16) AND progrec != <27.50, 32) AND progrec != <7.50, 10) AND estrec != <8.50, 11) AND progrec != <16.50, 19) AND age != <54.50, 57) AND progrec != <86, 92) AND progrec != <54, 69) AND age > estrec AND estrec = (-inf, 47) AND tsize = (-inf, 32.50) AND pnodes = (-inf, 5.50) AND progrec != <73, 82) AND tsize != <23.50, 27) AND estrec != <15.50, 18) AND age != <37.50, 40) THEN  (p=61.0, n=0.0, P=617.0, N=0.0)
+r2: IF estrec != <88.50, 99) AND pnodes = (-inf, 4.50) AND progrec != <15.50, 18) AND estrec != <3.50, 6) THEN  (p=361.0, n=0.0, P=617.0, N=0.0)
+r3: IF progrec != <101, 104) AND progrec != <22.50, 25) AND age != <39.50, 42) AND progrec != <13.50, 16) AND estrec != <59.50, 64) AND progrec != <82.50, 100) AND progrec = <2.50, 472) AND age != <54.50, 59) AND pnodes = (-inf, 8.50) AND progrec != <170.50, 187) AND tsize = (-inf, 35) AND estrec = <40.50, 45) AND age != <32.50, 37) THEN  (p=187.0, n=0.0, P=617.0, N=0.0)
+r4: IF estrec != <61.50, 74) AND progrec != <2.50, 6) AND progrec != <91.50, 104) AND estrec != <38.50, 45) AND progrec = <4, 980) AND estrec != <70, 87) AND age != <50.50, 53) AND progrec != <83, 91) AND pnodes = (-inf, 8.50) AND progrec != <17.50, 21) AND estrec != <156.50, 162) AND age != <39.50, 43) THEN  (p=266.0, n=0.0, P=617.0, N=0.0)
+r5: IF estrec != <120, 134) AND progrec != <7.50, 12) AND progrec != <89.50, 109) AND estrec != <73.50, 81) AND progrec != <81, 89) AND progrec != <12.50, 19) AND age = <41.50, inf) AND tsize < estrec AND progrec != <59, 63) AND tsize = (-inf, 29.50) AND estrec != <81.50, 86) AND age != <54.50, 59) THEN  (p=129.0, n=0.0, P=617.0, N=0.0)
+r6: IF estrec != <81.50, 111) AND estrec != <34.50, 45) AND progrec != <26.50, 33) AND progrec != <136.50, 192) AND age < progrec AND tsize < progrec AND progrec != <127, 131) AND tsize != <35.50, 42) AND estrec != <72, 81) THEN  (p=167.0, n=0.0, P=617.0, N=0.0)
+r7: IF progrec = (-inf, 46.50) AND tsize > estrec AND tsize > progrec AND progrec != <11.50, 16) THEN  (p=184.0, n=0.0, P=617.0, N=0.0)
+r8: IF progrec = (-inf, 109.50) THEN  (p=444.0, n=0.0, P=617.0, N=0.0)

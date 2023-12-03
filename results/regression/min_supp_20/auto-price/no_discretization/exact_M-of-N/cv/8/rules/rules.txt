@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.36968085106382975
+r2: 0.46113719353155963
+r3: 0.6843794268279395
+r4: 0.5726372382569327
+r5: 0.6311293935015686
+________________________________
+r1: IF normalized-losses > wheel-base = {0} AND compression-ratio = <7.60, inf) = {0} THEN class = {0.46} [0.45,0.47] (p=1.0, n=1.0, P=2.0, N=141.0)
+r2: IF normalized-losses < horsepower = {1} THEN class = {0.35} [0.12,0.58] (p=32.0, n=7.0, P=72.0, N=71.0)
+r3: IF engine-size > horsepower = {1} AND normalized-losses > wheel-base = {1} AND curb-weight != <2664, 3770) = {0} THEN class = {0.38} [0.23,0.54] (p=21.0, n=2.0, P=38.0, N=105.0)
+r4: IF normalized-losses > horsepower = {1} AND wheel-base != <98.95, 102.40) = {1} THEN class = {0.093} [-0.03,0.22] (p=82.0, n=13.0, P=93.0, N=50.0)
+r5: IF wheel-base > horsepower = {1} THEN class = {0.093} [-0.0066,0.19] (p=78.0, n=11.0, P=89.0, N=54.0)

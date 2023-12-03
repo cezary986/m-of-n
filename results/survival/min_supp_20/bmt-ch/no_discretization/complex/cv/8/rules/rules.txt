@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.9986064267531439
+r2: 0.9514885375012325
+r3: 0.9999999052764036
+r4: 0.7419437462074874
+r5: 0.9533404168824265
+r6: 0.9999999981468608
+r7: 0.9949806406532603
+r8: 0.9999999083140556
+r9: 0.9999995631861882
+r10: 0.8159864399357799
+r11: 1.0
+r12: 0.9999996511744967
+r13: 0.9999999999996955
+________________________________
+r1: IF RecipientRh = RecipientCMV AND extcGvHD = RecipientCMV THEN  (p=59.0, n=0.0, P=169.0, N=0.0)
+r2: IF Stemcellsource = IIIV AND Txpostrelapse != IIIV AND aGvHDIIIIV = IIIV THEN  (p=47.0, n=0.0, P=169.0, N=0.0)
+r3: IF Stemcellsource != Relapse AND aGvHDIIIIV != Txpostrelapse AND aGvHDIIIIV = Stemcellsource AND extcGvHD = RecipientRh THEN  (p=52.0, n=0.0, P=169.0, N=0.0)
+r4: IF Stemcellsource = Relapse AND aGvHDIIIIV != Relapse AND aGvHDIIIIV = IIIV AND aGvHDIIIIV = Txpostrelapse THEN  (p=2.0, n=0.0, P=169.0, N=0.0)
+r5: IF Donorage35 != Txpostrelapse AND HLAmismatch = Gendermatch AND Recipientgender = IIIV AND Stemcellsource != Gendermatch AND Stemcellsource = IIIV AND aGvHDIIIIV = Txpostrelapse THEN  (p=6.0, n=0.0, P=169.0, N=0.0)
+r6: IF aGvHDIIIIV != Relapse AND extcGvHD = RecipientRh THEN  (p=66.0, n=0.0, P=169.0, N=0.0)
+r7: IF Recipientgender != IIIV AND Recipientgender != Riskgroup AND Recipientgender != Txpostrelapse AND aGvHDIIIIV = Recipientgender THEN  (p=27.0, n=0.0, P=169.0, N=0.0)
+r8: IF aGvHDIIIIV != IIIV AND aGvHDIIIIV = Txpostrelapse AND extcGvHD != RecipientRh THEN  (p=22.0, n=0.0, P=169.0, N=0.0)
+r9: IF aGvHDIIIIV = Txpostrelapse AND extcGvHD != RecipientCMV THEN  (p=27.0, n=0.0, P=169.0, N=0.0)
+r10: IF Riskgroup != IIIV AND Stemcellsource = Riskgroup AND Txpostrelapse != Riskgroup AND aGvHDIIIIV != Recipientgender AND extcGvHD != RecipientRh THEN  (p=3.0, n=0.0, P=169.0, N=0.0)
+r11: IF extcGvHD = {1, 0} THEN  (p=142.0, n=0.0, P=169.0, N=0.0)
+r12: IF RecipientRh = RecipientCMV AND Riskgroup = IIIV AND aGvHDIIIIV != HLAmismatch AND aGvHDIIIIV != Recipientgender AND extcGvHD != RecipientCMV THEN  (p=6.0, n=0.0, P=169.0, N=0.0)
+r13: IF PLTrecovery = time_to_aGvHD_III_IV THEN  (p=9.0, n=0.0, P=169.0, N=0.0)

@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.9998827082906961
+r2: 0.9999999286799371
+r3: 0.9943190600199296
+r4: 0.9744586748349121
+r5: 0.9999981521869783
+r6: 0.9966868828800505
+r7: 0.9993339506537908
+r8: 0.999996233857154
+r9: 0.9943689318685347
+r10: 0.9946753147653141
+r11: 0.9917849451674605
+r12: 0.9999999514258013
+r13: 0.9999827610349156
+r14: 0.9889942325738424
+________________________________
+r1: IF iinfct = condom AND npartner = os30d AND os30d > discharge THEN  (p=38.0, n=0.0, P=877.0, N=0.0)
+r2: IF npartner > os30d AND age = (-inf, 18.50) THEN  (p=297.0, n=0.0, P=877.0, N=0.0)
+r3: IF os12m > os30d AND os30d < dchexam AND os30d = discharge AND os30d = vagina AND rs30d = os30d AND yschool = <11.50, inf) THEN  (p=25.0, n=0.0, P=877.0, N=0.0)
+r4: IF iinfct = condom AND itch < discharge AND npartner = discharge AND os30d = discharge AND age = (-inf, 19.50) THEN  (p=8.0, n=0.0, P=877.0, N=0.0)
+r5: IF npartner > itch AND itch = abdpain AND itch = vagina AND os12m > itch AND yschool != <12.50, 15) AND age != <23.50, 28) THEN  (p=128.0, n=0.0, P=877.0, N=0.0)
+r6: IF iinfct > npartner AND itch > abdpain AND itch > abnode AND itch > vagina AND rs30d < itch AND age != <20.50, 23) THEN  (p=59.0, n=0.0, P=877.0, N=0.0)
+r7: IF npartner > itch AND abdpain < discharge AND os30d = discharge AND rs30d < discharge THEN  (p=48.0, n=0.0, P=877.0, N=0.0)
+r8: IF abdpain = discharge AND abnode = discharge AND os12m > discharge THEN  (p=139.0, n=0.0, P=877.0, N=0.0)
+r9: IF abdpain < discharge AND itch < discharge AND npartner = discharge AND os12m = discharge AND age != <16.50, 23) THEN  (p=19.0, n=0.0, P=877.0, N=0.0)
+r10: IF yschool = (-inf, 10.50) THEN  (p=238.0, n=0.0, P=877.0, N=0.0)
+r11: IF dysuria < itch AND itch = dchexam AND itch > abdpain AND itch > abnode AND itch > vagina AND rs30d < itch THEN  (p=83.0, n=0.0, P=877.0, N=0.0)
+r12: IF os30d = abnode AND condom = (-inf, 2.50) THEN  (p=438.0, n=0.0, P=877.0, N=0.0)
+r13: IF os30d = rs12m AND rs30d = os30d THEN  (p=677.0, n=0.0, P=877.0, N=0.0)
+r14: IF os12m = itch AND rs30d < itch AND age = <17.50, inf) THEN  (p=43.0, n=0.0, P=877.0, N=0.0)

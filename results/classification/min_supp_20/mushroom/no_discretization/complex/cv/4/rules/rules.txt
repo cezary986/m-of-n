@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9240919409761634
+r2: 0.8836549375709422
+r3: 0.8757094211123724
+r4: 0.8562712826333712
+r5: 0.725028376844495
+r6: 0.7858967082860386
+r7: 0.9907285150585261
+________________________________
+r1: IF odor = {f, y, s} THEN class = {p} (p=2989.0, n=0.0, P=3524.0, N=3787.0)
+r2: IF odor = {p, f, y} THEN class = {p} (p=2704.0, n=0.0, P=3524.0, N=3787.0)
+r3: IF odor = {f, c, y} THEN class = {p} (p=2648.0, n=0.0, P=3524.0, N=3787.0)
+r4: IF odor = {f, m, y} THEN class = {p} (p=2511.0, n=0.0, P=3524.0, N=3787.0)
+r5: IF gill-color = {b, r} THEN class = {p} (p=1586.0, n=0.0, P=3524.0, N=3787.0)
+r6: IF stalk-surface-above-ring = {k} AND population = {y, c, v} THEN class = {p} (p=2015.0, n=0.0, P=3524.0, N=3787.0)
+r7: IF spore-print-color != {r} AND stalk-color-below-ring != {y} AND cap-shape != {c} AND cap-surface = {s, y, f} AND odor = {a, l, n} THEN class = {e} (p=3787.0, n=17.0, P=3787.0, N=3524.0)

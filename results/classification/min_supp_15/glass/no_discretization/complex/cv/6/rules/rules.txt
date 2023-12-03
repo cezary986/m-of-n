@@ -1,0 +1,64 @@
+Rules qualities:
+r1: 0.7698412698412698
+r2: 0.7142857142857143
+r3: 0.7380952380952381
+r4: 0.6111111111111112
+r5: 0.6031746031746031
+r6: 0.5952380952380952
+r7: 0.6111111111111112
+r8: 0.6
+r9: 0.5666666666666667
+r10: 0.6666666666666666
+r11: 0.6
+r12: 0.6
+r13: 0.7333333333333334
+r14: 0.6333333333333333
+r15: 1.0
+r16: 0.7318840579710145
+r17: 0.7028985507246377
+r18: 0.5652173913043478
+r19: 0.644927536231884
+r20: 0.5579710144927537
+r21: 0.5507246376811594
+r22: 0.5507246376811594
+r23: 0.7028985507246377
+r24: 0.5362318840579711
+r25: 0.5217391304347826
+r26: 0.9230769230769231
+r27: 0.8269230769230769
+r28: 0.7483648088438507
+r29: 0.625
+r30: 0.7916666666666667
+r31: 0.7083333333333334
+________________________________
+r1: IF #(RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52)) THEN class = {build wind float} (p=34.0, n=0.0, P=63.0, N=130.0)
+r2: IF #(RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52)) AND RI > Al AND 'K' = <0.15, inf) THEN class = {build wind float} (p=27.0, n=0.0, P=63.0, N=130.0)
+r3: IF #(RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52)) AND Na = <12.33, 13.50) THEN class = {build wind float} (p=30.0, n=0.0, P=63.0, N=130.0)
+r4: IF #(Ca = <8.73, 8.79) OR Ca = <9.00, 9.04) OR Ca = <9.80, 10.17)) THEN class = {build wind float} (p=14.0, n=0.0, P=63.0, N=130.0)
+r5: IF #(Al = <1.12, 1.15) OR Al = <1.27, 1.31)) AND 'K' = <0.53, inf) THEN class = {build wind float} (p=13.0, n=0.0, P=63.0, N=130.0)
+r6: IF Na = <12.68, 12.82) AND Si = (-inf, 73.26) THEN class = {build wind float} (p=12.0, n=0.0, P=63.0, N=130.0)
+r7: IF #(Si = <71.30, 72.19) OR Si = <72.71, 72.75)) AND Al = <0.85, 1.38) THEN class = {build wind float} (p=14.0, n=0.0, P=63.0, N=130.0)
+r8: IF Mg = <3.38, 3.41) THEN class = {vehic wind float} (p=3.0, n=0.0, P=15.0, N=178.0)
+r9: IF Al = <0.57, 0.66) THEN class = {vehic wind float} (p=2.0, n=0.0, P=15.0, N=178.0)
+r10: IF Mg = <3.36, 3.42) AND Fe = (-inf, 0.13) THEN class = {vehic wind float} (p=5.0, n=0.0, P=15.0, N=178.0)
+r11: IF Na = <13.62, 13.69) AND Mg = (-inf, 4.08) THEN class = {vehic wind float} (p=3.0, n=0.0, P=15.0, N=178.0)
+r12: IF 'K' = <0.33, inf) AND Si = <72.66, 72.72) THEN class = {vehic wind float} (p=3.0, n=0.0, P=15.0, N=178.0)
+r13: IF RI = <1.52, 1.52) AND Mg = <3.34, 3.46) AND Al = <1.21, inf) THEN class = {vehic wind float} (p=7.0, n=0.0, P=15.0, N=178.0)
+r14: IF RI = <1.52, 1.52) AND Al = <1.27, 1.44) THEN class = {vehic wind float} (p=4.0, n=0.0, P=15.0, N=178.0)
+r15: IF 'K' = Ba AND Na = <13.75, inf) THEN class = {tableware} (p=8.0, n=0.0, P=8.0, N=185.0)
+r16: IF #(Ca = <7.85, 8.03) OR Ca = <12.87, inf) OR Ca = <8.09, 8.17) OR Ca = <8.18, 8.22) OR Ca = <10.37, 10.88) OR Ca = <10.94, 11.22)) THEN class = {build wind non-float} (p=32.0, n=0.0, P=69.0, N=124.0)
+r17: IF #(Ca = <7.85, 8.07) OR Ca = <8.08, 8.17) OR Ca = <8.18, 8.24) OR Ca = <7.02, 7.59) OR Ca = <8.41, 8.43)) AND Mg = <3.47, 3.69) THEN class = {build wind non-float} (p=28.0, n=0.0, P=69.0, N=124.0)
+r18: IF 'K' = <0.68, 0.76) THEN class = {build wind non-float} (p=9.0, n=0.0, P=69.0, N=124.0)
+r19: IF #(RI = <1.52, 1.52) OR RI = <1.52, 1.52) OR RI = <1.52, 1.52)) THEN class = {build wind non-float} (p=20.0, n=0.0, P=69.0, N=124.0)
+r20: IF Al = <1.44, 1.49) THEN class = {build wind non-float} (p=8.0, n=0.0, P=69.0, N=124.0)
+r21: IF Mg = <2.88, 3.26) THEN class = {build wind non-float} (p=7.0, n=0.0, P=69.0, N=124.0)
+r22: IF Na = <12.88, 12.97) THEN class = {build wind non-float} (p=7.0, n=0.0, P=69.0, N=124.0)
+r23: IF Al = <1.39, 1.99) AND Ca = <7.85, 8.32) AND Fe = (-inf, 0.22) THEN class = {build wind non-float} (p=28.0, n=0.0, P=69.0, N=124.0)
+r24: IF Ba < Fe AND Al = <0.95, 1.10) THEN class = {build wind non-float} (p=5.0, n=0.0, P=69.0, N=124.0)
+r25: IF 'K' = <0.50, 0.55) AND Si = <72.16, 72.95) AND RI = <1.52, inf) THEN class = {build wind non-float} (p=3.0, n=0.0, P=69.0, N=124.0)
+r26: IF Mg = (-inf, 3.42) AND Ba = <0.34, 2.20) THEN class = {headlamps} (p=22.0, n=0.0, P=26.0, N=167.0)
+r27: IF Na = <14.29, inf) AND Al = <1.82, 3.02) THEN class = {headlamps} (p=17.0, n=0.0, P=26.0, N=167.0)
+r28: IF Mg = (-inf, 3.34) AND Ca = <8.26, 8.99) AND Fe = (-inf, 0.15) THEN class = {headlamps} (p=18.0, n=2.0, P=26.0, N=167.0)
+r29: IF Al = <2.95, inf) THEN class = {containers} (p=3.0, n=0.0, P=12.0, N=181.0)
+r30: IF #(Ca = <11.25, 11.52) OR Ca = <11.52, 11.64) OR Ca = <11.94, 13.24)) THEN class = {containers} (p=7.0, n=0.0, P=12.0, N=181.0)
+r31: IF 'K' = <0.75, inf) AND Na = <12.40, 14.25) THEN class = {containers} (p=5.0, n=0.0, P=12.0, N=181.0)

@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 0.9999999999999899
+r6: 0.9999999997703177
+r7: 0.9999999999999993
+r8: 0.9999999999999984
+________________________________
+r1: IF 2-of-3(age != <36, 41), progrec != <46.50, 58), estrec != <91, 101)) = {0} AND pnodes = <4.50, 36) = {1} AND pnodes > progrec = {1} THEN  (p=81.0, n=0.0, P=618.0, N=0.0)
+r2: IF pnodes > progrec = {1} AND pnodes = (-inf, 3.50) = {0} THEN  (p=90.0, n=0.0, P=618.0, N=0.0)
+r3: IF pnodes = <4.50, 36) = {1} AND tsize < progrec = {0} THEN  (p=128.0, n=0.0, P=618.0, N=0.0)
+r4: IF progrec = (-inf, 77) = {1} AND pnodes = <4.50, 36) = {1} THEN  (p=158.0, n=0.0, P=618.0, N=0.0)
+r5: IF pnodes != <4.50, 36) = {0} AND 2-of-3(age != <52.50, 55), progrec != <46.50, 58), estrec != <91, 101)) = {0} THEN  (p=200.0, n=0.0, P=618.0, N=0.0)
+r6: IF progrec = estrec = {0} AND pnodes < estrec = {1} AND age > progrec = {0} AND age > tsize = {1} THEN  (p=241.0, n=0.0, P=618.0, N=0.0)
+r7: IF progrec = estrec = {0} AND pnodes = (-inf, 10.50) = {1} AND pnodes > progrec = {0} THEN  (p=437.0, n=0.0, P=618.0, N=0.0)
+r8: IF progrec != <2.50, 10) = {1} AND pnodes = <4.50, 36) = {0} AND pnodes = <8.50, inf) = {0} AND tsize != <25.50, 28) = {1} AND age > tsize = {1} THEN  (p=330.0, n=0.0, P=618.0, N=0.0)

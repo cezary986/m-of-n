@@ -1,0 +1,52 @@
+Rules qualities:
+r1: 0.875
+r2: 0.7803082191780821
+r3: 0.6325580692448353
+r4: 0.5934640522875817
+r5: 0.898880407124682
+r6: 0.5076746947082769
+r7: 0.7010567632850242
+r8: 0.7451612903225806
+r9: 0.7141176470588236
+r10: 0.7133786848072562
+r11: 0.7433333333333333
+r12: 0.6698611111111111
+r13: 0.7171842650103519
+r14: 0.3864864864864865
+r15: 0.5698015873015874
+r16: 0.6498019595580572
+r17: 0.6316578483245151
+r18: 0.780433909200482
+r19: 0.6170140204622963
+r20: 0.7016395842482799
+r21: 0.7805523910787069
+r22: 0.8817460317460318
+r23: 0.5501651866257408
+r24: 0.5017857142857143
+r25: 0.48738662131519267
+________________________________
+r1: IF Length3 < Height AND Length3 = <24.05, 24.70) THEN class = {0.088} [0.088,0.088] (p=3.0, n=0.0, P=4.0, N=154.0)
+r2: IF Length3 < Height AND Length3 != <22.35, 23.20) AND Length1 = <18.30, 21.05) AND Height = (-inf, 38.25) AND Length3 = <24.10, 24.70) THEN class = {0.079} [0.073,0.085] (p=9.0, n=1.0, P=12.0, N=146.0)
+r3: IF Length3 < Height AND Height = (-inf, 27.65) AND Height != <25.55, 26.30) AND Height != <24.20, 25) AND Length1 = (-inf, 20.75) AND Width = <14.20, 14.70) THEN class = {0.0079} [-0.019,0.035] (p=17.0, n=6.0, P=21.0, N=137.0)
+r4: IF Height = <25.15, 28.30) AND Length1 = <18.80, inf) AND Length3 = (-inf, 23.60) AND Width != <14.20, 15) THEN class = {0.079} [0.074,0.084] (p=3.0, n=1.0, P=5.0, N=153.0)
+r5: IF Height = (-inf, 40.45) AND Length1 = <18.30, 21.20) THEN class = {0.079} [0.06,0.097] (p=24.0, n=1.0, P=27.0, N=131.0)
+r6: IF Length2 < Height AND Width = (-inf, 15.15) AND Height != <24.20, 25) AND Height = (-inf, 26.05) AND Height != <25.35, 25.90) AND Width != <14.35, 14.70) THEN class = {0.0079} [-0.028,0.044] (p=15.0, n=7.0, P=24.0, N=134.0)
+r7: IF Height != <25.70, 27.30) AND Length1 = <18.40, 22.10) AND Height = <23.75, 24.60) AND Length3 != <22.65, 23.50) AND Width = (-inf, 15.35) THEN class = {0.091} [0.077,0.10] (p=11.0, n=1.0, P=20.0, N=138.0)
+r8: IF Length1 = <16.65, 19) AND Height = <24.45, inf) AND Length3 = (-inf, 21.60) AND Species = {1, 3, 7} THEN class = {0.048} [0.047,0.05] (p=3.0, n=1.0, P=3.0, N=155.0)
+r9: IF Length1 > Width AND Length3 = <18.95, 21.20) AND Species = {1, 3, 7} THEN class = {0.048} [0.045,0.052] (p=4.0, n=1.0, P=5.0, N=153.0)
+r10: IF Length3 = <13.30, 20.20) THEN class = {0.024} [0.0072,0.041] (p=11.0, n=4.0, P=11.0, N=147.0)
+r11: IF Height = (-inf, 28.15) AND Length1 = <23.85, 26.90) THEN class = {0.16} [0.15,0.17] (p=6.0, n=1.0, P=8.0, N=150.0)
+r12: IF Height = <22.80, 27.70) AND Length1 = <20.60, 25) AND Height != <24.45, 25.10) AND Width = (-inf, 15.30) THEN class = {0.10} [0.095,0.11] (p=5.0, n=1.0, P=8.0, N=150.0)
+r13: IF Height = (-inf, 28.15) AND Length1 = <20.60, 25) THEN class = {0.10} [0.084,0.12] (p=13.0, n=1.0, P=23.0, N=135.0)
+r14: IF Height = <20.45, 25.30) AND Length1 > Height AND Height != <24.70, 25.20) AND Width = (-inf, 15.60) THEN class = {0.18} [0.17,0.20] (p=2.0, n=1.0, P=10.0, N=148.0)
+r15: IF Height != <16.95, 18.10) AND Height != <15.30, 16.10) AND Length1 = <25.50, inf) AND Species = {1, 2, 6} THEN class = {0.41} [0.24,0.58] (p=33.0, n=9.0, P=50.0, N=108.0)
+r16: IF Height != <16.95, 18.10) AND Length1 < Length2 AND Length1 > Width AND Length2 < Height AND Height = <15.55, 16.70) AND Length3 = (-inf, 29.10) AND Width = <9.25, inf) THEN class = {0.079} [0.043,0.11] (p=32.0, n=8.0, P=41.0, N=117.0)
+r17: IF Length2 < Height AND Height = (-inf, 39.30) AND Length3 = <27.45, 33.50) THEN class = {0.16} [0.14,0.19] (p=8.0, n=1.0, P=18.0, N=140.0)
+r18: IF Height != <24.05, 24.30) AND Length2 < Height AND Width = (-inf, 15.65) AND Height = <27.05, 27.70) AND Length1 = <17.35, 23.50) AND Length2 = <18.50, inf) AND Width != <14.25, 14.80) AND Species = {3, 4, 7} THEN class = {0.088} [0.068,0.11] (p=18.0, n=1.0, P=27.0, N=131.0)
+r19: IF Length3 < Height AND Length3 = <29.60, 31.10) THEN class = {0.18} [0.16,0.19] (p=6.0, n=1.0, P=13.0, N=145.0)
+r20: IF Length3 < Height AND Height != <24.50, 40.10) AND Length1 = (-inf, 21.35) AND Height != <24.20, 25) THEN class = {0.0073} [-0.028,0.042] (p=18.0, n=4.0, P=23.0, N=135.0)
+r21: IF Length3 != <35.05, 64) THEN class = {0.088} [-0.079,0.25] (p=91.0, n=8.0, P=95.0, N=63.0)
+r22: IF Height != <15.50, 26.40) AND Length3 = <41.55, 48) THEN class = {0.59} [0.51,0.67] (p=16.0, n=1.0, P=18.0, N=140.0)
+r23: IF Height = (-inf, 27.55) AND Length1 = (-inf, 40.15) AND Height != <26.95, 28.20) THEN class = {0.079} [-0.051,0.21] (p=60.0, n=10.0, P=91.0, N=67.0)
+r24: IF Length1 = (-inf, 36.80) AND Length2 > Height AND Length1 != <32.65, 34) AND Length3 != <40.35, 45.30) AND Length2 = <34.50, 42) AND Species = {1, 2, 7} THEN class = {0.42} [0.39,0.46] (p=4.0, n=1.0, P=14.0, N=144.0)
+r25: IF Length2 > Height AND Height != <15.20, 27.90) AND Length3 = (-inf, 41.40) THEN class = {0.42} [0.30,0.53] (p=6.0, n=1.0, P=32.0, N=126.0)

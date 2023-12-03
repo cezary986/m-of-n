@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.999999999999673
+r2: 0.9999999999985979
+r3: 0.9909382960218057
+r4: 1.0
+r5: 0.9999624352965663
+r6: 0.999999990362609
+r7: 0.6698880331417114
+r8: 0.9999999999999778
+________________________________
+r1: IF pnodes = (-inf, 3.50) THEN  (p=338.0, n=0.0, P=618.0, N=0.0)
+r2: IF pnodes = (-inf, 6) THEN  (p=428.0, n=0.0, P=618.0, N=0.0)
+r3: IF pnodes = (-inf, 8.50) AND progrec = (-inf, 235.50) AND tsize = (-inf, 17) AND age = (-inf, 60.50) AND estrec = (-inf, 65.50) THEN  (p=36.0, n=0.0, P=618.0, N=0.0)
+r4: IF pnodes = <5.50, inf) AND progrec = (-inf, 154.50) AND tsize = <23, inf) THEN  (p=121.0, n=0.0, P=618.0, N=0.0)
+r5: IF pnodes = (-inf, 13) AND progrec = (-inf, 375.50) AND estrec = <49, 217.50) AND age = <37.50, 50.50) THEN  (p=56.0, n=0.0, P=618.0, N=0.0)
+r6: IF progrec = <35, inf) THEN  (p=308.0, n=0.0, P=618.0, N=0.0)
+r7: IF pnodes = <8, 9.50) AND tgrade = {II} AND menostat = {Pre} AND tsize = (-inf, 22.50) AND estrec = (-inf, 11.50) THEN  (p=2.0, n=0.0, P=618.0, N=0.0)
+r8: IF pnodes = <4, inf) AND estrec = (-inf, 14.50) THEN  (p=106.0, n=0.0, P=618.0, N=0.0)

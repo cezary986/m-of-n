@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.5451388888888888
+r2: 0.5246212121212122
+r3: 0.5276643990929705
+r4: 0.47872549019607846
+r5: 0.46538859338061467
+r6: 0.6140977443609024
+r7: 0.3648413733159494
+r8: 0.5356132909155179
+r9: 0.4088345864661654
+r10: 0.5207555970149255
+r11: 0.6196881091617934
+________________________________
+r1: IF Horsepower = <266.50, inf) THEN class = {0.60} [0.52,0.68] (p=2.0, n=1.0, P=3.0, N=80.0)
+r2: IF Domestic = {0} AND Drive_train_type = {0} AND Manual_transmission_available = {1} THEN class = {0.45} [0.37,0.53] (p=4.0, n=1.0, P=11.0, N=72.0)
+r3: IF Engine_size = (-inf, 4.05) AND Wheelbase = <111, inf) AND Manual_transmission_available = {0} THEN class = {0.21} [0.18,0.25] (p=6.0, n=1.0, P=20.0, N=63.0)
+r4: IF Type = {Van} AND Fuel_tank_capacity = (-inf, 20.50) AND Manual_transmission_available = {0} THEN class = {0.21} [0.19,0.24] (p=4.0, n=1.0, P=15.0, N=68.0)
+r5: IF Engine_size = (-inf, 4.05) AND Highway_MPG = (-inf, 23.50) THEN class = {0.23} [0.13,0.33] (p=7.0, n=1.0, P=36.0, N=47.0)
+r6: IF Number_of_cylinders = <7, inf) AND Fuel_tank_capacity = (-inf, 22.75) AND Width = (-inf, 77.50) THEN class = {0.56} [0.48,0.65] (p=4.0, n=1.0, P=7.0, N=76.0)
+r7: IF Engine_revolutions_per_mile = (-inf, 3125) AND Domestic = {1} THEN class = {0.16} [0.022,0.30] (p=33.0, n=6.0, P=59.0, N=24.0)
+r8: IF City_MPG = <20.50, inf) THEN class = {0.094} [0.0097,0.18] (p=36.0, n=10.0, P=41.0, N=42.0)
+r9: IF Type = {Midsize} AND City_MPG = (-inf, 18.50) AND Domestic = {0} AND Drive_train_type = {1} THEN class = {0.38} [0.32,0.44] (p=2.0, n=1.0, P=7.0, N=76.0)
+r10: IF Type = {Midsize} AND Air_Bags_standard = {2} THEN class = {0.51} [0.31,0.71] (p=5.0, n=1.0, P=16.0, N=67.0)
+r11: IF Engine_size = (-inf, 2.25) AND Length = (-inf, 193.50) AND Horsepower = (-inf, 147.50) AND U-turn_space = (-inf, 41.50) THEN class = {0.077} [-0.002,0.16] (p=30.0, n=6.0, P=38.0, N=45.0)

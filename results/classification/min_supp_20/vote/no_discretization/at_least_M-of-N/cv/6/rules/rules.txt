@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.8925031211310787
+r2: 0.8744098306764899
+r3: 0.9404415621689125
+r4: 0.8742978254224518
+r5: 0.9170124481327802
+r6: 0.8085306061426066
+r7: 0.8025923727689033
+r8: 0.6383171663323349
+r9: 0.5083636244054217
+________________________________
+r1: IF physician-fee-freeze != {n} = {0} AND 2-of-3(adoption-of-the-budget-resolution = anti-satellite-test-ban, el-salvador-aid != {y}, physician-fee-freeze != adoption-of-the-budget-resolution) = {1} THEN class = {republican} (p=141.0, n=7.0, P=151.0, N=241.0)
+r2: IF physician-fee-freeze != {n} = {0} AND synfuels-corporation-cutback != {y} = {0} THEN class = {republican} (p=130.0, n=5.0, P=151.0, N=241.0)
+r3: IF physician-fee-freeze != {n} = {1} THEN class = {democrat} (p=223.0, n=2.0, P=241.0, N=151.0)
+r4: IF aid-to-nicaraguan-contras != {n} = {0} AND 2-of-3(el-salvador-aid != anti-satellite-test-ban, export-administration-act-south-africa != physician-fee-freeze, physician-fee-freeze != adoption-of-the-budget-resolution) = {1} THEN class = {democrat} (p=192.0, n=2.0, P=241.0, N=151.0)
+r5: IF adoption-of-the-budget-resolution != {n} = {0} AND 2-of-3(el-salvador-aid != anti-satellite-test-ban, physician-fee-freeze != {n}, export-administration-act-south-africa != physician-fee-freeze) = {1} THEN class = {democrat} (p=201.0, n=0.0, P=241.0, N=151.0)
+r6: IF aid-to-nicaraguan-contras != {n} = {0} AND el-salvador-aid != anti-satellite-test-ban = {1} THEN class = {democrat} (p=173.0, n=4.0, P=241.0, N=151.0)
+r7: IF el-salvador-aid != anti-satellite-test-ban = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=181.0, n=6.0, P=241.0, N=151.0)
+r8: IF synfuels-corporation-cutback != {y} = {1} AND 2-of-3(el-salvador-aid != anti-satellite-test-ban, physician-fee-freeze != {n}, export-administration-act-south-africa != physician-fee-freeze) = {1} THEN class = {democrat} (p=107.0, n=5.0, P=241.0, N=151.0)
+r9: IF 2-of-3(el-salvador-aid != anti-satellite-test-ban, export-administration-act-south-africa != physician-fee-freeze, physician-fee-freeze != adoption-of-the-budget-resolution) = {1} AND synfuels-corporation-cutback != {y} = {1} THEN class = {democrat} (p=108.0, n=14.0, P=241.0, N=151.0)

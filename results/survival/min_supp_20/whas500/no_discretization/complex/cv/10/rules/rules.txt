@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999999992781
+r2: 0.9999999798191502
+r3: 0.9999999998800072
+r4: 0.999999999999997
+r5: 1.0
+r6: 0.9999988365637722
+________________________________
+r1: IF sho = chf THEN  (p=315.0, n=0.0, P=450.0, N=0.0)
+r2: IF gender = chf AND gender > mitype THEN  (p=57.0, n=0.0, P=450.0, N=0.0)
+r3: IF bmi = (-inf, 26.83) AND gender < chf AND bmi != <21.47, 22.60) THEN  (p=32.0, n=0.0, P=450.0, N=0.0)
+r4: IF sho < chf AND sho = mitype THEN  (p=98.0, n=0.0, P=450.0, N=0.0)
+r5: IF age = (-inf, 68.50) THEN  (p=191.0, n=0.0, P=450.0, N=0.0)
+r6: IF av3 < mitype AND miord < mitype AND sho < mitype THEN  (p=103.0, n=0.0, P=450.0, N=0.0)

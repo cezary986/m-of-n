@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.9999999999934015
+r2: 0.9999999999999084
+r3: 0.9999999999994955
+r4: 0.9999999999999861
+r5: 0.98392881980759
+r6: 0.9645299134789
+r7: 0.9999982328976447
+r8: 1.0
+r9: 0.9999994378658151
+r10: 0.9999999999990116
+r11: 0.9999999999632561
+________________________________
+r1: IF bmi != <22.95, 23.44) AND bmi != <24.85, 25.29) AND bmi = (-inf, 25.37) AND chf = miord AND cvd = miord AND cvd > afb AND bmi != <22.27, 22.47) THEN  (p=25.0, n=0.0, P=450.0, N=0.0)
+r2: IF sho = mitype AND bmi = (-inf, 24.85) THEN  (p=123.0, n=0.0, P=450.0, N=0.0)
+r3: IF bmi = (-inf, 26.81) AND gender = chf AND gender > mitype AND bmi != <25.05, 25.45) AND diasbp != <44.50, 50) THEN  (p=37.0, n=0.0, P=450.0, N=0.0)
+r4: IF sho < chf AND sho = mitype THEN  (p=96.0, n=0.0, P=450.0, N=0.0)
+r5: IF afb = sho AND cvd = sho AND sho > miord THEN  (p=6.0, n=0.0, P=450.0, N=0.0)
+r6: IF age < hr AND gender > sho AND hr < diasbp AND sho < mitype AND age = <70.50, inf) THEN  (p=2.0, n=0.0, P=450.0, N=0.0)
+r7: IF cvd > av3 AND cvd > chf AND cvd > sho THEN  (p=213.0, n=0.0, P=450.0, N=0.0)
+r8: IF age = (-inf, 71.50) THEN  (p=218.0, n=0.0, P=450.0, N=0.0)
+r9: IF hr < sysbp AND miord < mitype AND sho < mitype AND sho = av3 THEN  (p=105.0, n=0.0, P=450.0, N=0.0)
+r10: IF afb < chf THEN  (p=105.0, n=0.0, P=450.0, N=0.0)
+r11: IF hr > diasbp AND bmi = (-inf, 34.34) AND bmi != <25.84, 27.22) AND diasbp != <62.50, 72) THEN  (p=175.0, n=0.0, P=450.0, N=0.0)

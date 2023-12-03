@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.7407407407407407
+r2: 0.7864864864864866
+r3: 0.34940411700975077
+r4: 0.5604444444444444
+r5: 0.37297297297297294
+r6: 0.38095238095238093
+r7: 0.7697030791788855
+r8: 0.5452674897119342
+r9: 0.4832309043020192
+r10: 0.5367916258443768
+r11: 0.5604444444444444
+r12: 0.5717201166180758
+r13: 0.6404054927515201
+r14: 0.5439560439560438
+r15: 0.413377192982456
+________________________________
+r1: IF Weight != <2742.50, 4025) = {1} AND 2-of-3(Rear_seat_room > Luggage_capacity, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {0} AND 2-of-3(Highway_MPG < U-turn_space, Drive_train_type != Air_Bags_standard, Rear_seat_room > Luggage_capacity) = {1} AND 2-of-3(Rear_seat_room > Luggage_capacity, City_MPG < Rear_seat_room, Highway_MPG < U-turn_space) = {0} AND 2-of-3(Highway_MPG < U-turn_space, Domestic != Manual_transmission_available, Rear_seat_room > Luggage_capacity) = {1} THEN class = {0.018} [0.016,0.02] (p=3.0, n=1.0, P=3.0, N=81.0)
+r2: IF Horsepower > Wheelbase = {0} AND 2-of-3(Rear_seat_room > Luggage_capacity, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {0} THEN class = {0.022} [-0.001,0.045] (p=8.0, n=1.0, P=10.0, N=74.0)
+r3: IF 2-of-3(Rear_seat_room > Luggage_capacity, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {1} AND 2-of-3(Engine_revolutions_per_mile = (-inf, 2705), City_MPG < Rear_seat_room, Highway_MPG < U-turn_space) = {0} AND Highway_MPG < U-turn_space = {1} AND 2-of-3(Rear_seat_room > Luggage_capacity, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {1} THEN class = {0.031} [-0.004,0.066] (p=2.0, n=1.0, P=13.0, N=71.0)
+r4: IF 2-of-3(Engine_revolutions_per_mile < Weight, City_MPG < Rear_seat_room, Rear_seat_room > Luggage_capacity) = {1} AND 2-of-3(Highway_MPG < U-turn_space, Drive_train_type != Air_Bags_standard, Rear_seat_room > Luggage_capacity) = {0} AND 2-of-3(Rear_seat_room > Luggage_capacity, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {1} THEN class = {0.064} [0.047,0.081] (p=4.0, n=1.0, P=9.0, N=75.0)
+r5: IF 2-of-3(Highway_MPG < U-turn_space, Engine_revolutions_per_mile = (-inf, 2585), Rear_seat_room > Luggage_capacity) = {0} AND 2-of-3(Rear_seat_room > Luggage_capacity, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {1} AND 2-of-3(Rear_seat_room > Luggage_capacity, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {1} THEN class = {0.053} [0.03,0.077] (p=2.0, n=1.0, P=10.0, N=74.0)
+r6: IF 2-of-3(Engine_revolutions_per_mile < Weight, Horsepower > Wheelbase, Rear_seat_room > Luggage_capacity) = {1} AND 2-of-3(Highway_MPG < U-turn_space, Drive_train_type != Air_Bags_standard, Rear_seat_room > Luggage_capacity) = {1} AND 2-of-3(Rear_seat_room > Luggage_capacity, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {1} THEN class = {0.46} [0.30,0.62] (p=3.0, n=1.0, P=21.0, N=63.0)
+r7: IF Engine_revolutions_per_mile = (-inf, 2585) = {0} AND Fuel_tank_capacity = (-inf, 16.45) = {1} THEN class = {0.048} [-0.0042,0.1] (p=15.0, n=1.0, P=22.0, N=62.0)
+r8: IF 2-of-3(Engine_revolutions_per_mile < Weight, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {1} AND City_MPG < Rear_seat_room = {0} AND 2-of-3(Rear_seat_room > Luggage_capacity, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {1} THEN class = {0.077} [0.072,0.082] (p=2.0, n=1.0, P=3.0, N=81.0)
+r9: IF 2-of-3(Rear_seat_room > Luggage_capacity, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {0} AND Domestic != Manual_transmission_available = {0} THEN class = {0.14} [-0.066,0.35] (p=19.0, n=1.0, P=67.0, N=17.0)
+r10: IF Manufacturer != {Volvo} = {0} AND Highway_MPG > Rear_seat_room = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.38} [0.19,0.56] (p=19.0, n=3.0, P=41.0, N=43.0)
+r11: IF 2-of-3(Engine_revolutions_per_mile < Weight, Horsepower > Wheelbase, Rear_seat_room > Luggage_capacity) = {0} AND Drive_train_type != Air_Bags_standard = {0} AND 2-of-3(Highway_MPG < U-turn_space, Domestic != Manual_transmission_available, Rear_seat_room > Luggage_capacity) = {0} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.16} [0.15,0.18] (p=4.0, n=1.0, P=9.0, N=75.0)
+r12: IF 2-of-3(Engine_revolutions_per_mile < Weight, Horsepower > Wheelbase, Rear_seat_room > Luggage_capacity) = {0} AND Horsepower > Wheelbase = {1} AND Manufacturer != {Volvo} = {0} AND 2-of-3(Rear_seat_room > Luggage_capacity, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {0} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.17} [0.093,0.24] (p=18.0, n=3.0, P=35.0, N=49.0)
+r13: IF Fuel_tank_capacity = (-inf, 16.45) = {1} THEN class = {0.094} [-0.0025,0.19] (p=36.0, n=7.0, P=41.0, N=43.0)
+r14: IF Weight != <2742.50, 4025) = {0} AND Domestic != {1} = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.38} [0.18,0.58] (p=12.0, n=1.0, P=42.0, N=42.0)
+r15: IF Fuel_tank_capacity = (-inf, 16.45) = {0} AND 2-of-3(Rear_seat_room > Luggage_capacity, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {0} THEN class = {0.28} [0.11,0.45] (p=30.0, n=8.0, P=48.0, N=36.0)

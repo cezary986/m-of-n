@@ -1,0 +1,80 @@
+Rules qualities:
+r1: 0.8125
+r2: 0.7083333333333334
+r3: 0.6875
+r4: 0.5833333333333334
+r5: 0.5918367346938775
+r6: 0.5918367346938775
+r7: 0.7755102040816326
+r8: 0.781557067271353
+r9: 0.5204081632653061
+r10: 0.5204081632653061
+r11: 0.5816326530612245
+r12: 0.7142857142857143
+r13: 0.5748140191749215
+r14: 0.7068965517241379
+r15: 0.5517241379310345
+r16: 0.5344827586206896
+r17: 0.5344827586206896
+r18: 0.5344827586206896
+r19: 0.7586206896551724
+r20: 0.5344827586206896
+r21: 0.5862068965517242
+r22: 0.6083333333333334
+r23: 0.65
+r24: 0.5583333333333333
+r25: 0.5333333333333333
+r26: 0.5333333333333333
+r27: 0.525
+r28: 0.5166666666666667
+r29: 0.5166666666666667
+r30: 0.575
+r31: 0.575
+r32: 0.575
+r33: 0.6166666666666667
+r34: 0.5333333333333333
+r35: 0.725
+r36: 0.725
+r37: 0.925
+r38: 0.4584349593495935
+r39: 1.0
+________________________________
+r1: IF length = (-inf, 175.85) = {1} AND height = <48.30, 50.50) = {1} THEN class = {3} (p=15.0, n=0.0, P=24.0, N=160.0)
+r2: IF length = <168.75, 169.10) = {1} THEN class = {3} (p=10.0, n=0.0, P=24.0, N=160.0)
+r3: IF normalized-losses = <149, 154) = {1} THEN class = {3} (p=9.0, n=0.0, P=24.0, N=160.0)
+r4: IF normalized-losses = <193, inf) = {1} AND length = <178.10, 180.20) = {0} THEN class = {3} (p=4.0, n=0.0, P=24.0, N=160.0)
+r5: IF curb-weight = <1828, 1909) = {1} THEN class = {1} (p=9.0, n=0.0, P=49.0, N=135.0)
+r6: IF curb-weight = <1944.50, 2004) = {1} THEN class = {1} (p=9.0, n=0.0, P=49.0, N=135.0)
+r7: IF normalized-losses = <90.50, 161) = {1} AND wheel-base = <92.15, 95.10) = {1} THEN class = {1} (p=27.0, n=0.0, P=49.0, N=135.0)
+r8: IF normalized-losses > engine-size = {1} AND wheel-base = <92.15, 95.10) = {1} AND 2-of-3(bore < price, width = (-inf, 66.70), peak-rpm < price) = {0} AND curb-weight = <1996.50, 2010) = {0} THEN class = {1} (p=31.0, n=1.0, P=49.0, N=135.0)
+r9: IF length = <178.10, 180.20) = {1} THEN class = {1} (p=2.0, n=0.0, P=49.0, N=135.0)
+r10: IF width = <71.85, inf) = {1} THEN class = {1} (p=2.0, n=0.0, P=49.0, N=135.0)
+r11: IF normalized-losses = <123.50, 134) = {1} AND city-mpg = <21.50, inf) = {1} THEN class = {1} (p=8.0, n=0.0, P=49.0, N=135.0)
+r12: IF bore = <3.02, 3.17) = {1} AND 2-of-3(city-mpg = (-inf, 36.50), peak-rpm = (-inf, 5650), height = (-inf, 57.50)) = {0} AND curb-weight = <1996.50, 2010) = {0} THEN class = {1} (p=21.0, n=0.0, P=49.0, N=135.0)
+r13: IF 2-of-3(curb-weight = (-inf, 3275), peak-rpm = (-inf, 5650), highway-mpg = (-inf, 42.50)) = {0} AND bore = (-inf, 3.28) = {1} AND wheel-base = <97.25, 100.40) = {0} AND horsepower = <113, 135) = {0} AND normalized-losses = (-inf, 99) = {0} AND body-style != {convertible} = {0} AND length = <187.65, 189) = {0} AND 2-of-3(bore < price, height = (-inf, 57.50), peak-rpm < price) = {0} THEN class = {1} (p=30.0, n=8.0, P=49.0, N=135.0)
+r14: IF wheel-base = <97.25, 98.80) = {1} AND bore < price = {1} THEN class = {2} (p=12.0, n=0.0, P=29.0, N=155.0)
+r15: IF curb-weight = (-inf, 1828) = {1} THEN class = {2} (p=3.0, n=0.0, P=29.0, N=155.0)
+r16: IF curb-weight = <1996.50, 2010) = {1} THEN class = {2} (p=2.0, n=0.0, P=29.0, N=155.0)
+r17: IF price = <15145, 15580) = {1} THEN class = {2} (p=2.0, n=0.0, P=29.0, N=155.0)
+r18: IF wheel-base = <95.95, 96.30) = {1} THEN class = {2} (p=2.0, n=0.0, P=29.0, N=155.0)
+r19: IF body-style != {hatchback} = {0} AND wheel-base = <97.25, 100.40) = {1} AND fuel-system != {2bbl} = {0} THEN class = {2} (p=15.0, n=0.0, P=29.0, N=155.0)
+r20: IF body-style != {hatchback} = {1} AND normalized-losses = <79.50, 85) = {1} THEN class = {2} (p=2.0, n=0.0, P=29.0, N=155.0)
+r21: IF width = <63.85, 65.20) = {1} AND height = <50.70, 51.60) = {1} THEN class = {2} (p=5.0, n=0.0, P=29.0, N=155.0)
+r22: IF horsepower = <93, 100) = {1} THEN class = {0} (p=13.0, n=0.0, P=60.0, N=124.0)
+r23: IF wheel-base = <96.40, 97.30) = {1} AND height = <50.70, 51.60) = {0} THEN class = {0} (p=18.0, n=0.0, P=60.0, N=124.0)
+r24: IF wheel-base = <106.25, 109.10) = {1} THEN class = {0} (p=7.0, n=0.0, P=60.0, N=124.0)
+r25: IF curb-weight = <2277.50, 2293) = {1} THEN class = {0} (p=4.0, n=0.0, P=60.0, N=124.0)
+r26: IF horsepower = <175.50, 184) = {1} THEN class = {0} (p=4.0, n=0.0, P=60.0, N=124.0)
+r27: IF curb-weight = <3835, inf) = {1} THEN class = {0} (p=3.0, n=0.0, P=60.0, N=124.0)
+r28: IF curb-weight = <2060.50, 2120) = {1} THEN class = {0} (p=2.0, n=0.0, P=60.0, N=124.0)
+r29: IF price = <20334.50, 22018) = {1} THEN class = {0} (p=2.0, n=0.0, P=60.0, N=124.0)
+r30: IF wheel-base = <100.10, 102.40) = {1} AND peak-rpm = (-inf, 5650) = {1} THEN class = {0} (p=9.0, n=0.0, P=60.0, N=124.0)
+r31: IF body-style != {convertible} = {0} AND height = <52.70, 53.10) = {1} THEN class = {0} (p=9.0, n=0.0, P=60.0, N=124.0)
+r32: IF normalized-losses = <123.50, 134) = {0} AND horsepower = <77, 85) = {1} THEN class = {0} (p=9.0, n=0.0, P=60.0, N=124.0)
+r33: IF normalized-losses = <75.50, 93) = {1} AND length = <158.75, 175.40) = {1} THEN class = {0} (p=14.0, n=0.0, P=60.0, N=124.0)
+r34: IF height = <54.20, 54.50) = {1} AND price = <16677.50, inf) = {1} THEN class = {0} (p=4.0, n=0.0, P=60.0, N=124.0)
+r35: IF normalized-losses = (-inf, 75.50) = {1} AND bore = <3.02, 3.17) = {0} THEN class = {-1} (p=9.0, n=0.0, P=20.0, N=164.0)
+r36: IF height = <56.15, 56.50) = {0} AND length = <187.65, 189) = {1} THEN class = {-1} (p=9.0, n=0.0, P=20.0, N=164.0)
+r37: IF normalized-losses < horsepower = {1} AND wheel-base = <97.25, 100.40) = {0} AND normalized-losses = (-inf, 99) = {1} AND wheel-base = <96.40, 97.30) = {0} AND wheel-base = <106.25, 109.10) = {0} THEN class = {-1} (p=17.0, n=0.0, P=20.0, N=164.0)
+r38: IF curb-weight = <2190.50, 2209) = {0} AND wheel-base = <97.25, 100.40) = {0} AND horsepower = <93, 100) = {0} AND bore = <3.02, 3.17) = {0} AND height = <52.70, 53.10) = {0} AND normalized-losses = (-inf, 164.50) = {1} AND num-of-doors != {two} = {0} AND 2-of-3(bore < price, wheel-base < engine-size, city-mpg = (-inf, 36.50)) = {0} THEN class = {-1} (p=19.0, n=17.0, P=20.0, N=164.0)
+r39: IF curb-weight = (-inf, 3275) = {1} AND height = <56.15, 56.50) = {1} THEN class = {-2} (p=2.0, n=0.0, P=2.0, N=182.0)

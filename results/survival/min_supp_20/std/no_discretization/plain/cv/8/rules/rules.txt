@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9753315357901268
+r2: 0.999998513885797
+r3: 0.9999888134759618
+r4: 0.9517185104016009
+r5: 0.9999998956531055
+r6: 0.9999952211951464
+r7: 0.9999998638843248
+r8: 0.9999995997204129
+r9: 0.9984911709390669
+r10: 0.9986102121184302
+r11: 0.9998826760798516
+r12: 0.9979532155526492
+________________________________
+r1: IF iinfct = <2.50, inf) AND itch = <0.50, inf) AND os30d = <0.50, inf) AND rs30d = (-inf, 0.50) AND age = (-inf, 30) THEN  (p=8.0, n=0.0, P=790.0, N=0.0)
+r2: IF vagina = (-inf, 0.50) AND os12m = <0.50, inf) AND abnode = (-inf, 0.50) THEN  (p=233.0, n=0.0, P=790.0, N=0.0)
+r3: IF iinfct = <1.50, inf) AND os30d = <0.50, inf) AND npartner = <0.50, inf) THEN  (p=156.0, n=0.0, P=790.0, N=0.0)
+r4: IF rs12m = (-inf, 0.50) AND itch = (-inf, 0.50) AND iinfct = <1.50, inf) AND os30d = (-inf, 0.50) AND npartner = (-inf, 2.50) AND race = {W} AND os12m = <0.50, inf) AND yschool = (-inf, 12.50) AND age = <17.50, inf) AND condom = <1.50, inf) THEN  (p=12.0, n=0.0, P=790.0, N=0.0)
+r5: IF abdpain = (-inf, 0.50) AND discharge = (-inf, 0.50) AND os12m = <0.50, inf) AND condom = (-inf, 2.50) THEN  (p=78.0, n=0.0, P=790.0, N=0.0)
+r6: IF dysuria = (-inf, 0.50) AND os12m = <0.50, inf) THEN  (p=231.0, n=0.0, P=790.0, N=0.0)
+r7: IF os12m = (-inf, 0.50) AND yschool = (-inf, 12.50) THEN  (p=464.0, n=0.0, P=790.0, N=0.0)
+r8: IF marital = {S} AND iinfct = (-inf, 1.50) AND lymph = (-inf, 0.50) AND npartner = (-inf, 4.50) AND os12m = (-inf, 0.50) THEN  (p=89.0, n=0.0, P=790.0, N=0.0)
+r9: IF dchexam = <0.50, inf) AND rash = (-inf, 0.50) AND iinfct = <1.50, 2.50) AND vagina = (-inf, 0.50) AND discharge = (-inf, 0.50) AND os12m = (-inf, 0.50) AND yschool = (-inf, 14.50) AND condom = <2.50, inf) THEN  (p=35.0, n=0.0, P=790.0, N=0.0)
+r10: IF lymph = (-inf, 0.50) AND vagina = (-inf, 0.50) AND condom = <2.50, inf) THEN  (p=248.0, n=0.0, P=790.0, N=0.0)
+r11: IF dchexam = <0.50, inf) AND rash = (-inf, 0.50) AND marital = {S} AND lymph = (-inf, 0.50) AND vagina = <0.50, inf) AND yschool = (-inf, 14.50) THEN  (p=67.0, n=0.0, P=790.0, N=0.0)
+r12: IF dchexam = <0.50, inf) AND rash = (-inf, 0.50) AND iinfct = <1.50, inf) AND npartner = (-inf, 1.50) AND age = (-inf, 25.50) THEN  (p=402.0, n=0.0, P=790.0, N=0.0)

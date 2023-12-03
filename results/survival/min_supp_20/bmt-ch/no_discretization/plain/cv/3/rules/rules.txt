@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9947691835432277
+r2: 1.0
+r3: 0.988580498149413
+r4: 0.9997486131220062
+r5: 0.9999999999999983
+r6: 0.7401123982580585
+r7: 0.8342717548407654
+r8: 0.9773958465551228
+r9: 0.9997576085399665
+r10: 0.9940750022946331
+________________________________
+r1: IF CMVstatus = {3} AND Donorage35 = {1} AND Recipientageint = {1} THEN  (p=4.0, n=0.0, P=168.0, N=0.0)
+r2: IF extcGvHD = {?} THEN  (p=26.0, n=0.0, P=168.0, N=0.0)
+r3: IF aGvHDIIIIV = {0} AND ABOmatch = {1} THEN  (p=24.0, n=0.0, P=168.0, N=0.0)
+r4: IF Disease = {ALL} AND CMVstatus = {2} AND Recipientage10 = {1} THEN  (p=9.0, n=0.0, P=168.0, N=0.0)
+r5: IF extcGvHD = {1} THEN  (p=118.0, n=0.0, P=168.0, N=0.0)
+r6: IF ABOmatch = {0} AND extcGvHD = {0} AND Riskgroup = {1} AND IIIV = {1} THEN  (p=2.0, n=0.0, P=168.0, N=0.0)
+r7: IF DonorABO = {1} AND HLAmismatch = {1} AND extcGvHD = {0} THEN  (p=3.0, n=0.0, P=168.0, N=0.0)
+r8: IF Diseasegroup = {1} AND Recipientage10 = {1} THEN  (p=74.0, n=0.0, P=168.0, N=0.0)
+r9: IF Donorage = (-inf, 38.37) AND Gendermatch = {0} AND PLTrecovery = <20, inf) AND CD34kgx10d6 = <9.10, inf) AND RecipientABO = {1} THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r10: IF CD34kgx10d6 = <14.84, inf) AND Recipientageint = {0} THEN  (p=23.0, n=0.0, P=168.0, N=0.0)

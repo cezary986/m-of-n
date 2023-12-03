@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.5341823774731591
+r2: 0.45658263305322133
+r3: 0.4573422859527332
+r4: 0.5320261437908496
+r5: 0.6871379492600423
+r6: 0.6171189438882708
+r7: 0.6721468033106734
+r8: 0.5745689655172415
+r9: 0.687575715217594
+________________________________
+r1: IF MMIN != <323, 512) = {1} AND CACH < CHMAX = {1} THEN class = {0.023} [-0.11,0.16] (p=83.0, n=4.0, P=159.0, N=29.0)
+r2: IF CHMIN = CHMAX = {1} THEN class = {0.012} [-0.0014,0.026] (p=12.0, n=2.0, P=68.0, N=120.0)
+r3: IF MMIN = (-inf, 2860) = {1} AND CHMAX != <11, 14) = {1} AND MMAX = <14000, inf) = {0} AND MYCT > CACH = {1} AND CHMIN = CHMAX = {0} AND CACH < CHMAX = {0} THEN class = {0.035} [0.012,0.058] (p=31.0, n=5.0, P=101.0, N=87.0)
+r4: IF CHMAX != <6.50, 20) = {0} AND CHMAX != <13.50, 128) = {1} AND CACH > CHMAX = {1} THEN class = {0.092} [0.069,0.11] (p=10.0, n=4.0, P=18.0, N=170.0)
+r5: IF MYCT > CHMAX = {1} AND CACH = <20, 64) = {0} AND CHMAX != <11, 14) = {1} AND CACH > CHMAX = {0} THEN class = {0.021} [8.6E-4,0.041] (p=77.0, n=9.0, P=100.0, N=88.0)
+r6: IF CACH = <32, inf) = {0} AND MYCT != <70, 100) = {1} THEN class = {0.024} [-0.0029,0.052] (p=107.0, n=17.0, P=116.0, N=72.0)
+r7: IF CACH != <3, 8) = {1} AND CACH = (-inf, 40) = {1} AND CHMAX != <11, 14) = {1} AND CACH != <12.50, 32) = {1} AND MYCT > CACH = {1} AND CHMIN = CHMAX = {0} AND MMAX = <20000, inf) = {0} THEN class = {0.024} [-0.0036,0.051] (p=80.0, n=7.0, P=115.0, N=73.0)
+r8: IF MYCT > CACH = {1} AND MMAX = <20000, inf) = {0} THEN class = {0.026} [-0.005,0.057] (p=124.0, n=21.0, P=124.0, N=64.0)
+r9: IF MMAX != <4500, 8000) = {1} AND CHMIN != <3.50, 6) = {1} AND MYCT > CACH = {0} AND CACH < CHMAX = {0} THEN class = {0.27} [0.095,0.45] (p=25.0, n=3.0, P=42.0, N=146.0)

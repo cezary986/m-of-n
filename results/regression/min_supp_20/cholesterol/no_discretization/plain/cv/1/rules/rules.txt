@@ -1,0 +1,128 @@
+Rules qualities:
+r1: 0.2367731796752226
+r2: 0.3243720565149137
+r3: 0.49147560258671363
+r4: 0.30051727933083866
+r5: 0.26367034834324554
+r6: 0.2071272953625895
+r7: 0.2577294685990338
+r8: 0.25020585588173344
+r9: 0.4704550935975214
+r10: 0.32527010257636296
+r11: 0.3802363050483351
+r12: 0.3743303571428571
+r13: 0.2764285714285714
+r14: 0.3640579710144927
+r15: 0.2490234375
+r16: 0.2796516830728988
+r17: 0.32911475409836066
+r18: 0.2850877192982456
+r19: 0.3661294261294261
+r20: 0.40380452880452883
+r21: 0.37289915966386555
+r22: 0.36253888008929086
+r23: 0.46056884292178407
+r24: 0.4204442036836403
+r25: 0.3679640772664028
+r26: 0.40106951871657753
+r27: 0.3741049704553355
+r28: 0.4687296616933751
+r29: 0.35346695557963165
+r30: 0.4561778377567851
+r31: 0.2535426731078905
+r32: 0.1528445512820512
+r33: 0.42130152456239406
+r34: 0.309396485867074
+r35: 0.38422222222222224
+r36: 0.36090990187332733
+r37: 0.34057438637502085
+r38: 0.3631876138433515
+r39: 0.3134689241088332
+r40: 0.3742490372272144
+r41: 0.2969019389406117
+r42: 0.35770584095707253
+r43: 0.24592047128129602
+r44: 0.39536154453281525
+r45: 0.266409553558148
+r46: 0.20198581560283685
+r47: 0.3782447792757071
+r48: 0.4291853665170679
+r49: 0.3075199632331821
+r50: 0.36090990187332733
+r51: 0.35090917511146286
+r52: 0.342985842985843
+r53: 0.3545870605367173
+r54: 0.455862977602108
+r55: 0.404161281985009
+r56: 0.38017334777898154
+r57: 0.34375000000000006
+r58: 0.4093360463865936
+r59: 0.4220302619692864
+r60: 0.37289915966386555
+r61: 0.3944041867954911
+r62: 0.4992081089642065
+r63: 0.40566611322872576
+________________________________
+r1: IF thal = {?} THEN class = {0.21} [0.19,0.22] (p=1.0, n=1.0, P=23.0, N=249.0)
+r2: IF exang = {0} AND thal = {7} AND slope = {2} AND cp = {4} AND restecg = {2} THEN class = {0.34} [0.22,0.46] (p=6.0, n=1.0, P=168.0, N=104.0)
+r3: IF sex = {1} AND cp = {4} AND ca = <2.50, inf) THEN class = {0.41} [0.34,0.47] (p=8.0, n=1.0, P=56.0, N=216.0)
+r4: IF exang = {0} AND thalach = (-inf, 167.50) AND fbs = {0} AND sex = {1} AND thal = {7} AND slope = {2} AND age = <54.50, inf) THEN class = {0.24} [0.18,0.30] (p=9.0, n=3.0, P=118.0, N=154.0)
+r5: IF exang = {0} AND sex = {1} AND cp = {3} AND trestbps = (-inf, 149) AND restecg = {2} THEN class = {0.25} [0.16,0.34] (p=12.0, n=3.0, P=165.0, N=107.0)
+r6: IF exang = {0} AND thalach = (-inf, 146) AND num = <1.50, 3.50) AND cp = {4} AND age = (-inf, 64.50) THEN class = {0.11} [-0.02,0.25] (p=2.0, n=1.0, P=119.0, N=153.0)
+r7: IF oldpeak = (-inf, 4.30) AND thalach = (-inf, 142.50) AND num = <0.50, inf) AND sex = {1} AND age = (-inf, 66.50) AND restecg = {0} THEN class = {0.32} [0.20,0.43] (p=14.0, n=3.0, P=180.0, N=92.0)
+r8: IF thal = {3} AND slope = {1} AND cp = {2} THEN class = {0.24} [0.15,0.34] (p=19.0, n=5.0, P=169.0, N=103.0)
+r9: IF oldpeak = (-inf, 0.70) AND thalach = (-inf, 171.50) AND sex = {1} AND cp = {2} AND age = <43, inf) THEN class = {0.27} [0.21,0.33] (p=11.0, n=1.0, P=113.0, N=159.0)
+r10: IF exang = {0} AND fbs = {0} AND slope = {2} AND age = (-inf, 62) AND restecg = {0} THEN class = {0.21} [0.13,0.29] (p=15.0, n=4.0, P=134.0, N=138.0)
+r11: IF cp = {2} AND age = (-inf, 51.50) AND restecg = {2} THEN class = {0.21} [0.18,0.25] (p=4.0, n=1.0, P=76.0, N=196.0)
+r12: IF exang = {0} AND sex = {0} AND slope = {2} AND age = (-inf, 56.50) AND restecg = {2} THEN class = {0.32} [0.25,0.38] (p=5.0, n=1.0, P=112.0, N=160.0)
+r13: IF thalach = (-inf, 176) AND cp = {2} AND age = (-inf, 51.50) THEN class = {0.24} [0.15,0.32] (p=12.0, n=3.0, P=160.0, N=112.0)
+r14: IF thalach = <173, 198.50) AND cp = {2} AND restecg = {2} THEN class = {0.25} [0.20,0.30] (p=4.0, n=1.0, P=92.0, N=180.0)
+r15: IF slope = {2} AND restecg = {1} THEN class = {0.18} [0.17,0.19] (p=1.0, n=1.0, P=16.0, N=256.0)
+r16: IF oldpeak = (-inf, 3.70) AND num = <3.50, inf) AND slope = {2} AND age = <59, inf) THEN class = {0.18} [0.14,0.23] (p=2.0, n=1.0, P=73.0, N=199.0)
+r17: IF fbs = {0} AND num = <3.50, inf) AND sex = {1} AND thal = {7} THEN class = {0.24} [0.18,0.30] (p=4.0, n=1.0, P=122.0, N=150.0)
+r18: IF exang = {1} AND sex = {0} AND thal = {7} AND ca = <1.50, inf) AND restecg = {2} THEN class = {0.65} [0.51,0.78] (p=1.0, n=1.0, P=6.0, N=266.0)
+r19: IF exang = {1} AND oldpeak = (-inf, 3.50) AND num = (-inf, 3.50) AND sex = {1} AND ca = <1.50, inf) AND age = (-inf, 64) AND trestbps = <126.50, inf) AND restecg = {2} THEN class = {0.36} [0.29,0.42] (p=4.0, n=1.0, P=90.0, N=182.0)
+r20: IF num = (-inf, 3.50) AND thal = {7} AND slope = {2} AND ca = <1.50, 2.50) AND age = (-inf, 67.50) THEN class = {0.32} [0.21,0.43] (p=10.0, n=1.0, P=168.0, N=104.0)
+r21: IF num = (-inf, 3.50) AND sex = {1} AND cp = {4} AND ca = <1.50, 2.50) AND age = <54, 65) AND trestbps = (-inf, 142.50) THEN class = {0.32} [0.24,0.41] (p=6.0, n=1.0, P=136.0, N=136.0)
+r22: IF exang = {0} AND oldpeak = <0.60, inf) AND thalach = (-inf, 169) AND sex = {1} AND age = <50, inf) AND restecg = {0} THEN class = {0.21} [0.16,0.26] (p=11.0, n=3.0, P=103.0, N=169.0)
+r23: IF fbs = {0} AND thal = {7} AND cp = {3} AND ca = (-inf, 2.50) AND age = (-inf, 61) THEN class = {0.24} [0.21,0.26] (p=6.0, n=1.0, P=51.0, N=221.0)
+r24: IF exang = {1} AND thal = {7} AND slope = {2} AND cp = {4} AND age = (-inf, 59) AND restecg = {0} THEN class = {0.39} [0.26,0.53] (p=9.0, n=1.0, P=142.0, N=130.0)
+r25: IF oldpeak = (-inf, 3.30) AND thalach = (-inf, 175.50) AND num = (-inf, 2.50) AND sex = {1} AND slope = {1} AND cp = {4} AND age = <54, inf) THEN class = {0.24} [0.17,0.31] (p=10.0, n=2.0, P=129.0, N=143.0)
+r26: IF exang = {1} AND oldpeak = <0.10, 3.30) AND fbs = {0} AND num = (-inf, 2.50) AND sex = {1} AND thal = {7} AND cp = {4} AND age = <48.50, inf) AND restecg = {0} THEN class = {0.34} [0.27,0.40] (p=5.0, n=1.0, P=85.0, N=187.0)
+r27: IF thalach = (-inf, 170.50) AND slope = {1} AND cp = {4} AND age = (-inf, 58.50) AND ca = (-inf, 0.50) AND restecg = {2} THEN class = {0.28} [0.20,0.36] (p=6.0, n=1.0, P=135.0, N=137.0)
+r28: IF exang = {1} AND num = (-inf, 1.50) AND slope = {2} AND age = (-inf, 65.50) AND ca = <0.50, inf) THEN class = {0.32} [0.26,0.38] (p=9.0, n=1.0, P=89.0, N=183.0)
+r29: IF exang = {1} AND num = <2.50, inf) AND slope = {2} AND cp = {4} AND ca = (-inf, 1.50) AND restecg = {2} THEN class = {0.17} [0.072,0.27] (p=5.0, n=1.0, P=130.0, N=142.0)
+r30: IF oldpeak = (-inf, 2.90) AND thalach = (-inf, 146.50) AND num = (-inf, 2.50) AND thal = {7} AND slope = {2} AND ca = <0.50, 1.50) AND trestbps = (-inf, 143) THEN class = {0.31} [0.29,0.33] (p=5.0, n=1.0, P=38.0, N=234.0)
+r31: IF oldpeak = (-inf, 0.30) AND thalach = (-inf, 165.50) AND num = (-inf, 0.50) AND thal = {7} AND ca = (-inf, 0.50) AND restecg = {0} THEN class = {0.42} [0.31,0.53] (p=2.0, n=1.0, P=92.0, N=180.0)
+r32: IF thalach = (-inf, 165.50) AND fbs = {0} AND num = (-inf, 1.50) AND sex = {0} AND age = <59, 67.50) AND ca = (-inf, 1.50) AND trestbps = <112.50, 161) THEN class = {0.41} [0.19,0.63] (p=10.0, n=2.0, P=208.0, N=64.0)
+r33: IF fbs = {0} AND sex = {1} AND num = (-inf, 0.50) AND cp = {1} AND ca = (-inf, 0.50) THEN class = {0.17} [0.10,0.23] (p=6.0, n=1.0, P=88.0, N=184.0)
+r34: IF oldpeak = (-inf, 3.50) AND thalach = <131.50, inf) AND fbs = {0} AND num = <0.50, inf) AND thal = {7} AND ca = (-inf, 0.50) AND age = <37.50, 60) THEN class = {0.32} [0.22,0.41] (p=9.0, n=2.0, P=153.0, N=119.0)
+r35: IF num = <2, 3.50) AND cp = {3} AND ca = (-inf, 1.50) THEN class = {0.31} [0.27,0.36] (p=4.0, n=1.0, P=72.0, N=200.0)
+r36: IF exang = {1} AND fbs = {1} AND num = <1.50, inf) AND age = (-inf, 57.50) AND restecg = {2} THEN class = {0.36} [0.29,0.43] (p=4.0, n=1.0, P=95.0, N=177.0)
+r37: IF thalach = (-inf, 187.50) AND slope = {1} AND age = <46, 57.50) AND trestbps = <145, inf) THEN class = {0.17} [0.085,0.25] (p=4.0, n=1.0, P=113.0, N=159.0)
+r38: IF exang = {0} AND oldpeak = <0.70, 1.95) AND sex = {1} AND thal = {7} AND age = (-inf, 67.50) AND restecg = {0} THEN class = {0.26} [0.20,0.32] (p=5.0, n=1.0, P=122.0, N=150.0)
+r39: IF exang = {1} AND slope = {3} AND ca = (-inf, 1.50) AND age = (-inf, 58) THEN class = {0.18} [0.083,0.27] (p=4.0, n=1.0, P=133.0, N=139.0)
+r40: IF exang = {1} AND num = <1.50, 3.50) AND slope = {2} AND ca = <1.50, inf) AND age = <57, inf) AND restecg = {2} THEN class = {0.36} [0.30,0.42] (p=4.0, n=1.0, P=82.0, N=190.0)
+r41: IF fbs = {0} AND sex = {0} AND thal = {3} AND cp = {4} AND ca = <1.50, inf) AND age = (-inf, 66.50) THEN class = {0.33} [0.29,0.36] (p=2.0, n=1.0, P=59.0, N=213.0)
+r42: IF exang = {0} AND fbs = {0} AND num = (-inf, 0.50) AND thal = {3} AND cp = {1} THEN class = {0.26} [0.21,0.31] (p=4.0, n=1.0, P=98.0, N=174.0)
+r43: IF oldpeak = (-inf, 1.60) AND thalach = (-inf, 178.50) AND thal = {3} AND ca = <1.50, inf) AND age = (-inf, 69) AND restecg = {0} THEN class = {0.22} [0.17,0.27] (p=2.0, n=1.0, P=97.0, N=175.0)
+r44: IF sex = {1} AND thal = {3} AND slope = {2} AND cp = {3} THEN class = {0.24} [0.19,0.29] (p=5.0, n=1.0, P=91.0, N=181.0)
+r45: IF exang = {0} AND oldpeak = (-inf, 0.40) AND thalach = (-inf, 161.50) AND num = (-inf, 1.50) AND ca = <0.50, 1.50) AND age = <46.50, 65.50) THEN class = {0.40} [0.32,0.49] (p=2.0, n=1.0, P=83.0, N=189.0)
+r46: IF num = <0.50, inf) AND slope = {1} AND cp = {3} AND ca = (-inf, 0.50) THEN class = {0.48} [0.37,0.58] (p=1.0, n=1.0, P=47.0, N=225.0)
+r47: IF exang = {0} AND thalach = <177, inf) AND num = (-inf, 0.50) AND sex = {1} AND slope = {1} AND restecg = {0} THEN class = {0.25} [0.21,0.29] (p=4.0, n=1.0, P=78.0, N=194.0)
+r48: IF exang = {0} AND thalach = (-inf, 177) AND cp = {3} AND ca = (-inf, 0.50) AND age = (-inf, 43.50) THEN class = {0.20} [0.17,0.23] (p=5.0, n=1.0, P=57.0, N=215.0)
+r49: IF oldpeak = (-inf, 0.35) AND thalach = (-inf, 170.50) AND num = (-inf, 0.50) AND thal = {3} AND slope = {1} AND cp = {4} AND age = (-inf, 55.50) THEN class = {0.29} [0.24,0.35] (p=3.0, n=1.0, P=103.0, N=169.0)
+r50: IF fbs = {0} AND sex = {0} AND thal = {3} AND slope = {1} AND cp = {3} AND ca = (-inf, 0.50) AND age = <47, 59) THEN class = {0.34} [0.27,0.41] (p=4.0, n=1.0, P=95.0, N=177.0)
+r51: IF oldpeak = <1.30, inf) AND num = (-inf, 0.50) AND age = (-inf, 55.50) THEN class = {0.20} [0.11,0.30] (p=11.0, n=2.0, P=151.0, N=121.0)
+r52: IF oldpeak = (-inf, 0.70) AND thalach = <162.50, 172.50) AND sex = {0} AND age = <53, inf) AND restecg = {0} AND trestbps = (-inf, 153.50) THEN class = {0.41} [0.29,0.52] (p=4.0, n=1.0, P=111.0, N=161.0)
+r53: IF oldpeak = (-inf, 1.55) AND thalach = (-inf, 128.50) AND num = (-inf, 0.50) AND ca = (-inf, 0.50) AND restecg = {0} THEN class = {0.12} [0.092,0.15] (p=2.0, n=1.0, P=19.0, N=253.0)
+r54: IF oldpeak = (-inf, 0.55) AND thal = {3} AND slope = {1} AND cp = {3} AND restecg = {2} THEN class = {0.30} [0.25,0.35] (p=8.0, n=1.0, P=88.0, N=184.0)
+r55: IF thalach = (-inf, 170.50) AND sex = {0} AND slope = {1} AND age = <56, 68) AND restecg = {2} THEN class = {0.41} [0.35,0.47] (p=4.0, n=1.0, P=53.0, N=219.0)
+r56: IF exang = {0} AND num = (-inf, 0.50) AND age = (-inf, 49.50) AND restecg = {2} THEN class = {0.25} [0.17,0.32] (p=12.0, n=2.0, P=142.0, N=130.0)
+r57: IF sex = {1} AND num = (-inf, 0.50) AND thal = {3} AND slope = {1} AND cp = {4} AND restecg = {2} THEN class = {0.31} [0.27,0.35] (p=3.0, n=1.0, P=72.0, N=200.0)
+r58: IF thalach = (-inf, 185.50) AND sex = {1} AND num = (-inf, 1.50) AND thal = {3} AND slope = {1} AND ca = (-inf, 2.50) AND age = <43, 64.50) AND restecg = {2} THEN class = {0.30} [0.24,0.36] (p=6.0, n=1.0, P=101.0, N=171.0)
+r59: IF sex = {0} AND thal = {3} AND cp = {4} AND age = (-inf, 55) THEN class = {0.29} [0.23,0.35] (p=7.0, n=1.0, P=108.0, N=164.0)
+r60: IF exang = {0} AND oldpeak = (-inf, 1.10) AND slope = {2} AND cp = {4} AND restecg = {2} THEN class = {0.32} [0.23,0.40] (p=6.0, n=1.0, P=136.0, N=136.0)
+r61: IF thalach = (-inf, 160.50) AND fbs = {0} AND thal = {3} AND ca = (-inf, 0.50) AND restecg = {2} AND trestbps = <111, 135) THEN class = {0.36} [0.29,0.43] (p=5.0, n=1.0, P=92.0, N=180.0)
+r62: IF cp = {1} AND age = <59.50, inf) THEN class = {0.25} [0.23,0.27] (p=7.0, n=1.0, P=41.0, N=231.0)
+r63: IF thalach = (-inf, 185.50) AND fbs = {0} AND num = (-inf, 3.50) AND sex = {1} AND cp = {4} AND age = (-inf, 65) AND restecg = {2} AND trestbps = <111, 139) THEN class = {0.32} [0.24,0.40] (p=12.0, n=2.0, P=123.0, N=149.0)

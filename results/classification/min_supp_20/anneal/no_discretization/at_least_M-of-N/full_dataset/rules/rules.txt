@@ -1,0 +1,40 @@
+Rules qualities:
+r1: 0.6469298245614035
+r2: 0.9400584795321638
+r3: 0.9219939459471531
+r4: 0.5409356725146199
+r5: 0.5131578947368421
+r6: 0.9375
+r7: 0.95
+r8: 0.525
+r9: 0.625
+r10: 0.8125
+r11: 1.0
+r12: 0.5505050505050505
+r13: 0.5454545454545454
+r14: 0.5404040404040404
+r15: 0.5252525252525253
+r16: 0.5555555555555556
+r17: 0.5707070707070707
+r18: 0.5757575757575758
+r19: 0.8673155092399026
+________________________________
+r1: IF thick = <0.60, 0.80) = {1} THEN class = {3} (p=201.0, n=0.0, P=684.0, N=214.0)
+r2: IF hardness = (-inf, 75) = {1} AND carbon = (-inf, 9) = {1} AND surface-quality != {?} = {0} AND strength = (-inf, 550) = {1} THEN class = {3} (p=602.0, n=0.0, P=684.0, N=214.0)
+r3: IF carbon = (-inf, 9) = {1} AND hardness = (-inf, 82.50) = {1} AND surface-quality != {?} = {0} AND strength = (-inf, 550) = {1} THEN class = {3} (p=604.0, n=3.0, P=684.0, N=214.0)
+r4: IF carbon = <27.50, inf) = {1} THEN class = {3} (p=56.0, n=0.0, P=684.0, N=214.0)
+r5: IF carbon = <3.50, 10) = {1} THEN class = {3} (p=18.0, n=0.0, P=684.0, N=214.0)
+r6: IF hardness = (-inf, 82.50) = {0} THEN class = {U} (p=35.0, n=0.0, P=40.0, N=858.0)
+r7: IF hardness = (-inf, 75) = {0} AND width = <39.50, inf) = {1} THEN class = {U} (p=36.0, n=0.0, P=40.0, N=858.0)
+r8: IF carbon = <7, 45) = {1} AND carbon = (-inf, 9) = {0} THEN class = {U} (p=2.0, n=0.0, P=40.0, N=858.0)
+r9: IF exptl != {?} = {0} THEN class = {1} (p=2.0, n=0.0, P=8.0, N=890.0)
+r10: IF steel = {S} = {1} AND carbon < strength = {1} THEN class = {1} (p=5.0, n=0.0, P=8.0, N=890.0)
+r11: IF family = {TN} = {1} THEN class = {5} (p=67.0, n=0.0, P=67.0, N=831.0)
+r12: IF enamelability = {2} = {1} THEN class = {2} (p=10.0, n=0.0, P=99.0, N=799.0)
+r13: IF surface-finish != {?} = {0} THEN class = {2} (p=9.0, n=0.0, P=99.0, N=799.0)
+r14: IF width = <1025, 1100) = {1} THEN class = {2} (p=8.0, n=0.0, P=99.0, N=799.0)
+r15: IF len = <821, 1000) = {1} THEN class = {2} (p=5.0, n=0.0, P=99.0, N=799.0)
+r16: IF strength = (-inf, 550) = {0} AND steel = {S} = {0} THEN class = {2} (p=11.0, n=0.0, P=99.0, N=799.0)
+r17: IF width = <1410.05, inf) = {1} AND surface-quality != {?} = {1} THEN class = {2} (p=14.0, n=0.0, P=99.0, N=799.0)
+r18: IF thick = <1.75, 2.20) = {1} AND carbon < thick = {1} AND surface-quality != {?} = {1} THEN class = {2} (p=15.0, n=0.0, P=99.0, N=799.0)
+r19: IF thick = <0.60, 0.80) = {0} AND family = {TN} = {0} AND surface-quality != {?} = {1} AND condition = {S} = {1} THEN class = {2} (p=80.0, n=3.0, P=99.0, N=799.0)

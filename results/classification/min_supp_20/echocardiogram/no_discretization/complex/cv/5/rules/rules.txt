@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.8037974683544304
+r2: 0.8164556962025317
+r3: 0.7954648726800626
+r4: 0.8227848101265822
+r5: 0.810126582278481
+r6: 0.8257793013298473
+r7: 0.7954648726800626
+r8: 0.6119424657066228
+r9: 0.8461538461538461
+r10: 0.8419920218613562
+r11: 0.759187132604854
+r12: 0.5897435897435898
+r13: 0.5641025641025641
+r14: 0.6153846153846154
+________________________________
+r1: IF epss = <4.90, 28.60) AND survival = <22.50, inf) THEN class = {0} (p=48.0, n=0.0, P=79.0, N=39.0)
+r2: IF survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) AND wall-motion-index = (-inf, 1.89) THEN class = {0} (p=50.0, n=0.0, P=79.0, N=39.0)
+r3: IF wall-motion-score = (-inf, 19.75) AND survival = <22.50, inf) THEN class = {0} (p=54.0, n=1.0, P=79.0, N=39.0)
+r4: IF survival = <21.50, inf) AND lvdd = (-inf, 5.69) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=51.0, n=0.0, P=79.0, N=39.0)
+r5: IF mult = <0.43, inf) AND survival = <20.50, inf) AND pericardial-effusion != {1} AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=49.0, n=0.0, P=79.0, N=39.0)
+r6: IF survival = <11, inf) AND lvdd = (-inf, 5.66) THEN class = {0} (p=70.0, n=3.0, P=79.0, N=39.0)
+r7: IF epss = (-inf, 15.80) AND survival = <8.25, inf) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=54.0, n=1.0, P=79.0, N=39.0)
+r8: IF lvdd != <4.63, 6.74) AND age-at-heart-attack = (-inf, 73.50) AND wall-motion-index = (-inf, 1.40) THEN class = {0} (p=36.0, n=2.0, P=79.0, N=39.0)
+r9: IF mult < group AND survival = (-inf, 8.25) THEN class = {1} (p=27.0, n=0.0, P=39.0, N=79.0)
+r10: IF survival = (-inf, 8.25) THEN class = {1} (p=30.0, n=1.0, P=39.0, N=79.0)
+r11: IF survival = (-inf, 16) AND alive-at-1 != {0} THEN class = {1} (p=32.0, n=4.0, P=39.0, N=79.0)
+r12: IF epss = <19.15, 23.60) THEN class = {1} (p=7.0, n=0.0, P=39.0, N=79.0)
+r13: IF lvdd = <5.61, 5.95) THEN class = {1} (p=5.0, n=0.0, P=39.0, N=79.0)
+r14: IF age-at-heart-attack > group AND fractional-shortening = <0.15, 0.23) AND mult = <0.79, 0.96) AND wall-motion-index = <1.02, inf) THEN class = {1} (p=9.0, n=0.0, P=39.0, N=79.0)

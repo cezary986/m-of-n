@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.8448275862068966
+r2: 0.7528735632183908
+r3: 0.5632183908045977
+r4: 0.5632183908045977
+r5: 0.7528735632183908
+r6: 0.5344827586206896
+r7: 0.5172413793103449
+r8: 0.7
+r9: 0.77
+r10: 0.675
+r11: 0.685
+r12: 0.5700000000000001
+r13: 0.5700000000000001
+r14: 0.565
+r15: 0.535
+________________________________
+r1: IF #(attribute_11 = (-inf, 0.11) OR attribute_11 = <0.14, 0.16) OR attribute_11 = <0.11, 0.12) OR attribute_11 = <0.16, 0.17) OR attribute_11 = <0.21, 0.22) OR attribute_11 = <0.27, 0.27)) AND #(attribute_16 < attribute_26 OR attribute_16 = <0.62, 0.80) OR attribute_16 = <0.52, 0.61)) AND attribute_3 = (-inf, 0.097) THEN class = {Rock} (p=60.0, n=0.0, P=87.0, N=100.0)
+r2: IF #(attribute_12 = <0.042, 0.13) OR attribute_12 = <0.18, 0.20) OR attribute_12 = <0.41, 0.43) OR attribute_12 = <0.62, inf)) AND attribute_47 = (-inf, 0.19) THEN class = {Rock} (p=44.0, n=0.0, P=87.0, N=100.0)
+r3: IF attribute_36 = <0.54, 0.66) THEN class = {Rock} (p=11.0, n=0.0, P=87.0, N=100.0)
+r4: IF #(attribute_43 = <0.17, 0.19) OR attribute_43 = <0.13, 0.13)) THEN class = {Rock} (p=11.0, n=0.0, P=87.0, N=100.0)
+r5: IF attribute_22 < attribute_26 AND #(attribute_10 < attribute_36 OR attribute_10 = <0.029, 0.17)) AND attribute_11 = (-inf, 0.18) THEN class = {Rock} (p=44.0, n=0.0, P=87.0, N=100.0)
+r6: IF attribute_23 = <0.57, 0.60) THEN class = {Rock} (p=6.0, n=0.0, P=87.0, N=100.0)
+r7: IF attribute_16 = <0.43, 0.45) THEN class = {Rock} (p=3.0, n=0.0, P=87.0, N=100.0)
+r8: IF #(attribute_2 != <0.0018, 0.082) OR attribute_2 = <0.025, 0.027) OR attribute_2 = <0.012, 0.012) OR attribute_2 = <0.013, 0.014) OR attribute_2 = <0.038, 0.04) OR attribute_2 = <0.02, 0.021)) THEN class = {Mine} (p=40.0, n=0.0, P=100.0, N=87.0)
+r9: IF #(attribute_12 = <0.26, 0.29) OR attribute_12 = <0.43, 0.54) OR attribute_12 = <0.29, 0.31) OR attribute_12 = <0.23, 0.24) OR attribute_12 = <0.24, 0.26) OR attribute_12 = <0.55, 0.66)) THEN class = {Mine} (p=54.0, n=0.0, P=100.0, N=87.0)
+r10: IF #(attribute_44 = <0.43, 0.58) OR attribute_44 = <0.20, 0.22) OR attribute_44 = <0.30, 0.32) OR attribute_44 = <0.092, 0.095) OR attribute_44 = <0.18, 0.18)) THEN class = {Mine} (p=35.0, n=0.0, P=100.0, N=87.0)
+r11: IF #(attribute_12 = <0.26, 0.31) OR attribute_12 = <0.37, 0.41)) AND #(attribute_48 > attribute_49 OR attribute_49 = <0.045, 0.12)) THEN class = {Mine} (p=37.0, n=0.0, P=100.0, N=87.0)
+r12: IF attribute_37 = <0.16, 0.19) THEN class = {Mine} (p=14.0, n=0.0, P=100.0, N=87.0)
+r13: IF attribute_42 = <0.42, 0.48) THEN class = {Mine} (p=14.0, n=0.0, P=100.0, N=87.0)
+r14: IF attribute_35 = <0.034, 0.10) THEN class = {Mine} (p=13.0, n=0.0, P=100.0, N=87.0)
+r15: IF attribute_43 = <0.20, 0.21) THEN class = {Mine} (p=7.0, n=0.0, P=100.0, N=87.0)

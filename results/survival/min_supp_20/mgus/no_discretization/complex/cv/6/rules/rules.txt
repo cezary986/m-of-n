@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.9999999999938786
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 0.9999999999992492
+r6: 0.9999999999999979
+r7: 0.9999999879387163
+r8: 1.0
+r9: 1.0
+r10: 0.895622776767374
+r11: 0.9999999999999961
+________________________________
+r1: IF age = (-inf, 62.50) AND pctime != <3318, 3837) AND age != <55.50, 58) THEN  (p=95.0, n=0.0, P=217.0, N=0.0)
+r2: IF pctime != <3318, 3837) AND age != <55.50, 58) AND age = (-inf, 65.50) AND hgb != <14.70, 15) AND alb != <2.15, 2.60) AND pctime != <1172, 2861) AND age != <62.50, 65) THEN  (p=81.0, n=0.0, P=217.0, N=0.0)
+r3: IF pctime != <3318, 3837) AND hgb != <14.70, 15) AND pctime != <4232, 5934) AND age != <62.50, 65) AND age != <55.50, 58) AND age < dxyr AND hgb != <11.50, 11.80) AND alb != <2.70, 3) AND pctime != <1172, 2861) AND age != <66.50, 71) THEN  (p=78.0, n=0.0, P=217.0, N=0.0)
+r4: IF pctime != <2891.50, 3091) AND hgb != <14.70, 15) AND age = (-inf, 66.50) AND age != <55.50, 58) AND hgb != <7.10, 11.40) AND alb != <2.15, 2.60) AND pctime != <1172, 2861) AND age != <65.50, 68) THEN  (p=84.0, n=0.0, P=217.0, N=0.0)
+r5: IF pctime != <4216.50, 4536) AND hgb != <11.50, 11.80) AND age = (-inf, 67.50) AND hgb != <13.75, 14) AND hgb != <7.10, 11.40) AND pcdx = {?, MA, MM} AND pctime != <3866, 4139) AND age != <62.50, 65) THEN  (p=92.0, n=0.0, P=217.0, N=0.0)
+r6: IF age != <55.50, 58) AND age != <62.50, 65) AND age < dxyr AND hgb != <14.70, 15) AND hgb != <14.10, 14.40) AND hgb != <7.10, 11.40) AND pctime != <2907, 3837) AND age != <65.50, 68) THEN  (p=82.0, n=0.0, P=217.0, N=0.0)
+r7: IF age > dxyr THEN  (p=77.0, n=0.0, P=217.0, N=0.0)
+r8: IF hgb != <11.50, 11.80) AND hgb != <13.75, 14) AND pctime != <2907, 7184) AND hgb != <14.70, 15.10) AND hgb != <7.10, 11.40) AND dxyr = (-inf, 71) AND alb != <2.35, 2.60) AND pctime != <1172, 2861) AND age = <62.50, 65) THEN  (p=77.0, n=0.0, P=217.0, N=0.0)
+r9: IF pctime != <3464, 4627) AND hgb != <13.75, 14) AND hgb != <11.55, 12.40) AND hgb != <7.10, 11.40) AND dxyr = (-inf, 71) AND pcdx = {?, MA, MM} AND alb != <2.15, 2.90) AND pctime != <1172, 2861) AND age = <63.50, 69) THEN  (p=69.0, n=0.0, P=217.0, N=0.0)
+r10: IF hgb != <14.10, 14.50) AND hgb = <12.10, inf) AND alb != <3.15, 3.40) AND alb = (-inf, 3.45) AND pctime > creat AND hgb != <14.75, 15) AND alb != <2.75, 3.10) AND pctime != <1172, 2191) THEN  (p=7.0, n=0.0, P=217.0, N=0.0)
+r11: IF age = (-inf, 71.50) AND pctime != <3591, 6970) AND hgb != <10.50, 11.80) AND hgb != <7.55, 9.50) AND pcdx = {?, MA, MM} AND alb != <2.65, 2.90) AND pctime != <1030, 2861) AND age != <65.50, 68) THEN  (p=94.0, n=0.0, P=217.0, N=0.0)

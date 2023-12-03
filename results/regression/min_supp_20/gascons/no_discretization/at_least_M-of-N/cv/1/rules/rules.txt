@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.7765432098765431
+r2: 0.7571428571428571
+r3: 0.7412965186074431
+r4: 0.609375
+________________________________
+r1: IF disposable_income = <671.50, 7728) = {1} THEN class = {0.14} [-0.15,0.43] (p=8.0, n=1.0, P=9.0, N=15.0)
+r2: IF disposable_income != <6074.50, 8562) = {1} THEN class = {0.79} [0.55,1.02] (p=12.0, n=1.0, P=14.0, N=10.0)
+r3: IF price_index_for_used_cars != <1.04, 3.63) = {1} AND disposable_income != <671.50, 6727) = {1} THEN class = {0.30} [0.078,0.51] (p=6.0, n=1.0, P=7.0, N=17.0)
+r4: IF price_index_for_used_cars = <1.00, 1.18) = {1} THEN class = {0.56} [0.37,0.74] (p=5.0, n=1.0, P=8.0, N=16.0)

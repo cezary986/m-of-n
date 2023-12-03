@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9998017237006234
+r2: 0.993836742903231
+r3: 0.9999973099548822
+r4: 0.9996755111500574
+r5: 0.9998997058074567
+r6: 0.968836193546516
+r7: 0.926247548514842
+r8: 0.9999468599222726
+r9: 0.9300041105523763
+r10: 0.9999589844336819
+________________________________
+r1: IF rs12m < vagina = {1} AND os30d > rs12m = {0} AND 2-of-3(iinfct > dchexam, os30d = lesion, dchexam < condom) = {1} AND vagina > rash = {1} AND rs30d < dysuria = {0} THEN  (p=50.0, n=0.0, P=789.0, N=0.0)
+r2: IF vagina < abdpain = {1} AND iinfct = npartner = {1} AND 2-of-3(iinfct > dchexam, os30d = rs30d, dchexam < condom) = {1} AND rs30d < dysuria = {0} THEN  (p=15.0, n=0.0, P=789.0, N=0.0)
+r3: IF os30d = lesion = {1} AND itch > vagina = {0} AND os30d = rs12m = {1} THEN  (p=493.0, n=0.0, P=789.0, N=0.0)
+r4: IF npartner > discharge = {1} AND os12m = discharge = {1} AND iinfct > dchexam = {0} AND vagina < discharge = {0} THEN  (p=43.0, n=0.0, P=789.0, N=0.0)
+r5: IF os30d = dysuria = {0} AND rs30d < dysuria = {0} THEN  (p=152.0, n=0.0, P=789.0, N=0.0)
+r6: IF npartner > discharge = {0} AND itch > rash = {1} AND itch > dysuria = {1} AND vagina < discharge = {1} AND os30d < discharge = {1} THEN  (p=36.0, n=0.0, P=789.0, N=0.0)
+r7: IF itch > vagina = {1} AND itch = dchexam = {1} AND rs30d < discharge = {1} AND os30d < discharge = {1} THEN  (p=57.0, n=0.0, P=789.0, N=0.0)
+r8: IF vagina < abdpain = {0} AND iinfct > dchexam = {1} AND vagina > rash = {0} THEN  (p=517.0, n=0.0, P=789.0, N=0.0)
+r9: IF 2-of-3(iinfct > dchexam, os30d = lesion, dchexam < condom) = {0} THEN  (p=34.0, n=0.0, P=789.0, N=0.0)
+r10: IF iinfct = npartner = {0} AND os30d = lesion = {0} THEN  (p=143.0, n=0.0, P=789.0, N=0.0)

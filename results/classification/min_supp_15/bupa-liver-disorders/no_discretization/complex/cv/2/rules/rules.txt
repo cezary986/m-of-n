@@ -1,0 +1,118 @@
+Rules qualities:
+r1: 0.5423076923076923
+r2: 0.5192307692307693
+r3: 0.5115384615384615
+r4: 0.5115384615384615
+r5: 0.5076923076923077
+r6: 0.5423076923076923
+r7: 0.5769230769230769
+r8: 0.5423076923076923
+r9: 0.5153846153846153
+r10: 0.5192307692307693
+r11: 0.5423076923076923
+r12: 0.5538461538461539
+r13: 0.5461538461538462
+r14: 0.5692307692307692
+r15: 0.5115384615384615
+r16: 0.5538461538461539
+r17: 0.5192307692307693
+r18: 0.5307692307692308
+r19: 0.5615384615384615
+r20: 0.5576923076923077
+r21: 0.5076923076923077
+r22: 0.5192307692307693
+r23: 0.5461538461538462
+r24: 0.5230769230769231
+r25: 0.5346153846153846
+r26: 0.5269230769230769
+r27: 0.5884615384615385
+r28: 0.5346153846153846
+r29: 0.5384615384615384
+r30: 0.5007407407407408
+r31: 0.5192307692307693
+r32: 0.5805555555555556
+r33: 0.5888888888888889
+r34: 0.525
+r35: 0.5166666666666667
+r36: 0.5055555555555555
+r37: 0.5055555555555555
+r38: 0.5638888888888889
+r39: 0.5277777777777778
+r40: 0.6277777777777778
+r41: 0.6111111111111112
+r42: 0.5388888888888889
+r43: 0.5583333333333333
+r44: 0.6194444444444445
+r45: 0.5305555555555556
+r46: 0.5555555555555556
+r47: 0.5138888888888888
+r48: 0.5222222222222223
+r49: 0.5194444444444445
+r50: 0.5694444444444444
+r51: 0.5666666666666667
+r52: 0.5555555555555556
+r53: 0.5166666666666667
+r54: 0.5416666666666666
+r55: 0.5111111111111111
+r56: 0.5472222222222223
+r57: 0.5277777777777778
+r58: 0.5194444444444445
+________________________________
+r1: IF #(gammagt = (-inf, 7.50) OR gammagt = <55.50, 59)) THEN class = {1} (p=11.0, n=0.0, P=130.0, N=180.0)
+r2: IF drinks = <13.50, inf) THEN class = {1} (p=5.0, n=0.0, P=130.0, N=180.0)
+r3: IF sgot = <40, 43) THEN class = {1} (p=3.0, n=0.0, P=130.0, N=180.0)
+r4: IF sgpt = <69, 77) THEN class = {1} (p=3.0, n=0.0, P=130.0, N=180.0)
+r5: IF alkphos = (-inf, 36.50) THEN class = {1} (p=2.0, n=0.0, P=130.0, N=180.0)
+r6: IF sgpt = <14, inf) AND gammagt = (-inf, 8.50) THEN class = {1} (p=11.0, n=0.0, P=130.0, N=180.0)
+r7: IF #(alkphos = <78.50, 81) OR alkphos = <75.50, 78) OR alkphos = <93.50, 96) OR alkphos = <108.50, 117) OR alkphos = <39.50, 42) OR alkphos = <65.50, 68)) AND #(sgpt = <31.50, 85) OR sgpt = <19.50, 22) OR sgpt = <26.50, 31)) THEN class = {1} (p=20.0, n=0.0, P=130.0, N=180.0)
+r8: IF #(alkphos = <78.50, 81) OR alkphos = <93.50, 97)) AND #(gammagt = (-inf, 16.50) OR gammagt = <25.50, 53)) THEN class = {1} (p=11.0, n=0.0, P=130.0, N=180.0)
+r9: IF alkphos = <78.50, 81) AND sgot = <25.50, inf) THEN class = {1} (p=4.0, n=0.0, P=130.0, N=180.0)
+r10: IF sgot = <11.50, 14) AND alkphos = <61.50, inf) THEN class = {1} (p=5.0, n=0.0, P=130.0, N=180.0)
+r11: IF sgpt > sgot AND gammagt = (-inf, 10.50) THEN class = {1} (p=11.0, n=0.0, P=130.0, N=180.0)
+r12: IF #(sgpt = <21.50, 24) OR sgpt = <36.50, 41)) AND mcv = <89.50, 95) THEN class = {1} (p=14.0, n=0.0, P=130.0, N=180.0)
+r13: IF alkphos > gammagt AND mcv = <87.50, 95) AND sgpt = <21.50, 24) THEN class = {1} (p=12.0, n=0.0, P=130.0, N=180.0)
+r14: IF #(alkphos = <65.50, 68) OR alkphos = <76.50, 81) OR alkphos = <52.50, 55) OR alkphos = <59.50, 63) OR alkphos = <69.50, 72) OR alkphos = <93.50, 101)) AND #(gammagt = <17.50, 21) OR gammagt = <10.50, 13) OR gammagt = <26.50, 30) OR gammagt = <32.50, 36)) THEN class = {1} (p=18.0, n=0.0, P=130.0, N=180.0)
+r15: IF #(alkphos = <65.50, 68) OR alkphos = <52.50, 55) OR alkphos = <78.50, 84) OR alkphos = <59.50, 63) OR alkphos = <69.50, 72) OR alkphos = <93.50, 101)) AND gammagt = <113, 169) THEN class = {1} (p=3.0, n=0.0, P=130.0, N=180.0)
+r16: IF #(sgot = <11.50, 15) OR sgot = <30.50, 33)) AND #(alkphos = <75.50, 84) OR alkphos = <47.50, 61) OR alkphos = <65.50, 73)) THEN class = {1} (p=14.0, n=0.0, P=130.0, N=180.0)
+r17: IF #(alkphos = <65.50, 69) OR alkphos = <52.50, 55) OR alkphos = <59.50, 63) OR alkphos = <69.50, 72) OR alkphos = <76.50, 86) OR alkphos = <104.50, 117)) AND gammagt = <10.50, 13) THEN class = {1} (p=5.0, n=0.0, P=130.0, N=180.0)
+r18: IF #(alkphos = <65.50, 69) OR alkphos = <52.50, 55) OR alkphos = <59.50, 63) OR alkphos = <69.50, 72) OR alkphos = <74.50, 81)) AND #(gammagt = <14.50, 17) OR gammagt = <41.50, 53)) THEN class = {1} (p=8.0, n=0.0, P=130.0, N=180.0)
+r19: IF #(alkphos = <65.50, 69) OR alkphos = <52.50, 55) OR alkphos = <69.50, 72)) AND #(drinks = <5.50, 10) OR drinks = <1.50, 4)) THEN class = {1} (p=16.0, n=0.0, P=130.0, N=180.0)
+r20: IF #(gammagt = (-inf, 12.50) OR gammagt = <13.50, 16) OR gammagt = <17.50, 21) OR gammagt = <26.50, 29) OR gammagt = <30.50, 33) OR gammagt = <39.50, 43)) AND sgpt = <25.50, 29) THEN class = {1} (p=15.0, n=0.0, P=130.0, N=180.0)
+r21: IF #(gammagt = (-inf, 12.50) OR gammagt = <13.50, 16) OR gammagt = <17.50, 21) OR gammagt = <26.50, 29) OR gammagt = <30.50, 33)) AND alkphos = <72.50, 75) THEN class = {1} (p=2.0, n=0.0, P=130.0, N=180.0)
+r22: IF #(alkphos = <65.50, 72) OR alkphos = <76.50, 88) OR alkphos = <59.50, 64) OR alkphos = <93.50, 117)) AND sgpt = <15.50, 21) AND gammagt = <17.50, 21) THEN class = {1} (p=5.0, n=0.0, P=130.0, N=180.0)
+r23: IF #(alkphos = <65.50, 72) OR alkphos = <76.50, 88) OR alkphos = <59.50, 64) OR alkphos = <93.50, 117)) AND mcv = <83.50, inf) AND sgot = <17.50, 20) THEN class = {1} (p=12.0, n=0.0, P=130.0, N=180.0)
+r24: IF sgpt = <41.50, 46) AND gammagt = <18, 85) THEN class = {1} (p=6.0, n=0.0, P=130.0, N=180.0)
+r25: IF sgpt > gammagt AND sgpt > sgot AND drinks = <7, inf) THEN class = {1} (p=9.0, n=0.0, P=130.0, N=180.0)
+r26: IF sgpt > gammagt AND drinks = (-inf, 3) AND sgpt = <30.50, 33) THEN class = {1} (p=7.0, n=0.0, P=130.0, N=180.0)
+r27: IF sgpt > gammagt AND #(sgpt = <30.50, 35) OR sgpt = <24.50, 29)) AND sgot = <14.50, 22) THEN class = {1} (p=23.0, n=0.0, P=130.0, N=180.0)
+r28: IF sgpt > gammagt AND drinks = <5.50, inf) AND sgpt = <21.50, 41) THEN class = {1} (p=9.0, n=0.0, P=130.0, N=180.0)
+r29: IF sgpt > gammagt AND mcv = <88.50, 92) AND drinks = <2.50, inf) AND sgpt = (-inf, 29.50) THEN class = {1} (p=10.0, n=0.0, P=130.0, N=180.0)
+r30: IF #(gammagt != <20.50, 114) OR gammagt = <25.50, 36)) AND sgpt > sgot AND mcv = (-inf, 94.50) AND alkphos = <64.50, 95) AND gammagt = (-inf, 123) THEN class = {1} (p=39.0, n=6.0, P=130.0, N=180.0)
+r31: IF mcv = <90.50, 94) AND sgot = <10, 24) AND alkphos = (-inf, 62.50) AND gammagt = <34, 81) THEN class = {1} (p=5.0, n=0.0, P=130.0, N=180.0)
+r32: IF #(gammagt = <42.50, 50) OR gammagt = <142.50, 201) OR gammagt = <58, 64) OR gammagt = <65.50, 73) OR gammagt = <100.50, 108) OR gammagt = <214, inf)) THEN class = {2} (p=29.0, n=0.0, P=180.0, N=130.0)
+r33: IF #(sgpt != <9.50, 113) OR sgpt = <13.50, 17) OR sgpt = <51.50, 55)) AND sgot = <14.50, inf) THEN class = {2} (p=32.0, n=0.0, P=180.0, N=130.0)
+r34: IF #(alkphos = <44.50, 47) OR alkphos = <116.50, 123)) THEN class = {2} (p=9.0, n=0.0, P=180.0, N=130.0)
+r35: IF mcv != <71.50, 100) THEN class = {2} (p=6.0, n=0.0, P=180.0, N=130.0)
+r36: IF alkphos = gammagt THEN class = {2} (p=2.0, n=0.0, P=180.0, N=130.0)
+r37: IF gammagt = <83, 89) THEN class = {2} (p=2.0, n=0.0, P=180.0, N=130.0)
+r38: IF #(gammagt = <42.50, 52) OR gammagt = <52.50, 56)) AND sgot = <19.50, inf) THEN class = {2} (p=23.0, n=0.0, P=180.0, N=130.0)
+r39: IF drinks = (-inf, 7.50) AND alkphos = <43.50, 47) THEN class = {2} (p=10.0, n=0.0, P=180.0, N=130.0)
+r40: IF #(alkphos = <44.50, 48) OR alkphos = <48.50, 51) OR alkphos = <71.50, 75) OR alkphos = <54.50, 60) OR alkphos = <87.50, 92)) AND #(gammagt = <42.50, inf) OR gammagt = <28.50, 42) OR gammagt = <12.50, 15) OR gammagt = <25.50, 28)) THEN class = {2} (p=46.0, n=0.0, P=180.0, N=130.0)
+r41: IF #(gammagt = <36, inf) OR gammagt = <18.50, 27) OR gammagt = <28, 33) OR gammagt = <7.50, 10)) AND drinks = <3.50, 6) THEN class = {2} (p=40.0, n=0.0, P=180.0, N=130.0)
+r42: IF drinks = <3.50, 6) AND alkphos = <37.50, 54) THEN class = {2} (p=14.0, n=0.0, P=180.0, N=130.0)
+r43: IF #(sgot = <14.50, 22) OR sgot = <25, inf)) AND sgpt = <11.50, 17) THEN class = {2} (p=21.0, n=0.0, P=180.0, N=130.0)
+r44: IF #(gammagt = <22.50, 25) OR gammagt = <36.50, 40) OR gammagt = <42.50, 89) OR gammagt = <28.50, 31)) AND #(sgpt = <12.50, 29) OR sgpt = <32.50, 37)) AND alkphos = (-inf, 104) THEN class = {2} (p=43.0, n=0.0, P=180.0, N=130.0)
+r45: IF alkphos = <55, inf) AND gammagt = <22.50, 25) THEN class = {2} (p=11.0, n=0.0, P=180.0, N=130.0)
+r46: IF #(alkphos = <48.50, 51) OR alkphos = <54.50, 60) OR alkphos = <71.50, 75)) AND #(mcv = (-inf, 86.50) OR mcv = <92.50, 95)) THEN class = {2} (p=20.0, n=0.0, P=180.0, N=130.0)
+r47: IF sgpt < sgot AND alkphos = <71.50, 75) THEN class = {2} (p=5.0, n=0.0, P=180.0, N=130.0)
+r48: IF #(gammagt = <35.50, 56) OR gammagt = <21.50, 26)) AND alkphos = <62.50, 70) THEN class = {2} (p=8.0, n=0.0, P=180.0, N=130.0)
+r49: IF #(gammagt = <35.50, 56) OR gammagt = <21.50, 26)) AND sgot = <26.50, 29) THEN class = {2} (p=7.0, n=0.0, P=180.0, N=130.0)
+r50: IF #(sgpt < sgot OR sgot = <23.50, 29)) AND gammagt = <20.50, 31) THEN class = {2} (p=25.0, n=0.0, P=180.0, N=130.0)
+r51: IF #(sgpt < sgot OR sgot = <23.50, 29)) AND alkphos = <44, 60) AND sgot = <21.50, inf) AND sgpt = <13.50, inf) THEN class = {2} (p=24.0, n=0.0, P=180.0, N=130.0)
+r52: IF #(sgpt < sgot OR sgot = <23.50, 29)) AND alkphos = (-inf, 66.50) AND sgpt = <13.50, 20) THEN class = {2} (p=20.0, n=0.0, P=180.0, N=130.0)
+r53: IF #(sgpt < sgot OR sgot = <23.50, 29)) AND sgot = <14.50, 26) AND alkphos = <75.50, 83) THEN class = {2} (p=6.0, n=0.0, P=180.0, N=130.0)
+r54: IF mcv = (-inf, 89.50) AND sgot = <21.50, 27) AND sgpt = <13.50, 25) AND gammagt = <8, inf) THEN class = {2} (p=15.0, n=0.0, P=180.0, N=130.0)
+r55: IF mcv = <84.50, 87) AND sgot = <9.50, 16) THEN class = {2} (p=4.0, n=0.0, P=180.0, N=130.0)
+r56: IF sgpt < gammagt AND drinks = <0.75, 6) AND alkphos = <63.50, 80) AND sgot = <16.50, inf) THEN class = {2} (p=17.0, n=0.0, P=180.0, N=130.0)
+r57: IF mcv != <86.50, 100) AND gammagt = <18.50, 26) THEN class = {2} (p=10.0, n=0.0, P=180.0, N=130.0)
+r58: IF alkphos = <54.50, 102) AND alkphos != <59.50, 97) AND sgpt = <36.50, 57) THEN class = {2} (p=7.0, n=0.0, P=180.0, N=130.0)

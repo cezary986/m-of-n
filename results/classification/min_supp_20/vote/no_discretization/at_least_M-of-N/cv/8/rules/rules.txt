@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.8665814807690545
+r2: 0.8636936734519038
+r3: 0.8572953019519478
+r4: 0.8507460635871507
+r5: 0.8444566867541765
+r6: 0.9472976315052652
+r7: 0.8107673554302073
+r8: 0.7860563668354532
+r9: 0.8174668589510702
+r10: 0.8062920152585179
+r11: 0.7749113791871617
+________________________________
+r1: IF physician-fee-freeze != {n} = {0} AND education-spending != {y} = {1} AND synfuels-corporation-cutback != {y} = {0} THEN class = {republican} (p=118.0, n=2.0, P=151.0, N=241.0)
+r2: IF physician-fee-freeze != {n} = {0} AND synfuels-corporation-cutback != {y} = {0} THEN class = {republican} (p=130.0, n=6.0, P=151.0, N=241.0)
+r3: IF physician-fee-freeze != {n} = {0} AND education-spending != {y} = {1} AND 2-of-3(aid-to-nicaraguan-contras != physician-fee-freeze, adoption-of-the-budget-resolution != {n}, physician-fee-freeze != adoption-of-the-budget-resolution) = {1} THEN class = {republican} (p=122.0, n=4.0, P=151.0, N=241.0)
+r4: IF physician-fee-freeze != {n} = {0} AND education-spending != {y} = {1} THEN class = {republican} (p=135.0, n=9.0, P=151.0, N=241.0)
+r5: IF physician-fee-freeze != {n} = {0} AND 2-of-3(aid-to-nicaraguan-contras != physician-fee-freeze, education-spending != {y}, physician-fee-freeze != adoption-of-the-budget-resolution) = {1} THEN class = {republican} (p=136.0, n=10.0, P=151.0, N=241.0)
+r6: IF physician-fee-freeze != {n} = {1} THEN class = {democrat} (p=221.0, n=1.0, P=241.0, N=151.0)
+r7: IF el-salvador-aid != {n} = {1} AND 2-of-3(aid-to-nicaraguan-contras != physician-fee-freeze, el-salvador-aid != {n}, physician-fee-freeze != adoption-of-the-budget-resolution) = {1} THEN class = {democrat} (p=174.0, n=4.0, P=241.0, N=151.0)
+r8: IF el-salvador-aid != {n} = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=163.0, n=4.0, P=241.0, N=151.0)
+r9: IF adoption-of-the-budget-resolution != {n} = {0} AND 2-of-3(aid-to-nicaraguan-contras != physician-fee-freeze, el-salvador-aid != {n}, physician-fee-freeze != anti-satellite-test-ban) = {1} THEN class = {democrat} (p=177.0, n=4.0, P=241.0, N=151.0)
+r10: IF physician-fee-freeze != anti-satellite-test-ban = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=172.0, n=4.0, P=241.0, N=151.0)
+r11: IF education-spending != {y} = {0} AND 2-of-3(aid-to-nicaraguan-contras != physician-fee-freeze, physician-fee-freeze != {n}, superfund-right-to-sue != adoption-of-the-budget-resolution) = {1} THEN class = {democrat} (p=169.0, n=6.0, P=241.0, N=151.0)

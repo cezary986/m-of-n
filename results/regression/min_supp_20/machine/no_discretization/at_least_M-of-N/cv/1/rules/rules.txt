@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.7073964721023546
+r2: 0.4536099390529771
+r3: 0.5602447726143702
+r4: 0.6547409200968523
+r5: 0.7599643273650272
+r6: 0.6890117938701923
+r7: 0.48520351008215107
+r8: 0.45342175066313006
+r9: 0.6330208333333331
+r10: 0.46048169761273217
+r11: 0.7389745670995671
+________________________________
+r1: IF 2-of-3(CACH != <0.50, 4), CHMAX != <11, 15), MMIN != <2150, 3100)) = {1} AND CACH > CHMIN = {0} THEN class = {0.017} [-0.015,0.05] (p=65.0, n=3.0, P=111.0, N=77.0)
+r2: IF MMAX = <5000, inf) = {0} AND CHMIN != <3.50, 6) = {1} AND MYCT < MMIN = {1} AND CACH < CHMIN = {0} AND CACH < CHMAX = {1} THEN class = {0.028} [0.023,0.033] (p=7.0, n=2.0, P=30.0, N=158.0)
+r3: IF MMAX = <5000, inf) = {0} AND CACH > CHMIN = {1} AND MYCT > CACH = {1} THEN class = {0.02} [0.0094,0.031] (p=20.0, n=2.0, P=66.0, N=122.0)
+r4: IF CACH = <20, inf) = {0} THEN class = {0.024} [-0.0054,0.054] (p=110.0, n=15.0, P=118.0, N=70.0)
+r5: IF MYCT != <56.50, 60) = {1} AND MYCT != <34, 50) = {1} AND MMIN < MMAX = {1} AND MMAX = <14000, inf) = {0} AND MYCT != <65, 84) = {1} THEN class = {0.023} [-0.017,0.062] (p=107.0, n=6.0, P=129.0, N=59.0)
+r6: IF CACH != <44, 128) = {1} AND CACH = (-inf, 144) = {1} AND MYCT != <34, 50) = {1} AND MMAX != <2500, 4000) = {1} AND CACH = <28, 64) = {0} THEN class = {0.025} [-0.07,0.12] (p=123.0, n=5.0, P=156.0, N=32.0)
+r7: IF CACH != <44, 128) = {1} AND CACH > CHMAX = {0} THEN class = {0.024} [-0.081,0.13] (p=96.0, n=7.0, P=156.0, N=32.0)
+r8: IF MMIN < MMAX = {1} AND MYCT > CHMAX = {1} AND MMAX != <2500, 4000) = {1} AND MYCT > CACH = {0} THEN class = {0.18} [0.056,0.30] (p=16.0, n=4.0, P=58.0, N=130.0)
+r9: IF CACH = <44, inf) = {0} AND CHMAX != <11, 15) = {1} AND MYCT > CACH = {1} AND MYCT != <119, 160) = {1} THEN class = {0.026} [-0.0095,0.062] (p=108.0, n=12.0, P=128.0, N=60.0)
+r10: IF MYCT = <56.50, inf) = {1} AND MYCT > CHMAX = {1} THEN class = {0.026} [-0.013,0.066] (p=106.0, n=19.0, P=130.0, N=58.0)
+r11: IF CHMIN != <3.50, 6) = {1} AND MYCT = <56.50, inf) = {0} AND MMIN = <387, 2000) = {0} AND MYCT > CACH = {0} AND CACH > CHMAX = {1} AND CHMAX != <11, 20) = {1} THEN class = {0.35} [0.25,0.44] (p=11.0, n=3.0, P=12.0, N=176.0)

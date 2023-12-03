@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999999999931
+r2: 0.9999628032100613
+r3: 0.9999999999921003
+r4: 0.9996800053961973
+r5: 0.9999999785580997
+r6: 0.9999998707118187
+r7: 0.9999774361348015
+________________________________
+r1: IF thick != <7.25, 7.89) AND thick != <2.17, 2.58) AND thick != <8.22, 12.24) AND age != <55.50, 58) AND thick = (-inf, 12.56) AND thick != <3.55, 7.06) AND age = <63.50, 66) THEN  (p=105.0, n=0.0, P=184.0, N=0.0)
+r2: IF ici < thick AND age != <35.50, 48) AND ici = <0.50, inf) THEN  (p=75.0, n=0.0, P=184.0, N=0.0)
+r3: IF thick != <1.32, 1.45) AND age != <56.50, 59) AND thick = (-inf, 2.90) AND age = <64.50, 66) AND thick != <2.17, 2.58) THEN  (p=80.0, n=0.0, P=184.0, N=0.0)
+r4: IF age != <40, 45) AND age = (-inf, 58.50) AND age != <54.50, 57) AND thick = (-inf, 0.89) THEN  (p=27.0, n=0.0, P=184.0, N=0.0)
+r5: IF ici < thick AND age != <37.50, 42) AND thick = <2.09, inf) THEN  (p=80.0, n=0.0, P=184.0, N=0.0)
+r6: IF age = (-inf, 67) AND thick = (-inf, 2.02) THEN  (p=86.0, n=0.0, P=184.0, N=0.0)
+r7: IF thick != <0.89, 1.62) AND age != <20, 70) THEN  (p=27.0, n=0.0, P=184.0, N=0.0)

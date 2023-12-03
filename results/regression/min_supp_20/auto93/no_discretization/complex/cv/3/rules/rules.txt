@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.5703247261345854
+r2: 0.8650055141990626
+r3: 0.5665445665445665
+r4: 0.25546695020379234
+r5: 0.8389786756453423
+r6: 0.5408219178082192
+r7: 0.40184200157604416
+r8: 0.3419117647058824
+r9: 0.5658315565031983
+________________________________
+r1: IF City_MPG > Rear_seat_room AND Fuel_tank_capacity = <12.60, 15.20) AND Engine_revolutions_per_mile = (-inf, 2625) THEN class = {0.077} [0.053,0.10] (p=5.0, n=1.0, P=12.0, N=71.0)
+r2: IF Engine_revolutions_per_mile != <2840, 2910) AND Weight = (-inf, 2780) THEN class = {0.068} [-0.003,0.14] (p=26.0, n=1.0, P=31.0, N=52.0)
+r3: IF Number_of_cylinders < Passenger_capacity AND Highway_MPG > Rear_seat_room AND Length != <157, 172) AND Engine_revolutions_per_mile = (-inf, 3080) AND Rear_seat_room = (-inf, 27) AND Weight = <1770, 2850) AND RPM = (-inf, 6250) THEN class = {0.072} [0.048,0.095] (p=7.0, n=2.0, P=13.0, N=70.0)
+r4: IF Domestic != Manual_transmission_available AND Horsepower = <132, inf) THEN class = {0.24} [0.11,0.38] (p=23.0, n=10.0, P=45.0, N=38.0)
+r5: IF Manual_transmission_available != {0} AND Weight = <2697.50, 2885) THEN class = {0.068} [-0.015,0.15] (p=26.0, n=1.0, P=33.0, N=50.0)
+r6: IF Drive_train_type = Air_Bags_standard AND City_MPG < Rear_seat_room AND Domestic != Manual_transmission_available AND Engine_revolutions_per_mile < Weight AND Number_of_cylinders < Passenger_capacity THEN class = {0.16} [0.15,0.18] (p=4.0, n=1.0, P=10.0, N=73.0)
+r7: IF Drive_train_type != Air_Bags_standard AND City_MPG < Rear_seat_room AND Horsepower > Wheelbase AND Engine_size = <2.05, inf) AND Length = (-inf, 181.50) THEN class = {0.22} [0.12,0.32] (p=5.0, n=1.0, P=36.0, N=47.0)
+r8: IF Number_of_cylinders > Passenger_capacity AND Drive_train_type != Air_Bags_standard AND Width = (-inf, 74.50) THEN class = {0.56} [0.30,0.82] (p=5.0, n=3.0, P=17.0, N=66.0)
+r9: IF City_MPG < Rear_seat_room AND Engine_revolutions_per_mile < Weight AND Highway_MPG > Rear_seat_room AND Horsepower > Wheelbase AND Fuel_tank_capacity != <16.70, 22.50) AND Engine_revolutions_per_mile != <2262.50, 2505) THEN class = {0.16} [0.12,0.19] (p=6.0, n=1.0, P=16.0, N=67.0)

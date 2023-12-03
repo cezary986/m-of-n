@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999995162028
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 0.9999999999910534
+r6: 1.0
+________________________________
+r1: IF IV < NDT = {0} AND NDT > IV3 = {1} AND HC > NDT = {1} THEN  (p=50.0, n=0.0, P=575.0, N=0.0)
+r2: IF SITE = IV3 = {1} AND TREAT > SITE = {1} THEN  (p=43.0, n=0.0, P=575.0, N=0.0)
+r3: IF TREAT > IV3 = {1} THEN  (p=61.0, n=0.0, P=575.0, N=0.0)
+r4: IF SITE < IV3 = {1} THEN  (p=326.0, n=0.0, P=575.0, N=0.0)
+r5: IF SITE = IV3 = {1} THEN  (p=212.0, n=0.0, P=575.0, N=0.0)
+r6: IF TREAT < LNDT = {1} AND TREAT = IV3 = {1} THEN  (p=83.0, n=0.0, P=575.0, N=0.0)

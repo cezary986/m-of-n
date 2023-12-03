@@ -1,0 +1,56 @@
+Rules qualities:
+r1: 0.625
+r2: 0.6666666666666666
+r3: 0.4861111111111111
+r4: 0.42499999999999993
+r5: 0.2073732718894009
+r6: 1.0
+r7: 0.33725274725274723
+r8: 0.4472402597402597
+r9: 0.3904761904761904
+r10: 0.6666666666666666
+r11: 0.4116950757575758
+r12: 0.75
+r13: 0.3696969696969697
+r14: 0.47076023391812866
+r15: 0.5418719211822659
+r16: 0.625
+r17: 0.6666666666666666
+r18: 0.4116950757575758
+r19: 0.3476430976430976
+r20: 0.625
+r21: 0.46732954545454547
+r22: 0.6666666666666666
+r23: 0.42539682539682533
+r24: 0.6666666666666666
+r25: 0.6666666666666666
+r26: 0.6666666666666666
+r27: 0.27777777777777773
+________________________________
+r1: IF age = <66, inf) THEN class = {0.18} [0.18,0.18] (p=2.0, n=0.0, P=8.0, N=68.0)
+r2: IF disease_type = {2} AND age = <58.50, inf) THEN class = {0.36} [0.36,0.36] (p=2.0, n=0.0, P=6.0, N=70.0)
+r3: IF disease_type = {2} AND sex = {2} AND status = <0.50, inf) THEN class = {0.96} [0.83,1.10] (p=2.0, n=1.0, P=4.0, N=72.0)
+r4: IF disease_type = {2} AND time = (-inf, 357) THEN class = {0.68} [0.35,1.01] (p=6.0, n=1.0, P=36.0, N=40.0)
+r5: IF time = <523.50, inf) THEN class = {0.071} [0.036,0.11] (p=1.0, n=1.0, P=14.0, N=62.0)
+r6: IF disease_type = {1} AND sex = {2} AND time = (-inf, 77) AND age = <54, 66) THEN class = {0.54} [0.54,0.54] (p=4.0, n=0.0, P=4.0, N=72.0)
+r7: IF sex = {2} AND time = (-inf, 36) AND age = (-inf, 54) AND status = <0.50, inf) THEN class = {0.57} [0.39,0.75] (p=5.0, n=2.0, P=26.0, N=50.0)
+r8: IF disease_type = {1} AND sex = {2} AND time = (-inf, 41) AND age = (-inf, 59) THEN class = {0.43} [0.28,0.58] (p=6.0, n=1.0, P=32.0, N=44.0)
+r9: IF disease_type = {1} AND time = <41, 148.50) AND status = <0.50, inf) THEN class = {0.43} [0.30,0.56] (p=4.0, n=1.0, P=28.0, N=48.0)
+r10: IF disease_type = {0} AND sex = {2} AND age = <51, 55) AND status = <0.50, inf) THEN class = {0.46} [0.46,0.46] (p=2.0, n=0.0, P=6.0, N=70.0)
+r11: IF disease_type = {0} AND sex = {2} AND time = (-inf, 173) AND status = <0.50, inf) THEN class = {0.46} [0.31,0.62] (p=5.0, n=1.0, P=32.0, N=44.0)
+r12: IF disease_type = {3} AND age = <52, inf) THEN class = {0.21} [0.21,0.21] (p=2.0, n=0.0, P=4.0, N=72.0)
+r13: IF disease_type = {3} AND sex = {2} AND time = (-inf, 215) AND age = <19, 39) AND status = <0.50, inf) THEN class = {0.71} [0.55,0.88] (p=2.0, n=1.0, P=10.0, N=66.0)
+r14: IF sex = {2} AND time = <69, 305) AND age = (-inf, 52) AND status = <0.50, inf) THEN class = {0.32} [0.17,0.47] (p=8.0, n=1.0, P=38.0, N=38.0)
+r15: IF time = <305, inf) THEN class = {0.11} [0.062,0.15] (p=6.0, n=1.0, P=18.0, N=58.0)
+r16: IF disease_type = {0} AND age = <52.50, inf) AND status = (-inf, 0.50) THEN class = {0.11} [0.11,0.11] (p=2.0, n=0.0, P=8.0, N=68.0)
+r17: IF disease_type = {1} AND age = (-inf, 42.50) AND status = (-inf, 0.50) THEN class = {0.071} [0.071,0.071] (p=2.0, n=0.0, P=6.0, N=70.0)
+r18: IF time = <25.50, 154) AND status = (-inf, 0.50) THEN class = {0.18} [0.059,0.30] (p=5.0, n=1.0, P=32.0, N=44.0)
+r19: IF sex = {2} AND age = (-inf, 50.50) THEN class = {0.29} [0.11,0.46] (p=23.0, n=10.0, P=36.0, N=40.0)
+r20: IF disease_type = {1} AND sex = {1} AND age = (-inf, 51.50) THEN class = {0.18} [0.18,0.18] (p=2.0, n=0.0, P=8.0, N=68.0)
+r21: IF disease_type = {1} AND time = <15, 268.50) AND age = (-inf, 66) AND status = <0.50, inf) THEN class = {0.43} [0.28,0.58] (p=10.0, n=2.0, P=32.0, N=44.0)
+r22: IF sex = {1} AND age = <52.50, 53.50) THEN class = {0.46} [0.46,0.46] (p=2.0, n=0.0, P=6.0, N=70.0)
+r23: IF disease_type = {0} AND sex = {1} AND time = (-inf, 11) THEN class = {1} [0.75,1.25] (p=2.0, n=1.0, P=6.0, N=70.0)
+r24: IF sex = {1} AND time = <12, inf) AND age = <49.50, 52.50) THEN class = {0.071} [0.071,0.071] (p=2.0, n=0.0, P=6.0, N=70.0)
+r25: IF disease_type = {3} AND sex = {1} AND age = <30, inf) THEN class = {0.36} [0.36,0.36] (p=2.0, n=0.0, P=6.0, N=70.0)
+r26: IF sex = {1} AND age = (-inf, 19) THEN class = {0.46} [0.46,0.46] (p=2.0, n=0.0, P=6.0, N=70.0)
+r27: IF time = (-inf, 157.50) AND age = <25, 31) THEN class = {0.75} [0.46,1.04] (p=2.0, n=1.0, P=24.0, N=52.0)

@@ -1,0 +1,94 @@
+Rules qualities:
+r1: 0.8125
+r2: 0.6666666666666666
+r3: 0.6458333333333334
+r4: 0.6041666666666666
+r5: 0.5833333333333334
+r6: 0.5918367346938775
+r7: 0.5714285714285714
+r8: 0.5510204081632653
+r9: 0.7346938775510204
+r10: 0.7551020408163265
+r11: 0.5204081632653061
+r12: 0.5204081632653061
+r13: 0.5816326530612245
+r14: 0.7755102040816326
+r15: 0.7448979591836735
+r16: 0.6583846236907462
+r17: 0.6071428571428571
+r18: 0.5535714285714286
+r19: 0.5357142857142857
+r20: 0.6071428571428571
+r21: 0.6428571428571428
+r22: 0.6428571428571428
+r23: 0.5535714285714286
+r24: 0.5357142857142857
+r25: 0.6071428571428571
+r26: 0.5983606557377049
+r27: 0.5819672131147541
+r28: 0.5491803278688525
+r29: 0.5491803278688525
+r30: 0.5409836065573771
+r31: 0.5409836065573771
+r32: 0.5327868852459017
+r33: 0.5327868852459017
+r34: 0.5327868852459017
+r35: 0.6147540983606558
+r36: 0.5245901639344263
+r37: 0.5245901639344263
+r38: 0.5737704918032787
+r39: 0.5573770491803278
+r40: 0.7716562497807895
+r41: 0.631578947368421
+r42: 0.6052631578947368
+r43: 0.6842105263157895
+r44: 0.6842105263157895
+r45: 0.6857909235899666
+r46: 1.0
+________________________________
+r1: IF length = (-inf, 175.85) = {1} AND height = <48.30, 50.50) = {1} THEN class = {3} (p=15.0, n=0.0, P=24.0, N=160.0)
+r2: IF length = <168.75, 169.10) = {1} THEN class = {3} (p=8.0, n=0.0, P=24.0, N=160.0)
+r3: IF normalized-losses = <149, 154) = {1} THEN class = {3} (p=7.0, n=0.0, P=24.0, N=160.0)
+r4: IF body-style = {convertible} = {1} THEN class = {3} (p=5.0, n=0.0, P=24.0, N=160.0)
+r5: IF normalized-losses = <193, 231) = {1} THEN class = {3} (p=4.0, n=0.0, P=24.0, N=160.0)
+r6: IF curb-weight = <1944.50, 2008) = {1} THEN class = {1} (p=9.0, n=0.0, P=49.0, N=135.0)
+r7: IF curb-weight = <1828, 1909) = {1} THEN class = {1} (p=7.0, n=0.0, P=49.0, N=135.0)
+r8: IF normalized-losses = <153.50, 161) = {1} THEN class = {1} (p=5.0, n=0.0, P=49.0, N=135.0)
+r9: IF width = <63.70, 64.10) = {1} AND stroke = <2.84, 3.40) = {1} AND body-style != {hardtop} = {0} THEN class = {1} (p=23.0, n=0.0, P=49.0, N=135.0)
+r10: IF width = <63.70, 64.10) = {1} AND normalized-losses > engine-size = {1} AND curb-weight = (-inf, 1828) = {0} AND wheel-base = <96.40, 97.30) = {0} AND normalized-losses > length = {0} THEN class = {1} (p=25.0, n=0.0, P=49.0, N=135.0)
+r11: IF length = <178.30, 180.20) = {1} THEN class = {1} (p=2.0, n=0.0, P=49.0, N=135.0)
+r12: IF width = <71.85, inf) = {1} THEN class = {1} (p=2.0, n=0.0, P=49.0, N=135.0)
+r13: IF normalized-losses = <123.50, 134) = {1} AND curb-weight = <2535, inf) = {0} THEN class = {1} (p=8.0, n=0.0, P=49.0, N=135.0)
+r14: IF stroke = <2.84, 3.40) = {1} AND make != {isuzu} = {0} AND curb-weight = (-inf, 1828) = {0} AND curb-weight = <2535, inf) = {0} AND body-style != {hardtop} = {0} AND width != <64.05, 71.40) = {1} AND normalized-losses = <75.50, 83) = {0} THEN class = {1} (p=27.0, n=0.0, P=49.0, N=135.0)
+r15: IF bore = <2.61, 3.17) = {1} AND 2-of-3(engine-size > horsepower, wheel-base < engine-size, price = <5394, inf)) = {1} AND peak-rpm = <4900, 5800) = {1} AND normalized-losses > length = {0} AND normalized-losses = <75.50, 83) = {0} THEN class = {1} (p=24.0, n=0.0, P=49.0, N=135.0)
+r16: IF price = <8124, 11850) = {0} AND 2-of-3(curb-weight = (-inf, 3807.50), length = (-inf, 175.85), engine-size > horsepower) = {1} AND normalized-losses < horsepower = {0} AND wheel-base = <97.25, 100.40) = {0} AND stroke = <3.17, 3.41) = {1} AND horsepower = <93, 100) = {0} AND make != {isuzu} = {0} AND wheel-base = <99.45, 102.40) = {0} AND height = <52.70, 53.10) = {0} AND normalized-losses > length = {0} AND horsepower = <175.50, 184) = {0} THEN class = {1} (p=20.0, n=1.0, P=49.0, N=135.0)
+r17: IF length = <175.95, 176.80) = {1} THEN class = {2} (p=6.0, n=0.0, P=28.0, N=156.0)
+r18: IF curb-weight = (-inf, 1828) = {1} THEN class = {2} (p=3.0, n=0.0, P=28.0, N=156.0)
+r19: IF price = <15145, 15580) = {1} THEN class = {2} (p=2.0, n=0.0, P=28.0, N=156.0)
+r20: IF length = <170.95, 172) = {1} AND curb-weight = <2535, inf) = {0} THEN class = {2} (p=6.0, n=0.0, P=28.0, N=156.0)
+r21: IF price = (-inf, 16677.50) = {1} AND length = <175.95, 177.80) = {1} THEN class = {2} (p=8.0, n=0.0, P=28.0, N=156.0)
+r22: IF wheel-base = <97.25, 100.40) = {1} AND normalized-losses = (-inf, 109.50) = {1} THEN class = {2} (p=8.0, n=0.0, P=28.0, N=156.0)
+r23: IF normalized-losses = <79.50, 85) = {1} AND bore = <2.61, 3.17) = {0} THEN class = {2} (p=3.0, n=0.0, P=28.0, N=156.0)
+r24: IF price = (-inf, 6209) = {1} AND make != {mitsubishi} = {1} THEN class = {2} (p=2.0, n=0.0, P=28.0, N=156.0)
+r25: IF price = <8124, 11850) = {1} AND compression-ratio = <9.15, 9.41) = {1} AND engine-size > horsepower = {1} THEN class = {2} (p=6.0, n=0.0, P=28.0, N=156.0)
+r26: IF horsepower = <93, 100) = {1} THEN class = {0} (p=12.0, n=0.0, P=61.0, N=123.0)
+r27: IF height = <52.70, 53.10) = {1} THEN class = {0} (p=10.0, n=0.0, P=61.0, N=123.0)
+r28: IF height = <55, 55.40) = {1} THEN class = {0} (p=6.0, n=0.0, P=61.0, N=123.0)
+r29: IF horsepower = <77, 84) = {1} THEN class = {0} (p=6.0, n=0.0, P=61.0, N=123.0)
+r30: IF length = <174.80, 175.60) = {1} THEN class = {0} (p=5.0, n=0.0, P=61.0, N=123.0)
+r31: IF 2-of-3(curb-weight = (-inf, 3807.50), length = (-inf, 175.85), price = <5394, inf)) = {0} THEN class = {0} (p=5.0, n=0.0, P=61.0, N=123.0)
+r32: IF curb-weight = <2277.50, 2293) = {1} THEN class = {0} (p=4.0, n=0.0, P=61.0, N=123.0)
+r33: IF horsepower = <175.50, 184) = {1} THEN class = {0} (p=4.0, n=0.0, P=61.0, N=123.0)
+r34: IF normalized-losses = <75.50, 83) = {1} THEN class = {0} (p=4.0, n=0.0, P=61.0, N=123.0)
+r35: IF wheel-base = <96.40, 97.30) = {1} AND num-of-doors != {two} = {0} THEN class = {0} (p=14.0, n=0.0, P=61.0, N=123.0)
+r36: IF curb-weight = <2417, 2460) = {1} THEN class = {0} (p=3.0, n=0.0, P=61.0, N=123.0)
+r37: IF curb-weight = <3090.50, 3139) = {1} THEN class = {0} (p=3.0, n=0.0, P=61.0, N=123.0)
+r38: IF wheel-base = <100.10, 102.40) = {1} AND curb-weight = <2535, inf) = {1} THEN class = {0} (p=9.0, n=0.0, P=61.0, N=123.0)
+r39: IF horsepower = <77, 88) = {1} AND normalized-losses = <98, 122) = {1} THEN class = {0} (p=7.0, n=0.0, P=61.0, N=123.0)
+r40: IF curb-weight = <1944.50, 2008) = {0} AND normalized-losses = (-inf, 75.50) = {0} AND compression-ratio = <9.15, 9.41) = {0} AND 2-of-3(engine-size > horsepower, price = (-inf, 16677.50), peak-rpm = <4300, inf)) = {1} AND make != {mitsubishi} = {0} AND length = <170.95, 172) = {0} AND num-of-doors != {two} = {0} AND horsepower = <113, 160) = {0} AND wheel-base = <102.20, 112) = {0} THEN class = {0} (p=37.0, n=1.0, P=61.0, N=123.0)
+r41: IF width = <68.60, 69.60) = {1} THEN class = {-1} (p=5.0, n=0.0, P=19.0, N=165.0)
+r42: IF horsepower = <122, 135) = {1} THEN class = {-1} (p=4.0, n=0.0, P=19.0, N=165.0)
+r43: IF normalized-losses = (-inf, 75.50) = {1} AND bore = <2.61, 3.17) = {0} THEN class = {-1} (p=7.0, n=0.0, P=19.0, N=165.0)
+r44: IF bore = <3.23, inf) = {1} AND body-style = {wagon} = {1} AND wheel-base = <102.20, 112) = {1} THEN class = {-1} (p=7.0, n=0.0, P=19.0, N=165.0)
+r45: IF stroke = <3.17, 3.41) = {0} AND num-of-doors != {two} = {0} AND horsepower = <113, 160) = {1} AND normalized-losses = <98, 122) = {0} THEN class = {-1} (p=10.0, n=1.0, P=19.0, N=165.0)
+r46: IF curb-weight = (-inf, 3275) = {1} AND height = <56.15, 56.50) = {1} THEN class = {-2} (p=3.0, n=0.0, P=3.0, N=181.0)

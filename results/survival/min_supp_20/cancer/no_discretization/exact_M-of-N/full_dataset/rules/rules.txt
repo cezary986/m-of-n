@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.9998707559988668
+r2: 0.9999739222774722
+r3: 0.9978136943839249
+r4: 0.9997868412574571
+________________________________
+r1: IF sex = (-inf, 1.50) = {0} AND wt.loss != <31.50, 39) = {1} AND sex < ph.karno = {1} AND wt.loss = (-inf, 50.50) = {1} THEN  (p=81.0, n=0.0, P=228.0, N=0.0)
+r2: IF sex = (-inf, 1.50) = {1} AND ph.ecog = (-inf, 0.50) = {0} THEN  (p=102.0, n=0.0, P=228.0, N=0.0)
+r3: IF ph.ecog = (-inf, 0.50) = {1} AND sex < ph.karno = {1} THEN  (p=62.0, n=0.0, P=228.0, N=0.0)
+r4: IF sex < wt.loss = {0} AND sex = (-inf, 1.50) = {0} THEN  (p=81.0, n=0.0, P=228.0, N=0.0)

@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.9999998949996383
+r2: 0.9687671501695685
+r3: 0.9999999896465547
+r4: 0.9999999999999374
+________________________________
+r1: IF CHF = MITYPE = {0} THEN  (p=320.0, n=0.0, P=433.0, N=0.0)
+r2: IF MIORD < MITYPE = {1} AND CHF = MITYPE = {1} AND SHO < CHF = {1} AND SEX = CHF = {0} THEN  (p=35.0, n=0.0, P=433.0, N=0.0)
+r3: IF CHF = MITYPE = {1} AND SEX < MITYPE = {0} THEN  (p=46.0, n=0.0, P=433.0, N=0.0)
+r4: IF SHO = MIORD = {0} AND CHF = MITYPE = {1} THEN  (p=46.0, n=0.0, P=433.0, N=0.0)

@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.8728813559322034
+r2: 0.8898305084745763
+r3: 0.9067796610169492
+r4: 0.9152542372881356
+r5: 0.9322033898305084
+r6: 0.9745762711864407
+r7: 0.9745762711864407
+r8: 0.8873239436619718
+r9: 0.8943661971830985
+r10: 0.8943661971830985
+r11: 0.852112676056338
+r12: 0.7253521126760564
+r13: 0.795774647887324
+r14: 0.8958333333333333
+r15: 0.9375
+r16: 0.90625
+________________________________
+r1: IF Proline = <987.50, inf) THEN class = {1} (p=44.0, n=0.0, P=59.0, N=119.0)
+r2: IF Proline = <953.50, inf) AND Alcalinity_of_ash = (-inf, 26.25) THEN class = {1} (p=46.0, n=0.0, P=59.0, N=119.0)
+r3: IF Color_intensity = <3.53, inf) AND Proline = <900.50, inf) THEN class = {1} (p=48.0, n=0.0, P=59.0, N=119.0)
+r4: IF Proline = <875, inf) AND Alcohol = <13.02, inf) THEN class = {1} (p=49.0, n=0.0, P=59.0, N=119.0)
+r5: IF Proline = <842.50, inf) AND Alcohol = <13.02, inf) THEN class = {1} (p=51.0, n=0.0, P=59.0, N=119.0)
+r6: IF Proline = <755, inf) AND Flavanoids = <2.30, inf) AND Alcalinity_of_ash = (-inf, 27.50) THEN class = {1} (p=56.0, n=0.0, P=59.0, N=119.0)
+r7: IF Proline = <679, inf) AND Alcohol = <13.02, inf) AND Flavanoids = <2.31, inf) THEN class = {1} (p=56.0, n=0.0, P=59.0, N=119.0)
+r8: IF Color_intensity = (-inf, 3.46) THEN class = {2} (p=55.0, n=0.0, P=71.0, N=107.0)
+r9: IF Color_intensity = (-inf, 3.82) AND Proline = (-inf, 790) THEN class = {2} (p=56.0, n=0.0, P=71.0, N=107.0)
+r10: IF Color_intensity = (-inf, 3.95) AND Proline = (-inf, 719) THEN class = {2} (p=56.0, n=0.0, P=71.0, N=107.0)
+r11: IF Alcohol = (-inf, 12.44) AND Flavanoids = <0.96, inf) THEN class = {2} (p=50.0, n=0.0, P=71.0, N=107.0)
+r12: IF Proline = (-inf, 468) AND Hue = <0.65, inf) THEN class = {2} (p=32.0, n=0.0, P=71.0, N=107.0)
+r13: IF Proline = (-inf, 517.50) AND OD280/OD315_of_diluted_wines = <1.92, inf) THEN class = {2} (p=42.0, n=0.0, P=71.0, N=107.0)
+r14: IF Flavanoids = (-inf, 0.98) AND Alcalinity_of_ash = <14.05, inf) THEN class = {3} (p=38.0, n=0.0, P=48.0, N=130.0)
+r15: IF Color_intensity = <3.56, inf) AND Flavanoids = (-inf, 1.23) THEN class = {3} (p=42.0, n=0.0, P=48.0, N=130.0)
+r16: IF Hue = (-inf, 0.88) AND OD280/OD315_of_diluted_wines = (-inf, 1.92) THEN class = {3} (p=39.0, n=0.0, P=48.0, N=130.0)

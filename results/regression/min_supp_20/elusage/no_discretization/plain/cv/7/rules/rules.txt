@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.286764705882353
+r2: 0.4438669438669439
+r3: 0.28532608695652173
+r4: 0.3455008488964347
+r5: 0.7252747252747251
+r6: 0.4019138755980862
+________________________________
+r1: IF month = {5} THEN class = {0.16} [0.11,0.21] (p=2.0, n=1.0, P=16.0, N=34.0)
+r2: IF average_temperature = (-inf, 39.50) THEN class = {0.67} [0.48,0.85] (p=8.0, n=4.0, P=13.0, N=37.0)
+r3: IF average_temperature = (-inf, 76) AND month = {7} THEN class = {0.21} [0.18,0.24] (p=1.0, n=1.0, P=4.0, N=46.0)
+r4: IF month = {6} THEN class = {0.11} [0.059,0.17] (p=3.0, n=1.0, P=19.0, N=31.0)
+r5: IF average_temperature = <52.50, inf) THEN class = {0.15} [0.059,0.25] (p=24.0, n=4.0, P=24.0, N=26.0)
+r6: IF average_temperature = <40.50, inf) THEN class = {0.16} [-0.0033,0.32] (p=28.0, n=10.0, P=28.0, N=22.0)

@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.9999985868783545
+r2: 0.9999997171510935
+r3: 0.9999997684776447
+r4: 0.9999998805687565
+r5: 0.9999987253275775
+r6: 0.9999999997168216
+r7: 0.9999929003783302
+r8: 0.9999994046772877
+r9: 0.9999994041086419
+r10: 0.9999988969059878
+r11: 0.9999999946294506
+________________________________
+r1: IF thick = (-inf, 2.42) AND age = (-inf, 56) THEN  (p=60.0, n=0.0, P=184.0, N=0.0)
+r2: IF age = (-inf, 62.50) AND thick = (-inf, 2.10) THEN  (p=77.0, n=0.0, P=184.0, N=0.0)
+r3: IF thick = (-inf, 3.55) AND age = (-inf, 65) AND ici = (-inf, 2.50) THEN  (p=98.0, n=0.0, P=184.0, N=0.0)
+r4: IF age = (-inf, 74.50) AND thick = (-inf, 2.10) THEN  (p=95.0, n=0.0, P=184.0, N=0.0)
+r5: IF thick = (-inf, 2.18) THEN  (p=103.0, n=0.0, P=184.0, N=0.0)
+r6: IF age = (-inf, 70.50) AND thick = (-inf, 3.38) THEN  (p=121.0, n=0.0, P=184.0, N=0.0)
+r7: IF sex = {Female} AND ici = (-inf, 2.50) AND thick = (-inf, 5.00) AND age = (-inf, 53) THEN  (p=42.0, n=0.0, P=184.0, N=0.0)
+r8: IF ulcer = {not present} AND thick = (-inf, 12.16) AND age = (-inf, 74.50) THEN  (p=98.0, n=0.0, P=184.0, N=0.0)
+r9: IF sex = {Male} AND ici = <1.50, inf) AND thick = <2.74, inf) THEN  (p=30.0, n=0.0, P=184.0, N=0.0)
+r10: IF invasion = {level.1} AND epicel = {not present} AND ulcer = {present} AND thick = <2.28, 6.12) THEN  (p=22.0, n=0.0, P=184.0, N=0.0)
+r11: IF ulcer = {present} AND thick = <3.71, inf) THEN  (p=35.0, n=0.0, P=184.0, N=0.0)

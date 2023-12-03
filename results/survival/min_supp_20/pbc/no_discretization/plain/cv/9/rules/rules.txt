@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.9999999999999895
+r2: 0.9999996829774702
+r3: 1.0
+r4: 1.0
+________________________________
+r1: IF stage = <3.50, inf) THEN  (p=134.0, n=0.0, P=377.0, N=0.0)
+r2: IF sex = {f} AND copper = (-inf, 404) AND alk.phos = (-inf, 1775.50) AND protime = (-inf, 12.95) AND age = (-inf, 68.22) THEN  (p=152.0, n=0.0, P=377.0, N=0.0)
+r3: IF bili = <1.85, inf) THEN  (p=158.0, n=0.0, P=377.0, N=0.0)
+r4: IF bili = (-inf, 1.85) THEN  (p=219.0, n=0.0, P=377.0, N=0.0)

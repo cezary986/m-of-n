@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.6470588235294118
+r2: 0.8045267489711934
+r3: 0.5296296296296297
+r4: 0.37692307692307686
+r5: 0.5150501672240803
+r6: 0.8666666666666666
+r7: 0.62890625
+r8: 0.4166666666666667
+r9: 0.6049382716049383
+r10: 0.5278637770897833
+r11: 0.46875
+________________________________
+r1: IF RUN > TOTAL = {0} AND SPEED2 > SENS = {1} THEN class = {0.80} [0.79,0.80] (p=2.0, n=1.0, P=2.0, N=34.0)
+r2: IF 2-of-3(SPEED1 < SENS, TOTAL > SENS, RUN > SPEED1) = {1} AND TOTAL > TIME = {0} AND TOTAL > SENS = {1} AND 2-of-3(RUN != <22.50, 27), TIME = (-inf, 20.93), SPEED1 < SENS) = {0} THEN class = {0.80} [0.59,1.01] (p=8.0, n=1.0, P=9.0, N=27.0)
+r3: IF TOTAL > TIME = {1} AND RUN < TIME = {1} AND 2-of-3(RUN != <22.50, 27), TIME != <16.48, 22.39), SPEED1 < SENS) = {0} AND RUN > SPEED1 = {1} THEN class = {0.081} [0.055,0.11] (p=4.0, n=1.0, P=9.0, N=27.0)
+r4: IF RUN = <1.50, 38) = {1} AND TIME = <12.73, 18.54) = {0} AND TOTAL > TIME = {1} AND RUN < TIME = {1} AND 2-of-3(RUN != <22.50, 27), TIME != <16.48, 22.39), SPEED1 < SENS) = {0} THEN class = {0.093} [0.058,0.13] (p=4.0, n=2.0, P=10.0, N=26.0)
+r5: IF 2-of-3(SPEED1 < SENS, TOTAL > SENS, RUN > SPEED1) = {0} AND TOTAL > TIME = {1} AND 2-of-3(RUN != <22.50, 27), TIME != <16.48, 22.39), SPEED1 < SENS) = {0} THEN class = {0.10} [0.056,0.15] (p=9.0, n=3.0, P=13.0, N=23.0)
+r6: IF TOTAL > TIME = {0} AND RUN < TIME = {1} THEN class = {0.80} [0.58,1.02] (p=9.0, n=1.0, P=9.0, N=27.0)
+r7: IF 2-of-3(SPEED1 < SENS, TOTAL > SENS, RUN > SPEED1) = {1} AND TOTAL > TIME = {1} THEN class = {0.042} [0.023,0.061] (p=3.0, n=1.0, P=4.0, N=32.0)
+r8: IF 2-of-3(SPEED1 < SENS, TOTAL > SENS, RUN > SPEED1) = {1} AND TIME != <16.48, 22.39) = {1} THEN class = {0.78} [0.40,1.15] (p=9.0, n=7.0, P=9.0, N=27.0)
+r9: IF 2-of-3(SPEED1 < SENS, TOTAL > SENS, RUN > SPEED1) = {0} AND RUN = <6, 18) = {1} THEN class = {0.081} [0.055,0.11] (p=5.0, n=1.0, P=9.0, N=27.0)
+r10: IF 2-of-3(SPEED1 < SENS, TOTAL > SENS, RUN > SPEED1) = {0} THEN class = {0.10} [0.03,0.17] (p=14.0, n=4.0, P=17.0, N=19.0)
+r11: IF RUN > TOTAL = {1} AND 2-of-3(RUN != <22.50, 27), TIME = (-inf, 20.93), SPEED1 < SENS) = {1} THEN class = {0.33} [0.23,0.43] (p=2.0, n=1.0, P=4.0, N=32.0)

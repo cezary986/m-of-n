@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.47916666666666674
+r2: 0.521494708994709
+r3: 0.8070175438596491
+r4: 0.5482221596772682
+________________________________
+r1: IF average_temperature = (-inf, 54.50) = {0} THEN class = {0.15} [0.096,0.21] (p=18.0, n=9.0, P=18.0, N=32.0)
+r2: IF average_temperature != <35.50, 46) = {0} AND average_temperature = (-inf, 40.50) = {0} THEN class = {0.43} [0.29,0.57] (p=5.0, n=1.0, P=14.0, N=36.0)
+r3: IF average_temperature = (-inf, 54.50) = {1} AND average_temperature = (-inf, 40.50) = {0} AND average_temperature != <41.50, 45) = {1} THEN class = {0.43} [0.32,0.54] (p=10.0, n=1.0, P=12.0, N=38.0)
+r4: IF average_temperature = <25, 54) = {1} THEN class = {0.49} [0.31,0.67] (p=14.0, n=5.0, P=17.0, N=33.0)

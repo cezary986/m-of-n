@@ -1,0 +1,48 @@
+Rules qualities:
+r1: 0.7338709677419355
+r2: 0.6370967741935484
+r3: 0.4173387096774193
+r4: 0.6209677419354839
+r5: 0.5725806451612904
+r6: 0.564516129032258
+r7: 0.5564516129032258
+r8: 0.5403225806451613
+r9: 0.5564516129032258
+r10: 0.5483870967741935
+r11: 0.532258064516129
+r12: 0.5483870967741935
+r13: 0.5161290322580645
+r14: 0.5483870967741935
+r15: 0.5241935483870968
+r16: 0.532258064516129
+r17: 0.5161290322580645
+r18: 0.5403225806451613
+r19: 0.29838709677419356
+r20: 0.5241935483870968
+r21: 0.5403225806451613
+r22: 0.532258064516129
+r23: 0.2488479262672811
+________________________________
+r1: IF a5 = {1} THEN class = {True} (p=29.0, n=0.0, P=62.0, N=62.0)
+r2: IF a1 = {3} AND a2 = {3} THEN class = {True} (p=17.0, n=0.0, P=62.0, N=62.0)
+r3: IF a3 = {2} AND a4 = {1} AND a6 = {1} THEN class = {True} (p=7.0, n=1.0, P=62.0, N=62.0)
+r4: IF a1 = {2} AND a2 = {2} THEN class = {True} (p=15.0, n=0.0, P=62.0, N=62.0)
+r5: IF a1 = {1} AND a2 = {1} THEN class = {True} (p=9.0, n=0.0, P=62.0, N=62.0)
+r6: IF a1 = {1} AND a2 = {3} AND a5 = {4} THEN class = {False} (p=8.0, n=0.0, P=62.0, N=62.0)
+r7: IF a1 = {1} AND a3 = {1} AND a5 = {4} THEN class = {False} (p=7.0, n=0.0, P=62.0, N=62.0)
+r8: IF a1 = {1} AND a2 = {2} AND a5 = {4} THEN class = {False} (p=5.0, n=0.0, P=62.0, N=62.0)
+r9: IF a1 = {1} AND a2 = {2} AND a3 = {2} THEN class = {False} (p=7.0, n=0.0, P=62.0, N=62.0)
+r10: IF a1 = {1} AND a2 = {2} AND a5 = {3} THEN class = {False} (p=6.0, n=0.0, P=62.0, N=62.0)
+r11: IF a1 = {1} AND a2 = {2} AND a5 = {2} THEN class = {False} (p=4.0, n=0.0, P=62.0, N=62.0)
+r12: IF a1 = {1} AND a2 = {3} AND a5 = {2} THEN class = {False} (p=6.0, n=0.0, P=62.0, N=62.0)
+r13: IF a1 = {1} AND a2 = {3} AND a5 = {3} THEN class = {False} (p=2.0, n=0.0, P=62.0, N=62.0)
+r14: IF a1 = {2} AND a2 = {1} AND a5 = {4} THEN class = {False} (p=6.0, n=0.0, P=62.0, N=62.0)
+r15: IF a1 = {3} AND a2 = {2} AND a5 = {4} THEN class = {False} (p=3.0, n=0.0, P=62.0, N=62.0)
+r16: IF a4 = {2} AND a5 = {2} AND a6 = {2} THEN class = {False} (p=4.0, n=0.0, P=62.0, N=62.0)
+r17: IF a1 = {2} AND a3 = {2} AND a5 = {2} AND a6 = {2} THEN class = {False} (p=2.0, n=0.0, P=62.0, N=62.0)
+r18: IF a1 = {3} AND a2 = {1} AND a5 = {2} THEN class = {False} (p=5.0, n=0.0, P=62.0, N=62.0)
+r19: IF a3 = {2} AND a5 = {2} THEN class = {False} (p=12.0, n=4.0, P=62.0, N=62.0)
+r20: IF a2 = {3} AND a5 = {3} AND a6 = {1} THEN class = {False} (p=3.0, n=0.0, P=62.0, N=62.0)
+r21: IF a1 = {2} AND a2 = {1} AND a5 = {3} THEN class = {False} (p=5.0, n=0.0, P=62.0, N=62.0)
+r22: IF a1 = {2} AND a2 = {3} AND a5 = {3} THEN class = {False} (p=4.0, n=0.0, P=62.0, N=62.0)
+r23: IF a3 = {2} AND a5 = {3} THEN class = {False} (p=10.0, n=4.0, P=62.0, N=62.0)

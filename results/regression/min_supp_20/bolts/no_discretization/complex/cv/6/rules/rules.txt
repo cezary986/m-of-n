@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.6470588235294118
+r2: 0.6944444444444444
+r3: 0.5
+r4: 0.62890625
+r5: 0.7137123745819397
+r6: 0.46875
+r7: 0.7272727272727273
+r8: 0.44
+________________________________
+r1: IF RUN < TOTAL AND SPEED2 > SENS THEN class = {0.80} [0.79,0.80] (p=2.0, n=1.0, P=2.0, N=34.0)
+r2: IF SPEED1 > SPEED2 AND RUN < TIME AND RUN > SENS THEN class = {0.80} [0.54,1.06] (p=8.0, n=1.0, P=12.0, N=24.0)
+r3: IF TOTAL < TIME THEN class = {0.78} [0.49,1.06] (p=12.0, n=6.0, P=12.0, N=24.0)
+r4: IF RUN > SPEED1 AND TIME = <10.56, 27.02) AND RUN = (-inf, 13.50) THEN class = {0.093} [0.077,0.11] (p=3.0, n=1.0, P=4.0, N=32.0)
+r5: IF SENS < TIME AND SPEED1 < SENS AND TOTAL > SENS AND RUN > SENS THEN class = {0.13} [0.06,0.20] (p=9.0, n=1.0, P=13.0, N=23.0)
+r6: IF SENS > TIME AND TOTAL > SENS THEN class = {0.0072} [-0.015,0.029] (p=2.0, n=1.0, P=4.0, N=32.0)
+r7: IF RUN != <9, 22) AND RUN = (-inf, 25.50) AND SENS = <7, inf) AND SPEED2 = <1.75, inf) AND RUN != <6, 13) THEN class = {0.031} [0.018,0.043] (p=3.0, n=1.0, P=3.0, N=33.0)
+r8: IF TOTAL > TIME THEN class = {0.065} [0.023,0.11] (p=11.0, n=7.0, P=11.0, N=25.0)

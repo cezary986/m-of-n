@@ -1,0 +1,262 @@
+Rules qualities:
+r1: 0.6317073170731707
+r2: 0.6390243902439025
+r3: 0.6365853658536585
+r4: 0.6390243902439025
+r5: 0.6536585365853659
+r6: 0.6365853658536585
+r7: 0.6487804878048781
+r8: 0.5682926829268293
+r9: 0.5585365853658537
+r10: 0.6390243902439025
+r11: 0.5463414634146342
+r12: 0.5195121951219512
+r13: 0.5195121951219512
+r14: 0.5146341463414634
+r15: 0.5121951219512195
+r16: 0.5097560975609756
+r17: 0.5097560975609756
+r18: 0.5073170731707317
+r19: 0.5048780487804878
+r20: 0.5048780487804878
+r21: 0.5048780487804878
+r22: 0.5951219512195122
+r23: 0.5317073170731708
+r24: 0.5292682926829269
+r25: 0.5292682926829269
+r26: 0.526829268292683
+r27: 0.524390243902439
+r28: 0.5365853658536586
+r29: 0.5195121951219512
+r30: 0.5292682926829269
+r31: 0.5146341463414634
+r32: 0.526829268292683
+r33: 0.5121951219512195
+r34: 0.5219512195121951
+r35: 0.5219512195121951
+r36: 0.5341463414634147
+r37: 0.5121951219512195
+r38: 0.526829268292683
+r39: 0.5292682926829269
+r40: 0.5121951219512195
+r41: 0.5121951219512195
+r42: 0.5317073170731708
+r43: 0.524390243902439
+r44: 0.5048780487804878
+r45: 0.6609756097560976
+r46: 0.651219512195122
+r47: 0.6292682926829268
+r48: 0.6195121951219512
+r49: 0.526829268292683
+r50: 0.5048780487804878
+r51: 0.5365853658536586
+r52: 0.5121951219512195
+r53: 0.5048780487804878
+r54: 0.5414634146341464
+r55: 0.5195121951219512
+r56: 0.5195121951219512
+r57: 0.6365853658536585
+r58: 0.551219512195122
+r59: 0.5609756097560976
+r60: 0.5302491103202847
+r61: 0.5213523131672598
+r62: 0.5195729537366548
+r63: 0.5195729537366548
+r64: 0.5195729537366548
+r65: 0.5177935943060499
+r66: 0.5177935943060499
+r67: 0.5160142348754448
+r68: 0.5160142348754448
+r69: 0.5124555160142349
+r70: 0.5124555160142349
+r71: 0.5106761565836299
+r72: 0.5106761565836299
+r73: 0.5106761565836299
+r74: 0.5106761565836299
+r75: 0.5088967971530249
+r76: 0.5088967971530249
+r77: 0.5088967971530249
+r78: 0.5088967971530249
+r79: 0.5088967971530249
+r80: 0.5088967971530249
+r81: 0.5088967971530249
+r82: 0.5071174377224199
+r83: 0.5071174377224199
+r84: 0.5071174377224199
+r85: 0.5071174377224199
+r86: 0.5071174377224199
+r87: 0.5071174377224199
+r88: 0.5071174377224199
+r89: 0.5071174377224199
+r90: 0.505338078291815
+r91: 0.505338078291815
+r92: 0.505338078291815
+r93: 0.505338078291815
+r94: 0.50355871886121
+r95: 0.50355871886121
+r96: 0.5409252669039146
+r97: 0.5391459074733096
+r98: 0.5355871886120996
+r99: 0.5907473309608541
+r100: 0.5284697508896797
+r101: 0.5266903914590747
+r102: 0.5533807829181495
+r103: 0.5266903914590747
+r104: 0.5373665480427047
+r105: 0.5498220640569395
+r106: 0.5409252669039146
+r107: 0.5284697508896797
+r108: 0.5391459074733096
+r109: 0.5320284697508897
+r110: 0.5640569395017794
+r111: 0.5818505338078291
+r112: 0.5409252669039146
+r113: 0.5320284697508897
+r114: 0.5160142348754448
+r115: 0.5338078291814947
+r116: 0.5427046263345195
+r117: 0.5106761565836299
+r118: 0.5338078291814947
+r119: 0.5249110320284698
+r120: 0.5391459074733096
+r121: 0.5373665480427047
+r122: 0.5551601423487544
+r123: 0.5124555160142349
+r124: 0.5195729537366548
+r125: 0.5373665480427047
+r126: 0.6245551601423488
+r127: 0.5391459074733096
+r128: 0.5551601423487544
+r129: 0.6014234875444839
+r130: 0.6405693950177935
+________________________________
+r1: IF 2-of-3(ESA_Amperage < hardener, viscosity = (-inf, 63.50), proof_cut > ESA_Amperage) = {0} THEN class = {band} (p=54.0, n=0.0, P=205.0, N=281.0)
+r2: IF 2-of-3(ESA_Amperage < hardener, hardener = (-inf, 1.45), proof_cut > ESA_Amperage) = {0} AND ink_pct = <53.60, 55.50) = {0} THEN class = {band} (p=57.0, n=0.0, P=205.0, N=281.0)
+r3: IF 2-of-3(ESA_Amperage < hardener, humifity = (-inf, 89), proof_cut > ESA_Amperage) = {0} AND ESA_Amperage < hardener = {0} THEN class = {band} (p=56.0, n=0.0, P=205.0, N=281.0)
+r4: IF ink_pct != <41.50, 64.10) = {1} AND solvent_pct = <32.20, 38.50) = {0} THEN class = {band} (p=57.0, n=0.0, P=205.0, N=281.0)
+r5: IF ink_pct != <41.50, 64.10) = {1} AND anode_space_ratio = <93.57, inf) = {1} AND caliper = {0.333} = {0} THEN class = {band} (p=63.0, n=0.0, P=205.0, N=281.0)
+r6: IF ink_pct = <53.60, 55.50) = {0} AND 2-of-3(ESA_Amperage < anode_space_ratio, proof_cut > ESA_Amperage, viscosity = (-inf, 63.50)) = {0} AND ink_temperature = varnish_pct = {0} THEN class = {band} (p=56.0, n=0.0, P=205.0, N=281.0)
+r7: IF ink_pct = <41.85, 45.90) = {0} AND ink_pct = <53.60, 55.50) = {0} AND ESA_Amperage < hardener = {0} THEN class = {band} (p=61.0, n=0.0, P=205.0, N=281.0)
+r8: IF 2-of-3(proof_cut < anode_space_ratio, hardener = (-inf, 1.45), viscosity = (-inf, 63.50)) = {0} THEN class = {band} (p=28.0, n=0.0, P=205.0, N=281.0)
+r9: IF 2-of-3(ESA_Amperage < anode_space_ratio, ink_temperature = (-inf, 16.25), viscosity = (-inf, 67.50)) = {0} THEN class = {band} (p=24.0, n=0.0, P=205.0, N=281.0)
+r10: IF proof_cut > ESA_Amperage = {0} AND ESA_Voltage = <3.50, inf) = {0} AND roller_durometer = (-inf, 33.50) = {0} THEN class = {band} (p=57.0, n=0.0, P=205.0, N=281.0)
+r11: IF 2-of-3(ESA_Amperage < hardener, ink_temperature = (-inf, 16.50), anode_space_ratio = <93.57, inf)) = {0} THEN class = {band} (p=19.0, n=0.0, P=205.0, N=281.0)
+r12: IF press_speed = (-inf, 1225) = {1} THEN class = {band} (p=8.0, n=0.0, P=205.0, N=281.0)
+r13: IF 2-of-3(anode_space_ratio = <93.57, inf), ink_temperature = (-inf, 16.50), viscosity = (-inf, 63.50)) = {0} THEN class = {band} (p=8.0, n=0.0, P=205.0, N=281.0)
+r14: IF anode_space_ratio = <108.08, 109.67) = {1} THEN class = {band} (p=6.0, n=0.0, P=205.0, N=281.0)
+r15: IF solvent_pct = <22.25, 31.40) = {1} THEN class = {band} (p=5.0, n=0.0, P=205.0, N=281.0)
+r16: IF ink_pct = <45.85, 46.50) = {1} THEN class = {band} (p=4.0, n=0.0, P=205.0, N=281.0)
+r17: IF solvent_pct = <31.90, 32.60) = {1} THEN class = {band} (p=4.0, n=0.0, P=205.0, N=281.0)
+r18: IF solvent_pct = <35.05, 35.30) = {1} THEN class = {band} (p=3.0, n=0.0, P=205.0, N=281.0)
+r19: IF viscosity = ink_pct = {1} THEN class = {band} (p=2.0, n=0.0, P=205.0, N=281.0)
+r20: IF anode_space_ratio = <109.69, 110) = {1} THEN class = {band} (p=2.0, n=0.0, P=205.0, N=281.0)
+r21: IF solvent_pct = <48.70, inf) = {1} THEN class = {band} (p=2.0, n=0.0, P=205.0, N=281.0)
+r22: IF ESA_Voltage = <5.50, inf) = {0} AND proof_cut < anode_space_ratio = {0} AND 2-of-3(roughness = <0.44, inf), proof_cut > ESA_Amperage, anode_space_ratio = <93.57, inf)) = {1} THEN class = {band} (p=39.0, n=0.0, P=205.0, N=281.0)
+r23: IF ESA_Voltage = wax = {0} AND 2-of-3(ESA_Amperage < anode_space_ratio, ink_temperature < blade_pressure, viscosity = (-inf, 63.50)) = {0} THEN class = {band} (p=13.0, n=0.0, P=205.0, N=281.0)
+r24: IF hardener = (-inf, 0.35) = {1} AND blade_pressure = <21, 55) = {1} THEN class = {band} (p=12.0, n=0.0, P=205.0, N=281.0)
+r25: IF press_speed = (-inf, 1275) = {1} AND blade_pressure < anode_space_ratio = {1} THEN class = {band} (p=12.0, n=0.0, P=205.0, N=281.0)
+r26: IF ink_temperature = (-inf, 16.25) = {1} AND ESA_Voltage = hardener = {1} THEN class = {band} (p=11.0, n=0.0, P=205.0, N=281.0)
+r27: IF viscosity = <64.50, 67) = {1} AND press_speed = <1710, 1734) = {0} THEN class = {band} (p=10.0, n=0.0, P=205.0, N=281.0)
+r28: IF proof_cut < roller_durometer = {0} AND 2-of-3(ESA_Amperage < hardener, humifity = (-inf, 86.50), viscosity = (-inf, 67.50)) = {0} THEN class = {band} (p=15.0, n=0.0, P=205.0, N=281.0)
+r29: IF anode_space_ratio = <96.85, 110) = {1} AND press_speed = <1901.50, 2000) = {1} THEN class = {band} (p=8.0, n=0.0, P=205.0, N=281.0)
+r30: IF ink_type = {cover} = {1} AND solvent_pct = <32.20, 38.50) = {0} THEN class = {band} (p=12.0, n=0.0, P=205.0, N=281.0)
+r31: IF caliper != {0.3} = {0} AND varnish_pct = <7.95, 8.30) = {1} THEN class = {band} (p=6.0, n=0.0, P=205.0, N=281.0)
+r32: IF viscosity = <62.50, 67) = {1} AND ESA_Voltage < wax = {1} THEN class = {band} (p=11.0, n=0.0, P=205.0, N=281.0)
+r33: IF caliper != {0.3} = {0} AND varnish_pct = <6.80, 7.40) = {1} THEN class = {band} (p=5.0, n=0.0, P=205.0, N=281.0)
+r34: IF press != {827} = {0} AND anode_space_ratio = <103.13, 103.22) = {1} THEN class = {band} (p=9.0, n=0.0, P=205.0, N=281.0)
+r35: IF roughness < hardener = {0} AND 2-of-3(anode_space_ratio = (-inf, 107.15), ink_temperature = (-inf, 16.50), viscosity = (-inf, 67.50)) = {0} THEN class = {band} (p=9.0, n=0.0, P=205.0, N=281.0)
+r36: IF ESA_Voltage = <0.38, 1.50) = {1} AND solvent_pct = <32.20, 38.50) = {0} THEN class = {band} (p=14.0, n=0.0, P=205.0, N=281.0)
+r37: IF plating_tank != {1910} = {0} AND 2-of-3(roughness = <0.47, inf), ink_temperature = (-inf, 16.25), viscosity = (-inf, 67.50)) = {0} THEN class = {band} (p=5.0, n=0.0, P=205.0, N=281.0)
+r38: IF humifity = <72.50, 80) = {1} AND ink_temperature = <16.90, 17.50) = {1} THEN class = {band} (p=11.0, n=0.0, P=205.0, N=281.0)
+r39: IF anode_space_ratio = <96.79, 103.33) = {0} AND caliper != {0.3} = {0} AND ink_temperature = <16.90, 17.50) = {1} THEN class = {band} (p=12.0, n=0.0, P=205.0, N=281.0)
+r40: IF blade_pressure = (-inf, 33.50) = {0} AND humifity = <99, inf) = {1} THEN class = {band} (p=5.0, n=0.0, P=205.0, N=281.0)
+r41: IF direct_steam != type_on_cylinder = {1} AND humifity = <92.50, 95) = {1} THEN class = {band} (p=5.0, n=0.0, P=205.0, N=281.0)
+r42: IF press_speed = <1420, 1650) = {1} AND press != {815} = {1} THEN class = {band} (p=13.0, n=0.0, P=205.0, N=281.0)
+r43: IF press != {815} = {1} AND anode_space_ratio = <91.78, 100) = {1} THEN class = {band} (p=10.0, n=0.0, P=205.0, N=281.0)
+r44: IF press != {815} = {1} AND solvent_pct = <35.15, 35.90) = {1} THEN class = {band} (p=2.0, n=0.0, P=205.0, N=281.0)
+r45: IF press_speed = (-inf, 2276.50) = {1} AND ink_pct = <41.85, 45.90) = {0} AND ink_pct = <50.75, 59.50) = {0} AND solvent_pct > roller_durometer = {0} AND solvent_pct = <32.20, 38.50) = {0} AND press = {813} = {0} THEN class = {band} (p=66.0, n=0.0, P=205.0, N=281.0)
+r46: IF anode_space_ratio = <103.23, 103.33) = {0} AND current_density = {35} = {0} AND ink_pct = <41.85, 45.90) = {0} AND ink_pct = <50.75, 59.50) = {0} AND blade_pressure = <21, 55) = {1} AND solvent_pct > roller_durometer = {0} AND press_speed = <2210, inf) = {0} AND solvent_pct = <35.05, 41.20) = {0} AND ink_temperature < blade_pressure = {1} THEN class = {band} (p=62.0, n=0.0, P=205.0, N=281.0)
+r47: IF press_speed = <1388.50, 1440) = {0} AND current_density = {35} = {0} AND ink_pct = <41.85, 45.90) = {0} AND blade_pressure = <21, 55) = {1} AND humifity = <71, inf) = {1} AND solvent_pct > roller_durometer = {0} AND ESA_Voltage = <3.50, inf) = {0} AND press_speed = <2210, inf) = {0} AND unit_number = (-inf, 8) = {1} THEN class = {band} (p=53.0, n=0.0, P=205.0, N=281.0)
+r48: IF anode_space_ratio = <103.23, 103.33) = {0} AND ink_pct = <41.85, 45.90) = {0} AND roughness = <1.19, inf) = {0} AND ink_pct = <50.75, 59.50) = {0} AND press_speed = <2184.50, inf) = {0} AND press_speed = <1420, 1650) = {0} AND solvent_pct > roller_durometer = {0} AND hardener = <0.55, 1) = {0} AND solvent_pct = <35.45, 36.70) = {0} AND unit_number = (-inf, 8) = {1} THEN class = {band} (p=49.0, n=0.0, P=205.0, N=281.0)
+r49: IF varnish_pct = <2.35, 5.90) = {0} AND anode_space_ratio = <103.05, 103.13) = {0} AND viscosity != <36.50, 62) = {1} AND direct_steam != type_on_cylinder = {0} AND unit_number = (-inf, 8) = {1} THEN class = {band} (p=11.0, n=0.0, P=205.0, N=281.0)
+r50: IF press_speed = <1901.50, 2050) = {1} AND ink_temperature = (-inf, 13.35) = {1} THEN class = {band} (p=2.0, n=0.0, P=205.0, N=281.0)
+r51: IF anode_space_ratio = <96.79, 103.33) = {0} AND press_speed = <1901.50, 2050) = {1} AND hardener = <0.55, 1) = {0} THEN class = {band} (p=15.0, n=0.0, P=205.0, N=281.0)
+r52: IF direct_steam != type_on_cylinder = {0} AND press_speed = <1495, 1530) = {1} THEN class = {band} (p=5.0, n=0.0, P=205.0, N=281.0)
+r53: IF solvent_pct = <39.15, 39.70) = {1} AND press_speed = <1495, 1530) = {1} THEN class = {band} (p=2.0, n=0.0, P=205.0, N=281.0)
+r54: IF hardener != <0.35, 1.50) = {1} AND roughness = (-inf, 0.53) = {1} AND solvent_pct = <38.15, 39.80) = {0} THEN class = {band} (p=17.0, n=0.0, P=205.0, N=281.0)
+r55: IF ink_temperature != <13.65, 17) = {1} AND grain_screened != type_on_cylinder = {0} AND ink_pct = <50.75, 59.50) = {0} AND proof_cut = <41.25, 52) = {1} THEN class = {band} (p=8.0, n=0.0, P=205.0, N=281.0)
+r56: IF direct_steam != type_on_cylinder = {1} AND ink_temperature = <14.15, 14.70) = {1} AND viscosity = <42.50, 50) = {1} THEN class = {band} (p=8.0, n=0.0, P=205.0, N=281.0)
+r57: IF anode_space_ratio = <103.23, 103.33) = {0} AND press_speed = (-inf, 2276.50) = {1} AND ink_pct = <50.75, 59.50) = {0} AND ESA_Voltage < wax = {0} AND solvent_pct = <35.05, 41.20) = {0} AND roller_durometer = (-inf, 33.50) = {0} THEN class = {band} (p=56.0, n=0.0, P=205.0, N=281.0)
+r58: IF press != {821} = {1} AND blade_pressure = <21, 55) = {1} AND ESA_Voltage = <4.25, inf) = {0} AND current_density != {40} = {1} AND roller_durometer = (-inf, 33.50) = {0} AND viscosity = <42.50, 50) = {0} THEN class = {band} (p=21.0, n=0.0, P=205.0, N=281.0)
+r59: IF viscosity = <52.50, 55) = {0} AND ink_pct = <53.60, 55.50) = {0} AND viscosity = <54.50, 61) = {0} AND solvent_pct = <42.05, 42.40) = {0} AND press_speed = <2413, inf) = {0} AND solvent_pct = <35.05, 41.20) = {0} AND press_type != {woodhoe70} = {1} AND viscosity = <42.50, 50) = {0} THEN class = {band} (p=25.0, n=0.0, P=205.0, N=281.0)
+r60: IF 2-of-3(press_speed = (-inf, 2276.50), current_density != {40}, anode_space_ratio = <93.57, inf)) = {0} THEN class = {noband} (p=17.0, n=0.0, P=281.0, N=205.0)
+r61: IF varnish_pct = <18.95, 20.40) = {1} THEN class = {noband} (p=12.0, n=0.0, P=281.0, N=205.0)
+r62: IF ESA_Voltage = <9, inf) = {1} THEN class = {noband} (p=11.0, n=0.0, P=281.0, N=205.0)
+r63: IF press_speed = <2413, inf) = {1} THEN class = {noband} (p=11.0, n=0.0, P=281.0, N=205.0)
+r64: IF solvent_pct = <35.95, 36.40) = {1} THEN class = {noband} (p=11.0, n=0.0, P=281.0, N=205.0)
+r65: IF proof_cut = <55.25, 60) = {1} THEN class = {noband} (p=10.0, n=0.0, P=281.0, N=205.0)
+r66: IF solvent_pct = <38.15, 38.50) = {1} THEN class = {noband} (p=10.0, n=0.0, P=281.0, N=205.0)
+r67: IF ink_pct = <41.85, 44.20) = {1} THEN class = {noband} (p=9.0, n=0.0, P=281.0, N=205.0)
+r68: IF varnish_pct = <7.45, 8) = {1} THEN class = {noband} (p=9.0, n=0.0, P=281.0, N=205.0)
+r69: IF varnish_pct = <2.35, 3.40) = {1} THEN class = {noband} (p=7.0, n=0.0, P=281.0, N=205.0)
+r70: IF varnish_pct = <4.75, 5.40) = {1} THEN class = {noband} (p=7.0, n=0.0, P=281.0, N=205.0)
+r71: IF anode_space_ratio = <105.05, 105.70) = {1} THEN class = {noband} (p=6.0, n=0.0, P=281.0, N=205.0)
+r72: IF current_density = {45} = {1} THEN class = {noband} (p=6.0, n=0.0, P=281.0, N=205.0)
+r73: IF press_speed = <2210, 2250) = {1} THEN class = {noband} (p=6.0, n=0.0, P=281.0, N=205.0)
+r74: IF solvent_pct = <44.55, 46.80) = {1} THEN class = {noband} (p=6.0, n=0.0, P=281.0, N=205.0)
+r75: IF anode_space_ratio = <106.66, 106.89) = {1} THEN class = {noband} (p=5.0, n=0.0, P=281.0, N=205.0)
+r76: IF press_speed = <1410, 1440) = {1} THEN class = {noband} (p=5.0, n=0.0, P=281.0, N=205.0)
+r77: IF roughness = <1.19, inf) = {1} THEN class = {noband} (p=5.0, n=0.0, P=281.0, N=205.0)
+r78: IF solvent_pct = <38.60, 38.90) = {1} THEN class = {noband} (p=5.0, n=0.0, P=281.0, N=205.0)
+r79: IF solvent_pct = <42.05, 42.40) = {1} THEN class = {noband} (p=5.0, n=0.0, P=281.0, N=205.0)
+r80: IF varnish_pct = <1.05, 2.20) = {1} THEN class = {noband} (p=5.0, n=0.0, P=281.0, N=205.0)
+r81: IF varnish_pct = <8.25, 9.10) = {1} THEN class = {noband} (p=5.0, n=0.0, P=281.0, N=205.0)
+r82: IF blade_pressure = <45.50, 49) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r83: IF blade_pressure = <55.50, 60) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r84: IF ink_pct = <44.80, 45.50) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r85: IF ink_temperature = <13.17, 13.40) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r86: IF press_speed = <1710, 1734) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r87: IF press_speed = <2260, 2300) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r88: IF solvent_pct = <32.35, 33.30) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r89: IF varnish_pct = <10.10, 10.40) = {1} THEN class = {noband} (p=4.0, n=0.0, P=281.0, N=205.0)
+r90: IF ink_temperature = varnish_pct = {1} THEN class = {noband} (p=3.0, n=0.0, P=281.0, N=205.0)
+r91: IF proof_cut = <68.75, inf) = {1} THEN class = {noband} (p=3.0, n=0.0, P=281.0, N=205.0)
+r92: IF varnish_pct = <10.85, 11.10) = {1} THEN class = {noband} (p=3.0, n=0.0, P=281.0, N=205.0)
+r93: IF varnish_pct = <15.10, 15.80) = {1} THEN class = {noband} (p=3.0, n=0.0, P=281.0, N=205.0)
+r94: IF current_density = {42} = {1} THEN class = {noband} (p=2.0, n=0.0, P=281.0, N=205.0)
+r95: IF varnish_pct = <6.33, 6.60) = {1} THEN class = {noband} (p=2.0, n=0.0, P=281.0, N=205.0)
+r96: IF ESA_Voltage = <5.50, inf) = {1} AND blade_pressure = <39, 43) = {0} THEN class = {noband} (p=23.0, n=0.0, P=281.0, N=205.0)
+r97: IF solvent_pct = <38.15, 38.90) = {1} AND ESA_Voltage = wax = {0} THEN class = {noband} (p=22.0, n=0.0, P=281.0, N=205.0)
+r98: IF varnish_pct = <5.45, 5.90) = {1} AND ESA_Amperage < anode_space_ratio = {1} THEN class = {noband} (p=20.0, n=0.0, P=281.0, N=205.0)
+r99: IF ESA_Voltage = wax = {0} AND press_speed = <2210, inf) = {1} AND type_on_cylinder != {no} = {0} THEN class = {noband} (p=51.0, n=0.0, P=281.0, N=205.0)
+r100: IF anode_space_ratio = <103.23, 103.33) = {1} AND press_speed = <1495, 1530) = {0} THEN class = {noband} (p=16.0, n=0.0, P=281.0, N=205.0)
+r101: IF humifity = <65.50, 70) = {1} AND blade_pressure = (-inf, 19) = {0} THEN class = {noband} (p=15.0, n=0.0, P=281.0, N=205.0)
+r102: IF ESA_Voltage = <4.25, inf) = {1} AND solvent_pct = <38.05, inf) = {1} THEN class = {noband} (p=30.0, n=0.0, P=281.0, N=205.0)
+r103: IF varnish_pct = <4.75, 6) = {1} AND proof_cut = (-inf, 41.25) = {1} THEN class = {noband} (p=15.0, n=0.0, P=281.0, N=205.0)
+r104: IF viscosity != <36.50, 62) = {0} AND 2-of-3(ink_temperature < blade_pressure, humifity = <71, inf), anode_space_ratio = <93.57, inf)) = {0} THEN class = {noband} (p=21.0, n=0.0, P=281.0, N=205.0)
+r105: IF viscosity = <45.50, 56) = {1} AND press_speed = <2184.50, inf) = {1} THEN class = {noband} (p=28.0, n=0.0, P=281.0, N=205.0)
+r106: IF press_speed = <2184.50, inf) = {1} AND ESA_Voltage = <3.50, inf) = {1} THEN class = {noband} (p=23.0, n=0.0, P=281.0, N=205.0)
+r107: IF anode_space_ratio = <103.23, 105) = {1} AND proof_cut = <41.25, 52) = {0} THEN class = {noband} (p=16.0, n=0.0, P=281.0, N=205.0)
+r108: IF varnish_pct = <4.35, 5.90) = {1} AND press != {815} = {0} AND proof_cut = <41.25, 52) = {0} THEN class = {noband} (p=22.0, n=0.0, P=281.0, N=205.0)
+r109: IF press_speed = <1388.50, 1440) = {1} AND ESA_Voltage = (-inf, 3.50) = {1} THEN class = {noband} (p=18.0, n=0.0, P=281.0, N=205.0)
+r110: IF ESA_Voltage = <3.50, inf) = {1} AND press_speed = <1950, inf) = {1} THEN class = {noband} (p=36.0, n=0.0, P=281.0, N=205.0)
+r111: IF grain_screened != type_on_cylinder = {1} AND viscosity = (-inf, 63.50) = {1} AND ESA_Voltage = <3.50, inf) = {1} AND solvent_pct = <22.25, 31.40) = {0} THEN class = {noband} (p=46.0, n=0.0, P=281.0, N=205.0)
+r112: IF varnish_pct = <2.35, 5.90) = {1} AND blade_pressure = (-inf, 33.50) = {0} AND ESA_Amperage < anode_space_ratio = {1} THEN class = {noband} (p=23.0, n=0.0, P=281.0, N=205.0)
+r113: IF solvent_pct = <38.15, 39.80) = {1} AND unit_number = (-inf, 8) = {0} THEN class = {noband} (p=18.0, n=0.0, P=281.0, N=205.0)
+r114: IF caliper = {0.167} = {0} AND anode_space_ratio = <110.50, 112.50) = {1} THEN class = {noband} (p=9.0, n=0.0, P=281.0, N=205.0)
+r115: IF ink_pct = <53.60, 55.50) = {1} AND anode_space_ratio = <103.13, 103.22) = {0} AND proof_cut = <41.25, 52) = {0} THEN class = {noband} (p=19.0, n=0.0, P=281.0, N=205.0)
+r116: IF ink_temperature = (-inf, 16.25) = {1} AND proof_cut < roller_durometer = {1} THEN class = {noband} (p=24.0, n=0.0, P=281.0, N=205.0)
+r117: IF unit_number = <9.50, inf) = {1} AND ESA_Amperage < anode_space_ratio = {1} THEN class = {noband} (p=6.0, n=0.0, P=281.0, N=205.0)
+r118: IF caliper = {0.333} = {1} AND roller_durometer = (-inf, 33.50) = {1} THEN class = {noband} (p=19.0, n=0.0, P=281.0, N=205.0)
+r119: IF caliper = {0.333} = {1} AND wax = <1.75, 2.75) = {0} THEN class = {noband} (p=14.0, n=0.0, P=281.0, N=205.0)
+r120: IF current_density = {35} = {1} AND viscosity = <52.50, 55) = {1} THEN class = {noband} (p=22.0, n=0.0, P=281.0, N=205.0)
+r121: IF current_density = {35} = {1} AND hardener = <0.55, 1) = {1} THEN class = {noband} (p=21.0, n=0.0, P=281.0, N=205.0)
+r122: IF viscosity = <52.50, 55) = {1} AND current_density != {40} = {0} THEN class = {noband} (p=31.0, n=0.0, P=281.0, N=205.0)
+r123: IF solvent_pct > roller_durometer = {1} AND blade_pressure = <42.50, 49) = {1} THEN class = {noband} (p=7.0, n=0.0, P=281.0, N=205.0)
+r124: IF viscosity = (-inf, 42.50) = {1} AND solvent_pct = <35.45, 37.20) = {1} THEN class = {noband} (p=11.0, n=0.0, P=281.0, N=205.0)
+r125: IF anode_space_ratio = <103.05, 103.13) = {1} AND press_speed = <1550, 2000) = {0} THEN class = {noband} (p=21.0, n=0.0, P=281.0, N=205.0)
+r126: IF viscosity != <36.50, 62) = {0} AND anode_space_ratio = <107.02, 109.67) = {0} AND ink_temperature = <14.65, 16.60) = {1} AND ESA_Voltage = hardener = {0} AND roller_durometer = (-inf, 33.50) = {1} AND press_type != {woodhoe70} = {0} THEN class = {noband} (p=70.0, n=0.0, P=281.0, N=205.0)
+r127: IF blade_pressure = <21, 55) = {0} AND press != {815} = {0} AND solvent_pct = <38.05, inf) = {1} AND hardener = <0.55, 1) = {1} THEN class = {noband} (p=22.0, n=0.0, P=281.0, N=205.0)
+r128: IF humifity = (-inf, 84.50) = {1} AND press_speed = <1420, 1650) = {1} AND blade_pressure = <21, 55) = {0} THEN class = {noband} (p=31.0, n=0.0, P=281.0, N=205.0)
+r129: IF ink_temperature = (-inf, 16.25) = {1} AND ink_pct = <53.60, 55.50) = {0} AND press != {821} = {0} AND ink_temperature = <14.65, 16.60) = {1} AND press_speed = <1637.50, 1660) = {0} AND solvent_pct = <35.05, 41.20) = {1} AND press_type != {woodhoe70} = {0} AND cylinder_size != {spiegel} = {0} AND blade_pressure = <39, 43) = {0} AND humifity = <92.50, 95) = {0} THEN class = {noband} (p=57.0, n=0.0, P=281.0, N=205.0)
+r130: IF viscosity = <62.50, 67) = {0} AND viscosity = (-inf, 42.50) = {0} AND ink_pct = <50.75, 59.50) = {1} AND humifity = (-inf, 89) = {1} AND press_speed = <1901.50, 2050) = {0} AND press != {821} = {0} AND ink_temperature = <16.90, 17.50) = {0} AND press_type != {woodhoe70} = {0} AND press_speed = <1495, 1530) = {0} THEN class = {noband} (p=79.0, n=0.0, P=281.0, N=205.0)

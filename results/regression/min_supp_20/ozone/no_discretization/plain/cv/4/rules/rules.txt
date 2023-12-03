@@ -1,0 +1,100 @@
+Rules qualities:
+r1: 0.6666666666666666
+r2: 0.5434782608695652
+r3: 0.5434782608695652
+r4: 0.5681818181818181
+r5: 0.5434782608695652
+r6: 0.4693875927889714
+r7: 0.41097211506668135
+r8: 0.5576923076923077
+r9: 0.5576923076923077
+r10: 0.5616239797354349
+r11: 0.526336898395722
+r12: 0.5665882352941176
+r13: 0.5360214383647014
+r14: 0.5434782608695652
+r15: 0.49462809917355377
+r16: 0.75
+r17: 0.5719138741642471
+r18: 0.5032586892431132
+r19: 0.5832060949769413
+r20: 0.31375502008032136
+r21: 0.31706349206349205
+r22: 0.4626712328767123
+r23: 0.37056203605514315
+r24: 0.3314393939393939
+r25: 0.6532636518771331
+r26: 0.4545454545454546
+r27: 0.37581256771397614
+r28: 0.5309222846441948
+r29: 0.38043784896756894
+r30: 0.32394156231365534
+r31: 0.39204545454545453
+r32: 0.59375
+r33: 0.4108996539792387
+r34: 0.40848894817073167
+r35: 0.5309222846441948
+r36: 0.41448194662480375
+r37: 0.5625
+r38: 0.3537475665152498
+r39: 0.5769230769230769
+r40: 0.43501305163553317
+r41: 0.36783220427305885
+r42: 0.37667432070417145
+r43: 0.33537359799797767
+r44: 0.5179938099739708
+r45: 0.4273504273504274
+r46: 0.3430060547681299
+r47: 0.3383205720076568
+r48: 0.39740381398461033
+r49: 0.36161616161616156
+________________________________
+r1: IF INVHT = <4668.50, inf) AND HMDTY = <76.50, 77.50) THEN class = {0.027} [0.027,0.027] (p=2.0, n=0.0, P=6.0, N=291.0)
+r2: IF INVTMP = <55.50, inf) AND VDB500HT = (-inf, 5795) AND INVHT = <4668.50, inf) AND SDAFBTMP = (-inf, 64) THEN class = {0.081} [0.081,0.081] (p=2.0, n=0.0, P=23.0, N=274.0)
+r3: IF WDSP = <10.50, inf) AND DAGPG = (-inf, 37.50) AND HMDTY = (-inf, 53.50) THEN class = {0.081} [0.081,0.081] (p=2.0, n=0.0, P=23.0, N=274.0)
+r4: IF VDB500HT = <5785, 5795) AND INVHT = <4668.50, inf) THEN class = {0.11} [0.11,0.11] (p=3.0, n=0.0, P=22.0, N=275.0)
+r5: IF INVTMP = <51.50, 52.50) AND HMDTY = (-inf, 67.50) THEN class = {0.081} [0.081,0.081] (p=2.0, n=0.0, P=23.0, N=274.0)
+r6: IF VDB500HT = (-inf, 5765) AND VZBLTY = <275, inf) AND DAGPG = (-inf, 25.50) AND HMDTY = (-inf, 50.50) THEN class = {0.14} [0.068,0.20] (p=9.0, n=1.0, P=92.0, N=205.0)
+r7: IF WDSP = (-inf, 7.50) AND INVTMP = (-inf, 52.50) AND HMDTY = <39, 52.50) THEN class = {0.16} [0.11,0.22] (p=9.0, n=2.0, P=86.0, N=211.0)
+r8: IF INVTMP = (-inf, 51.50) AND VZBLTY = (-inf, 225) AND DAGPG = (-inf, -31) THEN class = {0.054} [0.054,0.054] (p=3.0, n=0.0, P=26.0, N=271.0)
+r9: IF INVTMP = (-inf, 37.50) AND VZBLTY = <175, 225) AND HMDTY = (-inf, 64.50) THEN class = {0.054} [0.054,0.054] (p=3.0, n=0.0, P=26.0, N=271.0)
+r10: IF INVTMP = (-inf, 54) AND SDAFBTMP = (-inf, 58.50) AND HMDTY = (-inf, 68.50) THEN class = {0.11} [0.049,0.17] (p=49.0, n=8.0, P=110.0, N=187.0)
+r11: IF INVHT = <4668.50, inf) AND SDAFBTMP = (-inf, 54.50) AND VZBLTY = (-inf, 175) AND DAGPG = (-inf, 40.50) AND HMDTY = (-inf, 61.50) THEN class = {0.11} [0.054,0.16] (p=17.0, n=1.0, P=110.0, N=187.0)
+r12: IF INVTMP = (-inf, 59.50) AND SDAFBTMP = (-inf, 59.50) AND HMDTY = (-inf, 67.50) THEN class = {0.11} [0.038,0.18] (p=62.0, n=13.0, P=110.0, N=187.0)
+r13: IF WDSP = (-inf, 7.50) AND INVTMP = <48, 59.50) AND VZBLTY = <135, inf) AND DAGPG = (-inf, 26) AND HMDTY = (-inf, 62) THEN class = {0.081} [0.053,0.11] (p=13.0, n=1.0, P=71.0, N=226.0)
+r14: IF INVHT = <4668.50, inf) AND SDAFBTMP = (-inf, 55.50) AND VZBLTY = (-inf, 325) AND DAGPG = (-inf, 52.50) AND HMDTY = <68.50, 76.50) THEN class = {0.081} [0.081,0.081] (p=2.0, n=0.0, P=23.0, N=274.0)
+r15: IF VDB500HT = (-inf, 5645) AND SDAFBTMP = (-inf, 46) AND DAGPG = (-inf, 37) AND HMDTY = (-inf, 76.50) THEN class = {0.054} [0.025,0.083] (p=8.0, n=1.0, P=55.0, N=242.0)
+r16: IF INVHT = <4668.50, inf) AND DAGPG = <64.50, 74) THEN class = {0.027} [0.027,0.027] (p=3.0, n=0.0, P=6.0, N=291.0)
+r17: IF SDAFBTMP = (-inf, 57) THEN class = {0.11} [0.0094,0.21] (p=90.0, n=22.0, P=124.0, N=173.0)
+r18: IF VDB500HT = (-inf, 5795) AND INVHT = <4668.50, inf) THEN class = {0.081} [0.011,0.15] (p=55.0, n=18.0, P=95.0, N=202.0)
+r19: IF INVTMP = (-inf, 64.50) AND VDB500HT = (-inf, 5880) AND VZBLTY = (-inf, 275) AND DAGPG = (-inf, -9) AND HMDTY = (-inf, 43.50) THEN class = {0.081} [0.042,0.12] (p=22.0, n=2.0, P=71.0, N=226.0)
+r20: IF SDAFBTMP = <92.50, inf) THEN class = {0.59} [0.47,0.72] (p=2.0, n=1.0, P=48.0, N=249.0)
+r21: IF VDB500HT = <5925, inf) THEN class = {0.70} [0.53,0.87] (p=2.0, n=1.0, P=45.0, N=252.0)
+r22: IF INVTMP = <85.50, inf) AND VDB500HT = (-inf, 5940) AND VZBLTY = (-inf, 90) AND HMDTY = (-inf, 84) THEN class = {0.86} [0.79,0.94] (p=2.0, n=1.0, P=5.0, N=292.0)
+r23: IF INVTMP = <85.50, inf) AND HMDTY = (-inf, 65) THEN class = {0.59} [0.37,0.82] (p=4.0, n=1.0, P=92.0, N=205.0)
+r24: IF VDB500HT = (-inf, 5940) AND SDAFBTMP = <89.50, 92.50) THEN class = {0.70} [0.59,0.81] (p=2.0, n=1.0, P=33.0, N=264.0)
+r25: IF WDSP = (-inf, 7.50) AND INVHT = <478.50, inf) AND SDAFBTMP = <86.50, inf) AND VZBLTY = (-inf, 130) AND DAGPG = (-inf, 28.50) THEN class = {0.89} [0.83,0.95] (p=3.0, n=1.0, P=4.0, N=293.0)
+r26: IF WDSP = (-inf, 7.50) AND SDAFBTMP = <85.50, 92.50) THEN class = {0.76} [0.62,0.90] (p=7.0, n=2.0, P=33.0, N=264.0)
+r27: IF WDSP = <7.50, inf) AND SDAFBTMP = <83.50, inf) THEN class = {0.57} [0.52,0.61] (p=2.0, n=1.0, P=13.0, N=284.0)
+r28: IF WDSP = (-inf, 7.50) AND SDAFBTMP = <83.50, 92.50) AND VZBLTY = (-inf, 100) AND DAGPG = (-inf, 33.50) THEN class = {0.84} [0.64,1.03] (p=7.0, n=1.0, P=30.0, N=267.0)
+r29: IF VDB500HT = (-inf, 5905) AND INVHT = (-inf, 3889) AND DAGPG = <27, 78.50) AND HMDTY = (-inf, 79.50) THEN class = {0.41} [0.24,0.57] (p=55.0, n=23.0, P=116.0, N=181.0)
+r30: IF VDB500HT = <5885, inf) AND SDAFBTMP = (-inf, 82) AND HMDTY = <76.50, inf) THEN class = {0.68} [0.55,0.80] (p=2.0, n=1.0, P=39.0, N=258.0)
+r31: IF VDB500HT = <5875, 5895) AND INVHT = (-inf, 4668.50) AND DAGPG = (-inf, -0.50) THEN class = {0.70} [0.58,0.82] (p=3.0, n=1.0, P=33.0, N=264.0)
+r32: IF WDSP = <7.50, inf) AND INVHT = (-inf, 4314) AND SDAFBTMP = (-inf, 66.50) AND DAGPG = (-inf, 52.50) THEN class = {0.30} [0.30,0.30] (p=3.0, n=0.0, P=16.0, N=281.0)
+r33: IF WDSP = <3.50, inf) AND VDB500HT = <5855, 5865) AND DAGPG = (-inf, 16) AND HMDTY = (-inf, 78.50) THEN class = {0.38} [0.37,0.39] (p=2.0, n=1.0, P=8.0, N=289.0)
+r34: IF INVTMP = (-inf, 79.50) AND SDAFBTMP = <80.50, 86) THEN class = {0.62} [0.49,0.75] (p=8.0, n=3.0, P=41.0, N=256.0)
+r35: IF INVTMP = (-inf, 83.50) AND SDAFBTMP = <79.50, 81.50) AND DAGPG = (-inf, 39.50) THEN class = {0.68} [0.58,0.77] (p=7.0, n=1.0, P=30.0, N=267.0)
+r36: IF INVTMP = (-inf, 77) AND SDAFBTMP = <73.50, 75.50) AND DAGPG = (-inf, 60.50) THEN class = {0.46} [0.36,0.56] (p=7.0, n=2.0, P=52.0, N=245.0)
+r37: IF DAGPG = (-inf, 54.50) AND HMDTY = <80.50, 81.50) THEN class = {0.30} [0.30,0.30] (p=2.0, n=0.0, P=16.0, N=281.0)
+r38: IF INVTMP = (-inf, 70.50) AND INVHT = (-inf, 3054) AND SDAFBTMP = (-inf, 61.50) AND VZBLTY = <175, 225) AND HMDTY = (-inf, 81.50) THEN class = {0.22} [0.14,0.30] (p=3.0, n=1.0, P=67.0, N=230.0)
+r39: IF WDSP = <5.50, 6.50) AND VDB500HT = (-inf, 5845) AND INVHT = (-inf, 3133) AND DAGPG = <-10, 22.50) AND HMDTY = (-inf, 74.50) THEN class = {0.24} [0.24,0.24] (p=2.0, n=0.0, P=13.0, N=284.0)
+r40: IF WDSP = <4.50, inf) AND INVTMP = (-inf, 77) AND INVHT = (-inf, 3013) AND VZBLTY = <130, inf) AND DAGPG = (-inf, 39) THEN class = {0.24} [0.15,0.33] (p=11.0, n=2.0, P=92.0, N=205.0)
+r41: IF VDB500HT = <5835, 5865) AND INVHT = (-inf, 2662) AND SDAFBTMP = (-inf, 74.50) AND VZBLTY = (-inf, 175) THEN class = {0.43} [0.28,0.58] (p=4.0, n=1.0, P=95.0, N=202.0)
+r42: IF VDB500HT = (-inf, 5835) AND INVHT = (-inf, 2583.50) AND VZBLTY = (-inf, 175) AND DAGPG = <25.50, inf) THEN class = {0.41} [0.27,0.54] (p=28.0, n=11.0, P=96.0, N=201.0)
+r43: IF VDB500HT = (-inf, 5835) AND INVHT = (-inf, 2583.50) AND SDAFBTMP = (-inf, 69.50) AND VZBLTY = (-inf, 175) AND DAGPG = (-inf, 25.50) AND HMDTY = (-inf, 76.50) THEN class = {0.24} [0.10,0.38] (p=32.0, n=9.0, P=151.0, N=146.0)
+r44: IF WDSP = (-inf, 7.50) AND INVTMP = <72.50, inf) AND VZBLTY = (-inf, 175) THEN class = {0.68} [0.49,0.87] (p=38.0, n=15.0, P=62.0, N=235.0)
+r45: IF VDB500HT = (-inf, 5780) AND SDAFBTMP = <60, inf) AND VZBLTY = (-inf, 145) AND DAGPG = (-inf, 27) THEN class = {0.30} [0.19,0.41] (p=11.0, n=2.0, P=99.0, N=198.0)
+r46: IF WDSP = (-inf, 5.50) AND INVTMP = (-inf, 72.50) AND INVHT = (-inf, 2985) AND SDAFBTMP = (-inf, 74.50) AND VZBLTY = (-inf, 225) AND DAGPG = (-inf, 24.50) AND HMDTY = (-inf, 80.50) THEN class = {0.27} [0.10,0.44] (p=35.0, n=8.0, P=169.0, N=128.0)
+r47: IF VDB500HT = (-inf, 5865) AND INVHT = (-inf, 1197) AND VZBLTY = (-inf, 90) AND HMDTY = <76.50, 83.50) THEN class = {0.46} [0.32,0.60] (p=3.0, n=1.0, P=83.0, N=214.0)
+r48: IF INVHT = <344, 1631.50) AND VZBLTY = <175, 275) THEN class = {0.16} [0.062,0.26] (p=6.0, n=1.0, P=122.0, N=175.0)
+r49: IF INVTMP = (-inf, 73.50) AND SDAFBTMP = (-inf, 79.50) AND DAGPG = (-inf, 56.50) THEN class = {0.19} [0.026,0.35] (p=160.0, n=40.0, P=198.0, N=99.0)

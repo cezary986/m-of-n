@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.9999999903048212
+r2: 1.0
+r3: 0.9999895614730603
+r4: 0.9961355604500541
+r5: 0.9999706214113571
+r6: 0.999999999936131
+r7: 0.9997187395251009
+r8: 1.0
+________________________________
+r1: IF sho < chf = {0} AND age = (-inf, 72.50) = {1} AND cvd > av3 = {0} AND cvd = sho = {1} THEN  (p=69.0, n=0.0, P=500.0, N=0.0)
+r2: IF age = <70.50, inf) = {0} THEN  (p=234.0, n=0.0, P=500.0, N=0.0)
+r3: IF sho = miord = {1} AND gender = miord = {1} THEN  (p=193.0, n=0.0, P=500.0, N=0.0)
+r4: IF gender = miord = {0} AND sho < miord = {1} AND hr < diasbp = {1} THEN  (p=33.0, n=0.0, P=500.0, N=0.0)
+r5: IF sho = miord = {0} AND gender = miord = {0} AND hr < diasbp = {0} AND gender = chf = {0} THEN  (p=26.0, n=0.0, P=500.0, N=0.0)
+r6: IF sho = mitype = {1} AND gender = sho = {0} AND gender = chf = {1} THEN  (p=65.0, n=0.0, P=500.0, N=0.0)
+r7: IF gender > sho = {0} AND gender = sho = {0} AND sho = chf = {1} AND cvd = sho = {1} THEN  (p=7.0, n=0.0, P=500.0, N=0.0)
+r8: IF age = (-inf, 72.50) = {0} THEN  (p=243.0, n=0.0, P=500.0, N=0.0)

@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 1.0
+r2: 0.9951496466066839
+r3: 0.9814655556796091
+r4: 1.0
+r5: 1.0
+r6: 0.9999999999997022
+________________________________
+r1: IF CHF < MITYPE AND SHO = CHF AND AGE = (-inf, 72.50) THEN  (p=192.0, n=0.0, P=433.0, N=0.0)
+r2: IF CPK != <253.50, 358) AND CHF = MITYPE AND CHF > MIORD AND SHO < CHF AND CPK != <798, 823) AND AGE = (-inf, 66) THEN  (p=15.0, n=0.0, P=433.0, N=0.0)
+r3: IF CPK != <879, 1360) AND CPK = <674.50, inf) AND CHF = MITYPE AND CHF > MIORD AND SHO < CHF AND CPK != <763, 855) THEN  (p=18.0, n=0.0, P=433.0, N=0.0)
+r4: IF SHO = (-inf, 0.50) THEN  (p=398.0, n=0.0, P=433.0, N=0.0)
+r5: IF SHO > MIORD THEN  (p=18.0, n=0.0, P=433.0, N=0.0)
+r6: IF CHF = MIORD AND MIORD = MITYPE THEN  (p=46.0, n=0.0, P=433.0, N=0.0)

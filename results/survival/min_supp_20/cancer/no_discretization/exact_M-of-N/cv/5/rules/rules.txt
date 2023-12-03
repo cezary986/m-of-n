@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.9999974040721201
+r2: 0.9999994868906905
+r3: 0.9896677426892357
+r4: 0.9999999561159277
+r5: 0.9999992034022426
+r6: 0.9999906415248452
+r7: 0.999942958407135
+r8: 0.9999999887372805
+r9: 0.9999990078194788
+________________________________
+r1: IF wt.loss = (-inf, 22.50) = {1} AND 2-of-3(age != <39.50, 42), meal.cal != <525.50, 588), ph.karno > wt.loss) = {0} AND sex < pat.karno = {1} AND ph.ecog = (-inf, 1.50) = {0} THEN  (p=29.0, n=0.0, P=205.0, N=0.0)
+r2: IF 2-of-3(age != <39.50, 42), meal.cal != <438, 513), sex < ph.ecog) = {0} AND wt.loss = (-inf, 22.50) = {1} AND age != <46, 51) = {1} AND wt.loss != <4.50, 7) = {1} AND age != <68.50, 71) = {1} AND ph.ecog = (-inf, 1.50) = {0} THEN  (p=23.0, n=0.0, P=205.0, N=0.0)
+r3: IF sex < wt.loss = {0} AND ph.karno > wt.loss = {1} AND sex < ph.ecog = {1} AND 2-of-3(age != <39.50, 42), meal.cal != <438, 513), wt.loss != <-10.50, -7)) = {0} AND age != <69.50, 72) = {1} AND age != <63.50, 66) = {1} AND sex < pat.karno = {0} AND age != <52.50, 55) = {1} THEN  (p=23.0, n=0.0, P=205.0, N=0.0)
+r4: IF age != <67.50, 72) = {1} AND age != <63.50, 66) = {1} AND wt.loss != <4.50, 7) = {1} AND meal.cal != <711.50, 768) = {1} AND ph.ecog = (-inf, 1.50) = {0} THEN  (p=37.0, n=0.0, P=205.0, N=0.0)
+r5: IF meal.cal != <438, 513) = {1} AND meal.cal != <717.50, 768) = {1} AND age != <63.50, 66) = {1} AND wt.loss != <4.50, 7) = {1} AND 2-of-3(age < ph.karno, meal.cal != <525.50, 588), ph.karno > wt.loss) = {0} AND ph.ecog = (-inf, 1.50) = {0} THEN  (p=42.0, n=0.0, P=205.0, N=0.0)
+r6: IF wt.loss != <33.50, 49) = {1} AND 2-of-3(age != <39.50, 42), meal.cal != <438, 513), wt.loss != <-10.50, -7)) = {0} AND age != <69.50, 72) = {1} AND wt.loss != <4.50, 7) = {1} AND age != <68.50, 71) = {1} AND ph.ecog = (-inf, 1.50) = {0} THEN  (p=38.0, n=0.0, P=205.0, N=0.0)
+r7: IF ph.karno != <55, 80) = {1} AND 2-of-3(age != <39.50, 42), meal.cal != <711.50, 768), ph.karno > wt.loss) = {0} AND wt.loss = (-inf, 20) = {1} THEN  (p=119.0, n=0.0, P=205.0, N=0.0)
+r8: IF sex < wt.loss = {0} AND wt.loss = (-inf, 19.50) = {1} AND wt.loss != <9.50, 15) = {1} AND 2-of-3(age < ph.karno, meal.cal != <525.50, 588), ph.karno > wt.loss) = {0} AND ph.ecog = (-inf, 1.50) = {1} THEN  (p=83.0, n=0.0, P=205.0, N=0.0)
+r9: IF 2-of-3(age != <39.50, 42), meal.cal != <711.50, 768), wt.loss != <-10.50, -7)) = {0} AND ph.ecog = (-inf, 1.50) = {1} THEN  (p=151.0, n=0.0, P=205.0, N=0.0)

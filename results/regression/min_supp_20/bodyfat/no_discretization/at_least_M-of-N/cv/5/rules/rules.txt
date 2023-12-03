@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.8333333333333333
+r2: 0.49551569506726467
+r3: 0.2730113173750204
+r4: 0.9158221925133689
+r5: 0.7937222942099162
+r6: 0.8540149393090569
+r7: 0.4640545538603791
+r8: 0.6804476629361423
+r9: 0.546
+r10: 0.672136605783866
+r11: 0.6981871994080651
+r12: 0.7710880737196526
+r13: 0.7488121634463097
+________________________________
+r1: IF Age > Thigh = {0} AND Density = <1.06, 1.07) = {1} AND Neck = <38.05, 38.50) = {1} THEN class = {0.31} [0.31,0.31] (p=2.0, n=0.0, P=3.0, N=224.0)
+r2: IF Age > Thigh = {0} AND Density = <1.06, 1.07) = {1} AND Neck < Knee = {0} AND Abdomen > Hip = {0} AND Wrist = (-inf, 18.45) = {0} AND Neck = <38.05, 38.50) = {0} THEN class = {0.34} [0.33,0.35] (p=2.0, n=1.0, P=4.0, N=223.0)
+r3: IF Chest > Hip = {1} AND Age > Thigh = {1} AND Wrist = (-inf, 18.45) = {0} AND Height = <67.50, inf) = {1} THEN class = {0.57} [0.44,0.70] (p=11.0, n=5.0, P=89.0, N=138.0)
+r4: IF Density = <1.06, 1.07) = {1} THEN class = {0.35} [0.31,0.40] (p=38.0, n=2.0, P=40.0, N=187.0)
+r5: IF Density = (-inf, 1.04) = {1} AND Height > Thigh = {1} THEN class = {0.59} [0.50,0.67] (p=53.0, n=9.0, P=55.0, N=172.0)
+r6: IF Density = <1.00, 1.03) = {1} THEN class = {0.69} [0.64,0.74] (p=16.0, n=2.0, P=17.0, N=210.0)
+r7: IF Neck > Knee = {0} AND Density = (-inf, 1.06) = {0} AND Density = <1.07, 1.08) = {0} AND 2-of-3(Abdomen != <80, 83.50), Density != <1.06, 1.07), Biceps = <27.50, inf)) = {1} AND Age > Forearm = {0} AND Height = <67.50, inf) = {1} THEN class = {0.11} [0.045,0.18] (p=4.0, n=1.0, P=21.0, N=206.0)
+r8: IF Neck > Knee = {0} AND Biceps > Forearm = {1} AND Density != <1.08, 1.10) = {0} AND Age > Forearm = {1} THEN class = {0.13} [0.11,0.14] (p=6.0, n=1.0, P=10.0, N=217.0)
+r9: IF Density = (-inf, 1.06) = {0} THEN class = {0.23} [0.15,0.31] (p=52.0, n=28.0, P=52.0, N=175.0)
+r10: IF Neck > Knee = {1} AND Abdomen > Hip = {0} AND Density = <1.04, 1.05) = {1} AND Height = <67.50, inf) = {1} THEN class = {0.47} [0.46,0.47] (p=5.0, n=1.0, P=8.0, N=219.0)
+r11: IF Neck = <38.05, 38.50) = {0} AND Density = <1.04, 1.05) = {1} AND Height = (-inf, 73) = {1} THEN class = {0.48} [0.46,0.49] (p=13.0, n=4.0, P=15.0, N=212.0)
+r12: IF Density = <1.04, 1.05) = {1} THEN class = {0.48} [0.46,0.50] (p=17.0, n=4.0, P=18.0, N=209.0)
+r13: IF Density = (-inf, 1.04) = {0} AND Density = <1.08, 1.10) = {0} AND Density = <1.07, 1.07) = {0} AND Density = <1.07, 1.08) = {0} AND Density = <1.08, 1.09) = {0} AND Density = <1.04, 1.05) = {0} THEN class = {0.38} [0.29,0.47] (p=72.0, n=10.0, P=84.0, N=143.0)

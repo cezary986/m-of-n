@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.5392156862745098
+r2: 0.46520208205756275
+r3: 0.4354577282157676
+r4: 0.5392156862745098
+r5: 0.4272402531128803
+r6: 0.47389968079173145
+r7: 0.4125184365781711
+r8: 0.41043325168401723
+________________________________
+r1: IF inv-nodes = {7, 10, 9} AND age = <49, 62) THEN class = {0.60} [0.60,0.60] (p=4.0, n=0.0, P=51.0, N=206.0)
+r2: IF inv-nodes = {7, 10, 9} THEN class = {0.60} [0.50,0.70] (p=11.0, n=1.0, P=115.0, N=142.0)
+r3: IF inv-nodes = {10, 25, 16} AND age = <40.50, 57) THEN class = {0.70} [0.66,0.74] (p=3.0, n=1.0, P=16.0, N=241.0)
+r4: IF deg-malig = {1, 3} AND breast-quad = {left-lower, left-upper, central} AND inv-nodes = {10, 15, 13} THEN class = {0.60} [0.60,0.60] (p=4.0, n=0.0, P=51.0, N=206.0)
+r5: IF inv-nodes = {10, 17, 15} THEN class = {0.60} [0.48,0.72] (p=8.0, n=1.0, P=115.0, N=142.0)
+r6: IF breast-quad = {left-lower, left-upper, right-upper} AND inv-nodes = {6, 10, 15} THEN class = {0.70} [0.56,0.84] (p=10.0, n=1.0, P=94.0, N=163.0)
+r7: IF inv-nodes = {11, 4, 17} THEN class = {0.40} [0.30,0.50] (p=7.0, n=1.0, P=113.0, N=144.0)
+r8: IF inv-nodes = {14, 10, 13} THEN class = {0.60} [0.48,0.72] (p=7.0, n=1.0, P=115.0, N=142.0)

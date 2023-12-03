@@ -1,0 +1,8 @@
+Rules qualities:
+r1: 0.9999999150633505
+r2: 0.9999999535246844
+r3: 0.9999997884251298
+________________________________
+r1: IF age != <76.50, 86) = {1} AND ulcer != {not present} = {1} THEN  (p=98.0, n=0.0, P=185.0, N=0.0)
+r2: IF ulcer != {not present} = {1} AND age != <64.50, 68) = {1} THEN  (p=98.0, n=0.0, P=185.0, N=0.0)
+r3: IF ulcer != {not present} = {0} THEN  (p=83.0, n=0.0, P=185.0, N=0.0)

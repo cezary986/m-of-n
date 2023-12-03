@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.9999999999999574
+r2: 1.0
+r3: 0.9999999999334109
+r4: 0.9999999999999477
+r5: 0.999999999999937
+r6: 0.9999999999894286
+r7: 0.9999991234164303
+r8: 0.9999999999996937
+r9: 0.9999493973211364
+________________________________
+r1: IF thick != <1.32, 1.45) AND age != <56.50, 59) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <63.50, 67) THEN  (p=94.0, n=0.0, P=185.0, N=0.0)
+r2: IF ulcer != {not present} AND thick != <0.13, 3.56) AND ici = <1.50, inf) THEN  (p=31.0, n=0.0, P=185.0, N=0.0)
+r3: IF age != <57.50, 60) AND thick = (-inf, 3.06) AND age = <63.50, 67) AND thick != <1.32, 1.45) THEN  (p=91.0, n=0.0, P=185.0, N=0.0)
+r4: IF thick != <1.32, 1.45) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <63.50, 67) THEN  (p=103.0, n=0.0, P=185.0, N=0.0)
+r5: IF age != <55.50, 59) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <63.50, 67) THEN  (p=90.0, n=0.0, P=185.0, N=0.0)
+r6: IF thick != <1.32, 1.45) AND age != <56.50, 59) AND thick = (-inf, 3.38) AND age != <26.50, 30) AND age = (-inf, 66.50) AND thick != <2.17, 2.58) AND age != <63.50, 66) THEN  (p=84.0, n=0.0, P=185.0, N=0.0)
+r7: IF thick = <1.32, inf) AND thick != <1.48, 1.94) AND age != <30, 41) THEN  (p=96.0, n=0.0, P=185.0, N=0.0)
+r8: IF thick != <1.32, 1.45) AND age != <56.50, 59) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <64.50, 67) THEN  (p=97.0, n=0.0, P=185.0, N=0.0)
+r9: IF age = <63.50, inf) THEN  (p=52.0, n=0.0, P=185.0, N=0.0)

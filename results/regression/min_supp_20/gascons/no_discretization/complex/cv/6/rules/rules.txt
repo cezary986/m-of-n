@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.7153846153846154
+r2: 0.7111111111111111
+r3: 0.8001613770844539
+r4: 0.7412965186074431
+________________________________
+r1: IF disposable_income != <6153.50, 8867) THEN class = {0.77} [0.54,1.01] (p=12.0, n=1.0, P=15.0, N=9.0)
+r2: IF disposable_income = <600.50, 7728) THEN class = {0.19} [-0.11,0.49] (p=7.0, n=1.0, P=9.0, N=15.0)
+r3: IF disposable_income != <6153.50, 8322) AND price_index_for_casoline != <1.92, 3.69) THEN class = {0.71} [0.50,0.92] (p=12.0, n=1.0, P=13.0, N=11.0)
+r4: IF disposable_income != <600.50, 6727) AND price_index_for_used_cars != <1.04, 3.63) THEN class = {0.30} [0.081,0.51] (p=6.0, n=1.0, P=7.0, N=17.0)

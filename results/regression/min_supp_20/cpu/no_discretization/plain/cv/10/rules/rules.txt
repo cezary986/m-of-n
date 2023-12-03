@@ -1,0 +1,72 @@
+Rules qualities:
+r1: 0.3709893048128342
+r2: 0.49459459459459465
+r3: 0.5945652173913044
+r4: 0.5285567715458277
+r5: 0.3075148319050756
+r6: 0.19425675675675674
+r7: 0.7036337895233601
+r8: 0.5510752688172043
+r9: 0.5820701458036985
+r10: 0.24642857142857144
+r11: 0.5739664420505312
+r12: 0.75
+r13: 0.6631016042780749
+r14: 0.5831521739130435
+r15: 0.713103448275862
+r16: 0.6527777777777778
+r17: 0.6555158324821245
+r18: 0.75
+r19: 0.5288461538461539
+r20: 0.8333333333333333
+r21: 0.5563524590163934
+r22: 0.7459677419354839
+r23: 0.3200285830951409
+r24: 0.6180167597765363
+r25: 0.5979591836734695
+r26: 0.4888257575757575
+r27: 0.6590136054421768
+r28: 0.6487499999999999
+r29: 0.42535971223021585
+r30: 0.6288461538461538
+r31: 0.45766929970436065
+r32: 0.4107142857142857
+r33: 0.6043472036648215
+r34: 0.6229591836734694
+r35: 0.4693069306930692
+________________________________
+r1: IF CHMIN = <42, inf) THEN class = {0.28} [0.27,0.29] (p=1.0, n=1.0, P=2.0, N=187.0)
+r2: IF CACH = (-inf, 192) AND CHMAX = <120, inf) THEN class = {0.74} [0.39,1.09] (p=2.0, n=1.0, P=4.0, N=185.0)
+r3: IF MMIN = <12000, inf) AND MMAX = (-inf, 48000) AND CHMIN = <12, inf) THEN class = {0.30} [0.28,0.32] (p=3.0, n=1.0, P=5.0, N=184.0)
+r4: IF MMIN = <12000, inf) AND CHMAX = (-inf, 48) THEN class = {0.30} [0.19,0.41] (p=5.0, n=1.0, P=17.0, N=172.0)
+r5: IF vendor = {ibm} THEN class = {0.011} [-0.062,0.084] (p=26.0, n=3.0, P=148.0, N=41.0)
+r6: IF vendor = {wang} THEN class = {0.026} [0.017,0.035] (p=1.0, n=1.0, P=37.0, N=152.0)
+r7: IF MMAX = <28000, inf) AND CHMAX = (-inf, 43) THEN class = {0.21} [0.11,0.32] (p=16.0, n=2.0, P=26.0, N=163.0)
+r8: IF MMAX = <28000, inf) AND vendor = {honeywell} THEN class = {0.14} [0.13,0.14] (p=2.0, n=1.0, P=3.0, N=186.0)
+r9: IF MMAX = <28000, inf) AND CACH = <40, inf) AND CHMAX = (-inf, 140) THEN class = {0.28} [0.084,0.48] (p=14.0, n=2.0, P=37.0, N=152.0)
+r10: IF vendor = {ncr} AND CHMAX = <28, inf) THEN class = {0.14} [0.098,0.19] (p=1.0, n=1.0, P=14.0, N=175.0)
+r11: IF MMIN = <6620, inf) AND CACH = (-inf, 112) AND CHMIN = (-inf, 14) THEN class = {0.19} [0.048,0.34] (p=16.0, n=1.0, P=62.0, N=127.0)
+r12: IF MMIN = (-inf, 4620) AND vendor = {cdc} AND CACH = (-inf, 129.50) AND CHMIN = <10, inf) THEN class = {0.048} [0.048,0.048] (p=2.0, n=0.0, P=4.0, N=185.0)
+r13: IF MMIN = <3000, inf) AND MMAX = (-inf, 28000) AND vendor = {nas} AND CACH = <48, inf) THEN class = {0.085} [0.084,0.086] (p=2.0, n=1.0, P=2.0, N=187.0)
+r14: IF MMIN = (-inf, 4620) AND MMAX = <14000, inf) AND MYCT = (-inf, 107.50) AND CHMIN = (-inf, 4.50) THEN class = {0.065} [0.045,0.086] (p=9.0, n=1.0, P=28.0, N=161.0)
+r15: IF MMIN = <1500, 3000) AND MMAX = <14000, 28000) AND CHMAX = (-inf, 27) THEN class = {0.055} [0.047,0.063] (p=9.0, n=1.0, P=15.0, N=174.0)
+r16: IF MMIN = (-inf, 1500) AND MYCT = (-inf, 1300) AND CACH = (-inf, 20) AND CHMIN = (-inf, 3.50) THEN class = {0.009} [-0.0012,0.019] (p=60.0, n=10.0, P=81.0, N=108.0)
+r17: IF MMAX = <10000, 14000) AND CHMAX = (-inf, 18) THEN class = {0.038} [0.032,0.045] (p=6.0, n=1.0, P=11.0, N=178.0)
+r18: IF MMAX = (-inf, 14000) AND vendor = {nas} AND CACH = <28, inf) THEN class = {0.031} [0.031,0.031] (p=2.0, n=0.0, P=4.0, N=185.0)
+r19: IF MMIN = (-inf, 3550) AND MMAX = (-inf, 14000) AND MYCT = (-inf, 310) AND CACH = <28, inf) AND CHMAX = (-inf, 20.50) THEN class = {0.031} [0.03,0.032] (p=3.0, n=1.0, P=7.0, N=182.0)
+r20: IF MMAX = <7150, inf) AND vendor = {ipl} AND CACH = (-inf, 12) THEN class = {0.024} [0.024,0.024] (p=2.0, n=0.0, P=3.0, N=186.0)
+r21: IF MMIN = <1500, 3550) AND MMAX = <7150, 10000) AND MYCT = (-inf, 119.50) AND CACH = (-inf, 12) AND CHMAX = (-inf, 10) THEN class = {0.024} [0.023,0.025] (p=3.0, n=1.0, P=6.0, N=183.0)
+r22: IF MMAX = <7150, 10000) AND MYCT = (-inf, 119.50) AND CACH = <12, 28) AND CHMIN = (-inf, 5) THEN class = {0.025} [0.025,0.026] (p=3.0, n=1.0, P=3.0, N=186.0)
+r23: IF vendor = {hp} AND CACH = <6, inf) THEN class = {0.026} [0.019,0.033] (p=2.0, n=1.0, P=31.0, N=158.0)
+r24: IF MMAX = <7150, 10000) AND MYCT = <61, 129) AND CACH = (-inf, 28) AND CHMAX = (-inf, 36) AND CHMIN = <1.50, inf) THEN class = {0.026} [0.024,0.028] (p=5.0, n=1.0, P=10.0, N=179.0)
+r25: IF MMIN = <1500, 3550) AND MYCT = (-inf, 202.50) AND CACH = (-inf, 8.50) AND CHMAX = <5.50, 44) THEN class = {0.02} [0.011,0.028] (p=15.0, n=1.0, P=49.0, N=140.0)
+r26: IF MMIN = (-inf, 640) AND CACH = (-inf, 7) AND CHMAX = (-inf, 25) AND CHMIN = <2.50, inf) THEN class = {0.0041} [0.0025,0.0057] (p=5.0, n=1.0, P=24.0, N=165.0)
+r27: IF MMIN = (-inf, 1500) AND MMAX = (-inf, 10000) AND MYCT = <133.50, 340) AND CACH = (-inf, 7) AND CHMAX = (-inf, 25) THEN class = {0.0074} [0.0039,0.011] (p=23.0, n=3.0, P=42.0, N=147.0)
+r28: IF MMIN = <518, inf) AND MMAX = (-inf, 6000) AND MYCT = (-inf, 173.50) AND CACH = <1, 8.50) THEN class = {0.013} [0.011,0.015] (p=7.0, n=1.0, P=14.0, N=175.0)
+r29: IF MMIN = <640, inf) AND MMAX = (-inf, 14000) AND MYCT = <90, inf) AND CACH = <5, inf) AND CHMAX = <15, 25) THEN class = {0.015} [0.0077,0.022] (p=5.0, n=1.0, P=50.0, N=139.0)
+r30: IF MMIN = (-inf, 2150) AND MMAX = <7150, inf) AND MYCT = (-inf, 400) AND CACH = (-inf, 48) AND CHMAX = (-inf, 43) AND CHMIN = (-inf, 5.50) THEN class = {0.031} [0.012,0.05] (p=36.0, n=4.0, P=72.0, N=117.0)
+r31: IF MMIN = <1750, 2650) AND MMAX = (-inf, 24000) AND MYCT = (-inf, 151.50) AND CACH = (-inf, 48) AND CHMIN = (-inf, 6.50) THEN class = {0.026} [0.011,0.041] (p=25.0, n=7.0, P=66.0, N=123.0)
+r32: IF vendor = {burroughs} AND CACH = (-inf, 8.50) AND CHMAX = <28, inf) THEN class = {0.02} [0.016,0.025] (p=3.0, n=1.0, P=21.0, N=168.0)
+r33: IF MMIN = <1500, 4620) AND MMAX = <7150, inf) AND MYCT = <32.50, 142.50) AND CACH = (-inf, 48) AND CHMAX = (-inf, 26) AND CHMIN = (-inf, 10) THEN class = {0.043} [0.016,0.069] (p=24.0, n=2.0, P=65.0, N=124.0)
+r34: IF MMIN = (-inf, 12000) AND MMAX = <18485, inf) AND CACH = (-inf, 96.50) THEN class = {0.19} [0.057,0.33] (p=17.0, n=1.0, P=49.0, N=140.0)
+r35: IF MMIN = <1155, 4620) AND MYCT = (-inf, 151.50) AND CHMAX = (-inf, 43) AND CHMIN = (-inf, 14) THEN class = {0.043} [0.011,0.074] (p=44.0, n=11.0, P=88.0, N=101.0)

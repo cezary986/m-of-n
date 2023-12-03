@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9999999999729104
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 1.0
+r6: 0.9999999920942714
+r7: 0.9999999999298432
+r8: 0.9999999999999991
+r9: 0.9999814321856958
+r10: 0.9187471792927681
+________________________________
+r1: IF age = (-inf, 59.72) AND ast = (-inf, 114.88) AND age != <53.03, 55.96) THEN  (p=97.0, n=0.0, P=376.0, N=0.0)
+r2: IF bili = (-inf, 2.10) THEN  (p=228.0, n=0.0, P=376.0, N=0.0)
+r3: IF bili = (-inf, 2.50) THEN  (p=250.0, n=0.0, P=376.0, N=0.0)
+r4: IF albumin < stage AND albumin = (-inf, 3.16) THEN  (p=52.0, n=0.0, P=376.0, N=0.0)
+r5: IF bili < albumin THEN  (p=279.0, n=0.0, P=376.0, N=0.0)
+r6: IF albumin < stage AND hepato = spiders AND spiders > edema AND albumin = (-inf, 3.40) AND copper = (-inf, 242) AND age = (-inf, 60.20) THEN  (p=13.0, n=0.0, P=376.0, N=0.0)
+r7: IF albumin = (-inf, 3.47) THEN  (p=166.0, n=0.0, P=376.0, N=0.0)
+r8: IF trt < bili AND age != <43.82, 44.95) AND age != <32.84, 35.79) AND age = (-inf, 72.54) AND alk.phos = (-inf, 9241.60) AND age != <47.10, 49.34) THEN  (p=117.0, n=0.0, P=376.0, N=0.0)
+r9: IF chol > copper AND ascites = spiders AND trig < platelet AND trt > hepato AND chol != <458, 932) AND age != <59.36, 61.24) THEN  (p=114.0, n=0.0, P=376.0, N=0.0)
+r10: IF age = (-inf, 54) AND age != <38, 41.79) AND bili > albumin AND platelet = (-inf, 219.50) AND alk.phos != <797, 1243) AND age != <49.78, 53.00) AND protime = (-inf, 11.25) THEN  (p=7.0, n=0.0, P=376.0, N=0.0)

@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 1.0
+r2: 0.9991638474531909
+r3: 1.0
+r4: 0.9999999999999959
+r5: 0.936802844542381
+r6: 0.9194423276619871
+r7: 0.9999999999983092
+r8: 0.9999753462458589
+________________________________
+r1: IF extcGvHD = {?} THEN  (p=25.0, n=0.0, P=168.0, N=0.0)
+r2: IF Antigen = {1} AND Donorage = (-inf, 37.14) AND CD34kgx10d6 = (-inf, 10.50) AND CD3dCD34 = <0.98, inf) AND RecipientCMV = {1} AND HLAmatch = {1} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r3: IF PLTrecovery = <500142.50, inf) THEN  (p=15.0, n=0.0, P=168.0, N=0.0)
+r4: IF extcGvHD = {1} THEN  (p=116.0, n=0.0, P=168.0, N=0.0)
+r5: IF Donorage35 = {0} THEN  (p=94.0, n=0.0, P=168.0, N=0.0)
+r6: IF Donorage35 = {1} AND Recipientageint = {1} AND HLAmatch = {1} THEN  (p=8.0, n=0.0, P=168.0, N=0.0)
+r7: IF Relapse = {0} AND PLTrecovery = (-inf, 266) AND Rbodymass = (-inf, 54.50) THEN  (p=101.0, n=0.0, P=168.0, N=0.0)
+r8: IF Recipientgender = {1} AND RecipientCMV = {?} THEN  (p=6.0, n=0.0, P=168.0, N=0.0)

@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.939935064935065
+r2: 0.6428571428571428
+r3: 0.5413961038961039
+r4: 0.5503246753246753
+r5: 0.9583333333333333
+r6: 0.9574417898036206
+r7: 0.6428571428571428
+r8: 0.7857142857142857
+r9: 1.0
+r10: 0.5561797752808989
+r11: 0.5393258426966292
+r12: 0.5337078651685393
+r13: 0.5280898876404494
+r14: 0.550561797752809
+r15: 0.5674157303370786
+r16: 0.5674157303370786
+r17: 0.8756362248181411
+________________________________
+r1: IF 2-of-3(exptl != {?}, hardness = (-inf, 75), strength = (-inf, 550)) = {0} AND carbon = (-inf, 9) = {1} AND surface-quality != {?} = {0} THEN class = {3} (p=542.0, n=0.0, P=616.0, N=192.0)
+r2: IF thick = <0.60, 0.80) = {1} THEN class = {3} (p=176.0, n=0.0, P=616.0, N=192.0)
+r3: IF carbon = <27.50, inf) = {1} THEN class = {3} (p=51.0, n=0.0, P=616.0, N=192.0)
+r4: IF carbon = <3.50, inf) = {1} AND surface-quality != {?} = {1} THEN class = {3} (p=62.0, n=0.0, P=616.0, N=192.0)
+r5: IF hardness = (-inf, 75) = {0} AND width = <39, inf) = {1} THEN class = {U} (p=33.0, n=0.0, P=36.0, N=772.0)
+r6: IF hardness = (-inf, 75) = {0} THEN class = {U} (p=35.0, n=1.0, P=36.0, N=772.0)
+r7: IF exptl != {?} = {0} THEN class = {1} (p=2.0, n=0.0, P=7.0, N=801.0)
+r8: IF strength > width = {1} AND carbon = len = {1} THEN class = {1} (p=4.0, n=0.0, P=7.0, N=801.0)
+r9: IF family = {TN} = {1} THEN class = {5} (p=60.0, n=0.0, P=60.0, N=748.0)
+r10: IF enamelability = {2} = {1} THEN class = {2} (p=10.0, n=0.0, P=89.0, N=719.0)
+r11: IF surface-finish != {?} = {0} THEN class = {2} (p=7.0, n=0.0, P=89.0, N=719.0)
+r12: IF width = <1025, 1100) = {1} THEN class = {2} (p=6.0, n=0.0, P=89.0, N=719.0)
+r13: IF len = <821, 1000) = {1} THEN class = {2} (p=5.0, n=0.0, P=89.0, N=719.0)
+r14: IF strength < width = {1} AND strength = (-inf, 550) = {0} THEN class = {2} (p=9.0, n=0.0, P=89.0, N=719.0)
+r15: IF width = <1410.05, inf) = {1} AND surface-quality != {?} = {1} THEN class = {2} (p=12.0, n=0.0, P=89.0, N=719.0)
+r16: IF thick = <1.75, 2.20) = {1} AND carbon < thick = {1} AND surface-quality != {?} = {1} THEN class = {2} (p=12.0, n=0.0, P=89.0, N=719.0)
+r17: IF thick = <0.60, 0.80) = {0} AND family = {TN} = {0} AND surface-quality != {?} = {1} AND condition = {S} = {1} THEN class = {2} (p=74.0, n=3.0, P=89.0, N=719.0)

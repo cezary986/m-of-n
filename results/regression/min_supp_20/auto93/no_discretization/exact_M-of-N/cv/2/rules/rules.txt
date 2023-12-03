@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.7097985347985348
+r2: 0.5193892952513643
+r3: 0.33633033633033643
+r4: 0.1817528735632184
+r5: 0.428225806451613
+________________________________
+r1: IF Highway_MPG > Rear_seat_room = {1} AND Horsepower < Wheelbase = {1} AND 2-of-3(Drive_train_type != Air_Bags_standard, Horsepower < Wheelbase, Highway_MPG > Fuel_tank_capacity) = {0} THEN class = {0.029} [-0.0055,0.064] (p=10.0, n=2.0, P=13.0, N=70.0)
+r2: IF Highway_MPG > Rear_seat_room = {1} THEN class = {0.11} [-0.02,0.24] (p=38.0, n=6.0, P=54.0, N=29.0)
+r3: IF Highway_MPG > Rear_seat_room = {0} AND 2-of-3(Drive_train_type != Air_Bags_standard, Highway_MPG > Rear_seat_room, Horsepower < Length) = {1} THEN class = {0.23} [0.11,0.35] (p=16.0, n=5.0, P=44.0, N=39.0)
+r4: IF Type != {Van} = {0} AND Drive_train_type != Air_Bags_standard = {1} AND Highway_MPG > Rear_seat_room = {0} AND 2-of-3(Drive_train_type != Air_Bags_standard, Horsepower < Wheelbase, Highway_MPG > Fuel_tank_capacity) = {1} THEN class = {0.30} [0.096,0.50] (p=15.0, n=5.0, P=54.0, N=29.0)
+r5: IF Type != {Van} = {0} AND Highway_MPG < Rear_seat_room = {1} AND 2-of-3(Drive_train_type != Air_Bags_standard, Horsepower < Wheelbase, Highway_MPG > Fuel_tank_capacity) = {0} THEN class = {0.38} [0.22,0.54] (p=8.0, n=2.0, P=31.0, N=52.0)

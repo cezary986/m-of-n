@@ -1,0 +1,116 @@
+Rules qualities:
+r1: 0.525
+r2: 0.5181818181818182
+r3: 0.355547075556789
+r4: 0.18722766884531594
+r5: 0.26391129032258065
+r6: 0.5256410256410257
+r7: 0.5272727272727272
+r8: 0.46266646489104113
+r9: 0.525
+r10: 0.5526315789473684
+r11: 0.29896665834165836
+r12: 0.2935439911421514
+r13: 0.31009023789991796
+r14: 0.34559179604045004
+r15: 0.22586959795211567
+r16: 0.5272727272727272
+r17: 0.4123730447030914
+r18: 0.388524909185262
+r19: 0.3572651790347691
+r20: 0.38319327731092434
+r21: 0.29896665834165836
+r22: 0.525
+r23: 0.5256410256410257
+r24: 0.2655624036979969
+r25: 0.24365692222835078
+r26: 0.32941176470588235
+r27: 0.3306412729026037
+r28: 0.3319779364967117
+r29: 0.3130351582771147
+r30: 0.5384615384615384
+r31: 0.3680126886145405
+r32: 0.5181818181818182
+r33: 0.24419041653617288
+r34: 0.2986565158978952
+r35: 0.2865857387475538
+r36: 0.21326781326781324
+r37: 0.38050185109008633
+r38: 0.21366205567753388
+r39: 0.33483365949119376
+r40: 0.3188399766996755
+r41: 0.5526315789473684
+r42: 0.2137341423055709
+r43: 0.4033063397610845
+r44: 0.32712564543889844
+r45: 0.22667253521126762
+r46: 0.24013440650152382
+r47: 0.355547075556789
+r48: 0.2865857387475538
+r49: 0.2274948559670781
+r50: 0.3127927774465548
+r51: 0.22875816993464052
+r52: 0.3963258545399789
+r53: 0.5625
+r54: 0.2524028459682117
+r55: 0.29486798464080644
+r56: 0.3320906432748539
+r57: 0.3794037940379404
+________________________________
+r1: IF recurrence = {r} AND menopause = {<40} THEN class = {0.40} [0.40,0.40] (p=2.0, n=0.0, P=40.0, N=218.0)
+r2: IF menopause = {>=40} AND inv-nodes = {10} THEN class = {0.60} [0.60,0.60] (p=2.0, n=0.0, P=55.0, N=203.0)
+r3: IF node-caps = {?} THEN class = {0.50} [0.39,0.61] (p=6.0, n=1.0, P=142.0, N=116.0)
+r4: IF age = <71.50, inf) THEN class = {0.20} [0.10,0.30] (p=1.0, n=1.0, P=54.0, N=204.0)
+r5: IF node-caps = {yes} AND inv-nodes = {11} THEN class = {1} [0.80,1.20] (p=1.0, n=1.0, P=10.0, N=248.0)
+r6: IF recurrence = {r} AND breast-quad = {right-lower} AND age = (-inf, 50.50) THEN class = {0.50} [0.50,0.50] (p=2.0, n=0.0, P=39.0, N=219.0)
+r7: IF node-caps = {yes} AND breast-quad = {right-lower} AND age = <50.50, inf) THEN class = {0.60} [0.60,0.60] (p=3.0, n=0.0, P=55.0, N=203.0)
+r8: IF recurrence = {r} AND deg-malig = {3} AND menopause = {premenopausal} AND irradiation = {no} THEN class = {0.60} [0.49,0.71] (p=11.0, n=1.0, P=118.0, N=140.0)
+r9: IF recurrence = {r} AND menopause = {premenopausal} AND inv-nodes = {4} THEN class = {0.40} [0.40,0.40] (p=2.0, n=0.0, P=40.0, N=218.0)
+r10: IF menopause = {>=40} AND breast-quad = {left-lower} AND breast = {left} AND age = (-inf, 56) AND irradiation = {yes} THEN class = {0.80} [0.80,0.80] (p=2.0, n=0.0, P=19.0, N=239.0)
+r11: IF menopause = {>=40} AND inv-nodes = {6} THEN class = {0.80} [0.58,1.02] (p=3.0, n=1.0, P=104.0, N=154.0)
+r12: IF recurrence = {n} AND breast-quad = {left-lower} AND inv-nodes = {3} AND age = (-inf, 52.50) THEN class = {0.60} [0.55,0.65] (p=2.0, n=1.0, P=59.0, N=199.0)
+r13: IF recurrence = {r} AND menopause = {premenopausal} AND node-caps = {yes} AND breast-quad = {left-lower} AND irradiation = {yes} THEN class = {0.40} [0.34,0.46] (p=2.0, n=1.0, P=46.0, N=212.0)
+r14: IF recurrence = {r} AND deg-malig = {3} AND age = (-inf, 65.50) THEN class = {0.60} [0.48,0.72] (p=26.0, n=8.0, P=118.0, N=140.0)
+r15: IF node-caps = {yes} AND age = <61, 62.50) THEN class = {0.90} [0.75,1.05] (p=1.0, n=1.0, P=29.0, N=229.0)
+r16: IF deg-malig = {2} AND inv-nodes = {7} AND irradiation = {no} THEN class = {0.60} [0.60,0.60] (p=3.0, n=0.0, P=55.0, N=203.0)
+r17: IF deg-malig = {2} AND breast-quad = {right-upper} AND age = (-inf, 47.50) THEN class = {0.70} [0.58,0.82] (p=6.0, n=1.0, P=94.0, N=164.0)
+r18: IF node-caps = {yes} AND breast-quad = {left-lower} AND breast = {left} AND age = (-inf, 61) AND irradiation = {no} THEN class = {0.70} [0.58,0.82] (p=5.0, n=1.0, P=94.0, N=164.0)
+r19: IF menopause = {premenopausal} AND deg-malig = {3} AND node-caps = {yes} AND irradiation = {yes} AND age = <40.50, inf) THEN class = {0.70} [0.60,0.80] (p=4.0, n=1.0, P=94.0, N=164.0)
+r20: IF node-caps = {yes} AND breast = {right} AND irradiation = {yes} AND age = (-inf, 47.50) THEN class = {0.70} [0.61,0.79] (p=4.0, n=2.0, P=20.0, N=238.0)
+r21: IF node-caps = {yes} AND breast = {right} AND irradiation = {yes} AND age = <47.50, inf) THEN class = {0.80} [0.58,1.02] (p=3.0, n=1.0, P=104.0, N=154.0)
+r22: IF deg-malig = {2} AND menopause = {>=40} AND node-caps = {yes} AND breast-quad = {left-upper} AND irradiation = {no} THEN class = {0.40} [0.40,0.40] (p=2.0, n=0.0, P=40.0, N=218.0)
+r23: IF deg-malig = {3} AND menopause = {>=40} AND node-caps = {yes} AND breast-quad = {left-upper} AND breast = {right} THEN class = {0.50} [0.50,0.50] (p=2.0, n=0.0, P=39.0, N=219.0)
+r24: IF node-caps = {yes} AND breast = {left} AND irradiation = {no} THEN class = {0.60} [0.47,0.73] (p=8.0, n=3.0, P=118.0, N=140.0)
+r25: IF breast = {left} AND age = (-inf, 67) AND irradiation = {yes} THEN class = {0.50} [0.34,0.66] (p=24.0, n=8.0, P=147.0, N=111.0)
+r26: IF menopause = {>=40} AND node-caps = {no} AND inv-nodes = {1} AND breast = {right} AND irradiation = {no} THEN class = {0.44} [0.42,0.46] (p=1.0, n=1.0, P=3.0, N=255.0)
+r27: IF recurrence = {r} AND deg-malig = {2} AND inv-nodes = {0} AND age = (-inf, 61.50) THEN class = {0.40} [0.23,0.57] (p=8.0, n=2.0, P=122.0, N=136.0)
+r28: IF recurrence = {r} AND inv-nodes = {1} AND irradiation = {yes} THEN class = {0.64} [0.51,0.77] (p=3.0, n=1.0, P=79.0, N=179.0)
+r29: IF recurrence = {r} AND menopause = {premenopausal} AND deg-malig = {1} AND breast-quad = {left-upper} THEN class = {0.70} [0.59,0.81] (p=3.0, n=1.0, P=94.0, N=164.0)
+r30: IF breast-quad = {left-lower} AND inv-nodes = {2} AND breast = {right} AND irradiation = {no} THEN class = {0.50} [0.50,0.50] (p=3.0, n=0.0, P=39.0, N=219.0)
+r31: IF recurrence = {r} AND node-caps = {no} AND inv-nodes = {2} THEN class = {0.56} [0.39,0.73] (p=8.0, n=1.0, P=162.0, N=96.0)
+r32: IF recurrence = {r} AND menopause = {premenopausal} AND deg-malig = {2} AND node-caps = {no} AND breast-quad = {left-upper} AND breast = {right} THEN class = {0.60} [0.60,0.60] (p=2.0, n=0.0, P=55.0, N=203.0)
+r33: IF menopause = {>=40} AND deg-malig = {1} AND breast = {left} AND age = (-inf, 70.50) THEN class = {0.30} [0.13,0.47] (p=10.0, n=5.0, P=103.0, N=155.0)
+r34: IF deg-malig = {2} AND breast-quad = {right-lower} AND node-caps = {no} AND breast = {left} AND age = (-inf, 44.50) THEN class = {0.22} [0.12,0.32] (p=2.0, n=1.0, P=55.0, N=203.0)
+r35: IF menopause = {premenopausal} AND breast-quad = {right-lower} AND inv-nodes = {0} AND breast = {left} THEN class = {0.40} [0.27,0.53] (p=3.0, n=1.0, P=112.0, N=146.0)
+r36: IF breast-quad = {right-lower} AND breast = {right} AND irradiation = {no} AND age = (-inf, 47.50) THEN class = {0.20} [-0.049,0.45] (p=2.0, n=1.0, P=110.0, N=148.0)
+r37: IF recurrence = {n} AND deg-malig = {2} AND node-caps = {no} AND breast = {right} AND irradiation = {no} AND age = <47.50, 60.50) THEN class = {0.30} [0.16,0.44] (p=9.0, n=2.0, P=102.0, N=156.0)
+r38: IF recurrence = {n} AND menopause = {premenopausal} AND node-caps = {no} AND age = <40.50, 54) THEN class = {0.40} [0.20,0.60] (p=44.0, n=8.0, P=197.0, N=61.0)
+r39: IF recurrence = {n} AND deg-malig = {3} AND node-caps = {no} AND inv-nodes = {2} THEN class = {0.40} [0.30,0.50] (p=4.0, n=1.0, P=112.0, N=146.0)
+r40: IF recurrence = {n} AND breast-quad = {left-lower} AND inv-nodes = {0} THEN class = {0.40} [0.20,0.60] (p=40.0, n=5.0, P=197.0, N=61.0)
+r41: IF recurrence = {n} AND node-caps = {no} AND inv-nodes = {3} AND irradiation = {yes} THEN class = {0.80} [0.80,0.80] (p=2.0, n=0.0, P=19.0, N=239.0)
+r42: IF deg-malig = {2} AND node-caps = {no} AND breast = {right} AND irradiation = {yes} AND age = <55, inf) THEN class = {0.80} [0.50,1.10] (p=3.0, n=1.0, P=147.0, N=111.0)
+r43: IF recurrence = {n} AND breast-quad = {left-upper} AND inv-nodes = {1} AND age = <49.50, inf) THEN class = {0.30} [0.14,0.46] (p=6.0, n=1.0, P=103.0, N=155.0)
+r44: IF breast-quad = {left-lower} AND inv-nodes = {1} AND irradiation = {no} THEN class = {0.44} [0.37,0.51] (p=3.0, n=1.0, P=83.0, N=175.0)
+r45: IF inv-nodes = {2} AND irradiation = {no} AND age = <53, inf) THEN class = {0.50} [0.37,0.63] (p=3.0, n=1.0, P=142.0, N=116.0)
+r46: IF breast-quad = {central} AND inv-nodes = {0} AND breast = {left} AND age = (-inf, 73.50) THEN class = {0.16} [-0.045,0.37] (p=3.0, n=2.0, P=67.0, N=191.0)
+r47: IF breast-quad = {left-upper} AND inv-nodes = {0} AND age = <58.50, 64) THEN class = {0.50} [0.39,0.61] (p=6.0, n=1.0, P=142.0, N=116.0)
+r48: IF deg-malig = {3} AND menopause = {>=40} AND breast-quad = {left-upper} AND breast = {left} AND age = (-inf, 55.50) THEN class = {0.40} [0.27,0.53] (p=3.0, n=1.0, P=112.0, N=146.0)
+r49: IF breast-quad = {left-upper} AND breast = {left} AND age = (-inf, 61) THEN class = {0.56} [0.40,0.72] (p=21.0, n=6.0, P=162.0, N=96.0)
+r50: IF breast = {left} AND age = <66.50, inf) THEN class = {0.24} [0.10,0.38] (p=6.0, n=3.0, P=59.0, N=199.0)
+r51: IF deg-malig = {1} AND breast-quad = {central} AND inv-nodes = {0} AND breast = {right} THEN class = {0.30} [0.16,0.44] (p=2.0, n=1.0, P=102.0, N=156.0)
+r52: IF deg-malig = {1} AND menopause = {>=40} AND breast-quad = {right-upper} THEN class = {0.90} [0.75,1.05] (p=3.0, n=1.0, P=29.0, N=229.0)
+r53: IF breast-quad = {left-upper} AND age = <64.50, 65.50) THEN class = {0.30} [0.30,0.30] (p=3.0, n=0.0, P=24.0, N=234.0)
+r54: IF recurrence = {n} AND deg-malig = {1} AND breast = {right} AND age = <38, 58) THEN class = {0.40} [0.20,0.60] (p=14.0, n=2.0, P=197.0, N=61.0)
+r55: IF deg-malig = {1} AND inv-nodes = {0} AND age = (-inf, 67.50) THEN class = {0.40} [0.19,0.61] (p=37.0, n=5.0, P=197.0, N=61.0)
+r56: IF deg-malig = {3} AND menopause = {>=40} AND breast-quad = {left-upper} AND age = (-inf, 52.50) THEN class = {0.40} [0.25,0.55] (p=4.0, n=1.0, P=114.0, N=144.0)
+r57: IF deg-malig = {2} AND breast-quad = {central} AND age = (-inf, 42.50) THEN class = {0.0} [-0.19,0.19] (p=2.0, n=1.0, P=12.0, N=246.0)

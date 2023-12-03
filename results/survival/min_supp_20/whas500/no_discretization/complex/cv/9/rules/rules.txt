@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9999999999324348
+r2: 0.9996645177778734
+r3: 0.9998475688045667
+r4: 0.9996388869741889
+r5: 0.9999999999998657
+r6: 0.9999999999994048
+r7: 0.9999363145659814
+r8: 0.9999924765646651
+r9: 0.9966684456725557
+r10: 1.0
+r11: 0.9999999999960224
+r12: 1.0
+________________________________
+r1: IF cvd = chf AND cvd > sho AND age != <79.50, 83) THEN  (p=94.0, n=0.0, P=450.0, N=0.0)
+r2: IF cvd = sho AND sho = chf AND sho > miord THEN  (p=8.0, n=0.0, P=450.0, N=0.0)
+r3: IF cvd < chf AND cvd = mitype AND hr = (-inf, 123) THEN  (p=14.0, n=0.0, P=450.0, N=0.0)
+r4: IF sho > av3 THEN  (p=18.0, n=0.0, P=450.0, N=0.0)
+r5: IF cvd = chf AND cvd > av3 AND hr != <79, 89) AND diasbp = (-inf, 71.50) THEN  (p=50.0, n=0.0, P=450.0, N=0.0)
+r6: IF afb < chf AND afb = mitype THEN  (p=76.0, n=0.0, P=450.0, N=0.0)
+r7: IF diasbp = (-inf, 79.50) AND sho < miord AND sysbp = (-inf, 142.50) AND diasbp != <67.50, 76) THEN  (p=47.0, n=0.0, P=450.0, N=0.0)
+r8: IF gender = afb AND sho < mitype AND sho = afb THEN  (p=82.0, n=0.0, P=450.0, N=0.0)
+r9: IF cvd = chf AND gender = cvd AND gender = mitype AND sho = mitype AND age = (-inf, 64) THEN  (p=18.0, n=0.0, P=450.0, N=0.0)
+r10: IF age = (-inf, 73.50) THEN  (p=240.0, n=0.0, P=450.0, N=0.0)
+r11: IF sysbp != <158.50, 174) AND bmi = (-inf, 24.17) THEN  (p=127.0, n=0.0, P=450.0, N=0.0)
+r12: IF age = <70, 95) THEN  (p=240.0, n=0.0, P=450.0, N=0.0)

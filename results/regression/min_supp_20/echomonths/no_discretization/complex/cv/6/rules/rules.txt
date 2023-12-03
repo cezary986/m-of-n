@@ -1,0 +1,60 @@
+Rules qualities:
+r1: 0.5588235294117647
+r2: 0.8333333333333333
+r3: 0.4911504424778761
+r4: 0.2449479485609308
+r5: 0.75
+r6: 0.5882352941176471
+r7: 0.518095238095238
+r8: 0.46649120050282844
+r9: 0.40740740740740733
+r10: 0.44023809523809526
+r11: 0.5588235294117647
+r12: 0.4803209459459459
+r13: 0.39324162679425834
+r14: 0.5392156862745098
+r15: 0.47699579831932776
+r16: 0.46041666666666664
+r17: 0.4501488095238095
+r18: 0.32045303131245834
+r19: 0.44549632352941176
+r20: 0.5255131964809384
+r21: 0.4435152374202693
+r22: 0.4308325238557797
+r23: 0.4967000354358611
+r24: 0.3643600734843845
+r25: 0.7
+r26: 0.40434854497354494
+r27: 0.3684782608695652
+r28: 0.5259824046920821
+r29: 0.7725705329153606
+________________________________
+r1: IF age = <83, inf) THEN class = {0.0} [0.0,0.0] (p=2.0, n=0.0, P=17.0, N=100.0)
+r2: IF age > wall_score AND epss < wall_score AND pericardial = still_alive AND wall_index = <1.02, 1.11) THEN class = {0.72} [0.72,0.72] (p=2.0, n=0.0, P=3.0, N=114.0)
+r3: IF wall_index = <1.02, 1.14) AND epss = (-inf, 18) AND fractional = (-inf, 0.24) AND age = <61, inf) THEN class = {0.79} [0.73,0.85] (p=2.0, n=1.0, P=4.0, N=113.0)
+r4: IF wall_index = (-inf, 1.11) AND age = (-inf, 52.50) THEN class = {0.58} [0.41,0.75] (p=4.0, n=2.0, P=46.0, N=71.0)
+r5: IF epss = <7.50, 12) AND fractional = <0.22, 0.26) THEN class = {0.44} [0.44,0.44] (p=2.0, n=0.0, P=4.0, N=113.0)
+r6: IF epss > wall_score AND pericardial != still_alive AND fractional = <0.22, 0.26) THEN class = {0.0} [0.0,0.0] (p=3.0, n=0.0, P=17.0, N=100.0)
+r7: IF age > wall_score AND fractional = <0.23, 0.25) AND age = (-inf, 75.50) THEN class = {0.18} [0.091,0.26] (p=4.0, n=1.0, P=12.0, N=105.0)
+r8: IF age > wall_score AND fractional = <0.22, 0.26) AND lvdd != <4.11, 4.72) AND age = (-inf, 82) THEN class = {0.12} [-0.033,0.28] (p=7.0, n=1.0, P=43.0, N=74.0)
+r9: IF epss < wall_score AND lvdd = <4.11, 4.60) AND age = (-inf, 70.50) THEN class = {0.46} [0.27,0.64] (p=16.0, n=4.0, P=54.0, N=63.0)
+r10: IF fractional = <0.23, 0.26) THEN class = {0.23} [-0.045,0.50] (p=11.0, n=1.0, P=75.0, N=42.0)
+r11: IF epss < wall_index AND wall_score != <7.75, 24) THEN class = {0.0} [0.0,0.0] (p=2.0, n=0.0, P=17.0, N=100.0)
+r12: IF wall_score != <7.75, 24) THEN class = {0.018} [-0.17,0.21] (p=10.0, n=2.0, P=37.0, N=80.0)
+r13: IF pericardial = still_alive AND wall_index = (-inf, 1.94) AND fractional = <0.22, 0.27) AND lvdd != <4.51, 4.65) AND wall_score != <9.25, 14) THEN class = {0.23} [0.12,0.33] (p=3.0, n=1.0, P=22.0, N=95.0)
+r14: IF age = (-inf, 72) AND lvdd = (-inf, 5.33) AND age != <58.50, 64) AND fractional = <0.22, 0.27) AND lvdd != <3.67, 4.38) AND age != <67, 71) THEN class = {0.19} [0.10,0.28] (p=5.0, n=1.0, P=15.0, N=102.0)
+r15: IF age = <52.50, 55) THEN class = {0.51} [0.41,0.61] (p=6.0, n=1.0, P=32.0, N=85.0)
+r16: IF wall_index = <1.98, 2.25) THEN class = {0.07} [-0.14,0.28] (p=7.0, n=1.0, P=45.0, N=72.0)
+r17: IF wall_index != <1.25, 1.50) AND lvdd = <4.05, 4.23) AND fractional != <0.18, 0.30) THEN class = {0.46} [0.40,0.52] (p=4.0, n=1.0, P=21.0, N=96.0)
+r18: IF epss < wall_score AND epss = <7.50, inf) AND fractional = (-inf, 0.34) THEN class = {0.21} [-0.093,0.51] (p=25.0, n=5.0, P=79.0, N=38.0)
+r19: IF fractional = <0.20, 0.22) THEN class = {0.63} [0.49,0.77] (p=5.0, n=1.0, P=32.0, N=85.0)
+r20: IF wall_index = <1.38, inf) AND alive_at_1 = {1.0, ?} THEN class = {0.018} [-0.19,0.22] (p=24.0, n=7.0, P=40.0, N=77.0)
+r21: IF wall_index = <1.02, 1.15) THEN class = {0.72} [0.53,0.91] (p=8.0, n=2.0, P=34.0, N=83.0)
+r22: IF epss > lvdd AND fractional != <0.075, 0.26) AND wall_score = (-inf, 12.34) THEN class = {0.56} [0.41,0.71] (p=9.0, n=2.0, P=43.0, N=74.0)
+r23: IF lvdd != <3.76, 5.95) AND age = <-1073741806.50, 58) THEN class = {0.56} [0.45,0.68] (p=7.0, n=1.0, P=34.0, N=83.0)
+r24: IF epss > lvdd AND lvdd = (-inf, 5.34) AND lvdd != <4.49, 5.32) AND fractional = (-inf, 0.24) AND age = <50, 58) THEN class = {0.42} [0.25,0.59] (p=4.0, n=1.0, P=46.0, N=71.0)
+r25: IF wall_index = <1.13, 1.30) AND epss != <8, 13) AND alive_at_1 != {?} AND age != <49, 57) THEN class = {0.33} [0.33,0.33] (p=2.0, n=0.0, P=5.0, N=112.0)
+r26: IF pericardial = still_alive AND epss = <9.50, inf) AND fractional != <0.16, 0.34) THEN class = {0.56} [0.34,0.78] (p=13.0, n=3.0, P=54.0, N=63.0)
+r27: IF epss > wall_score AND epss = (-inf, 20.50) AND fractional = <0.08, 0.22) AND wall_score != <11.34, 15) AND age = <60, inf) THEN class = {0.39} [0.38,0.39] (p=1.0, n=1.0, P=2.0, N=115.0)
+r28: IF lvdd != <4.76, 5.04) AND epss = <10.50, 25) AND fractional != <0.11, 0.17) AND lvdd != <4.03, 4.38) AND wall_score != <7.75, 13.50) AND age = (-inf, 71) THEN class = {0.18} [-0.077,0.43] (p=14.0, n=1.0, P=62.0, N=55.0)
+r29: IF pericardial != still_alive AND wall_index != <1.20, 1.36) AND lvdd != <4.19, 4.75) AND pericardial != {1} THEN class = {0.0} [-0.073,0.073] (p=19.0, n=1.0, P=29.0, N=88.0)

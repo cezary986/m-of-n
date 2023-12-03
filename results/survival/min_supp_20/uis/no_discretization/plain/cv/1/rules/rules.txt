@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 0.999999084302974
+r4: 0.9999670162327096
+r5: 0.9999999964483276
+r6: 0.9999999160315759
+r7: 0.9991166319888882
+r8: 0.9999999999193953
+r9: 0.9999999999871035
+r10: 0.9999999999944335
+________________________________
+r1: IF FRAC = (-inf, 0.29) THEN  (p=115.0, n=0.0, P=517.0, N=0.0)
+r2: IF FRAC = (-inf, 0.75) THEN  (p=247.0, n=0.0, P=517.0, N=0.0)
+r3: IF BECK = <14, inf) AND IV = <2.50, inf) AND FRAC = (-inf, 1.92) AND AGE = (-inf, 41.50) THEN  (p=123.0, n=0.0, P=517.0, N=0.0)
+r4: IF SITE = <0.50, inf) AND LNDT = (-inf, 2.24) AND BECK = (-inf, 26) AND RACE = (-inf, 0.50) AND HC = (-inf, 3.50) AND FRAC = (-inf, 1.92) THEN  (p=36.0, n=0.0, P=517.0, N=0.0)
+r5: IF LNDT = <1.24, inf) AND IV = <2.50, inf) AND FRAC = (-inf, 1.05) AND AGE = (-inf, 39.50) THEN  (p=113.0, n=0.0, P=517.0, N=0.0)
+r6: IF RACE = (-inf, 0.50) AND FRAC = (-inf, 2.02) AND AGE = (-inf, 41.50) THEN  (p=318.0, n=0.0, P=517.0, N=0.0)
+r7: IF LNDT = <0.90, inf) AND BECK = (-inf, 24) AND RACE = (-inf, 0.50) AND TREAT = (-inf, 0.50) AND IV = <2.50, inf) AND FRAC = (-inf, 2.13) AND AGE = <33.50, inf) THEN  (p=34.0, n=0.0, P=517.0, N=0.0)
+r8: IF HC = (-inf, 3.50) AND IV = <2.50, inf) AND AGE = (-inf, 45.50) AND FRAC = (-inf, 0.97) THEN  (p=126.0, n=0.0, P=517.0, N=0.0)
+r9: IF AGE = (-inf, 44.50) AND FRAC = (-inf, 1.00) THEN  (p=382.0, n=0.0, P=517.0, N=0.0)
+r10: IF LNDT = (-inf, 2.35) AND FRAC = <1.00, inf) THEN  (p=108.0, n=0.0, P=517.0, N=0.0)

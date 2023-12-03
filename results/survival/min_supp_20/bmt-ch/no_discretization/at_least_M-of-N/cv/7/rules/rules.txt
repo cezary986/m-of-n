@@ -1,0 +1,6 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+________________________________
+r1: IF 2-of-3(ANCrecovery < time_to_aGvHD_III_IV, ABOmatch = extcGvHD, CD34kgx10d6 != <10.22, 10.85)) = {0} THEN  (p=16.0, n=0.0, P=168.0, N=0.0)
+r2: IF 2-of-3(ANCrecovery < time_to_aGvHD_III_IV, ABOmatch = extcGvHD, CD34kgx10d6 != <10.22, 10.85)) = {1} THEN  (p=152.0, n=0.0, P=168.0, N=0.0)

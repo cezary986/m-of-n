@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.777383654937571
+r2: 0.9463677639046538
+r3: 0.7870317820658344
+r4: 0.8037585884768588
+r5: 0.7793227900755446
+r6: 0.7497124726247327
+r7: 0.9016473615120882
+r8: 0.8987614643885343
+r9: 0.9504760837179848
+________________________________
+r1: IF odor = {f} = {1} THEN class = {p} (p=1955.0, n=0.0, P=3524.0, N=3787.0)
+r2: IF odor != {n} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=3146.0, n=0.0, P=3524.0, N=3787.0)
+r3: IF stalk-surface-above-ring = {k} = {1} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=2023.0, n=0.0, P=3524.0, N=3787.0)
+r4: IF 2-of-3(population = {v}, gill-color = {b}, spore-print-color = {w}) = {0} AND cap-shape != {b} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=3151.0, n=268.0, P=3524.0, N=3787.0)
+r5: IF 2-of-3(population = {v}, gill-color = {b}, spore-print-color = {w}) = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=3153.0, n=319.0, P=3524.0, N=3787.0)
+r6: IF gill-color != {k} = {0} AND gill-spacing != {w} = {0} AND 2-of-3(stalk-shape != {e}, gill-size != {n}, population = {v}) = {1} AND cap-shape != {b} = {0} AND spore-print-color = {n} = {0} THEN class = {p} (p=2236.0, n=100.0, P=3524.0, N=3787.0)
+r7: IF odor != {n} = {1} AND spore-print-color != {r} = {0} AND stalk-surface-below-ring != {y} = {0} AND cap-surface != {g} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3056.0, n=3.0, P=3787.0, N=3524.0)
+r8: IF odor != {n} = {1} AND stalk-color-below-ring != {y} = {0} AND spore-print-color != {r} = {0} AND cap-surface != {g} = {0} AND cap-color != {y} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3071.0, n=11.0, P=3787.0, N=3524.0)
+r9: IF spore-print-color != {r} = {0} AND odor = {f} = {0} AND cap-surface != {g} = {0} AND cap-shape != {c} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {1} THEN class = {e} (p=3425.0, n=3.0, P=3787.0, N=3524.0)

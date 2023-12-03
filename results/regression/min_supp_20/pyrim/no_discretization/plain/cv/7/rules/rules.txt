@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.6499287749287749
+r2: 0.6693452380952382
+r3: 0.746969696969697
+r4: 0.6976190476190477
+r5: 0.6985372340425532
+r6: 0.535438596491228
+r7: 0.46877156659765357
+r8: 0.3464646464646465
+r9: 0.5085294117647059
+r10: 0.3624424356131673
+r11: 0.33831908831908825
+r12: 0.5392899584076055
+r13: 0.46136363636363636
+r14: 0.5889423076923077
+r15: 0.4741379310344827
+r16: 0.582807486631016
+r17: 0.4838929219600726
+________________________________
+r1: IF p2_h_acceptor = (-inf, 0.70) AND p1_flex = (-inf, 0.25) AND p2_pi_doner = (-inf, 0.70) AND p3_pi_doner = <0.30, inf) AND p1_polar = (-inf, 0.40) THEN class = {0.92} [0.83,1.01] (p=7.0, n=1.0, P=13.0, N=54.0)
+r2: IF p2_flex = (-inf, 0.30) AND p1_flex = (-inf, 0.25) AND p2_polarisable = (-inf, 0.70) AND p3_pi_doner = <0.30, inf) AND p1_h_doner = (-inf, 0.50) THEN class = {0.99} [0.93,1.06] (p=6.0, n=2.0, P=7.0, N=60.0)
+r3: IF p2_size = (-inf, 0.74) AND p3_pi_doner = <0.30, inf) AND p1_h_doner = (-inf, 0.50) THEN class = {0.95} [0.86,1.04] (p=9.0, n=2.0, P=10.0, N=57.0)
+r4: IF p2_flex = (-inf, 0.40) AND p2_polar = <0.34, 0.50) AND p3_polarisable = <0.23, inf) THEN class = {1} [0.93,1.07] (p=5.0, n=1.0, P=7.0, N=60.0)
+r5: IF p2_flex = (-inf, 0.80) AND p1_flex = (-inf, 0.35) AND p3_polarisable = <0.23, inf) AND p1_pi_doner = (-inf, 0.70) THEN class = {0.92} [0.79,1.04] (p=14.0, n=2.0, P=20.0, N=47.0)
+r6: IF p2_size = (-inf, 0.34) AND p1_h_acceptor = <0.70, inf) AND p3_pi_doner = (-inf, 0.70) AND p3_flex = (-inf, 0.37) THEN class = {0.59} [0.57,0.61] (p=4.0, n=1.0, P=10.0, N=57.0)
+r7: IF p3_h_doner = (-inf, 0.50) AND p1_h_acceptor = <0.70, inf) AND p1_pi_doner = <0.30, inf) AND p3_flex = (-inf, 0.50) THEN class = {0.61} [0.56,0.65] (p=5.0, n=1.0, P=21.0, N=46.0)
+r8: IF p2_sigma = <0.50, inf) THEN class = {0.59} [0.56,0.61] (p=2.0, n=1.0, P=12.0, N=55.0)
+r9: IF p1_sigma = (-inf, 0.74) AND p2_flex = (-inf, 0.60) AND p1_flex = (-inf, 0.30) AND p1_h_acceptor = <0.30, inf) AND p1_h_doner = (-inf, 0.70) THEN class = {0.84} [0.73,0.95] (p=9.0, n=3.0, P=17.0, N=50.0)
+r10: IF p2_flex = (-inf, 0.15) AND p2_polar = (-inf, 0.50) AND p1_h_acceptor = (-inf, 0.70) AND p3_polarisable = (-inf, 0.23) AND p1_pi_doner = <0.30, inf) AND p3_polar = <0.23, inf) THEN class = {0.67} [0.60,0.73] (p=8.0, n=3.0, P=26.0, N=41.0)
+r11: IF p2_h_acceptor = <0.30, inf) AND p1_pi_acceptor = <0.30, inf) THEN class = {0.80} [0.73,0.86] (p=2.0, n=1.0, P=13.0, N=54.0)
+r12: IF p1_sigma = (-inf, 0.74) AND p2_size = (-inf, 0.66) AND p2_h_doner = (-inf, 0.70) AND p2_polar = (-inf, 0.82) AND p1_flex = (-inf, 0.55) AND p1_pi_acceptor = (-inf, 0.30) AND p3_polarisable = (-inf, 0.23) AND p3_polar = <0.23, inf) AND p1_h_doner = (-inf, 0.70) THEN class = {0.65} [0.58,0.72] (p=20.0, n=4.0, P=33.0, N=34.0)
+r13: IF p1_sigma = (-inf, 0.50) AND p2_pi_doner = (-inf, 0.70) AND p2_pi_acceptor = (-inf, 0.50) AND p3_polarisable = (-inf, 0.23) AND p1_pi_doner = (-inf, 0.30) AND p2_polarisable = (-inf, 0.30) AND p1_h_doner = (-inf, 0.70) THEN class = {0.63} [0.58,0.67] (p=5.0, n=1.0, P=22.0, N=45.0)
+r14: IF p2_flex = (-inf, 0.60) AND p2_h_doner = (-inf, 0.70) AND p2_polar = (-inf, 0.82) AND p3_polarisable = (-inf, 0.23) AND p1_pi_doner = (-inf, 0.30) AND p1_polar = (-inf, 0.60) AND p1_h_doner = (-inf, 0.30) THEN class = {0.63} [0.57,0.68] (p=14.0, n=2.0, P=28.0, N=39.0)
+r15: IF p1_polarisable = (-inf, 0.23) AND p2_polar = <0.18, 0.50) AND p1_pi_acceptor = (-inf, 0.30) AND p2_polarisable = (-inf, 0.30) THEN class = {0.56} [0.53,0.58] (p=3.0, n=1.0, P=9.0, N=58.0)
+r16: IF p1_sigma = (-inf, 0.50) AND p1_polarisable = (-inf, 0.50) AND p1_flex = (-inf, 0.75) AND p1_size = <0.18, inf) AND p2_pi_acceptor = (-inf, 0.50) AND p3_size = (-inf, 0.50) THEN class = {0.66} [0.49,0.82] (p=21.0, n=1.0, P=50.0, N=17.0)
+r17: IF p1_sigma = (-inf, 0.50) AND p1_polarisable = (-inf, 0.23) AND p2_h_doner = (-inf, 0.70) AND p2_polar = <0.18, inf) AND p2_sigma = (-inf, 0.42) AND p1_flex = (-inf, 0.15) THEN class = {0.59} [0.52,0.66] (p=7.0, n=1.0, P=29.0, N=38.0)

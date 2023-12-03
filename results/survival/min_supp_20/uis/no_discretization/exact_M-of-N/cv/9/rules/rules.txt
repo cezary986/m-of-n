@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999999999984
+r2: 1.0
+r3: 0.9999999999999958
+r4: 1.0
+r5: 0.9999999998957451
+r6: 0.9183139436243758
+r7: 0.9999999999999984
+________________________________
+r1: IF RACE = IV3 = {0} THEN  (p=358.0, n=0.0, P=518.0, N=0.0)
+r2: IF SITE = IV3 = {0} AND SITE < LNDT = {1} AND NDT < SITE = {0} THEN  (p=306.0, n=0.0, P=518.0, N=0.0)
+r3: IF SITE = IV3 = {0} AND NDT < SITE = {0} THEN  (p=314.0, n=0.0, P=518.0, N=0.0)
+r4: IF SITE = IV3 = {1} AND 2-of-3(NDT > ND1, IV > SITE, BECK > ND1) = {0} THEN  (p=139.0, n=0.0, P=518.0, N=0.0)
+r5: IF SITE = IV3 = {0} AND IV > SITE = {0} THEN  (p=23.0, n=0.0, P=518.0, N=0.0)
+r6: IF RACE < LNDT = {0} AND NDT < SITE = {1} THEN  (p=11.0, n=0.0, P=518.0, N=0.0)
+r7: IF RACE = IV3 = {1} THEN  (p=160.0, n=0.0, P=518.0, N=0.0)

@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999999094485
+r2: 0.9641157149677962
+r3: 0.9999981262408861
+r4: 0.9999811061490608
+r5: 1.0
+________________________________
+r1: IF SHO = (-inf, 0.50) = {1} AND SEX > SHO = {0} AND SEX = CHF = {1} THEN  (p=167.0, n=0.0, P=433.0, N=0.0)
+r2: IF SEX > SHO = {1} AND SEX = CHF = {0} THEN  (p=87.0, n=0.0, P=433.0, N=0.0)
+r3: IF SEX = SHO = {0} AND CPK != <475, 589) = {1} AND SEX = CHF = {1} THEN  (p=70.0, n=0.0, P=433.0, N=0.0)
+r4: IF SEX > SHO = {0} AND SEX = CHF = {0} THEN  (p=86.0, n=0.0, P=433.0, N=0.0)
+r5: IF AGE = (-inf, 70) = {0} THEN  (p=196.0, n=0.0, P=433.0, N=0.0)

@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.3605769230769231
+r2: 0.3923076923076923
+r3: 0.4666666666666666
+r4: 0.5008223684210527
+r5: 0.5771065182829888
+r6: 0.4517045454545456
+r7: 0.5281818181818182
+r8: 0.3758241758241759
+r9: 0.49368863955119213
+r10: 0.3051282051282051
+r11: 0.25520833333333337
+r12: 0.37987012987012986
+r13: 0.44736842105263164
+r14: 0.475
+r15: 0.5156417112299465
+r16: 0.34631299734748006
+________________________________
+r1: IF NOX > SO = {1} AND JULT > HOUS = {1} THEN class = {1} [0.75,1.25] (p=1.0, n=1.0, P=2.0, N=52.0)
+r2: IF PREC > JANT = {1} AND JANT = <35, inf) = {1} AND 2-of-3(JANT > NOX, PREC < WWDRK, POPN = (-inf, 3.42)) = {0} AND JULT > HOUS = {1} THEN class = {0.59} [0.51,0.68] (p=3.0, n=1.0, P=15.0, N=39.0)
+r3: IF POOR < NOX = {0} AND NONW > NOX = {1} AND JULT < HOUS = {1} AND JANT = <35, inf) = {0} AND OVR65 < NONW = {1} THEN class = {0.55} [0.51,0.59] (p=3.0, n=1.0, P=9.0, N=45.0)
+r4: IF 2-of-3(JANT > NOX, PREC < WWDRK, POPN = (-inf, 3.42)) = {0} AND PREC > HC = {1} AND 2-of-3(PREC > HC, HOUS > SO, JANT > HC) = {0} AND EDUC < POOR = {1} AND NONW > POOR = {1} THEN class = {0.56} [0.48,0.64] (p=5.0, n=1.0, P=16.0, N=38.0)
+r5: IF JANT > NOX = {1} AND SO > HUMID = {1} THEN class = {0.56} [0.48,0.64] (p=7.0, n=1.0, P=17.0, N=37.0)
+r6: IF 2-of-3(JANT > NOX, PREC < WWDRK, POPN = (-inf, 3.42)) = {0} AND 2-of-3(PREC > HC, HOUS > SO, JANT > HC) = {0} AND NONW > POOR = {1} THEN class = {0.56} [0.45,0.67] (p=8.0, n=2.0, P=22.0, N=32.0)
+r7: IF POOR < NOX = {1} AND JANT = <35, inf) = {0} AND NONW > POOR = {1} THEN class = {0.66} [0.59,0.73] (p=4.0, n=1.0, P=10.0, N=44.0)
+r8: IF JANT = <35, inf) = {0} AND 2-of-3(POOR != <12.80, 14), HOUS > SO, POPN = (-inf, 3.42)) = {1} AND NONW > POOR = {0} THEN class = {0.48} [0.34,0.62] (p=8.0, n=2.0, P=28.0, N=26.0)
+r9: IF POOR < NOX = {0} AND PREC > WWDRK = {0} AND 2-of-3(POOR != <12.80, 14), HOUS > SO, DENS = (-inf, 5945)) = {1} THEN class = {0.52} [0.37,0.67] (p=9.0, n=1.0, P=31.0, N=23.0)
+r10: IF NONW > NOX = {0} AND EDUC < POOR = {1} AND 2-of-3(PREC > HC, HOUS > SO, JANT > HC) = {0} AND 2-of-3(JANT > NOX, JULT < HOUS, POPN = (-inf, 3.42)) = {1} THEN class = {0.22} [0.066,0.37] (p=2.0, n=1.0, P=15.0, N=39.0)
+r11: IF JANT > NOX = {0} AND HOUS > SO = {1} AND SO > HUMID = {1} THEN class = {0.45} [0.41,0.48] (p=1.0, n=1.0, P=6.0, N=48.0)
+r12: IF 2-of-3(PREC > HC, HOUS > SO, JANT > NOX) = {0} AND PREC > WWDRK = {1} AND JULT > HOUS = {0} THEN class = {0.41} [0.31,0.51] (p=6.0, n=2.0, P=21.0, N=33.0)
+r13: IF POOR < NOX = {0} AND PREC > WWDRK = {0} AND 2-of-3(PREC > HC, EDUC < POOR, JANT > NOX) = {1} THEN class = {0.30} [0.21,0.39] (p=4.0, n=1.0, P=16.0, N=38.0)
+r14: IF POOR < NOX = {0} AND PREC > WWDRK = {0} AND JANT = <35, inf) = {0} AND POOR < SO = {1} AND 2-of-3(PREC > HC, EDUC < POOR, JANT > NOX) = {0} THEN class = {0.52} [0.38,0.67] (p=8.0, n=1.0, P=30.0, N=24.0)
+r15: IF POOR < SO = {0} AND NONW > POOR = {0} THEN class = {0.31} [0.19,0.44] (p=9.0, n=2.0, P=20.0, N=34.0)
+r16: IF JANT > HC = {1} AND PREC > JANT = {1} AND NONW > POOR = {0} THEN class = {0.45} [0.32,0.58] (p=19.0, n=7.0, P=29.0, N=25.0)

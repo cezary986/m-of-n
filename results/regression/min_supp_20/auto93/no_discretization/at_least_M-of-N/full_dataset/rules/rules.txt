@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.657451923076923
+r2: 0.5333015873015874
+r3: 0.6186200378071833
+r4: 0.474025974025974
+r5: 0.35336538461538464
+r6: 0.4950359984842743
+r7: 0.4832070707070707
+r8: 0.40048076923076925
+r9: 0.4211538461538461
+________________________________
+r1: IF Number_of_cylinders = Passenger_capacity = {0} AND City_MPG > Rear_seat_room = {1} AND Engine_revolutions_per_mile > Weight = {1} THEN class = {0.033} [0.0092,0.057] (p=7.0, n=1.0, P=13.0, N=80.0)
+r2: IF Highway_MPG > Rear_seat_room = {1} THEN class = {0.11} [-0.013,0.24] (p=44.0, n=6.0, P=63.0, N=30.0)
+r3: IF Horsepower > Wheelbase = {0} THEN class = {0.053} [0.0017,0.10] (p=18.0, n=5.0, P=24.0, N=69.0)
+r4: IF Number_of_cylinders = Passenger_capacity = {0} AND Drive_train_type != Air_Bags_standard = {0} AND Horsepower > Wheelbase = {1} AND Highway_MPG > Rear_seat_room = {0} AND Fuel_tank_capacity > Luggage_capacity = {1} AND Weight != <2537.50, 2850) = {1} THEN class = {0.34} [0.25,0.44] (p=4.0, n=1.0, P=16.0, N=77.0)
+r5: IF Drive_train_type != Air_Bags_standard = {1} AND Rear_seat_room = (-inf, 27) = {0} AND Number_of_cylinders < Passenger_capacity = {0} AND Domestic != Manual_transmission_available = {0} THEN class = {0.74} [0.41,1.07] (p=2.0, n=1.0, P=13.0, N=80.0)
+r6: IF Horsepower > Wheelbase = {1} AND Highway_MPG > Rear_seat_room = {0} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.21} [0.15,0.28] (p=11.0, n=2.0, P=35.0, N=58.0)
+r7: IF Number_of_cylinders = Passenger_capacity = {1} AND Engine_size = (-inf, 2.25) = {0} AND Domestic != Manual_transmission_available = {1} THEN class = {0.31} [0.20,0.42] (p=10.0, n=2.0, P=33.0, N=60.0)
+r8: IF Horsepower > Wheelbase = {1} AND Highway_MPG > Rear_seat_room = {0} AND Fuel_tank_capacity > Luggage_capacity = {0} THEN class = {0.49} [0.39,0.60] (p=4.0, n=2.0, P=13.0, N=80.0)
+r9: IF Number_of_cylinders = Passenger_capacity = {0} AND Length != <157, 172) = {1} AND Drive_train_type != Air_Bags_standard = {1} AND Fuel_tank_capacity > Luggage_capacity = {1} AND Number_of_cylinders < Passenger_capacity = {0} AND Domestic != Manual_transmission_available = {1} THEN class = {0.51} [0.36,0.66] (p=3.0, n=1.0, P=15.0, N=78.0)

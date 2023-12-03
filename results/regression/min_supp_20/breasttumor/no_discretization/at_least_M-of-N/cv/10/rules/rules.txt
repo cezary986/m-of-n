@@ -1,0 +1,40 @@
+Rules qualities:
+r1: 0.5227272727272727
+r2: 0.5192307692307693
+r3: 0.407280750137893
+r4: 0.34524163095591676
+r5: 0.3084100272179448
+r6: 0.2842736531760922
+r7: 0.3800123804938441
+r8: 0.33634366609714433
+r9: 0.31738083774675013
+r10: 0.3114458366657779
+r11: 0.20827974759615386
+r12: 0.30704173561316417
+r13: 0.23900314786407165
+r14: 0.24508078667266645
+r15: 0.1944642221431114
+r16: 0.14541956305858988
+r17: 0.23031717089554712
+r18: 0.08068580069329209
+r19: 0.07863139839306675
+________________________________
+r1: IF age = <38.50, 41) = {1} AND irradiation != {no} = {0} THEN class = {0.50} [0.50,0.50] (p=2.0, n=0.0, P=44.0, N=214.0)
+r2: IF age = <38.50, 41) = {1} AND deg-malig != {3} = {1} THEN class = {0.60} [0.60,0.60] (p=2.0, n=0.0, P=52.0, N=206.0)
+r3: IF age = <38.50, 41) = {1} THEN class = {0.50} [0.39,0.61] (p=9.0, n=1.0, P=147.0, N=111.0)
+r4: IF irradiation != {no} = {0} AND breast != {left} = {1} AND 2-of-3(deg-malig != {3}, recurrence != {r}, age != <35.50, 46)) = {1} THEN class = {0.50} [0.39,0.61] (p=11.0, n=2.0, P=147.0, N=111.0)
+r5: IF breast != {left} = {1} AND 2-of-3(deg-malig != {3}, recurrence != {r}, age != <35.50, 46)) = {1} THEN class = {0.56} [0.39,0.73] (p=40.0, n=9.0, P=164.0, N=94.0)
+r6: IF 2-of-3(deg-malig != {3}, recurrence != {r}, age != <35.50, 46)) = {1} THEN class = {0.56} [0.39,0.73] (p=71.0, n=20.0, P=164.0, N=94.0)
+r7: IF 2-of-3(breast != {left}, deg-malig != {3}, age != <35.50, 46)) = {1} AND age = <44.50, 47) = {1} THEN class = {0.60} [0.44,0.76] (p=6.0, n=1.0, P=124.0, N=134.0)
+r8: IF age = <44.50, 47) = {1} AND 2-of-3(age = (-inf, 48), breast != {left}, irradiation != {no}) = {0} THEN class = {0.70} [0.62,0.78] (p=3.0, n=2.0, P=17.0, N=241.0)
+r9: IF 2-of-3(age != <45.50, 52), breast != {left}, irradiation != {no}) = {0} AND age = <44.50, 47) = {1} AND recurrence != {r} = {0} AND deg-malig != {3} = {0} THEN class = {0.60} [0.43,0.77] (p=4.0, n=1.0, P=124.0, N=134.0)
+r10: IF 2-of-3(irradiation != {no}, recurrence != {r}, age != <35.50, 46)) = {0} AND age = <44.50, 47) = {1} THEN class = {0.70} [0.53,0.87] (p=8.0, n=3.0, P=93.0, N=165.0)
+r11: IF 2-of-3(age != <44, 52), breast != {left}, irradiation != {no}) = {1} AND age = <60.50, inf) = {0} AND deg-malig != {3} = {0} AND age = <58.50, 65) = {0} AND age = <49, inf) = {1} THEN class = {0.40} [0.22,0.58] (p=27.0, n=13.0, P=130.0, N=128.0)
+r12: IF 2-of-3(deg-malig != {3}, recurrence != {r}, age != <45.50, 52)) = {1} AND irradiation != {no} = {0} AND breast != {left} = {1} THEN class = {0.50} [0.39,0.61] (p=13.0, n=3.0, P=147.0, N=111.0)
+r13: IF 2-of-3(deg-malig != {3}, recurrence != {r}, age != <45.50, 52)) = {1} THEN class = {0.56} [0.39,0.73] (p=69.0, n=22.0, P=164.0, N=94.0)
+r14: IF 2-of-3(breast != {left}, deg-malig != {3}, age != <35.50, 46)) = {1} AND age != <45.50, 52) = {0} THEN class = {0.50} [0.32,0.68] (p=28.0, n=9.0, P=151.0, N=107.0)
+r15: IF age != <45.50, 52) = {0} AND 2-of-3(deg-malig != {3}, irradiation != {no}, age != <35.50, 46)) = {1} THEN class = {0.50} [0.31,0.69] (p=38.0, n=15.0, P=152.0, N=106.0)
+r16: IF age != <45.50, 52) = {0} AND 2-of-3(irradiation != {no}, recurrence != {r}, age != <44, 52)) = {0} THEN class = {0.50} [0.30,0.70] (p=35.0, n=16.0, P=152.0, N=106.0)
+r17: IF 2-of-3(breast != {left}, recurrence != {r}, age != <35.50, 46)) = {1} AND irradiation != {no} = {0} THEN class = {0.60} [0.45,0.75] (p=21.0, n=10.0, P=121.0, N=137.0)
+r18: IF irradiation != {no} = {1} AND deg-malig != {3} = {0} THEN class = {0.40} [0.19,0.61] (p=121.0, n=30.0, P=201.0, N=57.0)
+r19: IF 2-of-3(irradiation != {no}, recurrence != {r}, age != <44.50, 53)) = {0} THEN class = {0.50} [0.30,0.70] (p=56.0, n=32.0, P=152.0, N=106.0)

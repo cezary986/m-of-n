@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.999999999546596
+r2: 1.0
+r3: 0.9999999999967546
+r4: 0.9999999999601863
+r5: 1.0
+r6: 1.0
+r7: 1.0
+________________________________
+r1: IF copper < ast AND ast = (-inf, 125.73) AND age != <53.03, 55.44) THEN  (p=103.0, n=0.0, P=376.0, N=0.0)
+r2: IF bili = (-inf, 2.25) THEN  (p=242.0, n=0.0, P=376.0, N=0.0)
+r3: IF trt > hepato AND copper = (-inf, 110.50) THEN  (p=157.0, n=0.0, P=376.0, N=0.0)
+r4: IF albumin = (-inf, 3.40) THEN  (p=133.0, n=0.0, P=376.0, N=0.0)
+r5: IF albumin > stage AND alk.phos != <2311, 5430.20) THEN  (p=214.0, n=0.0, P=376.0, N=0.0)
+r6: IF bili < albumin THEN  (p=279.0, n=0.0, P=376.0, N=0.0)
+r7: IF trt < bili AND copper = <84, inf) THEN  (p=89.0, n=0.0, P=376.0, N=0.0)

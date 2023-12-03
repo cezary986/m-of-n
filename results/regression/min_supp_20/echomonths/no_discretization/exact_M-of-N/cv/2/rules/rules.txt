@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.75
+r2: 0.6639159789947487
+r3: 0.8333333333333333
+r4: 0.488449848024316
+r5: 0.6185714285714285
+r6: 0.47699579831932776
+r7: 0.4526392961876833
+r8: 0.5067307692307692
+r9: 0.45258620689655177
+r10: 0.4293313069908814
+r11: 0.31799259944495833
+r12: 0.5078054298642534
+r13: 0.21213748657357678
+r14: 0.45761444674488155
+r15: 0.4750000000000001
+________________________________
+r1: IF lvdd = <4.05, 4.23) = {0} AND 2-of-3(age = (-inf, 72), epss = (-inf, 18), lvdd = (-inf, 6.48)) = {0} AND wall_score != <8.50, 14) = {1} AND wall_index = <1.23, 1.37) = {1} THEN class = {0.39} [0.39,0.39] (p=2.0, n=0.0, P=4.0, N=113.0)
+r2: IF still_alive != {0} = {0} THEN class = {0.018} [-0.16,0.19] (p=28.0, n=8.0, P=31.0, N=86.0)
+r3: IF 2-of-3(age = (-inf, 72), epss = (-inf, 18), lvdd = (-inf, 6.48)) = {0} AND 2-of-3(lvdd < wall_score, fractional < epss, age > wall_score) = {0} AND epss < wall_score = {1} AND wall_score != <8.50, 14) = {0} AND fractional = <0.15, 0.35) = {1} AND still_alive != {0} = {1} AND lvdd = <4.66, 5.57) = {1} THEN class = {0.72} [0.72,0.72] (p=2.0, n=0.0, P=3.0, N=114.0)
+r4: IF wall_score != <8.50, 14) = {0} AND still_alive != {0} = {1} THEN class = {0.56} [0.40,0.72] (p=29.0, n=9.0, P=47.0, N=70.0)
+r5: IF wall_score != <8.50, 14) = {1} AND wall_index = <1.23, 1.37) = {1} THEN class = {0.37} [0.34,0.40] (p=4.0, n=1.0, P=7.0, N=110.0)
+r6: IF age = <52.50, 55) = {1} THEN class = {0.51} [0.41,0.61] (p=6.0, n=1.0, P=32.0, N=85.0)
+r7: IF lvdd = <4.05, 4.23) = {1} THEN class = {0.46} [0.28,0.63] (p=8.0, n=1.0, P=55.0, N=62.0)
+r8: IF lvdd = <4.05, 4.23) = {0} AND lvdd = <4.72, 5.04) = {0} AND wall_score = <10.25, 12.67) = {0} AND fractional = (-inf, 0.31) = {0} AND 2-of-3(lvdd < wall_score, fractional < epss, age > lvdd) = {0} AND fractional < epss = {1} AND wall_index = <1.38, 1.50) = {0} THEN class = {0.91} [0.78,1.04] (p=4.0, n=1.0, P=13.0, N=104.0)
+r9: IF wall_score = <10.25, 12.67) = {0} AND 2-of-3(age = (-inf, 78.50), epss = (-inf, 18), fractional = (-inf, 0.38)) = {0} AND still_alive != {0} = {1} AND fractional < epss = {0} AND wall_index = <1.38, 1.50) = {0} THEN class = {0.67} [0.52,0.81] (p=5.0, n=1.0, P=30.0, N=87.0)
+r10: IF age = (-inf, 52.50) = {0} AND 2-of-3(lvdd < wall_score, fractional < epss, age > wall_score) = {0} AND epss != <6, 11) = {1} AND wall_score != <8.50, 14) = {1} AND still_alive != {0} = {1} AND wall_index = <1.23, 1.37) = {0} THEN class = {0.42} [0.18,0.67] (p=15.0, n=2.0, P=70.0, N=47.0)
+r11: IF 2-of-3(lvdd < wall_score, fractional < epss, age > wall_score) = {1} AND 2-of-3(age > lvdd, fractional = (-inf, 0.38), lvdd = (-inf, 6.48)) = {1} AND fractional < epss = {0} THEN class = {0.33} [0.24,0.43] (p=2.0, n=1.0, P=23.0, N=94.0)
+r12: IF still_alive != {0} = {1} AND 2-of-3(fractional = (-inf, 0.38), epss = (-inf, 18), lvdd < wall_score) = {1} THEN class = {0.49} [0.33,0.65] (p=15.0, n=2.0, P=52.0, N=65.0)
+r13: IF age > wall_score = {1} AND fractional < epss = {0} AND epss < wall_index = {0} THEN class = {0.61} [0.56,0.67] (p=1.0, n=1.0, P=19.0, N=98.0)
+r14: IF epss = <6.50, inf) = {1} AND 2-of-3(age > lvdd, fractional = (-inf, 0.31), lvdd < wall_score) = {0} AND lvdd != <4.33, 5.36) = {1} AND age = <64, inf) = {0} THEN class = {0.47} [0.30,0.65] (p=19.0, n=4.0, P=54.0, N=63.0)
+r15: IF still_alive != {0} = {1} AND 2-of-3(fractional = (-inf, 0.38), lvdd != <4.86, 5.47), age > wall_score) = {1} AND age != <55.50, 64) = {1} THEN class = {0.49} [0.32,0.66] (p=13.0, n=2.0, P=52.0, N=65.0)

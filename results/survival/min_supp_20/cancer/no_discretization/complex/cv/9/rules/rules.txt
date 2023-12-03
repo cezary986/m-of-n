@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9999999455197951
+r2: 0.9999999998527734
+r3: 0.9983430536744523
+r4: 0.9999999993616123
+r5: 0.9991529767366361
+r6: 0.9995208802582488
+r7: 0.9631404677744554
+r8: 0.9999999998827536
+r9: 0.9999999898521222
+r10: 0.9999999992009292
+r11: 0.9999997169047308
+r12: 0.7033512239984384
+________________________________
+r1: IF sex > ph.ecog AND wt.loss = (-inf, 27) THEN  (p=84.0, n=0.0, P=206.0, N=0.0)
+r2: IF sex > ph.ecog AND age < pat.karno AND meal.cal != <296.50, 588) AND age != <45.50, 50) THEN  (p=80.0, n=0.0, P=206.0, N=0.0)
+r3: IF pat.karno = <80, inf) THEN  (p=129.0, n=0.0, P=206.0, N=0.0)
+r4: IF sex > ph.ecog AND age != <51.50, 54) AND age = (-inf, 73.50) AND meal.cal != <224.50, 588) AND age != <45.50, 50) THEN  (p=73.0, n=0.0, P=206.0, N=0.0)
+r5: IF meal.cal = (-inf, 1200) AND age = (-inf, 73.50) AND meal.cal != <444, 768) AND pat.karno = (-inf, 85) AND age != <62.50, 70) THEN  (p=31.0, n=0.0, P=206.0, N=0.0)
+r6: IF sex < ph.ecog THEN  (p=26.0, n=0.0, P=206.0, N=0.0)
+r7: IF wt.loss = <7, inf) AND ph.karno > pat.karno AND sex = ph.ecog AND wt.loss != <6, 10) AND age = <61, inf) THEN  (p=12.0, n=0.0, P=206.0, N=0.0)
+r8: IF meal.cal != <525.50, 588) AND meal.cal != <450.50, 513) AND meal.cal != <655, 768) AND meal.cal != <1032, 1150) AND wt.loss != <16.50, 22) AND age != <69.50, 72) AND meal.cal != <1200, 1300) AND age != <64.50, 68) AND meal.cal != <821.50, 975) AND age != <56.50, 59) AND wt.loss = (-inf, 44) AND age != <53.50, 56) AND age = (-inf, 74.50) AND meal.cal != <150, 346) AND wt.loss != <30.50, 36) AND pat.karno != <45, 70) AND ph.karno != <65, 90) AND age != <45.50, 50) THEN  (p=43.0, n=0.0, P=206.0, N=0.0)
+r9: IF meal.cal != <525.50, 588) AND meal.cal != <450.50, 513) AND meal.cal != <655, 768) AND sex < pat.karno AND meal.cal != <1032, 1150) AND wt.loss != <16.50, 22) AND age != <69.50, 72) AND age != <64.50, 68) AND meal.cal != <821.50, 975) AND age != <51.50, 56) AND age != <60.50, 63) AND ph.ecog < wt.loss AND sex < wt.loss AND meal.cal != <150, 346) AND wt.loss != <23.50, 29) AND pat.karno != <45, 70) AND age = <45.50, 50) THEN  (p=41.0, n=0.0, P=206.0, N=0.0)
+r10: IF wt.loss != <12.50, 15) AND age = (-inf, 74.50) AND age != <64.50, 68) AND age != <60.50, 63) AND wt.loss != <33, 38) AND meal.cal != <150, 346) AND wt.loss != <23.50, 29) AND pat.karno != <45, 70) AND ph.karno != <55, 80) AND age != <45.50, 50) THEN  (p=98.0, n=0.0, P=206.0, N=0.0)
+r11: IF meal.cal != <450.50, 513) AND meal.cal != <1032, 1150) AND age != <56.50, 59) AND age != <60.50, 63) AND age = (-inf, 71.50) AND meal.cal != <150, 413) AND wt.loss != <7.50, 15) AND pat.karno != <45, 70) AND age != <45.50, 50) THEN  (p=95.0, n=0.0, P=206.0, N=0.0)
+r12: IF meal.cal != <528, 1075) AND ph.karno > pat.karno AND sex = ph.ecog AND meal.cal != <336, 625) AND ph.karno = (-inf, 75) THEN  (p=4.0, n=0.0, P=206.0, N=0.0)

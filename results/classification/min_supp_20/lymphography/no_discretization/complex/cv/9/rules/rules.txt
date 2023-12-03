@@ -1,0 +1,56 @@
+Rules qualities:
+r1: 0.6727272727272727
+r2: 0.6545454545454545
+r3: 0.5636363636363636
+r4: 0.6090909090909091
+r5: 0.6454545454545455
+r6: 0.7636363636363637
+r7: 0.7909090909090909
+r8: 0.7204602991944764
+r9: 0.7002959066250206
+r10: 0.7545454545454545
+r11: 0.7204602991944764
+r12: 0.6545454545454545
+r13: 0.6363636363636364
+r14: 0.875
+r15: 1.0
+r16: 0.8013698630136986
+r17: 0.7482229361540258
+r18: 0.6917808219178082
+r19: 0.6438356164383562
+r20: 0.6467549966314844
+r21: 0.6917808219178082
+r22: 0.7218247730262103
+r23: 0.5753424657534246
+r24: 0.6095890410958904
+r25: 0.6095890410958904
+r26: 0.5753424657534246
+r27: 1.0
+________________________________
+r1: IF lym_nodes_dimin < no_of_nodes_in AND changes_in_node = {lac_central} THEN class = {malign_lymph} (p=19.0, n=0.0, P=55.0, N=79.0)
+r2: IF lym_nodes_enlar = <2.50, inf) AND changes_in_node = {lac_central} THEN class = {malign_lymph} (p=17.0, n=0.0, P=55.0, N=79.0)
+r3: IF changes_in_stru = {stripped} THEN class = {malign_lymph} (p=7.0, n=0.0, P=55.0, N=79.0)
+r4: IF by_pass = regeneration_of = bl_of_lymph_c AND no_of_nodes_in = <4.50, 7) THEN class = {malign_lymph} (p=12.0, n=0.0, P=55.0, N=79.0)
+r5: IF early_uptake_in = dislocation_of = exclusion_of_no AND lym_nodes_enlar = <3.50, inf) THEN class = {malign_lymph} (p=16.0, n=0.0, P=55.0, N=79.0)
+r6: IF lym_nodes_enlar = <2.50, inf) AND special_forms = {vesicles} AND changes_in_node = {lacunar, lac_central} THEN class = {malign_lymph} (p=29.0, n=0.0, P=55.0, N=79.0)
+r7: IF early_uptake_in = exclusion_of_no AND lym_nodes_dimin < no_of_nodes_in AND special_forms = {vesicles} AND changes_in_node = {lacunar, lac_central} THEN class = {malign_lymph} (p=32.0, n=0.0, P=55.0, N=79.0)
+r8: IF early_uptake_in = exclusion_of_no AND block_of_affere = bl_of_lymph_c AND special_forms = {vesicles, chalices} AND changes_in_node = {lacunar, lac_central} THEN class = {malign_lymph} (p=29.0, n=1.0, P=55.0, N=79.0)
+r9: IF regeneration_of != exclusion_of_no AND lym_nodes_dimin < lym_nodes_enlar AND block_of_affere = bl_of_lymph_c = bl_of_lymph_s AND changes_in_node = {lacunar, lac_central} THEN class = {malign_lymph} (p=27.0, n=1.0, P=55.0, N=79.0)
+r10: IF by_pass = regeneration_of = block_of_affere AND special_forms = {vesicles} AND early_uptake_in != {no} AND changes_in_stru != {reticular} THEN class = {malign_lymph} (p=28.0, n=0.0, P=55.0, N=79.0)
+r11: IF by_pass = regeneration_of = block_of_affere AND early_uptake_in = exclusion_of_no AND special_forms = {vesicles, chalices} AND defect_in_node = {lac_central, lacunar, no} THEN class = {malign_lymph} (p=29.0, n=1.0, P=55.0, N=79.0)
+r12: IF by_pass = regeneration_of = block_of_affere AND bl_of_lymph_s != extravasates AND changes_in_node = {lacunar, lac_margin, lac_central} THEN class = {malign_lymph} (p=17.0, n=0.0, P=55.0, N=79.0)
+r13: IF lym_nodes_enlar < no_of_nodes_in AND early_uptake_in != {no} AND changes_in_lym = {oval} THEN class = {malign_lymph} (p=15.0, n=0.0, P=55.0, N=79.0)
+r14: IF lym_nodes_dimin = <2.50, inf) THEN class = {fibrosis} (p=3.0, n=0.0, P=4.0, N=130.0)
+r15: IF lym_nodes_dimin = <1.50, inf) AND by_pass != {no} THEN class = {fibrosis} (p=4.0, n=0.0, P=4.0, N=130.0)
+r16: IF regeneration_of != block_of_affere AND no_of_nodes_in = (-inf, 3.50) AND changes_in_node = {lac_margin} AND changes_in_stru != {stripped} THEN class = {metastases} (p=44.0, n=0.0, P=73.0, N=61.0)
+r17: IF regeneration_of != block_of_affere AND changes_in_node = {lac_margin} AND changes_in_stru != {stripped} THEN class = {metastases} (p=47.0, n=2.0, P=73.0, N=61.0)
+r18: IF no_of_nodes_in = (-inf, 3.50) AND changes_in_node = {lac_margin} AND changes_in_stru = {diluted, coarse, grainy} AND defect_in_node = {lac_central, lac_margin, no} THEN class = {metastases} (p=28.0, n=0.0, P=73.0, N=61.0)
+r19: IF dislocation_of = bl_of_lymph_c = extravasates AND changes_in_node = {lac_margin} THEN class = {metastases} (p=21.0, n=0.0, P=73.0, N=61.0)
+r20: IF no_of_nodes_in = (-inf, 2.50) AND changes_in_node = {lac_margin} AND changes_in_stru != {drop_like} THEN class = {metastases} (p=39.0, n=3.0, P=73.0, N=61.0)
+r21: IF block_of_affere != bl_of_lymph_s AND lym_nodes_dimin = no_of_nodes_in THEN class = {metastases} (p=28.0, n=0.0, P=73.0, N=61.0)
+r22: IF block_of_affere != bl_of_lymph_s AND regeneration_of != block_of_affere AND changes_in_node = {lacunar, lac_margin} AND changes_in_stru != {stripped} THEN class = {metastases} (p=52.0, n=4.0, P=73.0, N=61.0)
+r23: IF early_uptake_in = by_pass AND exclusion_of_no != extravasates AND changes_in_node = {no, lac_margin} THEN class = {metastases} (p=11.0, n=0.0, P=73.0, N=61.0)
+r24: IF no_of_nodes_in = (-inf, 1.50) AND changes_in_lym = {round} AND changes_in_stru != {drop_like} THEN class = {metastases} (p=16.0, n=0.0, P=73.0, N=61.0)
+r25: IF by_pass = dislocation_of = extravasates AND no_of_nodes_in = (-inf, 1.50) AND changes_in_lym = {round, oval} THEN class = {metastases} (p=16.0, n=0.0, P=73.0, N=61.0)
+r26: IF early_uptake_in != exclusion_of_no AND lymphatics = {arched} THEN class = {metastases} (p=11.0, n=0.0, P=73.0, N=61.0)
+r27: IF lymphatics = {normal} THEN class = {normal} (p=2.0, n=0.0, P=2.0, N=132.0)

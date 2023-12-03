@@ -1,0 +1,2 @@
+dataset,RMSE (test),MAE (test),MAPE (test),rRMSE (test),rMAE (test),rMAPE (test),maxError (test),R2 (test),RMSE (train),MAE (train),MAPE (train),rRMSE (train),rMAE (train),rMAPE (train),maxError (train),R2 (train),rules,conditions_count,avg conditions per rule
+pharynx,0.19393097677858329,0.1500457298695036,24605759553514.934,0.5321368461084889,0.41171793589203215,246057595535.14932,0.4483262867761689,0.5814016999926982,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,173,345,13.234782608695653

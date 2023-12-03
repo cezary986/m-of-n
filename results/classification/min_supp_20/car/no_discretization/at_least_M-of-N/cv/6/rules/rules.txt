@@ -1,0 +1,62 @@
+Rules qualities:
+r1: 0.817722681359045
+r2: 0.7410468319559229
+r3: 0.7346189164370982
+r4: 0.6081512019865513
+r5: 0.4683102709415388
+r6: 0.5571752318362471
+r7: 0.5053267028062842
+r8: 0.5234159779614325
+r9: 0.512006002258535
+r10: 0.45054010206454337
+r11: 0.44429301976845803
+r12: 0.40344581432877313
+r13: 0.5146923783287419
+r14: 0.5298438934802571
+r15: 0.48906088157852795
+r16: 0.46467443431102085
+r17: 0.4332990981263933
+r18: 0.349992864796556
+r19: 0.5426997245179064
+r20: 0.42368351688484346
+r21: 0.24023778211154037
+r22: 0.22948013498605954
+r23: 0.4083927753335534
+r24: 0.3682189603581277
+r25: 0.1877951304908668
+r26: 0.17044737623394937
+r27: 0.13173863657866142
+r28: 0.1297219811529871
+r29: 0.1337959167533293
+r30: 0.13203488661661938
+________________________________
+r1: IF 2-of-3(persons = {2}, safety = {low}, maint != buying) = {1} THEN class = {unacc} (p=692.0, n=0.0, P=1089.0, N=466.0)
+r2: IF persons = {2} = {1} THEN class = {unacc} (p=525.0, n=0.0, P=1089.0, N=466.0)
+r3: IF safety = {low} = {1} THEN class = {unacc} (p=511.0, n=0.0, P=1089.0, N=466.0)
+r4: IF 2-of-3(persons = {2}, lug_boot = {small}, maint != buying) = {1} AND safety = {high} = {0} THEN class = {unacc} (p=437.0, n=18.0, P=1089.0, N=466.0)
+r5: IF 2-of-3(persons = {2}, lug_boot = {small}, maint != buying) = {1} THEN class = {unacc} (p=610.0, n=83.0, P=1089.0, N=466.0)
+r6: IF 2-of-3(safety = {med}, lug_boot = {big}, maint != buying) = {0} AND safety = {high} = {0} THEN class = {unacc} (p=433.0, n=28.0, P=1089.0, N=466.0)
+r7: IF safety = {high} = {0} AND 2-of-3(lug_boot = {small}, safety = {med}, maint != buying) = {0} THEN class = {unacc} (p=438.0, n=40.0, P=1089.0, N=466.0)
+r8: IF maint = {vhigh} = {1} AND doors = {2} = {1} AND 2-of-3(safety = {high}, lug_boot = {big}, maint != buying) = {0} THEN class = {unacc} (p=51.0, n=0.0, P=1089.0, N=466.0)
+r9: IF maint = {vhigh} = {1} AND 2-of-3(safety = {high}, lug_boot = {big}, maint != buying) = {0} THEN class = {unacc} (p=195.0, n=8.0, P=1089.0, N=466.0)
+r10: IF buying = {low} = {0} AND maint = {vhigh} = {1} AND safety = {high} = {0} AND doors = {2} = {1} THEN class = {unacc} (p=47.0, n=2.0, P=1089.0, N=466.0)
+r11: IF buying = {low} = {0} AND maint = {vhigh} = {1} AND safety = {high} = {0} THEN class = {unacc} (p=173.0, n=13.0, P=1089.0, N=466.0)
+r12: IF safety = {high} = {0} AND 2-of-3(safety = {low}, lug_boot = {big}, maint != buying) = {1} THEN class = {unacc} (p=485.0, n=74.0, P=1089.0, N=466.0)
+r13: IF maint = {high} = {1} AND buying = {low} = {0} AND safety = {high} = {0} AND lug_boot = {big} = {0} AND doors = {2} = {1} THEN class = {unacc} (p=32.0, n=0.0, P=1089.0, N=466.0)
+r14: IF maint = {low} = {0} AND buying = {low} = {0} AND maint != buying = {1} AND safety = {high} = {0} AND lug_boot = {big} = {0} AND doors = {2} = {1} THEN class = {unacc} (p=65.0, n=0.0, P=1089.0, N=466.0)
+r15: IF buying = {low} = {0} AND maint != buying = {1} AND safety = {high} = {0} AND lug_boot = {big} = {0} AND doors = {2} = {1} THEN class = {unacc} (p=96.0, n=3.0, P=1089.0, N=466.0)
+r16: IF maint = {low} = {0} AND buying = {low} = {0} AND maint != buying = {1} AND safety = {high} = {0} AND lug_boot = {big} = {0} THEN class = {unacc} (p=228.0, n=17.0, P=1089.0, N=466.0)
+r17: IF buying = {low} = {0} AND safety = {high} = {0} AND lug_boot = {big} = {0} THEN class = {unacc} (p=450.0, n=59.0, P=1089.0, N=466.0)
+r18: IF doors = {2} = {1} AND 2-of-3(safety = {high}, lug_boot = {big}, maint != buying) = {0} THEN class = {unacc} (p=189.0, n=26.0, P=1089.0, N=466.0)
+r19: IF maint != buying = {0} AND maint = {vhigh} = {1} THEN class = {unacc} (p=93.0, n=0.0, P=1089.0, N=466.0)
+r20: IF buying = {low} = {0} AND maint = {vhigh} = {1} AND 2-of-3(lug_boot = {small}, safety = {med}, maint != buying) = {0} THEN class = {unacc} (p=155.0, n=13.0, P=1089.0, N=466.0)
+r21: IF 2-of-3(persons = {2}, safety = {low}, maint != buying) = {0} AND lug_boot = {small} = {0} THEN class = {acc} (p=254.0, n=326.0, P=346.0, N=1209.0)
+r22: IF 2-of-3(persons = {2}, safety = {low}, maint != buying) = {0} THEN class = {acc} (p=346.0, n=517.0, P=346.0, N=1209.0)
+r23: IF buying = {low} = {1} AND 2-of-3(persons = {2}, lug_boot = {small}, maint != buying) = {0} AND safety = {high} = {1} AND doors = {2} = {0} THEN class = {vgood} (p=30.0, n=24.0, P=58.0, N=1497.0)
+r24: IF buying = {low} = {1} AND 2-of-3(persons = {2}, lug_boot = {small}, maint != buying) = {0} AND safety = {high} = {1} THEN class = {vgood} (p=35.0, n=38.0, P=58.0, N=1497.0)
+r25: IF 2-of-3(persons = {2}, lug_boot = {small}, maint != buying) = {0} AND safety = {high} = {1} AND doors = {2} = {0} THEN class = {vgood} (p=50.0, n=166.0, P=58.0, N=1497.0)
+r26: IF 2-of-3(persons = {2}, lug_boot = {small}, maint != buying) = {0} AND safety = {high} = {1} THEN class = {vgood} (p=58.0, n=230.0, P=58.0, N=1497.0)
+r27: IF maint = {low} = {1} AND 2-of-3(persons = {2}, safety = {low}, maint != buying) = {0} AND doors = {2} = {0} THEN class = {good} (p=33.0, n=128.0, P=62.0, N=1493.0)
+r28: IF maint = {low} = {1} AND 2-of-3(persons = {2}, safety = {low}, maint != buying) = {0} THEN class = {good} (p=41.0, n=175.0, P=62.0, N=1493.0)
+r29: IF 2-of-3(persons = {2}, safety = {low}, maint != buying) = {0} AND buying = {low} = {1} AND doors = {2} = {0} THEN class = {good} (p=33.0, n=126.0, P=62.0, N=1493.0)
+r30: IF 2-of-3(persons = {2}, safety = {low}, maint != buying) = {0} AND buying = {low} = {1} THEN class = {good} (p=41.0, n=172.0, P=62.0, N=1493.0)

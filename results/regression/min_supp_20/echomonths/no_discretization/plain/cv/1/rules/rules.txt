@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.5880376344086021
+r2: 0.6428571428571428
+r3: 0.5604395604395604
+r4: 0.6694604531001591
+r5: 0.46736491904896077
+r6: 0.75
+r7: 0.5133548632218845
+r8: 0.38894070619586935
+r9: 0.448987246811703
+r10: 0.35236534372785255
+r11: 0.37822014051522246
+r12: 0.39908814589665653
+r13: 0.42179764851485146
+r14: 0.3986842105263158
+r15: 0.41155807726635224
+r16: 0.2055933484504913
+r17: 0.20571847507331378
+________________________________
+r1: IF alive_at_1 = {1.0} AND age = (-inf, 70) THEN class = {0.018} [-0.018,0.053] (p=11.0, n=2.0, P=24.0, N=93.0)
+r2: IF wall_index = (-inf, 1.27) AND fractional = (-inf, 0.18) AND still_alive = {1} AND age = (-inf, 66) THEN class = {0.018} [0.018,0.018] (p=2.0, n=0.0, P=7.0, N=110.0)
+r3: IF epss = (-inf, 16.50) AND fractional = (-inf, 0.24) AND still_alive = {1} AND age = (-inf, 73.50) THEN class = {0.018} [-0.064,0.099] (p=8.0, n=1.0, P=26.0, N=91.0)
+r4: IF still_alive = {1} THEN class = {0.018} [-0.15,0.19] (p=29.0, n=8.0, P=32.0, N=85.0)
+r5: IF epss = (-inf, 24) AND wall_index = (-inf, 1.58) AND alive_at_1 = {?} AND lvdd = (-inf, 5.42) AND still_alive = {0} THEN class = {0.54} [0.40,0.69] (p=22.0, n=7.0, P=43.0, N=74.0)
+r6: IF epss = (-inf, 8) AND wall_score = (-inf, 12.50) AND age = <53.50, 59) THEN class = {0.51} [0.51,0.51] (p=2.0, n=0.0, P=4.0, N=113.0)
+r7: IF epss = <2.50, inf) AND wall_index = (-inf, 1.11) AND fractional = (-inf, 0.29) AND pericardial = {0} AND wall_score = (-inf, 12.84) THEN class = {0.56} [0.40,0.72] (p=14.0, n=2.0, P=47.0, N=70.0)
+r8: IF epss = (-inf, 13.50) AND alive_at_1 = {?} AND fractional = (-inf, 0.24) AND wall_score = <11.50, inf) AND age = <59, 64.50) THEN class = {0.30} [0.14,0.45] (p=4.0, n=1.0, P=38.0, N=79.0)
+r9: IF wall_index = <1.24, inf) AND alive_at_1 = {?} AND lvdd = <4.05, inf) AND fractional = (-inf, 0.16) AND still_alive = {0} THEN class = {0.37} [0.28,0.46] (p=5.0, n=1.0, P=31.0, N=86.0)
+r10: IF epss = <9, inf) AND alive_at_1 = {?} AND fractional = <0.17, 0.25) AND lvdd = <4.15, inf) AND still_alive = {0} THEN class = {0.23} [0.057,0.40] (p=3.0, n=1.0, P=34.0, N=83.0)
+r11: IF epss = (-inf, 17) AND wall_index = (-inf, 1.51) AND fractional = (-inf, 0.38) AND lvdd = (-inf, 5.15) AND still_alive = {0} AND wall_score = (-inf, 16.25) AND age = (-inf, 62.50) THEN class = {0.47} [0.30,0.65] (p=20.0, n=6.0, P=56.0, N=61.0)
+r12: IF wall_index = (-inf, 1.61) AND epss = (-inf, 14.50) AND lvdd = (-inf, 5.23) AND alive_at_1 = {0.0} AND fractional = (-inf, 0.24) AND age = (-inf, 65.50) THEN class = {0.63} [0.43,0.84] (p=5.0, n=1.0, P=47.0, N=70.0)
+r13: IF fractional = (-inf, 0.34) AND alive_at_1 = {0.0} AND wall_score = (-inf, 15.25) AND age = <59.50, 63.50) THEN class = {0.79} [0.65,0.93] (p=3.0, n=1.0, P=16.0, N=101.0)
+r14: IF wall_index = (-inf, 1.39) AND fractional = <0.26, 0.39) AND lvdd = (-inf, 4.68) AND alive_at_1 = {0.0} AND age = (-inf, 71.50) THEN class = {0.39} [0.18,0.59] (p=6.0, n=1.0, P=57.0, N=60.0)
+r15: IF wall_index = <1.14, inf) AND alive_at_1 = {0.0} THEN class = {0.44} [0.23,0.65] (p=19.0, n=4.0, P=62.0, N=55.0)
+r16: IF alive_at_1 = {0.0} AND pericardial = {1} THEN class = {0.47} [0.23,0.71] (p=5.0, n=2.0, P=63.0, N=54.0)
+r17: IF alive_at_1 = {0.0} AND fractional = <0.28, 0.36) THEN class = {0.72} [0.43,1.01] (p=6.0, n=3.0, P=55.0, N=62.0)

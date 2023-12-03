@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 1.0
+________________________________
+r1: IF Stage3 = <1.50, inf) THEN  (p=285.0, n=0.0, P=929.0, N=0.0)
+r2: IF Stage2 = (-inf, 1.50) THEN  (p=339.0, n=0.0, P=929.0, N=0.0)
+r3: IF Operated = {1} THEN  (p=493.0, n=0.0, P=929.0, N=0.0)
+r4: IF Cell_Type = <1.50, inf) THEN  (p=346.0, n=0.0, P=929.0, N=0.0)
+r5: IF Stage1 = <2.50, inf) THEN  (p=505.0, n=0.0, P=929.0, N=0.0)

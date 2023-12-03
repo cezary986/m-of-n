@@ -1,0 +1,84 @@
+Rules qualities:
+r1: 0.76943915466046
+r2: 0.7483069977426636
+r3: 0.7517320776634583
+r4: 0.49745081740094205
+r5: 0.7525448372029748
+r6: 0.7115025464331833
+r7: 0.6022794097992568
+r8: 0.46329159267583603
+r9: 0.538095780206436
+r10: 0.3132896692679301
+r11: 0.6666245269476705
+r12: 0.3941909061355266
+r13: 0.529204958455194
+r14: 0.39360824367405045
+r15: 0.5384281460012446
+r16: 0.7709550119312218
+r17: 0.36153282162905265
+r18: 0.5145981837711161
+r19: 0.48812770562770563
+r20: 0.5237093667155805
+r21: 0.5753546777212083
+r22: 0.6314540458484657
+r23: 0.567968046094427
+r24: 0.45935997040325566
+r25: 0.5001640328459371
+r26: 0.5652460646946895
+r27: 0.6414516363656467
+r28: 0.619819333871672
+r29: 0.4837012601030829
+r30: 0.48130935542533837
+r31: 0.5068272783251232
+r32: 0.4663655754682688
+r33: 0.5117710630984966
+r34: 0.497737556561086
+r35: 0.5104157346098783
+r36: 0.4447795823665893
+r37: 0.49672814528110093
+r38: 0.5026064208359783
+r39: 0.39285182271177554
+r40: 0.530738895807389
+r41: 0.5111935655883398
+________________________________
+r1: IF Distance != <144.17, 158.33) AND Distance != <180.83, 188.33) AND Distance = <123.33, 240) AND Distance != <131.67, 138.33) AND Distance != <200.83, 223.33) AND Distance != <224.17, 233.33) AND Inhabitants != <28.50, 39) THEN class = {0.053} [0.035,0.071] (p=26.0, n=1.0, P=43.0, N=403.0)
+r2: IF Distance = (-inf, 109.17) AND Inhabitants = (-inf, 4.50) THEN class = {0.0021} [-2.1E-4,0.0044] (p=3.0, n=1.0, P=3.0, N=443.0)
+r3: IF Distance != <224.17, 233.33) AND Distance != <242.50, 250) AND Inhabitants != <43.50, 56) AND Distance != <319.16, 326.67) AND Distance != <215, 223.33) AND Distance != <168.33, 176.67) AND Distance != <280.83, 290) AND Distance != <267.50, 271.67) AND Distance != <340.84, 1360) AND Inhabitants != <62.50, 68) THEN class = {0.074} [-0.011,0.16] (p=102.0, n=2.0, P=184.0, N=262.0)
+r4: IF Inhabitants != <16.50, 19) AND Inhabitants != <26, 29) AND Distance != <186.67, 216.67) AND Distance != <240.83, 336.67) AND Distance = <178.33, 336.67) AND Distance != <180.83, 188.33) AND Inhabitants = <33, 36) THEN class = {0.067} [0.051,0.083] (p=7.0, n=1.0, P=45.0, N=401.0)
+r5: IF Distance != <144.17, 158.33) AND Distance != <180.83, 188.33) AND Distance != <100, 115) AND Distance != <280.83, 290) AND Inhabitants = <3.50, 68) AND Inhabitants != <5, 8) AND Distance != <317.50, 330) AND Inhabitants != <39.50, 43) AND Distance != <296.66, 316.67) AND Distance != <340.84, 1360) AND Inhabitants != <62.50, 68) THEN class = {0.071} [0.0045,0.14] (p=79.0, n=1.0, P=148.0, N=298.0)
+r6: IF Distance != <180.83, 188.33) AND Distance != <77.50, 126.67) AND Distance != <305.84, 316.67) AND Distance != <168.33, 176.67) AND Inhabitants = <7.50, 68) AND Distance != <135.83, 165) AND Distance != <340.84, 1360) AND Inhabitants != <62.50, 68) THEN class = {0.086} [0.02,0.15] (p=83.0, n=3.0, P=164.0, N=282.0)
+r7: IF Distance != <297.50, 305) AND Distance != <324.16, 343.33) AND Distance != <300, 318.33) AND Distance != <218.33, 278.33) AND Inhabitants != <17, 34) AND Inhabitants != <36.50, 62) AND Distance = (-inf, 856.66) AND Distance != <345, 1360) AND Inhabitants != <35, 39) THEN class = {0.041} [-0.012,0.094] (p=34.0, n=4.0, P=88.0, N=358.0)
+r8: IF Inhabitants = <10.50, 75) AND Inhabitants = (-inf, 65) AND Inhabitants != <34.50, 38) AND Inhabitants != <11.50, 16) AND Distance = (-inf, 858.34) AND Distance = <331.67, inf) AND Distance != <328.34, 346.67) AND Inhabitants != <62.50, 68) THEN class = {0.21} [0.11,0.32] (p=154.0, n=34.0, P=255.0, N=191.0)
+r9: IF Distance != <281.66, 290) AND Distance != <352.50, 358.33) AND Distance != <310.83, 326.67) AND Distance != <331.66, 351.67) AND Distance != <225, 258.33) AND Distance != <289.16, 308.33) AND Inhabitants != <16.50, 19) AND Inhabitants = <11.50, inf) AND Distance = (-inf, 855.84) AND Distance != <131.67, 223.33) AND Distance = <217.50, inf) AND Distance != <359.16, 1360) AND Inhabitants != <37.50, 47) THEN class = {0.086} [0.04,0.13] (p=19.0, n=1.0, P=122.0, N=324.0)
+r10: IF Distance != <351.66, 1200) AND Distance != <325, 343.33) AND Distance != <180, 323.33) AND Inhabitants = <20.50, inf) AND Distance = <240.00, inf) AND Distance != <345, 351.67) AND Inhabitants != <14, 24) THEN class = {0.51} [0.32,0.71] (p=4.0, n=2.0, P=78.0, N=368.0)
+r11: IF Distance != <346.67, 358.33) AND Distance != <350, 1360) AND Distance != <317.50, 323.33) AND Distance != <296.66, 313.33) AND Inhabitants != <12.50, 15) AND Inhabitants != <49, 70) AND Distance != <269.17, 290) AND Inhabitants != <39.50, 43) THEN class = {0.071} [-1.9E-4,0.14] (p=88.0, n=9.0, P=158.0, N=288.0)
+r12: IF Inhabitants = (-inf, 32) AND Inhabitants != <11.50, 20) AND Distance = <290.83, 368.33) AND Inhabitants != <22.50, 25) THEN class = {0.20} [0.098,0.30] (p=72.0, n=14.0, P=257.0, N=189.0)
+r13: IF Distance != <137.50, 158.33) AND Distance != <184.17, 198.33) AND Distance != <189.17, 213.33) AND Distance != <273.34, 366.67) AND Distance != <218.33, 266.67) AND Inhabitants = (-inf, 14) AND Distance != <371.66, 1180) AND Inhabitants != <9.50, 12) THEN class = {0.035} [-7.7E-4,0.071] (p=16.0, n=3.0, P=55.0, N=391.0)
+r14: IF Inhabitants = (-inf, 129) AND Inhabitants != <4.50, 9) AND Inhabitants != <7.50, 16) AND Distance = <290, inf) AND Distance != <216.67, 370) AND Inhabitants != <36.50, 111) THEN class = {0.22} [0.11,0.33] (p=107.0, n=24.0, P=261.0, N=185.0)
+r15: IF Distance != <105.83, 126.67) AND Inhabitants = <8.50, 89) AND Distance != <133.33, 165) AND Distance != <364.16, 1180) AND Distance != <299.16, 316.67) AND Distance != <178.33, 203.33) AND Distance != <190, 258.33) AND Inhabitants != <19.50, 40) AND Distance != <279.16, 283.33) AND Inhabitants != <40.50, 43) THEN class = {0.12} [0.031,0.20] (p=45.0, n=2.0, P=241.0, N=205.0)
+r16: IF Distance != <417.50, 1050) AND Distance != <361.66, 370) AND Distance != <405.84, 410) AND Distance = (-inf, 1072.50) AND Inhabitants != <43.50, 46) AND Distance != <378.34, 395) AND Distance != <385.84, 405) AND Inhabitants != <53.50, 111) AND Distance != <280.84, 288.33) AND Inhabitants != <40.50, 43) THEN class = {0.085} [-0.0054,0.17] (p=134.0, n=4.0, P=212.0, N=234.0)
+r17: IF Distance != <165, 176.67) AND Distance != <228.33, 258.33) AND Distance != <187.50, 223.33) AND Inhabitants = <12.50, inf) AND Inhabitants != <21.50, 75) AND Distance != <251.67, 408.33) AND Distance = <417.50, 730) AND Inhabitants != <16.50, 19) THEN class = {0.15} [0.1,0.20] (p=4.0, n=1.0, P=145.0, N=301.0)
+r18: IF Distance = <153.33, 1106.67) AND Distance != <317.50, 326.67) AND Distance != <286.66, 316.67) AND Distance != <378.34, 420) AND Distance != <218.33, 261.67) AND Distance != <237.50, 280) AND Distance != <335, 376.67) AND Distance != <165, 180) AND Distance != <168.33, 213.33) AND Inhabitants = <9.50, 17) AND Distance != <425, 1050) AND Inhabitants != <13.50, 16) THEN class = {0.076} [0.067,0.085] (p=6.0, n=1.0, P=28.0, N=418.0)
+r19: IF Inhabitants != <33, 47) AND Distance != <346.66, 400) AND Inhabitants != <14.50, 19) AND Inhabitants != <11.50, 14) AND Distance = (-inf, 736.66) AND Inhabitants = <12.50, inf) AND Distance = <361.66, inf) AND Distance != <425, 1050) AND Inhabitants != <29.50, 37) THEN class = {0.17} [0.14,0.20] (p=10.0, n=1.0, P=96.0, N=350.0)
+r20: IF Distance != <280.84, 288.33) AND Distance != <224.17, 233.33) AND Distance != <445.83, 1018.33) AND Distance != <299.16, 313.33) AND Inhabitants != <51.50, 69) AND Distance != <145.83, 198.33) AND Distance != <389.16, 443.33) AND Inhabitants != <27.50, 51) AND Distance != <240.83, 280) AND Distance != <330, 373.33) AND Inhabitants != <3.50, 16) AND Distance = (-inf, 1034.17) AND Distance != <135.83, 156.67) AND Inhabitants != <24.50, 27) THEN class = {0.076} [-0.012,0.16] (p=32.0, n=2.0, P=191.0, N=255.0)
+r21: IF Distance != <340.84, 481.67) AND Distance != <72.50, 116.67) AND Inhabitants != <26.50, 30) AND Distance != <181.67, 191.67) AND Distance != <300.84, 316.67) AND Distance != <260, 266.67) AND Distance != <127.50, 136.67) AND Distance != <331.66, 336.67) AND Distance != <235.83, 258.33) AND Distance != <268.34, 280) AND Inhabitants = <5, 57) AND Distance != <131.67, 171.67) AND Inhabitants = (-inf, 34) AND Distance != <188.33, 226.67) AND Distance != <498.34, 1180) AND Inhabitants != <19.50, 24) THEN class = {0.098} [0.011,0.18] (p=44.0, n=1.0, P=217.0, N=229.0)
+r22: IF Inhabitants != <12.50, 15) AND Inhabitants != <26.50, 30) AND Inhabitants != <30.50, 34) AND Distance != <492.50, 1180) AND Inhabitants != <7.50, 10) AND Inhabitants != <50, 59) AND Distance != <233.33, 258.33) AND Distance != <269.16, 316.67) AND Distance != <317.50, 476.67) AND Distance = (-inf, 925) AND Distance != <478.34, 486.67) AND Inhabitants != <44.50, 56) THEN class = {0.055} [-2.2E-4,0.11] (p=50.0, n=5.0, P=114.0, N=332.0)
+r23: IF Inhabitants = <3.50, 75) AND Inhabitants != <57.50, 68) AND Distance != <360.84, 466.67) AND Distance != <320.83, 330) AND Distance != <158.33, 171.67) AND Distance != <164.17, 176.67) AND Inhabitants != <12.50, 15) AND Distance = (-inf, 480.84) AND Distance != <269.17, 280) AND Distance != <300, 318.33) AND Distance != <178.33, 198.33) AND Distance != <260, 266.67) AND Distance != <331.66, 336.67) AND Distance != <187.50, 213.33) AND Distance != <338.34, 360) AND Inhabitants != <17.50, 37) AND Distance != <218.33, 258.33) AND Distance != <469.17, 495) AND Inhabitants != <40.50, 57) THEN class = {0.074} [0.0057,0.14] (p=30.0, n=1.0, P=154.0, N=292.0)
+r24: IF Distance != <440.83, 451.67) AND Distance != <461.66, 480) AND Inhabitants != <6.50, 22) AND Distance = <428.34, 480) AND Distance != <452.50, 458.33) AND Inhabitants != <39.50, 46) THEN class = {0.21} [0.17,0.25] (p=8.0, n=1.0, P=106.0, N=340.0)
+r25: IF Distance != <440.83, 458.33) AND Inhabitants != <27.50, 30) AND Distance = <260, 1095) AND Distance != <460, 501.67) AND Distance != <363.34, 370) AND Distance != <378.34, 423.33) AND Inhabitants != <16.50, 20) AND Inhabitants = <13.50, 111) AND Distance != <271.66, 360) AND Distance != <502.50, 1006.67) AND Inhabitants != <34.50, 85) THEN class = {0.17} [0.11,0.23] (p=18.0, n=1.0, P=183.0, N=263.0)
+r26: IF Distance != <280.84, 288.33) AND Distance != <224.17, 233.33) AND Distance != <284.16, 293.33) AND Distance != <300.84, 313.33) AND Distance != <228.33, 253.33) AND Inhabitants != <26.50, 67) AND Distance != <178.33, 198.33) AND Inhabitants != <20.50, 24) AND Distance != <238.33, 278.33) AND Distance != <325, 333.33) AND Distance = (-inf, 1028.33) AND Distance != <328.33, 501.67) AND Inhabitants != <14.50, 17) AND Distance != <502.50, 1006.67) AND Inhabitants != <80, 92) THEN class = {0.055} [-0.058,0.17] (p=45.0, n=2.0, P=200.0, N=246.0)
+r27: IF Distance != <515.83, 1000) AND Inhabitants != <20.50, 150) THEN class = {0.098} [-0.0055,0.20] (p=112.0, n=6.0, P=249.0, N=197.0)
+r28: IF Inhabitants != <45.50, 52) AND Inhabitants != <21.50, 24) AND Distance != <280.84, 293.33) AND Inhabitants != <53.50, 71) AND Inhabitants != <61.50, 77) AND Inhabitants != <80, 90) AND Inhabitants != <29.50, 42) AND Distance != <421.66, 966.67) AND Inhabitants != <13, 16) AND Inhabitants = (-inf, 145.50) AND Distance != <975.83, 1006.67) AND Inhabitants != <7.50, 10) THEN class = {0.098} [-0.016,0.21] (p=112.0, n=6.0, P=267.0, N=179.0)
+r29: IF Distance = <752.50, 813.33) AND Inhabitants = <26, 36) THEN class = {0.33} [0.24,0.42] (p=10.0, n=1.0, P=103.0, N=343.0)
+r30: IF Inhabitants != <36.50, 47) AND Distance != <387.50, 553.33) AND Inhabitants != <19.50, 29) AND Inhabitants = <13.50, 111) AND Distance = <438.33, inf) AND Distance != <555, 1050) AND Inhabitants != <51, 67) THEN class = {0.53} [0.39,0.66] (p=6.0, n=1.0, P=42.0, N=404.0)
+r31: IF Distance != <570, 586.67) AND Distance != <588.33, 603.33) AND Distance != <715, 953.33) AND Inhabitants = (-inf, 88) AND Inhabitants != <15.50, 23) AND Distance = <618.33, 633.33) AND Inhabitants != <41.50, 91) THEN class = {0.35} [0.31,0.39] (p=7.0, n=1.0, P=40.0, N=406.0)
+r32: IF Inhabitants != <14.50, 18) AND Inhabitants != <27, 32) AND Distance != <715, 966.67) AND Distance != <588.33, 673.33) AND Inhabitants = (-inf, 116) AND Inhabitants != <16, 26) AND Distance = <688.33, 713.33) AND Inhabitants != <35.50, 91) THEN class = {0.35} [0.29,0.40] (p=6.0, n=1.0, P=53.0, N=393.0)
+r33: IF Distance != <735.83, 758.33) AND Distance != <677.50, 716.67) AND Distance != <618.33, 675) AND Inhabitants != <11.50, 18) AND Distance = <572.50, 963.33) AND Inhabitants != <13.50, 26) AND Distance = (-inf, 767.50) AND Distance != <580, 603.33) AND Distance != <605, 633.33) AND Inhabitants != <26.50, 30) THEN class = {0.35} [0.24,0.45] (p=14.0, n=1.0, P=113.0, N=333.0)
+r34: IF Distance != <786.67, 826.67) AND Distance != <699.17, 783.33) AND Distance = (-inf, 926.67) AND Distance = <700, inf) AND Distance != <848.33, 856.67) AND Inhabitants = <33, 64) THEN class = {0.43} [0.43,0.44] (p=2.0, n=1.0, P=4.0, N=442.0)
+r35: IF Inhabitants != <9.50, 12) AND Distance != <595, 603.33) AND Distance != <578.33, 586.67) AND Distance = (-inf, 1010) AND Inhabitants != <30.50, 35) AND Distance != <833.33, 953.33) AND Inhabitants = (-inf, 77.50) AND Distance != <635.83, 830) AND Distance = <581.67, inf) AND Distance != <607.50, 616.67) AND Inhabitants != <46.50, 57) THEN class = {0.30} [0.18,0.43] (p=21.0, n=1.0, P=192.0, N=254.0)
+r36: IF Distance != <805, 846.67) AND Distance != <674.17, 713.33) AND Distance = <588.33, 966.67) AND Distance != <679.17, 718.33) AND Distance != <735.83, 783.33) AND Distance != <596.67, 645) AND Inhabitants = <61, inf) AND Distance != <786.67, 826.67) AND Inhabitants != <65, 78) THEN class = {0.78} [0.60,0.96] (p=3.0, n=1.0, P=15.0, N=431.0)
+r37: IF Distance != <851.67, 953.33) AND Distance != <791.67, 806.67) AND Distance != <828.33, 846.67) AND Distance != <706.67, 753.33) AND Distance != <755, 775) AND Distance = <595, 963.33) AND Distance != <635, 696.67) AND Distance = <665, inf) AND Distance != <848.33, 856.67) AND Inhabitants != <30.50, 35) THEN class = {0.35} [0.26,0.44] (p=11.0, n=1.0, P=98.0, N=348.0)
+r38: IF Inhabitants = (-inf, 175) AND Inhabitants != <52.50, 64) AND Inhabitants != <35.50, 42) AND Inhabitants != <20, 26) AND Distance != <601.67, 713.33) AND Distance = <588.33, 593.33) AND Inhabitants != <15.50, 18) THEN class = {0.35} [0.30,0.39] (p=10.0, n=2.0, P=43.0, N=403.0)
+r39: IF Distance != <800.83, 966.67) AND Distance != <605, 611.67) AND Distance != <618.33, 775) AND Distance = (-inf, 870.83) AND Distance != <775.83, 826.67) AND Inhabitants != <21, 74) THEN class = {0.12} [0.03,0.21] (p=122.0, n=33.0, P=246.0, N=200.0)
+r40: IF Distance != <833.33, 860) AND Distance != <612.50, 620) AND Distance != <595, 603.33) AND Inhabitants = <13.50, 108) AND Inhabitants != <15.50, 23) AND Inhabitants != <30.50, 36) AND Distance = <861.67, 945) AND Inhabitants != <41.50, 90) THEN class = {0.31} [0.20,0.42] (p=28.0, n=2.0, P=154.0, N=292.0)
+r41: IF Inhabitants != <10.50, 13) AND Distance != <612.50, 620) AND Distance != <592.50, 600) AND Inhabitants != <76.50, 79) AND Inhabitants != <26.50, 30) AND Distance != <833.33, 893.33) AND Inhabitants != <39, 46) AND Distance != <615.83, 636.67) AND Distance != <605, 611.67) AND Distance = <588.33, 945) AND Distance != <896.67, 923.33) AND Inhabitants != <28, 36) AND Inhabitants != <21, 26) AND Distance != <624.17, 783.33) AND Inhabitants = <12, 108) AND Distance != <791.67, 806.67) AND Inhabitants != <46.50, 57) THEN class = {0.37} [0.30,0.44] (p=9.0, n=1.0, P=58.0, N=388.0)

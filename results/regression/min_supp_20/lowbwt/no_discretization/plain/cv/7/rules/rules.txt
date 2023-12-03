@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.5505655355954757
+r2: 0.7629952185792349
+r3: 0.7897837172498682
+r4: 0.8333333333333333
+r5: 0.5147024400031212
+r6: 0.48816185966422737
+r7: 0.5020286914939864
+r8: 0.4342848862483698
+r9: 0.43137254901960786
+r10: 0.42391304347826086
+r11: 0.31606117062567923
+r12: 0.5505655355954757
+r13: 0.41549257759784075
+r14: 0.37698412698412703
+r15: 0.3643390425999121
+r16: 0.358570916263224
+r17: 0.3929991864774474
+________________________________
+r1: IF UI = {0} AND LOW = {1} AND RACE = {1} AND LWT = (-inf, 131) AND SMOKE = {1} AND HT = {0} AND AGE = (-inf, 24.50) THEN class = {0.40} [0.40,0.40] (p=2.0, n=1.0, P=3.0, N=167.0)
+r2: IF LOW = {1} AND AGE = (-inf, 28.50) THEN class = {0.36} [0.28,0.44] (p=43.0, n=7.0, P=48.0, N=122.0)
+r3: IF LOW = {1} AND HT = {0} AND AGE = (-inf, 31.50) THEN class = {0.36} [0.27,0.44] (p=42.0, n=5.0, P=49.0, N=121.0)
+r4: IF RACE = {1} AND LWT = <143.50, 158.50) AND FTV = {0} AND PTL = {0} THEN class = {0.69} [0.69,0.69] (p=2.0, n=0.0, P=3.0, N=167.0)
+r5: IF LOW = {0} AND RACE = {1} AND LWT = (-inf, 132.50) AND SMOKE = {1} AND AGE = (-inf, 28.50) THEN class = {0.49} [0.40,0.59] (p=12.0, n=1.0, P=67.0, N=103.0)
+r6: IF LOW = {0} AND RACE = {1} AND LWT = (-inf, 132.50) AND SMOKE = {1} THEN class = {0.51} [0.41,0.61] (p=15.0, n=2.0, P=69.0, N=101.0)
+r7: IF LOW = {0} AND RACE = {1} AND LWT = (-inf, 139) AND SMOKE = {1} AND AGE = (-inf, 25.50) THEN class = {0.52} [0.42,0.62] (p=11.0, n=1.0, P=67.0, N=103.0)
+r8: IF LOW = {0} AND RACE = {1} AND SMOKE = {1} AND AGE = <19.50, 30.50) THEN class = {0.52} [0.42,0.62] (p=11.0, n=2.0, P=67.0, N=103.0)
+r9: IF LOW = {0} AND RACE = {1} AND SMOKE = {1} AND HT = {0} THEN class = {0.53} [0.43,0.64] (p=20.0, n=5.0, P=68.0, N=102.0)
+r10: IF LOW = {0} AND LWT = (-inf, 122) AND FTV = {1} AND SMOKE = {1} AND AGE = <21.50, inf) THEN class = {0.52} [0.48,0.56] (p=4.0, n=1.0, P=32.0, N=138.0)
+r11: IF LOW = {0} AND FTV = {0} AND SMOKE = {1} AND AGE = (-inf, 24) THEN class = {0.64} [0.54,0.73] (p=11.0, n=5.0, P=57.0, N=113.0)
+r12: IF UI = {0} AND RACE = {3} AND SMOKE = {1} AND AGE = <24.50, inf) THEN class = {0.61} [0.60,0.61] (p=2.0, n=1.0, P=3.0, N=167.0)
+r13: IF LWT = (-inf, 202.50) AND PTL = {0} AND SMOKE = {1} AND AGE = <25.50, inf) THEN class = {0.52} [0.41,0.63] (p=11.0, n=2.0, P=75.0, N=95.0)
+r14: IF LOW = {0} AND LWT = (-inf, 118.50) AND AGE = (-inf, 31.50) THEN class = {0.56} [0.45,0.66] (p=26.0, n=9.0, P=72.0, N=98.0)
+r15: IF LOW = {0} AND RACE = {1} AND LWT = (-inf, 168) AND SMOKE = {0} AND HT = {0} AND AGE = (-inf, 27) THEN class = {0.71} [0.59,0.82] (p=13.0, n=5.0, P=55.0, N=115.0)
+r16: IF UI = {0} AND LOW = {0} AND FTV = {2} AND AGE = (-inf, 30.50) THEN class = {0.59} [0.50,0.68] (p=10.0, n=3.0, P=66.0, N=104.0)
+r17: IF LOW = {0} AND HT = {0} THEN class = {0.59} [0.48,0.70] (p=75.0, n=36.0, P=78.0, N=92.0)

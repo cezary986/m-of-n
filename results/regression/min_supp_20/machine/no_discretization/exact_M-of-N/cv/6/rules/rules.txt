@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.5341823774731591
+r2: 0.45658263305322133
+r3: 0.4573422859527332
+r4: 0.5563765736179529
+r5: 0.626382699061428
+r6: 0.6721468033106734
+r7: 0.6769911504424779
+r8: 0.6945886368484677
+r9: 0.4039177906229929
+________________________________
+r1: IF MMIN != <323, 512) = {1} AND CACH < CHMAX = {1} THEN class = {0.023} [-0.11,0.16] (p=83.0, n=4.0, P=159.0, N=29.0)
+r2: IF CHMIN = CHMAX = {1} THEN class = {0.012} [-0.0014,0.026] (p=12.0, n=2.0, P=68.0, N=120.0)
+r3: IF MMIN = (-inf, 2860) = {1} AND MMAX = <14000, inf) = {0} AND 2-of-3(CACH != <64.50, 128), CHMAX != <11, 14), MYCT != <56.50, 60)) = {0} AND MYCT > CACH = {1} AND CHMIN = CHMAX = {0} AND CACH < CHMAX = {0} THEN class = {0.035} [0.012,0.058] (p=31.0, n=5.0, P=101.0, N=87.0)
+r4: IF 2-of-3(CACH != <64.50, 128), CHMAX != <11, 14), MMIN != <323, 512)) = {1} AND MYCT > CACH = {1} AND MMIN != <323, 512) = {1} THEN class = {0.094} [0.076,0.11] (p=5.0, n=1.0, P=14.0, N=174.0)
+r5: IF 2-of-3(CHMAX != <11, 14), CACH != <3, 8), MYCT > CHMIN) = {0} AND CACH = <32, inf) = {0} THEN class = {0.024} [-0.0036,0.051] (p=101.0, n=15.0, P=115.0, N=73.0)
+r6: IF MYCT != <56.50, 60) = {1} AND CACH != <3, 8) = {1} AND CACH = (-inf, 40) = {1} AND CACH != <12.50, 32) = {1} AND MYCT > CACH = {1} AND 2-of-3(CACH != <64.50, 128), CHMAX != <11, 14), MYCT != <56.50, 60)) = {0} AND CHMIN = CHMAX = {0} AND MMAX = <20000, inf) = {0} THEN class = {0.024} [-0.0036,0.051] (p=80.0, n=7.0, P=115.0, N=73.0)
+r7: IF CACH != <12, 64) = {1} AND MYCT > CACH = {1} AND 2-of-3(MMIN != <323, 512), CACH != <3, 8), MYCT != <56.50, 60)) = {0} THEN class = {0.023} [-0.0035,0.049] (p=87.0, n=9.0, P=113.0, N=75.0)
+r8: IF CHMIN != <3.50, 6) = {1} AND CHMAX != <11, 14) = {1} AND MYCT > CACH = {0} AND CACH < CHMAX = {0} THEN class = {0.27} [0.097,0.45] (p=25.0, n=3.0, P=41.0, N=147.0)
+r9: IF CHMAX != <15, 112) = {1} AND MYCT > CHMAX = {1} AND 2-of-3(CACH != <64.50, 128), MMAX != <4500, 8000), MYCT > CHMIN) = {0} AND MYCT > CACH = {0} THEN class = {0.092} [0.072,0.11] (p=4.0, n=2.0, P=15.0, N=173.0)

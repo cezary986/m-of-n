@@ -1,0 +1,48 @@
+Rules qualities:
+r1: 0.875
+r2: 0.75
+r3: 0.8065809450400578
+r4: 0.5407380254154447
+r5: 0.7558433139893814
+r6: 0.8058668880586689
+r7: 0.4800674138044173
+r8: 0.6981264772006687
+r9: 0.6945930758607554
+r10: 0.7017580682136579
+r11: 0.5588235294117647
+r12: 0.7011106141920095
+r13: 0.5597950268817204
+r14: 0.4756107930389434
+r15: 0.6614810856027511
+r16: 0.7142857142857143
+r17: 0.5466051805337521
+r18: 0.5686575588423524
+r19: 0.7596269978899087
+r20: 0.4545398466809855
+r21: 0.7183056326983561
+r22: 0.5416415592843237
+r23: 0.47094295378715745
+________________________________
+r1: IF weight = <4826, 4997) THEN class = {0.08} [0.08,0.08] (p=3.0, n=0.0, P=4.0, N=354.0)
+r2: IF horsepower = <204, 215) THEN class = {0.053} [0.053,0.053] (p=2.0, n=0.0, P=4.0, N=354.0)
+r3: IF weight != <3709, 3761) AND weight != <3898.50, 3955) AND acceleration = <14.95, 15.50) AND weight != <1702, 3664) THEN class = {0.13} [0.037,0.23] (p=67.0, n=4.0, P=90.0, N=268.0)
+r4: IF weight != <2638.50, 3693) AND acceleration != <10.25, 11.50) AND horsepower = (-inf, 182.50) AND weight = (-inf, 4481) AND acceleration = (-inf, 16.70) AND acceleration != <12.50, 15) AND acceleration != <15.75, 17) AND horsepower != <133.50, 140) AND weight != <1702, 3664) THEN class = {0.13} [0.10,0.16] (p=10.0, n=1.0, P=48.0, N=310.0)
+r5: IF weight != <3898.50, 3955) AND weight != <1702, 3664) THEN class = {0.13} [0.032,0.23] (p=71.0, n=9.0, P=91.0, N=267.0)
+r6: IF weight != <3709, 3761) AND horsepower != <122.50, 137) AND horsepower != <191.50, 208) AND weight != <1702, 3664) THEN class = {0.13} [0.038,0.23] (p=68.0, n=5.0, P=88.0, N=270.0)
+r7: IF displacement > horsepower AND acceleration != <13.60, 14.50) AND weight != <3886, 4190) AND weight = (-inf, 3931) AND acceleration != <9.75, 11.50) AND horsepower != <102.50, 150) AND weight != <3682.50, 3880) AND model != {82} AND cylinders = {8, 4, 3} THEN class = {0.53} [0.37,0.69] (p=103.0, n=34.0, P=151.0, N=207.0)
+r8: IF acceleration = (-inf, 20.25) AND acceleration != <14.95, 15.40) AND weight != <3884, 4135) AND horsepower != <134.50, 150) AND acceleration != <13.10, 13.50) AND horsepower != <86.50, 129) AND origin = {1, 3} AND weight = <3187, 3609) AND displacement != <71.50, 250) AND model != {82} THEN class = {0.13} [0.053,0.21] (p=37.0, n=1.0, P=83.0, N=275.0)
+r9: IF horsepower != <185, 198) AND weight != <3476.50, 3672) AND horsepower != <151, 155) AND weight != <3682.50, 3821) AND horsepower != <142.50, 150) AND weight != <3874.50, 4096) AND weight != <4098, 4141) AND acceleration = <15.15, 15.40) AND horsepower != <86.50, 129) AND origin = {1, 3} AND weight != <3187, 3449) AND displacement != <71.50, 250) AND model != {82} THEN class = {0.13} [0.052,0.21] (p=43.0, n=3.0, P=83.0, N=275.0)
+r10: IF horsepower != <185, 198) AND horsepower = (-inf, 227.50) AND horsepower != <133.50, 140) AND horsepower != <151, 155) AND weight != <3682.50, 3988) AND acceleration != <13.60, 14.50) AND weight != <3931, 4215) AND acceleration = <14.95, 15.40) AND horsepower != <86.50, 129) AND origin = {1, 3} AND weight != <3416, 3609) AND displacement != <71.50, 250) AND model != {82} THEN class = {0.13} [0.053,0.21] (p=41.0, n=2.0, P=83.0, N=275.0)
+r11: IF acceleration != <8.75, 11) AND weight = <3225.50, 3609) AND acceleration != <15.15, 16) AND weight != <3092, 3436) AND model = {70, 71, 72} THEN class = {0.24} [0.24,0.24] (p=2.0, n=0.0, P=17.0, N=341.0)
+r12: IF displacement != <304.50, 318) AND weight != <4412.50, 4457) AND acceleration != <13.60, 14.50) AND acceleration = <15.15, 16) AND horsepower != <139.50, 145) AND weight != <3533.50, 3574) AND displacement != <71.50, 250) THEN class = {0.16} [0.047,0.27] (p=79.0, n=7.0, P=130.0, N=228.0)
+r13: IF horsepower = <68.50, 180) AND acceleration != <13.25, 14) AND horsepower != <112.50, 149) AND displacement != <256, 318) AND acceleration != <10.25, 11.50) AND horsepower != <86.50, 129) AND weight = <4255.50, 4385) AND displacement != <71.50, 250) THEN class = {0.13} [0.095,0.17] (p=17.0, n=3.0, P=48.0, N=310.0)
+r14: IF acceleration = (-inf, 19.25) AND weight = (-inf, 4066) AND weight != <3500.50, 3892) AND acceleration = <14.35, inf) AND acceleration != <17.20, 19) AND horsepower = <68.50, 175) AND weight != <3332.50, 3425) AND displacement != <71.50, 250) AND model != {82} THEN class = {0.24} [0.20,0.28] (p=7.0, n=1.0, P=59.0, N=299.0)
+r15: IF acceleration != <15.10, 15.50) AND weight = (-inf, 4481) AND acceleration = <11.05, 19) AND horsepower != <151, 155) AND horsepower = (-inf, 177.50) AND weight != <4088, 4141) AND acceleration != <17.20, 19) AND horsepower != <102.50, 120) AND weight != <3730, 3777) AND displacement != <71.50, 250) THEN class = {0.17} [0.074,0.27] (p=51.0, n=2.0, P=126.0, N=232.0)
+r16: IF weight = <1931, 1945) THEN class = {0.53} [0.53,0.53] (p=3.0, n=0.0, P=7.0, N=351.0)
+r17: IF acceleration != <12.25, 13) AND weight = (-inf, 4226) AND acceleration = <13.85, 14.50) AND horsepower != <117.50, 138) AND weight != <3700, 4055) AND model != {82} AND displacement = <148.50, 305) THEN class = {0.29} [0.21,0.37] (p=47.0, n=11.0, P=98.0, N=260.0)
+r18: IF acceleration = <8.75, 20.10) AND weight != <4223, 4385) AND displacement = <152, 350) AND acceleration = <15.10, inf) AND acceleration != <17.20, 18) AND weight = <3886, 4190) AND displacement != <304.50, 318) THEN class = {0.27} [0.18,0.36] (p=43.0, n=6.0, P=112.0, N=246.0)
+r19: IF weight != <3159, 3433) AND horsepower != <191.50, 208) AND weight != <1766.50, 3086) AND cylinders != {5} THEN class = {0.17} [0.053,0.29] (p=103.0, n=8.0, P=142.0, N=216.0)
+r20: IF acceleration != <13.85, 14.50) AND acceleration != <16.10, 16.50) AND acceleration != <14.70, 15.50) AND acceleration != <17.35, 18.70) AND weight != <3191.50, 3504) AND acceleration != <11.75, 13.50) AND weight = (-inf, 3964.50) AND acceleration = <13, inf) AND acceleration != <17.15, 17.70) AND horsepower = <92.50, 100) AND origin = {1, 2} AND weight != <3018, 3211) AND displacement = (-inf, 311) AND cylinders = {8, 4, 5} THEN class = {0.45} [0.30,0.60] (p=47.0, n=11.0, P=143.0, N=215.0)
+r21: IF weight != <4412.50, 4457) AND weight = (-inf, 4481) AND displacement != <139, 200) AND weight != <3430.50, 3445) AND acceleration = <15.45, 16) AND horsepower = <55, 180) AND weight != <1851.50, 2124) AND displacement != <84, 198) THEN class = {0.23} [0.11,0.35] (p=86.0, n=3.0, P=162.0, N=196.0)
+r22: IF weight != <2529.50, 2910) AND acceleration = (-inf, 17.05) AND horsepower != <89, 100) AND acceleration != <15.65, 16.50) AND horsepower = (-inf, 152.50) AND weight != <3018, 3169) AND weight != <3092, 3221) AND acceleration != <12.65, 13.20) AND displacement = (-inf, 334) AND weight = (-inf, 3782) AND acceleration != <15.10, 15.50) AND horsepower != <112.50, 129) AND weight != <2912, 2984) AND model != {82} AND displacement != <304.50, 318) AND cylinders = {8, 6, 3} THEN class = {0.23} [0.13,0.32] (p=22.0, n=1.0, P=134.0, N=224.0)
+r23: IF acceleration != <19.10, 19.60) AND acceleration != <17.45, 19) AND weight != <3068, 3160) AND horsepower = (-inf, 151.50) AND acceleration != <16.10, 16.60) AND weight = (-inf, 3251.50) AND acceleration = <14, inf) AND displacement = (-inf, 189) AND acceleration != <17.25, 17.70) AND horsepower != <111, 120) AND weight != <2824, 2910) AND displacement != <157, 225) AND model != {82} THEN class = {0.51} [0.37,0.64] (p=76.0, n=25.0, P=135.0, N=223.0)

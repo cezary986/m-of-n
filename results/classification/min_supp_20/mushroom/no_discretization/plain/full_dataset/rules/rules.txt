@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.7757916241062308
+r2: 0.7206332992849847
+r3: 0.7844739530132789
+r4: 0.6898385072923222
+r5: 0.6954667126342324
+r6: 0.6748171123568236
+r7: 0.6940411682117124
+r8: 0.6225740551583249
+r9: 0.6210256871682464
+r10: 0.842055511782797
+r11: 0.8410870541002552
+r12: 0.5475285171102662
+r13: 0.5475285171102662
+________________________________
+r1: IF odor = {f} THEN class = {p} (p=2160.0, n=0.0, P=3916.0, N=4208.0)
+r2: IF gill-color = {b} THEN class = {p} (p=1728.0, n=0.0, P=3916.0, N=4208.0)
+r3: IF stalk-surface-above-ring = {k} AND gill-spacing = {c} THEN class = {p} (p=2228.0, n=0.0, P=3916.0, N=4208.0)
+r4: IF spore-print-color = {w} AND gill-size = {n} THEN class = {p} (p=1776.0, n=48.0, P=3916.0, N=4208.0)
+r5: IF gill-size = {n} AND gill-spacing = {c} AND population = {v} THEN class = {p} (p=1936.0, n=72.0, P=3916.0, N=4208.0)
+r6: IF gill-size = {n} AND gill-spacing = {c} THEN class = {p} (p=2112.0, n=144.0, P=3916.0, N=4208.0)
+r7: IF bruises? = {f} AND population = {v} THEN class = {p} (p=2504.0, n=216.0, P=3916.0, N=4208.0)
+r8: IF cap-surface = {s} AND gill-size = {n} AND bruises? = {f} THEN class = {p} (p=960.0, n=0.0, P=3916.0, N=4208.0)
+r9: IF gill-size = {n} AND bruises? = {f} THEN class = {p} (p=1960.0, n=192.0, P=3916.0, N=4208.0)
+r10: IF odor = {n} AND gill-size = {b} THEN class = {e} (p=3216.0, n=72.0, P=4208.0, N=3916.0)
+r11: IF odor = {n} THEN class = {e} (p=3408.0, n=120.0, P=4208.0, N=3916.0)
+r12: IF odor = {a} THEN class = {e} (p=400.0, n=0.0, P=4208.0, N=3916.0)
+r13: IF odor = {l} THEN class = {e} (p=400.0, n=0.0, P=4208.0, N=3916.0)

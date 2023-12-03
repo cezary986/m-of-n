@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 1.0
+r2: 0.9444444444444444
+r3: 0.9777777777777779
+r4: 0.9361702127659574
+r5: 0.9444444444444444
+r6: 0.8751461988304093
+r7: 0.7141975308641976
+________________________________
+r1: IF sepalwidth > petallength = {1} THEN class = {Iris-setosa} (p=45.0, n=0.0, P=45.0, N=90.0)
+r2: IF petallength = <2.45, 4.80) = {1} AND petalwidth = (-inf, 1.65) = {1} THEN class = {Iris-versicolor} (p=40.0, n=0.0, P=45.0, N=90.0)
+r3: IF petalwidth = <0.80, 1.70) = {1} AND petallength = (-inf, 4.95) = {1} THEN class = {Iris-versicolor} (p=43.0, n=0.0, P=45.0, N=90.0)
+r4: IF petalwidth = <0.80, 1.80) = {1} AND 2-of-3(petallength = (-inf, 4.95), sepallength = <4.95, inf), sepalwidth = <2.25, inf)) = {1} AND petallength = (-inf, 5.35) = {1} THEN class = {Iris-versicolor} (p=45.0, n=2.0, P=45.0, N=90.0)
+r5: IF petalwidth = <1.75, inf) = {1} THEN class = {Iris-virginica} (p=40.0, n=0.0, P=45.0, N=90.0)
+r6: IF petallength = <5.05, inf) = {1} THEN class = {Iris-virginica} (p=37.0, n=1.0, P=45.0, N=90.0)
+r7: IF petalwidth = <1.45, inf) = {1} AND petallength = <4.35, inf) = {1} THEN class = {Iris-virginica} (p=44.0, n=10.0, P=45.0, N=90.0)

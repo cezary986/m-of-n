@@ -1,0 +1,8 @@
+Rules qualities:
+r1: 1.0
+r2: 0.9999999999998707
+r3: 1.0
+________________________________
+r1: IF Cell_Type = (-inf, 1.50) = {0} THEN  (p=382.0, n=0.0, P=1032.0, N=0.0)
+r2: IF Cell_Type = Stage2 = {1} AND Cell_Type = (-inf, 1.50) = {1} AND Stage1 = Stage2 = {1} THEN  (p=96.0, n=0.0, P=1032.0, N=0.0)
+r3: IF Cell_Type = (-inf, 1.50) = {1} THEN  (p=650.0, n=0.0, P=1032.0, N=0.0)

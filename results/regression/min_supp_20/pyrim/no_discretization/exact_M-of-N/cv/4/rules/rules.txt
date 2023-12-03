@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.4919181034482759
+r2: 0.4537704918032788
+r3: 0.3296703296703296
+r4: 0.47368421052631576
+r5: 0.4781634938409854
+r6: 0.4684331797235023
+r7: 0.44545454545454544
+r8: 0.6115702479338843
+r9: 0.2508466376390904
+r10: 0.44159544159544156
+r11: 0.44545454545454544
+r12: 0.345679012345679
+________________________________
+r1: IF 2-of-3(p1_size > p3_sigma, p2_polar > p2_pi_doner, p1_polarisable > p2_sigma) = {1} AND 2-of-3(p2_polar > p2_pi_doner, p1_polarisable > p3_size, p1_size > p3_sigma) = {0} AND 2-of-3(p1_polarisable > p2_sigma, p2_size > p3_size, p1_size > p3_sigma) = {0} AND 2-of-3(p2_polar > p2_pi_doner, p1_sigma > p2_size, p1_size > p3_sigma) = {0} THEN class = {0.83} [0.78,0.87] (p=3.0, n=1.0, P=8.0, N=58.0)
+r2: IF p2_size > p2_pi_doner = {1} AND 2-of-3(p1_size > p3_h_acceptor, p1_pi_acceptor = p2_size, p1_polarisable > p2_sigma) = {0} AND 2-of-3(p1_size > p3_sigma, p1_pi_acceptor = p2_size, p1_polarisable > p2_sigma) = {1} THEN class = {0.91} [0.86,0.96] (p=3.0, n=2.0, P=5.0, N=61.0)
+r3: IF p2_size > p2_pi_doner = {0} AND 2-of-3(p1_size > p3_sigma, p2_polar > p2_pi_doner, p1_polarisable > p2_sigma) = {1} AND 2-of-3(p2_polar > p2_pi_doner, p1_polarisable > p3_size, p1_size > p3_sigma) = {0} AND 2-of-3(p2_polar > p2_pi_doner, p1_sigma > p2_size, p1_size > p3_sigma) = {0} THEN class = {0.81} [0.71,0.90] (p=2.0, n=1.0, P=14.0, N=52.0)
+r4: IF 2-of-3(p1_size > p3_h_acceptor, p1_pi_acceptor = p2_size, p1_polarisable > p2_sigma) = {1} AND 2-of-3(p1_size > p3_sigma, p1_pi_acceptor = p2_size, p1_polarisable > p2_sigma) = {0} AND 2-of-3(p2_polar > p2_pi_doner, p1_sigma > p2_size, p1_size > p3_sigma) = {0} THEN class = {0.99} [0.87,1.11] (p=3.0, n=1.0, P=9.0, N=57.0)
+r5: IF p2_size < p2_polarisable = {0} AND p1_size < p1_h_acceptor = {1} AND 2-of-3(p1_polarisable > p2_sigma, p2_size < p2_polarisable, p1_size > p3_sigma) = {1} AND 2-of-3(p1_size > p1_pi_acceptor, p1_sigma > p2_size, p1_polarisable > p2_size) = {0} THEN class = {0.81} [0.70,0.92] (p=9.0, n=3.0, P=19.0, N=47.0)
+r6: IF p2_size > p2_pi_doner = {0} AND p2_size < p2_polarisable = {1} AND 2-of-3(p1_size > p3_h_acceptor, p1_h_acceptor = p2_polarisable, p1_polarisable > p2_sigma) = {0} AND 2-of-3(p1_polarisable > p2_sigma, p2_size < p2_polarisable, p1_size > p3_sigma) = {0} THEN class = {0.65} [0.58,0.71] (p=7.0, n=1.0, P=31.0, N=35.0)
+r7: IF p2_size < p2_polarisable = {1} AND 2-of-3(p1_size > p3_sigma, p1_h_acceptor = p2_polarisable, p1_polarisable > p2_sigma) = {1} THEN class = {0.81} [0.74,0.87] (p=3.0, n=1.0, P=11.0, N=55.0)
+r8: IF 2-of-3(p1_size > p3_sigma, p1_sigma > p2_size, p1_polarisable > p2_sigma) = {0} AND 2-of-3(p2_polar > p2_pi_doner, p1_polarisable > p2_size, p1_size > p3_sigma) = {0} AND 2-of-3(p1_size > p3_sigma, p1_pi_acceptor = p2_size, p1_polarisable > p2_sigma) = {0} AND 2-of-3(p2_polar > p2_pi_doner, p1_sigma > p2_size, p1_size > p3_sigma) = {0} THEN class = {0.62} [0.52,0.72] (p=30.0, n=3.0, P=44.0, N=22.0)
+r9: IF p2_size > p2_pi_doner = {0} AND 2-of-3(p1_size > p3_sigma, p1_sigma > p2_size, p1_polarisable > p2_sigma) = {1} AND 2-of-3(p2_polar > p2_pi_doner, p1_sigma > p2_size, p1_size > p3_sigma) = {1} THEN class = {0.60} [0.39,0.81] (p=8.0, n=1.0, P=53.0, N=13.0)
+r10: IF 2-of-3(p1_size > p3_sigma, p2_polar > p2_pi_doner, p1_polarisable > p2_sigma) = {1} AND 2-of-3(p1_polarisable > p2_size, p1_h_acceptor = p2_polarisable, p1_size > p3_sigma) = {1} THEN class = {0.82} [0.73,0.90] (p=8.0, n=5.0, P=12.0, N=54.0)
+r11: IF p1_pi_acceptor = p2_size = {0} AND 2-of-3(p2_polar > p2_pi_doner, p1_sigma > p2_size, p1_size > p3_sigma) = {0} AND 2-of-3(p1_polarisable > p2_size, p1_pi_acceptor = p2_size, p1_size > p3_sigma) = {1} THEN class = {0.77} [0.72,0.83] (p=3.0, n=1.0, P=11.0, N=55.0)
+r12: IF 2-of-3(p1_size > p3_sigma, p1_h_acceptor = p2_polarisable, p1_polarisable > p2_sigma) = {0} AND 2-of-3(p2_polar > p2_pi_doner, p1_polarisable > p3_size, p1_size > p3_sigma) = {1} AND 2-of-3(p2_polar > p2_pi_doner, p1_polarisable > p2_size, p1_size > p3_sigma) = {1} THEN class = {0.59} [0.56,0.61] (p=2.0, n=1.0, P=12.0, N=54.0)

@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.6387499999999999
+r2: 0.5091185410334347
+r3: 0.6122448979591837
+r4: 0.2993103448275862
+r5: 0.3533823529411764
+r6: 0.5128205128205128
+r7: 0.46428571428571425
+r8: 0.3479054779806659
+r9: 0.3051282051282051
+r10: 0.5403377110694184
+r11: 0.41666666666666663
+r12: 0.4096638655462185
+r13: 0.34375
+________________________________
+r1: IF HOUS = <76.90, 78) = {1} THEN class = {0.62} [0.59,0.64] (p=3.0, n=1.0, P=4.0, N=50.0)
+r2: IF POOR != <11.80, 24.20) = {1} AND POOR > SO = {0} AND EDUC < POOR = {1} THEN class = {0.70} [0.65,0.75] (p=3.0, n=1.0, P=7.0, N=47.0)
+r3: IF POOR != <11.80, 24.20) = {1} AND 2-of-3(PREC > JANT, JANT > HC, WWDRK < HUMID) = {1} AND OVR65 < NONW = {1} THEN class = {0.70} [0.59,0.82] (p=6.0, n=1.0, P=12.0, N=42.0)
+r4: IF NONW > HC = {1} AND JULT < HOUS = {1} AND EDUC < POOR = {1} AND PREC < WWDRK = {1} THEN class = {0.47} [0.36,0.58] (p=3.0, n=1.0, P=25.0, N=29.0)
+r5: IF POOR != <11.80, 24.20) = {0} AND POOR > SO = {1} THEN class = {0.40} [0.30,0.50] (p=7.0, n=3.0, P=20.0, N=34.0)
+r6: IF 2-of-3(WWDRK > HC, NONW < POOR, JULT > HC) = {1} AND 2-of-3(PREC > JANT, JANT > HC, WWDRK < HUMID) = {1} AND POOR > HC = {0} AND EDUC < POOR = {1} AND PREC < WWDRK = {1} AND NONW < NOX = {1} THEN class = {0.65} [0.55,0.75] (p=5.0, n=1.0, P=15.0, N=39.0)
+r7: IF 2-of-3(WWDRK > NOX, HC < SO, PREC > JANT) = {1} AND PREC < WWDRK = {1} AND PREC > SO = {0} AND NONW > POOR = {1} THEN class = {0.61} [0.48,0.73] (p=6.0, n=1.0, P=24.0, N=30.0)
+r8: IF 2-of-3(PREC > JANT, POOR < SO, WWDRK < HUMID) = {0} THEN class = {0.25} [-0.045,0.55] (p=6.0, n=1.0, P=35.0, N=19.0)
+r9: IF 2-of-3(WWDRK > NOX, HC < SO, PREC > JANT) = {0} AND 2-of-3(PREC > JANT, POOR < SO, WWDRK < HUMID) = {1} THEN class = {0.32} [0.23,0.42] (p=2.0, n=1.0, P=15.0, N=39.0)
+r10: IF POOR != <11.80, 24.20) = {0} AND POOR > SO = {0} AND HOUS = <76.90, 78) = {0} AND NONW < NOX = {0} THEN class = {0.53} [0.49,0.56] (p=5.0, n=1.0, P=13.0, N=41.0)
+r11: IF POOR > HC = {0} AND PREC < HC = {0} THEN class = {0.61} [0.45,0.77] (p=10.0, n=2.0, P=30.0, N=24.0)
+r12: IF NONW > HC = {0} AND POOR > HC = {1} THEN class = {0.38} [0.25,0.50] (p=10.0, n=4.0, P=20.0, N=34.0)
+r13: IF EDUC < POOR = {0} AND NONW > POOR = {0} THEN class = {0.34} [0.19,0.49] (p=6.0, n=2.0, P=24.0, N=30.0)

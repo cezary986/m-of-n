@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9996254333414767
+r2: 0.9984493802629768
+r3: 0.997942970044922
+r4: 0.9999999999270048
+r5: 0.9999999759339468
+r6: 0.9999999997574336
+________________________________
+r1: IF mspike = (-inf, 2.25) AND pctime = (-inf, 3774) THEN  (p=29.0, n=0.0, P=241.0, N=0.0)
+r2: IF mspike = (-inf, 2.25) AND pctime = (-inf, 4170) THEN  (p=35.0, n=0.0, P=241.0, N=0.0)
+r3: IF mspike = (-inf, 2.25) AND hgb = (-inf, 15.45) AND alb = (-inf, 3.95) AND pctime = (-inf, 5099) THEN  (p=33.0, n=0.0, P=241.0, N=0.0)
+r4: IF mspike = (-inf, 2.75) AND age = (-inf, 72.50) THEN  (p=180.0, n=0.0, P=241.0, N=0.0)
+r5: IF hgb = (-inf, 13.65) AND pcdx = {?} AND alb = (-inf, 3.25) AND sex = {male} THEN  (p=39.0, n=0.0, P=241.0, N=0.0)
+r6: IF age = <73, inf) THEN  (p=59.0, n=0.0, P=241.0, N=0.0)

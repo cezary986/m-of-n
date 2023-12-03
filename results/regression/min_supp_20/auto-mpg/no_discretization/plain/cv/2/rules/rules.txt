@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.5555555555555556
+r2: 0.6239341466614194
+r3: 0.430210853438943
+r4: 0.49065249491458957
+r5: 0.5283434232250963
+r6: 0.6428571428571428
+r7: 0.32698571465209925
+________________________________
+r1: IF displacement = <454.50, inf) AND model = {70} THEN class = {0.13} [0.13,0.13] (p=2.0, n=0.0, P=18.0, N=340.0)
+r2: IF weight = <3720, inf) THEN class = {0.13} [0.063,0.20] (p=58.0, n=19.0, P=72.0, N=286.0)
+r3: IF cylinders = {4} THEN class = {0.51} [0.35,0.66] (p=127.0, n=61.0, P=144.0, N=214.0)
+r4: IF horsepower = (-inf, 112.50) AND weight = <2745, inf) THEN class = {0.29} [0.18,0.41] (p=68.0, n=19.0, P=134.0, N=224.0)
+r5: IF acceleration = (-inf, 13.75) AND weight = <2355, inf) THEN class = {0.16} [0.028,0.29] (p=64.0, n=15.0, P=128.0, N=230.0)
+r6: IF horsepower = (-inf, 96) AND model = {70} AND displacement = <198.50, inf) THEN class = {0.32} [0.32,0.32] (p=2.0, n=0.0, P=7.0, N=351.0)
+r7: IF acceleration = <13.75, 15.25) AND horsepower = <106, inf) AND origin = {1} AND weight = (-inf, 3412.50) THEN class = {0.32} [0.28,0.36] (p=2.0, n=1.0, P=41.0, N=317.0)

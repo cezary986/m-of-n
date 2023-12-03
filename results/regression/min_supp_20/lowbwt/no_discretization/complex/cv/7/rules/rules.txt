@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.4803921568627451
+r2: 0.532937517670342
+r3: 0.5027472527472527
+r4: 0.7345814358801371
+________________________________
+r1: IF LWT != <108.50, 120) AND LWT = (-inf, 116) AND LOW != SMOKE AND SMOKE = HT AND UI = SMOKE AND LWT != <93, 102) THEN class = {0.32} [0.28,0.36] (p=4.0, n=1.0, P=17.0, N=153.0)
+r2: IF UI != LOW AND UI = HT THEN class = {0.38} [0.32,0.43] (p=26.0, n=10.0, P=39.0, N=131.0)
+r3: IF LWT = (-inf, 134) AND LWT != <91.50, 115) AND LOW = SMOKE AND SMOKE != HT AND LOW = {1} AND LWT != <120.50, 130) AND AGE = <18.50, 27) THEN class = {0.35} [0.32,0.37] (p=4.0, n=1.0, P=14.0, N=156.0)
+r4: IF LOW = {1} THEN class = {0.36} [0.27,0.44] (p=45.0, n=9.0, P=49.0, N=121.0)

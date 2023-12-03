@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999999999997
+r2: 1.0
+r3: 0.9999999999921901
+r4: 1.0
+r5: 1.0
+r6: 1.0
+r7: 0.999999999998716
+________________________________
+r1: IF MIORD < MITYPE AND AGE = (-inf, 69) THEN  (p=185.0, n=0.0, P=432.0, N=0.0)
+r2: IF AGE = (-inf, 66.50) THEN  (p=207.0, n=0.0, P=432.0, N=0.0)
+r3: IF CPK != <118.50, 126) AND CPK != <172.50, 186) AND CPK != <411, 436) AND CPK != <121.50, 170) AND CPK != <1002.50, 1180) AND CPK != <17, 33) AND CPK != <1495, 1780) AND AGE = (-inf, 71.50) AND CHF < MITYPE AND CHF = MIORD AND SHO = MIORD AND CPK != <212.50, 220) AND AGE != <67, 71) THEN  (p=93.0, n=0.0, P=432.0, N=0.0)
+r4: IF SHO = (-inf, 0.50) THEN  (p=397.0, n=0.0, P=432.0, N=0.0)
+r5: IF CHF = MITYPE AND CHF = SHO THEN  (p=20.0, n=0.0, P=432.0, N=0.0)
+r6: IF SHO < MITYPE AND CPK != <474, 509) AND CPK != <864.50, 980) AND CPK != <96, 101) AND CPK != <999, 1180) AND CPK != <1311.50, 1360) AND CPK != <511.50, 730) AND CPK != <1089, 1232) AND AGE != <67, 72) AND CPK != <371.50, 393) AND AGE != <73.50, 84) THEN  (p=189.0, n=0.0, P=432.0, N=0.0)
+r7: IF CPK = <85.50, inf) AND AGE = <73, inf) THEN  (p=145.0, n=0.0, P=432.0, N=0.0)

@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9999967946217829
+r2: 0.9999829152285757
+r3: 0.9999660927350348
+r4: 0.9999944286656377
+r5: 0.9999743834298245
+r6: 0.9999954732527565
+r7: 0.9999998569804762
+r8: 0.9999946082889202
+r9: 0.9999781797879845
+r10: 0.9999365123299441
+________________________________
+r1: IF 2-of-3(Relapse = Gendermatch, Stemcellsource != Relapse, aGvHDIIIIV = Stemcellsource) = {1} AND aGvHDIIIIV = Stemcellsource = {1} AND Stemcellsource = Txpostrelapse = {0} THEN  (p=88.0, n=0.0, P=187.0, N=0.0)
+r2: IF 2-of-3(Relapse = Gendermatch, aGvHDIIIIV != Riskgroup, Stemcellsource != Relapse) = {1} AND aGvHDIIIIV != Stemcellsource = {0} THEN  (p=96.0, n=0.0, P=187.0, N=0.0)
+r3: IF aGvHDIIIIV = Txpostrelapse = {0} AND Relapse != Txpostrelapse = {0} THEN  (p=108.0, n=0.0, P=187.0, N=0.0)
+r4: IF Stemcellsource = Txpostrelapse = {0} AND aGvHDIIIIV = Relapse = {0} THEN  (p=94.0, n=0.0, P=187.0, N=0.0)
+r5: IF aGvHDIIIIV = Relapse = {1} AND aGvHDIIIIV = HLAmismatch = {0} THEN  (p=31.0, n=0.0, P=187.0, N=0.0)
+r6: IF extcGvHD = RecipientCMV = {0} AND 2-of-3(Relapse = Gendermatch, aGvHDIIIIV = Recipientage10, Stemcellsource != Gendermatch) = {0} AND aGvHDIIIIV = Relapse = {1} THEN  (p=14.0, n=0.0, P=187.0, N=0.0)
+r7: IF 2-of-3(Relapse = Gendermatch, extcGvHD = RecipientCMV, Stemcellsource != Gendermatch) = {0} AND Relapse != Txpostrelapse = {0} AND Rbodymass < ANCrecovery = {0} AND aGvHDIIIIV = Relapse = {1} THEN  (p=13.0, n=0.0, P=187.0, N=0.0)
+r8: IF aGvHDIIIIV = Txpostrelapse = {1} AND 2-of-3(extcGvHD = RecipientCMV, Relapse = Gendermatch, aGvHDIIIIV != Gendermatch) = {0} THEN  (p=25.0, n=0.0, P=187.0, N=0.0)
+r9: IF 2-of-3(Relapse = Gendermatch, aGvHDIIIIV = Recipientage10, Stemcellsource != Relapse) = {0} AND Rbodymass < ANCrecovery = {0} AND aGvHDIIIIV = Relapse = {1} THEN  (p=26.0, n=0.0, P=187.0, N=0.0)
+r10: IF aGvHDIIIIV = Relapse = {1} THEN  (p=62.0, n=0.0, P=187.0, N=0.0)

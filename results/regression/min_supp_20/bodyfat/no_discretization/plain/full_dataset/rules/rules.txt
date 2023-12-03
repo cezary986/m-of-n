@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.372
+r2: 0.42592592592592593
+r3: 0.41885775862068964
+r4: 0.3978794642857143
+r5: 0.5936708860759493
+r6: 0.7453754940711462
+r7: 0.15007270222698402
+r8: 0.39026988636363635
+r9: 0.34770123106060613
+r10: 0.8333333333333333
+r11: 1.0
+r12: 0.4480987090541846
+r13: 0.372
+r14: 0.48491083676268865
+________________________________
+r1: IF Abdomen = <124.15, inf) THEN class = {0.74} [0.73,0.75] (p=1.0, n=1.0, P=2.0, N=250.0)
+r2: IF Weight = <241.50, inf) THEN class = {0.73} [0.59,0.86] (p=4.0, n=1.0, P=36.0, N=216.0)
+r3: IF Chest = <119.85, inf) THEN class = {0.73} [0.65,0.81] (p=3.0, n=1.0, P=20.0, N=232.0)
+r4: IF Abdomen = <116.95, inf) THEN class = {0.74} [0.63,0.86] (p=3.0, n=1.0, P=28.0, N=224.0)
+r5: IF Density = <1.01, inf) AND Abdomen = <113.75, inf) THEN class = {0.73} [0.67,0.78] (p=6.0, n=1.0, P=15.0, N=237.0)
+r6: IF Forearm = (-inf, 31.50) AND Density = <1.00, 1.03) AND Abdomen = (-inf, 133.05) THEN class = {0.68} [0.63,0.73] (p=20.0, n=5.0, P=22.0, N=230.0)
+r7: IF Height = <76.50, inf) THEN class = {0.37} [0.29,0.44] (p=1.0, n=1.0, P=73.0, N=179.0)
+r8: IF Chest = <116.55, inf) AND Abdomen = (-inf, 110.35) THEN class = {0.63} [0.57,0.69] (p=3.0, n=1.0, P=32.0, N=220.0)
+r9: IF Chest = (-inf, 115.50) AND Height = (-inf, 75.50) AND Hip = (-inf, 114.95) AND Abdomen = <86.10, 109.80) THEN class = {0.45} [0.32,0.57] (p=107.0, n=53.0, P=120.0, N=132.0)
+r10: IF Density = <1.08, 1.08) THEN class = {0.19} [0.19,0.19] (p=2.0, n=0.0, P=3.0, N=249.0)
+r11: IF Density = <1.08, 1.08) THEN class = {0.20} [0.20,0.20] (p=3.0, n=0.0, P=3.0, N=249.0)
+r12: IF Ankle = (-inf, 22.65) AND Forearm = <27.50, 28.50) AND Biceps = (-inf, 34.15) AND Height = (-inf, 70.50) AND Neck = (-inf, 39.80) AND Density = (-inf, 1.07) AND Age = (-inf, 61) AND Abdomen = (-inf, 96.40) THEN class = {0.41} [0.36,0.47] (p=6.0, n=1.0, P=59.0, N=193.0)
+r13: IF Biceps = (-inf, 29.05) AND Density = (-inf, 1.07) AND Age = (-inf, 36.50) AND Abdomen = (-inf, 83.65) THEN class = {0.33} [0.32,0.33] (p=1.0, n=1.0, P=2.0, N=250.0)
+r14: IF Abdomen = (-inf, 86.15) THEN class = {0.22} [0.11,0.32] (p=52.0, n=20.0, P=81.0, N=171.0)

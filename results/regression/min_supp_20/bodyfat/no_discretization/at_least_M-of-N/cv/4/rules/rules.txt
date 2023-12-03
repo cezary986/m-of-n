@@ -1,0 +1,62 @@
+Rules qualities:
+r1: 0.8595797905605896
+r2: 0.5954954954954955
+r3: 0.5151329978432783
+r4: 0.4235020360674811
+r5: 0.4600290697674419
+r6: 0.6637037037037038
+r7: 0.7902699144173798
+r8: 0.7916975881261596
+r9: 0.4839424671514223
+r10: 0.538510101010101
+r11: 0.46141141141141145
+r12: 0.6427964661909615
+r13: 0.3795055970149253
+r14: 0.6000877770463023
+r15: 0.5241729756418697
+r16: 0.5005130597014926
+r17: 0.8333333333333333
+r18: 0.4521926671459382
+r19: 0.4466130884041331
+r20: 0.745433789954338
+r21: 0.8647435897435898
+r22: 0.9359485148514851
+r23: 0.7838185185185185
+r24: 0.933544574438971
+r25: 0.4857749819841461
+r26: 0.3600706214689266
+r27: 0.4718883600871179
+r28: 0.35159412955465585
+r29: 0.6032552973342448
+r30: 0.7950411623979736
+________________________________
+r1: IF Density = <1.06, 1.07) = {1} THEN class = {0.36} [0.31,0.40] (p=37.0, n=4.0, P=39.0, N=188.0)
+r2: IF Ankle != <23.35, 25.50) = {1} AND Neck > Knee = {1} AND Height = <68, 71) = {1} AND Abdomen > Hip = {1} AND Neck != <37.20, 38.70) = {1} THEN class = {0.73} [0.70,0.75] (p=3.0, n=1.0, P=5.0, N=222.0)
+r3: IF Neck > Knee = {1} AND Abdomen < Hip = {1} AND Density = <1.01, 1.04) = {1} THEN class = {0.67} [0.65,0.70] (p=4.0, n=1.0, P=13.0, N=214.0)
+r4: IF Neck > Knee = {0} AND Age < Thigh = {1} AND Abdomen > Hip = {1} THEN class = {0.65} [0.56,0.73] (p=4.0, n=1.0, P=36.0, N=191.0)
+r5: IF Neck > Knee = {0} AND Height = (-inf, 72.50) = {1} AND Density = <1.03, 1.04) = {0} AND Ankle = (-inf, 22.95) = {0} AND Abdomen > Hip = {1} AND Knee = (-inf, 39.55) = {0} THEN class = {0.69} [0.66,0.71] (p=3.0, n=1.0, P=12.0, N=215.0)
+r6: IF Density = <1.00, 1.03) = {1} AND Neck > Knee = {0} AND Abdomen > Hip = {0} AND Neck != <37.20, 38.70) = {1} THEN class = {0.68} [0.67,0.69] (p=2.0, n=1.0, P=2.0, N=225.0)
+r7: IF Height = (-inf, 72.50) = {1} AND Density = (-inf, 1.03) = {1} THEN class = {0.68} [0.60,0.76] (p=23.0, n=2.0, P=31.0, N=196.0)
+r8: IF Density = <1.04, 1.05) = {1} THEN class = {0.51} [0.51,0.52] (p=6.0, n=1.0, P=7.0, N=220.0)
+r9: IF Density = <1.00, 1.03) = {0} AND Age > Neck = {1} AND Abdomen < Hip = {1} AND Thigh != <50.45, 53.30) = {1} AND Density = <1.04, 1.05) = {0} AND Density = <1.05, 1.05) = {0} AND Forearm = <26.50, inf) = {1} AND Knee = (-inf, 39.55) = {1} AND Neck > Knee = {1} AND Density = <1.06, 1.07) = {0} AND Density = <1.07, 1.07) = {0} AND Hip != <95.55, 97.10) = {1} AND Height = (-inf, 72.50) = {1} AND Biceps = <28.60, 30.50) = {0} THEN class = {0.55} [0.52,0.58] (p=5.0, n=1.0, P=26.0, N=201.0)
+r10: IF Chest > Hip = {1} AND Density = (-inf, 1.04) = {1} AND Neck = <36.70, inf) = {1} AND Neck > Knee = {0} AND Thigh = (-inf, 68.60) = {1} AND Age < Thigh = {1} AND Abdomen > Hip = {0} AND Age > Forearm = {1} THEN class = {0.57} [0.55,0.59] (p=4.0, n=1.0, P=11.0, N=216.0)
+r11: IF Neck > Knee = {1} AND Age > Neck = {0} AND Density = (-inf, 1.08) = {0} THEN class = {0.078} [0.05,0.11] (p=2.0, n=1.0, P=5.0, N=222.0)
+r12: IF Biceps > Forearm = {1} AND Neck < Knee = {1} AND Density != <1.08, 1.10) = {0} AND Biceps = <35.60, 37.10) = {0} THEN class = {0.13} [0.11,0.15] (p=5.0, n=1.0, P=9.0, N=218.0)
+r13: IF Chest > Hip = {0} AND Neck > Knee = {1} AND Age > Neck = {1} AND Density = <1.06, 1.07) = {0} AND Density = <1.08, 1.08) = {0} THEN class = {0.13} [-0.026,0.29] (p=4.0, n=1.0, P=67.0, N=160.0)
+r14: IF Hip = (-inf, 99) = {1} AND Neck > Knee = {0} AND Density = <1.07, inf) = {1} AND Knee = (-inf, 39.55) = {1} THEN class = {0.16} [0.11,0.22] (p=13.0, n=2.0, P=31.0, N=196.0)
+r15: IF Chest > Hip = {1} AND Age > Neck = {1} AND Density = <1.05, 1.07) = {1} AND Age = <58, 62) = {0} AND Neck < Knee = {1} AND Ankle = (-inf, 24.45) = {1} AND Chest != <99.25, 99.80) = {1} AND Knee = (-inf, 39.55) = {1} THEN class = {0.38} [0.35,0.41] (p=7.0, n=1.0, P=31.0, N=196.0)
+r16: IF Ankle != <23.35, 25.50) = {1} AND Biceps != <28.90, 29.80) = {1} AND Density = <1.08, 1.10) = {0} AND Age > Neck = {0} AND Density = <1.07, 1.07) = {0} AND Density = <1.07, 1.08) = {0} AND Height = (-inf, 73.50) = {1} AND Density = <1.05, 1.05) = {0} AND Knee = (-inf, 39.55) = {1} THEN class = {0.37} [0.30,0.45] (p=10.0, n=1.0, P=67.0, N=160.0)
+r17: IF Density = (-inf, 1.04) = {0} AND Weight = (-inf, 207.88) = {0} AND Age > Neck = {0} AND Ankle = (-inf, 24.45) = {0} AND Height = (-inf, 73.50) = {1} THEN class = {0.40} [0.40,0.40] (p=2.0, n=0.0, P=3.0, N=224.0)
+r18: IF Density = (-inf, 1.04) = {0} AND Neck > Knee = {1} AND Age > Neck = {1} AND Density = <1.06, 1.07) = {0} AND Hip = <90.35, inf) = {1} AND Age = (-inf, 48.50) = {1} AND Hip != <90, 94.50) = {1} THEN class = {0.47} [0.45,0.48] (p=3.0, n=1.0, P=13.0, N=214.0)
+r19: IF Biceps != <28.90, 29.80) = {1} AND Age > Neck = {1} AND Thigh != <59.65, 61.70) = {1} AND Density = <1.08, 1.08) = {0} AND Density = <1.01, 1.04) = {0} AND Density = <1.04, 1.05) = {0} AND Density = <1.04, 1.04) = {0} AND Knee = (-inf, 39.55) = {1} AND Neck > Knee = {0} AND Density = <1.06, 1.07) = {0} AND Density = <1.07, 1.07) = {0} AND Height = (-inf, 72.50) = {1} AND Density = <1.07, 1.08) = {0} AND Hip = <90.35, inf) = {1} AND Hip != <90, 94.50) = {1} THEN class = {0.45} [0.43,0.47] (p=4.0, n=1.0, P=26.0, N=201.0)
+r20: IF Abdomen != <90.65, 92.70) = {1} AND Age > Knee = {1} AND Density = <1.05, 1.05) = {1} THEN class = {0.46} [0.46,0.47] (p=6.0, n=1.0, P=8.0, N=219.0)
+r21: IF Density = <1.08, 1.10) = {0} AND Density = (-inf, 1.07) = {0} AND Density = <1.07, 1.07) = {0} AND Height = (-inf, 73.50) = {1} THEN class = {0.20} [0.16,0.25] (p=28.0, n=2.0, P=32.0, N=195.0)
+r22: IF Abdomen = (-inf, 92.70) = {1} AND Density = <1.07, inf) = {1} AND Density != <1.08, 1.10) = {1} THEN class = {0.19} [0.14,0.23] (p=24.0, n=1.0, P=25.0, N=202.0)
+r23: IF Density = <1.07, 1.08) = {0} AND Density = <1.07, inf) = {1} AND 2-of-3(Chest > Abdomen, Hip = <90.35, inf), Biceps > Forearm) = {1} THEN class = {0.13} [0.069,0.20] (p=22.0, n=3.0, P=27.0, N=200.0)
+r24: IF Density = <1.07, 1.07) = {1} THEN class = {0.27} [0.24,0.30] (p=23.0, n=1.0, P=24.0, N=203.0)
+r25: IF Neck = <36.70, inf) = {1} AND Neck > Knee = {1} AND Forearm = <25.50, inf) = {1} AND Age < Thigh = {0} AND Density = <1.04, 1.05) = {0} AND Knee = (-inf, 39.55) = {1} THEN class = {0.61} [0.53,0.69] (p=7.0, n=1.0, P=46.0, N=181.0)
+r26: IF Weight = (-inf, 207.88) = {1} AND Age < Thigh = {0} AND Ankle = (-inf, 24.45) = {1} AND Hip != <90, 94.50) = {1} AND Knee = (-inf, 39.55) = {0} THEN class = {0.55} [0.47,0.62] (p=3.0, n=1.0, P=50.0, N=177.0)
+r27: IF Density = <1.06, 1.07) = {0} AND Ankle = (-inf, 24.45) = {1} AND Abdomen > Hip = {1} THEN class = {0.62} [0.49,0.74] (p=12.0, n=2.0, P=66.0, N=161.0)
+r28: IF Chest > Hip = {1} AND Age < Neck = {0} AND Age > Knee = {0} AND Height = (-inf, 73.50) = {1} THEN class = {0.45} [0.43,0.47] (p=2.0, n=1.0, P=19.0, N=208.0)
+r29: IF Density = <1.06, 1.07) = {0} AND Age < Thigh = {1} AND Abdomen > Hip = {0} AND Density != <1.00, 1.06) = {0} AND Chest > Abdomen = {1} THEN class = {0.48} [0.39,0.57] (p=60.0, n=17.0, P=75.0, N=152.0)
+r30: IF Density = (-inf, 1.04) = {0} AND Density = <1.06, 1.07) = {0} AND Density = <1.07, 1.07) = {0} AND Age < Neck = {0} AND Density = <1.07, 1.08) = {0} AND Abdomen = <73.25, 83.20) = {0} AND Density = <1.07, inf) = {0} THEN class = {0.47} [0.41,0.52] (p=36.0, n=2.0, P=51.0, N=176.0)

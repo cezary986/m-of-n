@@ -1,0 +1,38 @@
+Rules qualities:
+r1: 0.3605769230769231
+r2: 0.4365750528541226
+r3: 0.28750000000000003
+r4: 0.25520833333333337
+r5: 0.19345238095238093
+r6: 0.4127579737335835
+r7: 0.5008223684210527
+r8: 0.5409926470588236
+r9: 0.631578947368421
+r10: 0.457948717948718
+r11: 0.4229166666666666
+r12: 0.2922077922077922
+r13: 0.45021645021645024
+r14: 0.48
+r15: 0.44105113636363635
+r16: 0.48
+r17: 0.5128205128205128
+r18: 0.6044034090909091
+________________________________
+r1: IF NONW = <34.05, inf) THEN class = {0.74} [0.71,0.78] (p=1.0, n=1.0, P=2.0, N=52.0)
+r2: IF POOR = <24.15, inf) THEN class = {0.74} [0.61,0.87] (p=3.0, n=1.0, P=11.0, N=43.0)
+r3: IF SO = <234.50, inf) THEN class = {0.73} [0.67,0.78] (p=1.0, n=1.0, P=4.0, N=50.0)
+r4: IF JULT = <84.50, inf) THEN class = {0.31} [0.26,0.36] (p=1.0, n=1.0, P=6.0, N=48.0)
+r5: IF HOUS = <90.05, inf) THEN class = {0.22} [0.11,0.33] (p=1.0, n=1.0, P=12.0, N=42.0)
+r6: IF HOUS = (-inf, 82.70) AND DENS = (-inf, 3861.50) AND WWDRK = (-inf, 43.80) AND JANT = (-inf, 30.50) THEN class = {0.47} [0.41,0.52] (p=3.0, n=1.0, P=13.0, N=41.0)
+r7: IF JULT = (-inf, 82.50) AND POOR = <13.55, inf) AND OVR65 = (-inf, 11.55) AND SO = (-inf, 153.50) AND EDUC = (-inf, 11.65) AND NONW = (-inf, 16.50) AND WWDRK = (-inf, 50.60) THEN class = {0.52} [0.46,0.59] (p=5.0, n=1.0, P=16.0, N=38.0)
+r8: IF HOUS = (-inf, 82.25) AND OVR65 = (-inf, 11.55) AND HC = (-inf, 8.50) AND JANT = (-inf, 36) THEN class = {0.46} [0.37,0.54] (p=7.0, n=1.0, P=20.0, N=34.0)
+r9: IF HUMID = (-inf, 59.50) AND POPN = (-inf, 3.43) AND DENS = (-inf, 4236.50) AND HC = (-inf, 32) AND JANT = <26.50, 32.50) THEN class = {0.38} [0.29,0.46] (p=8.0, n=1.0, P=16.0, N=38.0)
+r10: IF PREC = (-inf, 43.50) AND POPN = (-inf, 3.30) AND HC = (-inf, 42.50) AND OVR65 = (-inf, 10.10) AND EDUC = (-inf, 11.75) AND JANT = (-inf, 32.50) AND WWDRK = (-inf, 49.40) THEN class = {0.55} [0.49,0.61] (p=4.0, n=1.0, P=15.0, N=39.0)
+r11: IF DENS = <4236, 4756.50) AND JANT = (-inf, 32.50) THEN class = {0.53} [0.41,0.65] (p=5.0, n=1.0, P=24.0, N=30.0)
+r12: IF PREC = (-inf, 43) AND DENS = (-inf, 3237.50) AND OVR65 = (-inf, 11.25) THEN class = {0.25} [0.065,0.43] (p=6.0, n=3.0, P=21.0, N=33.0)
+r13: IF DENS = <4751.50, 5700) THEN class = {0.51} [0.41,0.60] (p=5.0, n=1.0, P=21.0, N=33.0)
+r14: IF POOR = (-inf, 22.35) AND DENS = (-inf, 3626.50) AND SO = <22, inf) AND NONW = <11.90, inf) THEN class = {0.61} [0.58,0.63] (p=2.0, n=1.0, P=4.0, N=50.0)
+r15: IF HOUS = (-inf, 90.10) AND POPN = (-inf, 3.43) AND DENS = <2282.50, 4256) AND OVR65 = (-inf, 9.25) AND HC = <11.50, inf) AND SO = (-inf, 116) AND JANT = (-inf, 52) THEN class = {0.61} [0.50,0.71] (p=5.0, n=1.0, P=22.0, N=32.0)
+r16: IF OVR65 = <11.25, inf) THEN class = {0.33} [0.30,0.35] (p=2.0, n=1.0, P=4.0, N=50.0)
+r17: IF JULT = (-inf, 78) AND HC = <16, 45) AND EDUC = (-inf, 11.65) AND NONW = (-inf, 23.55) THEN class = {0.62} [0.53,0.70] (p=5.0, n=1.0, P=15.0, N=39.0)
+r18: IF HUMID = <54.50, 60.50) AND NOX = <4.50, inf) AND DENS = <2474.50, inf) AND EDUC = (-inf, 11.85) THEN class = {0.59} [0.49,0.70] (p=15.0, n=3.0, P=22.0, N=32.0)

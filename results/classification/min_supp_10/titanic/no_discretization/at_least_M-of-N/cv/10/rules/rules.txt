@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.5714342214130861
+r2: 0.436066192072393
+r3: 0.32855726488276826
+r4: 0.24421491169597487
+r5: 0.13259420719936252
+r6: 0.04692244437199047
+r7: 0.3649922309513268
+r8: 0.3468294611370164
+r9: 0.33900957839212154
+r10: 0.3127112587150584
+r11: 0.2908970615245622
+________________________________
+r1: IF 2-of-3(age != {adult}, pclass != {3rd}, sex != {male}) = {0} THEN class = {yes} (p=255.0, n=36.0, P=640.0, N=1341.0)
+r2: IF sex != {female} = {1} AND age != {adult} = {1} THEN class = {yes} (p=279.0, n=101.0, P=640.0, N=1341.0)
+r3: IF 2-of-3(pclass != {1st}, sex != {female}, age != {adult}) = {1} THEN class = {yes} (p=332.0, n=207.0, P=640.0, N=1341.0)
+r4: IF 2-of-3(sex != {male}, pclass != {1st}, age != {adult}) = {0} THEN class = {yes} (p=198.0, n=146.0, P=640.0, N=1341.0)
+r5: IF 2-of-3(sex != {female}, pclass != {3rd}, age != {adult}) = {1} THEN class = {yes} (p=358.0, n=459.0, P=640.0, N=1341.0)
+r6: IF pclass != {3rd} = {0} THEN class = {yes} (p=487.0, n=869.0, P=640.0, N=1341.0)
+r7: IF pclass != {1st} = {0} AND sex != {female} = {0} AND age != {adult} = {1} THEN class = {no} (p=1085.0, n=259.0, P=1341.0, N=640.0)
+r8: IF pclass != {1st} = {0} AND sex != {female} = {0} THEN class = {no} (p=1118.0, n=281.0, P=1341.0, N=640.0)
+r9: IF sex != {female} = {0} AND age != {adult} = {1} THEN class = {no} (p=1191.0, n=311.0, P=1341.0, N=640.0)
+r10: IF 2-of-3(pclass != {1st}, sex != {female}, age != {adult}) = {0} THEN class = {no} (p=1134.0, n=308.0, P=1341.0, N=640.0)
+r11: IF 2-of-3(age != {adult}, pclass != {3rd}, sex != {male}) = {1} THEN class = {no} (p=1305.0, n=385.0, P=1341.0, N=640.0)

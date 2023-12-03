@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.877935236087785
+r2: 0.8389673270863676
+r3: 0.8254559277477032
+r4: 0.9361895644379622
+r5: 0.8226318077999246
+r6: 0.8018091816942235
+r7: 0.8249064530160567
+r8: 0.8152354519890449
+r9: 0.49535479986093073
+________________________________
+r1: IF physician-fee-freeze != {n} = {0} AND synfuels-corporation-cutback != {y} = {0} THEN class = {republican} (p=131.0, n=5.0, P=151.0, N=241.0)
+r2: IF physician-fee-freeze != {n} = {0} AND el-salvador-aid != {n} = {0} AND superfund-right-to-sue != adoption-of-the-budget-resolution = {1} THEN class = {republican} (p=120.0, n=5.0, P=151.0, N=241.0)
+r3: IF physician-fee-freeze != {n} = {0} AND crime = physician-fee-freeze = {1} THEN class = {republican} (p=146.0, n=16.0, P=151.0, N=241.0)
+r4: IF physician-fee-freeze != {n} = {1} THEN class = {democrat} (p=221.0, n=2.0, P=241.0, N=151.0)
+r5: IF aid-to-nicaraguan-contras != {n} = {0} AND physician-fee-freeze != adoption-of-the-budget-resolution = {1} AND el-salvador-aid != {n} = {1} THEN class = {democrat} (p=168.0, n=2.0, P=241.0, N=151.0)
+r6: IF el-salvador-aid != {n} = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=170.0, n=4.0, P=241.0, N=151.0)
+r7: IF aid-to-nicaraguan-contras != {n} = {0} AND physician-fee-freeze != anti-satellite-test-ban = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=163.0, n=1.0, P=241.0, N=151.0)
+r8: IF physician-fee-freeze != anti-satellite-test-ban = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=176.0, n=4.0, P=241.0, N=151.0)
+r9: IF synfuels-corporation-cutback != {y} = {1} THEN class = {democrat} (p=120.0, n=18.0, P=241.0, N=151.0)

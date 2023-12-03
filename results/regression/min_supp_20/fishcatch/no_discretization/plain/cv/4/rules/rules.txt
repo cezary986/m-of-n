@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.7
+r2: 0.7942028985507246
+r3: 0.36964285714285716
+r4: 0.41571557775959345
+r5: 0.347878382893418
+r6: 0.38484848484848483
+r7: 0.549560351718625
+r8: 0.5388536528071409
+r9: 0.6289772727272727
+r10: 0.549560351718625
+r11: 0.7095547978972386
+r12: 0.7215686274509804
+r13: 0.7178938469261051
+r14: 0.6226187176644492
+________________________________
+r1: IF Length1 = <40.05, inf) AND Height = (-inf, 27.45) AND Species = {7} THEN class = {0.61} [0.61,0.61] (p=2.0, n=0.0, P=5.0, N=137.0)
+r2: IF Length1 = <40.05, inf) AND Species = {6} THEN class = {0.94} [0.69,1.19] (p=4.0, n=1.0, P=4.0, N=138.0)
+r3: IF Sex = {0} AND Length1 = (-inf, 40.15) AND Length2 = <42.50, inf) THEN class = {0.67} [0.64,0.70] (p=1.0, n=1.0, P=2.0, N=140.0)
+r4: IF Species = {1} THEN class = {0.38} [0.25,0.50] (p=20.0, n=11.0, P=35.0, N=107.0)
+r5: IF Sex = {?} AND Length2 = (-inf, 42.50) THEN class = {0.16} [0.013,0.31] (p=55.0, n=18.0, P=82.0, N=60.0)
+r6: IF Length1 = <36.95, 37.20) THEN class = {0.55} [0.50,0.59] (p=2.0, n=1.0, P=10.0, N=132.0)
+r7: IF Sex = {0} AND Length1 = (-inf, 37.05) AND Height = (-inf, 28.70) AND Length2 = <38.50, inf) THEN class = {0.55} [0.53,0.56] (p=2.0, n=1.0, P=3.0, N=139.0)
+r8: IF Height = (-inf, 25.60) THEN class = {0.088} [-0.15,0.33] (p=46.0, n=4.0, P=99.0, N=43.0)
+r9: IF Height = (-inf, 27.85) AND Length3 = (-inf, 38.65) AND Species = {7} THEN class = {0.088} [0.013,0.16] (p=27.0, n=3.0, P=54.0, N=88.0)
+r10: IF Sex = {0} AND Length1 = (-inf, 21.60) AND Height = <24.55, inf) AND Species = {3} AND Length2 = <21.50, inf) THEN class = {0.097} [0.093,0.10] (p=2.0, n=1.0, P=3.0, N=139.0)
+r11: IF Length1 = (-inf, 34.55) AND Height = (-inf, 34.10) AND Length3 = (-inf, 39.50) THEN class = {0.085} [-0.012,0.18] (p=70.0, n=8.0, P=81.0, N=61.0)
+r12: IF Length1 = (-inf, 18.70) THEN class = {0.024} [2.9E-4,0.048] (p=23.0, n=7.0, P=23.0, N=119.0)
+r13: IF Length1 = <18.70, 23.50) THEN class = {0.088} [0.06,0.12] (p=27.0, n=6.0, P=31.0, N=111.0)
+r14: IF Length1 = (-inf, 33.85) AND Height = (-inf, 39.40) AND Width = (-inf, 17.45) THEN class = {0.088} [-0.023,0.20] (p=75.0, n=13.0, P=82.0, N=60.0)

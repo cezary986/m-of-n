@@ -1,0 +1,44 @@
+Rules qualities:
+r1: 0.5529993183367415
+r2: 0.6210815047021945
+r3: 0.5556112852664576
+r4: 0.44899435859700754
+r5: 0.6173266885187414
+r6: 0.5871604081527745
+r7: 0.3728837185725871
+r8: 0.528320523922927
+r9: 0.5842651757188498
+r10: 0.3799541467304625
+r11: 0.5284425036390101
+r12: 0.5017784552845529
+r13: 0.339354130068069
+r14: 0.4845094512625194
+r15: 0.5976581557976907
+r16: 0.4445860745614035
+r17: 0.4952882429517943
+r18: 0.4798204527712725
+r19: 0.3968385592122311
+r20: 0.5510293665510515
+r21: 0.46283517350157727
+________________________________
+r1: IF Hydroelectric < Coal AND Special != <12015.50, 13720) AND Gas = <340.82, 2264.44) THEN class = {0.22} [0.21,0.22] (p=2.0, n=1.0, P=3.0, N=326.0)
+r2: IF Special != <12015.50, 13720) AND Gas = <340.82, 2264.44) AND Hydroelectric = (-inf, 157777) THEN class = {0.22} [0.21,0.23] (p=5.0, n=1.0, P=10.0, N=319.0)
+r3: IF Hydroelectric < Nuclear AND Nuclear > Coal AND Nuclear != <153186, 159306) AND Coal != <129322.50, 135130) AND Gas = <340.82, 4902.04) AND Special != <11800.50, 15389) AND Hydroelectric = (-inf, 149635.50) THEN class = {0.21} [0.20,0.22] (p=4.0, n=1.0, P=10.0, N=319.0)
+r4: IF Coal = (-inf, 130872) AND Nuclear = (-inf, 175567) AND Coal != <102525.15, 111752) AND Fuel = <12.67, 6078.37) AND Hydroelectric = (-inf, 149635.50) THEN class = {0.24} [0.22,0.27] (p=4.0, n=1.0, P=27.0, N=302.0)
+r5: IF Special != <9234, 9328) AND Special != <10248, 10672) AND Coal != <93829.10, 108454) AND Hydroelectric < Nuclear AND Nuclear > Coal AND Coal != <116610, 122897) AND Special != <12015.50, 13720) AND Gas = <340.82, 8085.92) AND Hydroelectric = (-inf, 150547.50) THEN class = {0.22} [0.19,0.25] (p=10.0, n=1.0, P=27.0, N=302.0)
+r6: IF Nuclear = (-inf, 173924) AND Coal = <112030, inf) AND Special = (-inf, 14019) AND Gas = (-inf, 20708.05) THEN class = {0.32} [0.21,0.42] (p=42.0, n=3.0, P=131.0, N=198.0)
+r7: IF Fuel < Gas AND Special = (-inf, 11960) AND Hydroelectric < Coal AND Gas > Special AND Nuclear = <150451, 152334) AND Special != <10248, 10672) THEN class = {0.46} [0.32,0.60] (p=28.0, n=8.0, P=137.0, N=192.0)
+r8: IF Fuel < Gas AND Coal != <138727.50, 149833) AND Coal = (-inf, 142837.50) AND Nuclear = <149026, 173924) AND Coal != <129322.50, 135130) AND Special = <9780, inf) AND Hydroelectric != <89882.05, 96675.40) THEN class = {0.25} [0.22,0.27] (p=7.0, n=1.0, P=31.0, N=298.0)
+r9: IF Hydroelectric < Nuclear AND Coal != <104040.60, 111752) AND Coal != <89214.20, 99627.20) AND Coal = <93496.85, 145455) AND Coal != <127847.50, 135842) AND Nuclear = <149026, 154760) AND Coal != <116610, 122897) AND Special != <12015.50, 13720) AND Hydroelectric = (-inf, 150547.50) THEN class = {0.24} [0.24,0.25] (p=6.0, n=1.0, P=16.0, N=313.0)
+r10: IF Coal != <112030, 122897) AND Coal != <130872, 137386) AND Coal = <109134, 149833) AND Hydroelectric > Nuclear AND Coal != <127355.50, 135130) AND Hydroelectric = (-inf, 178783) THEN class = {0.24} [0.20,0.29] (p=3.0, n=1.0, P=44.0, N=285.0)
+r11: IF Hydroelectric > Coal THEN class = {0.25} [0.15,0.36] (p=44.0, n=10.0, P=100.0, N=229.0)
+r12: IF Fuel < Gas AND Nuclear > Coal AND Nuclear = (-inf, 157762.50) AND Hydroelectric = (-inf, 107140) THEN class = {0.24} [0.21,0.28] (p=7.0, n=1.0, P=41.0, N=288.0)
+r13: IF Hydroelectric > Fuel AND Fuel > Special AND Nuclear = <136200.50, 167751.50) AND Special != <9780, 11543) AND Hydroelectric = <91773.30, 100055) THEN class = {0.72} [0.55,0.89] (p=17.0, n=6.0, P=118.0, N=211.0)
+r14: IF Fuel < Gas AND Hydroelectric < Coal AND Gas < Special AND Special != <11267.50, 12869) AND Hydroelectric = (-inf, 118994.50) THEN class = {0.35} [0.31,0.39] (p=7.0, n=1.0, P=51.0, N=278.0)
+r15: IF Coal != <139499.50, 144693) AND Coal != <127355.50, 132722) AND Coal != <152806, 162385) AND Nuclear > Coal AND Hydroelectric < Coal AND Nuclear = <136200.50, 182229) AND Coal != <165031, 227493) AND Hydroelectric = (-inf, 131187.50) THEN class = {0.24} [0.21,0.28] (p=13.0, n=1.0, P=43.0, N=286.0)
+r16: IF Fuel < Special AND Coal = <137063.50, inf) THEN class = {0.39} [0.29,0.50] (p=79.0, n=33.0, P=120.0, N=209.0)
+r17: IF Hydroelectric = (-inf, 169641.50) AND Special = (-inf, 13079.50) AND Fuel > Special AND Nuclear = (-inf, 174025) AND Coal != <103320.70, 170413) AND Special != <9225, 10078) AND Hydroelectric != <152982, 157055) THEN class = {0.74} [0.58,0.89] (p=67.0, n=24.0, P=107.0, N=222.0)
+r18: IF Hydroelectric < Nuclear AND Hydroelectric < Coal AND Special = <10483, inf) AND Hydroelectric = <107776.80, inf) THEN class = {0.39} [0.30,0.48] (p=47.0, n=14.0, P=105.0, N=224.0)
+r19: IF Fuel != <5898.25, 6005.65) AND Fuel != <6013.51, 6204.55) AND Coal = <171454.50, 182789) AND Special = (-inf, 11346.50) AND Gas != <23014.60, 32348.70) THEN class = {0.33} [0.25,0.41] (p=12.0, n=3.0, P=102.0, N=227.0)
+r20: IF Coal != <134176, 175126) AND Fuel > Special AND Coal != <176256.50, 187563) AND Special != <12499, 13068) AND Hydroelectric = <115960.50, 123189) THEN class = {0.75} [0.62,0.88] (p=80.0, n=31.0, P=97.0, N=232.0)
+r21: IF Hydroelectric < Coal AND Coal = (-inf, 201253.50) AND Fuel = <26902.95, 37713.30) AND Gas != <71180.40, 74423.20) AND Special = (-inf, 12439.50) THEN class = {0.63} [0.60,0.65] (p=3.0, n=1.0, P=12.0, N=317.0)

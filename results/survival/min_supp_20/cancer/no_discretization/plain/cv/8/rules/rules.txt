@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.9946549556393908
+r2: 0.9925811195913786
+r3: 0.9999999713769618
+r4: 0.9111995817053844
+r5: 0.9853677045668114
+r6: 0.8427697289409374
+r7: 0.9989629616240476
+r8: 0.9981069633013123
+r9: 0.9999063242255057
+r10: 0.9968443178871981
+r11: 0.9999998749311639
+r12: 0.9999998273762464
+r13: 0.6074682085054491
+r14: 0.9999574141960861
+r15: 0.9992497145001747
+r16: 0.9999987494239301
+________________________________
+r1: IF meal.cal = (-inf, 1100) AND ph.ecog = (-inf, 0.50) AND sex = <1.50, inf) THEN  (p=16.0, n=0.0, P=205.0, N=0.0)
+r2: IF meal.cal = (-inf, 1100) AND wt.loss = (-inf, 38) AND sex = <1.50, inf) AND pat.karno = <95, inf) THEN  (p=7.0, n=0.0, P=205.0, N=0.0)
+r3: IF ph.ecog = (-inf, 1.50) AND wt.loss = (-inf, 50.50) AND age = (-inf, 74.50) THEN  (p=137.0, n=0.0, P=205.0, N=0.0)
+r4: IF meal.cal = (-inf, 1162.50) AND wt.loss = (-inf, 10.50) AND age = <73, 75.50) THEN  (p=4.0, n=0.0, P=205.0, N=0.0)
+r5: IF wt.loss = (-inf, 12) AND sex = <1.50, inf) AND age = (-inf, 66.50) THEN  (p=40.0, n=0.0, P=205.0, N=0.0)
+r6: IF meal.cal = (-inf, 892.50) AND wt.loss = (-inf, 4.50) AND ph.karno = (-inf, 75) AND age = (-inf, 70.50) THEN  (p=3.0, n=0.0, P=205.0, N=0.0)
+r7: IF wt.loss = (-inf, 9.50) AND age = (-inf, 74.50) THEN  (p=101.0, n=0.0, P=205.0, N=0.0)
+r8: IF wt.loss = (-inf, 25) AND sex = <1.50, inf) AND age = (-inf, 69.50) THEN  (p=54.0, n=0.0, P=205.0, N=0.0)
+r9: IF wt.loss = (-inf, 34) AND pat.karno = <85, inf) AND age = (-inf, 72.50) THEN  (p=72.0, n=0.0, P=205.0, N=0.0)
+r10: IF sex = <1.50, inf) THEN  (p=83.0, n=0.0, P=205.0, N=0.0)
+r11: IF ph.ecog = <1.50, inf) AND wt.loss = (-inf, 21) THEN  (p=32.0, n=0.0, P=205.0, N=0.0)
+r12: IF meal.cal = (-inf, 1262.50) AND ph.ecog = <1.50, inf) AND wt.loss = (-inf, 27.50) THEN  (p=33.0, n=0.0, P=205.0, N=0.0)
+r13: IF meal.cal = <494, 1125) AND sex = (-inf, 1.50) AND pat.karno = <55, 75) AND ph.karno = (-inf, 75) AND age = <50.50, 65.50) THEN  (p=3.0, n=0.0, P=205.0, N=0.0)
+r14: IF ph.ecog = (-inf, 1.50) AND wt.loss = (-inf, 12.50) THEN  (p=105.0, n=0.0, P=205.0, N=0.0)
+r15: IF meal.cal = (-inf, 1287.50) AND sex = (-inf, 1.50) AND ph.karno = (-inf, 95) THEN  (p=74.0, n=0.0, P=205.0, N=0.0)
+r16: IF ph.ecog = <0.50, inf) AND sex = (-inf, 1.50) AND pat.karno = (-inf, 95) AND ph.karno = <55, 95) AND age = <46, inf) THEN  (p=68.0, n=0.0, P=205.0, N=0.0)

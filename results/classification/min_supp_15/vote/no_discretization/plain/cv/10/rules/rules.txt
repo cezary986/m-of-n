@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.8694261695906432
+r2: 0.8580691393838928
+r3: 0.8440191387559808
+r4: 0.74400805353902
+r5: 0.933932186234818
+r6: 0.813337985114301
+r7: 0.8026468079922026
+r8: 0.7647267206477734
+r9: 0.7221914435210833
+r10: 0.6961658841940531
+________________________________
+r1: IF physician-fee-freeze = {y} AND synfuels-corporation-cutback = {n} THEN class = {republican} (p=123.0, n=3.0, P=152.0, N=240.0)
+r2: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} THEN class = {republican} (p=123.0, n=4.0, P=152.0, N=240.0)
+r3: IF physician-fee-freeze = {y} AND el-salvador-aid = {y} THEN class = {republican} (p=142.0, n=12.0, P=152.0, N=240.0)
+r4: IF synfuels-corporation-cutback = {n} AND adoption-of-the-budget-resolution = {n} THEN class = {republican} (p=107.0, n=9.0, P=152.0, N=240.0)
+r5: IF physician-fee-freeze = {n} THEN class = {democrat} (p=219.0, n=2.0, P=240.0, N=152.0)
+r6: IF adoption-of-the-budget-resolution = {y} AND el-salvador-aid = {n} THEN class = {democrat} (p=163.0, n=2.0, P=240.0, N=152.0)
+r7: IF aid-to-nicaraguan-contras = {y} AND el-salvador-aid = {n} THEN class = {democrat} (p=175.0, n=5.0, P=240.0, N=152.0)
+r8: IF education-spending = {n} AND adoption-of-the-budget-resolution = {y} THEN class = {democrat} (p=174.0, n=8.0, P=240.0, N=152.0)
+r9: IF adoption-of-the-budget-resolution = {y} THEN class = {democrat} (p=208.0, n=20.0, P=240.0, N=152.0)
+r10: IF education-spending = {n} THEN class = {democrat} (p=194.0, n=19.0, P=240.0, N=152.0)

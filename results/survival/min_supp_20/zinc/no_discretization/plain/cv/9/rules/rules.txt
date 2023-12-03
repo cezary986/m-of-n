@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999999999559
+r2: 0.9999999983300223
+r3: 1.0
+r4: 1.0
+r5: 0.7128031599417578
+r6: 0.9999497843158017
+r7: 1.0
+________________________________
+r1: IF caq2 = <0.50, inf) AND mildysp = {Worst isn\t mild'} AND fecent = (-inf, 0.16) AND cuq2 = (-inf, 0.50) THEN  (p=9.0, n=0.0, P=388.0, N=0.0)
+r2: IF anyhist = {Family History} THEN  (p=58.0, n=0.0, P=388.0, N=0.0)
+r3: IF zncent = (-inf, 1.25) THEN  (p=86.0, n=0.0, P=388.0, N=0.0)
+r4: IF caq1 = (-inf, 0.50) AND cucent = (-inf, 0.47) THEN  (p=65.0, n=0.0, P=388.0, N=0.0)
+r5: IF pq2 = (-inf, 0.50) AND caq1 = (-inf, 0.50) AND feq1 = (-inf, 0.50) AND pq4 = (-inf, 0.50) AND sq2 = (-inf, 0.50) AND nicent = (-inf, 1.50) AND agepill = (-inf, 57) AND cuq2 = (-inf, 0.50) THEN  (p=6.0, n=0.0, P=388.0, N=0.0)
+r6: IF agepill = <49, inf) AND basehist = {Moderate Dysplasia} THEN  (p=7.0, n=0.0, P=388.0, N=0.0)
+r7: IF anyhist = {?} THEN  (p=277.0, n=0.0, P=388.0, N=0.0)

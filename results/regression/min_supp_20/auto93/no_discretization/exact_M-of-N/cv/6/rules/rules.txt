@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.6269444444444443
+r2: 0.5452674897119342
+r3: 0.7105263157894736
+r4: 0.48
+r5: 0.6081081081081081
+r6: 0.5768780926675664
+r7: 0.4747023809523811
+r8: 0.36585365853658536
+r9: 0.3274599542334096
+________________________________
+r1: IF Horsepower > Wheelbase = {0} AND Engine_size != <1.55, 2.20) = {1} THEN class = {0.053} [-0.0039,0.11] (p=13.0, n=2.0, P=24.0, N=60.0)
+r2: IF Drive_train_type != Air_Bags_standard = {1} AND U-turn_space = (-inf, 38) = {1} AND Engine_size != <1.55, 2.20) = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.029} [0.023,0.036] (p=2.0, n=1.0, P=3.0, N=81.0)
+r3: IF Engine_revolutions_per_mile > Weight = {1} THEN class = {0.048} [-0.035,0.13] (p=18.0, n=2.0, P=27.0, N=57.0)
+r4: IF 2-of-3(Highway_MPG < U-turn_space, Engine_revolutions_per_mile != <2630, 3285), RPM = (-inf, 6250)) = {1} AND Number_of_cylinders < Passenger_capacity = {1} AND Engine_revolutions_per_mile > Weight = {0} AND City_MPG = <22.50, inf) = {1} THEN class = {0.077} [0.065,0.089] (p=3.0, n=1.0, P=9.0, N=75.0)
+r5: IF Horsepower > Wheelbase = {0} AND Highway_MPG < U-turn_space = {1} AND Domestic != Manual_transmission_available = {0} THEN class = {0.088} [0.066,0.11] (p=5.0, n=1.0, P=10.0, N=74.0)
+r6: IF Weight = (-inf, 2780) = {0} AND Number_of_cylinders < Passenger_capacity = {1} AND Domestic != Manual_transmission_available = {1} THEN class = {0.20} [0.11,0.29] (p=17.0, n=2.0, P=39.0, N=45.0)
+r7: IF Weight = (-inf, 2780) = {0} AND U-turn_space = (-inf, 38) = {0} THEN class = {0.22} [0.085,0.36] (p=39.0, n=10.0, P=48.0, N=36.0)
+r8: IF Highway_MPG > Rear_seat_room = {0} AND Wheelbase = (-inf, 100) = {0} AND Passenger_capacity = (-inf, 5.50) = {1} AND U-turn_space = (-inf, 38) = {1} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {1} [0.70,1.30] (p=1.0, n=1.0, P=2.0, N=82.0)
+r9: IF U-turn_space = (-inf, 38) = {1} AND City_MPG = <22.50, inf) = {0} THEN class = {0.40} [0.16,0.64] (p=8.0, n=2.0, P=46.0, N=38.0)

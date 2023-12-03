@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.4928057553956834
+r2: 0.6499550359712231
+r3: 0.7134782608695652
+r4: 0.5856332006486806
+r5: 0.5663844666306889
+r6: 0.6242624223602485
+r7: 0.5680762852404644
+r8: 0.3908215010141989
+r9: 0.4438481509625126
+r10: 0.538905293088364
+r11: 0.6481392158123781
+r12: 0.5357142857142858
+r13: 0.4913063909774436
+r14: 0.5453439153439152
+r15: 0.3918320105820106
+________________________________
+r1: IF length = <191.80, inf) THEN class = {0.88} [0.76,1.01] (p=2.0, n=1.0, P=4.0, N=139.0)
+r2: IF width = <69.95, inf) AND bore = <3.30, inf) THEN class = {0.88} [0.77,1.00] (p=3.0, n=1.0, P=4.0, N=139.0)
+r3: IF width = <68.85, inf) AND curb-weight = (-inf, 3642.50) THEN class = {0.58} [0.54,0.63] (p=4.0, n=1.0, P=5.0, N=138.0)
+r4: IF normalized-losses = <94, inf) AND curb-weight = <3030.50, inf) AND bore = <3.31, inf) THEN class = {0.43} [0.23,0.63] (p=15.0, n=2.0, P=38.0, N=105.0)
+r5: IF city-mpg = (-inf, 19.50) THEN class = {0.44} [0.26,0.62] (p=19.0, n=5.0, P=34.0, N=109.0)
+r6: IF horsepower = <155.50, inf) THEN class = {0.44} [0.31,0.58] (p=11.0, n=1.0, P=28.0, N=115.0)
+r7: IF city-mpg = (-inf, 21.50) AND width = (-inf, 70.05) AND compression-ratio = (-inf, 9.10) AND bore = (-inf, 3.53) AND height = (-inf, 54.70) THEN class = {0.49} [0.44,0.54] (p=4.0, n=1.0, P=9.0, N=134.0)
+r8: IF symboling = {2} AND curb-weight = (-inf, 2615) AND bore = <3.54, inf) THEN class = {0.11} [0.056,0.17] (p=5.0, n=1.0, P=58.0, N=85.0)
+r9: IF horsepower = (-inf, 160.50) AND engine-size = <145.50, inf) AND bore = <3.54, 3.66) AND height = (-inf, 55.30) THEN class = {0.20} [0.11,0.30] (p=6.0, n=1.0, P=47.0, N=96.0)
+r10: IF highway-mpg = (-inf, 33.50) AND width = <66.35, inf) AND curb-weight = (-inf, 2726.50) AND height = (-inf, 55.90) THEN class = {0.18} [0.15,0.21] (p=7.0, n=2.0, P=16.0, N=127.0)
+r11: IF city-mpg = (-inf, 46) AND normalized-losses = (-inf, 224) AND engine-size = (-inf, 115) AND curb-weight = (-inf, 2407.50) THEN class = {0.076} [0.006,0.15] (p=62.0, n=11.0, P=72.0, N=71.0)
+r12: IF city-mpg = (-inf, 29) AND normalized-losses = (-inf, 159.50) AND curb-weight = (-inf, 2923.50) THEN class = {0.16} [0.073,0.25] (p=40.0, n=9.0, P=65.0, N=78.0)
+r13: IF wheel-base = (-inf, 106.85) AND horsepower = (-inf, 151) AND city-mpg = (-inf, 34) AND normalized-losses = (-inf, 112.50) AND stroke = <3.11, inf) AND bore = <3.25, inf) AND height = (-inf, 56.85) THEN class = {0.19} [0.12,0.26] (p=7.0, n=1.0, P=38.0, N=105.0)
+r14: IF horsepower = (-inf, 123) AND city-mpg = (-inf, 27.50) AND peak-rpm = <4650, 5650) AND curb-weight = <2216.50, inf) AND stroke = (-inf, 3.43) AND bore = <3.04, 3.43) THEN class = {0.16} [0.11,0.22] (p=9.0, n=1.0, P=35.0, N=108.0)
+r15: IF bore = (-inf, 2.97) THEN class = {0.058} [0.032,0.084] (p=6.0, n=2.0, P=35.0, N=108.0)

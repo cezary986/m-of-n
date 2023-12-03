@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.6108688195070849
+r2: 0.4658301579902931
+r3: 0.4627612565276008
+r4: 0.5046948356807511
+r5: 0.2814973462689861
+r6: 0.5219092331768388
+r7: 0.21646860747072416
+r8: 0.14526412467317248
+r9: 0.07109608267802825
+r10: 0.042755240789081404
+r11: 0.4068172149878601
+r12: 0.38929090751850826
+r13: 0.3818129014592216
+r14: 0.3680358836282471
+r15: 0.35716201905247624
+r16: 0.22432011264664176
+r17: 0.21843198675236827
+________________________________
+r1: IF sex != {male} AND pclass != {3rd} THEN class = {yes} (p=230.0, n=17.0, P=639.0, N=1341.0)
+r2: IF sex != {male} AND age != {child} THEN class = {yes} (p=286.0, n=91.0, P=639.0, N=1341.0)
+r3: IF sex != {male} THEN class = {yes} (p=313.0, n=108.0, P=639.0, N=1341.0)
+r4: IF pclass = {1st} AND age != {adult} THEN class = {yes} (p=6.0, n=0.0, P=639.0, N=1341.0)
+r5: IF pclass = {1st} THEN class = {yes} (p=181.0, n=111.0, P=639.0, N=1341.0)
+r6: IF pclass = {1st, 2nd} AND age != {adult} THEN class = {yes} (p=28.0, n=0.0, P=639.0, N=1341.0)
+r7: IF pclass = {1st, 2nd} THEN class = {yes} (p=290.0, n=263.0, P=639.0, N=1341.0)
+r8: IF age != {adult} THEN class = {yes} (p=51.0, n=50.0, P=639.0, N=1341.0)
+r9: IF pclass = {1st, 2nd, 3rd} THEN class = {yes} (p=448.0, n=733.0, P=639.0, N=1341.0)
+r10: IF pclass = {1st, 2nd, crew} THEN class = {yes} (p=481.0, n=871.0, P=639.0, N=1341.0)
+r11: IF pclass = {1st, 2nd} AND sex != {female} AND pclass != {1st} AND age != {child} THEN class = {no} (p=140.0, n=13.0, P=1341.0, N=639.0)
+r12: IF pclass = {1st, 2nd, 3rd} AND sex != {female} AND pclass != {1st} AND age != {child} THEN class = {no} (p=486.0, n=78.0, P=1341.0, N=639.0)
+r13: IF sex != {female} AND pclass != {1st} AND age != {child} THEN class = {no} (p=1092.0, n=251.0, P=1341.0, N=639.0)
+r14: IF sex != {female} AND pclass != {1st} THEN class = {no} (p=1125.0, n=270.0, P=1341.0, N=639.0)
+r15: IF sex != {female} AND age != {child} THEN class = {no} (p=1200.0, n=302.0, P=1341.0, N=639.0)
+r16: IF pclass = {3rd, crew} AND age != {child} THEN class = {no} (p=1028.0, n=326.0, P=1341.0, N=639.0)
+r17: IF pclass = {3rd, crew} THEN class = {no} (p=1078.0, n=349.0, P=1341.0, N=639.0)

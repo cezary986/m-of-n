@@ -1,0 +1,50 @@
+Rules qualities:
+r1: 0.7837837837837838
+r2: 0.7747747747747749
+r3: 0.779693486590038
+r4: 0.6081081081081081
+r5: 0.6801801801801801
+r6: 0.5990990990990991
+r7: 0.5945945945945946
+r8: 0.5945945945945946
+r9: 0.7747747747747749
+r10: 0.8153153153153153
+r11: 0.7657657657657657
+r12: 0.8018018018018018
+r13: 0.536036036036036
+r14: 0.5180180180180181
+r15: 0.603448275862069
+r16: 0.603448275862069
+r17: 0.5689655172413793
+r18: 0.5517241379310345
+r19: 0.5344827586206896
+r20: 0.6379310344827587
+r21: 0.7068965517241379
+r22: 0.63831337969269
+r23: 0.6379310344827587
+r24: 0.603448275862069
+________________________________
+r1: IF ALBUMIN = <3.85, inf) = {1} AND BILIRUBIN = <0.65, 2) = {1} THEN class = {LIVE} (p=63.0, n=0.0, P=111.0, N=29.0)
+r2: IF SPIDERS = ASCITES = {1} AND ALBUMIN = <3.85, inf) = {1} THEN class = {LIVE} (p=61.0, n=0.0, P=111.0, N=29.0)
+r3: IF BILIRUBIN = <2.45, 3) = {0} AND ALK_PHOSPHATE = <62.50, 68) = {0} AND ALBUMIN = <3.85, inf) = {1} THEN class = {LIVE} (p=74.0, n=1.0, P=111.0, N=29.0)
+r4: IF AGE != <29, 72) = {1} THEN class = {LIVE} (p=24.0, n=0.0, P=111.0, N=29.0)
+r5: IF FATIGUE = VARICES = ANTIVIRALS = {1} AND BILIRUBIN = <0.45, inf) = {1} THEN class = {LIVE} (p=40.0, n=0.0, P=111.0, N=29.0)
+r6: IF SGOT = <30.50, 48) = {1} THEN class = {LIVE} (p=22.0, n=0.0, P=111.0, N=29.0)
+r7: IF ALK_PHOSPHATE = <67.50, 84) = {1} THEN class = {LIVE} (p=21.0, n=0.0, P=111.0, N=29.0)
+r8: IF PROTIME = <46.50, 66) = {1} THEN class = {LIVE} (p=21.0, n=0.0, P=111.0, N=29.0)
+r9: IF BILIRUBIN = <0.55, 1.20) = {1} AND 2-of-3(AGE = (-inf, 61.50), SPIDERS = ASCITES, VARICES != {no}) = {0} THEN class = {LIVE} (p=61.0, n=0.0, P=111.0, N=29.0)
+r10: IF BILIRUBIN = <0.55, 1.20) = {1} AND ALBUMIN = <3.05, inf) = {1} AND ALK_PHOSPHATE = <62.50, 68) = {0} THEN class = {LIVE} (p=70.0, n=0.0, P=111.0, N=29.0)
+r11: IF ALBUMIN = (-inf, 3.85) = {0} AND AGE = (-inf, 61.50) = {1} AND SPLEEN_PALPABLE = SPIDERS = ASCITES = {1} THEN class = {LIVE} (p=59.0, n=0.0, P=111.0, N=29.0)
+r12: IF 2-of-3(BILIRUBIN = <0.45, inf), ALBUMIN = <3.05, inf), VARICES != {no}) = {0} AND SPLEEN_PALPABLE = SPIDERS = ASCITES = {1} AND PROTIME = <39.50, 46) = {0} THEN class = {LIVE} (p=67.0, n=0.0, P=111.0, N=29.0)
+r13: IF ALK_PHOSPHATE = <167.50, 243) = {1} THEN class = {LIVE} (p=8.0, n=0.0, P=111.0, N=29.0)
+r14: IF BILIRUBIN = <2.95, 3.90) = {1} THEN class = {LIVE} (p=4.0, n=0.0, P=111.0, N=29.0)
+r15: IF ALBUMIN = (-inf, 2.65) = {1} THEN class = {DIE} (p=6.0, n=0.0, P=29.0, N=111.0)
+r16: IF PROTIME = <30, 36) = {1} THEN class = {DIE} (p=6.0, n=0.0, P=29.0, N=111.0)
+r17: IF BILIRUBIN = <2.45, 3) = {1} THEN class = {DIE} (p=4.0, n=0.0, P=29.0, N=111.0)
+r18: IF ALK_PHOSPHATE = <62.50, 68) = {1} THEN class = {DIE} (p=3.0, n=0.0, P=29.0, N=111.0)
+r19: IF PROTIME = <41.50, 46) = {1} THEN class = {DIE} (p=2.0, n=0.0, P=29.0, N=111.0)
+r20: IF PROTIME = <26, 39) = {1} AND ALK_PHOSPHATE = <167.50, 243) = {0} THEN class = {DIE} (p=8.0, n=0.0, P=29.0, N=111.0)
+r21: IF SGOT = <80.50, 98) = {0} AND ALBUMIN = (-inf, 3.85) = {1} AND 2-of-3(BILIRUBIN = <0.45, inf), ASCITES = VARICES, VARICES != {no}) = {1} AND AGE != <29, 72) = {0} THEN class = {DIE} (p=12.0, n=0.0, P=29.0, N=111.0)
+r22: IF SGOT = <80.50, 98) = {0} AND HISTOLOGY != ANOREXIA = {1} AND 2-of-3(BILIRUBIN = <0.45, inf), ASCITES = VARICES, VARICES != {no}) = {1} THEN class = {DIE} (p=12.0, n=1.0, P=29.0, N=111.0)
+r23: IF AGE = <39.50, 51) = {1} AND VARICES != {no} = {0} THEN class = {DIE} (p=8.0, n=0.0, P=29.0, N=111.0)
+r24: IF ASCITES = HISTOLOGY = {1} AND BILIRUBIN = <1.65, inf) = {1} AND AGE = <38.50, 69) = {1} THEN class = {DIE} (p=6.0, n=0.0, P=29.0, N=111.0)

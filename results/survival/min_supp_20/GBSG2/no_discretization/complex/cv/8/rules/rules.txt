@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9999999999990614
+r2: 1.0
+r3: 0.799270672248921
+r4: 0.9999999999999968
+r5: 0.9999999999999998
+r6: 0.9999999999999997
+r7: 1.0
+r8: 0.9999999791427363
+r9: 1.0
+r10: 0.9999864384729885
+r11: 1.0
+r12: 0.9999999999999994
+________________________________
+r1: IF pnodes = (-inf, 4.50) AND progrec != <22.50, 25) AND estrec != <37, 41) THEN  (p=375.0, n=0.0, P=618.0, N=0.0)
+r2: IF pnodes < progrec AND pnodes = (-inf, 6.50) AND progrec != <12.50, 19) AND estrec != <3.50, 6) AND age != <29.50, 42) THEN  (p=318.0, n=0.0, P=618.0, N=0.0)
+r3: IF progrec = (-inf, 84.50) AND age > estrec AND age < progrec AND progrec != <47.50, 64) AND tsize = (-inf, 22.50) AND estrec = <13.50, inf) AND age != <43.50, 53) THEN  (p=3.0, n=0.0, P=618.0, N=0.0)
+r4: IF pnodes < progrec AND pnodes < estrec AND age > tsize AND estrec != <3.50, 6) AND age != <38.50, 41) AND estrec != <59.50, 64) AND estrec != <99.50, 103) AND estrec != <73, 77) AND estrec != <77.50, 81) AND estrec != <92.50, 99) AND estrec != <8.50, 15) AND progrec != <2.50, 6) AND estrec != <33.50, 40) AND estrec != <102, 134) AND progrec != <129, 138) AND progrec != <22.50, 25) AND progrec != <40.50, 55) AND age != <56.50, 59) AND progrec != <12.50, 16) AND progrec != <66, 77) AND progrec != <104, 126) AND progrec != <47.50, 64) AND age = (-inf, 64) AND progrec != <27.50, 32) AND age != <23, 32) AND estrec != <163.50, 175) THEN  (p=132.0, n=0.0, P=618.0, N=0.0)
+r5: IF pnodes < progrec AND age = <26.50, 77) AND estrec != <82, 86) AND estrec = <5.50, 753) AND estrec != <101, 105) AND age != <32.50, 37) AND estrec != <268.50, 288) AND estrec != <40.50, 44) AND progrec != <57, 61) AND estrec != <8.50, 13) AND estrec != <33.50, 40) AND estrec != <61.50, 81) AND age != <50.50, 53) AND progrec != <27.50, 32) AND tsize = (-inf, 34) AND age != <23, 32) AND estrec != <348, 361) THEN  (p=203.0, n=0.0, P=618.0, N=0.0)
+r6: IF pnodes < progrec AND progrec != <27.50, 32) AND estrec != <142, 152) AND age != <32.50, 37) AND estrec = <9.50, 753) AND progrec != <20, 24) AND progrec != <59, 63) AND age != <37.50, 42) AND pnodes = (-inf, 7.50) AND progrec != <10.50, 15) AND tsize != <22.50, 25) AND age != <60.50, 63) AND estrec != <81.50, 87) THEN  (p=250.0, n=0.0, P=618.0, N=0.0)
+r7: IF pnodes < progrec AND estrec != <299.50, 328) AND progrec != <113.50, 120) AND progrec != <168.50, 187) AND progrec != <279.50, 324) AND age != <56.50, 59) AND age != <32.50, 37) AND estrec != <87.50, 94) AND estrec = <9.50, 386) AND progrec != <17.50, 22) AND progrec != <10.50, 17) AND progrec != <41, 48) AND estrec != <37, 45) AND progrec != <332, 403) AND progrec != <22.50, 25) AND estrec != <58.50, 70) AND progrec != <71, 92) AND progrec != <105.50, 110) AND tsize != <30.50, 33) AND age != <23, 32) AND estrec != <10.50, 13) THEN  (p=175.0, n=0.0, P=618.0, N=0.0)
+r8: IF pnodes < progrec AND progrec != <52.50, 55) AND progrec != <59, 64) AND progrec != <8.50, 11) AND progrec != <27.50, 32) AND progrec != <88.50, 91) AND age != <50.50, 53) AND age != <32.50, 37) AND estrec != <5, 10) AND progrec != <9.50, 15) AND progrec != <11.50, 21) AND age = (-inf, 64) AND estrec = (-inf, 48.50) AND age > estrec AND progrec != <112.50, 116) AND tsize != <22.50, 25) AND age != <38.50, 41) AND estrec != <3.50, 8) THEN  (p=90.0, n=0.0, P=618.0, N=0.0)
+r9: IF estrec != <64.50, 67) AND estrec != <67, 86) AND estrec != <97, 101) AND estrec = <4.50, 526) AND progrec != <59, 64) AND progrec != <13.50, 17) AND estrec != <147.50, 175) AND progrec != <168.50, 195) AND pnodes = (-inf, 6) AND progrec != <26.50, 31) AND tsize != <30.50, 35) AND age = <32.50, 37) AND estrec != <10.50, 13) THEN  (p=238.0, n=0.0, P=618.0, N=0.0)
+r10: IF estrec = (-inf, 120) AND tsize != <12.50, 17) AND age < estrec AND progrec = <51.50, 92) AND tsize != <25, 30) AND estrec != <87.50, 90) AND age = <49, 51) THEN  (p=17.0, n=0.0, P=618.0, N=0.0)
+r11: IF pnodes != <10.50, 38) AND age != <23, 32) THEN  (p=542.0, n=0.0, P=618.0, N=0.0)
+r12: IF pnodes = <10.50, 38) AND age != <43.50, 47) THEN  (p=63.0, n=0.0, P=618.0, N=0.0)

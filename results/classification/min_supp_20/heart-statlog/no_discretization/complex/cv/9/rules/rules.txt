@@ -1,0 +1,150 @@
+Rules qualities:
+r1: 0.5509259259259259
+r2: 0.6111111111111112
+r3: 0.587962962962963
+r4: 0.5277777777777778
+r5: 0.5231481481481481
+r6: 0.5231481481481481
+r7: 0.5231481481481481
+r8: 0.6111111111111112
+r9: 0.5185185185185185
+r10: 0.5185185185185185
+r11: 0.5185185185185185
+r12: 0.5185185185185185
+r13: 0.5185185185185185
+r14: 0.5138888888888888
+r15: 0.5138888888888888
+r16: 0.5138888888888888
+r17: 0.6203703703703703
+r18: 0.5092592592592593
+r19: 0.625
+r20: 0.625
+r21: 0.6157407407407407
+r22: 0.625
+r23: 0.5833333333333334
+r24: 0.6064814814814815
+r25: 0.6111111111111112
+r26: 0.6805555555555556
+r27: 0.6906828703703703
+r28: 0.6712962962962963
+r29: 0.691358024691358
+r30: 0.6388888888888888
+r31: 0.662037037037037
+r32: 0.6435185185185185
+r33: 0.5648148148148148
+r34: 0.5138888888888888
+r35: 0.5407407407407407
+r36: 0.5296296296296297
+r37: 0.5296296296296297
+r38: 0.5222222222222223
+r39: 0.5185185185185185
+r40: 0.5185185185185185
+r41: 0.5148148148148148
+r42: 0.5148148148148148
+r43: 0.5148148148148148
+r44: 0.5148148148148148
+r45: 0.5148148148148148
+r46: 0.5148148148148148
+r47: 0.5148148148148148
+r48: 0.5148148148148148
+r49: 0.5148148148148148
+r50: 0.5148148148148148
+r51: 0.5111111111111111
+r52: 0.5111111111111111
+r53: 0.5111111111111111
+r54: 0.5111111111111111
+r55: 0.5111111111111111
+r56: 0.5074074074074074
+r57: 0.6333333333333333
+r58: 0.6370370370370371
+r59: 0.5777777777777777
+r60: 0.6037037037037037
+r61: 0.5851851851851851
+r62: 0.6666666666666666
+r63: 0.7111111111111111
+r64: 0.662962962962963
+r65: 0.7194444444444446
+r66: 0.7445138888888889
+r67: 0.7037037037037037
+r68: 0.662962962962963
+r69: 0.6888888888888889
+r70: 0.6666666666666666
+r71: 0.650024366471735
+r72: 0.7023035230352305
+r73: 0.5777777777777777
+r74: 0.5533751493428911
+________________________________
+r1: IF oldpeak = <2.45, 3) THEN class = {present} (p=11.0, n=0.0, P=108.0, N=135.0)
+r2: IF oldpeak = <2.45, 4.20) AND age = <45.50, inf) THEN class = {present} (p=24.0, n=0.0, P=108.0, N=135.0)
+r3: IF oldpeak = <2.45, 4.20) AND thal = {7, 6} THEN class = {present} (p=19.0, n=0.0, P=108.0, N=135.0)
+r4: IF serum_cholestoral = <228.50, 231) THEN class = {present} (p=6.0, n=0.0, P=108.0, N=135.0)
+r5: IF maximum_heart_rate_achieved = <111.50, 115) THEN class = {present} (p=5.0, n=0.0, P=108.0, N=135.0)
+r6: IF serum_cholestoral = <215.50, 220) THEN class = {present} (p=5.0, n=0.0, P=108.0, N=135.0)
+r7: IF serum_cholestoral = <279, 283) THEN class = {present} (p=5.0, n=0.0, P=108.0, N=135.0)
+r8: IF oldpeak = <2.35, 4.20) AND age = <52, inf) THEN class = {present} (p=24.0, n=0.0, P=108.0, N=135.0)
+r9: IF maximum_heart_rate_achieved = <105.50, 111) THEN class = {present} (p=4.0, n=0.0, P=108.0, N=135.0)
+r10: IF maximum_heart_rate_achieved = <116.50, 121) THEN class = {present} (p=4.0, n=0.0, P=108.0, N=135.0)
+r11: IF maximum_heart_rate_achieved = <96.50, 105) THEN class = {present} (p=4.0, n=0.0, P=108.0, N=135.0)
+r12: IF oldpeak = <2.05, 2.30) THEN class = {present} (p=4.0, n=0.0, P=108.0, N=135.0)
+r13: IF serum_cholestoral = <325.50, 340) THEN class = {present} (p=4.0, n=0.0, P=108.0, N=135.0)
+r14: IF maximum_heart_rate_achieved = (-inf, 95.50) THEN class = {present} (p=3.0, n=0.0, P=108.0, N=135.0)
+r15: IF resting_blood_pressure = <162.50, 172) THEN class = {present} (p=3.0, n=0.0, P=108.0, N=135.0)
+r16: IF serum_cholestoral = <272, 275) THEN class = {present} (p=3.0, n=0.0, P=108.0, N=135.0)
+r17: IF oldpeak = <1.95, 4.20) AND thal = {7} THEN class = {present} (p=26.0, n=0.0, P=108.0, N=135.0)
+r18: IF serum_cholestoral = <298.50, 302) THEN class = {present} (p=2.0, n=0.0, P=108.0, N=135.0)
+r19: IF number_of_major_vessels = <0.50, inf) AND oldpeak = <1.95, inf) AND serum_cholestoral = (-inf, 295.50) THEN class = {present} (p=27.0, n=0.0, P=108.0, N=135.0)
+r20: IF oldpeak = <1.85, 4.20) AND chest = {4, 3, 2} AND thal = {7} THEN class = {present} (p=27.0, n=0.0, P=108.0, N=135.0)
+r21: IF fasting_blood_sugar != exercise_induced_angina AND oldpeak = <1.70, 4.20) AND maximum_heart_rate_achieved = (-inf, 143) THEN class = {present} (p=25.0, n=0.0, P=108.0, N=135.0)
+r22: IF oldpeak = <1.70, 4.20) AND chest = {4, 2} AND age = <45.50, 64) THEN class = {present} (p=27.0, n=0.0, P=108.0, N=135.0)
+r23: IF number_of_major_vessels = <1.50, inf) AND exercise_induced_angina != {0} THEN class = {present} (p=18.0, n=0.0, P=108.0, N=135.0)
+r24: IF number_of_major_vessels = <1.50, inf) AND chest = {4} AND serum_cholestoral = (-inf, 301.50) AND resting_blood_pressure = <109, inf) THEN class = {present} (p=23.0, n=0.0, P=108.0, N=135.0)
+r25: IF number_of_major_vessels = <1.50, inf) AND maximum_heart_rate_achieved = (-inf, 172) AND resting_electrocardiographic_results = {2, 1} THEN class = {present} (p=24.0, n=0.0, P=108.0, N=135.0)
+r26: IF number_of_major_vessels = <0.50, inf) AND chest = {4} AND oldpeak = <0.40, inf) AND serum_cholestoral = (-inf, 298.50) THEN class = {present} (p=39.0, n=0.0, P=108.0, N=135.0)
+r27: IF number_of_major_vessels = <0.50, inf) AND chest = {4} AND serum_cholestoral = (-inf, 301.50) AND resting_blood_pressure = <109, inf) THEN class = {present} (p=47.0, n=1.0, P=108.0, N=135.0)
+r28: IF fasting_blood_sugar != sex AND number_of_major_vessels = <0.50, inf) AND chest = {4} AND maximum_heart_rate_achieved = <105.50, inf) THEN class = {present} (p=37.0, n=0.0, P=108.0, N=135.0)
+r29: IF number_of_major_vessels = <0.50, inf) AND oldpeak = <0.35, inf) AND slope = <1.50, inf) THEN class = {present} (p=52.0, n=2.0, P=108.0, N=135.0)
+r30: IF oldpeak = <0.65, inf) AND thal = {7} AND maximum_heart_rate_achieved = <111.50, 145) THEN class = {present} (p=30.0, n=0.0, P=108.0, N=135.0)
+r31: IF chest = {4} AND resting_blood_pressure = <109, inf) AND thal = {7} AND maximum_heart_rate_achieved = <112, 161) AND age = (-inf, 64) THEN class = {present} (p=35.0, n=0.0, P=108.0, N=135.0)
+r32: IF chest = {4, 2} AND serum_cholestoral = <236.50, inf) AND resting_blood_pressure = <109, inf) AND thal = {7} AND age = <45, 64) THEN class = {present} (p=31.0, n=0.0, P=108.0, N=135.0)
+r33: IF resting_blood_pressure = <143, 180) AND exercise_induced_angina != {0} THEN class = {present} (p=14.0, n=0.0, P=108.0, N=135.0)
+r34: IF chest = {4} AND resting_blood_pressure = <151, 160) THEN class = {present} (p=3.0, n=0.0, P=108.0, N=135.0)
+r35: IF maximum_heart_rate_achieved = <177.50, 181) THEN class = {absent} (p=11.0, n=0.0, P=135.0, N=108.0)
+r36: IF maximum_heart_rate_achieved = <183, 195) THEN class = {absent} (p=8.0, n=0.0, P=135.0, N=108.0)
+r37: IF serum_cholestoral = <207.50, 212) THEN class = {absent} (p=8.0, n=0.0, P=135.0, N=108.0)
+r38: IF resting_blood_pressure = <100.50, 108) THEN class = {absent} (p=6.0, n=0.0, P=135.0, N=108.0)
+r39: IF maximum_heart_rate_achieved = <120.50, 124) THEN class = {absent} (p=5.0, n=0.0, P=135.0, N=108.0)
+r40: IF serum_cholestoral = <203.50, 206) THEN class = {absent} (p=5.0, n=0.0, P=135.0, N=108.0)
+r41: IF serum_cholestoral < maximum_heart_rate_achieved THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r42: IF maximum_heart_rate_achieved = <147.50, 150) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r43: IF serum_cholestoral != <145, 417) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r44: IF serum_cholestoral = <190.50, 197) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r45: IF serum_cholestoral = <219.50, 223) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r46: IF serum_cholestoral = <225.50, 228) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r47: IF serum_cholestoral = <234.50, 237) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r48: IF serum_cholestoral = <249.50, 253) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r49: IF serum_cholestoral = <263.50, 267) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r50: IF serum_cholestoral = <301, 304) THEN class = {absent} (p=4.0, n=0.0, P=135.0, N=108.0)
+r51: IF serum_cholestoral = <177.50, 184) THEN class = {absent} (p=3.0, n=0.0, P=135.0, N=108.0)
+r52: IF serum_cholestoral = <212.50, 216) THEN class = {absent} (p=3.0, n=0.0, P=135.0, N=108.0)
+r53: IF serum_cholestoral = <269.50, 273) THEN class = {absent} (p=3.0, n=0.0, P=135.0, N=108.0)
+r54: IF serum_cholestoral = <294.50, 299) THEN class = {absent} (p=3.0, n=0.0, P=135.0, N=108.0)
+r55: IF serum_cholestoral = <353.50, 407) THEN class = {absent} (p=3.0, n=0.0, P=135.0, N=108.0)
+r56: IF maximum_heart_rate_achieved = <165.50, 168) THEN class = {absent} (p=2.0, n=0.0, P=135.0, N=108.0)
+r57: IF number_of_major_vessels = (-inf, 0.50) AND thal = {3, 6} AND maximum_heart_rate_achieved = <169.50, 195) THEN class = {absent} (p=36.0, n=0.0, P=135.0, N=108.0)
+r58: IF resting_blood_pressure = <111, inf) AND thal = {3, 6} AND maximum_heart_rate_achieved = <169.50, 195) AND age = (-inf, 64) THEN class = {absent} (p=37.0, n=0.0, P=135.0, N=108.0)
+r59: IF serum_cholestoral = <232, 282) AND maximum_heart_rate_achieved = <169.50, 195) THEN class = {absent} (p=21.0, n=0.0, P=135.0, N=108.0)
+r60: IF serum_cholestoral = <197.50, 315) AND age = <40.50, 46) THEN class = {absent} (p=28.0, n=0.0, P=135.0, N=108.0)
+r61: IF chest = {3, 2, 1} AND age = <40.50, 46) THEN class = {absent} (p=23.0, n=0.0, P=135.0, N=108.0)
+r62: IF chest = {3, 2} AND thal = {3} AND maximum_heart_rate_achieved = <160.50, inf) THEN class = {absent} (p=45.0, n=0.0, P=135.0, N=108.0)
+r63: IF chest = {3, 2} AND oldpeak = (-inf, 1.70) AND serum_cholestoral = <154.50, 319) AND resting_blood_pressure = <109, inf) AND thal = {3} THEN class = {absent} (p=57.0, n=0.0, P=135.0, N=108.0)
+r64: IF resting_blood_pressure = <119, 148) AND thal = {3} AND age = (-inf, 53.50) THEN class = {absent} (p=44.0, n=0.0, P=135.0, N=108.0)
+r65: IF resting_blood_pressure < maximum_heart_rate_achieved AND number_of_major_vessels = (-inf, 0.50) AND thal = {3} AND age = (-inf, 57.50) THEN class = {absent} (p=66.0, n=1.0, P=135.0, N=108.0)
+r66: IF number_of_major_vessels = (-inf, 0.50) AND oldpeak = (-inf, 1.70) AND serum_cholestoral = (-inf, 327.50) AND resting_blood_pressure = (-inf, 157) AND thal = {3} AND maximum_heart_rate_achieved = <83.50, inf) THEN class = {absent} (p=78.0, n=2.0, P=135.0, N=108.0)
+r67: IF chest = {3, 2, 1} AND oldpeak = (-inf, 2.50) AND serum_cholestoral = <154.50, 273) AND resting_blood_pressure = <109, inf) AND thal = {3} THEN class = {absent} (p=55.0, n=0.0, P=135.0, N=108.0)
+r68: IF number_of_major_vessels = (-inf, 0.50) AND oldpeak = (-inf, 1.55) AND slope = (-inf, 2.50) AND maximum_heart_rate_achieved = <161.50, 195) AND age = <40.50, 61) THEN class = {absent} (p=44.0, n=0.0, P=135.0, N=108.0)
+r69: IF chest = {3, 2, 1} AND oldpeak = (-inf, 2.55) AND slope = (-inf, 1.50) AND maximum_heart_rate_achieved = <152.50, 195) AND age = (-inf, 63.50) THEN class = {absent} (p=51.0, n=0.0, P=135.0, N=108.0)
+r70: IF number_of_major_vessels = (-inf, 0.50) AND chest = {3, 2, 1} AND oldpeak = (-inf, 2.70) AND serum_cholestoral = (-inf, 272) AND resting_blood_pressure = <111, inf) AND maximum_heart_rate_achieved = <142, inf) THEN class = {absent} (p=45.0, n=0.0, P=135.0, N=108.0)
+r71: IF chest = {3, 2, 1} AND oldpeak = (-inf, 1.95) AND serum_cholestoral = (-inf, 317) AND resting_blood_pressure = (-inf, 165) AND slope = (-inf, 2.50) AND maximum_heart_rate_achieved = <142.50, 195) THEN class = {absent} (p=71.0, n=5.0, P=135.0, N=108.0)
+r72: IF number_of_major_vessels = (-inf, 0.50) AND oldpeak = (-inf, 1.70) AND chest = {4, 3, 2} AND serum_cholestoral = (-inf, 327.50) AND thal = {3, 6} AND maximum_heart_rate_achieved = <83.50, inf) THEN class = {absent} (p=78.0, n=4.0, P=135.0, N=108.0)
+r73: IF number_of_major_vessels = (-inf, 0.50) AND oldpeak = <0.35, 0.90) THEN class = {absent} (p=21.0, n=0.0, P=135.0, N=108.0)
+r74: IF oldpeak = (-inf, 2.75) AND serum_cholestoral = <173.50, 273) AND resting_blood_pressure = <100.50, inf) AND exercise_induced_angina != {1} AND slope = (-inf, 1.50) THEN class = {absent} (p=56.0, n=6.0, P=135.0, N=108.0)

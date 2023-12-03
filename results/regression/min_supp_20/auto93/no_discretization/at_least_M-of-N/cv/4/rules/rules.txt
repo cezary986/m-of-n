@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.548076923076923
+r2: 0.5791788856304986
+r3: 0.7307692307692307
+r4: 0.8480842911877395
+r5: 0.3367149758454106
+r6: 0.5428571428571429
+r7: 0.39473684210526316
+r8: 0.44270833333333337
+r9: 0.5452674897119342
+r10: 0.46554054054054056
+r11: 0.5660100702705693
+r12: 0.4880382775119618
+r13: 0.6244847996529177
+r14: 0.5907068030102257
+r15: 0.5717647058823528
+r16: 0.6357101782633698
+r17: 0.5428571428571429
+________________________________
+r1: IF Wheelbase = (-inf, 100) = {1} AND Fuel_tank_capacity = <12.60, 15.20) = {0} AND Highway_MPG = (-inf, 35) = {0} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.022} [0.011,0.033] (p=3.0, n=1.0, P=6.0, N=78.0)
+r2: IF Drive_train_type != Air_Bags_standard = {1} AND Fuel_tank_capacity = <12.60, 15.20) = {1} THEN class = {0.05} [0.0099,0.089] (p=8.0, n=1.0, P=22.0, N=62.0)
+r3: IF Horsepower = (-inf, 87) = {1} AND City_MPG > Rear_seat_room = {1} AND Wheelbase = (-inf, 100) = {1} THEN class = {0.018} [0.0063,0.03] (p=6.0, n=2.0, P=6.0, N=78.0)
+r4: IF Weight = (-inf, 2780) = {1} THEN class = {0.064} [-0.0071,0.14] (p=27.0, n=2.0, P=30.0, N=54.0)
+r5: IF Drive_train_type != Air_Bags_standard = {1} AND City_MPG > Rear_seat_room = {1} AND Horsepower < Wheelbase = {0} AND Highway_MPG < U-turn_space = {1} THEN class = {0.46} [0.32,0.60] (p=2.0, n=1.0, P=15.0, N=69.0)
+r6: IF City_MPG > Rear_seat_room = {0} AND Fuel_tank_capacity > Luggage_capacity = {1} AND Horsepower < Wheelbase = {0} AND Number_of_cylinders < Passenger_capacity = {0} AND Length = (-inf, 186.50) = {1} THEN class = {0.35} [0.28,0.43] (p=5.0, n=1.0, P=14.0, N=70.0)
+r7: IF Horsepower < Length = {0} AND Manual_transmission_available != {0} = {1} AND Drive_train_type != Air_Bags_standard = {1} THEN class = {0.74} [0.42,1.07] (p=2.0, n=1.0, P=8.0, N=76.0)
+r8: IF Manual_transmission_available != {0} = {0} AND Drive_train_type != Air_Bags_standard = {1} AND Highway_MPG > Rear_seat_room = {0} AND Wheelbase = (-inf, 100) = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.49} [0.35,0.62] (p=3.0, n=1.0, P=12.0, N=72.0)
+r9: IF Horsepower < Length = {1} AND Manual_transmission_available != {0} = {1} AND Drive_train_type != Air_Bags_standard = {0} AND Highway_MPG > Rear_seat_room = {0} AND Fuel_tank_capacity > Luggage_capacity = {1} THEN class = {0.25} [0.24,0.25] (p=2.0, n=1.0, P=3.0, N=81.0)
+r10: IF Length = <169, 182) = {0} AND Highway_MPG > Rear_seat_room = {0} AND Fuel_tank_capacity > Luggage_capacity = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.49} [0.39,0.60] (p=3.0, n=1.0, P=10.0, N=74.0)
+r11: IF Horsepower < Length = {1} AND City_MPG > Rear_seat_room = {0} AND Fuel_tank_capacity = <12.80, 15.90) = {0} AND Engine_size = (-inf, 2.25) = {0} AND Fuel_tank_capacity > Luggage_capacity = {1} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.30} [0.20,0.40] (p=10.0, n=1.0, P=31.0, N=53.0)
+r12: IF Highway_MPG > Rear_seat_room = {0} AND Horsepower < Wheelbase = {0} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.22} [0.16,0.28] (p=9.0, n=2.0, P=27.0, N=57.0)
+r13: IF Horsepower < Wheelbase = {1} THEN class = {0.053} [0.0017,0.10] (p=18.0, n=5.0, P=23.0, N=61.0)
+r14: IF Horsepower < Length = {1} AND City_MPG < Rear_seat_room = {1} AND Drive_train_type != Air_Bags_standard = {1} AND Fuel_tank_capacity > Luggage_capacity = {1} AND Fuel_tank_capacity = <12.60, 15.20) = {0} AND Engine_revolutions_per_mile > Weight = {0} THEN class = {0.21} [0.13,0.30] (p=20.0, n=3.0, P=37.0, N=47.0)
+r15: IF City_MPG > Rear_seat_room = {0} AND Rear_seat_room = (-inf, 30.50) = {1} AND Horsepower < Wheelbase = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.31} [0.13,0.50] (p=22.0, n=2.0, P=50.0, N=34.0)
+r16: IF Highway_MPG > Rear_seat_room = {1} AND Engine_size = (-inf, 2.25) = {1} THEN class = {0.077} [-0.0085,0.16] (p=30.0, n=6.0, P=37.0, N=47.0)
+r17: IF Horsepower = (-inf, 87) = {0} AND Drive_train_type != Air_Bags_standard = {0} AND Highway_MPG > Rear_seat_room = {1} AND Fuel_tank_capacity = <12.60, 15.20) = {0} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.16} [0.13,0.20] (p=5.0, n=1.0, P=14.0, N=70.0)

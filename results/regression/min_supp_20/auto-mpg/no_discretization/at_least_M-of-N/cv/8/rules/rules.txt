@@ -1,0 +1,42 @@
+Rules qualities:
+r1: 0.8333333333333333
+r2: 0.79613978490383
+r3: 0.7142857142857143
+r4: 0.7621376733568784
+r5: 0.7063631594724221
+r6: 0.6578206495969654
+r7: 0.5895003897862331
+r8: 0.72839453102611
+r9: 0.7321469426732585
+r10: 0.6897025844394267
+r11: 0.7078907698868425
+r12: 0.6035152183790667
+r13: 0.5886207732568918
+r14: 0.6240698157197151
+r15: 0.6982268430825939
+r16: 0.6382687303109162
+r17: 0.8333333333333333
+r18: 0.497227787354983
+r19: 0.5983640184110467
+r20: 0.8494819028057564
+________________________________
+r1: IF weight = <4826, 4997) = {1} THEN class = {0.08} [0.08,0.08] (p=4.0, n=0.0, P=6.0, N=352.0)
+r2: IF horsepower != <91, 97) = {1} AND 2-of-3(acceleration != <8.75, 10), displacement != <304.50, 318), weight != <4369.50, 4382)) = {1} AND acceleration != <17.10, 18) = {1} AND weight != <1702, 3664) = {1} THEN class = {0.13} [0.037,0.23] (p=81.0, n=8.0, P=99.0, N=259.0)
+r3: IF horsepower != <70.50, 78) = {1} AND weight != <1786.50, 1950) = {0} AND weight != <1920, 2905) = {0} THEN class = {0.53} [0.53,0.53] (p=3.0, n=0.0, P=7.0, N=351.0)
+r4: IF displacement = (-inf, 311.50) = {0} AND weight != <3727.50, 3755) = {1} AND weight != <4369.50, 4382) = {1} AND acceleration != <13.60, 14) = {1} AND acceleration != <13.75, 14.50) = {1} AND weight != <3586, 3672) = {1} AND weight != <3890, 3988) = {1} AND acceleration != <14.70, 17) = {1} THEN class = {0.13} [0.075,0.19] (p=49.0, n=3.0, P=76.0, N=282.0)
+r5: IF displacement = (-inf, 311.50) = {0} AND acceleration != <13.60, 14) = {1} AND acceleration != <13.75, 14.50) = {1} AND acceleration != <14.70, 17) = {1} THEN class = {0.13} [0.065,0.20] (p=53.0, n=7.0, P=80.0, N=278.0)
+r6: IF weight != <3727.50, 3755) = {1} AND displacement != <80, 302) = {0} AND displacement = (-inf, 189.50) = {0} THEN class = {0.27} [0.19,0.35] (p=58.0, n=6.0, P=111.0, N=247.0)
+r7: IF horsepower = <74.50, 129) = {0} AND horsepower = <60.50, 208) = {1} AND weight != <3130.50, 3211) = {1} AND weight != <2223, 2694) = {1} AND weight != <2907.50, 2945) = {1} AND weight = (-inf, 3295) = {1} AND weight = <1931, 1950) = {0} THEN class = {0.67} [0.56,0.78] (p=36.0, n=8.0, P=69.0, N=289.0)
+r8: IF acceleration != <17.35, 18) = {1} AND displacement = (-inf, 133.50) = {0} AND horsepower != <70.50, 78) = {1} AND acceleration != <12.75, 13.50) = {1} AND acceleration != <13.75, 14.50) = {1} AND displacement != <121.50, 146) = {1} AND weight != <2400, 2587) = {1} AND weight != <3404.50, 3425) = {1} AND weight = <4078.50, 4257) = {0} AND weight != <2866.50, 2901) = {1} AND weight = <1777.50, 4165) = {1} AND horsepower != <129, 145) = {1} AND acceleration = (-inf, 12.75) = {0} AND displacement != <174.50, 199) = {1} AND weight != <3714, 3761) = {1} AND displacement != <143, 156) = {1} THEN class = {0.27} [0.19,0.35] (p=55.0, n=1.0, P=111.0, N=247.0)
+r9: IF horsepower != <70.50, 79) = {1} AND weight != <3415, 3432) = {1} AND acceleration != <17.35, 18) = {1} AND acceleration != <13.75, 14.50) = {1} AND displacement != <121.50, 146) = {1} AND weight != <2400, 2587) = {1} AND weight != <2294, 2430) = {1} AND weight = (-inf, 2185) = {0} AND acceleration != <12.55, 13) = {1} AND weight != <2654, 2671) = {1} AND weight != <3727.50, 3755) = {1} AND horsepower = <60.50, 70) = {0} AND displacement != <80, 302) = {0} AND displacement != <94, 121) = {1} AND acceleration = (-inf, 12.75) = {0} AND displacement != <143, 156) = {1} THEN class = {0.27} [0.19,0.35] (p=63.0, n=3.0, P=111.0, N=247.0)
+r10: IF weight != <3727.50, 3755) = {1} AND 2-of-3(acceleration != <11.05, 11.50), weight != <2939, 2962), displacement != <174.50, 199)) = {1} AND acceleration = (-inf, 12.75) = {0} AND displacement != <161, 304) = {0} AND weight = (-inf, 3916) = {1} AND acceleration = (-inf, 19.40) = {1} THEN class = {0.27} [0.18,0.35] (p=61.0, n=5.0, P=111.0, N=247.0)
+r11: IF weight = (-inf, 3730) = {1} AND horsepower != <113.50, 125) = {1} AND acceleration != <11.75, 13.20) = {1} AND 2-of-3(acceleration != <11.05, 11.50), weight != <2939, 2962), displacement != <174.50, 199)) = {1} AND displacement != <161, 304) = {0} AND acceleration = (-inf, 19.40) = {1} THEN class = {0.27} [0.18,0.36] (p=56.0, n=2.0, P=114.0, N=244.0)
+r12: IF weight != <2127.50, 2155) = {1} AND weight != <1757.50, 3381) = {0} AND acceleration != <13.60, 14) = {1} AND horsepower = (-inf, 68.50) = {1} AND horsepower != <57.50, 86) = {0} THEN class = {0.67} [0.56,0.78] (p=29.0, n=4.0, P=69.0, N=289.0)
+r13: IF acceleration != <10.50, 12.50) = {1} AND horsepower != <132.50, 140) = {1} AND weight != <1766.50, 3432) = {0} AND weight = (-inf, 2185) = {0} AND weight = <2159, 2220) = {0} THEN class = {0.37} [0.24,0.51] (p=129.0, n=30.0, P=162.0, N=196.0)
+r14: IF acceleration != <11.05, 11.50) = {1} AND weight != <2706.50, 2725) = {1} AND weight != <2654, 2671) = {1} AND weight != <3436, 3459) = {1} AND horsepower = <75.50, 120) = {1} AND acceleration != <16.55, 16.90) = {1} AND weight != <3130.50, 3211) = {1} AND weight = <3776, 4215) = {0} AND weight = <1931, 1950) = {0} AND displacement != <75, 97) = {1} THEN class = {0.37} [0.24,0.51] (p=120.0, n=22.0, P=162.0, N=196.0)
+r15: IF weight != <1757.50, 3381) = {1} AND horsepower = <60.50, 70) = {0} AND weight = <1777.50, 4165) = {0} AND horsepower != <112.50, 149) = {1} AND acceleration != <16.30, 16.90) = {1} THEN class = {0.11} [-0.0075,0.22] (p=42.0, n=1.0, P=95.0, N=263.0)
+r16: IF weight != <2706.50, 2725) = {1} AND weight != <2162, 2205) = {1} AND acceleration != <16.55, 16.90) = {1} AND weight != <3890, 3988) = {1} AND displacement != <107.50, 112) = {1} AND horsepower = <74.50, 129) = {1} AND weight != <2654, 2671) = {1} AND weight != <3436, 3459) = {1} AND weight = <3975, inf) = {0} AND acceleration != <13.60, 14) = {1} AND weight != <3130.50, 3211) = {1} AND weight != <2040, 4997) = {0} AND acceleration != <9.75, 12) = {1} THEN class = {0.37} [0.24,0.51] (p=126.0, n=23.0, P=162.0, N=196.0)
+r17: IF weight != <1817, 1968) = {1} AND weight = <1777.50, 4165) = {1} AND weight = <2726.50, 4385) = {0} AND horsepower = <59, 71) = {0} AND weight != <1920, 2905) = {1} THEN class = {0.64} [0.64,0.64] (p=2.0, n=0.0, P=3.0, N=355.0)
+r18: IF model != {82} = {0} AND horsepower > acceleration = {1} AND origin != {2} = {1} AND weight != <2040, 4997) = {1} THEN class = {0.53} [0.42,0.65] (p=12.0, n=1.0, P=104.0, N=254.0)
+r19: IF acceleration != <17.35, 18) = {1} AND horsepower > acceleration = {1} AND origin != {2} = {0} AND horsepower = <86.50, 145) = {0} AND weight != <2217.50, 4997) = {1} AND weight != <2214, 2265) = {1} THEN class = {0.65} [0.49,0.81] (p=42.0, n=6.0, P=95.0, N=263.0)
+r20: IF displacement != <355.50, 390) = {1} AND horsepower = (-inf, 96.50) = {0} AND horsepower = <74.50, 129) = {0} AND weight != <3436, 3459) = {1} AND weight != <3415, 3432) = {1} AND weight != <3163.50, 3278) = {1} AND weight != <3372.50, 3425) = {1} AND weight != <3709, 3755) = {1} AND weight = <2283.50, 2965) = {0} AND acceleration != <14.95, 15.40) = {1} AND weight != <3447.50, 3613) = {1} AND acceleration = (-inf, 18.50) = {1} THEN class = {0.13} [0.039,0.23] (p=71.0, n=1.0, P=97.0, N=261.0)

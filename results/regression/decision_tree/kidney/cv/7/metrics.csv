@@ -1,0 +1,2 @@
+dataset,RMSE (test),MAE (test),MAPE (test),rRMSE (test),rMAE (test),rMAPE (test),maxError (test),R2 (test),RMSE (train),MAE (train),MAPE (train),rRMSE (train),rMAE (train),rMAPE (train),maxError (train),R2 (train),rules,conditions_count,avg conditions per rule
+kidney,0.256788618823016,0.18125671321160045,45955098238474.7,0.5336388484915802,0.3766741071428572,459550982384.747,0.5770676691729322,0.27820566654879786,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,50,99,16.585858585858585

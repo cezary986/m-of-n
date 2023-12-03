@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.696696635638785
+r2: 0.5092198581560283
+r3: 0.5034042553191489
+r4: 0.5005673758865248
+r5: 0.4043589615556768
+r6: 0.013538801820144313
+________________________________
+r1: IF stalk-surface-above-ring = {k} = {1} THEN class = {p} (p=1996.0, n=121.0, P=3525.0, N=3787.0)
+r2: IF spore-print-color != {r} = {1} THEN class = {p} (p=65.0, n=0.0, P=3525.0, N=3787.0)
+r3: IF stalk-color-below-ring != {y} = {1} THEN class = {p} (p=24.0, n=0.0, P=3525.0, N=3787.0)
+r4: IF cap-shape != {c} = {1} THEN class = {p} (p=4.0, n=0.0, P=3525.0, N=3787.0)
+r5: IF stalk-surface-above-ring = {k} = {0} AND stalk-color-below-ring != {y} = {0} AND spore-print-color != {r} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3666.0, n=1454.0, P=3787.0, N=3525.0)
+r6: IF stalk-color-below-ring != {y} = {0} AND spore-print-color != {r} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3787.0, n=3434.0, P=3787.0, N=3525.0)

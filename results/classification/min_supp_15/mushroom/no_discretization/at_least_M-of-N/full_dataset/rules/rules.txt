@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.8350357507660878
+r2: 0.8217568947906027
+r3: 0.8669213471195784
+r4: 0.8148772315299954
+r5: 0.7757916241062308
+r6: 0.7247191011235955
+r7: 0.9013863731700806
+r8: 0.9032918102795829
+r9: 0.8273230957513428
+r10: 0.5475285171102662
+________________________________
+r1: IF 2-of-3(population = {v}, odor = {f}, stalk-surface-above-ring = {k}) = {1} THEN class = {p} (p=2624.0, n=0.0, P=3916.0, N=4208.0)
+r2: IF 2-of-3(odor = {f}, gill-color = {b}, population = {v}) = {1} THEN class = {p} (p=2520.0, n=0.0, P=3916.0, N=4208.0)
+r3: IF gill-spacing != {w} = {0} AND 2-of-3(bruises? != {t}, gill-size != {b}, odor != {n}) = {0} THEN class = {p} (p=3444.0, n=144.0, P=3916.0, N=4208.0)
+r4: IF 2-of-3(bruises? != {t}, gill-size != {b}, odor != {n}) = {0} THEN class = {p} (p=3548.0, n=288.0, P=3916.0, N=4208.0)
+r5: IF odor = {f} = {1} THEN class = {p} (p=2160.0, n=0.0, P=3916.0, N=4208.0)
+r6: IF gill-size != {b} = {0} AND spore-print-color = {w} = {1} AND stalk-color-below-ring != {n} = {0} THEN class = {p} (p=1760.0, n=0.0, P=3916.0, N=4208.0)
+r7: IF odor != {n} = {1} AND spore-print-color != {r} = {0} AND stalk-surface-below-ring != {y} = {0} AND cap-surface != {g} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3392.0, n=3.0, P=4208.0, N=3916.0)
+r8: IF 2-of-3(stalk-surface-above-ring = {k}, gill-color = {b}, population = {v}) = {0} AND odor != {n} = {1} AND spore-print-color != {r} = {0} AND cap-surface != {g} = {0} AND cap-color != {y} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3408.0, n=3.0, P=4208.0, N=3916.0)
+r9: IF spore-print-color != {r} = {0} AND cap-surface != {g} = {0} AND 2-of-3(bruises? != {t}, gill-size != {b}, odor != {n}) = {1} AND cap-shape != {c} = {0} THEN class = {e} (p=3920.0, n=291.0, P=4208.0, N=3916.0)
+r10: IF odor = {a} = {1} THEN class = {e} (p=400.0, n=0.0, P=4208.0, N=3916.0)

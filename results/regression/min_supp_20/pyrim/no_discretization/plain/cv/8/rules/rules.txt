@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.6753519017669961
+r2: 0.7824561403508773
+r3: 0.746969696969697
+r4: 0.6671099290780143
+r5: 0.5202569169960475
+r6: 0.47650709219858156
+r7: 0.6012413512413514
+r8: 0.6012413512413514
+r9: 0.6054783950617284
+r10: 0.47788461538461535
+r11: 0.5163978494623656
+________________________________
+r1: IF p2_polar = <0.34, inf) AND p3_pi_doner = <0.30, inf) AND p1_polar = (-inf, 0.40) THEN class = {0.84} [0.68,1.00] (p=8.0, n=1.0, P=14.0, N=53.0)
+r2: IF p2_size = (-inf, 0.82) AND p2_polar = (-inf, 0.50) AND p1_flex = (-inf, 0.25) AND p3_pi_doner = <0.30, inf) THEN class = {0.91} [0.80,1.02] (p=8.0, n=1.0, P=10.0, N=57.0)
+r3: IF p2_size = (-inf, 0.66) AND p3_polarisable = <0.23, inf) AND p1_pi_doner = <0.30, inf) AND p2_polarisable = (-inf, 0.70) THEN class = {0.98} [0.82,1.15] (p=9.0, n=2.0, P=10.0, N=57.0)
+r4: IF p2_flex = (-inf, 0.80) AND p1_flex = (-inf, 0.35) AND p3_polarisable = <0.23, inf) THEN class = {0.85} [0.64,1.06] (p=15.0, n=3.0, P=20.0, N=47.0)
+r5: IF p3_h_acceptor = (-inf, 0.50) AND p2_size = (-inf, 0.34) THEN class = {0.39} [0.15,0.62] (p=28.0, n=4.0, P=44.0, N=23.0)
+r6: IF p1_h_acceptor = <0.70, inf) AND p3_flex = (-inf, 0.37) THEN class = {0.30} [0.21,0.38] (p=5.0, n=1.0, P=20.0, N=47.0)
+r7: IF p2_flex = (-inf, 0.60) AND p1_sigma = (-inf, 0.50) AND p1_polarisable = (-inf, 0.23) AND p2_h_acceptor = (-inf, 0.70) AND p2_sigma = (-inf, 0.50) AND p1_flex = (-inf, 0.15) THEN class = {0.39} [0.36,0.43] (p=6.0, n=1.0, P=13.0, N=54.0)
+r8: IF p2_h_acceptor = <0.30, inf) AND p1_flex = (-inf, 0.45) AND p1_size = <0.34, inf) AND p3_polarisable = (-inf, 0.23) THEN class = {0.63} [0.55,0.71] (p=6.0, n=1.0, P=13.0, N=54.0)
+r9: IF p2_polar = (-inf, 0.82) AND p1_flex = (-inf, 0.45) AND p2_pi_doner = (-inf, 0.30) AND p1_h_acceptor = (-inf, 0.70) AND p3_polarisable = (-inf, 0.23) AND p3_polar = <0.23, inf) AND p1_polar = (-inf, 0.60) THEN class = {0.41} [0.30,0.52] (p=11.0, n=1.0, P=27.0, N=40.0)
+r10: IF p2_h_doner = (-inf, 0.70) AND p2_polar = (-inf, 0.66) AND p1_size = (-inf, 0.66) AND p3_polarisable = (-inf, 0.23) AND p1_polar = (-inf, 0.60) THEN class = {0.38} [0.24,0.52] (p=21.0, n=5.0, P=35.0, N=32.0)
+r11: IF p1_polarisable = (-inf, 0.50) AND p2_size = (-inf, 0.66) AND p2_h_acceptor = (-inf, 0.70) AND p2_h_doner = (-inf, 0.30) AND p3_polarisable = (-inf, 0.23) AND p2_polarisable = (-inf, 0.70) AND p3_polar = <0.23, inf) AND p1_polar = (-inf, 0.60) THEN class = {0.34} [0.22,0.45] (p=20.0, n=5.0, P=31.0, N=36.0)

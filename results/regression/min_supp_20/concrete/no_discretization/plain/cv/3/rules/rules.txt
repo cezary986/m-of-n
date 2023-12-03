@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.5461922596754057
+r2: 0.36666666666666664
+r3: 0.2249269717624148
+r4: 0.21494607087827425
+r5: 0.2713178294573644
+r6: 0.35030103995621237
+r7: 0.40202702702702703
+r8: 0.35556891025641024
+r9: 0.4918981481481482
+r10: 0.523857430296062
+r11: 0.48246173469387754
+r12: 0.612618724559023
+r13: 0.562115127175368
+________________________________
+r1: IF Slag = <177.50, inf) THEN class = {0.032} [0.012,0.052] (p=2.0, n=1.0, P=3.0, N=89.0)
+r2: IF Slag = (-inf, 76.90) AND SLUMP(cm) = <27.25, inf) THEN class = {0.77} [0.77,0.78] (p=1.0, n=1.0, P=2.0, N=90.0)
+r3: IF Cement = (-inf, 326.25) AND FLOW(cm) = <77.50, inf) THEN class = {0.66} [0.59,0.73] (p=1.0, n=1.0, P=13.0, N=79.0)
+r4: IF Cement = (-inf, 256.35) AND FLOW(cm) = (-inf, 77.50) THEN class = {0.39} [0.22,0.57] (p=34.0, n=12.0, P=59.0, N=33.0)
+r5: IF FLOW(cm) = <68.25, 68.75) THEN class = {0.65} [0.61,0.68] (p=1.0, n=1.0, P=6.0, N=86.0)
+r6: IF Water = (-inf, 235.50) AND Fly ash = <163.50, 168.50) AND Fine Aggr. = (-inf, 828) AND FLOW(cm) = (-inf, 67.50) THEN class = {0.71} [0.54,0.87] (p=3.0, n=1.0, P=29.0, N=63.0)
+r7: IF Fly ash = (-inf, 165.50) AND Cement = (-inf, 349) AND Slag = (-inf, 160.20) AND Coarse Aggr. = (-inf, 1015.35) AND FLOW(cm) = (-inf, 64.25) AND SP = <10.50, inf) THEN class = {0.39} [0.35,0.43] (p=3.0, n=1.0, P=18.0, N=74.0)
+r8: IF Fly ash = (-inf, 152.50) AND Cement = (-inf, 348) AND Slag = (-inf, 160.20) AND Fine Aggr. = (-inf, 828) AND Coarse Aggr. = (-inf, 1015.35) AND FLOW(cm) = (-inf, 64.25) AND SP = (-inf, 13) THEN class = {0.38} [0.23,0.52] (p=19.0, n=5.0, P=52.0, N=40.0)
+r9: IF Fly ash = (-inf, 50) AND FLOW(cm) = <51.50, 67.50) THEN class = {0.30} [0.25,0.36] (p=5.0, n=1.0, P=20.0, N=72.0)
+r10: IF Water = (-inf, 214.50) AND Fly ash = (-inf, 58) AND Slag = (-inf, 160.20) AND SP = (-inf, 12) AND FLOW(cm) = (-inf, 55.50) THEN class = {0.35} [0.29,0.40] (p=6.0, n=1.0, P=21.0, N=71.0)
+r11: IF Fly ash = (-inf, 239.35) AND Cement = <214, 319) AND SP = (-inf, 11.50) AND FLOW(cm) = <63.75, inf) THEN class = {0.53} [0.44,0.62] (p=6.0, n=1.0, P=28.0, N=64.0)
+r12: IF Fly ash = <119, inf) AND Cement = (-inf, 329) AND Slag = (-inf, 107.50) AND Fine Aggr. = (-inf, 832.50) AND SLUMP(cm) = (-inf, 26.38) AND Coarse Aggr. = (-inf, 911) AND FLOW(cm) = <47.75, inf) THEN class = {0.62} [0.51,0.74] (p=10.0, n=1.0, P=25.0, N=67.0)
+r13: IF Fly ash = <140, inf) AND Cement = <210.90, inf) AND SLUMP(cm) = (-inf, 10) THEN class = {0.80} [0.70,0.90] (p=4.0, n=1.0, P=9.0, N=83.0)

@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9998833986598205
+r2: 0.9999999741114707
+r3: 0.999972126850576
+r4: 0.98601736457849
+r5: 0.9998915749276904
+r6: 0.9998381214650427
+r7: 0.9995378496246341
+r8: 0.9986361088023286
+r9: 0.9999999475742726
+r10: 0.9999565497037872
+r11: 0.9928003031762429
+r12: 0.9999959579673132
+________________________________
+r1: IF os12m = <0.50, inf) THEN  (p=256.0, n=0.0, P=789.0, N=0.0)
+r2: IF rs12m = (-inf, 0.50) AND lymph = (-inf, 0.50) AND os12m = (-inf, 0.50) AND yschool = (-inf, 13.50) AND condom = (-inf, 2.50) THEN  (p=328.0, n=0.0, P=789.0, N=0.0)
+r3: IF rash = (-inf, 0.50) AND itch = (-inf, 0.50) AND race = {B} AND abdpain = (-inf, 0.50) AND discharge = <0.50, inf) AND os12m = (-inf, 0.50) AND abnode = (-inf, 0.50) AND age = (-inf, 17.50) THEN  (p=51.0, n=0.0, P=789.0, N=0.0)
+r4: IF marital = {S} AND iinfct = <2.50, inf) AND vagina = (-inf, 0.50) AND npartner = (-inf, 1.50) AND yschool = (-inf, 13.50) AND age = <16, 20.50) AND condom = <1.50, inf) THEN  (p=87.0, n=0.0, P=789.0, N=0.0)
+r5: IF marital = {S} AND dysuria = <0.50, inf) AND discharge = <0.50, inf) AND age = (-inf, 20.50) THEN  (p=39.0, n=0.0, P=789.0, N=0.0)
+r6: IF rash = (-inf, 0.50) AND itch = (-inf, 0.50) AND lymph = (-inf, 0.50) AND race = {B} AND discharge = <0.50, inf) AND os12m = (-inf, 0.50) AND abnode = (-inf, 0.50) THEN  (p=145.0, n=0.0, P=789.0, N=0.0)
+r7: IF rash = (-inf, 0.50) AND vagina = <0.50, inf) AND npartner = (-inf, 1.50) AND age = (-inf, 23.50) AND yschool = (-inf, 13) THEN  (p=46.0, n=0.0, P=789.0, N=0.0)
+r8: IF marital = {S} AND vagina = (-inf, 0.50) AND npartner = <0.50, 1.50) AND os12m = (-inf, 0.50) AND age = <16.50, 20.50) AND condom = <2.50, inf) THEN  (p=54.0, n=0.0, P=789.0, N=0.0)
+r9: IF os12m = (-inf, 0.50) AND condom = (-inf, 2.50) THEN  (p=359.0, n=0.0, P=789.0, N=0.0)
+r10: IF dchexam = <0.50, inf) AND rs12m = (-inf, 0.50) AND marital = {S} AND iinfct = <1.50, inf) AND vagina = (-inf, 0.50) AND race = {W} AND dysuria = (-inf, 0.50) AND discharge = <0.50, inf) AND yschool = (-inf, 14.50) AND age = <17.50, 25.50) THEN  (p=33.0, n=0.0, P=789.0, N=0.0)
+r11: IF iinfct = <2.50, inf) AND vagina = (-inf, 0.50) AND npartner = <0.50, 1.50) AND dysuria = (-inf, 0.50) AND discharge = <0.50, inf) AND age = (-inf, 22.50) THEN  (p=48.0, n=0.0, P=789.0, N=0.0)
+r12: IF vagina = (-inf, 0.50) AND npartner = (-inf, 2.50) AND age = <15.50, inf) AND yschool = <9.50, inf) THEN  (p=575.0, n=0.0, P=789.0, N=0.0)

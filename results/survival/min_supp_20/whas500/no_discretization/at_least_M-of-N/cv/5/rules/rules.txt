@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999999990742
+r2: 0.9999993803673347
+r3: 0.9999964601756176
+r4: 0.999999999075546
+r5: 0.9819362755767751
+________________________________
+r1: IF 2-of-3(hr != <80.50, 89), bmi != <25.38, 25.85), sysbp != <103, 112)) = {1} AND sho < chf = {1} THEN  (p=126.0, n=0.0, P=450.0, N=0.0)
+r2: IF av3 = miord = {1} AND sho < chf = {0} AND sho < miord = {0} THEN  (p=221.0, n=0.0, P=450.0, N=0.0)
+r3: IF sho = av3 = {0} THEN  (p=26.0, n=0.0, P=450.0, N=0.0)
+r4: IF hr != <117, 130) = {1} AND sho < mitype = {0} AND chf > miord = {1} THEN  (p=53.0, n=0.0, P=450.0, N=0.0)
+r5: IF av3 = miord = {0} AND chf = miord = {0} AND sho < miord = {1} AND sysbp > hr = {1} THEN  (p=86.0, n=0.0, P=450.0, N=0.0)

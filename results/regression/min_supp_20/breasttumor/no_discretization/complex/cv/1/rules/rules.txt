@@ -1,0 +1,52 @@
+Rules qualities:
+r1: 0.5294117647058824
+r2: 0.44832777213064035
+r3: 0.4361958266452648
+r4: 0.4356769567331065
+r5: 0.55
+r6: 0.5294117647058824
+r7: 0.5217391304347826
+r8: 0.4705589053803339
+r9: 0.42651673640167365
+r10: 0.55
+r11: 0.5217391304347826
+r12: 0.40664192949907246
+r13: 0.40288023679417123
+r14: 0.5048311099331507
+r15: 0.5263157894736842
+r16: 0.47822583578886096
+r17: 0.5107438016528926
+r18: 0.46245082612116445
+r19: 0.3861128418137764
+r20: 0.3798892883638647
+r21: 0.4361958266452648
+r22: 0.4147486371895821
+r23: 0.4586090872293059
+r24: 0.5196078431372549
+r25: 0.5392156862745098
+________________________________
+r1: IF breast-quad = {left-lower, right-lower, left-upper} AND inv-nodes = {10, 7, 9} AND age = <54.50, inf) THEN class = {0.60} [0.60,0.60] (p=3.0, n=0.0, P=51.0, N=206.0)
+r2: IF inv-nodes = {10, 7, 9} THEN class = {0.60} [0.49,0.71] (p=10.0, n=1.0, P=121.0, N=136.0)
+r3: IF inv-nodes = {10, 16, 13} THEN class = {0.70} [0.56,0.84] (p=7.0, n=1.0, P=89.0, N=168.0)
+r4: IF inv-nodes = {10, 9, 8} THEN class = {0.60} [0.50,0.70] (p=9.0, n=1.0, P=121.0, N=136.0)
+r5: IF inv-nodes = {3, 14, 25} AND age = <56.50, 65) THEN class = {0.80} [0.80,0.80] (p=2.0, n=0.0, P=20.0, N=237.0)
+r6: IF inv-nodes = {3, 14, 25} AND age = <42, 49) THEN class = {0.60} [0.60,0.60] (p=3.0, n=0.0, P=51.0, N=206.0)
+r7: IF inv-nodes = {3, 14, 25} AND age = <47.50, 51) THEN class = {0.50} [0.50,0.50] (p=2.0, n=0.0, P=46.0, N=211.0)
+r8: IF inv-nodes = {3, 14, 25} AND age != <53, 62) THEN class = {0.50} [0.39,0.61] (p=15.0, n=1.0, P=147.0, N=110.0)
+r9: IF age != <50, 60) AND age = (-inf, 61.50) AND breast-quad = {left-lower, left-upper, right-upper} AND inv-nodes = {10, 6, 16} AND age != <47.50, 54) THEN class = {0.70} [0.66,0.74] (p=3.0, n=1.0, P=18.0, N=239.0)
+r10: IF age = <46, 57) AND age = (-inf, 53) AND inv-nodes = {10, 6, 16} AND age != <43, 52) THEN class = {0.80} [0.80,0.80] (p=2.0, n=0.0, P=20.0, N=237.0)
+r11: IF breast-quad = {right-lower, ?} AND age = <38.50, 41) THEN class = {0.50} [0.50,0.50] (p=2.0, n=0.0, P=46.0, N=211.0)
+r12: IF age = <38.50, 41) THEN class = {0.50} [0.39,0.61] (p=9.0, n=1.0, P=147.0, N=110.0)
+r13: IF inv-nodes = {10, 9, 17} THEN class = {0.60} [0.47,0.73] (p=7.0, n=1.0, P=122.0, N=135.0)
+r14: IF inv-nodes = {3, 14, 4} AND age != <58.50, 65) THEN class = {0.50} [0.40,0.60] (p=20.0, n=1.0, P=147.0, N=110.0)
+r15: IF inv-nodes = {3, 4, 5} AND age = <47.50, 49) THEN class = {0.40} [0.40,0.40] (p=2.0, n=0.0, P=38.0, N=219.0)
+r16: IF inv-nodes = {3, 4, 5} AND age = <45.50, 59) THEN class = {0.50} [0.39,0.61] (p=16.0, n=1.0, P=147.0, N=110.0)
+r17: IF age != <44, 51) AND inv-nodes = {3, 4, 5} AND age != <58.50, 63) THEN class = {0.50} [0.40,0.60] (p=21.0, n=1.0, P=147.0, N=110.0)
+r18: IF breast-quad = {left-lower, left-upper, right-upper} AND inv-nodes = {10, 6, 15} THEN class = {0.70} [0.55,0.85] (p=9.0, n=1.0, P=93.0, N=164.0)
+r19: IF age = <41.50, 44) THEN class = {0.50} [0.33,0.67] (p=8.0, n=1.0, P=150.0, N=107.0)
+r20: IF age = <64.50, 68) THEN class = {0.40} [0.20,0.60] (p=14.0, n=1.0, P=198.0, N=59.0)
+r21: IF deg-malig = {3, 2} AND inv-nodes = {10, 11, 16} THEN class = {0.70} [0.57,0.83] (p=7.0, n=1.0, P=89.0, N=168.0)
+r22: IF inv-nodes = {2, 3, 9} AND age = <40.50, 46) THEN class = {0.60} [0.44,0.76] (p=8.0, n=1.0, P=127.0, N=130.0)
+r23: IF deg-malig = {3, 2} AND inv-nodes = {2, 3, 9} AND age = <40.50, 47) THEN class = {0.60} [0.48,0.72] (p=11.0, n=1.0, P=122.0, N=135.0)
+r24: IF node-caps = {no, ?} AND inv-nodes = {2, 3, 9} AND age = <48.50, 60) THEN class = {0.60} [0.60,0.60] (p=2.0, n=0.0, P=51.0, N=206.0)
+r25: IF deg-malig != {3} AND breast-quad = {right-lower, central, right-upper} AND inv-nodes = {2, 3, 9} AND age != <36, 46) THEN class = {0.60} [0.60,0.60] (p=4.0, n=0.0, P=51.0, N=206.0)

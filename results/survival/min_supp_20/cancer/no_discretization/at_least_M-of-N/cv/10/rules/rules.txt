@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999999999335
+r2: 0.9999999999999465
+r3: 0.9999999999999716
+r4: 0.9999999999999757
+r5: 0.9999999999997646
+r6: 0.999999999998332
+r7: 0.9999999999855507
+________________________________
+r1: IF sex < wt.loss = {0} AND age > wt.loss = {1} AND sex < ph.karno = {1} AND wt.loss = (-inf, 50.50) = {1} THEN  (p=90.0, n=0.0, P=206.0, N=0.0)
+r2: IF meal.cal != <1032, 1150) = {1} AND wt.loss != <17.50, 22) = {1} AND age > wt.loss = {1} AND wt.loss != <-9, -5) = {1} AND meal.cal != <892.50, 975) = {1} AND age != <51.50, 54) = {1} AND sex < ph.karno = {1} AND wt.loss = (-inf, 64) = {1} THEN  (p=80.0, n=0.0, P=206.0, N=0.0)
+r3: IF meal.cal != <1032, 1150) = {1} AND wt.loss != <17.50, 22) = {1} AND age > wt.loss = {1} AND meal.cal != <1200, 1300) = {1} AND meal.cal != <325.50, 413) = {1} AND wt.loss != <9.50, 13) = {1} AND meal.cal != <892.50, 975) = {1} AND age != <51.50, 54) = {1} AND wt.loss = (-inf, 64) = {1} THEN  (p=68.0, n=0.0, P=206.0, N=0.0)
+r4: IF sex < wt.loss = {0} AND meal.cal != <1032, 1150) = {1} AND wt.loss != <17.50, 22) = {1} AND age > wt.loss = {1} AND meal.cal != <1200, 1300) = {1} AND wt.loss != <9.50, 13) = {1} AND meal.cal != <892.50, 975) = {1} AND age != <51.50, 54) = {1} AND sex < ph.karno = {1} THEN  (p=69.0, n=0.0, P=206.0, N=0.0)
+r5: IF meal.cal != <1032, 1150) = {1} AND wt.loss != <17.50, 22) = {1} AND age > wt.loss = {1} AND wt.loss != <-9, -5) = {1} AND meal.cal != <1200, 1300) = {1} AND meal.cal != <325.50, 413) = {1} AND wt.loss != <9.50, 13) = {1} AND age != <51.50, 54) = {1} AND sex < ph.karno = {1} THEN  (p=74.0, n=0.0, P=206.0, N=0.0)
+r6: IF sex < wt.loss = {0} AND wt.loss != <-12, -5) = {1} AND age > wt.loss = {0} THEN  (p=74.0, n=0.0, P=206.0, N=0.0)
+r7: IF wt.loss != <-12, -5) = {1} AND age > wt.loss = {0} THEN  (p=100.0, n=0.0, P=206.0, N=0.0)

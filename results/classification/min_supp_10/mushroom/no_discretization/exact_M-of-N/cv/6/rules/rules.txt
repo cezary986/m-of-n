@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.7772417707150965
+r2: 0.9477866061293985
+r3: 0.8250430526921583
+r4: 0.817848680931814
+r5: 0.8125901433448577
+r6: 0.9010114958115016
+r7: 0.9028640804119658
+r8: 0.8740760295670539
+r9: 0.9507534663185632
+________________________________
+r1: IF odor = {f} = {1} THEN class = {p} (p=1954.0, n=0.0, P=3524.0, N=3788.0)
+r2: IF odor != {n} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=3156.0, n=0.0, P=3524.0, N=3788.0)
+r3: IF stalk-surface-below-ring != {f} = {0} AND 2-of-3(population = {v}, cap-surface != {f}, odor != {n}) = {0} AND cap-shape != {b} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=2826.0, n=129.0, P=3524.0, N=3788.0)
+r4: IF stalk-surface-below-ring != {f} = {0} AND cap-shape != {b} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=3183.0, n=250.0, P=3524.0, N=3788.0)
+r5: IF stalk-surface-below-ring != {f} = {0} AND 2-of-3(population = {v}, cap-surface != {f}, odor != {n}) = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {0} THEN class = {p} (p=2832.0, n=153.0, P=3524.0, N=3788.0)
+r6: IF odor != {n} = {1} AND spore-print-color != {r} = {0} AND stalk-surface-below-ring != {y} = {0} AND cap-surface != {g} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3052.0, n=3.0, P=3788.0, N=3524.0)
+r7: IF 2-of-3(stalk-surface-above-ring = {k}, gill-color = {b}, population = {v}) = {0} AND odor != {n} = {1} AND spore-print-color != {r} = {0} AND cap-surface != {g} = {0} AND cap-color != {y} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3066.0, n=3.0, P=3788.0, N=3524.0)
+r8: IF stalk-color-below-ring != {y} = {0} AND spore-print-color != {r} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, odor != {n}) = {1} THEN class = {e} (p=2834.0, n=0.0, P=3788.0, N=3524.0)
+r9: IF spore-print-color != {r} = {0} AND odor = {f} = {0} AND cap-surface != {g} = {0} AND cap-shape != {c} = {0} AND 2-of-3(bruises? != {t}, gill-spacing != {w}, gill-size != {b}) = {1} THEN class = {e} (p=3428.0, n=3.0, P=3788.0, N=3524.0)

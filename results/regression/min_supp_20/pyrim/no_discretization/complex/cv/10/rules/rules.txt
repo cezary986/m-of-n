@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.44602272727272724
+r2: 0.465029761904762
+r3: 0.5553639846743295
+r4: 0.5733869129046969
+r5: 0.46262406947890816
+r6: 0.6261173587081892
+r7: 0.48290598290598286
+________________________________
+r1: IF p1_polarisable > p3_size AND p1_sigma = p3_size THEN class = {0.61} [0.58,0.63] (p=3.0, n=1.0, P=11.0, N=56.0)
+r2: IF p1_sigma > p2_size AND p1_sigma > p3_sigma THEN class = {0.67} [0.57,0.77] (p=15.0, n=3.0, P=35.0, N=32.0)
+r3: IF p1_size < p2_polar AND p1_size = p2_polarisable THEN class = {0.56} [0.54,0.58] (p=4.0, n=1.0, P=9.0, N=58.0)
+r4: IF p1_flex < p2_polar AND p1_flex = p1_pi_acceptor AND p1_h_doner = p3_pi_doner AND p1_polarisable < p3_polar THEN class = {0.59} [0.44,0.73] (p=16.0, n=1.0, P=43.0, N=24.0)
+r5: IF p1_sigma = p3_sigma THEN class = {0.61} [0.52,0.69] (p=21.0, n=5.0, P=36.0, N=31.0)
+r6: IF p3_size > p3_h_doner THEN class = {0.92} [0.81,1.03] (p=13.0, n=4.0, P=16.0, N=51.0)
+r7: IF p1_size > p3_size AND p2_h_doner = p3_size AND p2_size > p3_polarisable THEN class = {0.80} [0.74,0.85] (p=7.0, n=3.0, P=13.0, N=54.0)

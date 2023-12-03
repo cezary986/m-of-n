@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.9779869371309323
+r2: 0.9999999713438378
+r3: 0.9966066582735817
+r4: 0.9995226919883333
+r5: 0.998723620420573
+r6: 0.9610218130485045
+r7: 0.9999513171726878
+r8: 1.0
+r9: 0.972096707779015
+r10: 0.8226997824843102
+r11: 0.9547982694306958
+r12: 0.9993430647291902
+r13: 0.9505856844889774
+r14: 1.0
+r15: 0.9999434590536579
+r16: 1.0
+________________________________
+r1: IF RecipientCMV != DonorCMV AND RecipientRh = RecipientCMV AND Recipientage < ANCrecovery AND Recipientage10 != IIIV AND extcGvHD = RecipientCMV THEN  (p=12.0, n=0.0, P=168.0, N=0.0)
+r2: IF extcGvHD = RecipientRh THEN  (p=100.0, n=0.0, P=168.0, N=0.0)
+r3: IF Rbodymass < PLTrecovery AND Recipientage10 != Riskgroup AND Txpostrelapse = IIIV AND aGvHDIIIIV = Stemcellsource THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r4: IF Stemcellsource = HLAmismatch AND Txpostrelapse != IIIV AND aGvHDIIIIV != Stemcellsource AND aGvHDIIIIV = Txpostrelapse THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r5: IF CD3dCD34 > CD3dkgx10d8 AND Diseasegroup = Recipientage10 AND Stemcellsource = HLAmismatch THEN  (p=25.0, n=0.0, P=168.0, N=0.0)
+r6: IF RecipientRh = DonorCMV AND Recipientage < CD34kgx10d6 AND Txpostrelapse = Recipientage10 AND extcGvHD != RecipientRh AND extcGvHD = RecipientCMV THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r7: IF Diseasegroup != Recipientgender AND Diseasegroup != aGvHDIIIIV AND Diseasegroup = Recipientage10 AND Rbodymass > PLTrecovery AND Txpostrelapse != IIIV THEN  (p=5.0, n=0.0, P=168.0, N=0.0)
+r8: IF ABOmatch != extcGvHD AND Recipientage < ANCrecovery AND extcGvHD != DonorCMV AND Antigen != RecipientABO AND CD34kgx10d6 < Rbodymass AND HLAgrI != {5} AND Recipientage != <9.25, 14.10) AND HLAmatch = {0, 3, 2} THEN  (p=15.0, n=0.0, P=168.0, N=0.0)
+r9: IF Recipientgender != Donorage35 AND Recipientgender != HLAmismatch AND Recipientgender != Riskgroup AND Riskgroup = IIIV THEN  (p=18.0, n=0.0, P=168.0, N=0.0)
+r10: IF Recipientgender = Donorage35 AND Recipientgender = Recipientage10 AND Recipientgender = Stemcellsource AND aGvHDIIIIV = Gendermatch AND aGvHDIIIIV = Relapse AND extcGvHD != RecipientRh THEN  (p=3.0, n=0.0, P=168.0, N=0.0)
+r11: IF Riskgroup != IIIV AND Stemcellsource = IIIV AND aGvHDIIIIV = IIIV THEN  (p=33.0, n=0.0, P=168.0, N=0.0)
+r12: IF PLTrecovery > time_to_aGvHD_III_IV AND aGvHDIIIIV = Gendermatch AND aGvHDIIIIV = Txpostrelapse THEN  (p=16.0, n=0.0, P=168.0, N=0.0)
+r13: IF Relapse = Recipientage10 AND Stemcellsource != Recipientage10 AND aGvHDIIIIV != Donorage35 AND aGvHDIIIIV != IIIV THEN  (p=22.0, n=0.0, P=168.0, N=0.0)
+r14: IF extcGvHD != RecipientRh AND ABOmatch != extcGvHD THEN  (p=47.0, n=0.0, P=168.0, N=0.0)
+r15: IF Donorage > Rbodymass AND Relapse = Recipientage10 AND Txpostrelapse = Recipientage10 AND aGvHDIIIIV != Recipientage10 THEN  (p=38.0, n=0.0, P=168.0, N=0.0)
+r16: IF extcGvHD = {1, 0} THEN  (p=139.0, n=0.0, P=168.0, N=0.0)

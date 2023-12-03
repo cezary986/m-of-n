@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 0.9999893834113527
+r5: 0.9997866155445825
+r6: 1.0
+________________________________
+r1: IF znquartiles = {?, Q4, Q3} THEN  (p=325.0, n=0.0, P=388.0, N=0.0)
+r2: IF pq2 = niq1 AND pq2 = znq4 AND pq3 = feq1 AND sq1 = feq2 AND sqt < feqt AND sqt > cuq2 THEN  (p=12.0, n=0.0, P=388.0, N=0.0)
+r3: IF znqt = znq1 THEN  (p=39.0, n=0.0, P=388.0, N=0.0)
+r4: IF sq3 = niq2 AND sqt < cuqt AND znq1 < stdagepill AND znq2 > znq4 THEN  (p=3.0, n=0.0, P=388.0, N=0.0)
+r5: IF sqt > cuqt AND znq3 > stdagepill AND znq4 > stdagepill AND znqt > niq2 AND znqt > pq1 THEN  (p=9.0, n=0.0, P=388.0, N=0.0)
+r6: IF znq3 = znq4 THEN  (p=63.0, n=0.0, P=388.0, N=0.0)

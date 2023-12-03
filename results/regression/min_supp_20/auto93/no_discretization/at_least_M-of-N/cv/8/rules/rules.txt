@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.79
+r2: 0.6698717948717949
+r3: 0.7565789473684211
+r4: 0.8618233618233619
+r5: 0.5125000000000001
+r6: 0.5672540927494278
+r7: 0.6535714285714285
+r8: 0.5367916258443768
+r9: 0.5217592592592593
+r10: 0.5138574660633484
+r11: 0.4018867924528303
+________________________________
+r1: IF 2-of-3(Highway_MPG < U-turn_space, Drive_train_type != Air_Bags_standard, Rear_seat_room > Luggage_capacity) = {1} AND 2-of-3(Horsepower != <87.50, 93), Highway_MPG < U-turn_space, Rear_seat_room > Luggage_capacity) = {1} AND Highway_MPG > U-turn_space = {1} THEN class = {0.018} [0.014,0.023] (p=4.0, n=1.0, P=4.0, N=80.0)
+r2: IF 2-of-3(Engine_revolutions_per_mile < Weight, Horsepower > Wheelbase, Rear_seat_room > Luggage_capacity) = {0} AND City_MPG < Rear_seat_room = {0} THEN class = {0.029} [-9.3E-4,0.06] (p=10.0, n=3.0, P=12.0, N=72.0)
+r3: IF Engine_revolutions_per_mile > Weight = {1} THEN class = {0.044} [-0.039,0.13] (p=18.0, n=1.0, P=28.0, N=56.0)
+r4: IF Weight = <1770, 2810) = {1} THEN class = {0.068} [-0.0045,0.14] (p=25.0, n=1.0, P=30.0, N=54.0)
+r5: IF Highway_MPG > Rear_seat_room = {0} AND Fuel_tank_capacity = (-inf, 16.45) = {0} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.22} [0.16,0.29] (p=9.0, n=2.0, P=24.0, N=60.0)
+r6: IF Manufacturer != {Volvo} = {0} AND Number_of_cylinders < Passenger_capacity = {1} AND Engine_revolutions_per_mile > Weight = {0} THEN class = {0.16} [0.07,0.26] (p=25.0, n=4.0, P=43.0, N=41.0)
+r7: IF Highway_MPG > Rear_seat_room = {1} AND Fuel_tank_capacity = (-inf, 16.45) = {1} AND Engine_revolutions_per_mile > Weight = {0} THEN class = {0.15} [0.067,0.24] (p=19.0, n=1.0, P=42.0, N=42.0)
+r8: IF Manufacturer != {Volvo} = {0} AND Highway_MPG > Rear_seat_room = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.38} [0.19,0.56] (p=19.0, n=3.0, P=41.0, N=43.0)
+r9: IF Drive_train_type != Air_Bags_standard = {1} AND Manufacturer != {Volvo} = {0} AND Rear_seat_room > Luggage_capacity = {1} AND Fuel_tank_capacity = (-inf, 16.45) = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.41} [0.22,0.61] (p=13.0, n=2.0, P=36.0, N=48.0)
+r10: IF Drive_train_type != Air_Bags_standard = {1} AND Fuel_tank_capacity = (-inf, 16.45) = {0} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.41} [0.23,0.60] (p=14.0, n=3.0, P=32.0, N=52.0)
+r11: IF City_MPG < Rear_seat_room = {1} AND Horsepower > Wheelbase = {1} AND Weight = <1770, 2810) = {0} THEN class = {0.25} [0.085,0.41] (p=40.0, n=10.0, P=53.0, N=31.0)

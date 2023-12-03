@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999998949996383
+r2: 0.9862547161877983
+r3: 0.9999999896465547
+r4: 0.9999999999999993
+r5: 0.9803050664119929
+________________________________
+r1: IF CHF = MITYPE = {0} THEN  (p=320.0, n=0.0, P=433.0, N=0.0)
+r2: IF MIORD < MITYPE = {1} AND 2-of-3(AGE = (-inf, 87.50), SHO = (-inf, 0.50), CPK != <1050.50, 1115)) = {0} AND CHF = MITYPE = {1} AND SHO < CHF = {1} AND SEX = CHF = {0} THEN  (p=31.0, n=0.0, P=433.0, N=0.0)
+r3: IF CHF = MITYPE = {1} AND SEX < MITYPE = {0} THEN  (p=46.0, n=0.0, P=433.0, N=0.0)
+r4: IF SHO = MIORD = {0} AND CPK != <81.50, 99) = {1} AND CHF = MITYPE = {1} THEN  (p=45.0, n=0.0, P=433.0, N=0.0)
+r5: IF CPK != <261, 301) = {1} AND SHO = MIORD = {1} AND CPK != <81.50, 99) = {1} AND CHF = MITYPE = {1} AND SHO < CHF = {1} AND SEX = CHF = {0} THEN  (p=32.0, n=0.0, P=433.0, N=0.0)

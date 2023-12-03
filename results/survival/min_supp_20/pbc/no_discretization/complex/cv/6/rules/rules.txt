@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999870077102
+r2: 1.0
+r3: 1.0
+r4: 0.9997191740819082
+r5: 1.0
+r6: 0.9999999999782191
+r7: 1.0
+________________________________
+r1: IF age < ast AND hepato = edema AND age < trig AND chol < alk.phos AND copper < trig AND ast = (-inf, 210.42) AND stage = (-inf, 3.50) THEN  (p=65.0, n=0.0, P=376.0, N=0.0)
+r2: IF bili = (-inf, 2.05) THEN  (p=234.0, n=0.0, P=376.0, N=0.0)
+r3: IF bili = (-inf, 3.05) THEN  (p=269.0, n=0.0, P=376.0, N=0.0)
+r4: IF ast < trig AND spiders > edema AND trig > platelet AND albumin = (-inf, 3.40) THEN  (p=5.0, n=0.0, P=376.0, N=0.0)
+r5: IF bili > stage THEN  (p=101.0, n=0.0, P=376.0, N=0.0)
+r6: IF albumin = <3.38, inf) AND albumin != <3.43, 3.50) AND copper = (-inf, 135) THEN  (p=141.0, n=0.0, P=376.0, N=0.0)
+r7: IF bili = <2.50, inf) THEN  (p=124.0, n=0.0, P=376.0, N=0.0)

@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.999975500868139
+r2: 0.9999892722584431
+r3: 0.9994344579306075
+r4: 0.9998711024736358
+r5: 0.997805240560724
+r6: 0.998033857531236
+r7: 0.9999978748363635
+________________________________
+r1: IF npartner < condom = {1} AND 2-of-3(os30d = rs30d, iinfct > npartner, npartner < condom) = {1} AND iinfct > npartner = {1} THEN  (p=101.0, n=0.0, P=789.0, N=0.0)
+r2: IF discharge > vagina = {0} AND os30d = discharge = {0} AND rs30d < discharge = {0} AND dysuria = dchexam = {0} AND condom = <2.50, inf) = {0} THEN  (p=48.0, n=0.0, P=789.0, N=0.0)
+r3: IF abdpain < discharge = {1} AND os30d = discharge = {1} AND rs30d < discharge = {1} THEN  (p=54.0, n=0.0, P=789.0, N=0.0)
+r4: IF os30d = discharge = {0} AND 2-of-3(age != <20.50, 23), os12m = abdpain, os30d = abnode) = {0} AND rs30d < discharge = {0} THEN  (p=95.0, n=0.0, P=789.0, N=0.0)
+r5: IF condom = <2.50, inf) = {1} THEN  (p=282.0, n=0.0, P=789.0, N=0.0)
+r6: IF npartner > dchexam = {1} AND os30d = rs30d = {1} AND npartner < condom = {0} AND iinfct > npartner = {0} THEN  (p=66.0, n=0.0, P=789.0, N=0.0)
+r7: IF os30d > dysuria = {0} THEN  (p=632.0, n=0.0, P=789.0, N=0.0)

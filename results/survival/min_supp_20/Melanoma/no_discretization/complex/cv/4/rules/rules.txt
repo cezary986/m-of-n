@@ -1,0 +1,38 @@
+Rules qualities:
+r1: 0.9999999999849872
+r2: 0.9999999999994226
+r3: 0.9999999999911731
+r4: 0.9999999999782787
+r5: 0.9999999999802719
+r6: 0.999999999968465
+r7: 0.9997572252454235
+r8: 0.9999997052358562
+r9: 1.0
+r10: 0.9999999999999997
+r11: 0.9999999999336606
+r12: 1.0
+r13: 0.9999999999999966
+r14: 0.9999999999062535
+r15: 1.0
+r16: 0.9999999999999951
+r17: 0.9999999995888
+r18: 0.9999999958713688
+________________________________
+r1: IF age != <63.50, 68) AND age != <25.50, 29) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <55.50, 59) THEN  (p=83.0, n=0.0, P=184.0, N=0.0)
+r2: IF thick != <6.91, 12.56) AND epicel != ulcer AND ulcer != {not present} AND thick != <0.13, 3.54) AND ici = <1.50, inf) THEN  (p=16.0, n=0.0, P=184.0, N=0.0)
+r3: IF age != <63.50, 68) AND thick = (-inf, 2.98) AND age = <55.50, 59) AND thick != <2.17, 2.58) THEN  (p=78.0, n=0.0, P=184.0, N=0.0)
+r4: IF age != <63.50, 68) AND age = <55.50, 59) AND thick = (-inf, 3.06) THEN  (p=82.0, n=0.0, P=184.0, N=0.0)
+r5: IF age != <63.50, 67) AND age != <25.50, 29) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <55.50, 59) THEN  (p=86.0, n=0.0, P=184.0, N=0.0)
+r6: IF age != <63.50, 66) AND thick = (-inf, 2.98) AND age = (-inf, 69.50) AND age != <55.50, 59) AND thick != <2.17, 2.58) THEN  (p=82.0, n=0.0, P=184.0, N=0.0)
+r7: IF ici < thick AND age = <63, inf) THEN  (p=34.0, n=0.0, P=184.0, N=0.0)
+r8: IF age != <38.50, 41) AND thick != <1.37, 1.62) AND age != <42.50, 45) AND thick != <1.46, 1.94) AND age = (-inf, 66) AND thick = (-inf, 2.02) AND age != <64.50, 68) AND thick != <1.32, 1.45) AND ici = (-inf, 2.50) THEN  (p=56.0, n=0.0, P=184.0, N=0.0)
+r9: IF thick != <6.91, 12.56) AND invasion = {level.1, level.2} AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <53.50, 60) THEN  (p=24.0, n=0.0, P=184.0, N=0.0)
+r10: IF thick != <6.91, 12.56) AND age != <58, 66) AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <49.50, 53) THEN  (p=22.0, n=0.0, P=184.0, N=0.0)
+r11: IF age != <65.50, 68) AND age != <62.50, 65) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <55.50, 59) THEN  (p=87.0, n=0.0, P=184.0, N=0.0)
+r12: IF thick != <6.91, 12.08) AND invasion = {level.1, level.2} AND sex != {Female} AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <53.50, 60) THEN  (p=17.0, n=0.0, P=184.0, N=0.0)
+r13: IF thick != <6.91, 12.08) AND age != <47.50, 52) AND thick != <3.96, 4.19) AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <53.50, 66) THEN  (p=20.0, n=0.0, P=184.0, N=0.0)
+r14: IF age != <25.50, 29) AND thick != <1.32, 1.45) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <63.50, 68) THEN  (p=96.0, n=0.0, P=184.0, N=0.0)
+r15: IF thick != <7.81, 12.56) AND thick != <6.91, 7.41) AND age != <58.50, 66) AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <49.50, 53) THEN  (p=25.0, n=0.0, P=184.0, N=0.0)
+r16: IF thick != <7.81, 12.56) AND age != <54.50, 66) AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <49.50, 53) THEN  (p=26.0, n=0.0, P=184.0, N=0.0)
+r17: IF ulcer != {not present} AND thick != <0.13, 3.54) THEN  (p=40.0, n=0.0, P=184.0, N=0.0)
+r18: IF age != <38.50, 41) AND age != <42.50, 45) AND thick != <1.37, 1.78) AND thick = (-inf, 2.02) AND age = <63.50, 68) AND thick != <1.32, 1.45) AND ici = (-inf, 2.50) THEN  (p=58.0, n=0.0, P=184.0, N=0.0)

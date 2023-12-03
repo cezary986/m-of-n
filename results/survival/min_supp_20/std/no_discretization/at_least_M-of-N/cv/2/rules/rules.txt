@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999892722584431
+r2: 0.9994344579306075
+r3: 0.9999962404074307
+r4: 0.9999978748363635
+r5: 0.9053210490555988
+r6: 0.7024544858464593
+r7: 0.9999978748363635
+________________________________
+r1: IF discharge > vagina = {0} AND os30d = discharge = {0} AND rs30d < discharge = {0} AND dysuria = dchexam = {0} AND condom = <2.50, inf) = {0} THEN  (p=48.0, n=0.0, P=789.0, N=0.0)
+r2: IF abdpain < discharge = {1} AND os30d = discharge = {1} AND rs30d < discharge = {1} THEN  (p=54.0, n=0.0, P=789.0, N=0.0)
+r3: IF 2-of-3(yschool != <7.50, 10), os12m = abdpain, os30d = abnode) = {0} AND dysuria = dchexam = {0} THEN  (p=145.0, n=0.0, P=789.0, N=0.0)
+r4: IF os30d > dysuria = {1} THEN  (p=157.0, n=0.0, P=789.0, N=0.0)
+r5: IF rs30d = discharge = {1} AND 2-of-3(yschool != <7.50, 10), os12m = abdpain, os30d = abnode) = {0} AND os30d = dysuria = {1} AND dysuria = dchexam = {1} AND condom = <2.50, inf) = {0} THEN  (p=4.0, n=0.0, P=789.0, N=0.0)
+r6: IF rs30d = discharge = {1} AND 2-of-3(yschool != <7.50, 10), os12m = abdpain, os30d = abnode) = {0} AND os30d = dysuria = {1} AND rs30d < dysuria = {1} THEN  (p=4.0, n=0.0, P=789.0, N=0.0)
+r7: IF os30d > dysuria = {0} THEN  (p=632.0, n=0.0, P=789.0, N=0.0)

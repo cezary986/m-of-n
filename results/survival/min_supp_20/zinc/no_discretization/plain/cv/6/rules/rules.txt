@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.9999999999999862
+r2: 0.9999999999983292
+r3: 0.9999999999081688
+r4: 0.9999999999956558
+r5: 0.999999999999989
+r6: 1.0
+r7: 1.0
+r8: 0.9999999999991243
+r9: 0.9999999999999962
+r10: 0.9147233493362005
+r11: 0.9999999999996538
+r12: 0.9999999999999158
+r13: 0.9991733564837794
+r14: 1.0
+________________________________
+r1: IF zncent = (-inf, -0.80) THEN  (p=21.0, n=0.0, P=388.0, N=0.0)
+r2: IF pq2 = (-inf, 0.50) AND agepill = (-inf, 60.50) AND drink = {Never} AND niq3 = (-inf, 0.50) AND basehist = {Esophagitis} THEN  (p=19.0, n=0.0, P=388.0, N=0.0)
+r3: IF sevdysp = {Severe Dysplasia} AND znquartiles = {Q3} THEN  (p=5.0, n=0.0, P=388.0, N=0.0)
+r4: IF cacent = (-inf, -0.34) AND zncent = (-inf, -0.60) AND sex = {Female} THEN  (p=15.0, n=0.0, P=388.0, N=0.0)
+r5: IF zncent = (-inf, -0.60) AND fecent = (-inf, 0.93) AND agepill = <51, 62.50) THEN  (p=18.0, n=0.0, P=388.0, N=0.0)
+r6: IF znquartiles = {Q1} THEN  (p=39.0, n=0.0, P=388.0, N=0.0)
+r7: IF scent = (-inf, 0.15) THEN  (p=75.0, n=0.0, P=388.0, N=0.0)
+r8: IF cacent = <-1.17, inf) AND cucent = <-0.94, 0.85) AND anyhist = {No Family History} AND fecent = (-inf, 1.30) AND agepill = <52, inf) THEN  (p=23.0, n=0.0, P=388.0, N=0.0)
+r9: IF cacent = (-inf, 1.13) AND sex = {Female} AND fecent = (-inf, 1.05) AND agepill = <49.50, inf) AND feq3 = (-inf, 0.50) THEN  (p=26.0, n=0.0, P=388.0, N=0.0)
+r10: IF nicent = <-0.69, 0.028) AND fecent = (-inf, 0.83) AND agepill = (-inf, 53.50) THEN  (p=12.0, n=0.0, P=388.0, N=0.0)
+r11: IF cucent = (-inf, -0.0043) THEN  (p=58.0, n=0.0, P=388.0, N=0.0)
+r12: IF niq3 = (-inf, 0.50) THEN  (p=81.0, n=0.0, P=388.0, N=0.0)
+r13: IF moddysp = {Moderate Dysplasia} AND agepill = <49, inf) THEN  (p=9.0, n=0.0, P=388.0, N=0.0)
+r14: IF znquartiles = {?} THEN  (p=278.0, n=0.0, P=388.0, N=0.0)

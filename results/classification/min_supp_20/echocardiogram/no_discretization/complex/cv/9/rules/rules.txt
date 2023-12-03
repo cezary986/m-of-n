@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.8
+r2: 0.80625
+r3: 0.8125
+r4: 0.7661184210526315
+r5: 0.83125
+r6: 0.8237883771929825
+r7: 0.8222456794972505
+r8: 0.8371126910016977
+r9: 0.5625
+r10: 0.8552631578947368
+r11: 0.8521646859083192
+r12: 0.7747607655502392
+r13: 0.5394736842105263
+r14: 0.6608253588516745
+r15: 0.6447368421052632
+________________________________
+r1: IF epss = <4.90, 28.60) AND survival = <22.50, inf) THEN class = {0} (p=48.0, n=0.0, P=80.0, N=38.0)
+r2: IF survival > epss AND survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=49.0, n=0.0, P=80.0, N=38.0)
+r3: IF wall-motion-score = (-inf, 20.50) AND survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=50.0, n=0.0, P=80.0, N=38.0)
+r4: IF survival = <22.50, inf) THEN class = {0} (p=57.0, n=2.0, P=80.0, N=38.0)
+r5: IF epss = (-inf, 18.90) AND survival = <15.50, inf) AND lvdd = (-inf, 5.80) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=53.0, n=0.0, P=80.0, N=38.0)
+r6: IF epss = (-inf, 18.90) AND survival = <11, inf) AND lvdd = (-inf, 5.80) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=59.0, n=1.0, P=80.0, N=38.0)
+r7: IF survival = <11, inf) AND lvdd = (-inf, 5.80) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=65.0, n=2.0, P=80.0, N=38.0)
+r8: IF mult = <0.43, inf) AND survival = <8.25, inf) AND age-at-heart-attack = (-inf, 73.50) AND pericardial-effusion != {1} THEN class = {0} (p=61.0, n=1.0, P=80.0, N=38.0)
+r9: IF epss != <10.65, 30.10) AND wall-motion-score = <10.50, 15) AND lvdd = <4.57, inf) THEN class = {0} (p=10.0, n=0.0, P=80.0, N=38.0)
+r10: IF mult < group AND survival = (-inf, 8.25) THEN class = {1} (p=27.0, n=0.0, P=38.0, N=80.0)
+r11: IF survival = (-inf, 8.25) THEN class = {1} (p=30.0, n=1.0, P=38.0, N=80.0)
+r12: IF age-at-heart-attack > group AND survival = (-inf, 16) AND alive-at-1 != {0} THEN class = {1} (p=30.0, n=3.0, P=38.0, N=80.0)
+r13: IF lvdd = <5.79, 5.95) THEN class = {1} (p=3.0, n=0.0, P=38.0, N=80.0)
+r14: IF mult < group AND fractional-shortening = (-inf, 0.19) AND survival = (-inf, 21.50) THEN class = {1} (p=20.0, n=2.0, P=38.0, N=80.0)
+r15: IF epss > group AND fractional-shortening = <0.15, 0.23) AND mult = <0.79, 0.96) AND age-at-heart-attack = <51.50, inf) THEN class = {1} (p=11.0, n=0.0, P=38.0, N=80.0)

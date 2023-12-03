@@ -1,0 +1,98 @@
+Rules qualities:
+r1: 0.5293072824156305
+r2: 0.5248667850799289
+r3: 0.5150976909413855
+r4: 0.5159857904085258
+r5: 0.5150976909413855
+r6: 0.5657193605683837
+r7: 0.5657193605683837
+r8: 0.5701598579040853
+r9: 0.5177619893428064
+r10: 0.5301953818827708
+r11: 0.5293072824156305
+r12: 0.5710479573712256
+r13: 0.5159857904085258
+r14: 0.5630550621669627
+r15: 0.5612788632326821
+r16: 0.5603907637655418
+r17: 0.5612788632326821
+r18: 0.5769230769230769
+r19: 0.5083612040133779
+r20: 0.5167224080267558
+r21: 0.5133779264214047
+r22: 0.5133779264214047
+r23: 0.5133779264214047
+r24: 0.5702341137123745
+r25: 0.5083612040133779
+r26: 0.5066889632107023
+r27: 0.5133779264214047
+r28: 0.5133779264214047
+r29: 0.5083612040133779
+r30: 0.5133779264214047
+r31: 0.5117056856187291
+r32: 0.5066889632107023
+r33: 0.5117056856187291
+r34: 0.5100334448160535
+r35: 0.520066889632107
+r36: 0.5568561872909699
+r37: 0.5050167224080268
+r38: 0.5568561872909699
+r39: 0.5535117056856187
+r40: 0.29984297371740415
+r41: 0.5066889632107023
+r42: 0.5568561872909699
+r43: 0.5066889632107023
+r44: 0.5100334448160535
+r45: 0.27240868934614215
+r46: 0.5518394648829431
+r47: 0.5083612040133779
+r48: 0.5501672240802675
+________________________________
+r1: IF middle-middle-square = {x} AND top-left-square = {b} AND middle-left-square = {o} THEN class = {positive} (p=33.0, n=0.0, P=563.0, N=299.0)
+r2: IF middle-middle-square = {x} AND top-left-square = {b} AND bottom-right-square = {b} THEN class = {positive} (p=28.0, n=0.0, P=563.0, N=299.0)
+r3: IF middle-middle-square = {x} AND top-left-square = {b} AND bottom-right-square = {x} THEN class = {positive} (p=17.0, n=0.0, P=563.0, N=299.0)
+r4: IF middle-middle-square = {x} AND top-left-square = {b} AND top-middle-square = {o} AND top-right-square = {x} THEN class = {positive} (p=18.0, n=0.0, P=563.0, N=299.0)
+r5: IF middle-middle-square = {x} AND top-left-square = {b} AND top-middle-square = {o} AND middle-right-square = {x} THEN class = {positive} (p=17.0, n=0.0, P=563.0, N=299.0)
+r6: IF middle-middle-square = {x} AND top-middle-square = {x} AND bottom-middle-square = {x} THEN class = {positive} (p=74.0, n=0.0, P=563.0, N=299.0)
+r7: IF middle-middle-square = {x} AND middle-left-square = {x} AND middle-right-square = {x} THEN class = {positive} (p=74.0, n=0.0, P=563.0, N=299.0)
+r8: IF middle-middle-square = {x} AND bottom-left-square = {x} AND top-right-square = {x} THEN class = {positive} (p=79.0, n=0.0, P=563.0, N=299.0)
+r9: IF middle-middle-square = {x} AND top-left-square = {x} AND bottom-right-square = {b} THEN class = {positive} (p=20.0, n=0.0, P=563.0, N=299.0)
+r10: IF middle-middle-square = {x} AND top-middle-square = {o} AND top-right-square = {b} THEN class = {positive} (p=34.0, n=0.0, P=563.0, N=299.0)
+r11: IF middle-middle-square = {x} AND middle-right-square = {o} AND top-right-square = {b} THEN class = {positive} (p=33.0, n=0.0, P=563.0, N=299.0)
+r12: IF middle-middle-square = {x} AND top-left-square = {x} AND bottom-right-square = {x} THEN class = {positive} (p=80.0, n=0.0, P=563.0, N=299.0)
+r13: IF middle-middle-square = {x} AND bottom-left-square = {b} AND top-right-square = {x} THEN class = {positive} (p=18.0, n=0.0, P=563.0, N=299.0)
+r14: IF bottom-right-square = {x} AND bottom-middle-square = {x} AND bottom-left-square = {x} THEN class = {positive} (p=71.0, n=0.0, P=563.0, N=299.0)
+r15: IF top-left-square = {x} AND middle-left-square = {x} AND bottom-left-square = {x} THEN class = {positive} (p=69.0, n=0.0, P=563.0, N=299.0)
+r16: IF top-left-square = {x} AND top-middle-square = {x} AND top-right-square = {x} THEN class = {positive} (p=68.0, n=0.0, P=563.0, N=299.0)
+r17: IF bottom-right-square = {x} AND middle-right-square = {x} AND top-right-square = {x} THEN class = {positive} (p=69.0, n=0.0, P=563.0, N=299.0)
+r18: IF middle-middle-square = {o} AND top-left-square = {o} AND bottom-right-square = {o} THEN class = {negative} (p=46.0, n=0.0, P=299.0, N=563.0)
+r19: IF middle-middle-square = {o} AND top-left-square = {b} AND bottom-right-square = {o} THEN class = {negative} (p=5.0, n=0.0, P=299.0, N=563.0)
+r20: IF middle-middle-square = {o} AND top-middle-square = {x} AND bottom-right-square = {o} AND top-right-square = {o} THEN class = {negative} (p=10.0, n=0.0, P=299.0, N=563.0)
+r21: IF middle-middle-square = {o} AND top-middle-square = {o} AND bottom-right-square = {o} AND middle-right-square = {x} AND top-right-square = {x} THEN class = {negative} (p=8.0, n=0.0, P=299.0, N=563.0)
+r22: IF middle-middle-square = {o} AND bottom-right-square = {o} AND middle-left-square = {x} AND bottom-left-square = {o} AND middle-right-square = {x} THEN class = {negative} (p=8.0, n=0.0, P=299.0, N=563.0)
+r23: IF middle-middle-square = {o} AND bottom-right-square = {o} AND bottom-middle-square = {x} AND middle-left-square = {o} AND bottom-left-square = {x} THEN class = {negative} (p=8.0, n=0.0, P=299.0, N=563.0)
+r24: IF middle-middle-square = {o} AND bottom-left-square = {o} AND top-right-square = {o} THEN class = {negative} (p=42.0, n=0.0, P=299.0, N=563.0)
+r25: IF middle-middle-square = {o} AND bottom-left-square = {b} AND top-right-square = {o} THEN class = {negative} (p=5.0, n=0.0, P=299.0, N=563.0)
+r26: IF middle-middle-square = {o} AND top-middle-square = {x} AND bottom-middle-square = {o} AND middle-right-square = {x} AND top-right-square = {o} THEN class = {negative} (p=4.0, n=0.0, P=299.0, N=563.0)
+r27: IF middle-middle-square = {o} AND top-left-square = {x} AND top-middle-square = {x} AND middle-left-square = {o} AND top-right-square = {o} THEN class = {negative} (p=8.0, n=0.0, P=299.0, N=563.0)
+r28: IF middle-middle-square = {o} AND top-left-square = {o} AND middle-left-square = {x} AND middle-right-square = {x} AND top-right-square = {o} THEN class = {negative} (p=8.0, n=0.0, P=299.0, N=563.0)
+r29: IF middle-middle-square = {o} AND top-left-square = {o} AND bottom-right-square = {b} THEN class = {negative} (p=5.0, n=0.0, P=299.0, N=563.0)
+r30: IF middle-middle-square = {o} AND top-left-square = {o} AND top-middle-square = {x} AND middle-right-square = {o} AND top-right-square = {x} THEN class = {negative} (p=8.0, n=0.0, P=299.0, N=563.0)
+r31: IF middle-middle-square = {o} AND top-left-square = {o} AND bottom-middle-square = {o} AND middle-left-square = {x} AND bottom-left-square = {x} THEN class = {negative} (p=7.0, n=0.0, P=299.0, N=563.0)
+r32: IF middle-middle-square = {o} AND bottom-left-square = {o} AND top-right-square = {b} THEN class = {negative} (p=4.0, n=0.0, P=299.0, N=563.0)
+r33: IF middle-middle-square = {o} AND top-left-square = {x} AND top-middle-square = {o} AND middle-left-square = {x} AND bottom-left-square = {o} THEN class = {negative} (p=7.0, n=0.0, P=299.0, N=563.0)
+r34: IF middle-middle-square = {o} AND top-left-square = {b} AND top-middle-square = {x} AND bottom-middle-square = {b} THEN class = {negative} (p=6.0, n=0.0, P=299.0, N=563.0)
+r35: IF middle-middle-square = {o} AND top-left-square = {b} AND bottom-right-square = {b} THEN class = {negative} (p=12.0, n=0.0, P=299.0, N=563.0)
+r36: IF middle-middle-square = {o} AND middle-left-square = {o} AND middle-right-square = {o} THEN class = {negative} (p=34.0, n=0.0, P=299.0, N=563.0)
+r37: IF middle-middle-square = {o} AND top-left-square = {b} AND middle-left-square = {x} AND bottom-left-square = {b} THEN class = {negative} (p=3.0, n=0.0, P=299.0, N=563.0)
+r38: IF middle-middle-square = {o} AND top-middle-square = {o} AND bottom-middle-square = {o} THEN class = {negative} (p=34.0, n=0.0, P=299.0, N=563.0)
+r39: IF bottom-right-square = {o} AND middle-right-square = {o} AND top-right-square = {o} THEN class = {negative} (p=32.0, n=0.0, P=299.0, N=563.0)
+r40: IF middle-middle-square = {b} AND bottom-right-square = {o} AND top-right-square = {o} THEN class = {negative} (p=13.0, n=5.0, P=299.0, N=563.0)
+r41: IF top-left-square = {x} AND middle-middle-square = {x} AND top-middle-square = {x} AND bottom-right-square = {o} AND bottom-middle-square = {o} AND top-right-square = {o} THEN class = {negative} (p=4.0, n=0.0, P=299.0, N=563.0)
+r42: IF top-left-square = {o} AND top-middle-square = {o} AND top-right-square = {o} THEN class = {negative} (p=34.0, n=0.0, P=299.0, N=563.0)
+r43: IF top-left-square = {o} AND middle-middle-square = {b} AND bottom-right-square = {o} THEN class = {negative} (p=4.0, n=0.0, P=299.0, N=563.0)
+r44: IF top-left-square = {o} AND top-middle-square = {x} AND bottom-right-square = {o} AND bottom-left-square = {o} AND middle-right-square = {x} AND top-right-square = {x} THEN class = {negative} (p=6.0, n=0.0, P=299.0, N=563.0)
+r45: IF top-left-square = {o} AND bottom-right-square = {o} AND bottom-left-square = {o} AND top-right-square = {x} THEN class = {negative} (p=9.0, n=4.0, P=299.0, N=563.0)
+r46: IF bottom-right-square = {o} AND bottom-middle-square = {o} AND bottom-left-square = {o} THEN class = {negative} (p=31.0, n=0.0, P=299.0, N=563.0)
+r47: IF top-left-square = {x} AND top-middle-square = {o} AND bottom-right-square = {o} AND bottom-left-square = {o} AND top-right-square = {x} THEN class = {negative} (p=5.0, n=0.0, P=299.0, N=563.0)
+r48: IF top-left-square = {o} AND middle-left-square = {o} AND bottom-left-square = {o} THEN class = {negative} (p=30.0, n=0.0, P=299.0, N=563.0)

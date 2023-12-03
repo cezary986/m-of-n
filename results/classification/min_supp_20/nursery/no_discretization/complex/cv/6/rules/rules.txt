@@ -1,0 +1,276 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 0.5454545454545454
+r4: 0.5454545454545454
+r5: 0.5226621516019797
+r6: 0.5342537119041417
+r7: 0.5187903860795118
+r8: 0.5171715832227529
+r9: 0.5084589393118175
+r10: 0.49265578012972155
+r11: 0.4913950915883327
+r12: 0.5444126074498568
+r13: 0.5442823651992706
+r14: 0.4610987579979717
+r15: 0.452419206460904
+r16: 0.5259182078666319
+r17: 0.4996311890498325
+r18: 0.4985090083142727
+r19: 0.4964208617805475
+r20: 0.4392220404661244
+r21: 0.4387357117185044
+r22: 0.43635617212221156
+r23: 0.4354727202533918
+r24: 0.5342537119041417
+r25: 0.5339932274029695
+r26: 0.5018346623121562
+r27: 0.4991465414538829
+r28: 0.4984148924355654
+r29: 0.48628985108351497
+r30: 0.5449335764522011
+r31: 0.5129508819490812
+r32: 0.5342537119041417
+r33: 0.5139968783786835
+r34: 0.5135738782942946
+r35: 0.5051793685599711
+r36: 0.5230528783537379
+r37: 0.501356175020852
+r38: 0.486456178239239
+r39: 0.4854091265825534
+r40: 0.47997151316455416
+r41: 0.511591560302162
+r42: 0.5041677520187549
+r43: 0.5056004167752018
+r44: 0.485841190607568
+r45: 0.4848965130094052
+r46: 0.48018377056724865
+r47: 0.48018377056724865
+r48: 0.47251077341783604
+r49: 0.5341234696535556
+r50: 0.45753915874189094
+r51: 0.5261786923678041
+r52: 0.49151133240735123
+r53: 0.4896689782932357
+r54: 0.4515710543309554
+r55: 0.5178431883302943
+r56: 0.4916561990210431
+r57: 0.45189844955040004
+r58: 0.4396815444876059
+r59: 0.4341528153611155
+r60: 0.43399814308468354
+r61: 0.41341113347850283
+r62: 0.5230528783537379
+r63: 0.5229226361031518
+r64: 0.49225213794810135
+r65: 0.4551989565225097
+r66: 0.5304766866371451
+r67: 0.523183120604324
+r68: 0.5032189732206263
+r69: 0.5032189732206263
+r70: 0.46167015985378634
+r71: 0.5153685855691587
+r72: 0.4914115846528856
+r73: 0.44962802265934804
+r74: 0.4697315308000753
+r75: 0.44917286403047174
+r76: 0.44477307765005547
+r77: 0.44217655402623485
+r78: 0.5227923938525658
+r79: 0.43347519224631087
+r80: 0.4213813455415697
+r81: 0.5174524615785361
+r82: 0.4880569377806728
+r83: 0.4880569377806728
+r84: 0.41732473090705563
+r85: 0.5117218025527481
+r86: 0.48883285466878945
+r87: 0.4625350807453941
+r88: 0.4335303261477329
+r89: 0.4361109466620236
+r90: 0.42718935037866623
+r91: 0.4041178854650481
+r92: 0.5031258140140662
+r93: 0.40342427346482745
+r94: 0.40302851559491715
+r95: 0.4420476325415678
+r96: 0.42548410782638685
+r97: 0.42028784498322885
+r98: 0.40988951603004276
+r99: 0.38892412620298944
+r100: 0.37583206845287737
+r101: 0.31195432803359585
+r102: 0.3080752680068493
+r103: 0.2634904440163799
+r104: 0.6125095665709509
+r105: 0.5437346916472028
+r106: 0.628283041982303
+r107: 0.5022075234385605
+r108: 0.51352462978932
+r109: 0.6880306095522912
+r110: 0.5738686346473454
+r111: 0.5561557444009748
+r112: 0.6809581346920444
+r113: 0.6436932808876438
+r114: 0.5474576271186441
+r115: 0.6343526181066265
+r116: 0.5400571027327403
+r117: 0.5943665141346772
+r118: 0.5685440353903056
+r119: 0.6287329219518206
+r120: 0.6280854148851854
+r121: 0.6278488545352953
+r122: 0.5607263064230285
+r123: 0.5556616112393266
+r124: 0.550941142558333
+r125: 0.5453588285440639
+r126: 0.5427818493901587
+r127: 0.5433566590197504
+r128: 0.541961949134103
+r129: 0.5804946514951981
+r130: 0.5788338679374467
+r131: 0.5721606515896527
+r132: 0.5712537025099339
+r133: 0.6212300391880645
+r134: 0.6092870286875016
+r135: 0.6078791306853476
+r136: 0.6047116933605592
+r137: 0.5336295512154733
+________________________________
+r1: IF form = {complete} AND children = {1} AND housing = {convenient} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {inconv} AND has_nurs = {proper} AND parents = {usual} THEN class = {recommend} (p=2.0, n=0.0, P=2.0, N=11662.0)
+r2: IF health = {not_recom} THEN class = {not_recom} (p=3888.0, n=0.0, P=3888.0, N=7776.0)
+r3: IF housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND children = {3, more} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=349.0, n=0.0, P=3839.0, N=7825.0)
+r4: IF social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {great_pret} THEN class = {priority} (p=349.0, n=0.0, P=3839.0, N=7825.0)
+r5: IF form = {foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=174.0, n=0.0, P=3839.0, N=7825.0)
+r6: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=263.0, n=0.0, P=3839.0, N=7825.0)
+r7: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=382.0, n=15.0, P=3839.0, N=7825.0)
+r8: IF form = {complete, incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=374.0, n=15.0, P=3839.0, N=7825.0)
+r9: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=333.0, n=15.0, P=3839.0, N=7825.0)
+r10: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {pretentious, great_pret} THEN class = {priority} (p=331.0, n=22.0, P=3839.0, N=7825.0)
+r11: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=483.0, n=45.0, P=3839.0, N=7825.0)
+r12: IF housing = {less_conv, critical} AND children = {3, more} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {priority} (p=341.0, n=0.0, P=3839.0, N=7825.0)
+r13: IF social = {problematic} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {priority} (p=340.0, n=0.0, P=3839.0, N=7825.0)
+r14: IF housing = {less_conv, critical} AND children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=667.0, n=112.0, P=3839.0, N=7825.0)
+r15: IF housing = {less_conv, critical} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=859.0, n=182.0, P=3839.0, N=7825.0)
+r16: IF form = {incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=199.0, n=0.0, P=3839.0, N=7825.0)
+r17: IF form = {completed, incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=285.0, n=14.0, P=3839.0, N=7825.0)
+r18: IF form = {complete, incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper} AND parents = {usual, great_pret} THEN class = {priority} (p=126.0, n=3.0, P=3839.0, N=7825.0)
+r19: IF form = {complete, incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=188.0, n=7.0, P=3839.0, N=7825.0)
+r20: IF form = {completed, incomplete, foster} AND children = {2, 3, more} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=384.0, n=60.0, P=3839.0, N=7825.0)
+r21: IF children = {2, 3, more} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=499.0, n=88.0, P=3839.0, N=7825.0)
+r22: IF children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=943.0, n=237.0, P=3839.0, N=7825.0)
+r23: IF health = {recommended} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=1211.0, n=355.0, P=3839.0, N=7825.0)
+r24: IF form = {completed, incomplete, foster} AND housing = {critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=263.0, n=0.0, P=3839.0, N=7825.0)
+r25: IF housing = {critical} AND social = {nonprob, slightly_prob} AND children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=261.0, n=0.0, P=3839.0, N=7825.0)
+r26: IF housing = {critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=333.0, n=18.0, P=3839.0, N=7825.0)
+r27: IF form = {completed, incomplete, foster} AND housing = {critical} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=373.0, n=24.0, P=3839.0, N=7825.0)
+r28: IF housing = {critical} AND children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=370.0, n=24.0, P=3839.0, N=7825.0)
+r29: IF housing = {critical} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=480.0, n=48.0, P=3839.0, N=7825.0)
+r30: IF housing = {less_conv, critical} AND children = {3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=345.0, n=0.0, P=3839.0, N=7825.0)
+r31: IF housing = {less_conv, critical} AND children = {3, more} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=486.0, n=31.0, P=3839.0, N=7825.0)
+r32: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=263.0, n=0.0, P=3839.0, N=7825.0)
+r33: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=378.0, n=17.0, P=3839.0, N=7825.0)
+r34: IF form = {complete, incomplete, foster} AND housing = {less_conv, critical} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=376.0, n=17.0, P=3839.0, N=7825.0)
+r35: IF housing = {less_conv, critical} AND children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=706.0, n=77.0, P=3839.0, N=7825.0)
+r36: IF form = {foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=177.0, n=0.0, P=3839.0, N=7825.0)
+r37: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=331.0, n=18.0, P=3839.0, N=7825.0)
+r38: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=475.0, n=47.0, P=3839.0, N=7825.0)
+r39: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=694.0, n=94.0, P=3839.0, N=7825.0)
+r40: IF housing = {less_conv, critical} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=891.0, n=155.0, P=3839.0, N=7825.0)
+r41: IF social = {problematic} AND housing = {convenient} AND health = {recommended} AND finance != {inconv} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=89.0, n=0.0, P=3839.0, N=7825.0)
+r42: IF form = {complete, completed, incomplete} AND social = {problematic} AND housing = {convenient} AND children = {1} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=32.0, n=0.0, P=3839.0, N=7825.0)
+r43: IF form = {complete, completed} AND social = {problematic} AND housing = {convenient} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=43.0, n=0.0, P=3839.0, N=7825.0)
+r44: IF form = {complete, completed, foster} AND social = {problematic} AND housing = {convenient} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=65.0, n=2.0, P=3839.0, N=7825.0)
+r45: IF form = {complete, completed} AND social = {problematic} AND housing = {convenient} AND children = {1, 2, 3} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=63.0, n=2.0, P=3839.0, N=7825.0)
+r46: IF form = {complete, completed, incomplete} AND social = {problematic} AND housing = {convenient} AND children = {1, 2, 3} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=92.0, n=4.0, P=3839.0, N=7825.0)
+r47: IF form = {complete, completed, incomplete} AND social = {problematic} AND housing = {convenient} AND children = {1, 2, more} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=92.0, n=4.0, P=3839.0, N=7825.0)
+r48: IF social = {problematic} AND housing = {convenient} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=164.0, n=11.0, P=3839.0, N=7825.0)
+r49: IF children = {3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=262.0, n=0.0, P=3839.0, N=7825.0)
+r50: IF children = {3, more} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=668.0, n=116.0, P=3839.0, N=7825.0)
+r51: IF form = {incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=201.0, n=0.0, P=3839.0, N=7825.0)
+r52: IF form = {completed, incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=283.0, n=17.0, P=3839.0, N=7825.0)
+r53: IF form = {complete, incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=191.0, n=9.0, P=3839.0, N=7825.0)
+r54: IF children = {2, 3, more} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=961.0, n=220.0, P=3839.0, N=7825.0)
+r55: IF form = {foster} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=137.0, n=0.0, P=3839.0, N=7825.0)
+r56: IF form = {incomplete, foster} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=171.0, n=7.0, P=3839.0, N=7825.0)
+r57: IF form = {completed, incomplete, foster} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=514.0, n=81.0, P=3839.0, N=7825.0)
+r58: IF form = {complete, incomplete, foster} AND health = {recommended} AND finance != {convenient} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=502.0, n=88.0, P=3839.0, N=7825.0)
+r59: IF form = {incomplete, foster} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=651.0, n=136.0, P=3839.0, N=7825.0)
+r60: IF health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=1213.0, n=359.0, P=3839.0, N=7825.0)
+r61: IF health = {recommended} AND has_nurs = {proper, less_proper, improper} THEN class = {priority} (p=1682.0, n=671.0, P=3839.0, N=7825.0)
+r62: IF housing = {critical} AND social = {nonprob, slightly_prob} AND children = {2, 3, more} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=177.0, n=0.0, P=3839.0, N=7825.0)
+r63: IF form = {completed, incomplete, foster} AND housing = {critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=176.0, n=0.0, P=3839.0, N=7825.0)
+r64: IF housing = {critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=224.0, n=11.0, P=3839.0, N=7825.0)
+r65: IF housing = {critical} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=312.0, n=37.0, P=3839.0, N=7825.0)
+r66: IF housing = {less_conv, critical} AND children = {3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=234.0, n=0.0, P=3839.0, N=7825.0)
+r67: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=178.0, n=0.0, P=3839.0, N=7825.0)
+r68: IF form = {complete, incomplete, foster} AND housing = {less_conv, critical} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=255.0, n=10.0, P=3839.0, N=7825.0)
+r69: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=255.0, n=10.0, P=3839.0, N=7825.0)
+r70: IF housing = {less_conv, critical} AND children = {2, 3, more} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=463.0, n=62.0, P=3839.0, N=7825.0)
+r71: IF form = {foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=118.0, n=0.0, P=3839.0, N=7825.0)
+r72: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=221.0, n=11.0, P=3839.0, N=7825.0)
+r73: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=308.0, n=39.0, P=3839.0, N=7825.0)
+r74: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=318.0, n=31.0, P=3839.0, N=7825.0)
+r75: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=454.0, n=69.0, P=3839.0, N=7825.0)
+r76: IF form = {complete, incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=306.0, n=41.0, P=3839.0, N=7825.0)
+r77: IF housing = {less_conv, critical} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=588.0, n=109.0, P=3839.0, N=7825.0)
+r78: IF children = {3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=175.0, n=0.0, P=3839.0, N=7825.0)
+r79: IF children = {3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=303.0, n=46.0, P=3839.0, N=7825.0)
+r80: IF children = {3, more} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=436.0, n=85.0, P=3839.0, N=7825.0)
+r81: IF form = {incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=134.0, n=0.0, P=3839.0, N=7825.0)
+r82: IF form = {completed, incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=129.0, n=5.0, P=3839.0, N=7825.0)
+r83: IF form = {complete, incomplete, foster} AND children = {2, 3, more} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=129.0, n=5.0, P=3839.0, N=7825.0)
+r84: IF children = {2, 3, more} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=634.0, n=149.0, P=3839.0, N=7825.0)
+r85: IF form = {foster} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=90.0, n=0.0, P=3839.0, N=7825.0)
+r86: IF form = {incomplete, foster} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=114.0, n=4.0, P=3839.0, N=7825.0)
+r87: IF form = {completed, incomplete, foster} AND social = {nonprob, slightly_prob} AND housing = {convenient, critical} AND children = {1, 3, more} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=121.0, n=9.0, P=3839.0, N=7825.0)
+r88: IF form = {completed, incomplete, foster} AND housing = {convenient, critical} AND children = {1, 3, more} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=171.0, n=22.0, P=3839.0, N=7825.0)
+r89: IF form = {complete, incomplete, foster} AND housing = {convenient, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {convenient} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=156.0, n=19.0, P=3839.0, N=7825.0)
+r90: IF form = {foster} AND social = {nonprob, slightly_prob} AND children = {1, 2, 3} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=116.0, n=15.0, P=3839.0, N=7825.0)
+r91: IF form = {incomplete, foster} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=425.0, n=95.0, P=3839.0, N=7825.0)
+r92: IF form = {complete} AND social = {problematic} AND children = {1} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=24.0, n=0.0, P=3839.0, N=7825.0)
+r93: IF form = {completed, incomplete, foster} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=618.0, n=159.0, P=3839.0, N=7825.0)
+r94: IF health = {recommended} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=807.0, n=233.0, P=3839.0, N=7825.0)
+r95: IF housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND children = {2, 3, more} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual, pretentious} THEN class = {priority} (p=584.0, n=108.0, P=3839.0, N=7825.0)
+r96: IF form = {incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual, pretentious} THEN class = {priority} (p=389.0, n=70.0, P=3839.0, N=7825.0)
+r97: IF form = {completed, incomplete, foster} AND housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual, pretentious} THEN class = {priority} (p=570.0, n=125.0, P=3839.0, N=7825.0)
+r98: IF housing = {less_conv, critical} AND social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} AND parents = {usual, pretentious} THEN class = {priority} (p=731.0, n=193.0, P=3839.0, N=7825.0)
+r99: IF health = {recommended} AND has_nurs != {very_crit} AND parents = {usual, pretentious} THEN class = {priority} (p=1472.0, n=612.0, P=3839.0, N=7825.0)
+r100: IF social = {nonprob, slightly_prob} AND health = {recommended} AND has_nurs != {very_crit} THEN class = {priority} (p=1444.0, n=632.0, P=3839.0, N=7825.0)
+r101: IF social = {nonprob, slightly_prob} AND health = {recommended} THEN class = {priority} (p=1616.0, n=975.0, P=3839.0, N=7825.0)
+r102: IF health = {recommended} AND parents = {usual, pretentious} AND has_nurs != {critical} THEN class = {priority} (p=1329.0, n=760.0, P=3839.0, N=7825.0)
+r103: IF health = {recommended} THEN class = {priority} (p=2171.0, n=1741.0, P=3839.0, N=7825.0)
+r104: IF health = {recommended, priority} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {priority} (p=1846.0, n=242.0, P=3839.0, N=7825.0)
+r105: IF health = {recommended, priority} AND has_nurs = {proper, less_proper} THEN class = {priority} (p=2425.0, n=699.0, P=3839.0, N=7825.0)
+r106: IF health = {recommended, priority} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {priority} (p=2602.0, n=527.0, P=3839.0, N=7825.0)
+r107: IF health = {recommended, priority} AND has_nurs = {proper, less_proper, improper} THEN class = {priority} (p=3244.0, n=1428.0, P=3839.0, N=7825.0)
+r108: IF health = {recommended, priority} AND has_nurs != {very_crit} AND parents = {usual} THEN class = {priority} (p=1684.0, n=400.0, P=3839.0, N=7825.0)
+r109: IF housing = {convenient} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {inconv} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=118.0, n=2.0, P=295.0, N=11369.0)
+r110: IF form = {complete, completed} AND housing = {convenient} AND social = {nonprob, slightly_prob} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=56.0, n=2.0, P=295.0, N=11369.0)
+r111: IF form = {complete, completed, incomplete} AND housing = {convenient} AND social = {nonprob, slightly_prob} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=77.0, n=10.0, P=295.0, N=11369.0)
+r112: IF form = {complete, completed} AND social = {nonprob, slightly_prob} AND housing = {convenient, less_conv} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=114.0, n=2.0, P=295.0, N=11369.0)
+r113: IF form = {complete, completed, incomplete} AND social = {nonprob, slightly_prob} AND housing = {convenient, less_conv} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=150.0, n=25.0, P=295.0, N=11369.0)
+r114: IF form = {complete} AND social = {nonprob, slightly_prob} AND children = {1} AND housing = {less_conv, critical} AND health = {recommended} AND has_nurs = {proper, less_proper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=28.0, n=0.0, P=295.0, N=11369.0)
+r115: IF housing = {convenient} AND social = {nonprob, slightly_prob} AND health = {recommended} AND finance != {inconv} AND has_nurs = {proper, less_proper, improper} AND parents = {usual} THEN class = {very_recom} (p=88.0, n=2.0, P=295.0, N=11369.0)
+r116: IF form = {complete, completed} AND housing = {convenient} AND social = {nonprob, slightly_prob} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual} THEN class = {very_recom} (p=40.0, n=2.0, P=295.0, N=11369.0)
+r117: IF form = {complete, completed} AND social = {nonprob, slightly_prob} AND housing = {convenient, less_conv} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=139.0, n=32.0, P=295.0, N=11369.0)
+r118: IF form = {complete, completed, incomplete} AND social = {nonprob, slightly_prob} AND housing = {convenient, less_conv} AND children = {1, 2} AND health = {recommended} AND has_nurs = {proper, less_proper, improper} AND parents = {usual, pretentious} THEN class = {very_recom} (p=183.0, n=75.0, P=295.0, N=11369.0)
+r119: IF health = {priority} AND has_nurs = {very_crit, critical} AND parents = {pretentious, great_pret} THEN class = {spec_prior} (p=1010.0, n=11.0, P=3640.0, N=8024.0)
+r120: IF health = {priority} AND has_nurs = {very_crit, critical} THEN class = {spec_prior} (p=1439.0, n=106.0, P=3640.0, N=8024.0)
+r121: IF health = {priority} AND has_nurs = {improper, very_crit, critical} AND parents = {pretentious, great_pret} THEN class = {spec_prior} (p=1423.0, n=102.0, P=3640.0, N=8024.0)
+r122: IF housing = {less_conv, critical} AND children = {2, 3, more} AND health = {priority} AND parents = {great_pret} THEN class = {spec_prior} (p=625.0, n=19.0, P=3640.0, N=8024.0)
+r123: IF housing = {less_conv, critical} AND health = {priority} AND parents = {great_pret} AND has_nurs != {less_proper} THEN class = {spec_prior} (p=653.0, n=27.0, P=3640.0, N=8024.0)
+r124: IF housing = {less_conv, critical} AND health = {priority} AND parents = {great_pret} AND has_nurs != {proper} THEN class = {spec_prior} (p=647.0, n=30.0, P=3640.0, N=8024.0)
+r125: IF children = {2, 3, more} AND health = {priority} AND parents = {great_pret} AND has_nurs != {proper} THEN class = {spec_prior} (p=719.0, n=47.0, P=3640.0, N=8024.0)
+r126: IF health = {priority} AND parents = {great_pret} AND has_nurs != {proper} THEN class = {spec_prior} (p=920.0, n=93.0, P=3640.0, N=8024.0)
+r127: IF children = {2, 3, more} AND health = {priority} AND parents = {great_pret} AND has_nurs != {less_proper} THEN class = {spec_prior} (p=725.0, n=50.0, P=3640.0, N=8024.0)
+r128: IF health = {priority} AND parents = {great_pret} AND has_nurs != {less_proper} THEN class = {spec_prior} (p=924.0, n=95.0, P=3640.0, N=8024.0)
+r129: IF housing = {less_conv, critical} AND children = {2, 3, more} AND health = {recommended, priority} AND has_nurs = {very_crit} THEN class = {spec_prior} (p=765.0, n=22.0, P=3640.0, N=8024.0)
+r130: IF housing = {less_conv, critical} AND health = {recommended, priority} AND has_nurs = {very_crit} THEN class = {spec_prior} (p=975.0, n=62.0, P=3640.0, N=8024.0)
+r131: IF children = {2, 3, more} AND health = {recommended, priority} AND has_nurs = {very_crit} THEN class = {spec_prior} (p=1084.0, n=96.0, P=3640.0, N=8024.0)
+r132: IF health = {recommended, priority} AND has_nurs = {very_crit} THEN class = {spec_prior} (p=1372.0, n=182.0, P=3640.0, N=8024.0)
+r133: IF health = {recommended, priority} AND has_nurs = {very_crit, critical} AND parents = {pretentious, great_pret} THEN class = {spec_prior} (p=1818.0, n=243.0, P=3640.0, N=8024.0)
+r134: IF health = {recommended, priority} AND has_nurs = {very_crit, critical} THEN class = {spec_prior} (p=2509.0, n=595.0, P=3640.0, N=8024.0)
+r135: IF housing = {less_conv, critical} AND health = {recommended, priority} AND has_nurs = {improper, very_crit, critical} AND parents = {pretentious, great_pret} THEN class = {spec_prior} (p=1795.0, n=263.0, P=3640.0, N=8024.0)
+r136: IF health = {recommended, priority} AND has_nurs = {improper, very_crit, critical} AND parents = {pretentious, great_pret} THEN class = {spec_prior} (p=2492.0, n=600.0, P=3640.0, N=8024.0)
+r137: IF housing = {less_conv, critical} AND children = {2, 3, more} AND social = {problematic} AND health = {recommended, priority} AND parents = {great_pret} THEN class = {spec_prior} (p=431.0, n=14.0, P=3640.0, N=8024.0)

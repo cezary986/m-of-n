@@ -1,0 +1,84 @@
+Rules qualities:
+r1: 0.7061688311688312
+r2: 0.7207792207792207
+r3: 0.5430194805194806
+r4: 0.5405844155844156
+r5: 0.5397727272727273
+r6: 0.5146103896103896
+r7: 0.5121753246753247
+r8: 0.5048701298701299
+r9: 0.5016233766233766
+r10: 0.5016233766233766
+r11: 0.5698051948051948
+r12: 0.5619930138650657
+r13: 0.5438524969774972
+r14: 0.5503246753246753
+r15: 0.5275974025974026
+r16: 0.538961038961039
+r17: 0.7175324675324675
+r18: 0.7356153389510709
+r19: 0.6493506493506493
+r20: 0.7199675324675325
+r21: 0.741452695883966
+r22: 0.551948051948052
+r23: 0.5332792207792207
+r24: 0.685064935064935
+r25: 0.5405844155844156
+r26: 0.5641233766233766
+r27: 0.5551948051948052
+r28: 0.5349025974025974
+r29: 0.5202922077922078
+r30: 0.7199675324675325
+r31: 0.9305555555555556
+r32: 0.9444444444444444
+r33: 0.5277777777777778
+r34: 0.8571428571428572
+r35: 0.9285714285714286
+r36: 1.0
+r37: 0.550561797752809
+r38: 0.5449438202247191
+r39: 0.5674157303370786
+r40: 0.5561797752808989
+r41: 0.8539325842696629
+________________________________
+r1: IF condition = {S} AND surface-quality = {E} THEN class = {3} (p=254.0, n=0.0, P=616.0, N=192.0)
+r2: IF hardness = (-inf, 77.50) AND carbon = (-inf, 5) AND surface-quality = {E} THEN class = {3} (p=272.0, n=0.0, P=616.0, N=192.0)
+r3: IF carbon = <27.50, inf) THEN class = {3} (p=53.0, n=0.0, P=616.0, N=192.0)
+r4: IF surface-quality = {D} THEN class = {3} (p=50.0, n=0.0, P=616.0, N=192.0)
+r5: IF surface-quality = {F} THEN class = {3} (p=49.0, n=0.0, P=616.0, N=192.0)
+r6: IF oil = {N} THEN class = {3} (p=18.0, n=0.0, P=616.0, N=192.0)
+r7: IF steel = {W} THEN class = {3} (p=15.0, n=0.0, P=616.0, N=192.0)
+r8: IF enamelability = {1} THEN class = {3} (p=6.0, n=0.0, P=616.0, N=192.0)
+r9: IF thick = (-inf, 0.28) THEN class = {3} (p=2.0, n=0.0, P=616.0, N=192.0)
+r10: IF width = (-inf, 10) THEN class = {3} (p=2.0, n=0.0, P=616.0, N=192.0)
+r11: IF bf = {Y} AND shape = {SHEET} AND width = (-inf, 1410) THEN class = {3} (p=86.0, n=0.0, P=616.0, N=192.0)
+r12: IF bf = {Y} AND carbon = (-inf, 1.50) AND width = (-inf, 1410) THEN class = {3} (p=105.0, n=1.0, P=616.0, N=192.0)
+r13: IF bf = {Y} AND width = (-inf, 1410) THEN class = {3} (p=109.0, n=2.0, P=616.0, N=192.0)
+r14: IF carbon = <3.50, inf) AND surface-quality = {?} THEN class = {3} (p=62.0, n=0.0, P=616.0, N=192.0)
+r15: IF carbon = <3.50, inf) AND thick = (-inf, 1.20) THEN class = {3} (p=34.0, n=0.0, P=616.0, N=192.0)
+r16: IF hardness = (-inf, 67.50) AND thick = (-inf, 0.31) THEN class = {3} (p=48.0, n=0.0, P=616.0, N=192.0)
+r17: IF condition = {S} AND thick = (-inf, 0.77) THEN class = {3} (p=268.0, n=0.0, P=616.0, N=192.0)
+r18: IF hardness = (-inf, 82.50) AND family = {?} AND thick = (-inf, 0.77) THEN class = {3} (p=303.0, n=1.0, P=616.0, N=192.0)
+r19: IF thick = <0.60, 0.77) THEN class = {3} (p=184.0, n=0.0, P=616.0, N=192.0)
+r20: IF condition = {S} AND thick = (-inf, 0.80) THEN class = {3} (p=271.0, n=0.0, P=616.0, N=192.0)
+r21: IF hardness = (-inf, 82.50) AND family = {?} AND thick = (-inf, 0.80) THEN class = {3} (p=310.0, n=1.0, P=616.0, N=192.0)
+r22: IF hardness = (-inf, 82.50) AND cbond = {Y} THEN class = {3} (p=64.0, n=0.0, P=616.0, N=192.0)
+r23: IF hardness = (-inf, 77.50) AND lustre = {Y} THEN class = {3} (p=41.0, n=0.0, P=616.0, N=192.0)
+r24: IF steel = {A} AND condition = {S} AND family = {?} THEN class = {3} (p=228.0, n=0.0, P=616.0, N=192.0)
+r25: IF formability = {2} AND surface-quality = {G} THEN class = {3} (p=50.0, n=0.0, P=616.0, N=192.0)
+r26: IF hardness = (-inf, 77.50) AND thick = <2.10, 3.20) THEN class = {3} (p=79.0, n=0.0, P=616.0, N=192.0)
+r27: IF hardness = (-inf, 77.50) AND carbon = (-inf, 5) AND thick = <2.10, inf) THEN class = {3} (p=68.0, n=0.0, P=616.0, N=192.0)
+r28: IF hardness = (-inf, 77.50) AND bw/me = {M} THEN class = {3} (p=43.0, n=0.0, P=616.0, N=192.0)
+r29: IF hardness = (-inf, 77.50) AND bore = {600} THEN class = {3} (p=25.0, n=0.0, P=616.0, N=192.0)
+r30: IF steel = {A} AND hardness = (-inf, 75) AND carbon = (-inf, 1.50) AND family = {?} THEN class = {3} (p=271.0, n=0.0, P=616.0, N=192.0)
+r31: IF hardness = <82.50, inf) THEN class = {U} (p=31.0, n=0.0, P=36.0, N=772.0)
+r32: IF hardness = <75, inf) AND width = <114.55, inf) THEN class = {U} (p=32.0, n=0.0, P=36.0, N=772.0)
+r33: IF carbon = <5, inf) AND surface-quality = {E} THEN class = {U} (p=2.0, n=0.0, P=36.0, N=772.0)
+r34: IF steel = {S} AND carbon = (-inf, 35) THEN class = {1} (p=5.0, n=0.0, P=7.0, N=801.0)
+r35: IF formability = {?} AND strength = (-inf, 450) AND carbon = (-inf, 4.50) AND surface-quality = {?} THEN class = {1} (p=6.0, n=0.0, P=7.0, N=801.0)
+r36: IF family = {TN} THEN class = {5} (p=60.0, n=0.0, P=60.0, N=748.0)
+r37: IF enamelability = {2} THEN class = {2} (p=9.0, n=0.0, P=89.0, N=719.0)
+r38: IF surface-finish = {P} THEN class = {2} (p=8.0, n=0.0, P=89.0, N=719.0)
+r39: IF condition = {S} AND width = <1410.05, inf) THEN class = {2} (p=12.0, n=0.0, P=89.0, N=719.0)
+r40: IF steel = {M} AND strength = <550, inf) THEN class = {2} (p=10.0, n=0.0, P=89.0, N=719.0)
+r41: IF steel = {R} AND condition = {S} AND surface-quality = {?} THEN class = {2} (p=63.0, n=0.0, P=89.0, N=719.0)

@@ -1,0 +1,96 @@
+Rules qualities:
+r1: 0.5317460317460317
+r2: 0.5158730158730158
+r3: 0.5634920634920635
+r4: 0.5952380952380952
+r5: 0.6190476190476191
+r6: 0.7794019933554817
+r7: 0.8095238095238095
+r8: 0.7113325950535253
+r9: 0.8211189040646404
+r10: 0.8015873015873016
+r11: 0.6048357327427094
+r12: 0.5735294117647058
+r13: 0.5588235294117647
+r14: 0.5514705882352942
+r15: 0.5514705882352942
+r16: 0.6029411764705882
+r17: 0.5367647058823529
+r18: 0.5367647058823529
+r19: 0.5294117647058824
+r20: 0.5220588235294118
+r21: 0.5147058823529411
+r22: 0.5147058823529411
+r23: 0.5882352941176471
+r24: 0.5735294117647058
+r25: 0.5955882352941176
+r26: 0.41949921623628417
+r27: 0.5514705882352942
+r28: 0.5294117647058824
+r29: 0.5735294117647058
+r30: 0.5666666666666667
+r31: 0.5666666666666667
+r32: 0.6
+r33: 0.6
+r34: 0.5666666666666667
+r35: 0.6333333333333333
+r36: 0.26610169491525426
+r37: 0.9230769230769231
+r38: 0.8461538461538461
+r39: 0.8653846153846154
+r40: 0.625
+r41: 0.5833333333333334
+r42: 0.5833333333333334
+r43: 0.5833333333333334
+r44: 0.5833333333333334
+r45: 0.625
+r46: 0.625
+r47: 0.9375
+________________________________
+r1: IF Mg = <3.69, 3.74) = {1} THEN class = {build wind float} (p=4.0, n=0.0, P=63.0, N=129.0)
+r2: IF Mg = <3.80, 3.83) = {1} THEN class = {build wind float} (p=2.0, n=0.0, P=63.0, N=129.0)
+r3: IF Al = <1.28, 1.30) = {1} AND Mg = <3.36, 3.42) = {0} THEN class = {build wind float} (p=8.0, n=0.0, P=63.0, N=129.0)
+r4: IF Na = <12.68, 12.82) = {1} AND Si = <72.74, 73.27) = {1} THEN class = {build wind float} (p=12.0, n=0.0, P=63.0, N=129.0)
+r5: IF Al = <0.78, 1.43) = {1} AND Mg = <3.41, 3.52) = {1} THEN class = {build wind float} (p=15.0, n=0.0, P=63.0, N=129.0)
+r6: IF RI = <1.52, inf) = {1} AND Al = <0.78, 1.43) = {1} AND Al = <1.06, 1.11) = {0} AND Mg = <3.34, 3.76) = {1} AND 2-of-3(Fe = (-inf, 0.17), Si = <72.74, 73.27), Na = (-inf, 14.34)) = {1} AND 'K' = <0.11, inf) = {1} THEN class = {build wind float} (p=39.0, n=1.0, P=63.0, N=129.0)
+r7: IF RI = <1.52, inf) = {1} AND Si = <72.26, 72.36) = {0} AND Al = <0.78, 1.43) = {1} AND Mg = <3.34, 3.76) = {1} AND Si = <72.74, 72.85) = {0} AND Fe = (-inf, 0.33) = {1} THEN class = {build wind float} (p=39.0, n=0.0, P=63.0, N=129.0)
+r8: IF RI = <1.52, inf) = {1} AND Ba < Fe = {0} AND Al = <0.78, 1.43) = {1} AND Mg = <3.42, 3.86) = {1} AND Si = <72.74, 72.85) = {0} THEN class = {build wind float} (p=31.0, n=1.0, P=63.0, N=129.0)
+r9: IF RI = <1.52, inf) = {1} AND Si = <72.26, 72.36) = {0} AND Na = <13.62, 13.69) = {0} AND Mg = <3.42, 3.86) = {1} AND Al = <1.06, 1.11) = {0} AND Ca = <8.08, 8.22) = {0} AND Al = <0.57, 0.66) = {0} AND Si = <72.74, 72.85) = {0} AND Al = (-inf, 1.42) = {1} AND Fe = (-inf, 0.33) = {1} THEN class = {build wind float} (p=44.0, n=1.0, P=63.0, N=129.0)
+r10: IF RI = <1.52, inf) = {1} AND Al = <1.78, 3.02) = {0} AND Na = <13.62, 13.69) = {0} AND Mg = <3.42, 3.86) = {1} AND Ca = <8.08, 8.22) = {0} AND Al = <1.06, 1.11) = {0} AND Si = <72.74, 72.85) = {0} AND RI = <1.52, 1.52) = {0} AND Fe = (-inf, 0.33) = {1} THEN class = {build wind float} (p=38.0, n=0.0, P=63.0, N=129.0)
+r11: IF Si = <72.26, 72.36) = {0} AND Mg = <3.42, 3.86) = {1} AND Ca = <8.08, 8.22) = {0} AND Al = <1.06, 1.11) = {0} AND 2-of-3(RI = <1.52, inf), Na = <13.31, inf), Fe = (-inf, 0.33)) = {1} THEN class = {build wind float} (p=50.0, n=14.0, P=63.0, N=129.0)
+r12: IF Ca = <7.86, 8.03) = {1} THEN class = {build wind non-float} (p=10.0, n=0.0, P=68.0, N=124.0)
+r13: IF Al = <1.44, 1.49) = {1} THEN class = {build wind non-float} (p=8.0, n=0.0, P=68.0, N=124.0)
+r14: IF Ca = <8.09, 8.17) = {1} THEN class = {build wind non-float} (p=7.0, n=0.0, P=68.0, N=124.0)
+r15: IF Mg = <2.84, 3.20) = {1} THEN class = {build wind non-float} (p=7.0, n=0.0, P=68.0, N=124.0)
+r16: IF Ca = <7.86, 8.05) = {1} AND Al = (-inf, 1.42) = {0} THEN class = {build wind non-float} (p=14.0, n=0.0, P=68.0, N=124.0)
+r17: IF Ca = <12.90, inf) = {1} THEN class = {build wind non-float} (p=5.0, n=0.0, P=68.0, N=124.0)
+r18: IF Si = <72.26, 72.36) = {1} THEN class = {build wind non-float} (p=5.0, n=0.0, P=68.0, N=124.0)
+r19: IF Ca = <8.18, 8.22) = {1} THEN class = {build wind non-float} (p=4.0, n=0.0, P=68.0, N=124.0)
+r20: IF Al = <1.06, 1.11) = {1} THEN class = {build wind non-float} (p=3.0, n=0.0, P=68.0, N=124.0)
+r21: IF Ca = <10.94, 11.22) = {1} THEN class = {build wind non-float} (p=2.0, n=0.0, P=68.0, N=124.0)
+r22: IF Na = <12.08, 12.45) = {1} THEN class = {build wind non-float} (p=2.0, n=0.0, P=68.0, N=124.0)
+r23: IF Ca = <8.08, 8.22) = {1} AND Fe = (-inf, 0.16) = {1} AND Mg = <3.58, 3.61) = {0} THEN class = {build wind non-float} (p=12.0, n=0.0, P=68.0, N=124.0)
+r24: IF Ca != <8.24, 11.52) = {1} AND Fe = <0.04, 0.24) = {1} THEN class = {build wind non-float} (p=10.0, n=0.0, P=68.0, N=124.0)
+r25: IF Ba < Fe = {0} AND Si = <72.74, 73.27) = {1} AND 2-of-3(RI = <1.52, inf), Na = <13.31, inf), Fe = (-inf, 0.33)) = {0} AND Mg = <3.36, 3.42) = {0} THEN class = {build wind non-float} (p=13.0, n=0.0, P=68.0, N=124.0)
+r26: IF Si = <72.59, 72.72) = {0} AND Mg = <3.41, 3.52) = {0} AND Al = <2.91, inf) = {0} AND 2-of-3(RI = <1.52, inf), Na = <13.31, inf), Fe = (-inf, 0.33)) = {0} THEN class = {build wind non-float} (p=18.0, n=5.0, P=68.0, N=124.0)
+r27: IF Mg = (-inf, 3.39) = {0} AND Al = <1.28, 1.30) = {0} AND Na = <12.89, 13.21) = {1} AND Mg = <3.36, 3.42) = {0} AND Fe = <0.04, 0.24) = {0} AND Mg = <3.53, 3.62) = {0} THEN class = {build wind non-float} (p=7.0, n=0.0, P=68.0, N=124.0)
+r28: IF Mg = <3.42, 3.86) = {0} AND Fe = (-inf, 0.17) = {0} AND Fe = <0.04, 0.24) = {1} THEN class = {build wind non-float} (p=4.0, n=0.0, P=68.0, N=124.0)
+r29: IF 'K' = (-inf, 0.35) = {0} AND Mg = (-inf, 3.34) = {0} AND Mg = <3.34, 3.76) = {0} THEN class = {build wind non-float} (p=10.0, n=0.0, P=68.0, N=124.0)
+r30: IF Al = <0.57, 0.66) = {1} THEN class = {vehic wind float} (p=2.0, n=0.0, P=15.0, N=177.0)
+r31: IF Mg = <3.40, 3.42) = {1} THEN class = {vehic wind float} (p=2.0, n=0.0, P=15.0, N=177.0)
+r32: IF 'K' = (-inf, 0.35) = {1} AND Na = <13.62, 13.69) = {1} THEN class = {vehic wind float} (p=3.0, n=0.0, P=15.0, N=177.0)
+r33: IF Na = (-inf, 13.31) = {0} AND Mg = <3.36, 3.42) = {1} THEN class = {vehic wind float} (p=3.0, n=0.0, P=15.0, N=177.0)
+r34: IF Na = (-inf, 14.34) = {1} AND Si = <71.35, 71.57) = {1} THEN class = {vehic wind float} (p=2.0, n=0.0, P=15.0, N=177.0)
+r35: IF Si = <72.59, 72.72) = {1} AND Mg = <3.53, 3.62) = {1} THEN class = {vehic wind float} (p=4.0, n=0.0, P=15.0, N=177.0)
+r36: IF 2-of-3(Fe = (-inf, 0.16), Mg = <3.42, 3.86), 'K' = <0.11, inf)) = {1} AND Al = <0.78, 1.43) = {0} AND Si = <72.74, 73.27) = {0} AND Ca != <8.24, 11.52) = {0} AND Na = (-inf, 14.34) = {1} THEN class = {vehic wind float} (p=6.0, n=8.0, P=15.0, N=177.0)
+r37: IF Mg = (-inf, 3.34) = {1} AND Ba = <0.34, 2.20) = {1} THEN class = {headlamps} (p=22.0, n=0.0, P=26.0, N=166.0)
+r38: IF 'K' = Ba = {0} AND Ba < Fe = {0} AND 2-of-3(Fe = (-inf, 0.33), Al = (-inf, 1.42), Na = (-inf, 14.34)) = {0} THEN class = {headlamps} (p=18.0, n=0.0, P=26.0, N=166.0)
+r39: IF Mg = (-inf, 3.34) = {1} AND Ba < Fe = {0} AND Mg = <2.84, 3.20) = {0} AND Ca = <8.26, 8.99) = {1} THEN class = {headlamps} (p=19.0, n=0.0, P=26.0, N=166.0)
+r40: IF Al = <2.91, inf) = {1} THEN class = {containers} (p=3.0, n=0.0, P=12.0, N=180.0)
+r41: IF Al = <1.83, 1.87) = {1} THEN class = {containers} (p=2.0, n=0.0, P=12.0, N=180.0)
+r42: IF Ca = <11.25, 11.52) = {1} THEN class = {containers} (p=2.0, n=0.0, P=12.0, N=180.0)
+r43: IF Ca = <11.52, 11.64) = {1} THEN class = {containers} (p=2.0, n=0.0, P=12.0, N=180.0)
+r44: IF Ca = <11.94, 13.30) = {1} THEN class = {containers} (p=2.0, n=0.0, P=12.0, N=180.0)
+r45: IF Ca = <9.25, 9.40) = {1} THEN class = {tableware} (p=2.0, n=0.0, P=8.0, N=184.0)
+r46: IF Mg = <2.34, 2.68) = {1} THEN class = {tableware} (p=2.0, n=0.0, P=8.0, N=184.0)
+r47: IF 'K' = Ba = {1} AND RI = <1.52, 1.52) = {1} THEN class = {tableware} (p=7.0, n=0.0, P=8.0, N=184.0)

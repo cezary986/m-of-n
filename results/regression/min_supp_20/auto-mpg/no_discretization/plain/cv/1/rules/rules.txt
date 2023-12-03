@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.7
+r2: 0.4451420186563253
+r3: 0.4962366932801064
+r4: 0.49068472481983955
+r5: 0.43330872889696426
+r6: 0.45007165610772254
+r7: 0.5971671388101983
+r8: 0.6111111111111112
+r9: 0.5989292973286875
+r10: 0.5826447740112993
+r11: 0.5625
+r12: 0.5526315789473684
+r13: 0.5903060642596455
+r14: 0.6028401848534706
+________________________________
+r1: IF acceleration = (-inf, 15.10) AND origin = {3} AND model = {82} AND displacement = (-inf, 132) THEN class = {0.76} [0.76,0.76] (p=2.0, n=0.0, P=5.0, N=353.0)
+r2: IF acceleration = (-inf, 17.25) AND origin = {3} AND model = {82} AND displacement = (-inf, 132) THEN class = {0.76} [0.70,0.82] (p=4.0, n=1.0, P=29.0, N=329.0)
+r3: IF acceleration = (-inf, 22.10) AND weight = <1967.50, inf) AND model = {82} AND displacement = (-inf, 107.50) THEN class = {0.79} [0.72,0.85] (p=5.0, n=1.0, P=24.0, N=334.0)
+r4: IF weight = (-inf, 2827.50) AND cylinders = {4} THEN class = {0.59} [0.43,0.74] (p=111.0, n=53.0, P=121.0, N=237.0)
+r5: IF weight = (-inf, 3025) AND displacement = (-inf, 247) THEN class = {0.53} [0.36,0.70] (p=138.0, n=66.0, P=148.0, N=210.0)
+r6: IF horsepower = (-inf, 77) AND weight = (-inf, 3260) THEN class = {0.65} [0.50,0.80] (p=65.0, n=29.0, P=107.0, N=251.0)
+r7: IF horsepower = (-inf, 111) AND weight = (-inf, 3397.50) AND model = {78} AND displacement = (-inf, 231.50) AND cylinders = {6} THEN class = {0.33} [0.32,0.33] (p=3.0, n=1.0, P=5.0, N=353.0)
+r8: IF acceleration = (-inf, 17.05) AND origin = {1} AND weight = (-inf, 3427.50) AND model = {76} AND cylinders = {6} THEN class = {0.37} [0.37,0.37] (p=2.0, n=0.0, P=9.0, N=349.0)
+r9: IF acceleration = (-inf, 17.40) AND horsepower = (-inf, 113.50) AND weight = (-inf, 3285) AND cylinders = {6} THEN class = {0.31} [0.21,0.41] (p=29.0, n=1.0, P=112.0, N=246.0)
+r10: IF cylinders = {6} THEN class = {0.28} [0.18,0.38] (p=65.0, n=13.0, P=118.0, N=240.0)
+r11: IF horsepower = <162.50, 177.50) AND weight = (-inf, 4481) AND displacement = <395, inf) THEN class = {0.14} [0.14,0.14] (p=2.0, n=0.0, P=16.0, N=342.0)
+r12: IF horsepower = <172.50, 177.50) AND model = {73} THEN class = {0.11} [0.11,0.11] (p=2.0, n=0.0, P=19.0, N=339.0)
+r13: IF acceleration = (-inf, 20.60) AND horsepower = (-inf, 177.50) AND displacement = (-inf, 371.50) AND cylinders = {8} THEN class = {0.17} [0.098,0.24] (p=51.0, n=13.0, P=84.0, N=274.0)
+r14: IF acceleration = (-inf, 14.10) AND origin = {1} THEN class = {0.17} [0.02,0.32] (p=80.0, n=11.0, P=152.0, N=206.0)

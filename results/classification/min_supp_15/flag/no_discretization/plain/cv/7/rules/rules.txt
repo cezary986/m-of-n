@@ -1,0 +1,88 @@
+Rules qualities:
+r1: 0.7134146341463414
+r2: 0.5365853658536586
+r3: 0.524390243902439
+r4: 0.5853658536585366
+r5: 0.5182926829268293
+r6: 0.5792682926829268
+r7: 0.5365853658536586
+r8: 0.524390243902439
+r9: 0.5548780487804879
+r10: 0.5609756097560976
+r11: 0.6402439024390244
+r12: 0.5426829268292683
+r13: 0.5914634146341463
+r14: 0.5792682926829268
+r15: 0.5304878048780488
+r16: 0.5121951219512195
+r17: 0.524390243902439
+r18: 0.4059686161377743
+r19: 0.6428571428571428
+r20: 0.6428571428571428
+r21: 0.75
+r22: 0.6071428571428571
+r23: 0.36438923395445133
+r24: 0.5555555555555556
+r25: 0.5555555555555556
+r26: 0.537037037037037
+r27: 0.6481481481481481
+r28: 0.6481481481481481
+r29: 0.5740740740740741
+r30: 0.6111111111111112
+r31: 0.5740740740740741
+r32: 0.5555555555555556
+r33: 0.5925925925925926
+r34: 0.7788461538461539
+r35: 0.625
+r36: 0.5480769230769231
+r37: 0.5576923076923077
+r38: 0.5288461538461539
+r39: 0.5192307692307693
+r40: 0.5576923076923077
+r41: 0.5384615384615384
+r42: 0.5288461538461539
+r43: 0.5288461538461539
+________________________________
+r1: IF landmass = {5} THEN class = {1} (p=35.0, n=0.0, P=82.0, N=93.0)
+r2: IF language = {4} THEN class = {1} (p=6.0, n=0.0, P=82.0, N=93.0)
+r3: IF language = {5} THEN class = {1} (p=4.0, n=0.0, P=82.0, N=93.0)
+r4: IF white = {1} AND language = {8} THEN class = {1} (p=14.0, n=0.0, P=82.0, N=93.0)
+r5: IF language = {9} THEN class = {1} (p=3.0, n=0.0, P=82.0, N=93.0)
+r6: IF stripes = (-inf, 4) AND religion = {6} THEN class = {1} (p=13.0, n=0.0, P=82.0, N=93.0)
+r7: IF black = {1} AND landmass = {3} THEN class = {1} (p=6.0, n=0.0, P=82.0, N=93.0)
+r8: IF botright = {white} AND landmass = {3} THEN class = {1} (p=4.0, n=0.0, P=82.0, N=93.0)
+r9: IF area = (-inf, 56.50) AND icon = {0} AND landmass = {3} THEN class = {1} (p=9.0, n=0.0, P=82.0, N=93.0)
+r10: IF area = <105.50, inf) AND landmass = {3} AND population = (-inf, 37) THEN class = {1} (p=10.0, n=0.0, P=82.0, N=93.0)
+r11: IF white = {1} AND sunstars = (-inf, 3.50) AND religion = {2} AND population = (-inf, 120.50) THEN class = {1} (p=23.0, n=0.0, P=82.0, N=93.0)
+r12: IF population = <30, 52.50) AND colours = <2.50, inf) THEN class = {1} (p=7.0, n=0.0, P=82.0, N=93.0)
+r13: IF area = (-inf, 854.50) AND white = {1} AND crosses = (-inf, 0.50) AND population = <15.50, inf) THEN class = {1} (p=15.0, n=0.0, P=82.0, N=93.0)
+r14: IF stripes = (-inf, 2.50) AND area = (-inf, 1832) AND crescent = {0} AND quarters = (-inf, 0.50) AND bars = (-inf, 1.50) AND colours = (-inf, 2.50) AND population = (-inf, 14) THEN class = {1} (p=13.0, n=0.0, P=82.0, N=93.0)
+r15: IF blue = {0} AND mainhue = {gold} AND triangle = {0} AND population = <7.50, inf) THEN class = {1} (p=5.0, n=0.0, P=82.0, N=93.0)
+r16: IF area = (-inf, 305.50) AND topleft = {red} AND landmass = {6} THEN class = {1} (p=2.0, n=0.0, P=82.0, N=93.0)
+r17: IF population = <1.50, 2.50) AND colours = <3.50, inf) THEN class = {1} (p=4.0, n=0.0, P=82.0, N=93.0)
+r18: IF stripes = (-inf, 0.50) AND area = (-inf, 1284.50) AND green = {0} AND quarters = (-inf, 0.50) AND triangle = {0} AND population = (-inf, 5.50) THEN class = {1} (p=15.0, n=3.0, P=82.0, N=93.0)
+r19: IF area = <1212, inf) AND landmass = {2} THEN class = {3} (p=4.0, n=0.0, P=14.0, N=161.0)
+r20: IF botright = {blue} AND landmass = {2} THEN class = {3} (p=4.0, n=0.0, P=14.0, N=161.0)
+r21: IF white = {1} AND landmass = {2} AND population = <2, inf) AND colours = (-inf, 6.50) THEN class = {3} (p=7.0, n=0.0, P=14.0, N=161.0)
+r22: IF area = (-inf, 15) AND sunstars = <4.50, inf) AND quarters = <0.50, inf) THEN class = {3} (p=3.0, n=0.0, P=14.0, N=161.0)
+r23: IF gold = {1} AND area = (-inf, 292) AND green = {0} AND blue = {1} AND sunstars = (-inf, 0.50) AND black = {0} AND bars = (-inf, 0.50) THEN class = {3} (p=2.0, n=1.0, P=14.0, N=161.0)
+r24: IF area = (-inf, 33) AND religion = {5} THEN class = {2} (p=3.0, n=0.0, P=27.0, N=148.0)
+r25: IF triangle = {1} AND religion = {5} THEN class = {2} (p=3.0, n=0.0, P=27.0, N=148.0)
+r26: IF orange = {1} AND religion = {5} THEN class = {2} (p=2.0, n=0.0, P=27.0, N=148.0)
+r27: IF white = {0} AND language = {10} AND religion = {5} THEN class = {2} (p=8.0, n=0.0, P=27.0, N=148.0)
+r28: IF black = {1} AND language = {10} AND landmass = {4} AND population = (-inf, 12.50) THEN class = {2} (p=8.0, n=0.0, P=27.0, N=148.0)
+r29: IF area = (-inf, 33) AND mainhue = {red} AND landmass = {4} THEN class = {2} (p=4.0, n=0.0, P=27.0, N=148.0)
+r30: IF area = <585, 1221.50) AND sunstars = (-inf, 0.50) AND landmass = {4} AND population = (-inf, 38) THEN class = {2} (p=6.0, n=0.0, P=27.0, N=148.0)
+r31: IF stripes = (-inf, 9) AND area = (-inf, 611.50) AND crescent = {0} AND sunstars = (-inf, 3.50) AND icon = {0} AND circles = (-inf, 0.50) AND language = {10} AND population = (-inf, 2.50) THEN class = {2} (p=4.0, n=0.0, P=27.0, N=148.0)
+r32: IF blue = {0} AND landmass = {6} THEN class = {2} (p=3.0, n=0.0, P=27.0, N=148.0)
+r33: IF area = <9, inf) AND landmass = {6} AND population = (-inf, 31.50) THEN class = {2} (p=5.0, n=0.0, P=27.0, N=148.0)
+r34: IF landmass = {1} THEN class = {4} (p=29.0, n=0.0, P=52.0, N=123.0)
+r35: IF black = {1} AND language = {1} THEN class = {4} (p=13.0, n=0.0, P=52.0, N=123.0)
+r36: IF mainhue = {white} AND language = {1} THEN class = {4} (p=5.0, n=0.0, P=52.0, N=123.0)
+r37: IF area = <50, inf) AND quarters = (-inf, 0.50) AND language = {1} THEN class = {4} (p=6.0, n=0.0, P=52.0, N=123.0)
+r38: IF area = (-inf, 1212) AND language = {2} AND population = <13, inf) THEN class = {4} (p=3.0, n=0.0, P=52.0, N=123.0)
+r39: IF mainhue = {white} AND language = {3} THEN class = {4} (p=2.0, n=0.0, P=52.0, N=123.0)
+r40: IF language = {3} AND population = <5, 7.50) THEN class = {4} (p=6.0, n=0.0, P=52.0, N=123.0)
+r41: IF area = <46.50, inf) AND population = (-inf, 0.50) THEN class = {4} (p=4.0, n=0.0, P=52.0, N=123.0)
+r42: IF text = {0} AND colours = <4.50, inf) AND religion = {0} THEN class = {4} (p=3.0, n=0.0, P=52.0, N=123.0)
+r43: IF area = <33, inf) AND sunstars = <0.50, inf) AND population = (-inf, 1.50) THEN class = {4} (p=3.0, n=0.0, P=52.0, N=123.0)

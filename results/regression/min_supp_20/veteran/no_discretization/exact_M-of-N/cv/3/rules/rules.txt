@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.6385655866624725
+r2: 0.4789125431530495
+r3: 0.4931850789096127
+r4: 0.4453441295546559
+r5: 0.4130913729128015
+r6: 0.44824393358876113
+r7: 0.4395141895141895
+r8: 0.49568455417261775
+r9: 0.33186598190266553
+r10: 0.2849555080361452
+r11: 0.4185095901897077
+r12: 0.2703905890545531
+r13: 0.35083487940630803
+r14: 0.21275263890025362
+r15: 0.1727272727272727
+________________________________
+r1: IF karnofsky = <15, 50) = {1} AND status != {0} = {0} THEN class = {0.019} [-0.049,0.087] (p=32.0, n=2.0, P=68.0, N=55.0)
+r2: IF age != <37.50, 70) = {1} THEN class = {0.048} [-0.01,0.11] (p=14.0, n=1.0, P=79.0, N=44.0)
+r3: IF therapy != {10} = {0} AND karnofsky = <77.50, 90) = {1} THEN class = {0.11} [0.059,0.16] (p=14.0, n=3.0, P=41.0, N=82.0)
+r4: IF 2-of-3(karnofsky < age, age = (-inf, 70), months != <5.50, 11)) = {1} AND status != {0} = {0} AND karnofsky = <77.50, 90) = {1} THEN class = {0.11} [0.052,0.17] (p=15.0, n=4.0, P=45.0, N=78.0)
+r5: IF 2-of-3(age = (-inf, 70), karnofsky = <15, 50), months = (-inf, 19)) = {0} THEN class = {0.041} [-0.04,0.12] (p=37.0, n=5.0, P=88.0, N=35.0)
+r6: IF status != {0} = {0} AND months != <2.50, 5) = {0} AND 2-of-3(months != <2.50, 5), karnofsky < age, age != <62.50, 65)) = {1} THEN class = {0.029} [-0.064,0.12] (p=14.0, n=1.0, P=87.0, N=36.0)
+r7: IF karnofsky = <15, 50) = {0} AND treatment != {2} = {1} AND months != <2.50, 5) = {0} AND 2-of-3(age != <62.50, 65), treatment != {2}, months != <5.50, 11)) = {0} THEN class = {0.083} [0.044,0.12] (p=9.0, n=2.0, P=42.0, N=81.0)
+r8: IF karnofsky = <15, 50) = {0} AND status != {0} = {0} AND therapy != {10} = {0} AND months != <2.50, 5) = {0} AND age != <49.50, 62) = {1} AND 2-of-3(months = (-inf, 19), karnofsky = <15, 50), age != <62.50, 65)) = {1} THEN class = {0.072} [0.019,0.13] (p=12.0, n=1.0, P=65.0, N=58.0)
+r9: IF months = <3, inf) = {1} AND karnofsky = (-inf, 35) = {0} AND months = (-inf, 11.50) = {1} AND status != {0} = {0} AND age != <49.50, 62) = {1} AND months != <5.50, 11) = {1} AND 2-of-3(age = (-inf, 70), karnofsky = <15, 50), months = (-inf, 19)) = {1} THEN class = {0.094} [0.0068,0.18] (p=24.0, n=3.0, P=94.0, N=29.0)
+r10: IF 2-of-3(age = (-inf, 70), treatment != {2}, months = <3, inf)) = {0} THEN class = {0.051} [-0.14,0.24] (p=53.0, n=4.0, P=109.0, N=14.0)
+r11: IF 2-of-3(age != <49.50, 62), treatment != {2}, months = (-inf, 19)) = {0} AND therapy != {10} = {0} THEN class = {0.051} [-0.043,0.15] (p=38.0, n=4.0, P=94.0, N=29.0)
+r12: IF 2-of-3(age != <49.50, 62), treatment != {2}, months = (-inf, 19)) = {0} THEN class = {0.05} [-0.044,0.14] (p=50.0, n=9.0, P=94.0, N=29.0)
+r13: IF therapy != {10} = {0} AND karnofsky < age = {1} THEN class = {0.044} [-0.037,0.12] (p=36.0, n=6.0, P=88.0, N=35.0)
+r14: IF 2-of-3(karnofsky < age, age = (-inf, 70), months != <5.50, 11)) = {0} THEN class = {0.024} [-0.13,0.18] (p=48.0, n=7.0, P=101.0, N=22.0)
+r15: IF treatment != {2} = {1} AND 2-of-3(months = <3, inf), karnofsky = <15, 50), age = (-inf, 70)) = {0} AND karnofsky < age = {0} THEN class = {0.28} [0.12,0.45] (p=3.0, n=3.0, P=33.0, N=90.0)

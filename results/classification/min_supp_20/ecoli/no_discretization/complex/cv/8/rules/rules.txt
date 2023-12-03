@@ -1,0 +1,116 @@
+Rules qualities:
+r1: 0.8325938295866123
+r2: 0.8246285467143617
+r3: 0.8405499363346585
+r4: 0.8451529461954482
+r5: 0.8613293263054633
+r6: 0.8734283033998578
+r7: 0.8549071230071669
+r8: 0.8671974819076488
+r9: 0.8753711610568068
+r10: 0.8957417341850324
+r11: 0.8302071638599307
+r12: 0.5507246376811594
+r13: 0.7805687990701866
+r14: 0.7525530919250727
+r15: 0.7254304471695776
+r16: 0.7254304471695776
+r17: 0.7433967927278965
+r18: 0.7472521864744767
+r19: 0.6609468690789141
+r20: 0.62341643863383
+r21: 0.8039130434782608
+r22: 0.5050758420323638
+r23: 0.75
+r24: 0.75
+r25: 0.75
+r26: 1.0
+r27: 0.5806451612903226
+r28: 0.5806451612903226
+r29: 0.5483870967741935
+r30: 0.6451612903225806
+r31: 0.5967741935483871
+r32: 0.6290322580645161
+r33: 0.6719046489563568
+r34: 0.5483870967741935
+r35: 0.5806451612903226
+r36: 0.5483870967741935
+r37: 0.5607718894009215
+r38: 0.6944444444444444
+r39: 0.8333333333333333
+r40: 0.8611111111111112
+r41: 0.9166666666666667
+r42: 0.8055555555555556
+r43: 1.0
+r44: 0.5425531914893617
+r45: 0.5319148936170213
+r46: 0.648936170212766
+r47: 0.6702127659574468
+r48: 0.7127659574468085
+r49: 0.7446808510638298
+r50: 0.7872340425531915
+r51: 0.7990956407912234
+r52: 0.7340425531914894
+r53: 0.851063829787234
+r54: 0.8191489361702128
+r55: 0.843659962322695
+r56: 0.8085106382978724
+r57: 0.6360727454061895
+________________________________
+r1: IF alm1 = (-inf, 0.36) AND gvh = (-inf, 0.56) THEN class = {cp} (p=90.0, n=1.0, P=129.0, N=174.0)
+r2: IF alm1 < alm2 AND alm1 = (-inf, 0.36) THEN class = {cp} (p=88.0, n=1.0, P=129.0, N=174.0)
+r3: IF alm1 = (-inf, 0.37) AND gvh = (-inf, 0.56) THEN class = {cp} (p=92.0, n=1.0, P=129.0, N=174.0)
+r4: IF alm1 = (-inf, 0.38) AND gvh = (-inf, 0.56) THEN class = {cp} (p=97.0, n=2.0, P=129.0, N=174.0)
+r5: IF alm1 = (-inf, 0.39) AND gvh = (-inf, 0.56) THEN class = {cp} (p=101.0, n=2.0, P=129.0, N=174.0)
+r6: IF lip > alm2 AND alm1 = (-inf, 0.40) AND gvh = (-inf, 0.56) THEN class = {cp} (p=104.0, n=2.0, P=129.0, N=174.0)
+r7: IF mcg = <0.17, inf) AND alm1 = (-inf, 0.42) AND gvh = (-inf, 0.56) THEN class = {cp} (p=103.0, n=3.0, P=129.0, N=174.0)
+r8: IF mcg = <0.17, inf) AND alm1 = (-inf, 0.43) AND gvh = (-inf, 0.56) THEN class = {cp} (p=106.0, n=3.0, P=129.0, N=174.0)
+r9: IF mcg = <0.17, inf) AND alm1 = (-inf, 0.45) AND gvh = (-inf, 0.56) THEN class = {cp} (p=108.0, n=3.0, P=129.0, N=174.0)
+r10: IF mcg = <0.17, inf) AND alm1 = (-inf, 0.46) AND aac = (-inf, 0.76) AND gvh = (-inf, 0.57) THEN class = {cp} (p=113.0, n=3.0, P=129.0, N=174.0)
+r11: IF mcg = <0.17, 0.46) AND alm1 = (-inf, 0.58) AND gvh = (-inf, 0.59) THEN class = {cp} (p=97.0, n=3.0, P=129.0, N=174.0)
+r12: IF alm2 = <0.71, 0.74) THEN class = {im} (p=7.0, n=0.0, P=69.0, N=234.0)
+r13: IF lip < alm1 AND mcg = (-inf, 0.62) AND alm1 = <0.65, inf) AND gvh = <0.32, inf) THEN class = {im} (p=45.0, n=2.0, P=69.0, N=234.0)
+r14: IF lip < alm1 AND mcg = (-inf, 0.64) AND alm1 = <0.65, inf) AND gvh = <0.32, inf) THEN class = {im} (p=49.0, n=5.0, P=69.0, N=234.0)
+r15: IF mcg = (-inf, 0.67) AND alm1 = <0.65, inf) AND gvh = <0.32, inf) THEN class = {im} (p=52.0, n=8.0, P=69.0, N=234.0)
+r16: IF lip < alm1 AND mcg = (-inf, 0.70) AND alm1 = <0.65, inf) AND gvh = <0.32, 0.67) THEN class = {im} (p=52.0, n=8.0, P=69.0, N=234.0)
+r17: IF lip < alm1 AND mcg = (-inf, 0.72) AND alm1 = <0.65, inf) AND gvh = <0.32, 0.71) THEN class = {im} (p=56.0, n=9.0, P=69.0, N=234.0)
+r18: IF lip < alm1 AND mcg = (-inf, 0.75) AND alm1 = <0.65, inf) AND gvh = <0.32, 0.71) THEN class = {im} (p=60.0, n=11.0, P=69.0, N=234.0)
+r19: IF lip < alm1 AND mcg = (-inf, 0.85) AND alm1 = <0.65, inf) AND aac = (-inf, 0.73) AND gvh = <0.34, 0.71) THEN class = {im} (p=62.0, n=19.0, P=69.0, N=234.0)
+r20: IF lip < alm1 AND alm1 = <0.62, inf) AND aac = (-inf, 0.73) AND gvh = <0.34, 0.71) THEN class = {im} (p=64.0, n=24.0, P=69.0, N=234.0)
+r21: IF lip < alm1 AND mcg = (-inf, 0.62) AND alm1 = <0.58, inf) AND gvh = <0.32, inf) THEN class = {im} (p=48.0, n=2.0, P=69.0, N=234.0)
+r22: IF mcg = (-inf, 0.62) AND gvh = <0.50, 0.53) AND alm2 = <0.48, inf) THEN class = {im} (p=10.0, n=1.0, P=69.0, N=234.0)
+r23: IF aac > alm1 AND mcg = <0.85, 0.87) THEN class = {imS} (p=1.0, n=0.0, P=2.0, N=301.0)
+r24: IF gvh < chg AND aac = <0.53, 0.55) AND alm1 = <0.73, 0.77) THEN class = {imS} (p=1.0, n=0.0, P=2.0, N=301.0)
+r25: IF lip = chg THEN class = {imL} (p=1.0, n=0.0, P=2.0, N=301.0)
+r26: IF lip = <0.74, inf) AND aac = <0.39, 0.52) THEN class = {imL} (p=2.0, n=0.0, P=2.0, N=301.0)
+r27: IF alm1 = <0.73, 0.75) THEN class = {imU} (p=5.0, n=0.0, P=31.0, N=272.0)
+r28: IF mcg = <0.79, 0.83) THEN class = {imU} (p=5.0, n=0.0, P=31.0, N=272.0)
+r29: IF mcg = <0.86, 0.88) THEN class = {imU} (p=3.0, n=0.0, P=31.0, N=272.0)
+r30: IF mcg = <0.79, 0.88) AND alm1 = <0.74, inf) THEN class = {imU} (p=9.0, n=0.0, P=31.0, N=272.0)
+r31: IF mcg < alm1 AND alm2 = <0.76, 0.78) THEN class = {imU} (p=6.0, n=0.0, P=31.0, N=272.0)
+r32: IF mcg = <0.76, 0.88) AND alm2 = <0.75, inf) THEN class = {imU} (p=8.0, n=0.0, P=31.0, N=272.0)
+r33: IF chg < alm2 AND lip < aac AND mcg = <0.75, 0.89) THEN class = {imU} (p=14.0, n=1.0, P=31.0, N=272.0)
+r34: IF aac = <0.53, 0.57) AND alm2 = <0.74, 0.78) THEN class = {imU} (p=3.0, n=0.0, P=31.0, N=272.0)
+r35: IF mcg = <0.72, 0.83) AND alm2 = <0.74, 0.80) THEN class = {imU} (p=5.0, n=0.0, P=31.0, N=272.0)
+r36: IF mcg = <0.64, inf) AND alm1 = (-inf, 0.65) AND alm2 = <0.62, 0.80) THEN class = {imU} (p=3.0, n=0.0, P=31.0, N=272.0)
+r37: IF lip < alm1 AND alm1 < alm2 AND mcg = <0.62, 0.89) AND aac = (-inf, 0.71) AND gvh = (-inf, 0.57) AND alm2 = <0.62, 0.88) THEN class = {imU} (p=20.0, n=8.0, P=31.0, N=272.0)
+r38: IF aac = <0.76, inf) THEN class = {om} (p=7.0, n=0.0, P=18.0, N=285.0)
+r39: IF aac = <0.72, inf) AND alm2 = <0.15, 0.63) THEN class = {om} (p=12.0, n=0.0, P=18.0, N=285.0)
+r40: IF aac = <0.68, inf) AND alm1 = <0.31, 0.58) THEN class = {om} (p=13.0, n=0.0, P=18.0, N=285.0)
+r41: IF aac = <0.65, inf) AND alm1 = <0.31, 0.58) THEN class = {om} (p=15.0, n=0.0, P=18.0, N=285.0)
+r42: IF chg < aac AND gvh = <0.68, inf) AND alm2 = <0.24, 0.39) THEN class = {om} (p=11.0, n=0.0, P=18.0, N=285.0)
+r43: IF lip > chg AND aac > alm2 THEN class = {omL} (p=5.0, n=0.0, P=5.0, N=298.0)
+r44: IF gvh = <0.72, 0.75) THEN class = {pp} (p=4.0, n=0.0, P=47.0, N=256.0)
+r45: IF gvh = <0.82, 0.84) THEN class = {pp} (p=3.0, n=0.0, P=47.0, N=256.0)
+r46: IF mcg > aac AND gvh = <0.79, 0.88) THEN class = {pp} (p=14.0, n=0.0, P=47.0, N=256.0)
+r47: IF mcg > aac AND gvh = <0.77, 0.88) THEN class = {pp} (p=16.0, n=0.0, P=47.0, N=256.0)
+r48: IF chg > aac AND alm1 = <0.37, inf) AND gvh = <0.71, 0.88) THEN class = {pp} (p=20.0, n=0.0, P=47.0, N=256.0)
+r49: IF aac = (-inf, 0.63) AND alm1 = <0.36, 0.71) AND gvh = <0.70, 0.88) THEN class = {pp} (p=23.0, n=0.0, P=47.0, N=256.0)
+r50: IF chg > aac AND alm1 = <0.37, 0.87) AND gvh = <0.64, 0.88) THEN class = {pp} (p=27.0, n=0.0, P=47.0, N=256.0)
+r51: IF aac = (-inf, 0.64) AND alm1 = <0.36, 0.71) AND gvh = <0.64, inf) THEN class = {pp} (p=31.0, n=1.0, P=47.0, N=256.0)
+r52: IF mcg > chg AND aac = (-inf, 0.45) AND gvh = <0.60, 0.88) THEN class = {pp} (p=22.0, n=0.0, P=47.0, N=256.0)
+r53: IF mcg > aac AND alm1 = <0.36, 0.65) AND aac = (-inf, 0.66) AND gvh = <0.60, 0.88) THEN class = {pp} (p=33.0, n=0.0, P=47.0, N=256.0)
+r54: IF alm1 = <0.37, 0.54) AND aac = (-inf, 0.64) AND gvh = <0.59, 0.88) THEN class = {pp} (p=30.0, n=0.0, P=47.0, N=256.0)
+r55: IF mcg > aac AND mcg = <0.55, 0.76) AND alm1 = <0.34, 0.65) AND aac = (-inf, 0.66) AND gvh = <0.57, 0.88) THEN class = {pp} (p=35.0, n=1.0, P=47.0, N=256.0)
+r56: IF mcg = <0.62, 0.75) AND aac = (-inf, 0.51) AND alm1 = <0.39, 0.73) THEN class = {pp} (p=29.0, n=0.0, P=47.0, N=256.0)
+r57: IF aac > alm2 AND mcg = <0.23, 0.75) AND alm1 = <0.37, 0.58) AND aac = <0.37, 0.53) THEN class = {pp} (p=20.0, n=2.0, P=47.0, N=256.0)

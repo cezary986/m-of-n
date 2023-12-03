@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.9999999848144363
+r2: 0.9999999997245059
+r3: 0.999999999541547
+r4: 0.9999999848144363
+________________________________
+r1: IF extcGvHD != RecipientRh = {1} THEN  (p=68.0, n=0.0, P=169.0, N=0.0)
+r2: IF aGvHDIIIIV = Txpostrelapse = {0} AND aGvHDIIIIV = Relapse = {0} AND extcGvHD != RecipientRh = {0} THEN  (p=65.0, n=0.0, P=169.0, N=0.0)
+r3: IF aGvHDIIIIV = Relapse = {0} AND extcGvHD != RecipientRh = {0} THEN  (p=71.0, n=0.0, P=169.0, N=0.0)
+r4: IF extcGvHD != RecipientRh = {0} THEN  (p=101.0, n=0.0, P=169.0, N=0.0)

@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.8773584905660378
+r2: 0.8962264150943396
+r3: 0.9150943396226415
+r4: 0.9339622641509434
+r5: 0.9716981132075472
+r6: 0.9150943396226415
+r7: 0.90625
+r8: 0.90625
+r9: 0.8984375
+r10: 0.8828125
+r11: 0.7890625
+r12: 0.8837209302325582
+r13: 0.9302325581395349
+r14: 0.8023255813953488
+________________________________
+r1: IF Proline = <987.50, inf) = {1} THEN class = {1} (p=40.0, n=0.0, P=53.0, N=107.0)
+r2: IF Alcalinity_of_ash = (-inf, 26.25) = {1} AND Proline = <953.50, inf) = {1} THEN class = {1} (p=42.0, n=0.0, P=53.0, N=107.0)
+r3: IF Proline = <900.50, inf) = {1} AND Color_intensity = (-inf, 3.46) = {0} THEN class = {1} (p=44.0, n=0.0, P=53.0, N=107.0)
+r4: IF Alcohol = (-inf, 13.02) = {0} AND Proline = <842.50, inf) = {1} THEN class = {1} (p=46.0, n=0.0, P=53.0, N=107.0)
+r5: IF Alcohol = (-inf, 13.02) = {0} AND Proline = <755, inf) = {1} AND 2-of-3(Alcalinity_of_ash = (-inf, 27.50), Color_intensity = <3.45, inf), Flavanoids = <0.96, inf)) = {0} THEN class = {1} (p=50.0, n=0.0, P=53.0, N=107.0)
+r6: IF Alcohol = (-inf, 13.02) = {0} AND Flavanoids = <2.59, 3.75) = {1} AND Color_intensity = (-inf, 3.46) = {0} THEN class = {1} (p=44.0, n=0.0, P=53.0, N=107.0)
+r7: IF Color_intensity = (-inf, 3.46) = {1} THEN class = {2} (p=52.0, n=0.0, P=64.0, N=96.0)
+r8: IF Alcohol = (-inf, 13.02) = {1} AND Color_intensity = (-inf, 3.82) = {1} THEN class = {2} (p=52.0, n=0.0, P=64.0, N=96.0)
+r9: IF Color_intensity = (-inf, 3.92) = {1} AND Proline = (-inf, 717) = {1} THEN class = {2} (p=51.0, n=0.0, P=64.0, N=96.0)
+r10: IF Flavanoids = (-inf, 0.98) = {0} AND Alcohol = (-inf, 12.52) = {1} THEN class = {2} (p=49.0, n=0.0, P=64.0, N=96.0)
+r11: IF Alcohol = (-inf, 13.18) = {1} AND Flavanoids = <1.40, 2.33) = {1} THEN class = {2} (p=37.0, n=0.0, P=64.0, N=96.0)
+r12: IF Alcohol < Alcalinity_of_ash = {1} AND Flavanoids = (-inf, 0.98) = {1} THEN class = {3} (p=33.0, n=0.0, P=43.0, N=117.0)
+r13: IF Color_intensity = (-inf, 3.46) = {0} AND Flavanoids = (-inf, 1.23) = {1} THEN class = {3} (p=37.0, n=0.0, P=43.0, N=117.0)
+r14: IF Hue = (-inf, 0.69) = {1} THEN class = {3} (p=26.0, n=0.0, P=43.0, N=117.0)

@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.4357298474945534
+r2: 0.41851479433178784
+r3: 0.607843137254902
+r4: 0.49394819656257566
+r5: 0.4278984867220161
+r6: 0.7
+r7: 0.7
+r8: 0.7
+r9: 0.4357298474945534
+r10: 0.41851479433178784
+r11: 0.6058539357772094
+r12: 0.41851479433178784
+r13: 0.49394819656257566
+________________________________
+r1: IF 2-of-3(education_level != age, age = {2}, marital_status != age) = {0} THEN class = {1} (p=24.0, n=8.0, P=51.0, N=81.0)
+r2: IF age = {1} = {1} AND 2-of-3(education_level = {2}, age = {2}, marital_status != age) = {0} THEN class = {1} (p=28.0, n=11.0, P=51.0, N=81.0)
+r3: IF marital_status != education_level = {0} AND education_level = {1} = {1} AND age = {4} = {0} THEN class = {1} (p=11.0, n=0.0, P=51.0, N=81.0)
+r4: IF education_level = {1} = {1} AND 2-of-3(education_level = age, age = {2}, marital_status != age) = {1} THEN class = {1} (p=26.0, n=7.0, P=51.0, N=81.0)
+r5: IF marital_status = {1} = {1} AND 2-of-3(education_level = age, age = {2}, marital_status != education_level) = {0} THEN class = {1} (p=27.0, n=10.0, P=51.0, N=81.0)
+r6: IF age = {4} = {1} THEN class = {3} (p=12.0, n=0.0, P=30.0, N=102.0)
+r7: IF education_level = {4} = {1} THEN class = {3} (p=12.0, n=0.0, P=30.0, N=102.0)
+r8: IF marital_status = {4} = {1} THEN class = {3} (p=12.0, n=0.0, P=30.0, N=102.0)
+r9: IF 2-of-3(education_level != age, age = {1}, marital_status != age) = {0} THEN class = {2} (p=24.0, n=8.0, P=51.0, N=81.0)
+r10: IF age = {2} = {1} AND 2-of-3(age = {1}, marital_status = {1}, education_level != age) = {0} THEN class = {2} (p=28.0, n=11.0, P=51.0, N=81.0)
+r11: IF education_level = {2} = {1} AND 2-of-3(age = {1}, education_level = age, marital_status != age) = {1} THEN class = {2} (p=21.0, n=2.0, P=51.0, N=81.0)
+r12: IF education_level = {2} = {1} AND 2-of-3(education_level = {1}, age = {1}, marital_status != education_level) = {0} THEN class = {2} (p=28.0, n=11.0, P=51.0, N=81.0)
+r13: IF marital_status = {2} = {1} AND 2-of-3(age = {1}, marital_status = age, education_level != age) = {1} THEN class = {2} (p=26.0, n=7.0, P=51.0, N=81.0)

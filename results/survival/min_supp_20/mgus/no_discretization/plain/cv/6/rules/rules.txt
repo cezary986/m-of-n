@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.9999999990618205
+r2: 0.985593476250275
+r3: 0.9991873256785102
+r4: 0.9999999835634775
+r5: 0.9999999626004341
+r6: 0.9996016726501055
+r7: 0.9992394254374187
+r8: 0.9436377593839445
+r9: 0.9999999999983098
+r10: 0.9326559274818037
+r11: 0.9999131337883207
+r12: 0.9994928278782391
+r13: 0.9999999526207053
+r14: 0.9861929194279447
+________________________________
+r1: IF mspike = (-inf, 2.75) AND pcdx = {?} AND age = (-inf, 68) THEN  (p=91.0, n=0.0, P=217.0, N=0.0)
+r2: IF mspike = <2.25, inf) AND creat = (-inf, 1.80) AND hgb = (-inf, 14.85) AND sex = {male} THEN  (p=8.0, n=0.0, P=217.0, N=0.0)
+r3: IF mspike = (-inf, 2.25) AND pctime = (-inf, 3774) THEN  (p=24.0, n=0.0, P=217.0, N=0.0)
+r4: IF age = (-inf, 69) THEN  (p=143.0, n=0.0, P=217.0, N=0.0)
+r5: IF hgb = (-inf, 13.65) AND pcdx = {?} AND alb = (-inf, 3.25) AND sex = {male} THEN  (p=37.0, n=0.0, P=217.0, N=0.0)
+r6: IF mspike = (-inf, 1.75) AND creat = <0.95, inf) AND hgb = (-inf, 14.15) AND dxyr = (-inf, 69.50) AND pcdx = {?} AND alb = (-inf, 3.35) AND sex = {male} THEN  (p=14.0, n=0.0, P=217.0, N=0.0)
+r7: IF mspike = (-inf, 1.75) AND hgb = (-inf, 14.55) AND pcdx = {?} AND alb = (-inf, 3.45) AND sex = {male} THEN  (p=31.0, n=0.0, P=217.0, N=0.0)
+r8: IF mspike = <1.55, 1.90) AND dxyr = (-inf, 69.50) AND hgb = (-inf, 14.95) AND alb = <3.05, 3.25) AND sex = {male} THEN  (p=6.0, n=0.0, P=217.0, N=0.0)
+r9: IF mspike = (-inf, 2.75) AND age = (-inf, 74.50) THEN  (p=172.0, n=0.0, P=217.0, N=0.0)
+r10: IF mspike = <1.65, 1.95) AND creat = (-inf, 1.75) AND dxyr = <68.50, inf) AND pcdx = {?} AND alb = (-inf, 3.35) THEN  (p=12.0, n=0.0, P=217.0, N=0.0)
+r11: IF mspike = <1.60, 2.25) AND hgb = (-inf, 14.15) AND sex = {male} THEN  (p=42.0, n=0.0, P=217.0, N=0.0)
+r12: IF mspike = <1.35, 2.15) AND hgb = <10.40, inf) AND pcdx = {?} AND sex = {female} AND age = (-inf, 77.50) THEN  (p=34.0, n=0.0, P=217.0, N=0.0)
+r13: IF hgb = <12.65, inf) AND pcdx = {?} AND age = (-inf, 78.50) THEN  (p=95.0, n=0.0, P=217.0, N=0.0)
+r14: IF mspike = (-inf, 2.05) AND dxyr = <67.50, inf) AND hgb = <11.35, 14.40) AND pcdx = {?} AND alb = <2.75, 3.85) AND sex = {female} THEN  (p=13.0, n=0.0, P=217.0, N=0.0)

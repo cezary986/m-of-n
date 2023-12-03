@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.9999999999994849
+r2: 0.9999999999842207
+r3: 1.0
+r4: 0.9999999999999998
+r5: 1.0
+r6: 0.9999999999304492
+r7: 0.9999999999999998
+r8: 0.9999999999999952
+r9: 0.9999999999999575
+r10: 0.9999999755824998
+r11: 0.9999999999973854
+r12: 0.9999999993371674
+r13: 0.9999590816785064
+r14: 0.8324672892027192
+r15: 0.9999999999999997
+r16: 0.9999464973411618
+________________________________
+r1: IF hgb != <14.20, 15) AND age = (-inf, 64.50) AND mspike = (-inf, 2.45) AND hgb != <11.50, 11.80) AND dxyr != <64.50, 67) AND alb != <2.10, 2.60) AND pctime != <1030, 2802) AND age != <59.50, 64) THEN  (p=55.0, n=0.0, P=217.0, N=0.0)
+r2: IF hgb != <13.25, 13.50) AND hgb = (-inf, 13.35) AND mspike != <2.05, 2.30) AND hgb != <11.95, 12.40) AND alb = (-inf, 3.50) AND age != <34.50, 66) THEN  (p=34.0, n=0.0, P=217.0, N=0.0)
+r3: IF hgb != <14.55, 14.90) AND mspike = (-inf, 2.45) AND hgb != <10.30, 11.40) AND dxyr != <63.50, 66) AND alb != <2.65, 2.90) AND pctime != <1030, 2802) AND age = <34.50, 66) THEN  (p=79.0, n=0.0, P=217.0, N=0.0)
+r4: IF hgb = (-inf, 13.65) AND alb = (-inf, 3.50) AND dxyr != <64.50, 68) AND hgb != <10.65, 11) AND alb != <3.05, 3.30) AND age != <34.50, 66) THEN  (p=32.0, n=0.0, P=217.0, N=0.0)
+r5: IF hgb != <13.55, 13.80) AND age != <69, 73) AND mspike != <1.05, 1.40) AND hgb != <14.15, 15.90) AND dxyr != <64.50, 68) AND pcdx = {?, MA, MM} AND age != <34.50, 66) THEN  (p=39.0, n=0.0, P=217.0, N=0.0)
+r6: IF pcdx = {?, AM, MA} AND alb = (-inf, 3.25) AND age != <34.50, 66) THEN  (p=52.0, n=0.0, P=217.0, N=0.0)
+r7: IF pctime != <2907, 3773) AND hgb != <11.50, 11.80) AND hgb != <14.20, 15.10) AND hgb != <10.30, 11.40) AND alb != <2.10, 2.60) AND pctime != <1030, 2802) AND age = (-inf, 61.50) THEN  (p=55.0, n=0.0, P=217.0, N=0.0)
+r8: IF alb != <2.65, 2.90) AND pctime != <3318, 3837) AND pctime != <4232, 6789) AND hgb != <14.70, 15) AND mspike = (-inf, 2.45) AND dxyr = <64.50, 67) AND hgb != <11.50, 11.80) AND alb != <2.10, 2.60) AND pctime != <1030, 2802) AND age = (-inf, 62.50) THEN  (p=56.0, n=0.0, P=217.0, N=0.0)
+r9: IF alb != <2.65, 2.90) AND hgb != <15.25, 15.50) AND pctime != <3318, 3837) AND hgb != <14.05, 14.80) AND hgb != <11.50, 11.80) AND alb != <2.10, 2.60) AND pctime != <1030, 2802) AND age = (-inf, 61.50) THEN  (p=65.0, n=0.0, P=217.0, N=0.0)
+r10: IF age > dxyr AND hgb != <14, 16.20) THEN  (p=55.0, n=0.0, P=217.0, N=0.0)
+r11: IF hgb != <11.50, 11.80) AND dxyr != <63.50, 66) AND pctime != <1030, 2802) AND age = (-inf, 64.50) THEN  (p=93.0, n=0.0, P=217.0, N=0.0)
+r12: IF hgb != <12.75, 13) AND hgb != <10.30, 11.40) AND alb != <2.75, 3) AND age = (-inf, 57) THEN  (p=52.0, n=0.0, P=217.0, N=0.0)
+r13: IF creat != <0.75, 1.10) AND hgb = <12.85, 13.30) AND pcdx = {?, MA, MM} AND alb != <3.05, 3.30) THEN  (p=77.0, n=0.0, P=217.0, N=0.0)
+r14: IF alb = <3.50, inf) AND creat = <0.85, 1.05) AND dxyr != <64.50, 68) AND hgb = <13.65, 14.60) AND alb != <3.35, 3.60) THEN  (p=8.0, n=0.0, P=217.0, N=0.0)
+r15: IF alb != <3.05, 3.30) AND mspike != <1.95, 2.20) AND hgb != <14.15, 14.60) AND alb != <3.45, 3.70) AND age != <34.50, 66) THEN  (p=56.0, n=0.0, P=217.0, N=0.0)
+r16: IF hgb != <11.70, 12.40) AND creat < mspike AND creat = (-inf, 1.15) AND hgb != <10.65, 11) AND age = (-inf, 75.50) THEN  (p=104.0, n=0.0, P=217.0, N=0.0)

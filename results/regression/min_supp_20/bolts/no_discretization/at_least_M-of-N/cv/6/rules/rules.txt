@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.6470588235294118
+r2: 0.7333333333333334
+r3: 0.8385416666666666
+r4: 0.6470588235294118
+r5: 0.59064039408867
+r6: 0.4666666666666667
+r7: 0.5303030303030303
+r8: 0.6501547987616099
+r9: 0.40364583333333337
+r10: 0.7272727272727273
+r11: 0.737179487179487
+________________________________
+r1: IF RUN < TOTAL = {1} AND SPEED2 > SENS = {1} THEN class = {0.80} [0.79,0.80] (p=2.0, n=1.0, P=2.0, N=34.0)
+r2: IF RUN < TOTAL = {1} AND SPEED1 < SENS = {0} THEN class = {0.80} [0.77,0.83] (p=5.0, n=1.0, P=6.0, N=30.0)
+r3: IF 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, RUN > SENS) = {1} AND TOTAL > TIME = {0} AND TIME = <10.56, 27.02) = {0} THEN class = {0.80} [0.59,1.00] (p=11.0, n=1.0, P=12.0, N=24.0)
+r4: IF 2-of-3(SENS < TIME, TOTAL < TIME, RUN > SPEED1) = {1} AND SENS = <7, inf) = {1} AND RUN < TIME = {1} AND TIME = <10.56, 27.02) = {1} THEN class = {0.081} [0.068,0.094] (p=2.0, n=1.0, P=2.0, N=34.0)
+r5: IF SPEED2 = <1.75, inf) = {1} AND 2-of-3(SENS < TIME, TOTAL < TIME, RUN > SPEED1) = {1} AND TOTAL > TIME = {1} AND SENS = <7, inf) = {1} THEN class = {0.081} [0.056,0.11] (p=4.0, n=1.0, P=7.0, N=29.0)
+r6: IF TOTAL > TIME = {1} AND SPEED1 > SPEED2 = {0} THEN class = {0.093} [0.049,0.14] (p=4.0, n=1.0, P=12.0, N=24.0)
+r7: IF RUN < TOTAL = {1} AND 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, RUN > SENS) = {1} AND 2-of-3(SENS < TIME, TOTAL < TIME, RUN > SPEED1) = {0} THEN class = {0.025} [0.0079,0.043] (p=2.0, n=1.0, P=3.0, N=33.0)
+r8: IF SPEED2 = <1.75, inf) = {1} AND 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, RUN > SENS) = {1} AND SPEED1 < SENS = {1} AND RUN > SPEED1 = {1} THEN class = {0.081} [-5.2E-4,0.16] (p=11.0, n=1.0, P=19.0, N=17.0)
+r9: IF 2-of-3(TOTAL > SENS, RUN < TOTAL, SENS < TIME) = {0} THEN class = {0.12} [-0.12,0.35] (p=7.0, n=1.0, P=24.0, N=12.0)
+r10: IF TOTAL > TIME = {1} AND 2-of-3(SENS < TIME, TOTAL < TIME, RUN > SPEED1) = {1} AND RUN < TIME = {0} THEN class = {0.13} [0.12,0.14] (p=3.0, n=1.0, P=3.0, N=33.0)
+r11: IF TOTAL > TIME = {0} AND SPEED1 > SPEED2 = {1} AND 2-of-3(TOTAL > SENS, RUN < TIME, SENS < TIME) = {1} THEN class = {0.78} [0.55,1.02] (p=11.0, n=2.0, P=12.0, N=24.0)

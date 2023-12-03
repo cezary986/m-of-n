@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 0.9999999986613134
+r5: 0.999999999999953
+r6: 1.0
+________________________________
+r1: IF pnodes < progrec = {0} AND pnodes = (-inf, 4.50) = {0} THEN  (p=87.0, n=0.0, P=617.0, N=0.0)
+r2: IF tsize > progrec = {1} AND pnodes = (-inf, 4.50) = {0} THEN  (p=123.0, n=0.0, P=617.0, N=0.0)
+r3: IF age < progrec = {0} AND pnodes = (-inf, 4.50) = {0} THEN  (p=138.0, n=0.0, P=617.0, N=0.0)
+r4: IF age < progrec = {1} AND tsize > progrec = {0} THEN  (p=267.0, n=0.0, P=617.0, N=0.0)
+r5: IF pnodes < progrec = {0} THEN  (p=143.0, n=0.0, P=617.0, N=0.0)
+r6: IF pnodes < progrec = {1} AND 2-of-3(age != <37.50, 40), estrec != <120, 134), progrec != <101, 104)) = {1} AND progrec != <83, 91) = {1} AND pnodes = (-inf, 4.50) = {1} THEN  (p=324.0, n=0.0, P=617.0, N=0.0)

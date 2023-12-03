@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.9999974637725706
+r2: 0.9999999989471122
+r3: 0.9999999999096701
+r4: 0.999999796269814
+r5: 0.9999999999870425
+r6: 0.999999458450506
+r7: 0.9849318460365593
+r8: 0.9999974637725706
+________________________________
+r1: IF sho < mitype = {1} THEN  (p=124.0, n=0.0, P=450.0, N=0.0)
+r2: IF 2-of-3(bmi != <28.04, 35.67), sho = mitype, hr != <77.50, 91)) = {0} AND chf = miord = {1} AND sho < miord = {1} THEN  (p=39.0, n=0.0, P=450.0, N=0.0)
+r3: IF sho < mitype = {0} AND chf = miord = {0} AND sho < miord = {0} THEN  (p=60.0, n=0.0, P=450.0, N=0.0)
+r4: IF chf = miord = {1} AND sho < miord = {0} THEN  (p=219.0, n=0.0, P=450.0, N=0.0)
+r5: IF chf = miord = {1} AND bmi != <25.23, 25.84) = {1} AND sho < miord = {1} THEN  (p=54.0, n=0.0, P=450.0, N=0.0)
+r6: IF sho < mitype = {0} AND chf = miord = {0} AND bmi != <25.23, 25.84) = {1} AND 2-of-3(bmi != <23.62, 24.07), chf = miord, sho = chf) = {0} THEN  (p=48.0, n=0.0, P=450.0, N=0.0)
+r7: IF 2-of-3(bmi != <22.95, 23.17), hr != <77.50, 91), sho = chf) = {0} AND chf = miord = {0} AND sho < miord = {1} THEN  (p=75.0, n=0.0, P=450.0, N=0.0)
+r8: IF sho < mitype = {0} THEN  (p=326.0, n=0.0, P=450.0, N=0.0)

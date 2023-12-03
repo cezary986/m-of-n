@@ -1,0 +1,40 @@
+Rules qualities:
+r1: 0.7727272727272727
+r2: 0.7613636363636364
+r3: 0.16075655041889358
+r4: 0.7625482625482625
+r5: 0.7400536135169251
+r6: 0.70303505307523
+r7: 0.7567567567567568
+r8: 0.6178803046144347
+r9: 0.7606177606177607
+r10: 0.7644787644787645
+r11: 0.7237614023798234
+r12: 0.7692307692307692
+r13: 0.7430503578858163
+r14: 0.7634615384615384
+r15: 0.5944747943521885
+r16: 0.7615384615384615
+r17: 0.7653846153846153
+r18: 0.5887504760091393
+r19: 0.7349650221432399
+________________________________
+r1: IF left-distance = right-weight = {1} AND left-weight = right-distance = {1} THEN class = {B} (p=24.0, n=0.0, P=44.0, N=519.0)
+r2: IF left-distance = right-distance = {1} AND left-weight = right-weight = {1} THEN class = {B} (p=23.0, n=0.0, P=44.0, N=519.0)
+r3: IF left-distance > right-weight = {0} AND 2-of-3(left-weight = (-inf, 4.50), left-distance = (-inf, 4.50), right-weight = (-inf, 4.50)) = {0} AND left-weight < right-distance = {0} THEN class = {B} (p=31.0, n=92.0, P=44.0, N=519.0)
+r4: IF left-distance > right-weight = {0} AND left-weight < right-distance = {1} THEN class = {R} (p=136.0, n=0.0, P=259.0, N=304.0)
+r5: IF left-weight < right-weight = {1} AND left-weight < right-distance = {1} THEN class = {R} (p=135.0, n=2.0, P=259.0, N=304.0)
+r6: IF right-weight = <1.50, inf) = {1} AND left-weight < right-distance = {1} AND left-distance = (-inf, 4.50) = {1} AND left-weight > right-weight = {0} THEN class = {R} (p=127.0, n=4.0, P=259.0, N=304.0)
+r7: IF left-distance < right-distance = {1} AND left-weight > right-weight = {0} THEN class = {R} (p=133.0, n=0.0, P=259.0, N=304.0)
+r8: IF left-distance = (-inf, 3.50) = {1} AND left-weight < right-distance = {1} THEN class = {R} (p=120.0, n=11.0, P=259.0, N=304.0)
+r9: IF left-distance > right-distance = {0} AND left-weight < right-weight = {1} THEN class = {R} (p=135.0, n=0.0, P=259.0, N=304.0)
+r10: IF left-weight > right-distance = {0} AND left-distance < right-weight = {1} THEN class = {R} (p=137.0, n=0.0, P=259.0, N=304.0)
+r11: IF left-distance < right-distance = {1} AND left-distance < right-weight = {1} THEN class = {R} (p=132.0, n=3.0, P=259.0, N=304.0)
+r12: IF left-weight > right-distance = {1} AND left-distance < right-weight = {0} THEN class = {L} (p=140.0, n=0.0, P=260.0, N=303.0)
+r13: IF left-weight > right-distance = {1} AND left-distance > right-distance = {1} THEN class = {L} (p=137.0, n=2.0, P=260.0, N=303.0)
+r14: IF left-distance < right-distance = {0} AND left-weight > right-weight = {1} THEN class = {L} (p=137.0, n=0.0, P=260.0, N=303.0)
+r15: IF right-weight = (-inf, 3.50) = {1} AND left-weight < right-weight = {0} AND left-weight = right-weight = {0} AND left-weight = right-distance = {0} AND right-distance = (-inf, 3.50) = {1} THEN class = {L} (p=99.0, n=8.0, P=260.0, N=303.0)
+r16: IF left-distance > right-distance = {1} AND left-weight < right-weight = {0} THEN class = {L} (p=136.0, n=0.0, P=260.0, N=303.0)
+r17: IF left-distance > right-weight = {1} AND left-weight < right-distance = {0} THEN class = {L} (p=138.0, n=0.0, P=260.0, N=303.0)
+r18: IF left-distance > right-distance = {1} AND right-weight = (-inf, 3.50) = {1} AND left-distance = right-weight = {0} THEN class = {L} (p=109.0, n=11.0, P=260.0, N=303.0)
+r19: IF left-distance > right-weight = {1} AND left-weight > right-weight = {1} THEN class = {L} (p=133.0, n=2.0, P=260.0, N=303.0)

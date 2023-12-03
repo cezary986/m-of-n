@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999999998928
+r2: 0.9999999999999981
+r3: 0.9999999999999999
+r4: 1.0
+r5: 1.0
+r6: 0.9999999999999986
+r7: 1.0
+________________________________
+r1: IF SITE = IV3 = {1} AND RACE > SITE = {1} THEN  (p=28.0, n=0.0, P=517.0, N=0.0)
+r2: IF TREAT > FRAC = {0} AND TREAT = IV3 = {0} THEN  (p=233.0, n=0.0, P=517.0, N=0.0)
+r3: IF FRAC = <0.27, 2.22) = {0} AND SITE = IV3 = {0} AND BECK != <8.50, 11) = {1} AND TREAT = SITE = {0} AND RACE < TREAT = {1} THEN  (p=29.0, n=0.0, P=517.0, N=0.0)
+r4: IF SITE = IV3 = {1} AND SITE < LNDT = {1} THEN  (p=112.0, n=0.0, P=517.0, N=0.0)
+r5: IF FRAC != <0.76, 0.97) = {1} AND TREAT < LNDT = {0} AND TREAT = IV3 = {1} THEN  (p=148.0, n=0.0, P=517.0, N=0.0)
+r6: IF SITE > IV3 = {1} THEN  (p=32.0, n=0.0, P=517.0, N=0.0)
+r7: IF TREAT > IV3 = {0} THEN  (p=466.0, n=0.0, P=517.0, N=0.0)

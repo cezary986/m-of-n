@@ -1,0 +1,108 @@
+Rules qualities:
+r1: 0.5380952380952381
+r2: 0.5523809523809524
+r3: 0.5238095238095238
+r4: 0.5333333333333333
+r5: 0.4439732142857143
+r6: 0.5761904761904761
+r7: 0.5476190476190477
+r8: 0.5666666666666667
+r9: 0.5333333333333333
+r10: 0.5333333333333333
+r11: 0.49572585978835987
+r12: 0.35812451996927813
+r13: 0.5428571428571428
+r14: 0.5238095238095238
+r15: 0.5285714285714286
+r16: 0.5523809523809524
+r17: 0.5857142857142857
+r18: 0.5476190476190477
+r19: 0.5761904761904761
+r20: 0.27377734877734866
+r21: 0.5333333333333333
+r22: 0.5476190476190477
+r23: 0.4559204931972788
+r24: 0.4669097222222221
+r25: 0.5380952380952381
+r26: 0.5476190476190477
+r27: 0.5476190476190477
+r28: 0.5476190476190477
+r29: 0.24948563664596288
+r30: 0.5380952380952381
+r31: 0.44390412414965985
+r32: 0.21847098214285712
+r33: 0.5703125
+r34: 0.5625
+r35: 0.609375
+r36: 0.5859375
+r37: 0.4449999999999999
+r38: 0.37702796234772984
+r39: 0.5390625
+r40: 0.3151339285714286
+r41: 0.609375
+r42: 0.5061181006493507
+r43: 0.6484375
+r44: 0.546875
+r45: 0.53125
+r46: 0.2424798044217687
+r47: 0.5546875
+r48: 0.312266156462585
+r49: 0.515625
+r50: 0.2679563492063492
+r51: 0.39445684523809527
+r52: 0.53125
+r53: 0.08764097744360903
+________________________________
+r1: IF a1 = a4 AND a5 = {4} THEN class = {False} (p=8.0, n=0.0, P=105.0, N=64.0)
+r2: IF a3 = a6 AND a2 != a4 AND a1 != a2 AND a5 = {4} THEN class = {False} (p=11.0, n=0.0, P=105.0, N=64.0)
+r3: IF a3 = a6 AND a2 != a4 AND a2 = {1, 3} AND a3 != {2} AND a5 = {4} THEN class = {False} (p=5.0, n=0.0, P=105.0, N=64.0)
+r4: IF a3 = a6 AND a2 != a4 AND a3 != {1} AND a4 = {1, 3} AND a5 = {4} THEN class = {False} (p=7.0, n=0.0, P=105.0, N=64.0)
+r5: IF a3 = a6 AND a1 != a2 AND a4 = {2, 3} AND a5 = {4} THEN class = {False} (p=12.0, n=1.0, P=105.0, N=64.0)
+r6: IF a3 = a6 AND a1 = {1} AND a3 != {2} THEN class = {False} (p=16.0, n=0.0, P=105.0, N=64.0)
+r7: IF a3 = a6 AND a1 != a4 AND a1 != a2 AND a1 = {1} AND a5 = {4, 3} THEN class = {False} (p=10.0, n=0.0, P=105.0, N=64.0)
+r8: IF a3 = a6 AND a1 != a4 AND a2 != a4 AND a1 != a2 AND a5 = {4, 3} THEN class = {False} (p=14.0, n=0.0, P=105.0, N=64.0)
+r9: IF a3 = a6 AND a1 != a4 AND a2 != a4 AND a4 = {1} AND a5 = {4, 3} THEN class = {False} (p=7.0, n=0.0, P=105.0, N=64.0)
+r10: IF a3 = a6 AND a1 != a4 AND a2 = {2, 3} AND a4 = {2} AND a5 = {4, 3} THEN class = {False} (p=7.0, n=0.0, P=105.0, N=64.0)
+r11: IF a3 = a6 AND a1 != a4 AND a1 != a2 AND a1 = {1, 2} AND a5 = {4, 3} THEN class = {False} (p=17.0, n=1.0, P=105.0, N=64.0)
+r12: IF a3 = a6 AND a1 = {1, 3} AND a5 = {4, 3} THEN class = {False} (p=26.0, n=5.0, P=105.0, N=64.0)
+r13: IF a3 = a6 AND a1 = a2 AND a4 = {1} THEN class = {False} (p=9.0, n=0.0, P=105.0, N=64.0)
+r14: IF a3 = a6 AND a1 = a2 AND a5 = {1} THEN class = {False} (p=5.0, n=0.0, P=105.0, N=64.0)
+r15: IF a3 = a6 AND a1 = a2 AND a1 = {2, 3} AND a5 = {2, 1} THEN class = {False} (p=6.0, n=0.0, P=105.0, N=64.0)
+r16: IF a3 = a6 AND a2 != a4 AND a1 != a2 AND a1 != a4 AND a5 = {2, 4} THEN class = {False} (p=11.0, n=0.0, P=105.0, N=64.0)
+r17: IF a3 = a6 AND a2 != a4 AND a1 = {2, 3} AND a3 != {1} AND a5 = {2, 4, 3} THEN class = {False} (p=18.0, n=0.0, P=105.0, N=64.0)
+r18: IF a3 = a6 AND a2 != a4 AND a3 != {2} AND a4 = {1, 2} AND a5 = {2, 4, 1} THEN class = {False} (p=10.0, n=0.0, P=105.0, N=64.0)
+r19: IF a2 != a4 AND a3 != {2} AND a5 = {1} THEN class = {False} (p=16.0, n=0.0, P=105.0, N=64.0)
+r20: IF a3 = a6 AND a1 != a4 AND a4 = {1, 2} THEN class = {False} (p=29.0, n=8.0, P=105.0, N=64.0)
+r21: IF a1 = a2 AND a1 = {2, 3} AND a5 = {2} THEN class = {False} (p=7.0, n=0.0, P=105.0, N=64.0)
+r22: IF a1 = a2 AND a1 = {1} AND a6 != {2} THEN class = {False} (p=10.0, n=0.0, P=105.0, N=64.0)
+r23: IF a1 = a2 AND a1 = {1, 3} AND a3 != {2} THEN class = {False} (p=13.0, n=1.0, P=105.0, N=64.0)
+r24: IF a1 = a2 AND a1 != a4 AND a1 = {1, 3} AND a6 != {2} THEN class = {False} (p=14.0, n=1.0, P=105.0, N=64.0)
+r25: IF a1 = a2 AND a3 != a6 AND a4 = {2, 3} AND a5 = {2, 3} THEN class = {False} (p=8.0, n=0.0, P=105.0, N=64.0)
+r26: IF a3 != a6 AND a4 = {1} AND a5 = {1} THEN class = {False} (p=10.0, n=0.0, P=105.0, N=64.0)
+r27: IF a1 = a4 AND a3 != a6 AND a4 = {1} THEN class = {False} (p=10.0, n=0.0, P=105.0, N=64.0)
+r28: IF a2 = a4 AND a4 = {1} AND a6 != {2} THEN class = {False} (p=10.0, n=0.0, P=105.0, N=64.0)
+r29: IF a1 = {1} AND a2 = {1, 2} AND a5 = {4, 1} THEN class = {False} (p=18.0, n=5.0, P=105.0, N=64.0)
+r30: IF a1 = a4 AND a1 = {2, 3} AND a2 = {2, 3} AND a6 != {1} THEN class = {False} (p=8.0, n=0.0, P=105.0, N=64.0)
+r31: IF a1 != a4 AND a2 = {1, 3} AND a5 = {4, 1, 3} AND a6 != {2} THEN class = {False} (p=25.0, n=3.0, P=105.0, N=64.0)
+r32: IF a4 = {1, 2} AND a5 = {2, 4, 1} AND a6 != {2} THEN class = {False} (p=30.0, n=10.0, P=105.0, N=64.0)
+r33: IF a3 != a6 AND a1 != a2 AND a1 = {1} AND a4 = {2, 3} AND a5 = {2, 4} THEN class = {True} (p=9.0, n=0.0, P=64.0, N=105.0)
+r34: IF a3 != a6 AND a1 != a2 AND a2 = {1} AND a4 = {2, 3} AND a5 = {2, 4} THEN class = {True} (p=8.0, n=0.0, P=64.0, N=105.0)
+r35: IF a3 != a6 AND a1 != a2 AND a1 = {1} AND a4 = {2, 3} AND a5 = {2, 4, 3} THEN class = {True} (p=14.0, n=0.0, P=64.0, N=105.0)
+r36: IF a3 != a6 AND a1 != a2 AND a2 = {1} AND a4 = {2, 3} AND a5 = {2, 4, 3} THEN class = {True} (p=11.0, n=0.0, P=64.0, N=105.0)
+r37: IF a3 != a6 AND a1 != a2 AND a1 != a4 AND a1 = {1, 3} AND a4 = {2, 3} THEN class = {True} (p=20.0, n=5.0, P=64.0, N=105.0)
+r38: IF a3 != a6 AND a1 != a2 AND a4 = {2, 3} THEN class = {True} (p=30.0, n=13.0, P=64.0, N=105.0)
+r39: IF a3 != a6 AND a2 = a4 AND a1 = {2, 3} AND a4 = {2, 3} AND a5 = {4, 1} THEN class = {True} (p=5.0, n=0.0, P=64.0, N=105.0)
+r40: IF a3 != a6 AND a1 != a4 AND a2 = {2, 3} AND a4 = {2, 3} AND a5 = {2, 4, 1} THEN class = {True} (p=14.0, n=6.0, P=64.0, N=105.0)
+r41: IF a3 != a6 AND a1 != a4 AND a1 != a2 AND a1 = {1, 3} AND a3 != {2} AND a5 = {2, 4, 3} THEN class = {True} (p=14.0, n=0.0, P=64.0, N=105.0)
+r42: IF a3 != a6 AND a1 != a4 AND a3 != {2} AND a5 = {2, 4, 3} THEN class = {True} (p=19.0, n=3.0, P=64.0, N=105.0)
+r43: IF a3 != a6 AND a1 != a4 AND a1 != a2 AND a2 != a4 AND a5 = {2, 4, 3} THEN class = {True} (p=19.0, n=0.0, P=64.0, N=105.0)
+r44: IF a1 != a2 AND a3 != {2} AND a4 = {3} AND a5 = {2} THEN class = {True} (p=6.0, n=0.0, P=64.0, N=105.0)
+r45: IF a2 = {1} AND a3 != {1} AND a4 = {1, 2} AND a5 = {2} THEN class = {True} (p=4.0, n=0.0, P=64.0, N=105.0)
+r46: IF a1 = {1, 3} AND a2 = {1, 2} AND a4 = {2, 3} AND a5 = {2} THEN class = {True} (p=9.0, n=5.0, P=64.0, N=105.0)
+r47: IF a3 = a6 AND a1 = {2, 3} AND a3 != {2} AND a4 = {2, 3} AND a5 = {2, 3} THEN class = {True} (p=7.0, n=0.0, P=64.0, N=105.0)
+r48: IF a1 != a2 AND a1 = {1, 3} AND a2 = {1, 3} AND a5 = {2, 3} AND a6 != {1} THEN class = {True} (p=10.0, n=4.0, P=64.0, N=105.0)
+r49: IF a1 != a2 AND a3 = a6 AND a1 = {1} AND a5 = {2, 1} AND a6 != {1} THEN class = {True} (p=2.0, n=0.0, P=64.0, N=105.0)
+r50: IF a1 != a2 AND a2 = {1, 3} AND a4 = {2, 3} AND a5 = {2, 1} AND a6 != {1} THEN class = {True} (p=10.0, n=5.0, P=64.0, N=105.0)
+r51: IF a1 != a2 AND a1 != a4 AND a3 = a6 AND a1 = {2, 3} AND a2 = {1, 3} AND a4 = {1, 2} AND a6 != {1} THEN class = {True} (p=5.0, n=1.0, P=64.0, N=105.0)
+r52: IF a1 = {2, 3} AND a2 = {2, 3} AND a3 != {2} AND a4 = {3} AND a5 = {2, 4} THEN class = {True} (p=4.0, n=0.0, P=64.0, N=105.0)
+r53: IF a1 != a4 AND a5 = {2, 4} THEN class = {True} (p=26.0, n=31.0, P=64.0, N=105.0)

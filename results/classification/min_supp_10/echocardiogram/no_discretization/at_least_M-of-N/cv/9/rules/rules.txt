@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.83125
+r2: 0.81040721415608
+r3: 0.8636114433811803
+r4: 0.8838469529085872
+r5: 0.7006315789473685
+r6: 0.8552631578947368
+r7: 0.8521646859083192
+r8: 0.7894736842105263
+r9: 0.5394736842105263
+r10: 0.881578947368421
+r11: 0.6447368421052632
+________________________________
+r1: IF survival = <22.50, inf) = {1} AND age-at-heart-attack = (-inf, 73.50) = {1} AND lvdd = <5.79, 5.95) = {0} THEN class = {0} (p=53.0, n=0.0, P=80.0, N=38.0)
+r2: IF survival = <22.50, inf) = {1} AND lvdd = <5.79, 5.95) = {0} THEN class = {0} (p=57.0, n=1.0, P=80.0, N=38.0)
+r3: IF age-at-heart-attack = (-inf, 73.50) = {1} AND survival = <15.50, inf) = {1} AND lvdd = <5.79, 5.95) = {0} THEN class = {0} (p=65.0, n=1.0, P=80.0, N=38.0)
+r4: IF alive-at-1 != {0} = {1} AND survival = (-inf, 8.25) = {0} AND age-at-heart-attack = (-inf, 73.50) = {1} AND lvdd = <5.79, 5.95) = {0} THEN class = {0} (p=74.0, n=2.0, P=80.0, N=38.0)
+r5: IF alive-at-1 != {0} = {1} AND epss != <10.65, 25) = {1} AND 2-of-3(age-at-heart-attack = (-inf, 73.50), lvdd = (-inf, 5.80), wall-motion-score = (-inf, 20.50)) = {1} AND fractional-shortening = <0.15, 0.23) = {0} THEN class = {0} (p=48.0, n=2.0, P=80.0, N=38.0)
+r6: IF survival = (-inf, 8.25) = {1} AND mult < group = {1} THEN class = {1} (p=27.0, n=0.0, P=38.0, N=80.0)
+r7: IF survival = (-inf, 8.25) = {1} THEN class = {1} (p=30.0, n=1.0, P=38.0, N=80.0)
+r8: IF alive-at-1 != {0} = {0} THEN class = {1} (p=22.0, n=0.0, P=38.0, N=80.0)
+r9: IF lvdd = <5.79, 5.95) = {1} THEN class = {1} (p=3.0, n=0.0, P=38.0, N=80.0)
+r10: IF mult < group = {1} AND survival = (-inf, 21.50) = {1} AND survival = <8.25, 19.50) = {0} THEN class = {1} (p=29.0, n=0.0, P=38.0, N=80.0)
+r11: IF mult = <0.79, inf) = {1} AND age-at-heart-attack = <51.50, inf) = {1} AND epss > group = {1} AND fractional-shortening = <0.15, 0.23) = {1} AND mult = (-inf, 0.96) = {1} THEN class = {1} (p=11.0, n=0.0, P=38.0, N=80.0)

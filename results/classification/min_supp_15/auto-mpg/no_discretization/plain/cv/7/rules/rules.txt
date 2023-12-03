@@ -1,0 +1,136 @@
+Rules qualities:
+r1: 0.8482142857142857
+r2: 0.8526785714285714
+r3: 0.7951527042720072
+r4: 0.7968784267438317
+r5: 0.8018463599074843
+r6: 0.8017866661590011
+r7: 0.8140897549675634
+r8: 0.7997938899940652
+r9: 0.76961215325026
+r10: 0.6743485525668361
+r11: 0.6689353220370012
+r12: 0.5696251718709522
+r13: 0.5066964285714286
+r14: 0.5089285714285714
+r15: 0.5044642857142857
+r16: 0.5089285714285714
+r17: 0.5066964285714286
+r18: 0.5044642857142857
+r19: 0.5133928571428571
+r20: 0.5492957746478874
+r21: 0.5352112676056338
+r22: 0.5422535211267605
+r23: 0.5140845070422535
+r24: 0.5563380281690141
+r25: 0.528169014084507
+r26: 0.5563380281690141
+r27: 0.5633802816901409
+r28: 0.5422535211267605
+r29: 0.6267605633802817
+r30: 0.5985915492957746
+r31: 0.5915492957746479
+r32: 0.5352112676056338
+r33: 0.528169014084507
+r34: 0.6197183098591549
+r35: 0.5774647887323944
+r36: 0.5140845070422535
+r37: 0.5633802816901409
+r38: 0.6056338028169014
+r39: 0.5352112676056338
+r40: 0.528169014084507
+r41: 0.5140845070422535
+r42: 0.5211267605633803
+r43: 0.5238095238095238
+r44: 0.5238095238095238
+r45: 0.5238095238095238
+r46: 0.5396825396825397
+r47: 0.5238095238095238
+r48: 0.5158730158730158
+r49: 0.5714285714285714
+r50: 0.5952380952380952
+r51: 0.5634920634920635
+r52: 0.5952380952380952
+r53: 0.5476190476190477
+r54: 0.5396825396825397
+r55: 0.5238095238095238
+r56: 0.5396825396825397
+r57: 0.5476190476190477
+r58: 0.5238095238095238
+r59: 0.5476190476190477
+r60: 0.5793650793650793
+r61: 0.5396825396825397
+r62: 0.4369245055412361
+r63: 0.5238095238095238
+r64: 0.5476190476190477
+r65: 0.5714285714285714
+r66: 0.3563216413730445
+r67: 0.5714285714285714
+________________________________
+r1: IF displacement = <190.50, inf) THEN class = {1} (p=156.0, n=0.0, P=224.0, N=134.0)
+r2: IF horsepower = <77.50, inf) AND displacement = <169.50, inf) THEN class = {1} (p=158.0, n=0.0, P=224.0, N=134.0)
+r3: IF mpg = (-inf, 25.20) AND displacement = <148.50, inf) THEN class = {1} (p=163.0, n=5.0, P=224.0, N=134.0)
+r4: IF horsepower = <77.50, inf) AND mpg = (-inf, 30.75) AND displacement = <148.50, inf) THEN class = {1} (p=169.0, n=6.0, P=224.0, N=134.0)
+r5: IF mpg = (-inf, 25.25) AND displacement = <134.50, inf) THEN class = {1} (p=171.0, n=6.0, P=224.0, N=134.0)
+r6: IF mpg = (-inf, 27.10) AND displacement = <134.50, inf) THEN class = {1} (p=181.0, n=8.0, P=224.0, N=134.0)
+r7: IF acceleration = (-inf, 19.55) AND mpg = (-inf, 31) AND displacement = <134.50, inf) THEN class = {1} (p=181.0, n=7.0, P=224.0, N=134.0)
+r8: IF acceleration = (-inf, 19.55) AND displacement = <134.50, inf) THEN class = {1} (p=185.0, n=9.0, P=224.0, N=134.0)
+r9: IF mpg = (-inf, 27.10) AND displacement = <121.50, inf) THEN class = {1} (p=187.0, n=12.0, P=224.0, N=134.0)
+r10: IF acceleration = (-inf, 21.45) AND mpg = (-inf, 28.05) AND weight = <2610, inf) AND displacement = <119.50, inf) THEN class = {1} (p=177.0, n=18.0, P=224.0, N=134.0)
+r11: IF acceleration = (-inf, 21.45) AND mpg = (-inf, 28.05) AND weight = <2602.50, inf) AND displacement = <111, inf) THEN class = {1} (p=179.0, n=19.0, P=224.0, N=134.0)
+r12: IF acceleration = (-inf, 20.25) AND horsepower = <77.50, inf) AND mpg = (-inf, 34.50) AND weight = <2393, inf) AND displacement = <111, inf) THEN class = {1} (p=184.0, n=30.0, P=224.0, N=134.0)
+r13: IF mpg = (-inf, 25.25) AND displacement = <97.25, 101) THEN class = {1} (p=3.0, n=0.0, P=224.0, N=134.0)
+r14: IF acceleration = <16.95, inf) AND horsepower = <69.50, inf) AND weight = (-inf, 2260) AND displacement = <90.50, inf) THEN class = {1} (p=4.0, n=0.0, P=224.0, N=134.0)
+r15: IF horsepower = (-inf, 65) AND displacement = <104.50, inf) THEN class = {1} (p=2.0, n=0.0, P=224.0, N=134.0)
+r16: IF acceleration = (-inf, 19.55) AND mpg = <29.90, 31.15) AND displacement = <104.50, inf) THEN class = {1} (p=4.0, n=0.0, P=224.0, N=134.0)
+r17: IF mpg = <34.10, 34.85) AND displacement = <104.50, inf) THEN class = {1} (p=3.0, n=0.0, P=224.0, N=134.0)
+r18: IF horsepower = <78.50, inf) AND weight = (-inf, 2087.50) THEN class = {1} (p=2.0, n=0.0, P=224.0, N=134.0)
+r19: IF horsepower = (-inf, 66.50) AND displacement = <97.25, inf) THEN class = {1} (p=6.0, n=0.0, P=224.0, N=134.0)
+r20: IF displacement = (-inf, 78.50) THEN class = {3} (p=7.0, n=0.0, P=71.0, N=287.0)
+r21: IF weight = (-inf, 1797.50) THEN class = {3} (p=5.0, n=0.0, P=71.0, N=287.0)
+r22: IF weight = <2092, inf) AND displacement = (-inf, 87) THEN class = {3} (p=6.0, n=0.0, P=71.0, N=287.0)
+r23: IF displacement = (-inf, 87) AND model-year = {79} THEN class = {3} (p=2.0, n=0.0, P=71.0, N=287.0)
+r24: IF weight = <1969, inf) AND displacement = <79.50, 87) THEN class = {3} (p=8.0, n=0.0, P=71.0, N=287.0)
+r25: IF horsepower = <64.50, inf) AND weight = (-inf, 1956.50) AND displacement = (-inf, 87) THEN class = {3} (p=4.0, n=0.0, P=71.0, N=287.0)
+r26: IF horsepower = (-inf, 66) AND weight = <1921.50, inf) AND displacement = (-inf, 89.50) THEN class = {3} (p=8.0, n=0.0, P=71.0, N=287.0)
+r27: IF horsepower = <83, inf) AND displacement = (-inf, 97.25) THEN class = {3} (p=9.0, n=0.0, P=71.0, N=287.0)
+r28: IF acceleration = <15.90, inf) AND horsepower = <73, inf) AND displacement = (-inf, 97.25) THEN class = {3} (p=6.0, n=0.0, P=71.0, N=287.0)
+r29: IF acceleration = <16.10, 19.45) AND mpg = <27.50, inf) AND weight = <1910, inf) AND displacement = (-inf, 97.25) THEN class = {3} (p=18.0, n=0.0, P=71.0, N=287.0)
+r30: IF acceleration = <15.90, 19.45) AND mpg = <27.50, inf) AND displacement = <87.50, 97.25) THEN class = {3} (p=14.0, n=0.0, P=71.0, N=287.0)
+r31: IF horsepower = <64.50, 68.50) AND displacement = <82, 97.25) THEN class = {3} (p=13.0, n=0.0, P=71.0, N=287.0)
+r32: IF horsepower = <67.50, 68.50) AND weight = (-inf, 2145) THEN class = {3} (p=5.0, n=0.0, P=71.0, N=287.0)
+r33: IF horsepower = <91, inf) AND mpg = <30.95, inf) THEN class = {3} (p=4.0, n=0.0, P=71.0, N=287.0)
+r34: IF acceleration = <16.45, inf) AND mpg = <30.95, 33.90) THEN class = {3} (p=17.0, n=0.0, P=71.0, N=287.0)
+r35: IF acceleration = <14.30, inf) AND horsepower = (-inf, 79) AND mpg = <32.25, 34.15) THEN class = {3} (p=11.0, n=0.0, P=71.0, N=287.0)
+r36: IF acceleration = <14.45, 14.60) AND mpg = <30.95, inf) THEN class = {3} (p=2.0, n=0.0, P=71.0, N=287.0)
+r37: IF horsepower = <96, inf) AND displacement = (-inf, 120.50) THEN class = {3} (p=9.0, n=0.0, P=71.0, N=287.0)
+r38: IF acceleration = (-inf, 17.25) AND horsepower = <91.50, inf) AND weight = (-inf, 2654.50) AND displacement = (-inf, 120.50) THEN class = {3} (p=15.0, n=0.0, P=71.0, N=287.0)
+r39: IF horsepower = <91, inf) AND weight = <2480.50, 2566) THEN class = {3} (p=5.0, n=0.0, P=71.0, N=287.0)
+r40: IF displacement = <132.50, 134.50) THEN class = {3} (p=4.0, n=0.0, P=71.0, N=287.0)
+r41: IF weight = <2803.50, 2822.50) THEN class = {3} (p=2.0, n=0.0, P=71.0, N=287.0)
+r42: IF horsepower = <92.50, inf) AND weight = <2884, 2931.50) AND displacement = (-inf, 170.50) THEN class = {3} (p=3.0, n=0.0, P=71.0, N=287.0)
+r43: IF acceleration = <22.95, inf) THEN class = {2} (p=3.0, n=0.0, P=63.0, N=295.0)
+r44: IF cylinders = {5} THEN class = {2} (p=3.0, n=0.0, P=63.0, N=295.0)
+r45: IF horsepower = (-inf, 50) THEN class = {2} (p=3.0, n=0.0, P=63.0, N=295.0)
+r46: IF mpg = <40.85, 45.45) THEN class = {2} (p=5.0, n=0.0, P=63.0, N=295.0)
+r47: IF acceleration = <21.35, 22) THEN class = {2} (p=3.0, n=0.0, P=63.0, N=295.0)
+r48: IF acceleration = <19.55, inf) AND model-year = {81} THEN class = {2} (p=2.0, n=0.0, P=63.0, N=295.0)
+r49: IF weight = <2757.50, inf) AND displacement = (-inf, 132.50) THEN class = {2} (p=9.0, n=0.0, P=63.0, N=295.0)
+r50: IF weight = <2670.50, inf) AND displacement = <95, 132.50) THEN class = {2} (p=12.0, n=0.0, P=63.0, N=295.0)
+r51: IF horsepower = <101, inf) AND displacement = <100.50, 132.50) THEN class = {2} (p=8.0, n=0.0, P=63.0, N=295.0)
+r52: IF mpg = (-inf, 23.50) AND weight = <2508.50, inf) AND displacement = <97, 132.50) THEN class = {2} (p=12.0, n=0.0, P=63.0, N=295.0)
+r53: IF acceleration = <15.05, 16.05) AND weight = <2457.50, inf) AND displacement = (-inf, 132.50) THEN class = {2} (p=6.0, n=0.0, P=63.0, N=295.0)
+r54: IF acceleration = (-inf, 14.30) AND weight = (-inf, 2123.50) THEN class = {2} (p=5.0, n=0.0, P=63.0, N=295.0)
+r55: IF acceleration = <14.05, 14.30) AND displacement = (-inf, 132.50) THEN class = {2} (p=3.0, n=0.0, P=63.0, N=295.0)
+r56: IF acceleration = <13.75, 15.95) AND displacement = (-inf, 132.50) AND model-year = {73} THEN class = {2} (p=5.0, n=0.0, P=63.0, N=295.0)
+r57: IF acceleration = (-inf, 15.95) AND weight = (-inf, 1964) AND displacement = (-inf, 97.50) THEN class = {2} (p=6.0, n=0.0, P=63.0, N=295.0)
+r58: IF acceleration = <15.25, 15.95) AND mpg = <33.90, inf) THEN class = {2} (p=3.0, n=0.0, P=63.0, N=295.0)
+r59: IF acceleration = <15.25, 15.95) AND horsepower = (-inf, 91.50) AND mpg = (-inf, 30) AND displacement = (-inf, 132.50) THEN class = {2} (p=6.0, n=0.0, P=63.0, N=295.0)
+r60: IF acceleration = (-inf, 15.95) AND mpg = (-inf, 31.95) AND weight = (-inf, 2123.50) THEN class = {2} (p=10.0, n=0.0, P=63.0, N=295.0)
+r61: IF acceleration = (-inf, 15.95) AND horsepower = (-inf, 79) AND mpg = (-inf, 27) THEN class = {2} (p=5.0, n=0.0, P=63.0, N=295.0)
+r62: IF acceleration = <13.60, 15.85) AND horsepower = <68, 91.50) AND weight = <1920, inf) AND displacement = (-inf, 118) THEN class = {2} (p=22.0, n=9.0, P=63.0, N=295.0)
+r63: IF acceleration = (-inf, 20) AND horsepower = (-inf, 83) AND mpg = (-inf, 30.70) AND displacement = (-inf, 97.50) AND model-year = {71} THEN class = {2} (p=3.0, n=0.0, P=63.0, N=295.0)
+r64: IF acceleration = (-inf, 18.10) AND horsepower = (-inf, 78.50) AND mpg = (-inf, 30.70) AND weight = <2180, inf) AND displacement = (-inf, 132.50) THEN class = {2} (p=6.0, n=0.0, P=63.0, N=295.0)
+r65: IF acceleration = (-inf, 18.10) AND horsepower = <80.50, 91.50) AND mpg = (-inf, 30.70) AND weight = <2180, inf) AND displacement = (-inf, 121.50) THEN class = {2} (p=9.0, n=0.0, P=63.0, N=295.0)
+r66: IF acceleration = (-inf, 18.10) AND horsepower = <65, inf) AND mpg = (-inf, 31.15) AND displacement = (-inf, 121.50) AND cylinders = {4} THEN class = {2} (p=34.0, n=27.0, P=63.0, N=295.0)
+r67: IF weight = <3087.50, inf) AND displacement = (-inf, 169.50) THEN class = {2} (p=9.0, n=0.0, P=63.0, N=295.0)

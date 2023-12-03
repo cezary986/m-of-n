@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.3409090909090909
+r2: 0.4052631578947368
+r3: 0.46218487394957986
+r4: 0.5158730158730158
+r5: 0.5428571428571428
+r6: 0.6726315789473685
+r7: 0.5674603174603176
+r8: 0.76
+________________________________
+r1: IF year = <1984, inf) THEN class = {1} [0.92,1.08] (p=1.0, n=1.0, P=2.0, N=22.0)
+r2: IF disposable_income = <9278, 9730) THEN class = {0.71} [0.64,0.78] (p=2.0, n=1.0, P=5.0, N=19.0)
+r3: IF disposable_income = <9108.50, 9752) AND price_index_for_used_cars = (-inf, 2.77) THEN class = {0.86} [0.77,0.94] (p=3.0, n=1.0, P=7.0, N=17.0)
+r4: IF disposable_income = <8442, 9278) THEN class = {0.77} [0.73,0.82] (p=2.0, n=1.0, P=3.0, N=21.0)
+r5: IF disposable_income = <8012.50, inf) THEN class = {0.77} [0.67,0.88] (p=9.0, n=3.0, P=10.0, N=14.0)
+r6: IF price_index_for_used_cars = (-inf, 0.98) THEN class = {0.053} [-0.038,0.14] (p=4.0, n=1.0, P=5.0, N=19.0)
+r7: IF price_index_for_used_cars = (-inf, 1.00) THEN class = {0.085} [-0.025,0.20] (p=5.0, n=2.0, P=6.0, N=18.0)
+r8: IF disposable_income = (-inf, 8442) AND year = (-inf, 1984) AND price_index_for_used_cars = <1.00, inf) THEN class = {0.47} [0.30,0.64] (p=4.0, n=1.0, P=4.0, N=20.0)

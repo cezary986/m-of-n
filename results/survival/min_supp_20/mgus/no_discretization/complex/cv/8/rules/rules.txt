@@ -1,0 +1,40 @@
+Rules qualities:
+r1: 0.9999999999996938
+r2: 0.9999999999999998
+r3: 0.9999999999956124
+r4: 1.0
+r5: 0.9999999999932536
+r6: 0.9999999999999081
+r7: 0.9999999999999887
+r8: 0.9999999999705915
+r9: 1.0
+r10: 0.9999999999999988
+r11: 0.9995840641843121
+r12: 0.999887264326836
+r13: 1.0
+r14: 1.0
+r15: 0.9999999999999878
+r16: 1.0
+r17: 0.999999999999997
+r18: 0.9800789165639316
+r19: 0.9999999998725438
+________________________________
+r1: IF age != <68.50, 74) AND hgb = (-inf, 12.95) AND mspike != <1.95, 2.30) AND hgb != <12.85, 13.10) AND alb != <2.75, 3) AND age != <34.50, 63) THEN  (p=34.0, n=0.0, P=217.0, N=0.0)
+r2: IF hgb != <11.55, 12.10) AND hgb != <14.70, 15) AND hgb != <9.10, 11.40) AND dxyr = (-inf, 71) AND alb != <2.45, 2.90) AND age = <34.50, 63) THEN  (p=67.0, n=0.0, P=217.0, N=0.0)
+r3: IF age != <68.50, 73) AND hgb = (-inf, 15.15) AND hgb != <14.50, 15.10) AND pcdx = {?, MA, MM} AND alb != <3.45, 3.70) AND age != <34.50, 63) THEN  (p=63.0, n=0.0, P=217.0, N=0.0)
+r4: IF hgb != <12.85, 13.10) AND hgb != <11.60, 11.90) AND alb != <2.75, 3) AND hgb != <13.55, 14) AND age != <67.50, 75) AND hgb = (-inf, 14.95) AND hgb != <14.15, 14.60) AND pcdx = {?, MA, MM} AND alb != <3.45, 3.70) AND age != <34.50, 63) THEN  (p=38.0, n=0.0, P=217.0, N=0.0)
+r5: IF hgb != <15.20, 16.20) AND hgb != <11.60, 11.90) AND age = <65, inf) AND mspike != <1.95, 2.20) AND hgb != <14.15, 14.60) AND pcdx = {?, MA, MM} AND alb != <2.75, 3) AND age != <66.50, 75) THEN  (p=38.0, n=0.0, P=217.0, N=0.0)
+r6: IF age != <69.50, 72) AND hgb = (-inf, 14.85) AND mspike != <2.35, 2.90) AND hgb != <14.15, 14.60) AND age != <34.50, 63) THEN  (p=76.0, n=0.0, P=217.0, N=0.0)
+r7: IF hgb != <12.85, 13.10) AND age != <70.50, 74) AND hgb = (-inf, 15.05) AND hgb != <14.15, 14.60) AND age != <34.50, 63) THEN  (p=80.0, n=0.0, P=217.0, N=0.0)
+r8: IF age = (-inf, 59.50) AND hgb != <12.45, 12.70) AND age != <55.50, 59) THEN  (p=57.0, n=0.0, P=217.0, N=0.0)
+r9: IF hgb != <15.20, 16.20) AND hgb != <13.45, 14.10) AND hgb != <14.35, 15.10) AND hgb != <11.25, 11.90) AND mspike != <1.95, 2.20) AND creat != <1.15, 1.40) AND hgb != <14.15, 14.60) AND pcdx = {?, AM, MA} AND age != <34.50, 63) THEN  (p=47.0, n=0.0, P=217.0, N=0.0)
+r10: IF hgb != <12.85, 13.10) AND hgb != <11.95, 12.40) AND age != <72.50, 76) AND hgb = (-inf, 13.80) AND hgb != <13.65, 13.90) AND pcdx = {?, AM, MA} AND alb != <3.45, 3.70) AND age != <34.50, 63) THEN  (p=43.0, n=0.0, P=217.0, N=0.0)
+r11: IF age != <72.50, 75) AND hgb != <12.95, 13.40) AND alb = (-inf, 3.55) AND hgb != <11.10, 12.40) AND alb = <2, inf) AND mspike != <1.25, 1.50) AND creat < mspike AND age = (-inf, 75.50) AND mspike != <1.85, 2.30) AND hgb != <13.75, 14.90) AND alb != <2.75, 3) AND age != <68.50, 72) THEN  (p=22.0, n=0.0, P=217.0, N=0.0)
+r12: IF age != <72.50, 76) AND age != <77.50, 85) AND hgb = <13.60, inf) AND mspike != <1.85, 2.30) AND hgb != <14.15, 14.60) AND pcdx = {?, AM, MA} AND alb != <3.45, 3.70) AND age != <68.50, 72) THEN  (p=27.0, n=0.0, P=217.0, N=0.0)
+r13: IF hgb != <9.10, 11.40) AND dxyr = (-inf, 71) AND alb != <2.45, 2.90) AND pctime != <1030, 4536) AND age = <34.50, 63) THEN  (p=62.0, n=0.0, P=217.0, N=0.0)
+r14: IF age != <63.50, 66) AND age != <70, 74) AND mspike != <1.95, 2.30) AND hgb != <14.15, 14.60) AND pcdx = {?, AM, MA} AND alb != <3.45, 3.70) AND age != <34.50, 63) THEN  (p=55.0, n=0.0, P=217.0, N=0.0)
+r15: IF hgb != <11.55, 12.10) AND hgb != <9.10, 11.40) AND alb != <2.55, 2.90) AND age = <34.50, 63) THEN  (p=77.0, n=0.0, P=217.0, N=0.0)
+r16: IF alb != <3.45, 3.70) AND hgb != <13.55, 14.10) AND alb != <3.05, 3.30) AND hgb != <14.15, 14.50) AND pcdx = {?, AM, MA} AND alb != <2.45, 2.70) AND age != <34.50, 63) THEN  (p=63.0, n=0.0, P=217.0, N=0.0)
+r17: IF hgb != <11.50, 11.80) AND hgb != <14.70, 15) AND hgb != <9.10, 11.40) AND dxyr = (-inf, 71) AND age = <34.50, 63) THEN  (p=77.0, n=0.0, P=217.0, N=0.0)
+r18: IF alb != <2.25, 2.60) AND creat != <1.15, 2) AND hgb = <14.30, 14.80) AND alb != <2.85, 3.10) THEN  (p=13.0, n=0.0, P=217.0, N=0.0)
+r19: IF hgb = <10.80, 16.50) AND age = (-inf, 61) THEN  (p=75.0, n=0.0, P=217.0, N=0.0)

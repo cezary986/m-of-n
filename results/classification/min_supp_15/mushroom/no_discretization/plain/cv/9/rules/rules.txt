@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.8442277382735157
+r2: 0.5477950884605228
+r3: 0.5471349353049908
+r4: 0.5471349353049908
+r5: 0.7754609929078013
+r6: 0.7207092198581561
+r7: 0.7835460992907801
+r8: 0.6870921476220091
+r9: 0.6958464618137779
+r10: 0.6777827360246916
+r11: 0.6930196101710202
+r12: 0.6225531914893617
+r13: 0.6222572847130848
+________________________________
+r1: IF odor = {n} THEN class = {e} (p=3073.0, n=104.0, P=3787.0, N=3525.0)
+r2: IF population = {n} THEN class = {e} (p=362.0, n=0.0, P=3787.0, N=3525.0)
+r3: IF odor = {a} THEN class = {e} (p=357.0, n=0.0, P=3787.0, N=3525.0)
+r4: IF odor = {l} THEN class = {e} (p=357.0, n=0.0, P=3787.0, N=3525.0)
+r5: IF odor = {f} THEN class = {p} (p=1942.0, n=0.0, P=3525.0, N=3787.0)
+r6: IF gill-color = {b} THEN class = {p} (p=1556.0, n=0.0, P=3525.0, N=3787.0)
+r7: IF stalk-surface-above-ring = {k} AND gill-spacing = {c} THEN class = {p} (p=1999.0, n=0.0, P=3525.0, N=3787.0)
+r8: IF spore-print-color = {w} AND gill-size = {n} THEN class = {p} (p=1596.0, n=46.0, P=3525.0, N=3787.0)
+r9: IF gill-size = {n} AND gill-spacing = {c} AND population = {v} THEN class = {p} (p=1746.0, n=65.0, P=3525.0, N=3787.0)
+r10: IF gill-size = {n} AND gill-spacing = {c} THEN class = {p} (p=1904.0, n=126.0, P=3525.0, N=3787.0)
+r11: IF bruises? = {f} AND population = {v} THEN class = {p} (p=2257.0, n=197.0, P=3525.0, N=3787.0)
+r12: IF cap-surface = {s} AND gill-size = {n} AND bruises? = {f} THEN class = {p} (p=864.0, n=0.0, P=3525.0, N=3787.0)
+r13: IF gill-size = {n} AND bruises? = {f} THEN class = {p} (p=1768.0, n=172.0, P=3525.0, N=3787.0)

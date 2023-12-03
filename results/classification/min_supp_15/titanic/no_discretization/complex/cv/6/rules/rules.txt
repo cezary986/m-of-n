@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.6058190950805642
+r2: 0.4546849763675045
+r3: 0.50390625
+r4: 0.29094789465332127
+r5: 0.51953125
+r6: 0.2133672377949497
+r7: 0.15737535121710872
+r8: 0.06944998689965136
+r9: 0.041729973797969784
+r10: 0.39934588107564195
+r11: 0.38439878238577124
+r12: 0.37668637523016735
+r13: 0.36096769517126115
+r14: 0.3546262374161073
+r15: 0.22391202766206375
+r16: 0.21203238742524688
+________________________________
+r1: IF sex != {male} AND pclass != {3rd} THEN class = {yes} (p=229.0, n=18.0, P=640.0, N=1341.0)
+r2: IF sex != {male} THEN class = {yes} (p=313.0, n=112.0, P=640.0, N=1341.0)
+r3: IF pclass = {1st} AND age != {adult} THEN class = {yes} (p=5.0, n=0.0, P=640.0, N=1341.0)
+r4: IF pclass = {1st} THEN class = {yes} (p=182.0, n=107.0, P=640.0, N=1341.0)
+r5: IF pclass = {1st, 2nd} AND age != {adult} THEN class = {yes} (p=25.0, n=0.0, P=640.0, N=1341.0)
+r6: IF pclass = {1st, 2nd} THEN class = {yes} (p=285.0, n=260.0, P=640.0, N=1341.0)
+r7: IF age != {adult} THEN class = {yes} (p=51.0, n=47.0, P=640.0, N=1341.0)
+r8: IF pclass = {1st, 2nd, 3rd} THEN class = {yes} (p=448.0, n=736.0, P=640.0, N=1341.0)
+r9: IF pclass = {1st, 2nd, crew} THEN class = {yes} (p=477.0, n=865.0, P=640.0, N=1341.0)
+r10: IF pclass = {1st, 2nd} AND sex != {female} AND pclass != {1st} AND age != {child} THEN class = {no} (p=142.0, n=14.0, P=1341.0, N=640.0)
+r11: IF pclass = {1st, 2nd, 3rd} AND sex != {female} AND pclass != {1st} AND age != {child} THEN class = {no} (p=492.0, n=81.0, P=1341.0, N=640.0)
+r12: IF sex != {female} AND pclass != {1st} AND age != {child} THEN class = {no} (p=1094.0, n=255.0, P=1341.0, N=640.0)
+r13: IF sex != {female} AND pclass != {1st} THEN class = {no} (p=1126.0, n=275.0, P=1341.0, N=640.0)
+r14: IF sex != {female} AND age != {child} THEN class = {no} (p=1197.0, n=303.0, P=1341.0, N=640.0)
+r15: IF pclass = {3rd, crew} AND age != {child} THEN class = {no} (p=1034.0, n=329.0, P=1341.0, N=640.0)
+r16: IF pclass = {3rd, crew} THEN class = {no} (p=1081.0, n=355.0, P=1341.0, N=640.0)

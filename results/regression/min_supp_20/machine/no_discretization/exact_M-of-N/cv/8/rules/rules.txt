@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.7460358796296296
+r2: 0.7970283479960901
+r3: 0.8605944391179288
+r4: 0.7630104608920213
+r5: 0.43971631205673745
+r6: 0.7296520794109995
+r7: 0.5288082083662194
+r8: 0.5229306487695747
+r9: 0.6243589743589744
+________________________________
+r1: IF MMIN = (-inf, 1500) = {1} AND MMAX != <4250, 6000) = {1} THEN class = {0.017} [-0.025,0.06] (p=79.0, n=2.0, P=128.0, N=60.0)
+r2: IF CHMAX != <15.50, 128) = {1} THEN class = {0.027} [-0.088,0.14] (p=118.0, n=2.0, P=155.0, N=33.0)
+r3: IF 2-of-3(CACH != <64.50, 128), CHMAX != <35, 64), MYCT != <115.50, 125)) = {0} AND CHMIN != <7.50, 32) = {1} THEN class = {0.027} [-0.058,0.11] (p=137.0, n=3.0, P=149.0, N=39.0)
+r4: IF CHMIN != <5.50, 32) = {1} THEN class = {0.028} [-0.065,0.12] (p=130.0, n=4.0, P=155.0, N=33.0)
+r5: IF MYCT != <53, 92) = {1} AND CACH > CHMIN = {1} AND CHMIN != <3.50, 6) = {1} AND MMIN < MMAX = {1} AND MYCT > CACH = {1} AND CACH < CHMAX = {0} AND MMAX = <288, 16000) = {1} THEN class = {0.034} [0.014,0.054] (p=30.0, n=6.0, P=94.0, N=94.0)
+r6: IF CACH != <40, 65) = {1} AND 2-of-3(CACH != <64.50, 128), CHMAX != <35, 64), MYCT > CHMIN) = {0} AND CHMAX != <19.50, 128) = {1} THEN class = {0.026} [-0.066,0.12] (p=118.0, n=4.0, P=153.0, N=35.0)
+r7: IF 2-of-3(CACH != <0.50, 4), MMAX != <2500, 4000), MYCT > CHMIN) = {0} AND CHMIN != <3.50, 6) = {1} AND MMIN < MMAX = {1} AND MYCT > CACH = {0} AND CACH < CHMAX = {0} AND CACH != <31, 128) = {1} THEN class = {0.44} [0.33,0.55] (p=3.0, n=1.0, P=7.0, N=181.0)
+r8: IF MYCT = <28, 1100) = {1} AND CACH != <40, 65) = {1} AND 2-of-3(MMIN < MMAX, MMAX != <4250, 6000), MYCT > CHMIN) = {0} AND CACH > CHMIN = {1} AND MYCT = <34, 56) = {0} AND MMIN != <259, 512) = {1} AND MYCT < MMIN = {1} AND 2-of-3(CACH != <64.50, 128), CHMAX != <35, 64), MYCT > CHMIN) = {0} AND CHMIN < CHMAX = {1} AND MYCT > CHMAX = {1} THEN class = {0.047} [-0.018,0.11] (p=46.0, n=2.0, P=149.0, N=39.0)
+r9: IF CHMIN != <3.50, 6) = {1} AND MYCT > CACH = {0} AND 2-of-3(CACH != <64.50, 128), CHMAX = (-inf, 59), MYCT != <115.50, 125)) = {0} THEN class = {0.27} [0.12,0.42] (p=19.0, n=6.0, P=26.0, N=162.0)

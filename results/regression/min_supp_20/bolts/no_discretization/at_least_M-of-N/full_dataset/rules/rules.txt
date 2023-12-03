@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.8319327731092436
+r2: 0.6015625
+r3: 0.834853234539755
+r4: 0.5305059523809523
+r5: 0.48148148148148145
+r6: 0.7346938775510207
+________________________________
+r1: IF TIME != <26.36, 129.45) = {0} AND SPEED1 > SPEED2 = {1} AND RUN > TIME = {0} AND RUN > SPEED1 = {1} THEN class = {0.80} [0.76,0.83] (p=6.0, n=1.0, P=6.0, N=34.0)
+r2: IF 2-of-3(SPEED2 > NUMBER2, SPEED1 > NUMBER2, SENS < TIME) = {1} AND TOTAL > TIME = {0} AND RUN > TIME = {1} THEN class = {0.33} [0.14,0.52] (p=6.0, n=2.0, P=8.0, N=32.0)
+r3: IF TIME != <26.36, 129.45) = {0} AND SPEED1 > SPEED2 = {1} THEN class = {0.78} [0.58,0.97] (p=10.0, n=1.0, P=11.0, N=29.0)
+r4: IF 2-of-3(SPEED2 > NUMBER2, RUN > SENS, SPEED1 > NUMBER2) = {1} AND TOTAL > TIME = {1} THEN class = {0.061} [0.021,0.10] (p=11.0, n=5.0, P=12.0, N=28.0)
+r5: IF TOTAL > TIME = {1} THEN class = {0.065} [0.025,0.11] (p=13.0, n=7.0, P=13.0, N=27.0)
+r6: IF TIME != <26.36, 129.45) = {1} THEN class = {0.10} [-0.14,0.34] (p=26.0, n=2.0, P=28.0, N=12.0)

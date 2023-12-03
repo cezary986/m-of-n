@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9997265498327527
+r2: 0.9999970004351509
+r3: 0.9999432050220307
+r4: 0.9997686395813142
+r5: 0.9999252436186742
+r6: 0.9944473764105218
+r7: 0.9999860495145797
+________________________________
+r1: IF wt.loss = (-inf, 25.50) AND sex = <1.50, inf) AND ph.karno = <65, inf) THEN  (p=65.0, n=0.0, P=205.0, N=0.0)
+r2: IF ph.ecog = <1.50, inf) AND wt.loss = (-inf, 21) THEN  (p=28.0, n=0.0, P=205.0, N=0.0)
+r3: IF wt.loss = (-inf, 25.50) AND pat.karno = (-inf, 75) THEN  (p=51.0, n=0.0, P=205.0, N=0.0)
+r4: IF pat.karno = (-inf, 75) THEN  (p=68.0, n=0.0, P=205.0, N=0.0)
+r5: IF ph.ecog = <1.50, inf) THEN  (p=42.0, n=0.0, P=205.0, N=0.0)
+r6: IF meal.cal = (-inf, 1162.50) AND ph.ecog = (-inf, 1.50) AND pat.karno = <95, inf) AND age = (-inf, 63.50) THEN  (p=11.0, n=0.0, P=205.0, N=0.0)
+r7: IF ph.ecog = (-inf, 1.50) AND age = (-inf, 77) THEN  (p=158.0, n=0.0, P=205.0, N=0.0)

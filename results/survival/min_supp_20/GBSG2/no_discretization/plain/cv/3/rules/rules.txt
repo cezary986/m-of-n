@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999999999953
+r2: 0.9999999999999521
+r3: 1.0
+r4: 0.9999659494873796
+r5: 0.9999999999999575
+________________________________
+r1: IF pnodes = (-inf, 4.50) AND tsize = (-inf, 53) THEN  (p=376.0, n=0.0, P=617.0, N=0.0)
+r2: IF pnodes = (-inf, 5.50) THEN  (p=426.0, n=0.0, P=617.0, N=0.0)
+r3: IF pnodes = <5, inf) AND progrec = (-inf, 134) THEN  (p=184.0, n=0.0, P=617.0, N=0.0)
+r4: IF tgrade = {I} THEN  (p=74.0, n=0.0, P=617.0, N=0.0)
+r5: IF pnodes = (-inf, 11) THEN  (p=536.0, n=0.0, P=617.0, N=0.0)

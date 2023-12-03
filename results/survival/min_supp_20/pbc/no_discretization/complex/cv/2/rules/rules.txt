@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 1.0
+r2: 0.999999999999996
+r3: 1.0
+r4: 1.0
+r5: 1.0
+________________________________
+r1: IF bili = (-inf, 2.15) THEN  (p=236.0, n=0.0, P=376.0, N=0.0)
+r2: IF age < copper AND trt < bili AND trt < stage THEN  (p=116.0, n=0.0, P=376.0, N=0.0)
+r3: IF bili > protime THEN  (p=26.0, n=0.0, P=376.0, N=0.0)
+r4: IF bili > albumin THEN  (p=100.0, n=0.0, P=376.0, N=0.0)
+r5: IF bili = (-inf, 2.95) THEN  (p=259.0, n=0.0, P=376.0, N=0.0)

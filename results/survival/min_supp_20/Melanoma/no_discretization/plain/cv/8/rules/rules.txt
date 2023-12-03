@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.9999920142545143
+r2: 0.9999974030400676
+r3: 0.9999984003709168
+r4: 0.9999999140203407
+r5: 0.9999999988765462
+r6: 0.9999946126647075
+r7: 0.9999999782032932
+r8: 0.9999999782032932
+________________________________
+r1: IF thick = (-inf, 1.46) THEN  (p=73.0, n=0.0, P=185.0, N=0.0)
+r2: IF age = (-inf, 56) AND thick = (-inf, 1.86) THEN  (p=50.0, n=0.0, P=185.0, N=0.0)
+r3: IF sex = {Female} AND thick = (-inf, 3.38) AND age = (-inf, 52) THEN  (p=44.0, n=0.0, P=185.0, N=0.0)
+r4: IF thick = (-inf, 2.10) THEN  (p=94.0, n=0.0, P=185.0, N=0.0)
+r5: IF thick = (-inf, 3.38) THEN  (p=128.0, n=0.0, P=185.0, N=0.0)
+r6: IF sex = {Female} AND ici = (-inf, 2.50) AND thick = (-inf, 5.00) AND age = (-inf, 52.50) THEN  (p=44.0, n=0.0, P=185.0, N=0.0)
+r7: IF ulcer = {not present} THEN  (p=102.0, n=0.0, P=185.0, N=0.0)
+r8: IF ulcer = {present} THEN  (p=83.0, n=0.0, P=185.0, N=0.0)

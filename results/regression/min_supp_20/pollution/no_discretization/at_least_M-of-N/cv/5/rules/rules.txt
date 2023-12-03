@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.45056818181818187
+r2: 0.3227586206896552
+r3: 0.3605769230769231
+r4: 0.44105113636363635
+r5: 0.3641025641025642
+r6: 0.35454545454545455
+r7: 0.3804347826086957
+r8: 0.41666666666666663
+r9: 0.32962275819418674
+r10: 0.3962406015037594
+r11: 0.4593301435406698
+r12: 0.3864795918367347
+________________________________
+r1: IF 2-of-3(WWDRK > NOX, JANT > NOX, HOUS > SO) = {1} AND HOUS > SO = {0} AND 2-of-3(WWDRK > NOX, NONW < HC, JANT < WWDRK) = {1} THEN class = {0.56} [0.52,0.60] (p=3.0, n=1.0, P=10.0, N=44.0)
+r2: IF JANT > SO = {0} AND POOR < NOX = {0} AND HOUS > SO = {1} THEN class = {0.51} [0.36,0.66] (p=7.0, n=2.0, P=29.0, N=25.0)
+r3: IF PREC < SO = {0} AND EDUC != <9.90, 11.40) = {0} AND NONW = <15.70, 36.70) = {1} THEN class = {0.59} [0.58,0.61] (p=1.0, n=1.0, P=2.0, N=52.0)
+r4: IF PREC < SO = {0} AND OVR65 > NOX = {0} AND 2-of-3(WWDRK > HC, OVR65 < SO, POPN < NOX) = {1} THEN class = {0.67} [0.52,0.82] (p=5.0, n=1.0, P=22.0, N=32.0)
+r5: IF POOR < NOX = {1} AND EDUC != <9.90, 11.40) = {0} THEN class = {0.62} [0.53,0.71] (p=7.0, n=4.0, P=15.0, N=39.0)
+r6: IF POOR > SO = {0} AND 2-of-3(WWDRK > NOX, PREC > JANT, POPN < NONW) = {0} THEN class = {0.22} [0.13,0.31] (p=2.0, n=1.0, P=10.0, N=44.0)
+r7: IF POOR > SO = {1} AND JULT < HOUS = {1} AND WWDRK != <45, 49.50) = {0} THEN class = {0.25} [0.18,0.32] (p=2.0, n=1.0, P=8.0, N=46.0)
+r8: IF 2-of-3(WWDRK > NOX, OVR65 < SO, POPN < NOX) = {0} AND EDUC > NONW = {0} AND 2-of-3(POPN < NOX, PREC > JANT, WWDRK > NOX) = {0} THEN class = {0.22} [0.17,0.26] (p=2.0, n=1.0, P=6.0, N=48.0)
+r9: IF 2-of-3(WWDRK > NOX, OVR65 < SO, POPN < NOX) = {0} THEN class = {0.31} [0.18,0.45] (p=5.0, n=2.0, P=21.0, N=33.0)
+r10: IF JANT > SO = {1} AND POOR > HC = {1} AND OVR65 > NOX = {1} THEN class = {0.35} [0.23,0.47] (p=12.0, n=6.0, P=19.0, N=35.0)
+r11: IF EDUC != <9.90, 11.40) = {1} AND PREC < JANT = {1} THEN class = {0.22} [0.088,0.35] (p=8.0, n=3.0, P=16.0, N=38.0)
+r12: IF JANT > SO = {0} AND POOR < NOX = {1} AND NONW > NOX = {0} AND 2-of-3(POPN < NOX, EDUC < POOR, WWDRK > NOX) = {1} THEN class = {0.55} [0.40,0.70] (p=11.0, n=3.0, P=28.0, N=26.0)

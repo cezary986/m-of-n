@@ -1,0 +1,54 @@
+Rules qualities:
+r1: 0.9999808446921579
+r2: 0.9916186481777015
+r3: 0.9959304638098254
+r4: 0.9992744249282309
+r5: 0.9942434184235394
+r6: 0.9999249959380134
+r7: 0.9503177153035506
+r8: 0.9790473142417423
+r9: 0.999679222664849
+r10: 0.7709395171513802
+r11: 0.9997560335267065
+r12: 0.9999092231656045
+r13: 0.9999062446037903
+r14: 0.998392563230435
+r15: 0.9996753977689656
+r16: 0.9981072033372163
+r17: 0.9255061280637555
+r18: 0.995428564125754
+r19: 0.9998830586859975
+r20: 0.9985090123915442
+r21: 0.9398315064785867
+r22: 0.9914175150617173
+r23: 0.7405367423944046
+r24: 0.9993766953896714
+r25: 0.9999921716271156
+r26: 0.9956273171272683
+________________________________
+r1: IF abdpain = itch AND os30d > itch AND rs12m = itch AND yschool != <12.50, 15) THEN  (p=79.0, n=0.0, P=789.0, N=0.0)
+r2: IF os12m > os30d AND os30d < dchexam AND os30d = discharge AND os30d = rs30d AND os30d = vagina AND yschool = <11.50, inf) THEN  (p=20.0, n=0.0, P=789.0, N=0.0)
+r3: IF iinfct > os12m AND age != <23.50, 28) AND age != <16.50, 19) AND os12m > os30d AND os30d = abdpain AND os30d = vagina AND iinfct = (-inf, 2.50) AND age != <20.50, 23) THEN  (p=17.0, n=0.0, P=789.0, N=0.0)
+r4: IF itch = dchexam AND itch > vagina AND rs30d < itch AND age != <20.50, 23) AND yschool = <9.50, inf) THEN  (p=69.0, n=0.0, P=789.0, N=0.0)
+r5: IF iinfct > os12m AND age != <23.50, 28) AND age != <16.50, 19) AND age = (-inf, 25.50) AND os12m > os30d AND os30d = abdpain AND os30d = vagina AND age != <20.50, 23) THEN  (p=23.0, n=0.0, P=789.0, N=0.0)
+r6: IF os30d = abnode AND os30d = rash AND yschool = (-inf, 11.50) THEN  (p=276.0, n=0.0, P=789.0, N=0.0)
+r7: IF os12m > os30d AND os30d = dysuria AND os30d = vagina AND yschool = <11.50, inf) THEN  (p=41.0, n=0.0, P=789.0, N=0.0)
+r8: IF npartner = rs30d AND rs30d > dysuria AND age != <20.50, 23) THEN  (p=10.0, n=0.0, P=789.0, N=0.0)
+r9: IF os30d > vagina THEN  (p=160.0, n=0.0, P=789.0, N=0.0)
+r10: IF iinfct = condom AND dysuria < vagina AND lesion < vagina AND os12m = vagina THEN  (p=6.0, n=0.0, P=789.0, N=0.0)
+r11: IF lymph < vagina AND os30d < vagina AND rash < vagina AND rs12m < vagina THEN  (p=63.0, n=0.0, P=789.0, N=0.0)
+r12: IF abdpain = discharge AND os12m > discharge AND age != <24.50, 27) THEN  (p=117.0, n=0.0, P=789.0, N=0.0)
+r13: IF os30d = abnode AND os30d = itch AND rs30d < discharge THEN  (p=208.0, n=0.0, P=789.0, N=0.0)
+r14: IF vagina = dchexam THEN  (p=125.0, n=0.0, P=789.0, N=0.0)
+r15: IF iinfct = condom AND discharge = dysuria AND discharge = itch AND discharge = lesion AND npartner > discharge AND age = <20.50, 23) AND yschool != <9.50, 12) THEN  (p=42.0, n=0.0, P=789.0, N=0.0)
+r16: IF os30d = discharge AND age = <17.50, 25) AND condom = <2.50, inf) THEN  (p=81.0, n=0.0, P=789.0, N=0.0)
+r17: IF age = (-inf, 31.50) AND yschool = (-inf, 12.50) AND rs30d = discharge AND age = <25, inf) AND iinfct > condom AND iinfct = <2.50, inf) AND age != <23.50, 27) AND yschool != <9.50, 12) THEN  (p=8.0, n=0.0, P=789.0, N=0.0)
+r18: IF iinfct > npartner AND discharge = dysuria AND discharge = itch AND discharge = lesion AND npartner > discharge AND age = <17.50, 19.50) AND yschool != <9.50, 12) THEN  (p=41.0, n=0.0, P=789.0, N=0.0)
+r19: IF iinfct > npartner AND abdpain = discharge AND discharge = abnode AND discharge = dysuria AND discharge = vagina AND age = <23.50, 27) AND yschool != <9.50, 12) THEN  (p=129.0, n=0.0, P=789.0, N=0.0)
+r20: IF abdpain = discharge AND discharge = abnode AND discharge = dysuria AND discharge = itch AND discharge = rash AND discharge = vagina AND age = <17.50, 43) AND yschool != <9.50, 12) THEN  (p=180.0, n=0.0, P=789.0, N=0.0)
+r21: IF npartner = itch AND rs30d < itch AND age = <18.50, 22) THEN  (p=20.0, n=0.0, P=789.0, N=0.0)
+r22: IF dysuria < itch AND itch = dchexam AND itch > vagina AND os30d < itch AND rs30d < discharge AND npartner = (-inf, 2.50) AND yschool = <10.50, inf) AND condom = (-inf, 2.50) THEN  (p=13.0, n=0.0, P=789.0, N=0.0)
+r23: IF yschool = (-inf, 12.50) AND abdpain > discharge AND abdpain > dysuria AND os30d < abdpain AND yschool != <9.50, 12) AND condom = (-inf, 2.50) THEN  (p=9.0, n=0.0, P=789.0, N=0.0)
+r24: IF iinfct > dchexam AND age != <27.50, 32) AND yschool = (-inf, 15) AND os12m = dysuria AND os12m = os30d AND os12m = vagina AND npartner = (-inf, 4.50) AND age = <23.50, 27) AND yschool != <9.50, 12) THEN  (p=150.0, n=0.0, P=789.0, N=0.0)
+r25: IF condom > dchexam AND os30d = dysuria AND rs30d = abdpain AND rs30d = itch AND npartner = (-inf, 2.50) AND age != <17.50, 43) AND yschool != <9.50, 12) AND condom = (-inf, 2.50) THEN  (p=34.0, n=0.0, P=789.0, N=0.0)
+r26: IF condom = <2.50, inf) THEN  (p=279.0, n=0.0, P=789.0, N=0.0)

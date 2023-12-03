@@ -1,0 +1,52 @@
+Rules qualities:
+r1: 0.7522522522522522
+r2: 0.7747747747747749
+r3: 0.7432432432432432
+r4: 0.7747747747747749
+r5: 0.7972972972972974
+r6: 0.779693486590038
+r7: 0.7398492161744866
+r8: 0.7027027027027027
+r9: 0.6081081081081081
+r10: 0.7882882882882882
+r11: 0.7117117117117118
+r12: 0.7522522522522522
+r13: 0.5675675675675675
+r14: 0.7432432432432432
+r15: 0.4356481364869063
+r16: 0.6206896551724138
+r17: 0.6551724137931034
+r18: 0.6379310344827587
+r19: 0.6896551724137931
+r20: 0.6206896551724138
+r21: 0.6206896551724138
+r22: 0.6379310344827587
+r23: 0.5689655172413793
+r24: 0.5953147504871642
+r25: 0.46298022160091135
+________________________________
+r1: IF SPIDERS = {no} AND ALBUMIN = <3.85, inf) THEN class = {LIVE} (p=56.0, n=0.0, P=111.0, N=29.0)
+r2: IF BILIRUBIN = <0.65, 1.80) AND ALBUMIN = <3.85, inf) THEN class = {LIVE} (p=61.0, n=0.0, P=111.0, N=29.0)
+r3: IF ALBUMIN = <3.85, inf) AND SGOT = <29, inf) THEN class = {LIVE} (p=54.0, n=0.0, P=111.0, N=29.0)
+r4: IF SPIDERS = {no} AND ALBUMIN = <3.65, inf) THEN class = {LIVE} (p=61.0, n=0.0, P=111.0, N=29.0)
+r5: IF BILIRUBIN = <0.65, inf) AND VARICES = {no} AND ALBUMIN = <3.65, inf) THEN class = {LIVE} (p=66.0, n=0.0, P=111.0, N=29.0)
+r6: IF BILIRUBIN = <0.55, inf) AND VARICES = {no} AND ALBUMIN = <3.65, inf) THEN class = {LIVE} (p=74.0, n=1.0, P=111.0, N=29.0)
+r7: IF BILIRUBIN = <0.65, inf) AND ALBUMIN = <3.55, inf) AND AGE = (-inf, 57.50) THEN class = {LIVE} (p=66.0, n=1.0, P=111.0, N=29.0)
+r8: IF BILIRUBIN = (-inf, 1.80) AND FATIGUE = {no} THEN class = {LIVE} (p=45.0, n=0.0, P=111.0, N=29.0)
+r9: IF AGE = (-inf, 29) THEN class = {LIVE} (p=24.0, n=0.0, P=111.0, N=29.0)
+r10: IF SPIDERS = {no} AND ASCITES = {no} AND ALBUMIN = <3.45, inf) THEN class = {LIVE} (p=64.0, n=0.0, P=111.0, N=29.0)
+r11: IF BILIRUBIN = (-inf, 1.80) AND PROTIME = <50.50, inf) THEN class = {LIVE} (p=47.0, n=0.0, P=111.0, N=29.0)
+r12: IF BILIRUBIN = <0.65, inf) AND SPLEEN_PALPABLE = {no} AND ALBUMIN = <3.35, inf) AND SGOT = <24, inf) THEN class = {LIVE} (p=56.0, n=0.0, P=111.0, N=29.0)
+r13: IF SEX = {male} THEN class = {LIVE} (p=15.0, n=0.0, P=111.0, N=29.0)
+r14: IF SPIDERS = {no} AND HISTOLOGY = {no} AND AGE = (-inf, 61.50) THEN class = {LIVE} (p=54.0, n=0.0, P=111.0, N=29.0)
+r15: IF AGE = (-inf, 40.50) THEN class = {LIVE} (p=67.0, n=7.0, P=111.0, N=29.0)
+r16: IF ALBUMIN = (-inf, 2.65) THEN class = {DIE} (p=7.0, n=0.0, P=29.0, N=111.0)
+r17: IF ASCITES = {yes} AND ALBUMIN = (-inf, 2.85) THEN class = {DIE} (p=9.0, n=0.0, P=29.0, N=111.0)
+r18: IF BILIRUBIN = <3.70, inf) AND ALBUMIN = (-inf, 3.70) THEN class = {DIE} (p=8.0, n=0.0, P=29.0, N=111.0)
+r19: IF ASCITES = {yes} AND AGE = <29, 61) AND SGOT = (-inf, 84.50) THEN class = {DIE} (p=11.0, n=0.0, P=29.0, N=111.0)
+r20: IF PROTIME = <29.50, 35.50) THEN class = {DIE} (p=7.0, n=0.0, P=29.0, N=111.0)
+r21: IF PROTIME = (-inf, 38.50) AND SGOT = <61.50, inf) AND AGE = <26.50, inf) THEN class = {DIE} (p=7.0, n=0.0, P=29.0, N=111.0)
+r22: IF VARICES = {yes} AND ALK_PHOSPHATE = (-inf, 173.50) AND AGE = (-inf, 51.50) AND SGOT = (-inf, 130) THEN class = {DIE} (p=8.0, n=0.0, P=29.0, N=111.0)
+r23: IF BILIRUBIN = <1.65, inf) AND AGE = <33, inf) AND SGOT = <146.50, 255.50) THEN class = {DIE} (p=4.0, n=0.0, P=29.0, N=111.0)
+r24: IF SPIDERS = {yes} AND SEX = {female} AND LIVER_FIRM = {no} AND AGE = <34.50, inf) AND ANTIVIRALS = {no} THEN class = {DIE} (p=10.0, n=1.0, P=29.0, N=111.0)
+r25: IF SEX = {female} AND MALAISE = {yes} AND AGE = <55.50, 63) THEN class = {DIE} (p=5.0, n=1.0, P=29.0, N=111.0)

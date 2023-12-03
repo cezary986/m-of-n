@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.9999998906612376
+r2: 0.9911850956064736
+r3: 1.0
+r4: 0.909874668810693
+r5: 1.0
+r6: 0.9999999999999992
+r7: 0.9244096167929867
+r8: 0.8823947267831086
+r9: 0.7940452115006296
+r10: 0.9951692117999724
+r11: 0.8608804581530853
+________________________________
+r1: IF ANCrecovery = <500007.50, inf) THEN  (p=5.0, n=0.0, P=169.0, N=0.0)
+r2: IF aGvHDIIIIV = {1} AND Recipientgender = {1} AND Stemcellsource = {0} AND Donorage35 = {0} AND CD3dCD34 = (-inf, 7.98) THEN  (p=6.0, n=0.0, P=169.0, N=0.0)
+r3: IF extcGvHD = {?} THEN  (p=28.0, n=0.0, P=169.0, N=0.0)
+r4: IF Antigen = {1} AND CD34kgx10d6 = (-inf, 10.24) AND Donorage35 = {0} AND RecipientCMV = {1} AND IIIV = {1} THEN  (p=3.0, n=0.0, P=169.0, N=0.0)
+r5: IF PLTrecovery = <500142.50, inf) THEN  (p=17.0, n=0.0, P=169.0, N=0.0)
+r6: IF extcGvHD = {1} THEN  (p=115.0, n=0.0, P=169.0, N=0.0)
+r7: IF CD34kgx10d6 = <8.08, inf) AND Donorage35 = {1} AND Alel = {0} THEN  (p=12.0, n=0.0, P=169.0, N=0.0)
+r8: IF extcGvHD = {0} AND RecipientABO = {-1} THEN  (p=4.0, n=0.0, P=169.0, N=0.0)
+r9: IF Diseasegroup = {1} AND DonorABO = {0} AND CMVstatus = {3} THEN  (p=10.0, n=0.0, P=169.0, N=0.0)
+r10: IF Recipientgender = {1} AND extcGvHD = {0} AND DonorCMV = {0} THEN  (p=9.0, n=0.0, P=169.0, N=0.0)
+r11: IF Riskgroup = {1} THEN  (p=64.0, n=0.0, P=169.0, N=0.0)

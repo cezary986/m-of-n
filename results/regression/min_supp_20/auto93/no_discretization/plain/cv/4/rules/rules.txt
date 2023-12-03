@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.47058823529411764
+r2: 0.4555555555555556
+r3: 0.40335743801652885
+r4: 0.6772486772486772
+r5: 0.2692307692307693
+r6: 0.2692307692307693
+r7: 0.39882697947214074
+r8: 0.6963465073529412
+r9: 0.5782608695652174
+r10: 0.36585365853658536
+r11: 0.36562500000000003
+r12: 0.40816326530612246
+r13: 0.37726908216082233
+________________________________
+r1: IF Type = {Van} AND Manual_transmission_available = {0} THEN class = {0.21} [0.19,0.24] (p=4.0, n=1.0, P=16.0, N=68.0)
+r2: IF Type = {Van} AND Engine_revolutions_per_mile = <2025, inf) THEN class = {0.23} [0.20,0.25] (p=4.0, n=1.0, P=18.0, N=66.0)
+r3: IF Domestic = {1} AND Manual_transmission_available = {0} THEN class = {0.22} [0.11,0.33] (p=17.0, n=5.0, P=40.0, N=44.0)
+r4: IF Type = {Small} AND Domestic = {0} AND Drive_train_type = {1} THEN class = {0.048} [0.008,0.087] (p=11.0, n=1.0, P=21.0, N=63.0)
+r5: IF Horsepower = <289, inf) THEN class = {0.56} [0.45,0.67] (p=1.0, n=1.0, P=6.0, N=78.0)
+r6: IF Manufacturer = {Volvo} THEN class = {0.35} [0.32,0.39] (p=1.0, n=1.0, P=6.0, N=78.0)
+r7: IF City_MPG = (-inf, 23) AND Domestic = {0} AND Manual_transmission_available = {1} THEN class = {0.35} [0.23,0.48] (p=10.0, n=5.0, P=22.0, N=62.0)
+r8: IF Type = {Small} AND Air_Bags_standard = {0} THEN class = {0.033} [-0.0042,0.07] (p=13.0, n=3.0, P=16.0, N=68.0)
+r9: IF Engine_size = (-inf, 4.55) AND Passenger_capacity = (-inf, 6.50) AND City_MPG = (-inf, 18.50) AND Engine_revolutions_per_mile = (-inf, 2337.50) THEN class = {0.46} [0.33,0.59] (p=6.0, n=1.0, P=15.0, N=69.0)
+r10: IF Fuel_tank_capacity = (-inf, 18.90) AND Domestic = {0} AND Manual_transmission_available = {0} THEN class = {1} [0.63,1.37] (p=1.0, n=1.0, P=2.0, N=82.0)
+r11: IF City_MPG = (-inf, 24) AND Drive_train_type = {2} AND Manual_transmission_available = {1} AND Rear_seat_room = <23.50, inf) THEN class = {0.23} [0.17,0.28] (p=3.0, n=1.0, P=24.0, N=60.0)
+r12: IF Number_of_cylinders = (-inf, 7) AND Type = {Sporty} AND Domestic = {1} THEN class = {0.14} [0.064,0.22] (p=5.0, n=1.0, P=35.0, N=49.0)
+r13: IF Drive_train_type = {1} AND Manual_transmission_available = {1} THEN class = {0.094} [-0.041,0.23] (p=35.0, n=8.0, P=55.0, N=29.0)

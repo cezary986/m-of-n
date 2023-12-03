@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.8687544446419839
+r2: 0.8600196222712779
+r3: 0.8607298673758496
+r4: 0.9381125704075471
+r5: 0.8455384325664606
+r6: 0.7988141075003851
+r7: 0.8069493213739902
+r8: 0.75715828369529
+________________________________
+r1: IF physician-fee-freeze != {n} = {0} AND 2-of-3(physician-fee-freeze != synfuels-corporation-cutback, duty-free-exports != {n}, superfund-right-to-sue != adoption-of-the-budget-resolution) = {1} THEN class = {republican} (p=140.0, n=9.0, P=151.0, N=240.0)
+r2: IF physician-fee-freeze != {n} = {0} AND physician-fee-freeze != synfuels-corporation-cutback = {1} THEN class = {republican} (p=129.0, n=6.0, P=151.0, N=240.0)
+r3: IF physician-fee-freeze != {n} = {0} AND 2-of-3(physician-fee-freeze != adoption-of-the-budget-resolution, education-spending != {y}, superfund-right-to-sue != adoption-of-the-budget-resolution) = {1} AND education-spending != {y} = {1} THEN class = {republican} (p=123.0, n=4.0, P=151.0, N=240.0)
+r4: IF physician-fee-freeze != {n} = {1} THEN class = {democrat} (p=221.0, n=2.0, P=240.0, N=151.0)
+r5: IF 2-of-3(superfund-right-to-sue != adoption-of-the-budget-resolution, el-salvador-aid != {n}, physician-fee-freeze != {n}) = {1} THEN class = {democrat} (p=204.0, n=7.0, P=240.0, N=151.0)
+r6: IF el-salvador-aid != {n} = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=168.0, n=4.0, P=240.0, N=151.0)
+r7: IF physician-fee-freeze != anti-satellite-test-ban = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=177.0, n=5.0, P=240.0, N=151.0)
+r8: IF education-spending != {y} = {0} AND physician-fee-freeze != adoption-of-the-budget-resolution = {1} THEN class = {democrat} (p=171.0, n=8.0, P=240.0, N=151.0)

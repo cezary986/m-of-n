@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9980188686492303
+r2: 0.9489822604069242
+r3: 0.9804412758578696
+r4: 0.9916136116160847
+r5: 0.9457002657493576
+r6: 0.9331446128600636
+r7: 0.9993584190642538
+________________________________
+r1: IF rs30d < discharge = {1} AND rs30d < itch = {0} AND os30d < discharge = {1} THEN  (p=214.0, n=0.0, P=789.0, N=0.0)
+r2: IF rs30d < discharge = {0} AND os30d < itch = {1} AND iinfct > npartner = {0} THEN  (p=13.0, n=0.0, P=789.0, N=0.0)
+r3: IF itch > vagina = {1} AND rs30d < itch = {1} AND iinfct > npartner = {1} THEN  (p=78.0, n=0.0, P=789.0, N=0.0)
+r4: IF os30d < discharge = {0} THEN  (p=501.0, n=0.0, P=789.0, N=0.0)
+r5: IF npartner > discharge = {1} AND itch > rash = {1} AND os12m = itch = {0} AND iinfct > npartner = {0} THEN  (p=19.0, n=0.0, P=789.0, N=0.0)
+r6: IF 2-of-3(age = <16.50, inf), npartner = dchexam, iinfct > os30d) = {1} AND itch > abnode = {1} AND os12m = itch = {0} THEN  (p=36.0, n=0.0, P=789.0, N=0.0)
+r7: IF os30d = itch = {0} AND itch > rash = {1} AND os12m = vagina = {0} AND os30d = vagina = {0} THEN  (p=11.0, n=0.0, P=789.0, N=0.0)

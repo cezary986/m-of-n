@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.999999941996716
+r2: 0.999851305571077
+r3: 0.9999998984031834
+r4: 0.9998145058314714
+r5: 0.9999995789629756
+r6: 0.999998894507385
+r7: 0.9853174534503751
+r8: 0.9999967938992059
+r9: 0.9999919917608465
+r10: 0.9999995469971225
+r11: 0.9999400451326372
+r12: 0.9998133618032705
+r13: 0.9999967938992059
+________________________________
+r1: IF 2-of-3(npartner > itch, rs30d = os30d, yschool != <12.50, 15)) = {0} AND itch = vagina = {1} AND condom = (-inf, 2.50) = {1} AND os12m = itch = {1} AND iinfct > npartner = {0} THEN  (p=66.0, n=0.0, P=877.0, N=0.0)
+r2: IF itch = vagina = {0} AND iinfct = condom = {0} AND os30d = vagina = {0} AND os30d < dchexam = {1} AND iinfct > npartner = {1} THEN  (p=26.0, n=0.0, P=877.0, N=0.0)
+r3: IF condom = (-inf, 2.50) = {1} AND iinfct = condom = {0} AND 2-of-3(npartner > os30d, os30d < dchexam, rs30d = os30d) = {0} AND os30d < dchexam = {1} THEN  (p=229.0, n=0.0, P=877.0, N=0.0)
+r4: IF condom = (-inf, 2.50) = {1} AND iinfct = condom = {1} AND itch = dchexam = {1} AND os30d = vagina = {1} AND os30d < dchexam = {0} THEN  (p=9.0, n=0.0, P=877.0, N=0.0)
+r5: IF 2-of-3(npartner > itch, rs30d = os30d, yschool != <12.50, 15)) = {0} AND condom = (-inf, 2.50) = {1} AND 2-of-3(npartner > os30d, os30d < dchexam, rs30d = os30d) = {0} AND os30d < dchexam = {1} THEN  (p=290.0, n=0.0, P=877.0, N=0.0)
+r6: IF itch = abdpain = {1} AND os12m > itch = {1} AND os30d < dchexam = {0} THEN  (p=139.0, n=0.0, P=877.0, N=0.0)
+r7: IF itch > abnode = {1} AND itch > vagina = {1} AND itch = dchexam = {1} AND dysuria < itch = {1} AND rs30d < itch = {1} THEN  (p=95.0, n=0.0, P=877.0, N=0.0)
+r8: IF age = <17.50, inf) = {0} THEN  (p=266.0, n=0.0, P=877.0, N=0.0)
+r9: IF condom = (-inf, 2.50) = {1} AND npartner = os30d = {1} AND 2-of-3(rs30d = os30d, npartner > os30d, os30d = abnode) = {0} AND itch = dchexam = {0} THEN  (p=55.0, n=0.0, P=877.0, N=0.0)
+r10: IF npartner > os30d = {1} AND condom = (-inf, 2.50) = {1} THEN  (p=447.0, n=0.0, P=877.0, N=0.0)
+r11: IF os12m > discharge = {1} AND npartner > os30d = {0} AND iinfct = condom = {1} THEN  (p=41.0, n=0.0, P=877.0, N=0.0)
+r12: IF condom = (-inf, 2.50) = {0} AND age = <17.50, inf) = {1} AND os30d > discharge = {0} THEN  (p=209.0, n=0.0, P=877.0, N=0.0)
+r13: IF age = <17.50, inf) = {1} THEN  (p=611.0, n=0.0, P=877.0, N=0.0)

@@ -1,0 +1,8 @@
+Rules qualities:
+r1: 0.46875
+r2: 0.5230769230769231
+r3: 0.6531772575250836
+________________________________
+r1: IF 2-of-3(SENS < TIME, SPEED2 > NUMBER2, TOTAL > SENS) = {1} AND 2-of-3(SPEED2 > NUMBER2, SENS < TIME, RUN > SPEED1) = {1} AND SPEED1 = (-inf, 3) = {0} AND 2-of-3(TOTAL > SENS, SPEED2 > NUMBER2, RUN > SPEED1) = {1} THEN class = {0.82} [0.78,0.85] (p=2.0, n=1.0, P=4.0, N=32.0)
+r2: IF TOTAL > TIME = {0} AND 2-of-3(TOTAL > SENS, SPEED2 > NUMBER2, RUN > NUMBER2) = {0} AND 2-of-3(SPEED1 > SPEED2, SPEED2 > NUMBER2, RUN > NUMBER2) = {0} THEN class = {0.78} [0.53,1.04] (p=6.0, n=2.0, P=10.0, N=26.0)
+r3: IF SPEED1 < SENS = {1} THEN class = {0.093} [-0.059,0.24] (p=22.0, n=3.0, P=23.0, N=13.0)

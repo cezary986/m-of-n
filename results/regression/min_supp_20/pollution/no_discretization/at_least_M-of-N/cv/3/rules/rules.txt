@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.4241071428571429
+r2: 0.4241071428571429
+r3: 0.49127819548872187
+r4: 0.4220779220779221
+r5: 0.36458333333333337
+r6: 0.41666666666666663
+r7: 0.35553997194950915
+r8: 0.5367965367965368
+r9: 0.31166666666666676
+r10: 0.3605769230769231
+r11: 0.43818681318681324
+________________________________
+r1: IF POOR > SO = {1} AND 2-of-3(POPN < NOX, PREC > JANT, JULT > HUMID) = {0} AND PREC < WWDRK = {1} THEN class = {0.22} [0.097,0.33] (p=3.0, n=1.0, P=12.0, N=42.0)
+r2: IF POOR > SO = {1} AND HC > SO = {0} AND PREC > JANT = {1} THEN class = {0.38} [0.32,0.44] (p=3.0, n=1.0, P=12.0, N=42.0)
+r3: IF POPN > NOX = {1} THEN class = {0.31} [0.19,0.43] (p=8.0, n=2.0, P=19.0, N=35.0)
+r4: IF EDUC > NOX = {1} AND POOR > SO = {1} THEN class = {0.34} [0.22,0.46] (p=9.0, n=3.0, P=21.0, N=33.0)
+r5: IF POPN < NONW = {1} AND EDUC = <9.80, 11.40) = {0} AND HC > SO = {0} AND OVR65 > NONW = {1} AND POPN > NOX = {0} AND 2-of-3(EDUC < POOR, POOR < SO, JULT > HUMID) = {1} THEN class = {0.45} [0.35,0.54] (p=3.0, n=1.0, P=18.0, N=36.0)
+r6: IF POPN < NONW = {0} AND POOR > SO = {0} AND PREC < WWDRK = {0} THEN class = {0.48} [0.45,0.51] (p=2.0, n=1.0, P=6.0, N=48.0)
+r7: IF POPN < NONW = {1} AND POOR > SO = {0} AND PREC > JANT = {1} AND EDUC > POOR = {0} THEN class = {0.59} [0.47,0.72] (p=16.0, n=8.0, P=23.0, N=31.0)
+r8: IF POPN < NONW = {1} AND WWDRK > SO = {1} AND OVR65 < HC = {1} AND PREC < JANT = {0} THEN class = {0.65} [0.51,0.80] (p=10.0, n=2.0, P=21.0, N=33.0)
+r9: IF 2-of-3(JANT > NOX, POPN < NOX, PREC > NOX) = {0} THEN class = {0.62} [0.42,0.81] (p=4.0, n=1.0, P=30.0, N=24.0)
+r10: IF 2-of-3(WWDRK > HC, PREC > NOX, POPN < NONW) = {1} AND 2-of-3(WWDRK > HC, PREC > JANT, JULT > HUMID) = {0} THEN class = {0.34} [0.33,0.34] (p=1.0, n=1.0, P=2.0, N=52.0)
+r11: IF POOR > SO = {0} AND PREC > JANT = {1} AND POPN > NOX = {0} AND 2-of-3(POPN < NONW, EDUC < POOR, JULT > HUMID) = {1} AND PREC < WWDRK = {1} AND 2-of-3(WWDRK > HC, EDUC < POOR, JULT > HUMID) = {1} THEN class = {0.56} [0.42,0.70] (p=18.0, n=6.0, P=26.0, N=28.0)

@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.8287795992714025
+r2: 0.4946236559139785
+r3: 0.6179775280898876
+r4: 0.5962877056936464
+r5: 0.5893081761006289
+r6: 0.487044356609574
+r7: 0.5213186813186813
+r8: 0.5426470588235294
+r9: 0.6258916194076873
+r10: 0.6625580008813542
+r11: 0.5044642857142858
+r12: 0.48101874896299984
+r13: 0.7243649837060845
+________________________________
+r1: IF MMIN = <12000, inf) AND MMAX = (-inf, 48000) THEN class = {0.42} [0.38,0.46] (p=5.0, n=1.0, P=5.0, N=183.0)
+r2: IF MMAX = <48000, inf) THEN class = {0.99} [0.81,1.18] (p=2.0, n=2.0, P=2.0, N=186.0)
+r3: IF MMIN = <6000, 12000) AND MMAX = <28000, inf) AND CHMIN = (-inf, 10) THEN class = {0.27} [0.22,0.33] (p=5.0, n=1.0, P=10.0, N=178.0)
+r4: IF MYCT = <95, inf) AND CACH = (-inf, 120) THEN class = {0.023} [-0.0033,0.049] (p=87.0, n=14.0, P=110.0, N=78.0)
+r5: IF MMAX = <28000, inf) THEN class = {0.32} [0.075,0.56] (p=22.0, n=3.0, P=53.0, N=135.0)
+r6: IF MMAX = (-inf, 48000) AND CACH = (-inf, 192) AND CHMAX = (-inf, 84) AND CHMIN = <14, inf) THEN class = {0.32} [0.17,0.46] (p=7.0, n=2.0, P=23.0, N=165.0)
+r7: IF MMIN = (-inf, 12000) AND MMAX = <22485, inf) AND MYCT = (-inf, 98.50) AND CACH = <28, 96) THEN class = {0.23} [0.18,0.28] (p=7.0, n=3.0, P=13.0, N=175.0)
+r8: IF MMIN = (-inf, 12000) AND MMAX = <18485, inf) AND MYCT = (-inf, 102) AND CACH = (-inf, 96) AND CHMAX = (-inf, 42) THEN class = {0.21} [0.14,0.28] (p=9.0, n=3.0, P=18.0, N=170.0)
+r9: IF MMIN = <6620, inf) AND CHMAX = (-inf, 120) THEN class = {0.27} [0.078,0.47] (p=21.0, n=2.0, P=50.0, N=138.0)
+r10: IF MMIN = <3550, inf) AND MMAX = <14000, 20000) AND MYCT = (-inf, 67.50) AND CHMAX = (-inf, 14) THEN class = {0.092} [0.068,0.12] (p=10.0, n=1.0, P=21.0, N=167.0)
+r11: IF MMIN = <3550, inf) AND MYCT = (-inf, 73.50) AND CHMAX = (-inf, 14) THEN class = {0.092} [0.062,0.12] (p=12.0, n=4.0, P=28.0, N=160.0)
+r12: IF MMIN = <3550, 4620) AND MMAX = <10000, inf) AND CHMIN = (-inf, 14) THEN class = {0.092} [0.051,0.13] (p=12.0, n=3.0, P=41.0, N=147.0)
+r13: IF MMIN = (-inf, 2810) AND MMAX = (-inf, 28000) THEN class = {0.026} [-0.017,0.069] (p=122.0, n=10.0, P=131.0, N=57.0)

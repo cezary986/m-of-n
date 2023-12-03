@@ -51,12 +51,13 @@ env/
 
 _cache/
 datasets/
-**/results/
 main.ipynb
 
 **/*.jar
 **/*.jarr
 
 **/.tmp
+
+**/model.pickle
 
 ./results/clear.ipynb

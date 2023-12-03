@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 0.9999999873422253
+r6: 1.0
+r7: 0.9996034932694894
+r8: 1.0
+r9: 0.9999914341138817
+r10: 1.0
+________________________________
+r1: IF zncent = (-inf, -0.75) THEN  (p=24.0, n=0.0, P=388.0, N=0.0)
+r2: IF pq2 = (-inf, 0.50) AND caq2 = <0.50, inf) AND dysp1 = (-inf, 2.50) AND smoke = {Never} AND fecent = (-inf, 0.85) AND drink = {Never} THEN  (p=11.0, n=0.0, P=388.0, N=0.0)
+r3: IF znquartiles = {Q1} THEN  (p=42.0, n=0.0, P=388.0, N=0.0)
+r4: IF cucent = (-inf, 0.47) THEN  (p=76.0, n=0.0, P=388.0, N=0.0)
+r5: IF pq1 = (-inf, 0.50) AND caq2 = (-inf, 0.50) AND cacent = (-inf, 2.04) AND sex = {Male} AND agepill = (-inf, 55.50) THEN  (p=11.0, n=0.0, P=388.0, N=0.0)
+r6: IF zncent = (-inf, 1.49) THEN  (p=88.0, n=0.0, P=388.0, N=0.0)
+r7: IF anyhist = {Family History} AND mildysp = {Mild Dysplasia} AND fecent = (-inf, -0.22) AND drink = {Never} THEN  (p=5.0, n=0.0, P=388.0, N=0.0)
+r8: IF caq1 = (-inf, 0.50) THEN  (p=85.0, n=0.0, P=388.0, N=0.0)
+r9: IF moddysp = {Moderate Dysplasia} AND agepill = <49, inf) THEN  (p=9.0, n=0.0, P=388.0, N=0.0)
+r10: IF znquartiles = {?} THEN  (p=279.0, n=0.0, P=388.0, N=0.0)

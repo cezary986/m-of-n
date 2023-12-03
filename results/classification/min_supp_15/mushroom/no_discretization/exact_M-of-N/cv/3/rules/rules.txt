@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.773410896708286
+r2: 0.7474460839954598
+r3: 0.7166572077185017
+r4: 0.7836265607264472
+r5: 0.9151532349602725
+r6: 0.8687570942111238
+r7: 0.9838251986379114
+r8: 0.7227582292849035
+r9: 0.7258796821793416
+r10: 0.9012502717431913
+r11: 0.903368061322477
+r12: 0.548455241616055
+r13: 0.5476630578294164
+r14: 0.5471349353049908
+________________________________
+r1: IF odor = {f} = {1} THEN class = {p} (p=1927.0, n=0.0, P=3524.0, N=3787.0)
+r2: IF 2-of-3(odor = {f}, gill-color = {b}, population = {v}) = {1} THEN class = {p} (p=1744.0, n=0.0, P=3524.0, N=3787.0)
+r3: IF 2-of-3(population = {v}, odor = {f}, stalk-surface-above-ring = {k}) = {1} THEN class = {p} (p=1527.0, n=0.0, P=3524.0, N=3787.0)
+r4: IF stalk-surface-above-ring = {k} = {1} AND gill-spacing != {w} = {0} THEN class = {p} (p=1999.0, n=0.0, P=3524.0, N=3787.0)
+r5: IF odor != {n} = {0} AND bruises? != {t} = {0} THEN class = {p} (p=2926.0, n=0.0, P=3524.0, N=3787.0)
+r6: IF odor != {n} = {0} AND 2-of-3(bruises? != {t}, gill-size != {b}, population = {v}) = {0} THEN class = {p} (p=2599.0, n=0.0, P=3524.0, N=3787.0)
+r7: IF odor != {n} = {0} AND odor = {l} = {0} AND odor = {a} = {0} THEN class = {p} (p=3410.0, n=0.0, P=3524.0, N=3787.0)
+r8: IF 2-of-3(population = {v}, odor != {n}, bruises? != {t}) = {0} AND gill-size != {b} = {0} AND spore-print-color = {w} = {1} THEN class = {p} (p=1570.0, n=0.0, P=3524.0, N=3787.0)
+r9: IF gill-size != {b} = {0} AND spore-print-color = {w} = {1} AND stalk-color-below-ring != {n} = {0} THEN class = {p} (p=1592.0, n=0.0, P=3524.0, N=3787.0)
+r10: IF odor != {n} = {1} AND spore-print-color != {r} = {0} AND stalk-surface-below-ring != {y} = {0} AND cap-surface != {g} = {0} THEN class = {e} (p=3053.0, n=3.0, P=3787.0, N=3524.0)
+r11: IF 2-of-3(stalk-surface-above-ring = {k}, gill-color = {b}, population = {v}) = {0} AND odor != {n} = {1} AND spore-print-color != {r} = {0} AND cap-surface != {g} = {0} AND cap-color != {y} = {0} THEN class = {e} (p=3069.0, n=3.0, P=3787.0, N=3524.0)
+r12: IF population != {n} = {1} THEN class = {e} (p=367.0, n=0.0, P=3787.0, N=3524.0)
+r13: IF odor = {a} = {1} THEN class = {e} (p=361.0, n=0.0, P=3787.0, N=3524.0)
+r14: IF odor = {l} = {1} THEN class = {e} (p=357.0, n=0.0, P=3787.0, N=3524.0)

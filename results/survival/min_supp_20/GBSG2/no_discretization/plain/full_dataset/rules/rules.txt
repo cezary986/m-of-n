@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.9999999999999999
+r2: 0.9999999999999994
+r3: 0.9999999999999994
+r4: 0.9999999999999999
+r5: 0.9999999991045666
+r6: 0.999888263871437
+r7: 0.9999991915312273
+r8: 0.9999999997989492
+r9: 0.9999999999999999
+________________________________
+r1: IF pnodes = (-inf, 4.50) THEN  (p=433.0, n=0.0, P=686.0, N=0.0)
+r2: IF pnodes = (-inf, 5.50) THEN  (p=474.0, n=0.0, P=686.0, N=0.0)
+r3: IF pnodes = (-inf, 7.50) THEN  (p=543.0, n=0.0, P=686.0, N=0.0)
+r4: IF pnodes = (-inf, 9.50) THEN  (p=583.0, n=0.0, P=686.0, N=0.0)
+r5: IF progrec = <47, inf) THEN  (p=307.0, n=0.0, P=686.0, N=0.0)
+r6: IF tgrade = {III} AND progrec = (-inf, 3.50) AND tsize = (-inf, 23.50) THEN  (p=17.0, n=0.0, P=686.0, N=0.0)
+r7: IF horTh = {yes} AND progrec = (-inf, 5.50) AND age = <33.50, 48.50) THEN  (p=13.0, n=0.0, P=686.0, N=0.0)
+r8: IF progrec = (-inf, 8.50) AND tsize = <19, inf) AND age = <40, inf) THEN  (p=149.0, n=0.0, P=686.0, N=0.0)
+r9: IF pnodes = <9.50, inf) THEN  (p=103.0, n=0.0, P=686.0, N=0.0)

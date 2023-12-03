@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.75
+r2: 0.6333333333333333
+r3: 0.6794826364280652
+r4: 0.5910714285714286
+r5: 0.5501040221914009
+r6: 0.4967000354358611
+r7: 0.457421157379057
+r8: 0.4142528735632183
+r9: 0.3014380530973451
+r10: 0.3460373134328358
+r11: 0.3655970149253731
+r12: 0.3769230769230769
+________________________________
+r1: IF wall_index = <1.65, 1.73) = {1} THEN class = {0.33} [0.33,0.33] (p=2.0, n=0.0, P=4.0, N=113.0)
+r2: IF still_alive != {0} = {0} AND wall_index = (-inf, 1.11) = {0} AND epss = (-inf, 18) = {0} AND lvdd = <4.66, 5.57) = {1} THEN class = {0.0} [0.0,0.0] (p=4.0, n=0.0, P=15.0, N=102.0)
+r3: IF still_alive != {0} = {0} THEN class = {0.018} [-0.15,0.18] (p=31.0, n=8.0, P=34.0, N=83.0)
+r4: IF fractional = <0.32, 0.38) = {1} AND wall_index = (-inf, 1.11) = {1} AND 2-of-3(fractional < epss, epss > lvdd, age > wall_score) = {1} THEN class = {0.91} [0.87,0.95] (p=3.0, n=1.0, P=5.0, N=112.0)
+r5: IF fractional = <0.32, 0.38) = {1} THEN class = {0.88} [0.75,1.00] (p=5.0, n=1.0, P=14.0, N=103.0)
+r6: IF wall_index = <1.06, 1.14) = {1} THEN class = {0.72} [0.55,0.89] (p=7.0, n=1.0, P=34.0, N=83.0)
+r7: IF wall_index = <1.98, 2.25) = {1} THEN class = {0.07} [-0.14,0.28] (p=7.0, n=1.0, P=46.0, N=71.0)
+r8: IF 2-of-3(epss = (-inf, 18), fractional < epss, lvdd != <4.86, 5.47)) = {0} AND age = <83, inf) = {0} THEN class = {0.28} [0.15,0.42] (p=4.0, n=1.0, P=30.0, N=87.0)
+r9: IF lvdd != <4.86, 5.47) = {1} AND 2-of-3(fractional < epss, epss < wall_score, age > wall_score) = {0} AND 2-of-3(fractional < epss, epss > lvdd, age > wall_score) = {1} THEN class = {0.54} [0.52,0.57] (p=1.0, n=1.0, P=4.0, N=113.0)
+r10: IF lvdd != <4.86, 5.47) = {1} AND still_alive != {0} = {1} AND fractional = <0.32, 0.35) = {0} THEN class = {0.56} [0.36,0.76] (p=39.0, n=21.0, P=50.0, N=67.0)
+r11: IF epss < wall_score = {0} AND still_alive != {0} = {1} AND epss > lvdd = {1} THEN class = {0.54} [0.36,0.73] (p=19.0, n=7.0, P=50.0, N=67.0)
+r12: IF wall_index = <1.98, 2.25) = {0} AND still_alive != {0} = {1} AND wall_index = <1.65, 1.73) = {0} AND fractional = <0.32, 0.35) = {0} THEN class = {0.54} [0.34,0.75] (p=46.0, n=23.0, P=52.0, N=65.0)

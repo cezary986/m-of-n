@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.3978125
+r2: 0.6099273607748184
+r3: 0.46151194852941174
+r4: 0.3832451499118165
+r5: 0.4725274725274725
+r6: 0.4694117647058823
+r7: 0.41684782608695653
+r8: 0.49913043478260866
+r9: 0.6494920174165456
+r10: 0.6026785714285714
+r11: 0.40588235294117647
+r12: 0.375243664717349
+r13: 0.34351503759398494
+r14: 0.29051383399209485
+________________________________
+r1: IF p1_size = p2_polar AND p1_polarisable > p1_pi_doner THEN class = {0.69} [0.65,0.72] (p=3.0, n=1.0, P=16.0, N=50.0)
+r2: IF p1_polar = p1_pi_doner AND p1_size > p3_size THEN class = {0.62} [0.59,0.64] (p=4.0, n=1.0, P=7.0, N=59.0)
+r3: IF p1_size < p1_h_acceptor AND p1_polar > p2_size AND p1_polar > p3_sigma AND p1_polar > p3_size THEN class = {0.60} [0.53,0.67] (p=7.0, n=1.0, P=32.0, N=34.0)
+r4: IF p1_sigma = p2_polar AND p1_sigma > p2_size AND p1_sigma > p3_size THEN class = {0.66} [0.53,0.78] (p=8.0, n=1.0, P=45.0, N=21.0)
+r5: IF p1_sigma > p2_pi_doner AND p1_sigma > p2_size AND p1_sigma > p3_size THEN class = {0.66} [0.49,0.82] (p=16.0, n=1.0, P=52.0, N=14.0)
+r6: IF p1_polar = p1_h_acceptor AND p1_sigma < p2_polar AND p1_sigma = p2_flex AND p1_sigma = p2_pi_doner AND p1_sigma = p3_size THEN class = {0.57} [0.53,0.60] (p=4.0, n=1.0, P=15.0, N=51.0)
+r7: IF p2_h_acceptor = p2_polarisable AND p1_size = p2_pi_acceptor THEN class = {0.66} [0.61,0.71] (p=6.0, n=2.0, P=20.0, N=46.0)
+r8: IF p2_sigma < p3_polarisable AND p3_polar = p3_size AND p3_size > p3_polarisable THEN class = {0.91} [0.79,1.03] (p=8.0, n=2.0, P=20.0, N=46.0)
+r9: IF p3_flex < p3_sigma AND p2_size > p3_h_acceptor THEN class = {0.92} [0.83,1.02] (p=7.0, n=1.0, P=13.0, N=53.0)
+r10: IF p2_h_acceptor = p3_h_doner AND p2_size < p3_sigma THEN class = {0.95} [0.85,1.05] (p=5.0, n=1.0, P=10.0, N=56.0)
+r11: IF p2_size > p3_pi_doner AND p3_polarisable > p3_sigma THEN class = {0.82} [0.73,0.91] (p=3.0, n=1.0, P=15.0, N=51.0)
+r12: IF p2_polar > p2_polarisable AND p2_h_doner = p2_h_acceptor AND p1_size = p3_size AND p2_size > p3_size THEN class = {0.59} [0.56,0.61] (p=2.0, n=1.0, P=9.0, N=57.0)
+r13: IF p2_h_doner < p2_sigma AND p2_sigma > p3_polar THEN class = {0.61} [0.51,0.71] (p=5.0, n=1.0, P=38.0, N=28.0)
+r14: IF p2_size > p2_sigma AND p2_size > p3_size THEN class = {0.72} [0.62,0.82] (p=16.0, n=7.0, P=33.0, N=33.0)

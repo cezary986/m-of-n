@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 0.9999985962647726
+r4: 1.0
+r5: 1.0
+r6: 1.0
+r7: 1.0
+r8: 1.0
+r9: 0.9999999993773653
+r10: 0.99999999981324
+r11: 0.9999999989220345
+r12: 1.0
+r13: 0.9999999999796861
+________________________________
+r1: IF edema = <0.75, inf) THEN  (p=17.0, n=0.0, P=376.0, N=0.0)
+r2: IF stage = <3.50, inf) AND albumin = (-inf, 3.34) THEN  (p=62.0, n=0.0, P=376.0, N=0.0)
+r3: IF ast = (-inf, 113.15) AND alk.phos = (-inf, 9355.60) THEN  (p=132.0, n=0.0, P=376.0, N=0.0)
+r4: IF bili = (-inf, 2.05) THEN  (p=227.0, n=0.0, P=376.0, N=0.0)
+r5: IF bili = (-inf, 3.15) THEN  (p=267.0, n=0.0, P=376.0, N=0.0)
+r6: IF bili = (-inf, 4.85) THEN  (p=303.0, n=0.0, P=376.0, N=0.0)
+r7: IF bili = (-inf, 5.30) THEN  (p=310.0, n=0.0, P=376.0, N=0.0)
+r8: IF bili = (-inf, 5.80) THEN  (p=316.0, n=0.0, P=376.0, N=0.0)
+r9: IF copper = (-inf, 187.50) AND bili = (-inf, 6.20) AND alk.phos = (-inf, 7913.50) AND protime = (-inf, 10.90) THEN  (p=146.0, n=0.0, P=376.0, N=0.0)
+r10: IF hepato = (-inf, 0.50) AND ast = (-inf, 154.05) AND sex = {f} AND protime = (-inf, 11.25) THEN  (p=93.0, n=0.0, P=376.0, N=0.0)
+r11: IF hepato = <0.50, inf) AND ast = (-inf, 338.68) AND albumin = (-inf, 3.75) THEN  (p=107.0, n=0.0, P=376.0, N=0.0)
+r12: IF bili = (-inf, 9.20) THEN  (p=346.0, n=0.0, P=376.0, N=0.0)
+r13: IF protime = (-inf, 11.05) THEN  (p=275.0, n=0.0, P=376.0, N=0.0)

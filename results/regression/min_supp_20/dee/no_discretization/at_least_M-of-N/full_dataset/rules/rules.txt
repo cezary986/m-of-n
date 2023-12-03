@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.4157706575550835
+r2: 0.5217387915445532
+r3: 0.5486488444541041
+r4: 0.4989048089591568
+________________________________
+r1: IF Fuel > Special = {0} THEN class = {0.34} [0.21,0.46] (p=119.0, n=48.0, P=163.0, N=202.0)
+r2: IF Hydroelectric > Nuclear = {0} AND Fuel > Gas = {0} AND Nuclear > Coal = {0} AND Fuel > Special = {1} AND Hydroelectric != <106417.50, 114560) = {1} THEN class = {0.73} [0.56,0.90] (p=114.0, n=44.0, P=133.0, N=232.0)
+r3: IF Nuclear > Coal = {1} THEN class = {0.27} [0.18,0.35] (p=67.0, n=20.0, P=107.0, N=258.0)
+r4: IF Hydroelectric > Coal = {0} AND Nuclear > Coal = {0} AND Fuel > Special = {1} THEN class = {0.72} [0.55,0.89] (p=123.0, n=53.0, P=135.0, N=230.0)

@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.9999876048648875
+r2: 0.9999999999820545
+r3: 1.0
+r4: 0.9953624837324015
+r5: 0.9999999999999739
+r6: 0.9902865613802444
+r7: 1.0
+r8: 0.9999941329886716
+r9: 0.9999994570802678
+________________________________
+r1: IF bmi != <24.85, 25.29) = {1} AND gender = av3 = {1} AND gender = chf = {0} THEN  (p=61.0, n=0.0, P=450.0, N=0.0)
+r2: IF gender = av3 = {0} AND gender = chf = {1} THEN  (p=73.0, n=0.0, P=450.0, N=0.0)
+r3: IF age = (-inf, 86) = {0} THEN  (p=59.0, n=0.0, P=450.0, N=0.0)
+r4: IF sho = mitype = {1} AND bmi = (-inf, 25.55) = {0} AND gender = av3 = {0} AND gender = chf = {0} THEN  (p=47.0, n=0.0, P=450.0, N=0.0)
+r5: IF age = (-inf, 86) = {1} AND gender = sho = {1} AND gender = av3 = {1} AND gender = chf = {1} THEN  (p=186.0, n=0.0, P=450.0, N=0.0)
+r6: IF age = (-inf, 77.50) = {1} AND gender = sho = {0} AND gender = av3 = {0} AND gender = chf = {0} THEN  (p=62.0, n=0.0, P=450.0, N=0.0)
+r7: IF gender = av3 = {1} AND 2-of-3(age = (-inf, 77.50), gender = av3, bmi != <21.40, 22.47)) = {0} AND gender = chf = {1} THEN  (p=159.0, n=0.0, P=450.0, N=0.0)
+r8: IF age = (-inf, 86) = {1} AND sho < chf = {0} AND afb > mitype = {0} AND cvd = chf = {1} AND cvd > afb = {0} AND 2-of-3(age = (-inf, 77.50), gender = sho, bmi != <21.40, 22.47)) = {0} THEN  (p=55.0, n=0.0, P=450.0, N=0.0)
+r9: IF sho < mitype = {0} AND gender = sho = {0} AND 2-of-3(age = (-inf, 77.50), gender = sho, bmi != <21.40, 22.47)) = {0} THEN  (p=74.0, n=0.0, P=450.0, N=0.0)

@@ -1,0 +1,66 @@
+Rules qualities:
+r1: 0.7962962962962963
+r2: 0.6851851851851851
+r3: 0.7407407407407407
+r4: 0.5925925925925926
+r5: 0.7777777777777778
+r6: 0.787037037037037
+r7: 0.7962962962962963
+r8: 0.5925925925925926
+r9: 0.7592592592592593
+r10: 0.6388888888888888
+r11: 0.75
+r12: 0.578125
+r13: 0.640625
+r14: 0.703125
+r15: 0.640625
+r16: 0.546875
+r17: 0.65625
+r18: 0.6865671641791045
+r19: 0.708955223880597
+r20: 0.7462686567164178
+r21: 0.6343283582089552
+r22: 0.582089552238806
+r23: 0.582089552238806
+r24: 0.5671641791044776
+r25: 0.6119402985074627
+r26: 0.5373134328358209
+r27: 0.6484068582436463
+r28: 0.8181818181818181
+r29: 0.5681818181818181
+r30: 0.5454545454545454
+r31: 0.781845634951761
+r32: 1.0
+________________________________
+r1: IF length = (-inf, 175.85) AND height = <48.30, 50.50) THEN class = {3} (p=16.0, n=0.0, P=27.0, N=178.0)
+r2: IF length = <168.75, 169.10) THEN class = {3} (p=10.0, n=0.0, P=27.0, N=178.0)
+r3: IF #(normalized-losses = <149, 154) OR normalized-losses = <193, 231)) THEN class = {3} (p=13.0, n=0.0, P=27.0, N=178.0)
+r4: IF body-style = {convertible} AND highway-mpg = (-inf, 29.50) THEN class = {3} (p=5.0, n=0.0, P=27.0, N=178.0)
+r5: IF #(curb-weight = <1944.50, 2004) OR curb-weight = <1828, 1909) OR curb-weight = <2026, 2050) OR curb-weight = <2190.50, 2209) OR curb-weight = <1928, 1944) OR curb-weight = <2012.50, 2024)) THEN class = {1} (p=30.0, n=0.0, P=54.0, N=151.0)
+r6: IF #(curb-weight = <1828, 2004) OR curb-weight = <2125, 2209) OR curb-weight = <2291.50, 2302) OR curb-weight = <2399, 2410) OR curb-weight = <2838.50, 2912)) AND #(width = <63.70, 64.40) OR width = <67.25, inf)) THEN class = {1} (p=31.0, n=0.0, P=54.0, N=151.0)
+r7: IF #(width = <63.70, 64.10) OR width = <70.75, 71.70) OR width = <71.85, inf)) AND #(wheel-base = <93.50, 95.10) OR wheel-base = <97.45, 110)) AND make != {volkswagen} THEN class = {1} (p=32.0, n=0.0, P=54.0, N=151.0)
+r8: IF normalized-losses > engine-size AND normalized-losses = <123.50, 134) THEN class = {1} (p=10.0, n=0.0, P=54.0, N=151.0)
+r9: IF body-style != {hardtop} AND highway-mpg = (-inf, 42.50) AND price = <5394, inf) AND peak-rpm = <4900, 5800) AND make != {mitsubishi} AND bore = <2.61, 3.17) THEN class = {1} (p=28.0, n=0.0, P=54.0, N=151.0)
+r10: IF length != <168.75, 189) AND stroke = <2.84, 3.39) AND height = <53.90, 56.30) THEN class = {1} (p=15.0, n=0.0, P=54.0, N=151.0)
+r11: IF #(wheel-base = <97.25, 98.80) OR wheel-base = <99.30, 100.40)) AND bore < price THEN class = {2} (p=16.0, n=0.0, P=32.0, N=173.0)
+r12: IF #(curb-weight = (-inf, 1828) OR curb-weight = <1996.50, 2010)) THEN class = {2} (p=5.0, n=0.0, P=32.0, N=173.0)
+r13: IF price = (-inf, 16677.50) AND length = <175.95, 177.80) THEN class = {2} (p=9.0, n=0.0, P=32.0, N=173.0)
+r14: IF body-style != {hatchback} AND wheel-base = <97.25, 100.40) AND horsepower = <84.50, 160) THEN class = {2} (p=13.0, n=0.0, P=32.0, N=173.0)
+r15: IF normalized-losses = (-inf, 106) AND height = <55.65, 56.20) THEN class = {2} (p=9.0, n=0.0, P=32.0, N=173.0)
+r16: IF wheel-base < engine-size AND normalized-losses = <79.50, 85) THEN class = {2} (p=3.0, n=0.0, P=32.0, N=173.0)
+r17: IF width = <64.30, 65.70) AND compression-ratio = <9.10, 9.50) THEN class = {2} (p=10.0, n=0.0, P=32.0, N=173.0)
+r18: IF #(horsepower = <93, 100) OR horsepower = <175.50, 184) OR horsepower = <77, 84)) THEN class = {0} (p=25.0, n=0.0, P=67.0, N=138.0)
+r19: IF #(wheel-base = <96.75, 97.30) OR wheel-base = <100.10, 102.40) OR wheel-base = <106.25, 109.10)) AND peak-rpm = (-inf, 5700) THEN class = {0} (p=28.0, n=0.0, P=67.0, N=138.0)
+r20: IF #(wheel-base = <96.40, 97.30) OR wheel-base = <104.70, 109.10) OR wheel-base = <99.45, 102.40)) AND num-of-doors != {two} AND make != {audi} THEN class = {0} (p=33.0, n=0.0, P=67.0, N=138.0)
+r21: IF wheel-base = <96.40, 97.30) AND height = <51.75, inf) THEN class = {0} (p=18.0, n=0.0, P=67.0, N=138.0)
+r22: IF #(curb-weight = <2277.50, 2293) OR curb-weight = <2065.50, 2120) OR curb-weight = <2417, 2458)) THEN class = {0} (p=11.0, n=0.0, P=67.0, N=138.0)
+r23: IF body-style != {convertible} AND height = <52.70, 53.10) THEN class = {0} (p=11.0, n=0.0, P=67.0, N=138.0)
+r24: IF num-of-doors != {two} AND horsepower = <77, 85) THEN class = {0} (p=9.0, n=0.0, P=67.0, N=138.0)
+r25: IF normalized-losses = <75.50, 93) AND length = <158.75, 175.40) THEN class = {0} (p=15.0, n=0.0, P=67.0, N=138.0)
+r26: IF bore < stroke AND length = <177.55, 183.50) THEN class = {0} (p=5.0, n=0.0, P=67.0, N=138.0)
+r27: IF engine-type != {dohc} AND num-of-doors != {two} AND num-of-cylinders != {five} AND horsepower = <69.50, inf) AND compression-ratio = (-inf, 21.75) AND make != {volvo} AND stroke = (-inf, 3.53) AND height = <51.80, 59.25) THEN class = {0} (p=45.0, n=8.0, P=67.0, N=138.0)
+r28: IF #(normalized-losses = (-inf, 75.50) OR normalized-losses = <94.50, 101)) AND normalized-losses < horsepower THEN class = {-1} (p=14.0, n=0.0, P=22.0, N=183.0)
+r29: IF curb-weight = <3727.50, 3900) THEN class = {-1} (p=3.0, n=0.0, P=22.0, N=183.0)
+r30: IF price = <15667.50, 15985) THEN class = {-1} (p=2.0, n=0.0, P=22.0, N=183.0)
+r31: IF body-style != {hardtop} AND wheel-base = <102.20, 112) AND city-mpg = <17.50, inf) AND normalized-losses = (-inf, 114) THEN class = {-1} (p=17.0, n=2.0, P=22.0, N=183.0)
+r32: IF curb-weight = (-inf, 3275) AND height = <56.15, 56.50) THEN class = {-2} (p=3.0, n=0.0, P=3.0, N=202.0)

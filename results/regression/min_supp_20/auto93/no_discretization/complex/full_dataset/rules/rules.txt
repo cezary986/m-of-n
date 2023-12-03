@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.5727880658436214
+r2: 0.7232880755608029
+r3: 0.4534090909090909
+r4: 0.6119733924611973
+r5: 0.858766233766234
+r6: 0.5705128205128204
+r7: 0.5401315789473684
+r8: 0.36193181818181824
+________________________________
+r1: IF City_MPG > Rear_seat_room AND Fuel_tank_capacity = <12.60, 15.20) AND Engine_revolutions_per_mile = (-inf, 2625) THEN class = {0.077} [0.053,0.10] (p=5.0, n=1.0, P=12.0, N=81.0)
+r2: IF Number_of_cylinders < Passenger_capacity AND Length = <169, 182) AND Engine_revolutions_per_mile = (-inf, 3060) AND Weight = (-inf, 2780) THEN class = {0.072} [0.043,0.1] (p=10.0, n=1.0, P=16.0, N=77.0)
+r3: IF Drive_train_type = Air_Bags_standard AND Engine_revolutions_per_mile > Weight AND Number_of_cylinders = Passenger_capacity THEN class = {0.094} [0.078,0.11] (p=2.0, n=1.0, P=5.0, N=88.0)
+r4: IF Fuel_tank_capacity > Luggage_capacity AND Highway_MPG > Rear_seat_room AND Drive_train_type != Air_Bags_standard AND Engine_revolutions_per_mile > Weight AND Highway_MPG = (-inf, 34.50) AND RPM = (-inf, 6250) THEN class = {0.048} [0.026,0.069] (p=7.0, n=2.0, P=11.0, N=82.0)
+r5: IF Engine_revolutions_per_mile != <2840, 2910) AND Weight = (-inf, 2780) THEN class = {0.068} [-0.0022,0.14] (p=27.0, n=1.0, P=33.0, N=60.0)
+r6: IF Number_of_cylinders < Passenger_capacity AND Highway_MPG > Rear_seat_room AND Engine_size = (-inf, 2.25) AND Length != <157, 172) AND Engine_revolutions_per_mile = (-inf, 3080) AND Rear_seat_room = (-inf, 27) AND RPM = (-inf, 6250) THEN class = {0.072} [0.048,0.095] (p=7.0, n=2.0, P=13.0, N=80.0)
+r7: IF Number_of_cylinders < Passenger_capacity AND Domestic != Manual_transmission_available AND Engine_revolutions_per_mile < Weight AND City_MPG < Rear_seat_room THEN class = {0.17} [0.095,0.24] (p=17.0, n=3.0, P=38.0, N=55.0)
+r8: IF Drive_train_type != Air_Bags_standard AND Highway_MPG < U-turn_space AND Horsepower > Wheelbase AND Type = {Small, Compact, Sporty} AND Length = (-inf, 181.50) AND Fuel_tank_capacity = <14.30, inf) AND Weight != <2537.50, 2850) THEN class = {0.34} [0.20,0.47] (p=6.0, n=2.0, P=33.0, N=60.0)

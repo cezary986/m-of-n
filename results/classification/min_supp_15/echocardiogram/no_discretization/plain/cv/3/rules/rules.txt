@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.7911392405063291
+r2: 0.7817818277574665
+r3: 0.7974683544303798
+r4: 0.7721518987341772
+r5: 0.856873797148356
+r6: 0.8481012658227849
+r7: 0.858974358974359
+r8: 0.8555460889321648
+r9: 0.6025641025641025
+r10: 0.6923076923076923
+r11: 0.6153846153846154
+r12: 0.5769230769230769
+________________________________
+r1: IF survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) AND wall-motion-index = (-inf, 1.89) THEN class = {0} (p=46.0, n=0.0, P=79.0, N=39.0)
+r2: IF survival = <22.50, inf) AND wall-motion-index = (-inf, 1.89) THEN class = {0} (p=52.0, n=1.0, P=79.0, N=39.0)
+r3: IF wall-motion-score = (-inf, 20.50) AND survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=47.0, n=0.0, P=79.0, N=39.0)
+r4: IF survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) AND pericardial-effusion = {0} THEN class = {0} (p=43.0, n=0.0, P=79.0, N=39.0)
+r5: IF survival = <8.25, inf) AND lvdd = (-inf, 5.69) THEN class = {0} (p=69.0, n=2.0, P=79.0, N=39.0)
+r6: IF fractional-shortening = <0.033, inf) AND mult = <0.58, inf) AND survival = <8.25, inf) AND pericardial-effusion = {0} AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=55.0, n=0.0, P=79.0, N=39.0)
+r7: IF mult = (-inf, 0.96) AND survival = (-inf, 8.25) THEN class = {1} (p=28.0, n=0.0, P=39.0, N=79.0)
+r8: IF survival = (-inf, 8.25) THEN class = {1} (p=31.0, n=1.0, P=39.0, N=79.0)
+r9: IF fractional-shortening = (-inf, 0.19) AND mult = (-inf, 0.75) AND survival = (-inf, 19.75) THEN class = {1} (p=8.0, n=0.0, P=39.0, N=79.0)
+r10: IF fractional-shortening = (-inf, 0.19) AND epss = <10.65, 25.05) AND survival = (-inf, 21.50) THEN class = {1} (p=15.0, n=0.0, P=39.0, N=79.0)
+r11: IF epss = <16.75, 28.75) AND wall-motion-index = <1.31, inf) THEN class = {1} (p=9.0, n=0.0, P=39.0, N=79.0)
+r12: IF fractional-shortening = <0.16, 0.25) AND mult = <0.79, inf) AND age-at-heart-attack = <57.50, inf) AND wall-motion-index = <1.02, inf) AND group = <1.50, inf) THEN class = {1} (p=6.0, n=0.0, P=39.0, N=79.0)

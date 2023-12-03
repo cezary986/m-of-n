@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9999999999999981
+r2: 0.9999999999999969
+r3: 0.9083906647598665
+r4: 0.9999999999999999
+r5: 0.9999999999550884
+r6: 0.9999972368324913
+r7: 0.997615124179502
+r8: 0.999998456714003
+r9: 0.9999999999309744
+r10: 0.9999999999261937
+r11: 0.9999998829801615
+r12: 1.0
+________________________________
+r1: IF pnodes = (-inf, 4.50) THEN  (p=387.0, n=0.0, P=617.0, N=0.0)
+r2: IF pnodes = (-inf, 5.50) THEN  (p=423.0, n=0.0, P=617.0, N=0.0)
+r3: IF tgrade = {I} AND pnodes = (-inf, 7.50) AND menostat = {Post} AND progrec = (-inf, 131.50) AND estrec = (-inf, 181) THEN  (p=12.0, n=0.0, P=617.0, N=0.0)
+r4: IF pnodes = (-inf, 9.50) THEN  (p=522.0, n=0.0, P=617.0, N=0.0)
+r5: IF pnodes = (-inf, 13) AND progrec = <44.50, inf) THEN  (p=272.0, n=0.0, P=617.0, N=0.0)
+r6: IF tgrade = {III} AND progrec = (-inf, 9.50) AND tsize = (-inf, 27.50) AND estrec = (-inf, 3.50) THEN  (p=26.0, n=0.0, P=617.0, N=0.0)
+r7: IF progrec = (-inf, 7.50) AND tsize = (-inf, 32.50) AND estrec = <2.50, 5.50) AND age = (-inf, 44.50) THEN  (p=6.0, n=0.0, P=617.0, N=0.0)
+r8: IF tgrade = {III} AND tsize = (-inf, 43.50) AND estrec = (-inf, 9) THEN  (p=62.0, n=0.0, P=617.0, N=0.0)
+r9: IF progrec = (-inf, 12.50) AND age = (-inf, 64.50) AND estrec = (-inf, 46.50) THEN  (p=145.0, n=0.0, P=617.0, N=0.0)
+r10: IF progrec = (-inf, 24) AND tsize = <14.50, inf) THEN  (p=249.0, n=0.0, P=617.0, N=0.0)
+r11: IF pnodes = (-inf, 19.50) AND progrec = <28, inf) AND estrec = <3.50, 280) AND age = <43.50, 53.50) THEN  (p=116.0, n=0.0, P=617.0, N=0.0)
+r12: IF pnodes = <5.50, inf) AND progrec = (-inf, 110.50) THEN  (p=156.0, n=0.0, P=617.0, N=0.0)

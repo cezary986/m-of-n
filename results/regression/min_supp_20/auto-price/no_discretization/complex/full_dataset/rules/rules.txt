@@ -1,0 +1,46 @@
+Rules qualities:
+r1: 0.7948387096774193
+r2: 0.611031175059952
+r3: 0.5935064935064935
+r4: 0.5071428571428571
+r5: 0.5920529801324503
+r6: 0.5782967032967032
+r7: 0.3502485501242751
+r8: 0.5224489795918367
+r9: 0.5935064935064935
+r10: 0.6438138635735986
+r11: 0.49435215946843847
+r12: 0.4619316139468009
+r13: 0.48601398601398604
+r14: 0.5935064935064935
+r15: 0.6614597039473684
+r16: 0.6624203821656051
+r17: 0.7567607289829511
+r18: 0.5195354565242295
+r19: 0.4446055045871561
+r20: 0.4627338129496403
+r21: 0.7299006323396567
+r22: 0.7451923076923077
+________________________________
+r1: IF curb-weight != <2026, 2040) AND curb-weight = <1947.50, 2040) AND highway-mpg = (-inf, 37.50) AND normalized-losses = (-inf, 132.50) AND curb-weight != <1969, 1989) THEN class = {0.073} [0.07,0.075] (p=4.0, n=1.0, P=4.0, N=155.0)
+r2: IF normalized-losses > wheel-base AND city-mpg = <28.50, 37) AND length = (-inf, 162.30) AND curb-weight != <1950.50, 1967) AND bore != <3, 3.15) THEN class = {0.047} [0.033,0.061] (p=8.0, n=1.0, P=20.0, N=139.0)
+r3: IF curb-weight != <1947.50, 1989) AND curb-weight = <1907, 2109) AND normalized-losses > wheel-base AND length = <158.35, 172.40) AND curb-weight != <2006.50, 2081) THEN class = {0.053} [0.05,0.055] (p=3.0, n=1.0, P=5.0, N=154.0)
+r4: IF curb-weight != <2006.50, 2081) AND curb-weight != <2277.50, 2290) AND normalized-losses < engine-size AND normalized-losses > horsepower AND wheel-base > horsepower AND wheel-base < engine-size AND city-mpg != <27.50, 30) AND normalized-losses != <84, 89) AND curb-weight != <2422.50, 2480) AND bore != <3.32, 3.35) AND height != <54.20, 54.70) THEN class = {0.093} [0.06,0.13] (p=12.0, n=2.0, P=45.0, N=114.0)
+r5: IF curb-weight != <2291.50, 2304) AND bore < stroke AND normalized-losses < engine-size AND wheel-base < engine-size AND wheel-base > horsepower AND width < horsepower AND length = (-inf, 175) AND curb-weight != <2210.50, 2240) THEN class = {0.13} [0.12,0.13] (p=4.0, n=1.0, P=8.0, N=151.0)
+r6: IF normalized-losses > wheel-base AND wheel-base > engine-size AND city-mpg = <36, inf) THEN class = {0.015} [-0.013,0.043] (p=6.0, n=1.0, P=16.0, N=143.0)
+r7: IF normalized-losses < wheel-base AND width > horsepower AND length = (-inf, 163) THEN class = {0.041} [0.024,0.058] (p=2.0, n=1.0, P=17.0, N=142.0)
+r8: IF bore < stroke AND engine-size = <103, 122) THEN class = {0.14} [0.085,0.19] (p=18.0, n=3.0, P=54.0, N=105.0)
+r9: IF curb-weight != <2101.50, 2169) AND engine-size < horsepower AND normalized-losses > horsepower AND curb-weight != <2367.50, 2385) AND height != <55.20, 59.10) THEN class = {0.14} [0.14,0.14] (p=3.0, n=1.0, P=5.0, N=154.0)
+r10: IF wheel-base > engine-size AND width < horsepower AND city-mpg = <30.50, 36) AND length = <157.10, 165.30) THEN class = {0.042} [0.027,0.057] (p=8.0, n=1.0, P=17.0, N=142.0)
+r11: IF curb-weight != <1944.50, 1967) AND curb-weight != <1928, 1944) AND curb-weight != <1969, 1989) AND curb-weight != <2013, 2050) AND normalized-losses > engine-size AND wheel-base > horsepower AND city-mpg = (-inf, 37.50) AND normalized-losses = <111, 129) AND curb-weight != <2197.50, 2280) THEN class = {0.042} [0.012,0.072] (p=6.0, n=1.0, P=30.0, N=129.0)
+r12: IF wheel-base > horsepower AND normalized-losses < length AND wheel-base < engine-size AND city-mpg = (-inf, 37.50) AND stroke = <3.07, 3.46) AND height = (-inf, 53.90) THEN class = {0.093} [0.057,0.13] (p=7.0, n=1.0, P=52.0, N=107.0)
+r13: IF bore > stroke AND wheel-base < horsepower AND curb-weight != <2600.50, 3770) AND height = (-inf, 52.85) THEN class = {0.15} [0.13,0.16] (p=4.0, n=1.0, P=16.0, N=143.0)
+r14: IF curb-weight != <2016, 2050) AND curb-weight != <2065.50, 2190) AND normalized-losses > engine-size AND wheel-base > horsepower AND city-mpg != <19, 25) AND curb-weight != <2334, 2385) AND bore = <3.09, 3.39) AND height = (-inf, 54.30) THEN class = {0.10} [0.10,0.11] (p=3.0, n=1.0, P=5.0, N=154.0)
+r15: IF normalized-losses > width AND curb-weight != <2495.50, 2551) AND curb-weight != <2315, 2385) AND curb-weight != <1931.50, 1967) AND curb-weight != <1969, 1989) AND wheel-base > horsepower AND normalized-losses = (-inf, 151) AND normalized-losses != <108, 148) AND curb-weight != <2291.50, 2304) THEN class = {0.083} [-0.0033,0.17] (p=39.0, n=1.0, P=95.0, N=64.0)
+r16: IF normalized-losses < length AND curb-weight != <1950.50, 1971) AND curb-weight = <1944, 2081) AND normalized-losses > wheel-base AND curb-weight != <2026, 2040) AND bore = <3.05, inf) THEN class = {0.076} [0.074,0.078] (p=2.0, n=1.0, P=2.0, N=157.0)
+r17: IF curb-weight != <1862, 1938) AND curb-weight != <1878.50, 1944) AND curb-weight != <2600.50, 3770) AND height = (-inf, 56.30) THEN class = {0.098} [-0.0091,0.21] (p=85.0, n=5.0, P=105.0, N=54.0)
+r18: IF wheel-base < horsepower AND city-mpg != <23.50, 26) AND length != <160.35, 173.60) THEN class = {0.44} [0.24,0.63] (p=26.0, n=9.0, P=43.0, N=116.0)
+r19: IF normalized-losses < engine-size AND peak-rpm = <4775, 5000) AND curb-weight != <2397.50, 2551) AND height != <52.70, 53.30) THEN class = {0.096} [-0.041,0.23] (p=14.0, n=1.0, P=109.0, N=50.0)
+r20: IF curb-weight != <2977.50, 3042) AND bore > stroke AND normalized-losses > engine-size AND wheel-base > horsepower AND curb-weight != <1600.50, 2650) THEN class = {0.38} [0.33,0.44] (p=4.0, n=1.0, P=20.0, N=139.0)
+r21: IF length > horsepower AND width < horsepower AND curb-weight != <2977.50, 3042) AND city-mpg != <20, 24) AND normalized-losses = (-inf, 214) AND width != <68.85, 70.50) AND engine-size != <143.50, 152) AND curb-weight != <1600.50, 2650) AND stroke = (-inf, 3.71) AND bore != <3.03, 3.19) THEN class = {0.41} [0.27,0.55] (p=20.0, n=1.0, P=36.0, N=123.0)
+r22: IF normalized-losses < length AND engine-size > horsepower AND curb-weight = (-inf, 3067.50) AND normalized-losses > wheel-base AND horsepower != <117.50, 142) AND city-mpg = <18, 24) AND curb-weight != <2708, 2811) AND bore = <3.45, inf) THEN class = {0.24} [0.22,0.25] (p=3.0, n=1.0, P=3.0, N=156.0)

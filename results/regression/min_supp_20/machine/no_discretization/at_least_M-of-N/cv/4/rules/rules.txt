@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.7580897235851837
+r2: 0.719693718348119
+r3: 0.7064793130366901
+r4: 0.6925843666652196
+r5: 0.685980011890943
+r6: 0.6852209638019099
+r7: 0.5110380567541033
+r8: 0.62692750287687
+r9: 0.5374010039040713
+r10: 0.7348739495798321
+________________________________
+r1: IF CHMIN != <7.50, 32) = {1} THEN class = {0.03} [-0.061,0.12] (p=143.0, n=6.0, P=153.0, N=35.0)
+r2: IF MYCT != <56.50, 75) = {1} AND CACH != <8.50, 16) = {1} AND CHMAX != <25, 31) = {1} AND MYCT > CHMAX = {1} AND MMAX != <4250, 6000) = {1} AND MYCT = <20, inf) = {1} AND CHMAX != <36.50, 128) = {1} AND CACH < CHMAX = {1} THEN class = {0.017} [-0.016,0.05] (p=66.0, n=3.0, P=109.0, N=79.0)
+r3: IF MMIN = (-inf, 12000) = {0} AND MYCT > CHMIN = {1} THEN class = {0.42} [0.36,0.49] (p=5.0, n=2.0, P=5.0, N=183.0)
+r4: IF MMAX != <5000, 8000) = {1} AND MYCT != <58, 72) = {1} AND CHMAX != <25, 31) = {1} AND CHMAX = <10, 16) = {0} AND MYCT > CHMAX = {1} AND MYCT != <119.50, 143) = {1} AND CHMAX != <14, 20) = {1} AND MYCT > CACH = {1} AND MYCT != <65, 75) = {1} THEN class = {0.024} [-0.0084,0.057] (p=95.0, n=8.0, P=122.0, N=66.0)
+r5: IF MYCT = <36.50, 180) = {0} AND CACH > CHMAX = {1} AND MYCT > CACH = {0} AND CACH = <28, 64) = {0} THEN class = {0.40} [0.20,0.60] (p=10.0, n=1.0, P=19.0, N=169.0)
+r6: IF MMAX = <28000, inf) = {1} AND MYCT > CACH = {0} AND CACH < CHMAX = {0} THEN class = {0.32} [0.14,0.50] (p=17.0, n=2.0, P=30.0, N=158.0)
+r7: IF CACH < CHMAX = {1} THEN class = {0.023} [-0.11,0.16] (p=85.0, n=5.0, P=157.0, N=31.0)
+r8: IF CHMIN != <3.50, 6) = {1} AND CACH = <44, inf) = {1} AND CACH > CHMAX = {1} AND MYCT > CACH = {0} AND MYCT != <86, 180) = {1} THEN class = {0.32} [0.13,0.50] (p=18.0, n=4.0, P=30.0, N=158.0)
+r9: IF MYCT != <21, 29) = {1} AND CHMAX != <19.50, 54) = {1} AND MYCT > CHMAX = {1} AND MYCT > CACH = {0} THEN class = {0.1} [0.064,0.14] (p=9.0, n=2.0, P=25.0, N=163.0)
+r10: IF MYCT != <21, 29) = {1} AND CHMAX != <17.50, 112) = {1} AND 2-of-3(CACH = (-inf, 144), CHMAX != <25, 31), MYCT != <120, 133)) = {1} THEN class = {0.028} [-0.086,0.14] (p=121.0, n=4.0, P=154.0, N=34.0)

@@ -1,0 +1,46 @@
+Rules qualities:
+r1: 0.5462962962962963
+r2: 0.3675166297117517
+r3: 0.22038878842676313
+r4: 0.35248592870544104
+r5: 0.27089947089947086
+r6: 0.21475256769374418
+r7: 0.6593406593406593
+r8: 0.38381801125703574
+r9: 0.36160465116279067
+r10: 0.4559312638580931
+r11: 0.4456018518518518
+r12: 0.7097727272727273
+r13: 0.4111295681063123
+r14: 0.4063397129186603
+r15: 0.48876404494382025
+r16: 0.5597058823529413
+r17: 0.3163737280296022
+r18: 0.4623953488372093
+r19: 0.48876404494382025
+r20: 0.4260869565217392
+r21: 0.5530042097206277
+r22: 0.27089947089947086
+________________________________
+r1: IF Slag = <177.50, inf) THEN class = {0.032} [0.012,0.052] (p=2.0, n=1.0, P=3.0, N=90.0)
+r2: IF Slag = (-inf, 139.95) AND SLUMP(cm) = <27, inf) THEN class = {0.76} [0.65,0.88] (p=2.0, n=1.0, P=11.0, N=82.0)
+r3: IF Cement = (-inf, 326.25) AND FLOW(cm) = <77.50, inf) THEN class = {0.66} [0.59,0.73] (p=1.0, n=1.0, P=14.0, N=79.0)
+r4: IF FLOW(cm) = (-inf, 76) AND SLUMP(cm) = <26.25, inf) THEN class = {0.53} [0.41,0.66] (p=4.0, n=1.0, P=41.0, N=52.0)
+r5: IF SLUMP(cm) = <25.25, 25.63) THEN class = {0.34} [0.26,0.42] (p=2.0, n=1.0, P=30.0, N=63.0)
+r6: IF SLUMP(cm) = (-inf, 25.63) AND FLOW(cm) = <68.75, inf) THEN class = {0.60} [0.43,0.77] (p=4.0, n=2.0, P=42.0, N=51.0)
+r7: IF Slag = (-inf, 155.85) AND Fine Aggr. = (-inf, 741.50) AND SP = <10.50, 11.50) THEN class = {0.39} [0.39,0.40] (p=2.0, n=1.0, P=2.0, N=91.0)
+r8: IF Water = <219.50, inf) AND Fly ash = (-inf, 239.15) AND Fine Aggr. = (-inf, 832.50) THEN class = {0.36} [0.25,0.47] (p=8.0, n=2.0, P=41.0, N=52.0)
+r9: IF Fly ash = (-inf, 239.05) AND Cement = (-inf, 313.50) AND Slag = (-inf, 127) AND Fine Aggr. = (-inf, 832.50) AND FLOW(cm) = (-inf, 63.50) THEN class = {0.39} [0.25,0.52] (p=23.0, n=7.0, P=50.0, N=43.0)
+r10: IF Cement = (-inf, 264) AND Slag = (-inf, 147.50) AND SP = (-inf, 15.50) AND Coarse Aggr. = (-inf, 975.15) AND FLOW(cm) = (-inf, 37.25) THEN class = {0.80} [0.66,0.94] (p=3.0, n=1.0, P=11.0, N=82.0)
+r11: IF Fly ash = (-inf, 239.80) AND Cement = (-inf, 297) AND Slag = <105.95, 151.20) AND Coarse Aggr. = <836, 1001.10) AND SP = (-inf, 15.50) AND FLOW(cm) = (-inf, 63) AND SLUMP(cm) = (-inf, 23.25) THEN class = {0.51} [0.47,0.55] (p=3.0, n=1.0, P=12.0, N=81.0)
+r12: IF Slag = <147, 172) AND Fine Aggr. = (-inf, 744.50) AND Coarse Aggr. = (-inf, 1019.30) THEN class = {0.60} [0.59,0.60] (p=4.0, n=1.0, P=5.0, N=88.0)
+r13: IF Fly ash = (-inf, 239.05) AND Cement = (-inf, 292.50) AND Fine Aggr. = <743.50, inf) AND SLUMP(cm) = <23.75, 24.75) THEN class = {0.25} [0.23,0.27] (p=2.0, n=1.0, P=7.0, N=86.0)
+r14: IF FLOW(cm) = <63.50, 67.75) AND SLUMP(cm) = (-inf, 25.25) THEN class = {0.30} [0.17,0.42] (p=5.0, n=1.0, P=38.0, N=55.0)
+r15: IF Water = <203, 227) AND Fine Aggr. = <729.50, inf) AND FLOW(cm) = (-inf, 63.50) AND SLUMP(cm) = (-inf, 23.75) AND SP = (-inf, 9.50) THEN class = {0.38} [0.36,0.39] (p=2.0, n=1.0, P=4.0, N=89.0)
+r16: IF Cement = (-inf, 304.50) AND Slag = (-inf, 142.50) AND Fine Aggr. = (-inf, 776.50) AND FLOW(cm) = (-inf, 53.50) AND Coarse Aggr. = <960.50, inf) THEN class = {0.44} [0.37,0.51] (p=8.0, n=1.0, P=25.0, N=68.0)
+r17: IF Fly ash = (-inf, 213.40) AND Slag = (-inf, 147) AND Fine Aggr. = (-inf, 766.50) AND SP = (-inf, 14.50) AND FLOW(cm) = (-inf, 50) THEN class = {0.35} [0.22,0.49] (p=7.0, n=2.0, P=47.0, N=46.0)
+r18: IF Slag = (-inf, 151.70) AND SP = <11.50, inf) THEN class = {0.56} [0.39,0.73] (p=9.0, n=1.0, P=50.0, N=43.0)
+r19: IF Water = (-inf, 203.50) AND Cement = <281, 348) AND FLOW(cm) = <59.25, 66) THEN class = {0.68} [0.65,0.71] (p=2.0, n=1.0, P=4.0, N=89.0)
+r20: IF Water = <200.40, inf) AND Cement = (-inf, 315.50) AND FLOW(cm) = <53, 60.50) THEN class = {0.25} [0.16,0.35] (p=4.0, n=1.0, P=24.0, N=69.0)
+r21: IF Water = (-inf, 212.50) AND Fly ash = <68, inf) AND Cement = <294.50, 334) AND FLOW(cm) = (-inf, 68.75) THEN class = {0.69} [0.57,0.82] (p=8.0, n=1.0, P=26.0, N=67.0)
+r22: IF Water = (-inf, 219.50) AND Fine Aggr. = (-inf, 757.50) AND SLUMP(cm) = (-inf, 24.88) AND Coarse Aggr. = (-inf, 826.50) THEN class = {0.71} [0.54,0.88] (p=2.0, n=1.0, P=30.0, N=63.0)

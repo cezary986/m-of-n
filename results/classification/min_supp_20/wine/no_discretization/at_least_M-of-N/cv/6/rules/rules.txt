@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.8679245283018868
+r2: 0.8867924528301887
+r3: 0.9056603773584906
+r4: 0.9245283018867925
+r5: 0.9716981132075472
+r6: 0.9245283018867925
+r7: 0.890625
+r8: 0.875
+r9: 0.890625
+r10: 0.8515625
+r11: 0.7734375
+r12: 0.7421875
+r13: 0.9069767441860466
+r14: 0.9534883720930232
+r15: 0.872093023255814
+________________________________
+r1: IF Proline = <987.50, inf) = {1} THEN class = {1} (p=39.0, n=0.0, P=53.0, N=107.0)
+r2: IF Alcalinity_of_ash = (-inf, 26.25) = {1} AND Proline = <953.50, inf) = {1} THEN class = {1} (p=41.0, n=0.0, P=53.0, N=107.0)
+r3: IF Proline = <900.50, inf) = {1} AND Color_intensity = (-inf, 3.46) = {0} THEN class = {1} (p=43.0, n=0.0, P=53.0, N=107.0)
+r4: IF Proline = <875, inf) = {1} AND Color_intensity = (-inf, 3.46) = {0} THEN class = {1} (p=45.0, n=0.0, P=53.0, N=107.0)
+r5: IF Alcalinity_of_ash = (-inf, 26.25) = {1} AND Proline = <755, inf) = {1} AND Flavanoids = <2.32, inf) = {1} THEN class = {1} (p=50.0, n=0.0, P=53.0, N=107.0)
+r6: IF Proline = <679, inf) = {1} AND Alcohol = (-inf, 13.02) = {0} AND Flavanoids = <2.59, 3.75) = {1} THEN class = {1} (p=45.0, n=0.0, P=53.0, N=107.0)
+r7: IF Color_intensity = (-inf, 3.46) = {1} THEN class = {2} (p=50.0, n=0.0, P=64.0, N=96.0)
+r8: IF Proline = (-inf, 790) = {1} AND Color_intensity = (-inf, 3.77) = {1} THEN class = {2} (p=48.0, n=0.0, P=64.0, N=96.0)
+r9: IF Alcohol = (-inf, 13.02) = {1} AND Color_intensity = (-inf, 3.82) = {1} THEN class = {2} (p=50.0, n=0.0, P=64.0, N=96.0)
+r10: IF Alcohol = (-inf, 12.49) = {1} AND Flavanoids = (-inf, 0.96) = {0} THEN class = {2} (p=45.0, n=0.0, P=64.0, N=96.0)
+r11: IF Alcohol = (-inf, 13.18) = {1} AND Flavanoids = <1.40, 2.37) = {1} THEN class = {2} (p=35.0, n=0.0, P=64.0, N=96.0)
+r12: IF Flavanoids = (-inf, 0.96) = {0} AND Magnesium != <87.50, 134) = {1} THEN class = {2} (p=31.0, n=0.0, P=64.0, N=96.0)
+r13: IF Flavanoids = (-inf, 0.96) = {1} AND Alcohol < Alcalinity_of_ash = {1} THEN class = {3} (p=35.0, n=0.0, P=43.0, N=117.0)
+r14: IF Color_intensity = (-inf, 3.46) = {0} AND Flavanoids = (-inf, 1.23) = {1} THEN class = {3} (p=39.0, n=0.0, P=43.0, N=117.0)
+r15: IF OD280/OD315_of_diluted_wines = (-inf, 1.81) = {1} AND Proanthocyanins > Hue = {1} THEN class = {3} (p=32.0, n=0.0, P=43.0, N=117.0)

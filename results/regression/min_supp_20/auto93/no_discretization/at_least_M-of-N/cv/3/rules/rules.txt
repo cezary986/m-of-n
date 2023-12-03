@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.6539251207729468
+r2: 0.7052153110047847
+r3: 0.698341836734694
+r4: 0.542115401453463
+r5: 0.5481312292358804
+r6: 0.4070330969267141
+r7: 0.5414094650205761
+________________________________
+r1: IF Drive_train_type != Air_Bags_standard = {1} AND City_MPG > Rear_seat_room = {1} AND Fuel_tank_capacity != <16.70, 22.50) = {1} THEN class = {0.033} [-0.026,0.092] (p=11.0, n=1.0, P=23.0, N=60.0)
+r2: IF Engine_size = <2.05, inf) = {0} AND City_MPG > Rear_seat_room = {1} THEN class = {0.053} [-0.044,0.15] (p=18.0, n=1.0, P=33.0, N=50.0)
+r3: IF Engine_size = <2.05, inf) = {0} THEN class = {0.068} [-0.02,0.16] (p=25.0, n=3.0, P=35.0, N=48.0)
+r4: IF Engine_size = <2.05, inf) = {1} AND Rear_seat_room = (-inf, 27) = {0} AND Number_of_cylinders > Passenger_capacity = {0} THEN class = {0.21} [0.13,0.30] (p=22.0, n=5.0, P=36.0, N=47.0)
+r5: IF Highway_MPG > Rear_seat_room = {1} AND Number_of_cylinders < Passenger_capacity = {1} THEN class = {0.077} [-0.032,0.19] (p=24.0, n=4.0, P=43.0, N=40.0)
+r6: IF Engine_size = <2.05, inf) = {1} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.34} [0.15,0.54] (p=24.0, n=6.0, P=47.0, N=36.0)
+r7: IF Fuel_tank_capacity != <16.70, 22.50) = {0} AND Horsepower = <132, inf) = {1} AND Number_of_cylinders < Passenger_capacity = {1} AND RPM = (-inf, 6250) = {1} THEN class = {0.22} [0.16,0.28] (p=8.0, n=1.0, P=27.0, N=56.0)

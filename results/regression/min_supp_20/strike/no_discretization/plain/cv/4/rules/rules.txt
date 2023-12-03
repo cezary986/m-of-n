@@ -1,0 +1,88 @@
+Rules qualities:
+r1: 0.50680699947138
+r2: 0.43632310274206393
+r3: 0.42170773714891363
+r4: 0.4780154027093773
+r5: 0.3706742225020677
+r6: 0.33154442456768035
+r7: 0.3897035341978136
+r8: 0.37051342439943474
+r9: 0.37324405680765665
+r10: 0.37006794957493017
+r11: 0.5745796809018359
+r12: 0.47290709390008634
+r13: 0.6056620814646924
+r14: 0.44337097106449985
+r15: 0.5398468071569883
+r16: 0.5880094276094272
+r17: 0.5805983128094327
+r18: 0.4312905144905701
+r19: 0.40866257585228855
+r20: 0.45448917371826797
+r21: 0.46298047749080284
+r22: 0.4445684776457272
+r23: 0.4060672569564499
+r24: 0.41622988607000244
+r25: 0.3477795612627073
+r26: 0.39850713012477723
+r27: 0.33884982638888883
+r28: 0.414827493880049
+r29: 0.4612445530649219
+r30: 0.384560546875
+r31: 0.3087591356470374
+r32: 0.4160356669976829
+r33: 0.38772664510737254
+r34: 0.21368042018626815
+r35: 0.34694462647444296
+r36: 0.36564181111775257
+r37: 0.3797324957651045
+r38: 0.225673093625152
+r39: 0.23009765625
+r40: 0.34365947691987075
+r41: 0.3425082583872754
+r42: 0.3943437719915553
+r43: 0.32478434846806936
+________________________________
+r1: IF country = {2} THEN class = {0.0021} [-0.0051,0.0094] (p=28.0, n=2.0, P=209.0, N=353.0)
+r2: IF country = {18} AND year = (-inf, 1970.50) AND inflation = (-inf, 5.65) THEN class = {0.065} [0.025,0.11] (p=14.0, n=2.0, P=188.0, N=374.0)
+r3: IF country = {18} AND representation = <53.50, 66) THEN class = {0.058} [0.018,0.097] (p=14.0, n=2.0, P=222.0, N=340.0)
+r4: IF country = {18} AND year = (-inf, 1982.50) AND unemployment = (-inf, 7.95) THEN class = {0.063} [0.025,0.10] (p=25.0, n=3.0, P=183.0, N=379.0)
+r5: IF year = (-inf, 1983.50) AND inflation = (-inf, 6.35) AND representation = (-inf, 52.50) THEN class = {0.012} [-0.059,0.082] (p=270.0, n=24.0, P=475.0, N=87.0)
+r6: IF representation = <75.50, inf) THEN class = {0.85} [0.44,1.25] (p=1.0, n=1.0, P=3.0, N=559.0)
+r7: IF country = {17} AND inflation = (-inf, 5.10) THEN class = {0.019} [-0.019,0.057] (p=17.0, n=1.0, P=437.0, N=125.0)
+r8: IF country = {17} AND representation = <48.50, inf) THEN class = {0.03} [0.012,0.047] (p=8.0, n=2.0, P=176.0, N=386.0)
+r9: IF country = {17} AND year = (-inf, 1983.50) AND representation = (-inf, 48.50) AND inflation = (-inf, 10.65) THEN class = {0.025} [0.0039,0.046] (p=15.0, n=3.0, P=246.0, N=316.0)
+r10: IF country = {17} AND inflation = <10.80, inf) THEN class = {0.064} [0.013,0.12] (p=6.0, n=1.0, P=271.0, N=291.0)
+r11: IF country = {16} THEN class = {1.4E-4} [-0.001,0.0013] (p=31.0, n=3.0, P=107.0, N=455.0)
+r12: IF country = {15} AND inflation = (-inf, 14.75) AND representation = (-inf, 52.50) THEN class = {0.0013} [-0.032,0.034] (p=23.0, n=1.0, P=353.0, N=209.0)
+r13: IF unemployment = (-inf, 3.30) AND representation = (-inf, 53.50) AND inflation = (-inf, 9.20) THEN class = {0.0069} [-0.06,0.074] (p=257.0, n=10.0, P=466.0, N=96.0)
+r14: IF country = {15} THEN class = {0.0013} [-0.029,0.032] (p=27.0, n=2.0, P=344.0, N=218.0)
+r15: IF year = (-inf, 1972) AND unemployment = (-inf, 1.55) AND inflation = <1.50, 8.90) THEN class = {0.007} [-0.017,0.031] (p=113.0, n=9.0, P=342.0, N=220.0)
+r16: IF year = (-inf, 1984.50) AND unemployment = (-inf, 1.85) THEN class = {0.0083} [-0.055,0.072] (p=217.0, n=8.0, P=462.0, N=100.0)
+r17: IF unemployment = (-inf, 2.40) AND inflation = (-inf, 14.85) AND representation = (-inf, 52.50) THEN class = {0.0066} [-0.054,0.068] (p=238.0, n=11.0, P=457.0, N=105.0)
+r18: IF country = {14} AND year = (-inf, 1983.50) AND representation = (-inf, 49.50) THEN class = {0.0011} [-0.006,0.0083] (p=8.0, n=1.0, P=197.0, N=365.0)
+r19: IF country = {13} AND year = (-inf, 1984.50) THEN class = {0.024} [-0.039,0.086] (p=28.0, n=1.0, P=477.0, N=85.0)
+r20: IF unemployment = (-inf, 8.70) AND representation = (-inf, 37.50) AND inflation = (-inf, 6.65) THEN class = {0.0094} [-0.078,0.097] (p=135.0, n=5.0, P=492.0, N=70.0)
+r21: IF country = {12} AND representation = <32, 35.50) AND inflation = (-inf, 7.90) THEN class = {0.0017} [-0.0037,0.0071] (p=11.0, n=1.0, P=188.0, N=374.0)
+r22: IF country = {12} AND representation = <32.50, 34.50) THEN class = {0.0016} [-0.0043,0.0075] (p=9.0, n=1.0, P=190.0, N=372.0)
+r23: IF country = {10} AND unemployment = (-inf, 6.25) AND inflation = (-inf, 11.40) THEN class = {0.13} [0.067,0.19] (p=10.0, n=3.0, P=86.0, N=476.0)
+r24: IF country = {10} AND unemployment = (-inf, 9.75) AND inflation = (-inf, 16.60) THEN class = {0.11} [0.048,0.18] (p=19.0, n=5.0, P=132.0, N=430.0)
+r25: IF country = {10} AND unemployment = (-inf, 7.05) AND inflation = <16.85, inf) THEN class = {0.20} [0.15,0.24] (p=2.0, n=1.0, P=28.0, N=534.0)
+r26: IF country = {10} AND unemployment = (-inf, 8.10) AND inflation = (-inf, 20.40) AND representation = <41.50, inf) THEN class = {0.21} [0.14,0.27] (p=8.0, n=4.0, P=34.0, N=528.0)
+r27: IF country = {10} THEN class = {0.13} [0.056,0.20] (p=21.0, n=11.0, P=112.0, N=450.0)
+r28: IF representation = (-inf, 14) THEN class = {0.067} [0.0097,0.13] (p=25.0, n=3.0, P=304.0, N=258.0)
+r29: IF country = {8} AND representation = (-inf, 39) THEN class = {0.0061} [-0.0033,0.016] (p=14.0, n=1.0, P=261.0, N=301.0)
+r30: IF country = {7} AND representation = <62, inf) THEN class = {0.012} [0.0086,0.015] (p=3.0, n=1.0, P=50.0, N=512.0)
+r31: IF country = {7} AND representation = (-inf, 62) AND inflation = <8.20, 10.20) THEN class = {0.02} [0.013,0.027] (p=2.0, n=1.0, P=89.0, N=473.0)
+r32: IF country = {7} AND inflation = <9.50, 13.55) THEN class = {0.018} [0.0097,0.027] (p=5.0, n=1.0, P=106.0, N=456.0)
+r33: IF country = {4} AND representation = (-inf, 75.50) THEN class = {0.087} [0.039,0.14] (p=22.0, n=7.0, P=146.0, N=416.0)
+r34: IF year = <1984.50, inf) AND inflation = <3.50, 5.20) THEN class = {0.15} [0.081,0.22] (p=1.0, n=1.0, P=76.0, N=486.0)
+r35: IF year = <1984.50, inf) AND unemployment = <7.75, inf) AND inflation = <4.15, inf) THEN class = {0.043} [0.026,0.059] (p=3.0, n=1.0, P=126.0, N=436.0)
+r36: IF year = <1983.50, 1984.50) AND unemployment = (-inf, 10.05) AND inflation = <3.60, 6.85) AND representation = (-inf, 50.50) THEN class = {0.0089} [0.0042,0.014] (p=3.0, n=1.0, P=84.0, N=478.0)
+r37: IF country = {1} THEN class = {0.047} [0.013,0.081] (p=27.0, n=6.0, P=240.0, N=322.0)
+r38: IF inflation = <12.60, 12.75) THEN class = {0.19} [0.11,0.27] (p=1.0, n=1.0, P=57.0, N=505.0)
+r39: IF country = {6} AND year = (-inf, 1980.50) AND inflation = <7.30, 8.50) THEN class = {0.019} [0.015,0.023] (p=1.0, n=1.0, P=50.0, N=512.0)
+r40: IF country = {6} AND inflation = (-inf, 10.95) AND representation = <25.50, inf) THEN class = {0.015} [-0.038,0.068] (p=15.0, n=1.0, P=457.0, N=105.0)
+r41: IF country = {5} AND year = (-inf, 1981.50) AND inflation = <9.45, 11.95) THEN class = {0.0091} [0.0073,0.011] (p=2.0, n=1.0, P=33.0, N=529.0)
+r42: IF country = {3} AND inflation = <5.60, 11.95) THEN class = {0.035} [0.023,0.046] (p=4.0, n=1.0, P=98.0, N=464.0)
+r43: IF year = <1975.50, 1980.50) AND unemployment = (-inf, 6.35) AND inflation = (-inf, 11.65) AND representation = (-inf, 42) THEN class = {0.0081} [-0.025,0.042] (p=22.0, n=3.0, P=387.0, N=175.0)

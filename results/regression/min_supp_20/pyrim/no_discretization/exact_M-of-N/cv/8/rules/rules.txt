@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.5356019766397125
+r2: 0.6753519017669961
+r3: 0.44784946236559137
+r4: 0.6406539888682745
+r5: 0.5201981707317074
+r6: 0.5186688311688312
+r7: 0.46367521367521375
+r8: 0.40820158102766796
+r9: 0.4409779614325069
+r10: 0.4536374478234944
+r11: 0.47197855750487333
+________________________________
+r1: IF p2_size > p3_polarisable = {1} AND p2_pi_doner = p3_pi_doner = {1} AND p3_pi_doner > p3_polarisable = {1} THEN class = {0.84} [0.68,1.00] (p=5.0, n=1.0, P=14.0, N=53.0)
+r2: IF p1_polar = p1_sigma = {0} AND p1_size > p3_size = {0} AND p2_polar < p3_sigma = {0} AND p2_polar > p2_pi_doner = {0} THEN class = {0.86} [0.69,1.03] (p=8.0, n=1.0, P=14.0, N=53.0)
+r3: IF p1_h_acceptor = p1_pi_doner = {1} AND p2_polar < p3_sigma = {1} THEN class = {0.85} [0.74,0.96] (p=2.0, n=1.0, P=5.0, N=62.0)
+r4: IF p2_size > p3_polarisable = {0} AND p2_sigma > p3_size = {0} AND p1_size > p3_size = {0} AND 2-of-3(p1_h_acceptor = p1_pi_doner, p3_polar > p3_size, p2_polar = (-inf, 0.82)) = {1} THEN class = {0.91} [0.73,1.09] (p=6.0, n=1.0, P=11.0, N=56.0)
+r5: IF p1_size > p3_polar = {0} AND p2_sigma > p3_size = {1} AND p2_size > p3_size = {1} THEN class = {0.30} [0.19,0.40] (p=13.0, n=3.0, P=26.0, N=41.0)
+r6: IF p1_size > p1_polarisable = {1} AND p1_h_acceptor = p1_pi_doner = {0} AND p1_size > p3_size = {1} AND p2_size > p3_size = {0} THEN class = {0.29} [0.25,0.33] (p=4.0, n=1.0, P=11.0, N=56.0)
+r7: IF p1_pi_acceptor = p2_polarisable = {1} AND p2_size = p3_size = {1} THEN class = {0.34} [0.24,0.43] (p=14.0, n=4.0, P=28.0, N=39.0)
+r8: IF p1_pi_acceptor < p2_polar = {0} THEN class = {0.42} [0.32,0.52] (p=4.0, n=1.0, P=23.0, N=44.0)
+r9: IF p3_size > p3_sigma = {1} AND p2_size > p2_flex = {1} THEN class = {0.79} [0.65,0.93] (p=7.0, n=4.0, P=12.0, N=55.0)
+r10: IF p3_size > p3_sigma = {1} AND p1_polar = p1_sigma = {0} THEN class = {0.79} [0.57,1.01] (p=10.0, n=3.0, P=24.0, N=43.0)
+r11: IF p1_size > p3_size = {1} AND p1_pi_doner > p1_polarisable = {1} AND p2_polar > p2_pi_doner = {0} THEN class = {0.59} [0.46,0.72] (p=7.0, n=2.0, P=19.0, N=48.0)

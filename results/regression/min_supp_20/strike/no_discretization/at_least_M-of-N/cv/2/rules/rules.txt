@@ -1,0 +1,108 @@
+Rules qualities:
+r1: 0.55
+r2: 0.631578947368421
+r3: 0.505896940810053
+r4: 0.575
+r5: 0.5666666666666667
+r6: 0.3533629360835243
+r7: 0.6169287696577244
+r8: 0.5790821480324705
+r9: 0.46783127765951105
+r10: 0.44427239739739754
+r11: 0.4830933704034686
+r12: 0.4638054185314305
+r13: 0.4355421686746988
+r14: 0.49793479623141185
+r15: 0.4614926682541671
+r16: 0.44397735072065886
+r17: 0.441537794478971
+r18: 0.5360071870014405
+r19: 0.36743114909781566
+r20: 0.5345267065514391
+r21: 0.418013994766185
+r22: 0.5473657192509639
+r23: 0.46616543762632673
+r24: 0.4305568521284542
+r25: 0.49025386191966347
+r26: 0.37659899101759553
+r27: 0.37150095797881366
+r28: 0.5001791312136137
+r29: 0.37480748074807424
+r30: 0.5082611683994557
+r31: 0.42512836001208093
+r32: 0.43115676735751857
+r33: 0.5720805847744692
+r34: 0.6049293918066988
+r35: 0.5971461167229802
+r36: 0.40062117839193523
+r37: 0.5104430886863259
+r38: 0.4072087599252286
+r39: 0.38531415833934923
+r40: 0.4029329923521809
+r41: 0.6352538057153245
+r42: 0.5960136174561128
+r43: 0.6233016027871232
+r44: 0.6864143098184159
+r45: 0.45249432578085513
+r46: 0.4083811035658642
+r47: 0.46007521966086307
+r48: 0.5241963949548188
+r49: 0.37359452627909007
+r50: 0.5670829599761052
+r51: 0.559565181291372
+r52: 0.4501503795662936
+r53: 0.46958666084944134
+________________________________
+r1: IF 2-of-3(inflation != <6.65, 6.90), representation != <21.50, 26), unemployment != <9.95, 10.40)) = {0} THEN class = {1.4E-4} [1.4E-4,1.4E-4] (p=2.0, n=0.0, P=20.0, N=542.0)
+r2: IF inflation = (-inf, 6.10) = {1} AND unemployment != <1.95, 3.10) = {1} AND unemployment > inflation = {0} AND representation = <42.50, 47) = {0} AND unemployment = (-inf, 0.95) = {0} AND year = (-inf, 1984.50) = {1} AND representation = (-inf, 51.50) = {1} AND year = (-inf, 1975.50) = {0} THEN class = {0.0} [0.0,0.0] (p=5.0, n=0.0, P=19.0, N=543.0)
+r3: IF centralization = (-inf, 0.50) = {0} THEN class = {0.0021} [-0.0051,0.0094] (p=28.0, n=2.0, P=211.0, N=351.0)
+r4: IF inflation != <3.60, 4) = {0} AND unemployment != <0.85, 3) = {1} AND unemployment = (-inf, 2.65) = {1} THEN class = {1.4E-4} [1.4E-4,1.4E-4] (p=3.0, n=0.0, P=20.0, N=542.0)
+r5: IF representation = (-inf, 37) = {1} AND year != <1959.50, 1963) = {0} AND unemployment = <0.20, 0.80) = {1} THEN class = {4.3E-4} [4.3E-4,4.3E-4] (p=2.0, n=0.0, P=15.0, N=547.0)
+r6: IF unemployment > centralization = {0} AND inflation = (-inf, 11.05) = {1} AND inflation != <7.35, 7.70) = {1} THEN class = {1.4E-4} [-0.0037,0.004] (p=12.0, n=4.0, P=154.0, N=408.0)
+r7: IF unemployment != <2.75, 11.40) = {1} AND inflation = <-0.65, 11.10) = {1} THEN class = {0.0061} [-0.06,0.073] (p=271.0, n=10.0, P=470.0, N=92.0)
+r8: IF unemployment = (-inf, 2.65) = {1} THEN class = {0.0083} [-0.06,0.077] (p=288.0, n=13.0, P=475.0, N=87.0)
+r9: IF unemployment != <0.55, 0.90) = {1} AND representation = (-inf, 37) = {1} AND year = <1954, inf) = {1} AND unemployment > inflation = {1} AND representation = <26, 49) = {1} THEN class = {0.014} [-0.02,0.047] (p=29.0, n=1.0, P=413.0, N=149.0)
+r10: IF year = (-inf, 1965) = {0} AND representation != <30.50, 34) = {0} THEN class = {0.013} [-0.023,0.048] (p=23.0, n=1.0, P=414.0, N=148.0)
+r11: IF inflation != <4.15, 5.30) = {1} AND inflation != <3.60, 4) = {1} AND unemployment > inflation = {1} AND country != {18} = {1} AND year != <1971.50, 1975) = {1} AND inflation = <5.45, inf) = {0} THEN class = {0.057} [0.023,0.091] (p=14.0, n=1.0, P=189.0, N=373.0)
+r12: IF inflation = (-inf, 4.70) = {1} AND year != <1966.50, 1971) = {1} AND inflation != <3.60, 4) = {1} AND unemployment > centralization = {1} AND inflation != <4, 5) = {1} AND inflation != <0.75, 1) = {1} AND inflation != <3.45, 3.70) = {1} THEN class = {0.017} [-0.055,0.089] (p=152.0, n=6.0, P=489.0, N=73.0)
+r13: IF unemployment != <2.75, 11.40) = {0} AND representation = (-inf, 47) = {0} AND unemployment > inflation = {0} AND year = (-inf, 1977.50) = {1} AND inflation != <7.45, 8.20) = {1} AND inflation = <-0.65, 11.10) = {1} THEN class = {0.12} [0.077,0.17] (p=8.0, n=2.0, P=64.0, N=498.0)
+r14: IF inflation != <4.15, 5.30) = {1} AND inflation != <3.20, 3.50) = {1} AND year = (-inf, 1980.50) = {1} AND country != {18} = {1} THEN class = {0.063} [0.03,0.096] (p=21.0, n=2.0, P=158.0, N=404.0)
+r15: IF country != {18} = {1} AND representation = <42.50, 47) = {0} THEN class = {0.063} [0.029,0.096] (p=24.0, n=4.0, P=158.0, N=404.0)
+r16: IF year = (-inf, 1983) = {1} AND country != {18} = {1} AND inflation != <4.05, 4.30) = {1} THEN class = {0.058} [0.024,0.091] (p=24.0, n=4.0, P=186.0, N=376.0)
+r17: IF year = (-inf, 1983) = {1} AND unemployment > inflation = {0} AND year != <1956.50, 1959) = {1} AND inflation = (-inf, 6.60) = {1} AND representation != <29.50, 36) = {1} AND inflation != <5.85, 6.40) = {1} AND inflation = <2.10, inf) = {1} AND representation != <52.50, 60) = {1} AND representation != <19.50, 25) = {1} AND year = <1954, inf) = {1} AND year != <1959.50, 1963) = {1} AND inflation = <5.20, 6) = {0} AND unemployment > centralization = {1} AND representation != <40.50, 43) = {1} AND year = <1966.50, 1969) = {0} THEN class = {0.0043} [-0.021,0.03] (p=50.0, n=5.0, P=340.0, N=222.0)
+r18: IF representation = (-inf, 37) = {1} AND inflation != <4.15, 4.80) = {1} AND unemployment > inflation = {0} AND unemployment > centralization = {1} AND inflation != <4.90, 5.50) = {1} AND year = (-inf, 1975.50) = {1} AND representation = <23, 41) = {1} THEN class = {0.015} [-0.015,0.045] (p=73.0, n=2.0, P=401.0, N=161.0)
+r19: IF year = (-inf, 1983) = {1} AND unemployment > inflation = {0} AND year = (-inf, 1980.50) = {0} AND representation = <26, 49) = {1} THEN class = {0.027} [-7.3E-4,0.054] (p=14.0, n=1.0, P=432.0, N=130.0)
+r20: IF inflation != <4.65, 5.20) = {1} AND year = (-inf, 1983) = {1} AND year != <1955.50, 1958) = {1} AND inflation = (-inf, 8.70) = {1} AND inflation != <4.15, 4.80) = {1} AND unemployment > inflation = {0} AND unemployment > centralization = {1} AND year != <1952.50, 1956) = {1} AND representation != <37.50, 49) = {1} AND representation = <23, 41) = {1} THEN class = {0.0081} [-0.021,0.038] (p=65.0, n=2.0, P=374.0, N=188.0)
+r21: IF representation = <23, 35) = {1} AND unemployment > inflation = {0} AND inflation = (-inf, 8.35) = {1} THEN class = {0.0036} [-0.031,0.038] (p=72.0, n=8.0, P=374.0, N=188.0)
+r22: IF representation = (-inf, 37) = {1} AND inflation != <4.15, 4.80) = {1} AND unemployment > inflation = {0} AND unemployment > centralization = {1} AND year != <1954.50, 1957) = {1} AND year = (-inf, 1977.50) = {1} AND year != <1956.50, 1959) = {1} AND inflation != <4.90, 5.50) = {1} AND inflation = <-0.65, 11.10) = {1} AND representation = <23, 41) = {1} THEN class = {0.011} [-0.019,0.042] (p=61.0, n=1.0, P=391.0, N=171.0)
+r23: IF representation != <19.50, 25) = {1} AND representation = (-inf, 37) = {1} AND year != <1978.50, 1983) = {1} AND inflation != <4.15, 4.80) = {1} AND inflation != <7.75, 8.20) = {1} AND representation = <23, 41) = {1} THEN class = {0.013} [-0.021,0.047] (p=131.0, n=11.0, P=413.0, N=149.0)
+r24: IF inflation != <4.15, 4.80) = {1} AND unemployment > centralization = {1} AND inflation != <5.05, 5.70) = {1} AND representation != <35.50, 46) = {1} AND inflation != <7.75, 8.20) = {1} AND year != <1972.50, 1977) = {1} AND representation = <23, 41) = {1} THEN class = {0.0077} [-0.033,0.048] (p=95.0, n=8.0, P=416.0, N=146.0)
+r25: IF inflation = <2.55, inf) = {0} AND unemployment < inflation = {0} AND unemployment != <5.25, 5.50) = {1} THEN class = {0.023} [-0.071,0.12] (p=81.0, n=1.0, P=517.0, N=45.0)
+r26: IF year = (-inf, 1983) = {1} AND inflation = <5.20, 6) = {1} AND year = (-inf, 1965) = {0} AND unemployment != <0.55, 10.20) = {0} AND year != <1957, 1967) = {1} AND inflation != <5.85, 6.40) = {1} AND year != <1972.50, 1977) = {1} THEN class = {0.016} [-0.0081,0.041] (p=11.0, n=1.0, P=387.0, N=175.0)
+r27: IF inflation != <1.20, 4) = {0} AND representation != <35.50, 43) = {1} THEN class = {0.009} [-0.07,0.088] (p=125.0, n=7.0, P=489.0, N=73.0)
+r28: IF inflation = (-inf, 4.70) = {1} AND representation = (-inf, 47) = {1} AND representation != <37.50, 49) = {1} THEN class = {0.008} [-0.088,0.10] (p=108.0, n=2.0, P=504.0, N=58.0)
+r29: IF inflation = (-inf, 4.65) = {1} AND inflation > centralization = {1} AND year != <1965.50, 1968) = {1} THEN class = {0.013} [-0.082,0.11] (p=217.0, n=11.0, P=505.0, N=57.0)
+r30: IF unemployment = (-inf, 6.25) = {1} AND inflation != <4.65, 5.20) = {1} AND inflation != <4.15, 4.80) = {1} AND unemployment > centralization = {1} AND unemployment > inflation = {0} AND year = (-inf, 1975.50) = {1} AND representation = <23, 41) = {1} AND inflation != <5.85, 6.40) = {1} THEN class = {0.013} [-0.017,0.044] (p=83.0, n=4.0, P=399.0, N=163.0)
+r31: IF inflation = (-inf, 6.10) = {1} AND year != <1955.50, 1967) = {1} AND unemployment = <0.20, 0.80) = {0} AND inflation = (-inf, 5.05) = {0} AND representation = <42.50, 47) = {1} THEN class = {8.6E-4} [-7.9E-4,0.0025] (p=6.0, n=1.0, P=132.0, N=430.0)
+r32: IF inflation = (-inf, 5.95) = {1} AND year = (-inf, 1983) = {1} AND representation = (-inf, 37) = {1} THEN class = {0.0099} [-0.083,0.10] (p=118.0, n=4.0, P=501.0, N=61.0)
+r33: IF inflation = (-inf, 7.35) = {1} AND year != <1969.50, 1972) = {1} AND unemployment > centralization = {1} AND representation != <40.50, 43) = {1} AND inflation != <0.75, 1) = {1} AND inflation != <4.85, 5.10) = {1} AND inflation != <5.95, 6.20) = {1} AND inflation != <4.05, 4.30) = {1} AND inflation = <-0.65, 11.10) = {1} AND inflation != <6.45, 7.70) = {1} AND representation != <52.50, 60) = {1} THEN class = {0.009} [-0.079,0.097] (p=231.0, n=6.0, P=497.0, N=65.0)
+r34: IF inflation = (-inf, 7.35) = {1} AND representation != <40.50, 43) = {1} AND inflation != <4.85, 5.10) = {1} AND country != {18} = {0} AND inflation != <5.95, 6.20) = {1} AND inflation != <2.50, 3.70) = {1} AND inflation != <4.05, 4.30) = {1} AND inflation != <4.35, 4.60) = {1} AND inflation != <6.65, 7.70) = {1} AND year != <1965.50, 1968) = {1} AND inflation = <-0.65, 11.10) = {1} THEN class = {0.0077} [-0.069,0.085] (p=178.0, n=3.0, P=482.0, N=80.0)
+r35: IF unemployment != <1.95, 2.50) = {1} AND year = (-inf, 1983) = {1} AND representation = (-inf, 58.50) = {1} AND inflation > centralization = {1} AND inflation != <5.95, 6.20) = {1} AND unemployment != <2.15, 2.60) = {1} AND unemployment != <2.65, 9.50) = {1} THEN class = {0.0077} [-0.066,0.081] (p=232.0, n=7.0, P=478.0, N=84.0)
+r36: IF inflation != <6.65, 7.10) = {0} AND representation != <35.50, 46) = {1} THEN class = {0.0064} [-0.023,0.036] (p=12.0, n=1.0, P=369.0, N=193.0)
+r37: IF year != <1966.50, 1971) = {1} AND inflation = (-inf, 8.70) = {1} AND inflation != <4.85, 5.10) = {1} AND 2-of-3(inflation != <7.75, 8.20), year = <1951.50, inf), unemployment != <9.95, 10.40)) = {1} AND country != {18} = {0} AND inflation != <5.95, 6.20) = {1} AND inflation != <3.45, 3.70) = {1} AND inflation != <6.75, 7.20) = {1} AND year != <1965.50, 1968) = {1} AND year != <1972.50, 1977) = {1} THEN class = {0.01} [-0.047,0.068] (p=261.0, n=17.0, P=463.0, N=99.0)
+r38: IF year = (-inf, 1983) = {1} AND inflation = (-inf, 9.90) = {1} AND year != <1974.50, 1979) = {1} AND year = (-inf, 1977.50) = {0} THEN class = {0.0019} [-0.026,0.03] (p=28.0, n=3.0, P=342.0, N=220.0)
+r39: IF representation = <23, 35) = {0} AND inflation = (-inf, 9.90) = {1} AND representation = (-inf, 58.50) = {1} AND year != <1974.50, 1979) = {0} AND year != <1972.50, 1977) = {0} THEN class = {0.0074} [-0.0033,0.018] (p=7.0, n=1.0, P=279.0, N=283.0)
+r40: IF representation = <23, 35) = {0} AND inflation = (-inf, 10.10) = {1} AND unemployment < inflation = {1} AND inflation != <6.05, 6.30) = {1} AND year = (-inf, 1975.50) = {0} AND year != <1972.50, 1977) = {1} THEN class = {0.0023} [-0.027,0.032] (p=28.0, n=3.0, P=348.0, N=214.0)
+r41: IF inflation != <4.65, 5.20) = {1} AND year != <1955.50, 1958) = {1} AND inflation = (-inf, 10.20) = {1} AND inflation != <6.65, 7.10) = {1} AND unemployment != <3.25, 9.20) = {1} AND representation = (-inf, 53.50) = {1} AND inflation != <5.85, 6.40) = {1} AND year != <1951.50, 1954) = {1} AND year = <1951.50, inf) = {1} AND inflation != <7, 8.50) = {1} AND year != <1978.50, 1983) = {1} AND unemployment > centralization = {1} AND country != {18} = {0} AND year != <1971.50, 1975) = {1} THEN class = {0.0086} [-0.07,0.088] (p=161.0, n=1.0, P=486.0, N=76.0)
+r42: IF inflation = (-inf, 10.10) = {1} AND inflation != <6.65, 7.10) = {1} AND inflation != <4.85, 5.10) = {1} AND inflation != <2.55, 2.80) = {1} AND inflation != <8.80, 9.40) = {1} AND inflation != <2.85, 3.10) = {1} AND inflation != <7.35, 7.70) = {1} AND representation = (-inf, 55.50) = {1} AND inflation != <5.85, 6.40) = {1} AND year != <1951.50, 1954) = {1} AND year = <1951.50, inf) = {1} AND unemployment < inflation = {1} AND unemployment > centralization = {1} AND representation != <40.50, 43) = {1} AND inflation != <3.45, 3.70) = {1} AND inflation != <6.85, 7.30) = {1} THEN class = {0.0056} [-0.076,0.088] (p=154.0, n=2.0, P=486.0, N=76.0)
+r43: IF inflation != <4.65, 5.20) = {1} AND inflation != <6.05, 6.30) = {1} AND inflation != <6.65, 7.10) = {1} AND inflation != <2.55, 2.80) = {1} AND inflation != <7.35, 7.70) = {1} AND inflation = (-inf, 10.70) = {1} AND representation = (-inf, 55.50) = {1} AND year != <1951.50, 1954) = {1} AND year = <1951.50, inf) = {1} AND year != <1978.50, 1983) = {1} AND representation != <40.50, 43) = {1} AND country != {18} = {0} AND inflation != <3.45, 3.70) = {1} AND unemployment != <5.25, 5.50) = {1} AND inflation != <6.75, 7.20) = {1} THEN class = {0.0084} [-0.061,0.078] (p=246.0, n=7.0, P=475.0, N=87.0)
+r44: IF inflation != <4.85, 5.10) = {1} AND inflation != <8.95, 10.10) = {1} AND inflation != <5.95, 6.20) = {1} AND inflation != <3.45, 3.70) = {1} AND unemployment != <3.25, 9.20) = {1} AND inflation = <-0.65, 11.10) = {1} AND unemployment != <2.15, 2.60) = {1} THEN class = {0.0064} [-0.077,0.09] (p=251.0, n=3.0, P=490.0, N=72.0)
+r45: IF unemployment = (-inf, 6.25) = {1} AND year = (-inf, 1983) = {1} AND unemployment > inflation = {0} AND year = (-inf, 1977.50) = {0} AND inflation = <-0.65, 11.10) = {1} THEN class = {0.0019} [-0.024,0.027] (p=27.0, n=2.0, P=326.0, N=236.0)
+r46: IF year = <1967.50, inf) = {1} AND year = (-inf, 1977.50) = {1} AND year = <1966.50, 1969) = {0} AND unemployment != <5.25, 5.50) = {0} THEN class = {0.16} [0.085,0.23] (p=4.0, n=1.0, P=69.0, N=493.0)
+r47: IF year = (-inf, 1983) = {1} AND year != <1978.50, 1983) = {1} AND unemployment > inflation = {0} AND unemployment = (-inf, 0.95) = {0} AND unemployment != <5.25, 5.50) = {1} AND year = (-inf, 1970.50) = {0} AND representation = (-inf, 52.50) = {0} THEN class = {0.087} [0.046,0.13] (p=8.0, n=1.0, P=115.0, N=447.0)
+r48: IF inflation != <12.05, 16.10) = {1} AND inflation != <6.65, 7.10) = {1} AND unemployment != <1.55, 4.60) = {0} AND inflation != <3.45, 3.70) = {1} AND inflation != <6.75, 7.20) = {1} AND representation = (-inf, 55.50) = {1} AND inflation != <3.15, 3.40) = {1} AND inflation != <5.85, 6.40) = {1} THEN class = {0.013} [-0.074,0.1] (p=141.0, n=3.0, P=498.0, N=64.0)
+r49: IF year = (-inf, 1983) = {1} AND unemployment > inflation = {0} AND year = (-inf, 1980.50) = {0} AND inflation != <10.75, 14.40) = {0} AND unemployment = (-inf, 3.45) = {0} THEN class = {0.046} [0.0097,0.081] (p=6.0, n=1.0, P=264.0, N=298.0)
+r50: IF inflation != <7, 8.50) = {1} AND unemployment > inflation = {0} AND unemployment > centralization = {1} AND inflation != <6.65, 7.10) = {1} AND inflation != <4.85, 5.10) = {1} AND inflation != <8.95, 10.10) = {1} AND inflation != <3.45, 3.70) = {1} AND inflation = (-inf, 14.35) = {1} AND year = (-inf, 1975.50) = {1} AND inflation != <3.15, 3.40) = {1} AND representation = (-inf, 55.50) = {1} AND inflation != <5.85, 6.40) = {1} THEN class = {0.011} [-0.075,0.096] (p=142.0, n=2.0, P=496.0, N=66.0)
+r51: IF inflation != <4.65, 5.20) = {1} AND year != <1969.50, 1972) = {1} AND representation = (-inf, 58.50) = {1} AND inflation != <6.65, 7.10) = {1} AND inflation != <8.80, 9.40) = {1} AND inflation != <7.35, 7.70) = {1} AND representation != <37.50, 49) = {1} AND year != <1978.50, 1983) = {1} AND unemployment > centralization = {1} AND inflation != <3.45, 3.70) = {1} AND inflation != <6.85, 7.30) = {1} AND inflation = (-inf, 14.35) = {1} AND year != <1965.50, 1968) = {1} THEN class = {0.015} [-0.06,0.09] (p=193.0, n=5.0, P=490.0, N=72.0)
+r52: IF inflation != <4.65, 5.20) = {1} AND year = <1951.50, inf) = {1} AND inflation != <6.65, 7.70) = {1} AND inflation != <8.80, 9.40) = {1} AND unemployment != <5.25, 5.50) = {1} AND inflation = (-inf, 14.35) = {1} AND representation = (-inf, 52.50) = {1} AND inflation != <5.85, 6.40) = {1} THEN class = {0.012} [-0.055,0.08] (p=323.0, n=24.0, P=478.0, N=84.0)
+r53: IF year != <1974.50, 1979) = {1} AND inflation != <10.75, 14.40) = {1} AND inflation = <-0.65, 11.10) = {0} AND year = (-inf, 1975.50) = {0} THEN class = {0.072} [0.04,0.10] (p=9.0, n=1.0, P=119.0, N=443.0)

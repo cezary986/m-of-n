@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.5723382689934778
+r2: 0.6595191682910979
+r3: 0.642890248424175
+r4: 0.6392271715676862
+r5: 0.338699494949495
+r6: 0.6615809185886065
+r7: 0.7576669877970456
+r8: 0.6224543013081524
+r9: 0.3088516483516484
+r10: 0.694291528022444
+r11: 0.5542412617220801
+________________________________
+r1: IF MMAX = <14000, inf) = {0} AND 2-of-3(CACH != <28, 64), CHMAX != <14.50, 128), MYCT > CHMAX) = {0} AND CACH > CHMAX = {0} AND MYCT != <119, 180) = {1} THEN class = {0.015} [-0.0017,0.031] (p=52.0, n=9.0, P=93.0, N=116.0)
+r2: IF 2-of-3(CACH != <28, 64), CHMAX != <14.50, 128), MYCT > CHMAX) = {0} AND CACH < CHMIN = {1} THEN class = {0.016} [-2.1E-4,0.032] (p=50.0, n=4.0, P=95.0, N=114.0)
+r3: IF 2-of-3(CACH != <28, 64), CHMAX != <14.50, 128), MYCT != <119, 180)) = {0} AND CACH < CHMIN = {1} THEN class = {0.015} [-0.001,0.031] (p=50.0, n=5.0, P=93.0, N=116.0)
+r4: IF CACH < CHMIN = {1} THEN class = {0.017} [-0.018,0.051] (p=64.0, n=4.0, P=127.0, N=82.0)
+r5: IF CHMAX != <14.50, 128) = {0} AND 2-of-3(CACH != <28, 64), MMAX = <12000, inf), MYCT > CHMAX) = {1} AND CHMIN = <2, inf) = {0} AND CACH < CHMIN = {0} THEN class = {0.12} [0.065,0.17] (p=4.0, n=2.0, P=33.0, N=176.0)
+r6: IF 2-of-3(CACH != <28, 64), MMAX = <12000, inf), MYCT > CHMAX) = {1} AND MYCT > CHMAX = {1} AND CACH > CHMAX = {0} THEN class = {0.019} [-0.003,0.041] (p=80.0, n=9.0, P=114.0, N=95.0)
+r7: IF CHMAX != <14.50, 128) = {1} THEN class = {0.028} [-0.082,0.14] (p=129.0, n=3.0, P=173.0, N=36.0)
+r8: IF 2-of-3(CACH != <28, 64), MMAX = <14000, inf), MYCT > CHMAX) = {1} AND CACH > CHMAX = {0} THEN class = {0.021} [-0.11,0.15] (p=94.0, n=3.0, P=175.0, N=34.0)
+r9: IF CHMIN = <2, inf) = {1} AND MMAX = <12000, inf) = {1} AND MYCT > CACH = {1} THEN class = {0.082} [0.023,0.14] (p=19.0, n=6.0, P=104.0, N=105.0)
+r10: IF MMAX = <12000, inf) = {0} THEN class = {0.023} [-0.016,0.062] (p=121.0, n=10.0, P=144.0, N=65.0)
+r11: IF CACH > CHMAX = {1} AND MYCT > CACH = {0} THEN class = {0.23} [0.054,0.41] (p=29.0, n=5.0, P=69.0, N=140.0)

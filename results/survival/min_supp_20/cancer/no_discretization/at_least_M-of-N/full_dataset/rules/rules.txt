@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9998707559988668
+r2: 0.9999739222774722
+r3: 0.9972914788189255
+r4: 0.9750759080149524
+r5: 0.9999999909135053
+r6: 0.9999999999739959
+________________________________
+r1: IF sex = (-inf, 1.50) = {0} AND wt.loss != <31.50, 39) = {1} AND sex < ph.karno = {1} AND wt.loss = (-inf, 50.50) = {1} THEN  (p=81.0, n=0.0, P=228.0, N=0.0)
+r2: IF sex = (-inf, 1.50) = {1} AND ph.ecog = (-inf, 0.50) = {0} THEN  (p=102.0, n=0.0, P=228.0, N=0.0)
+r3: IF ph.ecog = (-inf, 0.50) = {1} AND age != <45.50, 48) = {1} THEN  (p=61.0, n=0.0, P=228.0, N=0.0)
+r4: IF sex < wt.loss = {0} AND wt.loss != <24, 30) = {1} AND sex < ph.ecog = {1} AND age != <51.50, 54) = {1} AND sex < ph.karno = {1} AND sex < pat.karno = {0} AND age != <56.50, 59) = {1} AND age != <64.50, 67) = {1} THEN  (p=30.0, n=0.0, P=228.0, N=0.0)
+r5: IF wt.loss != <35, 39) = {1} AND wt.loss != <22.50, 31) = {1} AND age != <63.50, 66) = {1} AND pat.karno = <75, inf) = {0} AND meal.cal != <842.50, 910) = {1} THEN  (p=63.0, n=0.0, P=228.0, N=0.0)
+r6: IF ph.karno != <55, 80) = {1} AND wt.loss != <17.50, 22) = {1} AND wt.loss != <24, 30) = {1} AND meal.cal != <717.50, 768) = {1} AND age = (-inf, 74.50) = {1} AND pat.karno = <75, inf) = {1} AND wt.loss = (-inf, 50.50) = {1} AND meal.cal != <842.50, 910) = {1} AND wt.loss != <12, 15) = {1} AND age != <64.50, 68) = {1} THEN  (p=85.0, n=0.0, P=228.0, N=0.0)

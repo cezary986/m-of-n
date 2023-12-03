@@ -1,0 +1,38 @@
+Rules qualities:
+r1: 0.6479674796747967
+r2: 0.9406504065040651
+r3: 0.9206409542285455
+r4: 0.5398373983739837
+r5: 0.5138211382113821
+r6: 0.9305555555555556
+r7: 0.9444444444444444
+r8: 0.5277777777777778
+r9: 0.6428571428571428
+r10: 0.7857142857142857
+r11: 1.0
+r12: 0.5561797752808989
+r13: 0.550561797752809
+r14: 0.5393258426966292
+r15: 0.5280898876404494
+r16: 0.5786516853932584
+r17: 0.5561797752808989
+r18: 0.9044943820224719
+________________________________
+r1: IF thick = <0.60, 0.80) = {1} THEN class = {3} (p=182.0, n=0.0, P=615.0, N=193.0)
+r2: IF hardness = (-inf, 75) = {1} AND carbon = (-inf, 9) = {1} AND surface-quality != {?} = {0} AND strength = (-inf, 550) = {1} THEN class = {3} (p=542.0, n=0.0, P=615.0, N=193.0)
+r3: IF carbon = (-inf, 9) = {1} AND hardness = (-inf, 82.50) = {1} AND surface-quality != {?} = {0} AND strength = (-inf, 550) = {1} THEN class = {3} (p=544.0, n=3.0, P=615.0, N=193.0)
+r4: IF carbon = <27.50, inf) = {1} THEN class = {3} (p=49.0, n=0.0, P=615.0, N=193.0)
+r5: IF carbon = <3.50, 10) = {1} THEN class = {3} (p=17.0, n=0.0, P=615.0, N=193.0)
+r6: IF hardness = (-inf, 82.50) = {0} THEN class = {U} (p=31.0, n=0.0, P=36.0, N=772.0)
+r7: IF hardness = (-inf, 75) = {0} AND width = <39.50, inf) = {1} THEN class = {U} (p=32.0, n=0.0, P=36.0, N=772.0)
+r8: IF carbon = <7, 45) = {1} AND carbon = (-inf, 9) = {0} THEN class = {U} (p=2.0, n=0.0, P=36.0, N=772.0)
+r9: IF exptl != {?} = {0} THEN class = {1} (p=2.0, n=0.0, P=7.0, N=801.0)
+r10: IF steel = {S} = {1} AND carbon < strength = {1} THEN class = {1} (p=4.0, n=0.0, P=7.0, N=801.0)
+r11: IF family != {TN} = {1} THEN class = {5} (p=61.0, n=0.0, P=61.0, N=747.0)
+r12: IF enamelability = {2} = {1} THEN class = {2} (p=10.0, n=0.0, P=89.0, N=719.0)
+r13: IF surface-finish != {?} = {0} THEN class = {2} (p=9.0, n=0.0, P=89.0, N=719.0)
+r14: IF width = <1025, 1100) = {1} THEN class = {2} (p=7.0, n=0.0, P=89.0, N=719.0)
+r15: IF width = <770.05, 900) = {1} THEN class = {2} (p=5.0, n=0.0, P=89.0, N=719.0)
+r16: IF steel != {A} = {0} AND width = <1410.05, inf) = {1} THEN class = {2} (p=14.0, n=0.0, P=89.0, N=719.0)
+r17: IF width = (-inf, 805) = {1} AND thick = <1.75, 2.20) = {1} THEN class = {2} (p=10.0, n=0.0, P=89.0, N=719.0)
+r18: IF enamelability != {1} = {0} AND steel != {?} = {0} AND surface-quality != {?} = {1} AND condition = {S} = {1} AND family != {TN} = {0} THEN class = {2} (p=72.0, n=0.0, P=89.0, N=719.0)

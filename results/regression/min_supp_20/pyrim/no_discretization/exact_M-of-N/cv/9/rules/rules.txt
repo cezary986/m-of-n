@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.6976190476190477
+r2: 0.5425347222222221
+r3: 0.3769188596491228
+r4: 0.4204918032786885
+r5: 0.46262406947890816
+r6: 0.4404962153069808
+r7: 0.2926587301587302
+r8: 0.3237233445566779
+r9: 0.20088707588707608
+r10: -0.0625757575757575
+________________________________
+r1: IF p2_size = p2_polarisable = {0} AND 2-of-3(p3_size = p3_polarisable, p2_size > p3_sigma, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p3_size = p3_polarisable, p2_size = p2_polarisable, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p3_size = p3_polarisable, p2_pi_doner = p3_pi_doner, p3_polarisable = p3_sigma) = {0} THEN class = {0.99} [0.93,1.06] (p=5.0, n=1.0, P=7.0, N=60.0)
+r2: IF 2-of-3(p3_size = p3_polarisable, p2_size > p2_polarisable, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p2_h_acceptor = p3_flex, p2_size > p3_sigma, p3_polarisable = p3_sigma) = {1} AND 2-of-3(p2_polar < p2_pi_doner, p3_polarisable = p3_sigma, p2_size > p3_sigma) = {0} AND 2-of-3(p2_pi_doner = p3_pi_doner, p2_h_acceptor = p3_flex, p3_polarisable = p3_sigma) = {1} THEN class = {0.95} [0.91,0.98] (p=2.0, n=1.0, P=3.0, N=64.0)
+r3: IF 2-of-3(p3_polarisable = p3_sigma, p2_size < p3_polar, p2_h_acceptor = p3_flex) = {1} AND 2-of-3(p2_size < p3_polar, p2_h_acceptor = p3_flex, p3_size = p3_polarisable) = {0} AND 2-of-3(p3_size = p3_polarisable, p2_h_acceptor = p3_flex, p3_polarisable = p3_sigma) = {0} THEN class = {0.91} [0.80,1.02] (p=3.0, n=1.0, P=19.0, N=48.0)
+r4: IF 2-of-3(p3_size = p3_polarisable, p2_size = p2_polarisable, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p3_size = p3_polarisable, p2_h_acceptor = p3_flex, p3_polarisable = p3_sigma) = {1} THEN class = {1.00} [0.95,1.04] (p=3.0, n=2.0, P=6.0, N=61.0)
+r5: IF 2-of-3(p3_size = p3_polarisable, p2_size > p2_polarisable, p3_polarisable = p3_sigma) = {1} AND 2-of-3(p3_size = p3_polarisable, p2_size < p3_polar, p3_polarisable = p3_sigma) = {0} THEN class = {0.63} [0.54,0.71] (p=21.0, n=5.0, P=36.0, N=31.0)
+r6: IF 2-of-3(p3_size = p3_polarisable, p2_polar < p2_pi_doner, p3_polarisable = p3_sigma) = {1} AND 2-of-3(p3_size = p3_polarisable, p2_h_doner < p2_sigma, p2_size > p3_sigma) = {0} THEN class = {0.63} [0.51,0.74] (p=24.0, n=5.0, P=41.0, N=26.0)
+r7: IF 2-of-3(p3_polarisable = p3_sigma, p2_size < p3_polar, p2_h_acceptor = p3_flex) = {0} AND 2-of-3(p3_size = p3_polarisable, p2_h_acceptor = p3_flex, p3_polarisable = p3_sigma) = {1} AND 2-of-3(p3_size = p3_polarisable, p2_h_doner < p2_sigma, p2_size > p3_sigma) = {1} THEN class = {0.67} [0.67,0.68] (p=1.0, n=1.0, P=4.0, N=63.0)
+r8: IF 2-of-3(p3_size = p3_polarisable, p2_size > p2_polarisable, p3_polarisable = p3_sigma) = {1} AND 2-of-3(p3_size = p3_polarisable, p2_h_doner < p2_sigma, p2_size > p3_sigma) = {0} THEN class = {0.65} [0.54,0.76] (p=25.0, n=8.0, P=40.0, N=27.0)
+r9: IF 2-of-3(p3_size = p3_polarisable, p2_size > p3_polar, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p3_size = p3_polarisable, p2_size = p2_polarisable, p3_polarisable = p3_sigma) = {1} AND 2-of-3(p3_size = p3_polarisable, p2_size > p2_sigma, p3_polarisable = p3_sigma) = {0} THEN class = {0.67} [0.49,0.86] (p=19.0, n=3.0, P=54.0, N=13.0)
+r10: IF 2-of-3(p3_size = p3_polarisable, p2_size > p2_polarisable, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p2_pi_doner = p3_pi_doner, p2_h_doner < p2_sigma, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p3_size = p3_polarisable, p2_size > p3_sigma, p3_polarisable = p3_sigma) = {0} AND 2-of-3(p2_h_acceptor = p3_flex, p2_size > p3_size, p3_polarisable = p3_sigma) = {0} AND p2_size < p2_sigma = {0} THEN class = {0.56} [0.28,0.84] (p=4.0, n=1.0, P=55.0, N=12.0)

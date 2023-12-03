@@ -1,0 +1,68 @@
+Rules qualities:
+r1: 0.548611111111111
+r2: 0.550375939849624
+r3: 0.48130841121495327
+r4: 0.6053766835016834
+r5: 0.5064174107142857
+r6: 0.5400338791643138
+r7: 0.5484942302279763
+r8: 0.5079463364293085
+r9: 0.3926934984520124
+r10: 0.5895652173913044
+r11: 0.5633169934640522
+r12: 0.41677419354838713
+r13: 0.6695962168651244
+r14: 0.32749766573295985
+r15: 0.5400338791643138
+r16: 0.6199290060851927
+r17: 0.5257807417046192
+r18: 0.44256521739130433
+r19: 0.6611570247933884
+r20: 0.4516806722689076
+r21: 0.39152868694647674
+r22: 0.6000505390835579
+r23: 0.6107273717567836
+r24: 0.6591321564098335
+r25: 0.5462790697674418
+r26: 0.4814698795180722
+r27: 0.4135199652777778
+r28: 0.4279607595934126
+r29: 0.4361965240641711
+r30: 0.45712585933368594
+r31: 0.5160989978331527
+r32: 0.23345347313237222
+r33: 0.44788804945054944
+________________________________
+r1: IF months = <5.50, 10) AND karnofsky = <25, 50) THEN class = {0.032} [0.03,0.035] (p=2.0, n=1.0, P=3.0, N=120.0)
+r2: IF months = (-inf, 17.50) AND karnofsky = <25, 50) AND age = <59, 68) THEN class = {0.023} [0.0097,0.036] (p=8.0, n=1.0, P=28.0, N=95.0)
+r3: IF celltype = {1, 2, 3} AND months = (-inf, 5.50) AND karnofsky = <25, 50) AND age = <54, 63.50) AND status != {0} THEN class = {0.017} [0.011,0.023] (p=4.0, n=1.0, P=16.0, N=107.0)
+r4: IF months = <2.50, 5) AND karnofsky = <25, 50) THEN class = {0.023} [0.011,0.035] (p=10.0, n=1.0, P=27.0, N=96.0)
+r5: IF celltype = {2, 3, 4} AND karnofsky = (-inf, 35) AND age = <40, 64) THEN class = {0.015} [0.0015,0.029] (p=7.0, n=1.0, P=32.0, N=91.0)
+r6: IF karnofsky < age AND celltype = {2, 3, 4} AND months = (-inf, 4.50) AND status != {0} THEN class = {0.024} [-0.058,0.11] (p=19.0, n=1.0, P=77.0, N=46.0)
+r7: IF months = <2.50, 5) AND karnofsky = <25, 50) AND age != <63.50, 67) THEN class = {0.02} [7.9E-4,0.039] (p=10.0, n=1.0, P=38.0, N=85.0)
+r8: IF months < age AND months != <4.50, 36) AND karnofsky = <25, 50) AND age = <43.50, 68) AND status != {0} THEN class = {0.015} [-7.4E-4,0.031] (p=8.0, n=1.0, P=38.0, N=85.0)
+r9: IF age = (-inf, 68.50) AND months = <1.50, 2.50) AND karnofsky = <50, 82.50) AND age != <45, 60) THEN class = {0.12} [0.064,0.17] (p=4.0, n=1.0, P=38.0, N=85.0)
+r10: IF age != <35, 56) AND age != <45, 60) AND karnofsky > age AND age = (-inf, 64.50) AND celltype = {2, 3} AND karnofsky = <25, 90) AND age != <62.50, 67) THEN class = {0.094} [0.089,0.099] (p=4.0, n=1.0, P=8.0, N=115.0)
+r11: IF months = (-inf, 15.50) AND karnofsky < age AND celltype = {2, 3} AND months != <9, 23) THEN class = {0.026} [-0.046,0.098] (p=26.0, n=2.0, P=72.0, N=51.0)
+r12: IF age != <35, 56) AND age = (-inf, 67.50) AND karnofsky > age AND celltype = {2, 3} AND months = (-inf, 4.50) AND karnofsky = (-inf, 82.50) AND age != <62.50, 67) THEN class = {0.083} [0.052,0.11] (p=4.0, n=1.0, P=30.0, N=93.0)
+r13: IF age != <35, 56) AND celltype = {2, 3} AND months != <11.50, 17) AND karnofsky = (-inf, 82.50) AND age != <62.50, 67) THEN class = {0.034} [-0.032,0.10] (p=33.0, n=1.0, P=74.0, N=49.0)
+r14: IF karnofsky > age AND celltype = {2, 3} AND months != <1.50, 11) AND karnofsky = (-inf, 75) AND age = (-inf, 64) THEN class = {0.094} [0.077,0.11] (p=2.0, n=1.0, P=21.0, N=102.0)
+r15: IF celltype = {2, 3} AND months = (-inf, 13.50) AND karnofsky = (-inf, 65) AND age = <49, 60) THEN class = {0.029} [-0.051,0.11] (p=19.0, n=1.0, P=77.0, N=46.0)
+r16: IF celltype = {2, 3} AND karnofsky = (-inf, 82.50) AND age != <62.50, 67) THEN class = {0.05} [-0.026,0.13] (p=48.0, n=3.0, P=87.0, N=36.0)
+r17: IF months = (-inf, 21) AND celltype = {2, 3} AND months != <10.50, 15) THEN class = {0.05} [-0.026,0.13] (p=48.0, n=5.0, P=87.0, N=36.0)
+r18: IF age = <50.50, 53) THEN class = {0.22} [0.13,0.30] (p=4.0, n=1.0, P=23.0, N=100.0)
+r19: IF months = <3.50, inf) AND age = <35.50, 40) THEN class = {0.10} [0.10,0.10] (p=2.0, n=1.0, P=2.0, N=121.0)
+r20: IF karnofsky < age AND karnofsky != <25, 60) AND age = <68.50, 72) THEN class = {0.06} [0.04,0.08] (p=4.0, n=1.0, P=21.0, N=102.0)
+r21: IF age = <68.50, 72) THEN class = {0.071} [0.013,0.13] (p=12.0, n=2.0, P=70.0, N=53.0)
+r22: IF karnofsky < age AND age = <40, 70) AND months != <7.50, 36) AND age != <63.50, 67) AND status != {0} THEN class = {0.021} [-0.054,0.097] (p=23.0, n=1.0, P=70.0, N=53.0)
+r23: IF karnofsky < age AND celltype != {4} AND months != <7.50, 36) AND status != {0} THEN class = {0.024} [-0.05,0.098] (p=31.0, n=2.0, P=72.0, N=51.0)
+r24: IF karnofsky < age AND months = <1.50, 25) AND celltype != {4} AND months != <7.50, 17) AND karnofsky = (-inf, 65) AND status != {0} THEN class = {0.02} [-0.05,0.09] (p=28.0, n=1.0, P=66.0, N=57.0)
+r25: IF karnofsky < age AND age != <69.50, 72) AND months != <6.50, 25) AND age != <51, 58) THEN class = {0.029} [-0.053,0.11] (p=28.0, n=2.0, P=80.0, N=43.0)
+r26: IF karnofsky < age AND age != <50.50, 61) AND celltype = {2, 3, 4} AND months = (-inf, 13.50) AND age != <68.50, 71) THEN class = {0.029} [-0.058,0.12] (p=23.0, n=2.0, P=83.0, N=40.0)
+r27: IF age = <34.50, 70) AND age != <37.50, 68) THEN class = {0.071} [-0.022,0.16] (p=15.0, n=1.0, P=96.0, N=27.0)
+r28: IF age = (-inf, 64.50) AND celltype = {1, 2, 4} AND months = (-inf, 20) AND karnofsky = <72.50, 85) AND age != <42, 53) THEN class = {0.14} [0.053,0.22] (p=6.0, n=1.0, P=49.0, N=74.0)
+r29: IF months != <1.50, 10) AND karnofsky = <72.50, 85) THEN class = {0.13} [0.05,0.21] (p=7.0, n=1.0, P=55.0, N=68.0)
+r30: IF age = <36, 66) AND months = (-inf, 7.50) AND karnofsky = <77.50, 85) AND age != <39.50, 46) THEN class = {0.12} [0.03,0.20] (p=9.0, n=1.0, P=62.0, N=61.0)
+r31: IF age = (-inf, 76.50) AND months = <1.50, inf) AND months != <6.50, 13) AND karnofsky = (-inf, 75) AND age != <40.50, 69) THEN class = {0.06} [0.0083,0.11] (p=15.0, n=1.0, P=71.0, N=52.0)
+r32: IF karnofsky > age AND celltype = {1, 2, 3} AND months = (-inf, 3.50) AND age = <61.50, 63) THEN class = {0.39} [0.25,0.53] (p=1.0, n=1.0, P=14.0, N=109.0)
+r33: IF treatment != {2} AND months = <9.50, 12) THEN class = {0.091} [0.056,0.13] (p=5.0, n=1.0, P=32.0, N=91.0)

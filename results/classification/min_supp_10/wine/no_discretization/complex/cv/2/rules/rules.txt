@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9245283018867925
+r2: 0.9528301886792453
+r3: 0.9433962264150944
+r4: 0.9245283018867925
+r5: 0.9140625
+r6: 0.8984375
+r7: 0.859375
+r8: 0.7890625
+r9: 0.9186046511627908
+r10: 0.9418604651162791
+r11: 0.9651162790697674
+r12: 0.9069767441860466
+________________________________
+r1: IF #(Proline = <953.50, inf) OR Proline = <755, 780) OR Proline = <900.50, 937)) THEN class = {1} (p=45.0, n=0.0, P=53.0, N=107.0)
+r2: IF #(Proline = <867.50, inf) OR Proline = <755, 830)) AND Flavanoids = <2.30, inf) THEN class = {1} (p=48.0, n=0.0, P=53.0, N=107.0)
+r3: IF Proline = <842.50, inf) AND Alcohol = <12.66, inf) THEN class = {1} (p=47.0, n=0.0, P=53.0, N=107.0)
+r4: IF Ash < Color_intensity AND Proline = <679, inf) AND Flavanoids = <2.59, 3.75) THEN class = {1} (p=45.0, n=0.0, P=53.0, N=107.0)
+r5: IF #(Color_intensity = (-inf, 3.46) OR Color_intensity = <3.72, 3.84)) AND OD280/OD315_of_diluted_wines = (-inf, 3.82) THEN class = {2} (p=53.0, n=0.0, P=64.0, N=96.0)
+r6: IF Color_intensity = (-inf, 3.95) AND Proline = (-inf, 719) THEN class = {2} (p=51.0, n=0.0, P=64.0, N=96.0)
+r7: IF Alcohol = (-inf, 12.44) AND Flavanoids = <0.96, inf) THEN class = {2} (p=46.0, n=0.0, P=64.0, N=96.0)
+r8: IF Alcohol = (-inf, 13.18) AND Flavanoids = <1.40, 2.33) THEN class = {2} (p=37.0, n=0.0, P=64.0, N=96.0)
+r9: IF Flavanoids = (-inf, 0.98) THEN class = {3} (p=36.0, n=0.0, P=43.0, N=117.0)
+r10: IF Color_intensity = <3.56, inf) AND Flavanoids = (-inf, 1.18) THEN class = {3} (p=38.0, n=0.0, P=43.0, N=117.0)
+r11: IF Color_intensity = <3.63, inf) AND Flavanoids = (-inf, 1.29) THEN class = {3} (p=40.0, n=0.0, P=43.0, N=117.0)
+r12: IF OD280/OD315_of_diluted_wines = (-inf, 1.92) AND Alcalinity_of_ash = <17.15, inf) THEN class = {3} (p=35.0, n=0.0, P=43.0, N=117.0)

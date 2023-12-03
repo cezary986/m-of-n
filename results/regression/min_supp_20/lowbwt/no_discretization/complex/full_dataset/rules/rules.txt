@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.7046734693877551
+r2: 0.48863636363636365
+r3: 0.43636363636363634
+r4: 0.8146227204283086
+r5: 0.4840853658536585
+r6: 0.4015277777777777
+r7: 0.4773662551440329
+r8: 0.7676568955341334
+________________________________
+r1: IF LOW != HT AND LWT = (-inf, 134) AND LWT != <86, 95) AND LWT != <100.50, 103) AND LOW = {1} AND LWT != <95.50, 100) AND AGE = <22.50, 26) THEN class = {0.36} [0.28,0.44] (p=24.0, n=1.0, P=49.0, N=140.0)
+r2: IF LWT != <96, 105) AND LWT = (-inf, 120.50) AND SMOKE = HT AND UI != LOW AND UI = HT AND LWT != <82.50, 92) THEN class = {0.38} [0.34,0.43] (p=6.0, n=1.0, P=33.0, N=156.0)
+r3: IF AGE != <18.50, 24) AND LOW = SMOKE AND SMOKE != HT AND UI != SMOKE AND LWT = <86, 121) AND AGE != <25.50, 28) THEN class = {0.38} [0.33,0.44] (p=7.0, n=2.0, P=35.0, N=154.0)
+r4: IF LOW != HT AND LWT != <82.50, 92) AND LWT != <145, 155) AND LOW = {1} AND LWT != <95.50, 100) AND AGE = (-inf, 31.50) THEN class = {0.36} [0.28,0.44] (p=40.0, n=3.0, P=50.0, N=139.0)
+r5: IF AGE != <20.50, 24) AND UI != LOW AND UI = HT AND AGE = <17.50, inf) AND LWT != <92.50, 110) AND AGE != <25.50, 28) THEN class = {0.32} [0.28,0.37] (p=9.0, n=3.0, P=25.0, N=164.0)
+r6: IF UI != HT AND UI = LOW AND LWT = <98, 120) AND AGE = <19.50, 25) THEN class = {0.27} [0.15,0.40] (p=4.0, n=1.0, P=45.0, N=144.0)
+r7: IF LOW != SMOKE AND SMOKE = HT AND UI = SMOKE AND AGE = <22, inf) AND LWT != <120.50, 130) AND AGE != <21.50, 24) THEN class = {0.32} [0.27,0.38] (p=5.0, n=1.0, P=27.0, N=162.0)
+r8: IF LOW = {1} AND HT != {1} THEN class = {0.35} [0.27,0.44] (p=45.0, n=7.0, P=51.0, N=138.0)

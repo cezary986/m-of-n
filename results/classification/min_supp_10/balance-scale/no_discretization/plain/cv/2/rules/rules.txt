@@ -1,0 +1,176 @@
+Rules qualities:
+r1: 0.23916286416286414
+r2: 0.23916286416286414
+r3: 0.18290408915408912
+r4: 0.23916286416286414
+r5: 0.11763526049240336
+r6: 0.10065451241921833
+r7: 0.5227272727272727
+r8: 0.33368433368433364
+r9: 0.23916286416286414
+r10: 0.33368433368433364
+r11: 0.23916286416286414
+r12: 0.11763526049240336
+r13: 0.23916286416286414
+r14: 0.23916286416286414
+r15: 0.11763526049240336
+r16: 0.04709574631449631
+r17: 0.23916286416286414
+r18: 0.23916286416286414
+r19: 0.33368433368433364
+r20: 0.23916286416286414
+r21: 0.23916286416286414
+r22: 0.23916286416286414
+r23: 0.5424710424710425
+r24: 0.6061776061776062
+r25: 0.5560164124520561
+r26: 0.6081081081081081
+r27: 0.5591421218483925
+r28: 0.6092258028891693
+r29: 0.5057988964919657
+r30: 0.6023166023166023
+r31: 0.5540540540540541
+r32: 0.553574386671982
+r33: 0.6003861003861004
+r34: 0.5521235521235521
+r35: 0.5486136065343986
+r36: 0.5978204715121265
+r37: 0.42745042345808876
+r38: 0.6477131178936654
+r39: 0.6422732492039422
+r40: 0.6243828256844166
+r41: 0.45249037242149603
+r42: 0.5366795366795367
+r43: 0.5521235521235521
+r44: 0.5521235521235521
+r45: 0.5409495087043923
+r46: 0.5656370656370656
+r47: 0.5752895752895753
+r48: 0.5608322608322608
+r49: 0.6486486486486487
+r50: 0.6152067784566327
+r51: 0.5540540540540541
+r52: 0.5521235521235521
+r53: 0.5675675675675675
+r54: 0.5584351871480584
+r55: 0.6042471042471043
+r56: 0.61003861003861
+r57: 0.5584351871480584
+r58: 0.6081081081081081
+r59: 0.5584351871480584
+r60: 0.6092258028891693
+r61: 0.5250308001741041
+r62: 0.5250308001741041
+r63: 0.5984555984555985
+r64: 0.5501930501930502
+r65: 0.5347490347490348
+r66: 0.5984555984555985
+r67: 0.5521235521235521
+r68: 0.5540540540540541
+r69: 0.5931861639491226
+r70: 0.643590225422505
+r71: 0.6274911611454439
+r72: 0.6221012062596222
+r73: 0.4593821905808424
+r74: 0.5386100386100386
+r75: 0.5386100386100386
+r76: 0.5540540540540541
+r77: 0.5521235521235521
+r78: 0.5521235521235521
+r79: 0.555984555984556
+r80: 0.5656370656370656
+r81: 0.5632090487880415
+r82: 0.6061776061776062
+r83: 0.6042471042471043
+r84: 0.6128911291570415
+r85: 0.518923602680627
+r86: 0.6373813346585625
+r87: 0.6175134708406641
+________________________________
+r1: IF right-distance = (-inf, 2.50) AND left-weight = <1.50, 2.50) AND left-distance = (-inf, 1.50) AND right-weight = (-inf, 2.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r2: IF right-distance = (-inf, 2.50) AND left-weight = (-inf, 1.50) AND left-distance = <1.50, 2.50) AND right-weight = (-inf, 2.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r3: IF right-distance = (-inf, 2.50) AND left-weight = (-inf, 2.50) AND left-distance = (-inf, 2.50) AND right-weight = (-inf, 2.50) THEN class = {B} (p=6.0, n=10.0, P=44.0, N=518.0)
+r4: IF right-distance = (-inf, 2.50) AND left-weight = <3.50, 4.50) AND left-distance = (-inf, 2.50) AND right-weight = <3.50, 4.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r5: IF right-distance = (-inf, 2.50) AND left-weight = <1.50, 3.50) AND left-distance = <1.50, 2.50) AND right-weight = <2.50, 4.50) THEN class = {B} (p=2.0, n=5.0, P=44.0, N=518.0)
+r6: IF right-distance = (-inf, 2.50) AND left-weight = <1.50, 4.50) AND left-distance = (-inf, 2.50) AND right-weight = <1.50, 4.50) THEN class = {B} (p=8.0, n=26.0, P=44.0, N=518.0)
+r7: IF right-distance = (-inf, 2.50) AND left-weight = <4.50, inf) AND left-distance = (-inf, 2.50) AND right-weight = <4.50, inf) THEN class = {B} (p=2.0, n=0.0, P=44.0, N=518.0)
+r8: IF right-distance = (-inf, 2.50) AND left-weight = (-inf, 2.50) AND left-distance = <3.50, 4.50) AND right-weight = <3.50, 4.50) THEN class = {B} (p=2.0, n=1.0, P=44.0, N=518.0)
+r9: IF right-distance = (-inf, 2.50) AND left-weight = (-inf, 2.50) AND left-distance = <2.50, 3.50) AND right-weight = <2.50, 3.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r10: IF right-distance = (-inf, 2.50) AND left-weight = (-inf, 2.50) AND left-distance = <4.50, inf) AND right-weight = <4.50, inf) THEN class = {B} (p=2.0, n=1.0, P=44.0, N=518.0)
+r11: IF right-distance = <3.50, inf) AND left-weight = <3.50, inf) AND left-distance = (-inf, 1.50) AND right-weight = (-inf, 1.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r12: IF left-weight = <1.50, 3.50) AND right-distance = <2.50, 4.50) AND left-distance = (-inf, 2.50) AND right-weight = (-inf, 1.50) THEN class = {B} (p=2.0, n=5.0, P=44.0, N=518.0)
+r13: IF right-distance = <2.50, 4.50) AND left-weight = <2.50, 4.50) AND left-distance = <1.50, 2.50) AND right-weight = <1.50, 2.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r14: IF left-weight = (-inf, 2.50) AND right-distance = <3.50, 4.50) AND left-distance = <3.50, 4.50) AND right-weight = (-inf, 2.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r15: IF left-weight = (-inf, 2.50) AND right-distance = <1.50, 3.50) AND left-distance = <2.50, 4.50) AND right-weight = <1.50, 2.50) THEN class = {B} (p=2.0, n=5.0, P=44.0, N=518.0)
+r16: IF left-weight = (-inf, 2.50) AND right-distance = <2.50, inf) AND left-distance = <2.50, inf) AND right-weight = (-inf, 2.50) THEN class = {B} (p=5.0, n=27.0, P=44.0, N=518.0)
+r17: IF right-distance = <2.50, 3.50) AND left-weight = <2.50, 3.50) AND left-distance = <3.50, inf) AND right-weight = <3.50, inf) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r18: IF right-distance = <2.50, 3.50) AND left-weight = <3.50, inf) AND left-distance = <2.50, 3.50) AND right-weight = <3.50, inf) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r19: IF right-distance = <3.50, 4.50) AND left-weight = <2.50, 4.50) AND left-distance = <2.50, 4.50) AND right-weight = <2.50, 3.50) THEN class = {B} (p=2.0, n=1.0, P=44.0, N=518.0)
+r20: IF right-distance = <3.50, 4.50) AND left-weight = <3.50, inf) AND left-distance = <3.50, inf) AND right-weight = <4.50, inf) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r21: IF left-weight = <4.50, inf) AND right-distance = <4.50, inf) AND left-distance = <2.50, 4.50) AND right-weight = <2.50, 4.50) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r22: IF left-weight = <3.50, inf) AND right-distance = <4.50, inf) AND left-distance = <4.50, inf) AND right-weight = <3.50, inf) THEN class = {B} (p=2.0, n=2.0, P=44.0, N=518.0)
+r23: IF left-weight = (-inf, 1.50) AND right-distance = <4.50, inf) THEN class = {R} (p=22.0, n=0.0, P=259.0, N=303.0)
+r24: IF left-weight = (-inf, 1.50) AND right-distance = <2.50, inf) AND right-weight = <1.50, inf) THEN class = {R} (p=55.0, n=0.0, P=259.0, N=303.0)
+r25: IF left-weight = (-inf, 1.50) AND right-distance = <2.50, inf) AND left-distance = (-inf, 3.50) THEN class = {R} (p=42.0, n=1.0, P=259.0, N=303.0)
+r26: IF left-weight = (-inf, 1.50) AND right-distance = <1.50, inf) AND right-weight = <2.50, inf) THEN class = {R} (p=56.0, n=0.0, P=259.0, N=303.0)
+r27: IF left-weight = (-inf, 1.50) AND left-distance = (-inf, 4.50) AND right-weight = <2.50, inf) THEN class = {R} (p=52.0, n=2.0, P=259.0, N=303.0)
+r28: IF left-weight = (-inf, 1.50) AND right-distance = <1.50, inf) AND right-weight = <1.50, inf) THEN class = {R} (p=73.0, n=2.0, P=259.0, N=303.0)
+r29: IF left-weight = (-inf, 1.50) AND left-distance = (-inf, 1.50) THEN class = {R} (p=24.0, n=1.0, P=259.0, N=303.0)
+r30: IF right-distance = <1.50, inf) AND left-distance = (-inf, 1.50) AND right-weight = <2.50, inf) THEN class = {R} (p=53.0, n=0.0, P=259.0, N=303.0)
+r31: IF left-weight = (-inf, 2.50) AND left-distance = (-inf, 1.50) AND right-weight = <2.50, inf) THEN class = {R} (p=28.0, n=0.0, P=259.0, N=303.0)
+r32: IF left-weight = (-inf, 3.50) AND left-distance = (-inf, 1.50) AND right-weight = <2.50, inf) THEN class = {R} (p=41.0, n=1.0, P=259.0, N=303.0)
+r33: IF right-distance = <2.50, inf) AND left-distance = (-inf, 1.50) AND right-weight = <1.50, inf) THEN class = {R} (p=52.0, n=0.0, P=259.0, N=303.0)
+r34: IF right-distance = <2.50, inf) AND left-weight = (-inf, 2.50) AND left-distance = (-inf, 1.50) THEN class = {R} (p=27.0, n=0.0, P=259.0, N=303.0)
+r35: IF right-distance = <2.50, inf) AND left-weight = (-inf, 3.50) AND left-distance = (-inf, 1.50) THEN class = {R} (p=39.0, n=1.0, P=259.0, N=303.0)
+r36: IF right-distance = <1.50, inf) AND left-distance = (-inf, 1.50) AND right-weight = <1.50, inf) THEN class = {R} (p=68.0, n=2.0, P=259.0, N=303.0)
+r37: IF left-weight = (-inf, 4.50) AND left-distance = (-inf, 1.50) THEN class = {R} (p=76.0, n=17.0, P=259.0, N=303.0)
+r38: IF left-weight = (-inf, 2.50) AND right-distance = <2.50, inf) AND right-weight = <2.50, inf) THEN class = {R} (p=84.0, n=1.0, P=259.0, N=303.0)
+r39: IF left-weight = (-inf, 2.50) AND right-distance = <2.50, inf) AND left-distance = (-inf, 4.50) AND right-weight = <1.50, inf) THEN class = {R} (p=88.0, n=2.0, P=259.0, N=303.0)
+r40: IF left-weight = (-inf, 2.50) AND right-distance = <1.50, inf) AND left-distance = (-inf, 4.50) AND right-weight = <2.50, inf) THEN class = {R} (p=86.0, n=3.0, P=259.0, N=303.0)
+r41: IF left-weight = (-inf, 2.50) AND left-distance = (-inf, 2.50) THEN class = {R} (p=77.0, n=15.0, P=259.0, N=303.0)
+r42: IF right-distance = <4.50, inf) AND left-distance = (-inf, 4.50) AND right-weight = <4.50, inf) THEN class = {R} (p=19.0, n=0.0, P=259.0, N=303.0)
+r43: IF right-distance = <4.50, inf) AND left-distance = (-inf, 3.50) AND right-weight = <3.50, inf) THEN class = {R} (p=27.0, n=0.0, P=259.0, N=303.0)
+r44: IF right-distance = <4.50, inf) AND left-weight = (-inf, 3.50) AND right-weight = <3.50, inf) THEN class = {R} (p=27.0, n=0.0, P=259.0, N=303.0)
+r45: IF right-distance = <4.50, inf) AND left-weight = (-inf, 4.50) AND right-weight = <3.50, inf) THEN class = {R} (p=36.0, n=1.0, P=259.0, N=303.0)
+r46: IF right-distance = <4.50, inf) AND left-distance = (-inf, 2.50) AND right-weight = <1.50, inf) THEN class = {R} (p=34.0, n=0.0, P=259.0, N=303.0)
+r47: IF right-distance = <4.50, inf) AND left-weight = (-inf, 3.50) AND right-weight = <2.50, inf) THEN class = {R} (p=39.0, n=0.0, P=259.0, N=303.0)
+r48: IF right-distance = <4.50, inf) AND left-weight = (-inf, 4.50) AND left-distance = (-inf, 3.50) AND right-weight = <1.50, inf) THEN class = {R} (p=44.0, n=1.0, P=259.0, N=303.0)
+r49: IF right-distance = <2.50, inf) AND left-distance = (-inf, 2.50) AND right-weight = <2.50, inf) THEN class = {R} (p=77.0, n=0.0, P=259.0, N=303.0)
+r50: IF right-distance = <1.50, inf) AND left-weight = (-inf, 4.50) AND left-distance = (-inf, 2.50) AND right-weight = <2.50, inf) THEN class = {R} (p=82.0, n=3.0, P=259.0, N=303.0)
+r51: IF right-distance = <3.50, inf) AND left-weight = (-inf, 3.50) AND right-weight = <4.50, inf) THEN class = {R} (p=28.0, n=0.0, P=259.0, N=303.0)
+r52: IF right-distance = <3.50, inf) AND left-distance = (-inf, 3.50) AND right-weight = <4.50, inf) THEN class = {R} (p=27.0, n=0.0, P=259.0, N=303.0)
+r53: IF left-weight = (-inf, 3.50) AND right-distance = <2.50, inf) AND left-distance = (-inf, 4.50) AND right-weight = <4.50, inf) THEN class = {R} (p=35.0, n=0.0, P=259.0, N=303.0)
+r54: IF right-distance = <2.50, inf) AND left-weight = (-inf, 4.50) AND left-distance = (-inf, 4.50) AND right-weight = <4.50, inf) THEN class = {R} (p=43.0, n=1.0, P=259.0, N=303.0)
+r55: IF right-distance = <3.50, inf) AND left-weight = (-inf, 3.50) AND right-weight = <3.50, inf) THEN class = {R} (p=54.0, n=0.0, P=259.0, N=303.0)
+r56: IF left-weight = <1.50, inf) AND left-distance = <2.50, inf) AND right-weight = (-inf, 1.50) THEN class = {L} (p=57.0, n=0.0, P=259.0, N=303.0)
+r57: IF right-distance = (-inf, 3.50) AND left-distance = <2.50, inf) AND right-weight = (-inf, 1.50) THEN class = {L} (p=43.0, n=1.0, P=259.0, N=303.0)
+r58: IF left-weight = <2.50, inf) AND left-distance = <1.50, inf) AND right-weight = (-inf, 1.50) THEN class = {L} (p=56.0, n=0.0, P=259.0, N=303.0)
+r59: IF left-weight = <2.50, inf) AND right-distance = (-inf, 3.50) AND right-weight = (-inf, 1.50) THEN class = {L} (p=43.0, n=1.0, P=259.0, N=303.0)
+r60: IF left-weight = <1.50, inf) AND left-distance = <1.50, inf) AND right-weight = (-inf, 1.50) THEN class = {L} (p=73.0, n=2.0, P=259.0, N=303.0)
+r61: IF right-distance = (-inf, 4.50) AND left-distance = <1.50, inf) AND right-weight = (-inf, 1.50) THEN class = {L} (p=69.0, n=7.0, P=259.0, N=303.0)
+r62: IF left-weight = <1.50, inf) AND right-distance = (-inf, 4.50) AND right-weight = (-inf, 1.50) THEN class = {L} (p=69.0, n=7.0, P=259.0, N=303.0)
+r63: IF right-distance = (-inf, 1.50) AND left-weight = <1.50, inf) AND left-distance = <2.50, inf) THEN class = {L} (p=51.0, n=0.0, P=259.0, N=303.0)
+r64: IF right-distance = (-inf, 1.50) AND left-distance = <2.50, inf) AND right-weight = (-inf, 2.50) THEN class = {L} (p=26.0, n=0.0, P=259.0, N=303.0)
+r65: IF right-distance = (-inf, 1.50) AND left-distance = <4.50, inf) AND right-weight = (-inf, 4.50) THEN class = {L} (p=18.0, n=0.0, P=259.0, N=303.0)
+r66: IF right-distance = (-inf, 1.50) AND left-weight = <2.50, inf) AND left-distance = <1.50, inf) THEN class = {L} (p=51.0, n=0.0, P=259.0, N=303.0)
+r67: IF right-distance = (-inf, 1.50) AND left-weight = <2.50, inf) AND right-weight = (-inf, 2.50) THEN class = {L} (p=27.0, n=0.0, P=259.0, N=303.0)
+r68: IF right-distance = (-inf, 1.50) AND left-weight = <3.50, inf) AND right-weight = (-inf, 3.50) THEN class = {L} (p=28.0, n=0.0, P=259.0, N=303.0)
+r69: IF right-distance = (-inf, 1.50) AND left-weight = <1.50, inf) AND left-distance = <1.50, inf) THEN class = {L} (p=66.0, n=2.0, P=259.0, N=303.0)
+r70: IF left-weight = <2.50, inf) AND left-distance = <2.50, inf) AND right-weight = (-inf, 2.50) THEN class = {L} (p=82.0, n=1.0, P=259.0, N=303.0)
+r71: IF left-weight = <2.50, inf) AND left-distance = <1.50, inf) AND right-weight = (-inf, 2.50) THEN class = {L} (p=103.0, n=6.0, P=259.0, N=303.0)
+r72: IF left-weight = <1.50, inf) AND right-distance = (-inf, 4.50) AND left-distance = <2.50, inf) AND right-weight = (-inf, 2.50) THEN class = {L} (p=85.0, n=3.0, P=259.0, N=303.0)
+r73: IF right-distance = (-inf, 2.50) AND right-weight = (-inf, 2.50) THEN class = {L} (p=79.0, n=15.0, P=259.0, N=303.0)
+r74: IF left-weight = <4.50, inf) AND right-distance = (-inf, 4.50) AND left-distance = <4.50, inf) THEN class = {L} (p=20.0, n=0.0, P=259.0, N=303.0)
+r75: IF left-weight = <4.50, inf) AND left-distance = <4.50, inf) AND right-weight = (-inf, 4.50) THEN class = {L} (p=20.0, n=0.0, P=259.0, N=303.0)
+r76: IF left-weight = <4.50, inf) AND left-distance = <3.50, inf) AND right-weight = (-inf, 3.50) THEN class = {L} (p=28.0, n=0.0, P=259.0, N=303.0)
+r77: IF left-weight = <4.50, inf) AND right-distance = (-inf, 3.50) AND left-distance = <3.50, inf) THEN class = {L} (p=27.0, n=0.0, P=259.0, N=303.0)
+r78: IF left-weight = <4.50, inf) AND right-distance = (-inf, 2.50) AND left-distance = <2.50, inf) THEN class = {L} (p=27.0, n=0.0, P=259.0, N=303.0)
+r79: IF left-weight = <4.50, inf) AND right-distance = (-inf, 2.50) AND left-distance = <1.50, inf) AND right-weight = (-inf, 4.50) THEN class = {L} (p=29.0, n=0.0, P=259.0, N=303.0)
+r80: IF left-weight = <4.50, inf) AND right-distance = (-inf, 4.50) AND left-distance = <2.50, inf) AND right-weight = (-inf, 3.50) THEN class = {L} (p=34.0, n=0.0, P=259.0, N=303.0)
+r81: IF left-weight = <4.50, inf) AND right-distance = (-inf, 4.50) AND left-distance = <2.50, inf) AND right-weight = (-inf, 4.50) THEN class = {L} (p=45.0, n=1.0, P=259.0, N=303.0)
+r82: IF left-weight = <3.50, inf) AND right-distance = (-inf, 3.50) AND left-distance = <3.50, inf) THEN class = {L} (p=55.0, n=0.0, P=259.0, N=303.0)
+r83: IF left-weight = <3.50, inf) AND left-distance = <3.50, inf) AND right-weight = (-inf, 3.50) THEN class = {L} (p=54.0, n=0.0, P=259.0, N=303.0)
+r84: IF left-weight = <3.50, inf) AND right-distance = (-inf, 3.50) AND left-distance = <2.50, inf) THEN class = {L} (p=81.0, n=3.0, P=259.0, N=303.0)
+r85: IF left-weight = <3.50, inf) AND right-distance = (-inf, 2.50) AND right-weight = (-inf, 4.50) THEN class = {L} (p=67.0, n=7.0, P=259.0, N=303.0)
+r86: IF right-distance = (-inf, 2.50) AND left-weight = <2.50, inf) AND left-distance = <2.50, inf) THEN class = {L} (p=79.0, n=1.0, P=259.0, N=303.0)
+r87: IF right-distance = (-inf, 2.50) AND left-weight = <1.50, inf) AND left-distance = <2.50, inf) AND right-weight = (-inf, 4.50) THEN class = {L} (p=83.0, n=3.0, P=259.0, N=303.0)

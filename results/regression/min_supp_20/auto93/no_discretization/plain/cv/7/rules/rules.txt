@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.7346932419806913
+r2: 0.41818181818181815
+r3: 0.49309948246118457
+r4: 0.6710526315789473
+r5: 0.4333694474539545
+r6: 0.4098557692307692
+r7: 0.42530292230933714
+r8: 0.4555555555555556
+r9: 0.32528533801580334
+r10: 0.5856268167480984
+r11: 0.5642578125000001
+r12: 0.39999999999999997
+r13: 0.49753289473684215
+r14: 0.4453441295546559
+________________________________
+r1: IF Type = {Small} AND Domestic = {0} THEN class = {0.059} [0.0079,0.11] (p=12.0, n=1.0, P=19.0, N=65.0)
+r2: IF Engine_size = (-inf, 4.05) AND Highway_MPG = (-inf, 23.50) THEN class = {0.30} [0.16,0.44] (p=6.0, n=1.0, P=40.0, N=44.0)
+r3: IF Horsepower = (-inf, 167.50) AND Engine_revolutions_per_mile = (-inf, 2577.50) AND U-turn_space = (-inf, 43.50) AND Manual_transmission_available = {0} THEN class = {0.27} [0.15,0.39] (p=12.0, n=2.0, P=37.0, N=47.0)
+r4: IF Type = {Small} THEN class = {0.064} [0.016,0.11] (p=15.0, n=4.0, P=18.0, N=66.0)
+r5: IF Manufacturer = {Chevrolet} AND Manual_transmission_available = {0} THEN class = {0.23} [0.20,0.25] (p=3.0, n=1.0, P=13.0, N=71.0)
+r6: IF Highway_MPG = (-inf, 27) AND Air_Bags_standard = {1} THEN class = {0.46} [0.26,0.66] (p=12.0, n=4.0, P=32.0, N=52.0)
+r7: IF Type = {Large} AND City_MPG = <17.50, inf) AND Drive_train_type = {1} THEN class = {0.33} [0.23,0.43] (p=4.0, n=1.0, P=23.0, N=61.0)
+r8: IF Luggage_capacity = <-1073741817, inf) AND Engine_revolutions_per_mile = <1627.50, inf) AND RPM = (-inf, 4900) AND Weight = <3482.50, inf) THEN class = {0.55} [0.36,0.73] (p=4.0, n=1.0, P=18.0, N=66.0)
+r9: IF City_MPG = (-inf, 23) AND Manufacturer = {Volkswagen} THEN class = {0.31} [0.27,0.35] (p=2.0, n=1.0, P=17.0, N=67.0)
+r10: IF City_MPG = <20.50, inf) AND Manual_transmission_available = {1} THEN class = {0.10} [-0.0063,0.21] (p=30.0, n=7.0, P=38.0, N=46.0)
+r11: IF Luggage_capacity = <12.50, inf) AND City_MPG = (-inf, 29.50) AND Length = (-inf, 195.50) AND Domestic = {1} AND Manual_transmission_available = {1} THEN class = {0.15} [0.091,0.21] (p=7.0, n=1.0, P=20.0, N=64.0)
+r12: IF Luggage_capacity = (-inf, 16.50) AND Length = <194, inf) AND Domestic = {1} AND RPM = <4500, inf) THEN class = {0.29} [0.11,0.48] (p=7.0, n=1.0, P=49.0, N=35.0)
+r13: IF Type = {Midsize} AND City_MPG = (-inf, 19.50) AND Domestic = {0} AND Manual_transmission_available = {1} THEN class = {0.69} [0.60,0.77] (p=3.0, n=1.0, P=8.0, N=76.0)
+r14: IF Type = {Midsize} AND Domestic = {0} AND Manual_transmission_available = {1} THEN class = {0.56} [0.37,0.75] (p=6.0, n=2.0, P=19.0, N=65.0)

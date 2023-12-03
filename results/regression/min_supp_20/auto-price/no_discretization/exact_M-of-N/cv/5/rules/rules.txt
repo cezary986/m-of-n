@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.5090860215053763
+r2: 0.4915297092288243
+r3: 0.3035071942446043
+r4: 0.5307692307692308
+r5: 0.6722295417947589
+r6: 0.5615056818181818
+r7: 0.4378531073446328
+r8: 0.530048076923077
+r9: 0.6499550359712231
+r10: 0.757197891321979
+r11: 0.38148291925465844
+r12: 0.5430508474576271
+r13: 0.6444299481334445
+r14: 0.7363061303490991
+r15: 0.4733699035169624
+________________________________
+r1: IF normalized-losses > wheel-base = {0} AND bore = (-inf, 3.58) = {1} THEN class = {0.11} [0.0085,0.21] (p=26.0, n=2.0, P=93.0, N=50.0)
+r2: IF wheel-base > engine-size = {1} AND width < horsepower = {1} AND width = <63.85, 65.20) = {1} AND normalized-losses > length = {0} THEN class = {0.056} [0.032,0.08] (p=6.0, n=1.0, P=30.0, N=113.0)
+r3: IF normalized-losses != <82.50, 103) = {1} AND width = <63.85, 65.20) = {1} AND wheel-base < horsepower = {0} AND normalized-losses > length = {0} AND bore > stroke = {1} THEN class = {0.10} [0.10,0.11] (p=1.0, n=1.0, P=4.0, N=139.0)
+r4: IF wheel-base > engine-size = {0} AND peak-rpm = (-inf, 5350) = {1} AND width = <63.85, 65.20) = {0} AND normalized-losses > engine-size = {1} AND bore > stroke = {0} AND normalized-losses > length = {0} AND city-mpg != <18, 27) = {1} THEN class = {0.075} [0.051,0.098] (p=9.0, n=1.0, P=39.0, N=104.0)
+r5: IF bore = (-inf, 3.58) = {1} AND city-mpg != <18, 27) = {1} THEN class = {0.08} [-0.065,0.22] (p=65.0, n=4.0, P=99.0, N=44.0)
+r6: IF wheel-base > engine-size = {0} AND wheel-base < horsepower = {0} AND normalized-losses > engine-size = {0} THEN class = {0.12} [0.033,0.22] (p=30.0, n=2.0, P=88.0, N=55.0)
+r7: IF highway-mpg = <26.50, 34) = {1} AND normalized-losses > wheel-base = {1} AND bore < stroke = {1} AND city-mpg != <18, 27) = {0} THEN class = {0.13} [0.071,0.18] (p=11.0, n=2.0, P=59.0, N=84.0)
+r8: IF wheel-base < horsepower = {1} AND bore > stroke = {1} THEN class = {0.38} [0.20,0.56] (p=24.0, n=8.0, P=39.0, N=104.0)
+r9: IF wheel-base != <99.75, 107.90) = {1} AND engine-size > horsepower = {1} AND peak-rpm = (-inf, 5350) = {1} AND normalized-losses > wheel-base = {0} AND horsepower = <96, 155) = {1} THEN class = {0.77} [0.66,0.89] (p=3.0, n=1.0, P=4.0, N=139.0)
+r10: IF length = <189.85, inf) = {1} THEN class = {0.77} [0.61,0.94] (p=5.0, n=1.0, P=6.0, N=137.0)
+r11: IF highway-mpg = <26.50, 34) = {1} AND normalized-losses > wheel-base = {1} AND bore = (-inf, 3.58) = {0} AND city-mpg != <18, 27) = {1} THEN class = {0.39} [0.26,0.53] (p=3.0, n=1.0, P=28.0, N=115.0)
+r12: IF peak-rpm = (-inf, 5350) = {1} AND normalized-losses > length = {1} THEN class = {0.44} [0.31,0.57] (p=7.0, n=1.0, P=25.0, N=118.0)
+r13: IF wheel-base != <99.75, 107.90) = {1} AND normalized-losses > wheel-base = {1} AND bore > stroke = {0} THEN class = {0.083} [-0.045,0.21] (p=53.0, n=3.0, P=97.0, N=46.0)
+r14: IF curb-weight = <2701, 3770) = {1} AND 2-of-3(compression-ratio = (-inf, 22.75), length = (-inf, 190.75), curb-weight != <3018, 3042)) = {0} THEN class = {0.41} [0.25,0.57] (p=27.0, n=5.0, P=32.0, N=111.0)
+r15: IF wheel-base != <99.75, 107.90) = {0} AND peak-rpm = (-inf, 5350) = {0} THEN class = {0.38} [0.28,0.48] (p=7.0, n=2.0, P=24.0, N=119.0)

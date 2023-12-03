@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.4809410363311495
+r2: 0.6086956521739131
+r3: 0.576841053622548
+r4: 0.5004545312059183
+r5: 0.5620657137184832
+r6: 0.5836807623585467
+r7: 0.4999599120355523
+r8: 0.6847826086956521
+r9: 0.6086956521739131
+r10: 0.5836807623585467
+r11: 0.5358844550327576
+r12: 0.5470210100429237
+r13: 0.5836807623585467
+r14: 0.7037037037037037
+r15: 0.7037037037037037
+r16: 0.6851851851851851
+________________________________
+r1: IF 2-of-3(education_level != age, age = {2}, marital_status != age) = {0} THEN class = {1} (p=22.0, n=6.0, P=46.0, N=73.0)
+r2: IF marital_status != education_level = {0} AND age != {4} = {0} AND education_level != {1} = {1} THEN class = {1} (p=10.0, n=0.0, P=46.0, N=73.0)
+r3: IF marital_status != age = {1} AND age != {4} = {0} AND marital_status != {4} = {0} AND education_level != {1} = {1} THEN class = {1} (p=26.0, n=5.0, P=46.0, N=73.0)
+r4: IF age = {1} = {1} AND 2-of-3(education_level != {1}, hobby = {3}, marital_status != education_level) = {1} THEN class = {1} (p=16.0, n=3.0, P=46.0, N=73.0)
+r5: IF age = {1} = {1} AND marital_status != education_level = {1} AND education_level != {4} = {0} AND marital_status != {4} = {0} THEN class = {1} (p=25.0, n=5.0, P=46.0, N=73.0)
+r6: IF marital_status = {1} = {1} AND age != {4} = {0} AND education_level != age = {1} AND education_level != {4} = {0} THEN class = {1} (p=24.0, n=4.0, P=46.0, N=73.0)
+r7: IF 2-of-3(age = {1}, education_level != age, marital_status != age) = {0} THEN class = {2} (p=21.0, n=5.0, P=46.0, N=73.0)
+r8: IF 2-of-3(hobby = {3}, age = {2}, marital_status != age) = {1} AND education_level != {2} = {1} THEN class = {2} (p=17.0, n=0.0, P=46.0, N=73.0)
+r9: IF marital_status != education_level = {0} AND age != {4} = {0} AND education_level != {2} = {1} THEN class = {2} (p=10.0, n=0.0, P=46.0, N=73.0)
+r10: IF marital_status != age = {1} AND age != {4} = {0} AND marital_status != {4} = {0} AND education_level != {2} = {1} THEN class = {2} (p=24.0, n=4.0, P=46.0, N=73.0)
+r11: IF age = {2} = {1} AND 2-of-3(education_level != {2}, hobby = {3}, marital_status != education_level) = {1} THEN class = {2} (p=15.0, n=2.0, P=46.0, N=73.0)
+r12: IF marital_status != education_level = {1} AND age = {2} = {1} AND education_level != {4} = {0} AND marital_status != {4} = {0} THEN class = {2} (p=24.0, n=5.0, P=46.0, N=73.0)
+r13: IF marital_status = {2} = {1} AND age != {4} = {0} AND education_level != age = {1} AND education_level != {4} = {0} THEN class = {2} (p=24.0, n=4.0, P=46.0, N=73.0)
+r14: IF age != {4} = {1} THEN class = {3} (p=11.0, n=0.0, P=27.0, N=92.0)
+r15: IF education_level != {4} = {1} THEN class = {3} (p=11.0, n=0.0, P=27.0, N=92.0)
+r16: IF marital_status != {4} = {1} THEN class = {3} (p=10.0, n=0.0, P=27.0, N=92.0)

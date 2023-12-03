@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999999957544
+r2: 0.9991430778531031
+r3: 0.9999999993460892
+r4: 0.9999810313532648
+r5: 0.9995781135246518
+r6: 0.9999946493887965
+________________________________
+r1: IF sho = chf = {0} THEN  (p=134.0, n=0.0, P=450.0, N=0.0)
+r2: IF 2-of-3(hr != <105, 114), chf = miord, sho = chf) = {1} AND cvd > av3 = {0} AND cvd = chf = {1} AND chf = miord = {1} AND sho < miord = {0} THEN  (p=72.0, n=0.0, P=450.0, N=0.0)
+r3: IF 2-of-3(cvd > av3, sho = chf, hr = (-inf, 123)) = {1} AND chf = miord = {1} AND sho < miord = {0} THEN  (p=212.0, n=0.0, P=450.0, N=0.0)
+r4: IF chf = miord = {0} AND sho < miord = {0} THEN  (p=82.0, n=0.0, P=450.0, N=0.0)
+r5: IF cvd = chf = {1} AND sho < miord = {1} THEN  (p=67.0, n=0.0, P=450.0, N=0.0)
+r6: IF cvd = chf = {0} AND cvd > av3 = {1} THEN  (p=218.0, n=0.0, P=450.0, N=0.0)

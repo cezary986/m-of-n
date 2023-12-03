@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.30000000000000004
+r2: 0.4296875
+r3: 0.4866310160427808
+r4: 0.5638655462184874
+r5: 0.6124999999999999
+r6: 0.455
+r7: 0.7142857142857143
+r8: 0.37037037037037035
+________________________________
+r1: IF disposable_income = <8993, inf) AND price_index_for_casoline = (-inf, 3.70) THEN class = {0.85} [0.79,0.92] (p=2.0, n=2.0, P=4.0, N=20.0)
+r2: IF disposable_income = (-inf, 9723.50) AND price_index_for_casoline = <1.39, 3.70) AND year = (-inf, 1984.50) THEN class = {0.74} [0.67,0.80] (p=3.0, n=1.0, P=8.0, N=16.0)
+r3: IF disposable_income = <8228, inf) THEN class = {0.71} [0.64,0.78] (p=7.0, n=4.0, P=7.0, N=17.0)
+r4: IF disposable_income = <7809.50, 8905.50) THEN class = {0.63} [0.55,0.72] (p=4.0, n=1.0, P=7.0, N=17.0)
+r5: IF price_index_for_used_cars = (-inf, 0.98) THEN class = {0.053} [-0.049,0.15] (p=3.0, n=1.0, P=4.0, N=20.0)
+r6: IF disposable_income = <6074.50, inf) AND price_index_for_used_cars = (-inf, 1.00) THEN class = {0.19} [0.077,0.30] (p=3.0, n=2.0, P=4.0, N=20.0)
+r7: IF disposable_income = (-inf, 8228) AND price_index_for_casoline = (-inf, 1.65) AND price_index_for_used_cars = <1.00, inf) THEN class = {0.47} [0.32,0.63] (p=3.0, n=1.0, P=3.0, N=21.0)
+r8: IF year = <1983.50, inf) THEN class = {0.83} [0.75,0.91] (p=2.0, n=1.0, P=6.0, N=18.0)

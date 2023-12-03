@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999998232421
+r2: 1.0
+r3: 1.0
+r4: 0.9999999999998891
+r5: 0.9999999999999998
+r6: 1.0
+________________________________
+r1: IF ast < platelet AND ascites = hepato AND trt > hepato AND alk.phos != <558.50, 601) AND age = (-inf, 63.94) THEN  (p=111.0, n=0.0, P=376.0, N=0.0)
+r2: IF bili = (-inf, 1.20) THEN  (p=171.0, n=0.0, P=376.0, N=0.0)
+r3: IF bili = (-inf, 2.60) THEN  (p=255.0, n=0.0, P=376.0, N=0.0)
+r4: IF albumin = (-inf, 3.44) AND platelet = (-inf, 227) AND age != <56.58, 58.77) THEN  (p=69.0, n=0.0, P=376.0, N=0.0)
+r5: IF bili > stage THEN  (p=102.0, n=0.0, P=376.0, N=0.0)
+r6: IF bili < protime AND protime != <11.65, 13) THEN  (p=319.0, n=0.0, P=376.0, N=0.0)

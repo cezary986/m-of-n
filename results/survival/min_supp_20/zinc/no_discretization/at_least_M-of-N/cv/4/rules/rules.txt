@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 0.9999999999745
+r5: 1.0
+r6: 0.8441215644418932
+________________________________
+r1: IF sq3 = niq1 = {1} THEN  (p=71.0, n=0.0, P=388.0, N=0.0)
+r2: IF zncent < stdagepill = {0} AND sqt < niqt = {0} AND pqt = sqt = {0} THEN  (p=289.0, n=0.0, P=388.0, N=0.0)
+r3: IF sq3 = caq4 = {1} THEN  (p=70.0, n=0.0, P=388.0, N=0.0)
+r4: IF zncent < stdagepill = {1} THEN  (p=54.0, n=0.0, P=388.0, N=0.0)
+r5: IF zncent < stdagepill = {0} AND sqt < niqt = {0} AND sq4 = caq3 = {0} THEN  (p=291.0, n=0.0, P=388.0, N=0.0)
+r6: IF sq3 = caq4 = {0} AND sq2 = caq3 = {1} AND sqt < niqt = {1} AND sq3 = niq1 = {0} THEN  (p=9.0, n=0.0, P=388.0, N=0.0)

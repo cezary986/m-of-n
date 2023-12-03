@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 0.9999415942346535
+r2: 0.9999995022535391
+r3: 0.9941348785036469
+r4: 0.9964842701615606
+r5: 0.9999980722400079
+r6: 0.9998579125631131
+r7: 0.9746810449028479
+r8: 0.973925637043427
+r9: 0.9996453996120188
+r10: 0.7233586989248634
+r11: 0.99899635779972
+r12: 0.9579105298037027
+r13: 0.9993234814280358
+r14: 0.6804136368340806
+r15: 0.9999833813412439
+________________________________
+r1: IF iinfct = condom AND npartner = os30d AND os30d > discharge THEN  (p=35.0, n=0.0, P=790.0, N=0.0)
+r2: IF npartner > os30d AND age = (-inf, 18.50) THEN  (p=268.0, n=0.0, P=790.0, N=0.0)
+r3: IF os12m > os30d AND os30d < dchexam AND os30d = discharge AND os30d = rs30d AND os30d = vagina AND yschool = <11.50, inf) THEN  (p=24.0, n=0.0, P=790.0, N=0.0)
+r4: IF discharge > itch AND discharge > lesion AND os30d = discharge AND rs30d < discharge THEN  (p=47.0, n=0.0, P=790.0, N=0.0)
+r5: IF abdpain = discharge AND discharge = abnode AND discharge = vagina AND os12m > discharge THEN  (p=122.0, n=0.0, P=790.0, N=0.0)
+r6: IF os30d < discharge AND os30d = abdpain AND os30d = abnode AND os30d = rash AND os30d = rs12m AND age != <17.50, 20) THEN  (p=155.0, n=0.0, P=790.0, N=0.0)
+r7: IF npartner < iinfct AND os30d = itch AND rs30d < itch AND iinfct = <2.50, inf) THEN  (p=9.0, n=0.0, P=790.0, N=0.0)
+r8: IF iinfct = condom AND rs30d > abdpain AND rs30d > itch THEN  (p=10.0, n=0.0, P=790.0, N=0.0)
+r9: IF os30d = itch AND os30d = lesion AND os30d = rash AND rs12m < discharge THEN  (p=189.0, n=0.0, P=790.0, N=0.0)
+r10: IF npartner < iinfct AND iinfct < condom AND abdpain < discharge AND discharge > dysuria AND npartner = discharge AND os12m = discharge AND yschool = (-inf, 13.50) AND age = (-inf, 21.50) THEN  (p=5.0, n=0.0, P=790.0, N=0.0)
+r11: IF os30d = itch THEN  (p=523.0, n=0.0, P=790.0, N=0.0)
+r12: IF os12m > os30d AND os30d < itch AND os30d = lesion THEN  (p=13.0, n=0.0, P=790.0, N=0.0)
+r13: IF vagina = dchexam THEN  (p=128.0, n=0.0, P=790.0, N=0.0)
+r14: IF os30d = dysuria AND rs30d < abdpain AND rs30d < dysuria THEN  (p=6.0, n=0.0, P=790.0, N=0.0)
+r15: IF os12m = abdpain THEN  (p=504.0, n=0.0, P=790.0, N=0.0)

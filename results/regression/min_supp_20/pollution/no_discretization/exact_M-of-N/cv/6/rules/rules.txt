@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.4595588235294118
+r2: 0.4816135084427768
+r3: 0.536842105263158
+r4: 0.4094117647058824
+r5: 0.6535326086956522
+r6: 0.5965909090909091
+r7: 0.2676923076923077
+r8: 0.457948717948718
+r9: 0.4529516766543414
+r10: 0.317775974025974
+r11: 0.47916666666666663
+________________________________
+r1: IF NONW > HC = {0} AND NONW < POOR = {1} AND 2-of-3(EDUC < POOR, PREC < WWDRK, WWDRK > HC) = {1} AND 2-of-3(EDUC < POOR, PREC > JANT, POPN < NONW) = {1} AND 2-of-3(EDUC < POOR, POOR < SO, POPN < NONW) = {1} THEN class = {0.55} [0.45,0.66] (p=5.0, n=1.0, P=20.0, N=34.0)
+r2: IF WWDRK > SO = {0} AND 2-of-3(WWDRK > HC, EDUC < POOR, JANT > HC) = {0} AND 2-of-3(PREC > JANT, POOR < SO, POPN < NONW) = {0} AND 2-of-3(EDUC < POOR, PREC < WWDRK, WWDRK > HC) = {0} AND OVR65 > HC = {0} AND 2-of-3(POPN < NONW, PREC > JANT, JANT > NOX) = {0} THEN class = {0.61} [0.54,0.67] (p=4.0, n=1.0, P=13.0, N=41.0)
+r3: IF 2-of-3(WWDRK > HC, POOR < SO, PREC > JANT) = {0} AND 2-of-3(WWDRK > HC, OVR65 < HC, POPN < NONW) = {0} AND PREC > JANT = {1} AND 2-of-3(EDUC < POOR, PREC < WWDRK, WWDRK > HC) = {0} AND 2-of-3(PREC > JANT, EDUC = <10.25, inf), POPN < NONW) = {0} THEN class = {0.71} [0.62,0.81] (p=8.0, n=2.0, P=16.0, N=38.0)
+r4: IF NONW < POOR = {1} AND EDUC < POOR = {1} AND 2-of-3(PREC > JANT, POOR < SO, POPN < NONW) = {1} AND 2-of-3(EDUC < POOR, PREC < WWDRK, WWDRK > HC) = {0} THEN class = {0.29} [0.11,0.47] (p=4.0, n=1.0, P=20.0, N=34.0)
+r5: IF 2-of-3(WWDRK > HC, PREC > JANT, POPN < NONW) = {0} AND 2-of-3(WWDRK > HC, POPN < NONW, EDUC < POOR) = {0} AND 2-of-3(WWDRK > HC, POPN < NONW, JANT > NOX) = {0} AND 2-of-3(EDUC < POOR, JANT != <30, 34), POPN < NONW) = {1} AND 2-of-3(WWDRK > HC, POPN < NONW, JANT > HC) = {0} THEN class = {0.47} [0.42,0.53] (p=5.0, n=1.0, P=8.0, N=46.0)
+r6: IF 2-of-3(WWDRK > HC, PREC > JANT, POPN < NONW) = {0} AND 2-of-3(WWDRK > HC, OVR65 < HC, POPN < NONW) = {1} AND HUMID = <57, inf) = {0} THEN class = {0.40} [0.34,0.47] (p=5.0, n=1.0, P=10.0, N=44.0)
+r7: IF 2-of-3(WWDRK > HC, PREC > JANT, POPN < NONW) = {1} AND POOR < SO = {0} THEN class = {0.25} [0.091,0.41] (p=3.0, n=2.0, P=15.0, N=39.0)
+r8: IF 2-of-3(WWDRK > HC, POPN < NONW, EDUC < POOR) = {1} AND 2-of-3(WWDRK > HC, PREC < WWDRK, POPN < NONW) = {1} AND POOR < SO = {1} THEN class = {0.25} [0.096,0.41] (p=4.0, n=1.0, P=15.0, N=39.0)
+r9: IF 2-of-3(WWDRK > HC, OVR65 < HC, POPN < NONW) = {0} AND 2-of-3(EDUC < POOR, PREC > JANT, POPN < NONW) = {0} THEN class = {0.68} [0.49,0.88] (p=18.0, n=4.0, P=31.0, N=23.0)
+r10: IF EDUC < POOR = {0} AND 2-of-3(WWDRK > HC, JANT > NOX, EDUC < POOR) = {1} THEN class = {0.39} [0.22,0.55] (p=5.0, n=2.0, P=22.0, N=32.0)
+r11: IF 2-of-3(PREC < WWDRK, JANT > HC, WWDRK > HC) = {0} AND 2-of-3(WWDRK > HC, NONW < POOR, JANT > NOX) = {0} AND 2-of-3(EDUC < POOR, JANT > HC, POPN < NONW) = {0} AND HUMID = <57, inf) = {1} AND 2-of-3(PREC > JANT, POOR < SO, POPN < NONW) = {0} THEN class = {0.74} [0.62,0.85] (p=5.0, n=1.0, P=18.0, N=36.0)

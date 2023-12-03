@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 1.0
+r2: 0.9999999999960129
+r3: 0.999733287199649
+r4: 1.0
+________________________________
+r1: IF FRAC = (-inf, 0.33) THEN  (p=124.0, n=0.0, P=518.0, N=0.0)
+r2: IF FRAC = (-inf, 0.99) THEN  (p=356.0, n=0.0, P=518.0, N=0.0)
+r3: IF SITE = <0.50, inf) AND LNDT = (-inf, 2.24) AND BECK = (-inf, 24) AND FRAC = (-inf, 1.92) THEN  (p=90.0, n=0.0, P=518.0, N=0.0)
+r4: IF FRAC = <0.81, inf) THEN  (p=263.0, n=0.0, P=518.0, N=0.0)

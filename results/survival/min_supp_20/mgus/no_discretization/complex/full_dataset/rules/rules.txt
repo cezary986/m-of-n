@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.9999999745241643
+r2: 0.999999999810075
+r3: 0.9999999999860557
+r4: 0.9999999931117585
+r5: 1.0
+r6: 0.99999999847044
+r7: 0.9999999999999999
+r8: 0.9999987033216744
+r9: 1.0
+r10: 0.9999999999993748
+r11: 0.9999999999999991
+r12: 0.9999999999939827
+r13: 0.9999999999850934
+________________________________
+r1: IF mspike = (-inf, 1.75) AND hgb = (-inf, 12.45) AND mspike != <0.85, 1.10) AND hgb != <11.35, 12.20) AND age != <34.50, 63) THEN  (p=18.0, n=0.0, P=241.0, N=0.0)
+r2: IF age = (-inf, 57.50) THEN  (p=70.0, n=0.0, P=241.0, N=0.0)
+r3: IF hgb = (-inf, 14.35) AND age = <65, inf) AND hgb != <12.05, 12.40) AND age != <68.50, 73) THEN  (p=65.0, n=0.0, P=241.0, N=0.0)
+r4: IF hgb != <10.65, 11) AND hgb != <11.70, 12.20) AND age = (-inf, 75.50) AND hgb != <11.60, 11.90) AND dxyr != <63.50, 66) AND pcdx = {?, MA, MM} AND pctime != <3683, 4201) AND age != <66.50, 75) THEN  (p=110.0, n=0.0, P=241.0, N=0.0)
+r5: IF hgb != <13.55, 13.80) AND hgb != <11.60, 11.90) AND hgb != <10.65, 11) AND hgb = (-inf, 15.05) AND mspike != <0.90, 1.30) AND hgb != <14.15, 14.60) AND age != <34.50, 63) THEN  (p=79.0, n=0.0, P=241.0, N=0.0)
+r6: IF age > dxyr AND hgb != <14.35, 14.90) THEN  (p=78.0, n=0.0, P=241.0, N=0.0)
+r7: IF hgb != <9.10, 11.80) AND alb != <2.15, 2.90) AND pctime != <1030, 3775) AND age = (-inf, 61.50) THEN  (p=68.0, n=0.0, P=241.0, N=0.0)
+r8: IF creat < mspike AND age < dxyr AND mspike = (-inf, 2.65) AND creat = (-inf, 1.15) AND pcdx = {?, AM, MA} AND age != <68.50, 74) THEN  (p=71.0, n=0.0, P=241.0, N=0.0)
+r9: IF hgb != <10.30, 11.40) AND dxyr = (-inf, 71) AND alb != <2.05, 2.90) AND pctime != <1030, 3775) AND age = <34.50, 63) THEN  (p=77.0, n=0.0, P=241.0, N=0.0)
+r10: IF hgb != <12.85, 13.10) AND creat != <0.85, 1.10) AND hgb != <14.15, 14.50) AND pcdx = {?, AM, MA} AND alb != <3.05, 3.30) AND age != <34.50, 63) THEN  (p=54.0, n=0.0, P=241.0, N=0.0)
+r11: IF hgb != <11.55, 12.10) AND hgb = <10.15, 16.50) AND hgb != <10.90, 11.40) AND dxyr = (-inf, 71) AND alb != <2.15, 2.90) AND age = <34.50, 63) THEN  (p=81.0, n=0.0, P=241.0, N=0.0)
+r12: IF age > dxyr AND age != <66.50, 74) THEN  (p=56.0, n=0.0, P=241.0, N=0.0)
+r13: IF age = (-inf, 61) THEN  (p=96.0, n=0.0, P=241.0, N=0.0)

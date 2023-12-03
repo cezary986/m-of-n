@@ -1,0 +1,68 @@
+Rules qualities:
+r1: 0.4311563471868815
+r2: 0.36017943409247755
+r3: 0.5272825346354759
+r4: 0.32682512733446517
+r5: 0.26694214876033057
+r6: 0.36873420182772704
+r7: 0.3822843822843823
+r8: 0.5225193525686136
+r9: 0.36017943409247755
+r10: 0.49310344827586206
+r11: 0.43046875
+r12: 0.30417789757412395
+r13: 0.33260233918128657
+r14: 0.5178313749742322
+r15: 0.43629340841816483
+r16: 0.6511627906976745
+r17: 0.39450766947055915
+r18: 0.41494636713215943
+r19: 0.4294979530273649
+r20: 0.42029826014913013
+r21: 0.43028022833419827
+r22: 0.296755625327054
+r23: 0.3930980799169694
+r24: 0.29340277777777773
+r25: 0.4539360524021583
+r26: 0.3697077690662866
+r27: 0.37314049586776865
+r28: 0.43629340841816483
+r29: 0.43733209203351514
+r30: 0.346182006500232
+r31: 0.29003001435469133
+r32: 0.3635185904909962
+r33: 0.26239618654479335
+________________________________
+r1: IF T = {2} AND Grade = {3.0} THEN class = {0.59} [0.38,0.81] (p=5.0, n=1.0, P=45.0, N=131.0)
+r2: IF Status = {0} AND Site = {2} AND Treatment = {2} AND Age = (-inf, 55) THEN class = {0.36} [0.32,0.41] (p=2.0, n=1.0, P=15.0, N=161.0)
+r3: IF Status = {0} AND T = {3} AND sex = {1} THEN class = {0.72} [0.51,0.93] (p=13.0, n=4.0, P=28.0, N=148.0)
+r4: IF Status = {0} AND Site = {1} AND Grade = {2.0} THEN class = {0.47} [0.26,0.67] (p=8.0, n=3.0, P=62.0, N=114.0)
+r5: IF Site = {1} AND Treatment = {1} AND Inst = {2} AND Age = (-inf, 55.50) THEN class = {0.51} [0.30,0.72] (p=2.0, n=1.0, P=55.0, N=121.0)
+r6: IF Status = {0} AND Site = {2} AND Treatment = {1} THEN class = {0.54} [0.37,0.72] (p=7.0, n=3.0, P=37.0, N=139.0)
+r7: IF Status = {0} AND Site = {4} AND Treatment = {2} THEN class = {0.72} [0.48,0.96] (p=7.0, n=3.0, P=33.0, N=143.0)
+r8: IF Status = {0} AND T = {3} AND Age = (-inf, 74.50) THEN class = {0.72} [0.50,0.93] (p=16.0, n=6.0, P=29.0, N=147.0)
+r9: IF Site = {1} AND N = {2} AND Age = (-inf, 55) THEN class = {0.15} [0.13,0.16] (p=2.0, n=1.0, P=15.0, N=161.0)
+r10: IF Status = {1} AND Site = {1} AND Age = (-inf, 75.50) THEN class = {0.17} [0.0019,0.35] (p=40.0, n=4.0, P=116.0, N=60.0)
+r11: IF T = {4} AND Age = <75, inf) THEN class = {0.17} [0.16,0.19] (p=3.0, n=1.0, P=16.0, N=160.0)
+r12: IF Status = {1} AND Treatment = {1} AND Grade = {3.0} AND N = {3} THEN class = {0.18} [0.04,0.32] (p=5.0, n=1.0, P=106.0, N=70.0)
+r13: IF Site = {2} AND Treatment = {2} AND Inst = {3} THEN class = {0.068} [0.042,0.094] (p=2.0, n=1.0, P=24.0, N=152.0)
+r14: IF Status = {1} AND Condition = {2.0} AND N = {3} THEN class = {0.089} [-0.012,0.19] (p=19.0, n=2.0, P=77.0, N=99.0)
+r15: IF Status = {1} AND Condition = {2.0} AND Treatment = {1} AND Grade = {2.0} AND Age = (-inf, 73.50) THEN class = {0.11} [0.016,0.21] (p=8.0, n=1.0, P=81.0, N=95.0)
+r16: IF Treatment = {2} AND T = {3} AND Age = <64.50, 65.50) THEN class = {0.22} [0.21,0.22] (p=3.0, n=1.0, P=4.0, N=172.0)
+r17: IF Site = {4} AND Inst = {3} AND T = {2} AND Age = (-inf, 64.50) THEN class = {0.36} [0.25,0.47] (p=4.0, n=1.0, P=47.0, N=129.0)
+r18: IF Status = {1} AND Site = {2} AND Treatment = {2} AND T = {4} THEN class = {0.15} [0.092,0.20] (p=5.0, n=1.0, P=54.0, N=122.0)
+r19: IF Treatment = {2} AND T = {4} AND Grade = {2.0} AND N = {3} AND Age = (-inf, 58.50) THEN class = {0.13} [0.021,0.24] (p=8.0, n=1.0, P=85.0, N=91.0)
+r20: IF Status = {1} AND Condition = {1.0} AND Grade = {3.0} AND Age = <54, 71.50) THEN class = {0.28} [0.21,0.35] (p=4.0, n=1.0, P=34.0, N=142.0)
+r21: IF Treatment = {2} AND Inst = {2} AND sex = {1} AND Age = <53.50, inf) THEN class = {0.29} [0.13,0.45] (p=9.0, n=1.0, P=94.0, N=82.0)
+r22: IF Status = {1} AND Condition = {1.0} AND Site = {4} AND Grade = {2.0} AND N = {3} THEN class = {0.16} [0.025,0.29] (p=8.0, n=2.0, P=98.0, N=78.0)
+r23: IF Status = {1} AND Site = {4} AND Treatment = {1} AND sex = {1} AND Age = <43.50, 67.50) THEN class = {0.14} [0.0064,0.27] (p=7.0, n=1.0, P=94.0, N=82.0)
+r24: IF Condition = {1.0} AND Site = {2} AND Treatment = {1} AND T = {4} AND Age = <48.50, inf) THEN class = {0.39} [0.27,0.51] (p=4.0, n=2.0, P=48.0, N=128.0)
+r25: IF Status = {1} AND Treatment = {1} AND Grade = {2.0} AND Age = <70.50, 74.50) THEN class = {0.32} [0.22,0.43] (p=6.0, n=1.0, P=47.0, N=129.0)
+r26: IF Condition = {1.0} AND Treatment = {1} AND T = {3} AND sex = {1} AND Grade = {1.0} AND Age = <49, 73.50) THEN class = {0.24} [0.14,0.33] (p=4.0, n=1.0, P=61.0, N=115.0)
+r27: IF Status = {1} AND Treatment = {1} AND sex = {1} AND Age = (-inf, 59.50) THEN class = {0.16} [0.0018,0.31] (p=19.0, n=3.0, P=110.0, N=66.0)
+r28: IF Site = {4} AND sex = {2} AND Grade = {2.0} THEN class = {0.089} [-0.022,0.20] (p=8.0, n=1.0, P=81.0, N=95.0)
+r29: IF Condition = {2.0} AND Status = {1} AND Age = <47, 73) THEN class = {0.095} [0.0038,0.19] (p=24.0, n=6.0, P=73.0, N=103.0)
+r30: IF Inst = {2} AND Grade = {1.0} THEN class = {0.18} [-0.0098,0.37] (p=15.0, n=2.0, P=122.0, N=54.0)
+r31: IF Condition = {1.0} AND Site = {2} AND Age = <41.50, inf) THEN class = {0.35} [0.14,0.55] (p=30.0, n=10.0, P=97.0, N=79.0)
+r32: IF Status = {1} AND Condition = {1.0} AND Site = {4} AND T = {3} AND Age = <46.50, inf) THEN class = {0.22} [0.096,0.34] (p=9.0, n=2.0, P=83.0, N=93.0)
+r33: IF Status = {1} AND Site = {4} AND Treatment = {2} AND sex = {1} AND Age = <66, inf) THEN class = {0.17} [0.11,0.24] (p=2.0, n=1.0, P=57.0, N=119.0)

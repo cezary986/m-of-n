@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.91875
+r2: 0.8371126910016977
+r3: 0.8503854851973685
+r4: 0.8291602167182662
+r5: 0.83125
+r6: 0.575
+r7: 0.868421052631579
+r8: 0.8521646859083192
+r9: 0.7747607655502392
+r10: 0.5394736842105263
+r11: 0.6608253588516745
+r12: 0.6447368421052632
+________________________________
+r1: IF #(survival = <22.50, inf) OR survival = <15.50, 19.50) OR survival = <11, 15)) AND #(age-at-heart-attack = (-inf, 73.50) OR age-at-heart-attack = <76, inf)) AND #(wall-motion-index = (-inf, 1.91) OR wall-motion-index = <1.98, inf)) THEN class = {0} (p=67.0, n=0.0, P=80.0, N=38.0)
+r2: IF #(survival = <22.50, inf) OR survival = <11, 19.50)) AND wall-motion-score = (-inf, 20.50) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=61.0, n=1.0, P=80.0, N=38.0)
+r3: IF #(survival = <22.50, inf) OR survival = <8.25, 19.50)) AND age-at-heart-attack = (-inf, 73.50) AND wall-motion-index = (-inf, 1.91) THEN class = {0} (p=63.0, n=1.0, P=80.0, N=38.0)
+r4: IF #(survival = <22.50, inf) OR survival = <11, 21)) AND lvdd = (-inf, 5.82) THEN class = {0} (p=66.0, n=2.0, P=80.0, N=38.0)
+r5: IF epss = (-inf, 18.90) AND survival = <15.50, inf) AND lvdd = (-inf, 5.80) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=53.0, n=0.0, P=80.0, N=38.0)
+r6: IF epss != <10.65, 25) AND wall-motion-score = <10.50, 15) AND lvdd = <4.57, inf) THEN class = {0} (p=12.0, n=0.0, P=80.0, N=38.0)
+r7: IF #(mult < group OR mult = <0.32, 0.93)) AND survival = (-inf, 8.25) THEN class = {1} (p=28.0, n=0.0, P=38.0, N=80.0)
+r8: IF survival = (-inf, 8.25) THEN class = {1} (p=30.0, n=1.0, P=38.0, N=80.0)
+r9: IF age-at-heart-attack > group AND survival = (-inf, 16) AND alive-at-1 != {0} THEN class = {1} (p=30.0, n=3.0, P=38.0, N=80.0)
+r10: IF lvdd = <5.79, 5.95) THEN class = {1} (p=3.0, n=0.0, P=38.0, N=80.0)
+r11: IF mult < group AND fractional-shortening = (-inf, 0.19) AND survival = (-inf, 21.50) THEN class = {1} (p=20.0, n=2.0, P=38.0, N=80.0)
+r12: IF epss > group AND fractional-shortening = <0.15, 0.23) AND mult = <0.79, 0.96) AND age-at-heart-attack = <51.50, inf) THEN class = {1} (p=11.0, n=0.0, P=38.0, N=80.0)

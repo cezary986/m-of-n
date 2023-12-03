@@ -1,0 +1,60 @@
+Rules qualities:
+r1: 0.7588522588522588
+r2: 0.46029143897996355
+r3: 0.3279279279279279
+r4: 0.8333333333333333
+r5: 0.42680957274996323
+r6: 0.46499733143568756
+r7: 0.3668074324324324
+r8: 0.7087608524072613
+r9: 0.5302250995422546
+r10: 0.8287795992714025
+r11: 0.8292515337423313
+r12: 0.551051051051051
+r13: 0.46029143897996355
+r14: 0.75
+r15: 0.589853719265484
+r16: 0.5865217391304348
+r17: 0.6659340659340659
+r18: 0.6345158906134516
+r19: 0.6334785766158315
+r20: 0.9166666666666667
+r21: 0.75
+r22: 0.8333333333333333
+r23: 0.5749955253266511
+r24: 0.8333333333333333
+r25: 0.725164097647319
+r26: 0.7857142857142857
+r27: 0.7437784258999169
+r28: 0.5805803571428572
+r29: 0.4609260510710028
+________________________________
+r1: IF MMIN = <12000, inf) AND MMAX = (-inf, 48000) THEN class = {0.30} [0.23,0.37] (p=5.0, n=1.0, P=6.0, N=182.0)
+r2: IF CACH = (-inf, 192) AND CHMAX = <120, inf) THEN class = {0.74} [0.39,1.09] (p=2.0, n=1.0, P=5.0, N=183.0)
+r3: IF CHMIN = <29, inf) THEN class = {1} [0.63,1.37] (p=1.0, n=1.0, P=3.0, N=185.0)
+r4: IF vendor = {ncr} AND MYCT = (-inf, 44) AND CACH = (-inf, 80) THEN class = {0.053} [0.053,0.053] (p=2.0, n=0.0, P=3.0, N=185.0)
+r5: IF MMAX = <12000, inf) AND MYCT = (-inf, 44) AND CHMAX = <28, inf) AND CHMIN = <14, inf) THEN class = {0.34} [0.054,0.62] (p=5.0, n=1.0, P=49.0, N=139.0)
+r6: IF CACH = <40, inf) AND CHMIN = <14, inf) THEN class = {0.30} [0.06,0.54] (p=9.0, n=2.0, P=42.0, N=146.0)
+r7: IF CACH = <136.50, inf) THEN class = {0.22} [0.068,0.37] (p=3.0, n=1.0, P=40.0, N=148.0)
+r8: IF MMIN = (-inf, 12000) AND MMAX = <28000, inf) AND MYCT = (-inf, 39) AND CACH = (-inf, 80) THEN class = {0.21} [0.19,0.23] (p=5.0, n=1.0, P=7.0, N=181.0)
+r9: IF MMIN = <6620, inf) AND CACH = (-inf, 112) AND CHMIN = (-inf, 14) THEN class = {0.21} [0.045,0.37] (p=12.0, n=1.0, P=61.0, N=127.0)
+r10: IF MMIN = <4620, inf) AND MMAX = (-inf, 22485) THEN class = {0.096} [0.089,0.10] (p=5.0, n=1.0, P=5.0, N=183.0)
+r11: IF MMAX = <22485, inf) AND CACH = (-inf, 80.50) THEN class = {0.21} [0.099,0.31] (p=19.0, n=1.0, P=25.0, N=163.0)
+r12: IF vendor = {magnuson} AND CHMAX = <14, inf) THEN class = {0.06} [0.057,0.063] (p=2.0, n=1.0, P=3.0, N=185.0)
+r13: IF MYCT = (-inf, 54.50) AND CHMAX = (-inf, 14) AND CHMIN = <5, inf) THEN class = {0.083} [0.076,0.089] (p=2.0, n=1.0, P=5.0, N=183.0)
+r14: IF MMAX = <14000, inf) AND vendor = {cambex} THEN class = {0.048} [0.048,0.048] (p=2.0, n=0.0, P=4.0, N=184.0)
+r15: IF MMAX = <14000, inf) AND MYCT = (-inf, 58.50) AND CACH = (-inf, 48) AND CHMIN = (-inf, 7) THEN class = {0.06} [0.036,0.083] (p=11.0, n=1.0, P=35.0, N=153.0)
+r16: IF MMAX = (-inf, 28000) AND MYCT = (-inf, 73.50) AND CACH = <28, inf) THEN class = {0.083} [0.044,0.12] (p=19.0, n=4.0, P=38.0, N=150.0)
+r17: IF MMAX = <14000, inf) AND MYCT = (-inf, 192.50) AND CACH = (-inf, 20) AND CHMIN = (-inf, 3.50) THEN class = {0.05} [0.047,0.053] (p=7.0, n=1.0, P=13.0, N=175.0)
+r18: IF MMIN = (-inf, 3000) AND MMAX = <14000, 28000) AND CACH = (-inf, 96) AND CHMIN = (-inf, 4.50) THEN class = {0.048} [0.038,0.058] (p=10.0, n=1.0, P=24.0, N=164.0)
+r19: IF MMAX = <10000, 14000) AND CHMAX = (-inf, 27.50) AND CHMIN = (-inf, 7) THEN class = {0.036} [0.029,0.043] (p=8.0, n=1.0, P=18.0, N=170.0)
+r20: IF vendor = {formation} THEN class = {0.016} [0.016,0.016] (p=5.0, n=0.0, P=6.0, N=182.0)
+r21: IF MMAX = (-inf, 10000) AND vendor = {nas} AND CACH = <24, inf) THEN class = {0.031} [0.031,0.031] (p=2.0, n=0.0, P=4.0, N=184.0)
+r22: IF MMAX = <7150, 10000) AND vendor = {ipl} THEN class = {0.024} [0.024,0.024] (p=2.0, n=0.0, P=3.0, N=185.0)
+r23: IF MMIN = (-inf, 3550) AND MMAX = <7150, 10000) AND CACH = (-inf, 48) AND CHMIN = (-inf, 1.50) THEN class = {0.021} [0.015,0.027] (p=18.0, n=4.0, P=37.0, N=151.0)
+r24: IF vendor = {magnuson} AND CACH = <16, inf) AND CHMAX = (-inf, 7) THEN class = {0.025} [0.025,0.025] (p=2.0, n=0.0, P=3.0, N=185.0)
+r25: IF MMAX = <7150, 10000) AND CHMAX = (-inf, 16) THEN class = {0.022} [0.015,0.029] (p=30.0, n=5.0, P=39.0, N=149.0)
+r26: IF MMAX = (-inf, 7150) AND vendor = {sperry} THEN class = {0.0074} [0.0074,0.0074] (p=4.0, n=0.0, P=7.0, N=181.0)
+r27: IF MMAX = (-inf, 6250) THEN class = {0.0074} [-0.014,0.029] (p=73.0, n=4.0, P=106.0, N=82.0)
+r28: IF MMIN = <1250, 2150) AND MMAX = <6150, 10000) AND MYCT = (-inf, 163.50) AND CACH = (-inf, 10) THEN class = {0.024} [0.021,0.026] (p=7.0, n=1.0, P=20.0, N=168.0)
+r29: IF MYCT = <115.50, 201.50) AND CACH = <4, inf) AND CHMAX = (-inf, 31.50) THEN class = {0.031} [0.0036,0.059] (p=16.0, n=1.0, P=127.0, N=61.0)

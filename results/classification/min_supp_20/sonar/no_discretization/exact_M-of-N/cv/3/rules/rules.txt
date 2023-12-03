@@ -1,0 +1,70 @@
+Rules qualities:
+r1: 0.5804597701149425
+r2: 0.5747126436781609
+r3: 0.5689655172413793
+r4: 0.5632183908045977
+r5: 0.5632183908045977
+r6: 0.5632183908045977
+r7: 0.6724137931034483
+r8: 0.5574712643678161
+r9: 0.5574712643678161
+r10: 0.5574712643678161
+r11: 0.6666666666666666
+r12: 0.6609195402298851
+r13: 0.5459770114942528
+r14: 0.5402298850574713
+r15: 0.5344827586206896
+r16: 0.5114942528735632
+r17: 0.595
+r18: 0.585
+r19: 0.58
+r20: 0.5700000000000001
+r21: 0.565
+r22: 0.565
+r23: 0.565
+r24: 0.56
+r25: 0.56
+r26: 0.56
+r27: 0.56
+r28: 0.555
+r29: 0.555
+r30: 0.55
+r31: 0.55
+r32: 0.545
+r33: 0.54
+r34: 0.535
+________________________________
+r1: IF attribute_37 = <0.48, 0.56) = {1} THEN class = {Rock} (p=14.0, n=0.0, P=87.0, N=100.0)
+r2: IF attribute_48 = <0.041, 0.047) = {1} THEN class = {Rock} (p=13.0, n=0.0, P=87.0, N=100.0)
+r3: IF attribute_10 = <0.10, 0.12) = {1} THEN class = {Rock} (p=12.0, n=0.0, P=87.0, N=100.0)
+r4: IF attribute_12 = <0.038, 0.075) = {1} THEN class = {Rock} (p=11.0, n=0.0, P=87.0, N=100.0)
+r5: IF attribute_5 = <0.026, 0.035) = {1} THEN class = {Rock} (p=11.0, n=0.0, P=87.0, N=100.0)
+r6: IF attribute_9 = <0.062, 0.076) = {1} THEN class = {Rock} (p=11.0, n=0.0, P=87.0, N=100.0)
+r7: IF attribute_9 = <0.062, 0.10) = {1} AND attribute_12 < attribute_31 = {1} THEN class = {Rock} (p=30.0, n=0.0, P=87.0, N=100.0)
+r8: IF attribute_24 = <0.54, 0.59) = {1} THEN class = {Rock} (p=10.0, n=0.0, P=87.0, N=100.0)
+r9: IF attribute_35 = <0.53, 0.59) = {1} THEN class = {Rock} (p=10.0, n=0.0, P=87.0, N=100.0)
+r10: IF attribute_43 = <0.17, 0.19) = {1} THEN class = {Rock} (p=10.0, n=0.0, P=87.0, N=100.0)
+r11: IF attribute_23 < attribute_24 = {1} AND attribute_12 = <0.038, 0.13) = {1} THEN class = {Rock} (p=29.0, n=0.0, P=87.0, N=100.0)
+r12: IF attribute_11 = (-inf, 0.11) = {1} AND attribute_3 = <0.0019, 0.047) = {1} THEN class = {Rock} (p=28.0, n=0.0, P=87.0, N=100.0)
+r13: IF attribute_28 = <0.46, 0.51) = {1} THEN class = {Rock} (p=8.0, n=0.0, P=87.0, N=100.0)
+r14: IF attribute_26 = <0.23, 0.28) = {1} THEN class = {Rock} (p=7.0, n=0.0, P=87.0, N=100.0)
+r15: IF attribute_58 = <0.0047, 0.005) = {1} THEN class = {Rock} (p=6.0, n=0.0, P=87.0, N=100.0)
+r16: IF attribute_30 = <0.51, 0.52) = {1} THEN class = {Rock} (p=2.0, n=0.0, P=87.0, N=100.0)
+r17: IF attribute_44 = <0.42, 0.58) = {1} THEN class = {Mine} (p=19.0, n=0.0, P=100.0, N=87.0)
+r18: IF attribute_12 = <0.26, 0.29) = {1} THEN class = {Mine} (p=17.0, n=0.0, P=100.0, N=87.0)
+r19: IF attribute_52 = <0.024, inf) = {1} THEN class = {Mine} (p=16.0, n=0.0, P=100.0, N=87.0)
+r20: IF attribute_37 < attribute_48 = {1} THEN class = {Mine} (p=14.0, n=0.0, P=100.0, N=87.0)
+r21: IF attribute_20 = <0.66, 0.73) = {1} THEN class = {Mine} (p=13.0, n=0.0, P=100.0, N=87.0)
+r22: IF attribute_21 = <0.68, 0.75) = {1} THEN class = {Mine} (p=13.0, n=0.0, P=100.0, N=87.0)
+r23: IF attribute_37 = <0.16, 0.19) = {1} THEN class = {Mine} (p=13.0, n=0.0, P=100.0, N=87.0)
+r24: IF attribute_12 = <0.43, 0.54) = {1} THEN class = {Mine} (p=12.0, n=0.0, P=100.0, N=87.0)
+r25: IF attribute_42 = <0.42, 0.48) = {1} THEN class = {Mine} (p=12.0, n=0.0, P=100.0, N=87.0)
+r26: IF attribute_5 = <0.069, 0.079) = {1} THEN class = {Mine} (p=12.0, n=0.0, P=100.0, N=87.0)
+r27: IF attribute_7 = <0.15, 0.16) = {1} THEN class = {Mine} (p=12.0, n=0.0, P=100.0, N=87.0)
+r28: IF attribute_11 = <0.22, 0.24) = {1} THEN class = {Mine} (p=11.0, n=0.0, P=100.0, N=87.0)
+r29: IF attribute_32 = <0.30, 0.33) = {1} THEN class = {Mine} (p=11.0, n=0.0, P=100.0, N=87.0)
+r30: IF attribute_25 = <0.95, 0.99) = {1} THEN class = {Mine} (p=10.0, n=0.0, P=100.0, N=87.0)
+r31: IF attribute_49 = <0.10, 0.13) = {1} THEN class = {Mine} (p=10.0, n=0.0, P=100.0, N=87.0)
+r32: IF attribute_10 = <0.23, 0.25) = {1} THEN class = {Mine} (p=9.0, n=0.0, P=100.0, N=87.0)
+r33: IF attribute_20 = <0.87, 0.90) = {1} THEN class = {Mine} (p=8.0, n=0.0, P=100.0, N=87.0)
+r34: IF attribute_10 = <0.25, 0.27) = {1} THEN class = {Mine} (p=7.0, n=0.0, P=100.0, N=87.0)

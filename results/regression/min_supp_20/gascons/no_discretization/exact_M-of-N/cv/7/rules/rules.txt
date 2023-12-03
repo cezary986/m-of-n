@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.7412965186074431
+r2: 0.6862745098039217
+r3: 0.45714285714285713
+r4: 0.6250000000000001
+________________________________
+r1: IF 2-of-3(price_index_for_casoline != <2.31, 3.71), disposable_income = (-inf, 8993), year < disposable_income) = {1} AND price_index_for_casoline = (-inf, 3.82) = {1} THEN class = {0.87} [0.82,0.93] (p=6.0, n=1.0, P=7.0, N=17.0)
+r2: IF 2-of-3(price_index_for_casoline = (-inf, 3.82), disposable_income = (-inf, 8993), year < disposable_income) = {1} THEN class = {0.87} [0.81,0.94] (p=7.0, n=2.0, P=7.0, N=17.0)
+r3: IF price_index_for_casoline = <1.00, 1.88) = {1} THEN class = {0.74} [0.60,0.87] (p=6.0, n=2.0, P=10.0, N=14.0)
+r4: IF price_index_for_casoline != <2.31, 3.71) = {1} AND price_index_for_casoline = (-inf, 4.00) = {1} AND 2-of-3(disposable_income != <8905.50, 9175), price_index_for_casoline != <1.83, 3.69), year < disposable_income) = {0} AND price_index_for_casoline = <1.00, 1.88) = {0} THEN class = {0.20} [-0.095,0.49] (p=7.0, n=2.0, P=8.0, N=16.0)

@@ -1,0 +1,122 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 0.6111111111111112
+r4: 1.0
+r5: 0.8860759493670887
+r6: 0.6582278481012658
+r7: 0.6708860759493671
+r8: 0.9856576492537313
+r9: 1.0
+r10: 1.0
+r11: 1.0
+r12: 0.06941865205181628
+r13: 0.14398556324423056
+r14: 0.6746987951807228
+r15: 0.6385542168674698
+r16: 0.6216752492909753
+r17: 0.5301204819277109
+r18: 0.6325301204819277
+r19: 0.6265060240963856
+r20: 0.7262292843937436
+r21: 1.0
+r22: 0.9166666666666667
+r23: 0.6944444444444444
+r24: 1.0
+r25: 0.6295008183306057
+r26: 0.23974513067061143
+r27: 0.641025641025641
+r28: 0.6111111111111112
+r29: 0.2016939536391636
+r30: 0.6442397171040387
+r31: 0.9166666666666667
+r32: 0.648338309907023
+r33: 0.7293956043956045
+r34: 0.6730769230769231
+r35: 0.6341463414634146
+r36: 0.6042615920664701
+r37: 0.5981640310908602
+r38: 0.6705851313320825
+r39: 0.6410647279549718
+r40: 0.6030722326454033
+r41: 0.6440447693601604
+r42: 0.6524390243902439
+r43: 0.6289868667917448
+r44: 0.5609756097560976
+r45: 0.7978424015009381
+r46: 0.8414634146341464
+r47: 0.836963780328807
+r48: 0.8475609756097561
+r49: 0.573170731707317
+r50: 0.5121013133208255
+r51: 0.45244624043873577
+r52: 0.5433464512881526
+r53: 0.49126407129455907
+r54: 0.42894783232809097
+r55: 1.0
+r56: 1.0
+r57: 0.8
+r58: 0.7926388888888889
+r59: 0.7918137254901961
+r60: 1.0
+________________________________
+r1: IF fruiting-bodies != shriveling AND fruit-spots = {dna} THEN class = {diaporthe-stem-canker} (p=18.0, n=0.0, P=18.0, N=597.0)
+r2: IF int-discolor = {black} THEN class = {charcoal-rot} (p=18.0, n=0.0, P=18.0, N=597.0)
+r3: IF fruiting-bodies = leaf-shread = mold-growth AND mycelium != {absent} THEN class = {rhizoctonia-root-rot} (p=4.0, n=0.0, P=18.0, N=597.0)
+r4: IF canker-lesion != {dk-brown-blk} AND stem-cankers = {below-soil} THEN class = {rhizoctonia-root-rot} (p=18.0, n=0.0, P=18.0, N=597.0)
+r5: IF canker-lesion = {dk-brown-blk} AND roots = {rotted} THEN class = {phytophthora-rot} (p=61.0, n=0.0, P=79.0, N=536.0)
+r6: IF external-decay != {firm-and-dry} AND stem-cankers = {above-soil} THEN class = {phytophthora-rot} (p=25.0, n=0.0, P=79.0, N=536.0)
+r7: IF area-damaged != {scattered} AND plant-stand != {normal} AND stem-cankers = {above-soil} THEN class = {phytophthora-rot} (p=27.0, n=0.0, P=79.0, N=536.0)
+r8: IF plant-growth = leaves = stem AND date != {september} AND canker-lesion = {dk-brown-blk} AND plant-stand != {normal} THEN class = {phytophthora-rot} (p=79.0, n=1.0, P=79.0, N=536.0)
+r9: IF int-discolor = {brown} THEN class = {brown-stem-rot} (p=40.0, n=0.0, P=40.0, N=575.0)
+r10: IF leaf-mild = {upper-surf} THEN class = {powdery-mildew} (p=18.0, n=0.0, P=18.0, N=597.0)
+r11: IF leaf-mild = {lower-surf} THEN class = {downy-mildew} (p=18.0, n=0.0, P=18.0, N=597.0)
+r12: IF leaf-shread != {absent} THEN class = {brown-spot} (p=39.0, n=141.0, P=83.0, N=532.0)
+r13: IF fruiting-bodies != shriveling AND leafspot-size != {dna} THEN class = {brown-spot} (p=31.0, n=67.0, P=83.0, N=532.0)
+r14: IF lodging != {no} AND canker-lesion = {brown} AND external-decay != {firm-and-dry} THEN class = {brown-spot} (p=29.0, n=0.0, P=83.0, N=532.0)
+r15: IF date = {may} AND precip = {gt-norm} AND leafspots-halo = {no-yellow-halos} THEN class = {brown-spot} (p=23.0, n=0.0, P=83.0, N=532.0)
+r16: IF leaf-malf = mold-growth = seed-discolor AND date = {may} AND leafspots-halo = {no-yellow-halos} THEN class = {brown-spot} (p=25.0, n=1.0, P=83.0, N=532.0)
+r17: IF fruiting-bodies = leaf-shread = mold-growth AND date = {april} AND leafspot-size = {gt-1/8} THEN class = {brown-spot} (p=5.0, n=0.0, P=83.0, N=532.0)
+r18: IF leaf-malf = mold-growth = seed-discolor AND date = {june} AND leafspot-size = {gt-1/8} AND precip = {gt-norm} THEN class = {brown-spot} (p=22.0, n=0.0, P=83.0, N=532.0)
+r19: IF leaf-malf = mold-growth = seed-discolor AND date = {june} AND leafspot-size = {gt-1/8} AND temp = {norm} AND precip != {lt-norm} AND area-damaged != {scattered} THEN class = {brown-spot} (p=21.0, n=0.0, P=83.0, N=532.0)
+r20: IF leaf-malf = mold-growth = seed-discolor AND severity != {minor} AND date != {august} AND leafspot-size = {gt-1/8} AND temp = {norm} AND fruit-spots = {absent} THEN class = {brown-spot} (p=61.0, n=10.0, P=83.0, N=532.0)
+r21: IF fruiting-bodies = mold-growth = seed-discolor AND leafspot-size = {lt-1/8} AND roots != {rotted} THEN class = {bacterial-blight} (p=18.0, n=0.0, P=18.0, N=597.0)
+r22: IF fruiting-bodies = sclerotia = shriveling AND leafspots-marg = {no-w-s-marg} THEN class = {bacterial-pustule} (p=15.0, n=0.0, P=18.0, N=597.0)
+r23: IF seed-size != {norm} AND leafspots-halo = {yellow-halos} THEN class = {bacterial-pustule} (p=7.0, n=0.0, P=18.0, N=597.0)
+r24: IF shriveling != seed-discolor AND canker-lesion = {tan} THEN class = {purple-seed-stain} (p=18.0, n=0.0, P=18.0, N=597.0)
+r25: IF leafspot-size != {gt-1/8} AND fruit-spots = {brown-w/blk-specks} THEN class = {anthracnose} (p=33.0, n=14.0, P=39.0, N=576.0)
+r26: IF leaf-malf != shriveling AND leafspot-size != {gt-1/8} AND shriveling != {absent} THEN class = {anthracnose} (p=19.0, n=33.0, P=39.0, N=576.0)
+r27: IF leaves = seed = stem AND leafspot-size = {dna} THEN class = {anthracnose} (p=11.0, n=0.0, P=39.0, N=576.0)
+r28: IF leaf-malf != mycelium AND precip = {lt-norm} THEN class = {phyllosticta-leaf-spot} (p=4.0, n=0.0, P=18.0, N=597.0)
+r29: IF leaf-malf != mycelium AND leafspot-size != {lt-1/8} AND precip != {gt-norm} THEN class = {phyllosticta-leaf-spot} (p=9.0, n=22.0, P=18.0, N=597.0)
+r30: IF leaf-shread != mold-growth AND leafspot-size != {lt-1/8} AND precip != {gt-norm} THEN class = {phyllosticta-leaf-spot} (p=10.0, n=2.0, P=18.0, N=597.0)
+r31: IF temp != precip AND fruiting-bodies = mold-growth = seed-discolor AND leaves != stem AND leafspot-size = {gt-1/8} AND precip != {gt-norm} AND area-damaged != {low-areas} THEN class = {phyllosticta-leaf-spot} (p=15.0, n=0.0, P=18.0, N=597.0)
+r32: IF seed = stem AND date != {october} AND leafspot-size = {gt-1/8} AND seed-tmt != {other} AND precip != {gt-norm} AND area-damaged != {low-areas} THEN class = {phyllosticta-leaf-spot} (p=16.0, n=7.0, P=18.0, N=597.0)
+r33: IF plant-growth = seed = stem AND fruiting-bodies = leaf-shread = mold-growth AND lodging = hail AND date != {july} AND temp = {gt-norm} THEN class = {alternarialeaf-spot} (p=41.0, n=1.0, P=82.0, N=533.0)
+r34: IF plant-growth = seed = stem AND fruiting-bodies = leaf-shread = mold-growth AND date != {august} AND temp = {gt-norm} THEN class = {alternarialeaf-spot} (p=41.0, n=4.0, P=82.0, N=533.0)
+r35: IF plant-growth = seed = stem AND date = {october} AND leafspot-size != {dna} AND precip != {norm} THEN class = {alternarialeaf-spot} (p=22.0, n=0.0, P=82.0, N=533.0)
+r36: IF plant-growth = seed = stem AND date = {september} AND leafspot-size = {gt-1/8} AND area-damaged != {upper-areas} THEN class = {alternarialeaf-spot} (p=26.0, n=2.0, P=82.0, N=533.0)
+r37: IF plant-growth = seed = stem AND date = {september} AND leafspot-size = {gt-1/8} THEN class = {alternarialeaf-spot} (p=31.0, n=4.0, P=82.0, N=533.0)
+r38: IF plant-growth = seed = stem AND temp = precip AND lodging = hail AND date != {june} AND leafspot-size = {gt-1/8} AND crop-hist != {diff-lst-year} THEN class = {alternarialeaf-spot} (p=43.0, n=5.0, P=82.0, N=533.0)
+r39: IF plant-growth = seed = stem AND lodging = hail AND date != {june} AND severity != {pot-severe} AND leafspot-size = {gt-1/8} AND precip = {gt-norm} THEN class = {alternarialeaf-spot} (p=39.0, n=5.0, P=82.0, N=533.0)
+r40: IF plant-growth = seed = stem AND fruiting-bodies = leaf-shread = mold-growth AND lodging = hail AND date != {june} AND leafspot-size = {gt-1/8} AND precip = {gt-norm} THEN class = {alternarialeaf-spot} (p=57.0, n=19.0, P=82.0, N=533.0)
+r41: IF date = {october} AND leaf-mild = {absent} AND stem != {abnorm} THEN class = {alternarialeaf-spot} (p=28.0, n=1.0, P=82.0, N=533.0)
+r42: IF date = {september} AND leafspot-size = {gt-1/8} AND temp = {gt-norm} AND stem != {abnorm} THEN class = {alternarialeaf-spot} (p=25.0, n=0.0, P=82.0, N=533.0)
+r43: IF fruiting-bodies = mold-growth = shriveling AND date = {september} AND leafspot-size = {gt-1/8} AND stem != {abnorm} THEN class = {alternarialeaf-spot} (p=35.0, n=4.0, P=82.0, N=533.0)
+r44: IF fruiting-bodies != seed-discolor AND leafspot-size = {gt-1/8} AND stem != {abnorm} THEN class = {alternarialeaf-spot} (p=10.0, n=0.0, P=82.0, N=533.0)
+r45: IF leaf-malf != {present} AND date = {october, august, september} AND leafspot-size = {gt-1/8} AND canker-lesion = {brown, dna, dk-brown-blk} AND mold-growth != {present} AND stem-cankers != {above-sec-nde} THEN class = {alternarialeaf-spot} (p=80.0, n=16.0, P=82.0, N=533.0)
+r46: IF fruit-spots = {colored} AND external-decay != {absent} THEN class = {frog-eye-leaf-spot} (p=56.0, n=0.0, P=82.0, N=533.0)
+r47: IF leafspot-size = {gt-1/8} AND fruit-pods = {diseased} AND seed-tmt != {other} THEN class = {frog-eye-leaf-spot} (p=58.0, n=1.0, P=82.0, N=533.0)
+r48: IF fruiting-bodies = leaf-shread = shriveling AND plant-growth != stem AND fruit-spots != {brown-w/blk-specks} AND stem-cankers = {above-sec-nde} THEN class = {frog-eye-leaf-spot} (p=57.0, n=0.0, P=82.0, N=533.0)
+r49: IF fruiting-bodies = leaf-shread = mold-growth AND date = {august} AND leafspot-size = {gt-1/8} AND seed-tmt != {none} AND plant-stand != {lt-normal} THEN class = {frog-eye-leaf-spot} (p=12.0, n=0.0, P=82.0, N=533.0)
+r50: IF fruiting-bodies = leaf-shread = seed-discolor AND date = {august} AND germination != {lt-80} AND leafspot-size = {gt-1/8} AND plant-stand != {lt-normal} AND crop-hist != {same-lst-sev-yrs} THEN class = {frog-eye-leaf-spot} (p=21.0, n=4.0, P=82.0, N=533.0)
+r51: IF fruiting-bodies = leaf-shread = mold-growth AND plant-growth = seed AND date = {august} AND leafspot-size = {gt-1/8} AND crop-hist != {diff-lst-year} THEN class = {frog-eye-leaf-spot} (p=28.0, n=11.0, P=82.0, N=533.0)
+r52: IF temp != precip AND mycelium = fruiting-bodies AND plant-growth != leaves AND plant-growth = seed AND sclerotia = leaf-shread AND date = {august, july, september} AND precip = {gt-norm} AND area-damaged = {scattered, whole-field, upper-areas} AND crop-hist = {same-lst-yr, same-lst-two-yrs, same-lst-sev-yrs} AND leaf-mild = {absent, lower-surf} THEN class = {frog-eye-leaf-spot} (p=33.0, n=8.0, P=82.0, N=533.0)
+r53: IF fruiting-bodies = leaf-shread = mold-growth AND temp != precip AND leaves != seed AND date != {june} AND leafspot-size = {gt-1/8} AND seed-tmt != {other} AND precip = {gt-norm} THEN class = {frog-eye-leaf-spot} (p=44.0, n=20.0, P=82.0, N=533.0)
+r54: IF fruiting-bodies = leaf-shread = mold-growth AND plant-growth = seed AND leaf-malf = fruiting-bodies = seed-discolor AND date != {june} AND leafspot-size = {gt-1/8} AND fruit-spots != {brown-w/blk-specks} AND precip != {lt-norm} THEN class = {frog-eye-leaf-spot} (p=77.0, n=72.0, P=82.0, N=533.0)
+r55: IF canker-lesion = {dna} AND shriveling != {absent} THEN class = {diaporthe-pod-&-stem-blight} (p=14.0, n=0.0, P=14.0, N=601.0)
+r56: IF fruit-pods = {few-present} THEN class = {cyst-nematode} (p=12.0, n=0.0, P=12.0, N=603.0)
+r57: IF leaf-malf != {absent} AND date != {april} AND leafspot-size = {dna} AND area-damaged != {scattered} THEN class = {2-4-d-injury} (p=9.0, n=0.0, P=15.0, N=600.0)
+r58: IF leaf-malf != {absent} AND leafspot-size = {dna} AND area-damaged != {scattered} THEN class = {2-4-d-injury} (p=11.0, n=1.0, P=15.0, N=600.0)
+r59: IF leaf-malf != {absent} AND date != {june} AND leafspot-size = {dna} THEN class = {2-4-d-injury} (p=14.0, n=3.0, P=15.0, N=600.0)
+r60: IF leaf-malf != {absent} AND fruit-pods = {dna} THEN class = {herbicide-injury} (p=7.0, n=0.0, P=7.0, N=608.0)

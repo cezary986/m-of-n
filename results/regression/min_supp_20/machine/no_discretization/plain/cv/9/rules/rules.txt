@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.6242616033755275
+r2: 0.5705152079453756
+r3: 0.5580580580580579
+r4: 0.43699421965317914
+r5: 0.477475390851187
+r6: 0.4609218862950204
+________________________________
+r1: IF MMAX = <28000, inf) AND CACH = <48, inf) THEN class = {0.34} [0.13,0.56] (p=14.0, n=2.0, P=30.0, N=158.0)
+r2: IF MMAX = <28000, inf) AND MYCT = (-inf, 32) AND CHMIN = (-inf, 10) THEN class = {0.23} [0.19,0.28] (p=4.0, n=1.0, P=9.0, N=179.0)
+r3: IF CACH = (-inf, 48) AND CHMIN = (-inf, 12) THEN class = {0.028} [-0.016,0.072] (p=130.0, n=18.0, P=135.0, N=53.0)
+r4: IF MMIN = <4620, inf) AND MMAX = <18485, inf) AND MYCT = <36.50, inf) AND CHMAX = (-inf, 28) THEN class = {0.24} [0.18,0.30] (p=3.0, n=1.0, P=15.0, N=173.0)
+r5: IF MMAX = (-inf, 24000) AND CACH = (-inf, 80) THEN class = {0.03} [-0.0059,0.066] (p=133.0, n=24.0, P=133.0, N=55.0)
+r6: IF MMAX = (-inf, 24000) AND MYCT = <32, inf) THEN class = {0.03} [-0.01,0.07] (p=132.0, n=24.0, P=134.0, N=54.0)

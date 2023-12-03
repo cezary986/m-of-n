@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.9999999999998203
+r2: 0.9999999917464579
+r3: 0.9999999986229386
+r4: 0.9999999999999891
+r5: 1.0
+r6: 0.9999999999999178
+r7: 0.9999999999996922
+r8: 0.9999999999999916
+r9: 0.9999999999999999
+r10: 0.9999996676155174
+r11: 1.0
+________________________________
+r1: IF scent = (-inf, 0.39) AND niq4 = <0.50, inf) AND znquartiles = {Q3} THEN  (p=7.0, n=0.0, P=388.0, N=0.0)
+r2: IF caq2 = (-inf, 0.50) AND sevdysp = {Worst isn\t severe'} AND cucent = (-inf, 1.56) AND agepill = <49.50, 54) THEN  (p=11.0, n=0.0, P=388.0, N=0.0)
+r3: IF caq2 = (-inf, 0.50) AND agepill = (-inf, 52.50) AND basehist = {Esophagitis} AND znquartiles = {Q1} THEN  (p=4.0, n=0.0, P=388.0, N=0.0)
+r4: IF pq1 = (-inf, 0.50) AND cacent = (-inf, -0.19) AND mildysp = {Worst isn\t mild'} AND fecent = (-inf, 1.65) AND niq3 = (-inf, 0.50) THEN  (p=17.0, n=0.0, P=388.0, N=0.0)
+r5: IF moddysp = {Worst isn\t moderate'} AND sq2 = (-inf, 0.50) AND mildysp = {Worst isn\t mild'} AND feq3 = (-inf, 0.50) AND znquartiles = {Q1} THEN  (p=17.0, n=0.0, P=388.0, N=0.0)
+r6: IF niq1 = (-inf, 0.50) AND agepill = <51.50, inf) THEN  (p=56.0, n=0.0, P=388.0, N=0.0)
+r7: IF zncent = (-inf, -0.61) THEN  (p=30.0, n=0.0, P=388.0, N=0.0)
+r8: IF caq1 = (-inf, 0.50) THEN  (p=86.0, n=0.0, P=388.0, N=0.0)
+r9: IF cucent = (-inf, 1.56) THEN  (p=101.0, n=0.0, P=388.0, N=0.0)
+r10: IF agepill = <49, inf) AND basehist = {Moderate Dysplasia} THEN  (p=7.0, n=0.0, P=388.0, N=0.0)
+r11: IF znquartiles = {?} THEN  (p=275.0, n=0.0, P=388.0, N=0.0)

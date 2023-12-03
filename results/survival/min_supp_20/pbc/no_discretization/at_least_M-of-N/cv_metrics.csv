@@ -1,0 +1,11 @@
+model_type,variant,dataset,M-of-N count,integrated_brier_score (train),integrated_brier_score (test),rules,conditions_count,plain conditions count,complex conditions count,avg conditions per rule,avg rule quality,avg rule precision,avg rule coverage,training time total (s),training time growing (s),training time pruning (s),pvalue significance fdr,pvalue significance fwer,induction measure,pruning measure,voting measure
+at_least_M-of-N,no_discretization,pbc,0,0.1718565991157427,0.2206202917392191,2,2.0,1,0,1.0,1.0,1.0,0.7273936170212766,0.1373350620269775,0.055586248,0.023294946,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1465478952386231,0.1449712618715854,2,2.0,1,0,1.0,1.0,1.0,0.5,3.2201404571533203,0.050154979,0.033367824,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1404492167865959,0.1799250304835844,2,2.0,1,0,1.0,1.0,1.0,0.5,0.4732763767242431,0.0918445579999999,0.072557434,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1416531739850396,0.1835159262811727,2,2.0,1,0,1.0,1.0,1.0,0.5,0.2556023597717285,0.083771449,0.064980993,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1389839798940128,0.1047796503119588,2,2.0,1,0,1.0,1.0,1.0,0.5,0.127328872680664,0.051080902,0.024696566,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1446480225146749,0.1295208080999632,2,2.0,1,0,1.0,1.0,1.0,0.5,0.3973643779754638,0.11423962,0.110061073,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1498406472375079,0.1600355148055589,2,2.0,1,0,1.0,1.0,1.0,0.5,4.098251581192017,0.132776272,0.184205343,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1472635114090981,0.1540564800508933,2,2.0,1,0,1.0,1.0,1.0,0.5,0.3537724018096924,0.103127381,0.079935244,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1413545487352709,0.1136125033145436,2,2.0,1,0,1.0,1.0,1.0,0.5,0.2750906944274902,0.09028377,0.105905481,1.0,1.0,Correlation,Correlation,Correlation
+at_least_M-of-N,no_discretization,pbc,0,0.1404891507057455,0.1172753267707302,2,2.0,1,0,1.0,1.0,1.0,0.5,0.7788918018341064,0.084114545,0.062574623,1.0,1.0,Correlation,Correlation,Correlation

@@ -1,0 +1,32 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 0.999999999838961
+r5: 0.9999999998247675
+r6: 0.999996256281711
+r7: 0.9999999028584411
+r8: 0.9999845747444531
+r9: 0.9999999999777303
+r10: 0.9999999999293192
+r11: 0.8634348168934868
+r12: 0.9899617189188972
+r13: 0.9345865924280601
+r14: 1.0
+r15: 1.0
+________________________________
+r1: IF FRAC = (-inf, 0.25) THEN  (p=97.0, n=0.0, P=518.0, N=0.0)
+r2: IF FRAC = (-inf, 0.36) THEN  (p=145.0, n=0.0, P=518.0, N=0.0)
+r3: IF FRAC = (-inf, 0.57) THEN  (p=213.0, n=0.0, P=518.0, N=0.0)
+r4: IF SITE = <0.50, inf) AND LNDT = (-inf, 2.24) AND BECK = (-inf, 27.50) AND RACE = (-inf, 0.50) AND HC = (-inf, 3.50) AND FRAC = (-inf, 1.05) THEN  (p=29.0, n=0.0, P=518.0, N=0.0)
+r5: IF ND1 = (-inf, 2.92) AND IV = <2.50, inf) AND FRAC = (-inf, 1.55) AND AGE = (-inf, 39.50) THEN  (p=120.0, n=0.0, P=518.0, N=0.0)
+r6: IF SITE = <0.50, inf) AND LNDT = (-inf, 2.24) AND BECK = (-inf, 26) AND RACE = (-inf, 0.50) AND HC = (-inf, 3.50) AND FRAC = (-inf, 1.92) THEN  (p=36.0, n=0.0, P=518.0, N=0.0)
+r7: IF RACE = (-inf, 0.50) AND IV = <2.50, inf) AND FRAC = (-inf, 2.04) AND AGE = (-inf, 41.50) THEN  (p=163.0, n=0.0, P=518.0, N=0.0)
+r8: IF ND1 = (-inf, 4.17) AND IV = <2.50, inf) AND FRAC = (-inf, 2.24) AND AGE = (-inf, 45.50) THEN  (p=178.0, n=0.0, P=518.0, N=0.0)
+r9: IF LNDT = (-inf, 2.35) AND FRAC = <1.00, inf) THEN  (p=110.0, n=0.0, P=518.0, N=0.0)
+r10: IF RACE = (-inf, 0.50) AND ND1 = (-inf, 2.92) AND TREAT = (-inf, 0.50) AND FRAC = (-inf, 1.24) THEN  (p=106.0, n=0.0, P=518.0, N=0.0)
+r11: IF BECK = <13.50, 22.50) AND RACE = <0.50, inf) AND TREAT = <0.50, inf) AND IV = (-inf, 1.50) AND FRAC = (-inf, 0.87) AND AGE = (-inf, 29.50) THEN  (p=6.0, n=0.0, P=518.0, N=0.0)
+r12: IF BECK = (-inf, 7.50) AND ND1 = (-inf, 4.17) AND TREAT = <0.50, inf) THEN  (p=24.0, n=0.0, P=518.0, N=0.0)
+r13: IF BECK = <13.50, 18) AND RACE = <0.50, inf) AND HC = <2, inf) AND TREAT = <0.50, inf) AND FRAC = (-inf, 1.01) AND AGE = <30, inf) THEN  (p=2.0, n=0.0, P=518.0, N=0.0)
+r14: IF FRAC = <0.66, inf) THEN  (p=284.0, n=0.0, P=518.0, N=0.0)
+r15: IF FRAC = (-inf, 0.79) THEN  (p=259.0, n=0.0, P=518.0, N=0.0)

@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9726468034044519
+r2: 0.999976831073838
+r3: 0.9999737846503078
+r4: 0.983788042367258
+r5: 0.9925023035621059
+r6: 0.9999957601157402
+r7: 0.9999431920828834
+r8: 0.9999997812032106
+r9: 0.9999905529542479
+r10: 0.9999997942997384
+________________________________
+r1: IF dchexam = <0.50, inf) AND abdpain = <0.50, inf) AND dysuria = <0.50, inf) AND condom = <2.50, inf) THEN  (p=7.0, n=0.0, P=790.0, N=0.0)
+r2: IF npartner = (-inf, 14.50) AND os12m = <0.50, inf) AND abnode = (-inf, 0.50) THEN  (p=257.0, n=0.0, P=790.0, N=0.0)
+r3: IF race = {B} AND yschool = (-inf, 12.50) AND condom = (-inf, 2.50) THEN  (p=284.0, n=0.0, P=790.0, N=0.0)
+r4: IF marital = {S} AND iinfct = <2.50, inf) AND npartner = <0.50, 3.50) AND abdpain = (-inf, 0.50) AND yschool = <11.50, 13.50) AND age = (-inf, 21) THEN  (p=46.0, n=0.0, P=790.0, N=0.0)
+r5: IF itch = (-inf, 0.50) AND race = {B} AND npartner = (-inf, 1.50) AND dysuria = (-inf, 0.50) AND os12m = (-inf, 0.50) AND age = <17, 21) AND condom = <2.50, inf) THEN  (p=51.0, n=0.0, P=790.0, N=0.0)
+r6: IF rash = (-inf, 0.50) AND marital = {S} AND vagina = <0.50, inf) AND npartner = (-inf, 3.50) AND yschool = (-inf, 13.50) THEN  (p=72.0, n=0.0, P=790.0, N=0.0)
+r7: IF rash = (-inf, 0.50) AND marital = {S} AND vagina = <0.50, inf) AND npartner = (-inf, 3.50) THEN  (p=76.0, n=0.0, P=790.0, N=0.0)
+r8: IF rash = (-inf, 0.50) AND itch = (-inf, 0.50) AND os12m = (-inf, 0.50) AND abnode = (-inf, 0.50) AND age = (-inf, 17.50) THEN  (p=157.0, n=0.0, P=790.0, N=0.0)
+r9: IF age = (-inf, 18.50) THEN  (p=335.0, n=0.0, P=790.0, N=0.0)
+r10: IF vagina = (-inf, 0.50) AND npartner = (-inf, 3.50) AND age = <18.50, inf) THEN  (p=400.0, n=0.0, P=790.0, N=0.0)

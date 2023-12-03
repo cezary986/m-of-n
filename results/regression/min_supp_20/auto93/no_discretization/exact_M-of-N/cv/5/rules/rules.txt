@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.5335664335664335
+r2: 0.3710588235294118
+r3: 0.5721153846153847
+r4: 0.43209876543209874
+r5: 0.5257936507936508
+r6: 0.5078125
+r7: 0.6072589382448538
+r8: 0.530442842715438
+r9: 0.4533001245330012
+r10: 0.36585365853658536
+r11: 0.4292929292929293
+________________________________
+r1: IF Fuel_tank_capacity = <12.60, 15.20) = {1} THEN class = {0.058} [-0.052,0.17] (p=12.0, n=1.0, P=44.0, N=40.0)
+r2: IF Number_of_cylinders = Passenger_capacity = {1} AND 2-of-3(RPM > Weight, Horsepower < Length, Highway_MPG < U-turn_space) = {1} THEN class = {0.037} [-0.068,0.14] (p=4.0, n=1.0, P=34.0, N=50.0)
+r3: IF Number_of_cylinders < Passenger_capacity = {1} AND 2-of-3(RPM > Weight, City_MPG < Rear_seat_room, Horsepower < Length) = {1} THEN class = {0.043} [-0.001,0.086] (p=11.0, n=2.0, P=24.0, N=60.0)
+r4: IF Number_of_cylinders = Passenger_capacity = {0} AND 2-of-3(RPM > Weight, Horsepower > Wheelbase, Highway_MPG < U-turn_space) = {1} AND 2-of-3(RPM > Weight, City_MPG < Rear_seat_room, Horsepower < Length) = {0} THEN class = {0.098} [0.04,0.16] (p=5.0, n=1.0, P=30.0, N=54.0)
+r5: IF 2-of-3(RPM > Weight, Horsepower < Length, Highway_MPG < U-turn_space) = {0} AND 2-of-3(RPM > Weight, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {1} THEN class = {0.061} [-0.035,0.16] (p=11.0, n=1.0, P=42.0, N=42.0)
+r6: IF 2-of-3(Horsepower < Length, Domestic != Manual_transmission_available, RPM > Weight) = {1} AND 2-of-3(RPM > Weight, City_MPG < Rear_seat_room, Horsepower < Length) = {0} THEN class = {0.13} [0.027,0.24] (p=13.0, n=1.0, P=52.0, N=32.0)
+r7: IF Luggage_capacity = (-inf, 13.50) = {0} AND Highway_MPG > Rear_seat_room = {1} AND RPM != <4850, 6000) = {0} AND 2-of-3(Horsepower > Wheelbase, City_MPG < Rear_seat_room, Highway_MPG < U-turn_space) = {0} AND Domestic != Manual_transmission_available = {1} AND 2-of-3(RPM > Weight, City_MPG < Rear_seat_room, Horsepower < Length) = {0} THEN class = {0.15} [0.13,0.18] (p=6.0, n=1.0, P=13.0, N=71.0)
+r8: IF 2-of-3(Horsepower > Wheelbase, Engine_revolutions_per_mile < Weight, RPM > Weight) = {0} AND 2-of-3(RPM > Weight, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {0} AND 2-of-3(RPM > Weight, Engine_revolutions_per_mile < Weight, Horsepower < Length) = {0} AND 2-of-3(Horsepower < Length, Engine_revolutions_per_mile < Weight, Length != <164.50, 172)) = {0} THEN class = {0.21} [0.085,0.33] (p=33.0, n=8.0, P=43.0, N=41.0)
+r9: IF 2-of-3(RPM > Weight, City_MPG < Rear_seat_room, Highway_MPG < U-turn_space) = {0} AND 2-of-3(Horsepower < Length, Domestic != Manual_transmission_available, RPM > Weight) = {1} AND 2-of-3(Horsepower < Length, City_MPG < Rear_seat_room, Highway_MPG < U-turn_space) = {1} THEN class = {0.50} [0.39,0.62] (p=3.0, n=1.0, P=11.0, N=73.0)
+r10: IF Luggage_capacity = (-inf, 13.50) = {0} AND Highway_MPG > Rear_seat_room = {0} AND RPM != <4850, 6000) = {0} AND Domestic != Manual_transmission_available = {0} THEN class = {1} [0.60,1.40] (p=1.0, n=1.0, P=2.0, N=82.0)
+r11: IF 2-of-3(RPM > Weight, Horsepower < Length, Highway_MPG < U-turn_space) = {1} AND 2-of-3(Horsepower < Length, Engine_revolutions_per_mile < Weight, Highway_MPG < U-turn_space) = {1} AND Number_of_cylinders < Passenger_capacity = {0} THEN class = {0.50} [0.28,0.73] (p=7.0, n=3.0, P=18.0, N=66.0)

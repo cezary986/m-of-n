@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9999841418633407
+r2: 0.9997611171199895
+r3: 0.9997570059552527
+r4: 0.998703461318723
+r5: 0.999884916429827
+r6: 0.9999999999999999
+r7: 0.7294980953789311
+r8: 0.5582071169899713
+r9: 0.9709857351578333
+r10: 0.9999994898408913
+r11: 0.9956925757466235
+r12: 0.9846529321788432
+________________________________
+r1: IF ANCrecovery = <500007.50, inf) THEN  (p=4.0, n=0.0, P=168.0, N=0.0)
+r2: IF Recipientgender = {1} AND Stemcellsource = {0} AND Riskgroup = {0} AND RecipientABO = {-1} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r3: IF Antigen = {1} AND aGvHDIIIIV = {0} AND Recipientgender = {1} AND RecipientRh = {1} AND CD3dkgx10d8 = <3.37, inf) THEN  (p=5.0, n=0.0, P=168.0, N=0.0)
+r4: IF aGvHDIIIIV = {0} AND DonorABO = {0} AND Riskgroup = {0} AND Rbodymass = <31.50, inf) THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r5: IF Recipientageint = {2} AND HLAgrI = {1} AND DonorCMV = {0} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r6: IF extcGvHD = {1} THEN  (p=116.0, n=0.0, P=168.0, N=0.0)
+r7: IF Disease = {chronic} THEN  (p=39.0, n=0.0, P=168.0, N=0.0)
+r8: IF CD34kgx10d6 = (-inf, 9.58) AND CD3dCD34 = (-inf, 2.47) AND RecipientABO = {1} AND DonorCMV = {0} THEN  (p=4.0, n=0.0, P=168.0, N=0.0)
+r9: IF Diseasegroup = {1} AND Txpostrelapse = {1} THEN  (p=18.0, n=0.0, P=168.0, N=0.0)
+r10: IF ANCrecovery = (-inf, 16.50) AND Recipientgender = {1} AND Donorage = <30.01, inf) AND PLTrecovery = (-inf, 28) AND RecipientRh = {1} AND Riskgroup = {0} AND IIIV = {1} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r11: IF Donorage = <26.40, inf) AND CMVstatus = {0} AND Donorage35 = {0} AND Recipientage10 = {0} AND RecipientCMV = {0} THEN  (p=11.0, n=0.0, P=168.0, N=0.0)
+r12: IF PLTrecovery = (-inf, 20.50) THEN  (p=77.0, n=0.0, P=168.0, N=0.0)

@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999988103691707
+r2: 0.9999999999999682
+r3: 1.0
+r4: 0.9999999999999999
+r5: 0.9999999999936803
+r6: 1.0
+________________________________
+r1: IF pq4 = <0.50, inf) AND cacent = (-inf, -0.23) AND smoke = {Ever} THEN  (p=4.0, n=0.0, P=387.0, N=0.0)
+r2: IF pcent = (-inf, 1.38) AND caq1 = (-inf, 0.50) AND pq2 = (-inf, 0.50) AND moddysp = {Worst isn\t moderate'} AND zncent = (-inf, 1.29) AND mildysp = {Worst isn\t mild'} AND scent = (-inf, 0.37) AND agepill = (-inf, 63.50) THEN  (p=26.0, n=0.0, P=387.0, N=0.0)
+r3: IF scent = (-inf, 0.37) THEN  (p=94.0, n=0.0, P=387.0, N=0.0)
+r4: IF fecent = (-inf, 1.05) THEN  (p=95.0, n=0.0, P=387.0, N=0.0)
+r5: IF pq3 = (-inf, 0.50) THEN  (p=79.0, n=0.0, P=387.0, N=0.0)
+r6: IF znquartiles = {?} THEN  (p=277.0, n=0.0, P=387.0, N=0.0)

@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.9999999999945666
+r2: 0.9999999999993608
+r3: 0.999999999998392
+r4: 0.999999999988849
+r5: 1.0
+r6: 0.9999995853345344
+r7: 1.0
+r8: 0.9024581412042748
+r9: 1.0
+r10: 1.0
+r11: 1.0
+r12: 0.9999999999854067
+________________________________
+r1: IF age != <55.50, 59) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <63.50, 68) THEN  (p=93.0, n=0.0, P=205.0, N=0.0)
+r2: IF thick != <6.91, 8.54) AND age != <53.50, 58) AND thick = (-inf, 9.42) AND epicel != ulcer AND age = (-inf, 70) AND invasion = {level.1, level.2} AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <47.50, 52) THEN  (p=14.0, n=0.0, P=205.0, N=0.0)
+r3: IF age != <55.50, 59) AND thick = (-inf, 2.98) AND age = <63.50, 68) AND thick != <2.17, 2.58) THEN  (p=85.0, n=0.0, P=205.0, N=0.0)
+r4: IF age != <55.50, 58) AND age != <51, 54) AND thick != <1.58, 1.78) AND age != <58.50, 61) AND age = (-inf, 69.50) AND thick = <2.17, 2.58) AND age != <63.50, 68) THEN  (p=82.0, n=0.0, P=205.0, N=0.0)
+r5: IF thick = <4.84, inf) AND ulcer != {not present} AND thick != <6.91, 8.54) AND age != <53.50, 63) AND ici = <1.50, inf) THEN  (p=16.0, n=0.0, P=205.0, N=0.0)
+r6: IF thick = (-inf, 2.34) THEN  (p=118.0, n=0.0, P=205.0, N=0.0)
+r7: IF thick != <6.91, 8.54) AND thick != <4.51, 4.84) AND invasion = {level.1, level.2} AND ulcer != {not present} AND thick != <0.13, 3.54) THEN  (p=31.0, n=0.0, P=205.0, N=0.0)
+r8: IF age != <44.50, 63) AND age = <46.50, inf) AND invasion = {level.1, level.2} AND age != <75, 86) AND ici = <1.50, inf) AND thick = (-inf, 4.84) THEN  (p=11.0, n=0.0, P=205.0, N=0.0)
+r9: IF thick != <6.91, 8.54) AND age != <53.50, 56) AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <31, 37) THEN  (p=34.0, n=0.0, P=205.0, N=0.0)
+r10: IF thick != <7.81, 8.54) AND thick != <4.67, 4.84) AND ulcer != {not present} AND thick != <0.13, 3.54) AND ici = <1.50, inf) THEN  (p=32.0, n=0.0, P=205.0, N=0.0)
+r11: IF thick != <4.67, 4.84) AND age != <49.50, 53) AND age != <54.50, 63) AND ulcer != {not present} AND thick != <0.13, 3.54) AND age != <28.50, 43) THEN  (p=31.0, n=0.0, P=205.0, N=0.0)
+r12: IF ulcer != {not present} AND thick != <0.13, 3.54) THEN  (p=47.0, n=0.0, P=205.0, N=0.0)

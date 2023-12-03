@@ -1,0 +1,44 @@
+Rules qualities:
+r1: 0.7878048780487805
+r2: 0.8016260162601626
+r3: 0.6479674796747967
+r4: 0.9406504065040651
+r5: 0.9206409542285455
+r6: 0.5471544715447154
+r7: 0.5398373983739837
+r8: 0.5138211382113821
+r9: 0.9305555555555556
+r10: 0.9444444444444444
+r11: 0.5277777777777778
+r12: 0.6428571428571428
+r13: 0.7857142857142857
+r14: 1.0
+r15: 0.5561797752808989
+r16: 0.550561797752809
+r17: 0.5393258426966292
+r18: 0.5280898876404494
+r19: 0.5786516853932584
+r20: 0.5786516853932584
+r21: 0.9044943820224719
+________________________________
+r1: IF condition = {S, A} AND surface-quality = {E, D, F} THEN class = {3} (p=354.0, n=0.0, P=615.0, N=193.0)
+r2: IF carbon < thick AND hardness = (-inf, 77.50) AND surface-quality = {E, D, F} THEN class = {3} (p=371.0, n=0.0, P=615.0, N=193.0)
+r3: IF thick = <0.60, 0.80) THEN class = {3} (p=182.0, n=0.0, P=615.0, N=193.0)
+r4: IF hardness = (-inf, 75) AND strength = (-inf, 550) AND carbon = (-inf, 9) AND surface-quality != {?} THEN class = {3} (p=542.0, n=0.0, P=615.0, N=193.0)
+r5: IF hardness = (-inf, 82.50) AND strength = (-inf, 550) AND carbon = (-inf, 9) AND surface-quality != {?} THEN class = {3} (p=544.0, n=3.0, P=615.0, N=193.0)
+r6: IF steel = {K, W} THEN class = {3} (p=58.0, n=0.0, P=615.0, N=193.0)
+r7: IF carbon = <27.50, inf) THEN class = {3} (p=49.0, n=0.0, P=615.0, N=193.0)
+r8: IF carbon = <3.50, 10) THEN class = {3} (p=17.0, n=0.0, P=615.0, N=193.0)
+r9: IF hardness = <82.50, inf) THEN class = {U} (p=31.0, n=0.0, P=36.0, N=772.0)
+r10: IF hardness = <75, inf) AND width = <39.50, inf) THEN class = {U} (p=32.0, n=0.0, P=36.0, N=772.0)
+r11: IF condition = {?, A} AND carbon = <7, 45) THEN class = {U} (p=2.0, n=0.0, P=36.0, N=772.0)
+r12: IF exptl != {?} THEN class = {1} (p=2.0, n=0.0, P=7.0, N=801.0)
+r13: IF carbon < strength AND steel = {S} THEN class = {1} (p=4.0, n=0.0, P=7.0, N=801.0)
+r14: IF family = {TN} THEN class = {5} (p=61.0, n=0.0, P=61.0, N=747.0)
+r15: IF enamelability = {2} THEN class = {2} (p=10.0, n=0.0, P=89.0, N=719.0)
+r16: IF surface-finish != {?} THEN class = {2} (p=9.0, n=0.0, P=89.0, N=719.0)
+r17: IF width = <1025, 1100) THEN class = {2} (p=7.0, n=0.0, P=89.0, N=719.0)
+r18: IF len = <821, 1000) THEN class = {2} (p=5.0, n=0.0, P=89.0, N=719.0)
+r19: IF steel = {R, ?, V} AND width = <1410.05, inf) THEN class = {2} (p=14.0, n=0.0, P=89.0, N=719.0)
+r20: IF steel = {R, ?, M} AND thick = <1.75, 2.20) THEN class = {2} (p=14.0, n=0.0, P=89.0, N=719.0)
+r21: IF steel = {R, K, V} AND condition = {S} AND surface-quality = {?} AND enamelability = {?, 2} THEN class = {2} (p=72.0, n=0.0, P=89.0, N=719.0)

@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.9999994602259783
+r2: 0.9999999963890295
+r3: 0.9999999999868187
+r4: 0.9996951130989545
+r5: 0.9999971019205451
+r6: 0.9999999999998557
+r7: 0.9999999999990992
+r8: 0.9995871272564546
+r9: 0.999999999522782
+r10: 0.8838371932105372
+r11: 0.9999986477464736
+r12: 0.9999107600140881
+r13: 0.9999999996359269
+r14: 0.9999999999957544
+________________________________
+r1: IF cvd = chf = {1} AND chf = miord = {0} AND sho < miord = {0} AND 2-of-3(cvd > av3, diasbp = (-inf, 78), hr != <81, 89)) = {0} THEN  (p=35.0, n=0.0, P=450.0, N=0.0)
+r2: IF chf = miord = {1} AND sho < miord = {1} THEN  (p=58.0, n=0.0, P=450.0, N=0.0)
+r3: IF hr != <105, 114) = {1} AND cvd = chf = {1} AND cvd > av3 = {1} AND diasbp = (-inf, 78) = {1} THEN  (p=59.0, n=0.0, P=450.0, N=0.0)
+r4: IF cvd = mitype = {1} AND cvd = chf = {0} AND cvd > av3 = {0} THEN  (p=15.0, n=0.0, P=450.0, N=0.0)
+r5: IF diasbp = (-inf, 69) = {1} THEN  (p=137.0, n=0.0, P=450.0, N=0.0)
+r6: IF 2-of-3(cvd > av3, diasbp = (-inf, 78), hr = (-inf, 123)) = {0} AND cvd = chf = {1} AND cvd > av3 = {1} THEN  (p=72.0, n=0.0, P=450.0, N=0.0)
+r7: IF hr != <81, 89) = {1} AND cvd = chf = {1} AND cvd > av3 = {1} AND 2-of-3(cvd > av3, diasbp = (-inf, 78), hr != <105, 114)) = {0} THEN  (p=56.0, n=0.0, P=450.0, N=0.0)
+r8: IF 2-of-3(sho = chf, cvd = chf, hr != <81, 89)) = {1} AND cvd > av3 = {1} AND diasbp = (-inf, 78) = {0} AND sho < miord = {0} THEN  (p=95.0, n=0.0, P=450.0, N=0.0)
+r9: IF cvd = mitype = {0} AND cvd < chf = {0} AND sho = chf = {0} THEN  (p=85.0, n=0.0, P=450.0, N=0.0)
+r10: IF cvd = mitype = {0} AND cvd = chf = {0} AND cvd > av3 = {0} AND sho = chf = {0} AND sho < miord = {0} THEN  (p=4.0, n=0.0, P=450.0, N=0.0)
+r11: IF hr != <105, 114) = {1} AND cvd > av3 = {1} AND cvd = chf = {0} AND diasbp = (-inf, 69) = {0} THEN  (p=150.0, n=0.0, P=450.0, N=0.0)
+r12: IF cvd > av3 = {0} AND cvd = chf = {1} AND chf = miord = {1} AND 2-of-3(hr = (-inf, 123), chf = miord, sho = chf) = {0} THEN  (p=66.0, n=0.0, P=450.0, N=0.0)
+r13: IF chf = miord = {1} AND 2-of-3(hr = (-inf, 123), chf = miord, sho = chf) = {0} AND sho < miord = {0} THEN  (p=204.0, n=0.0, P=450.0, N=0.0)
+r14: IF sho = chf = {1} THEN  (p=316.0, n=0.0, P=450.0, N=0.0)

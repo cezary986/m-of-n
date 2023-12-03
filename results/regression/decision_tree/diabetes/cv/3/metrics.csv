@@ -1,0 +1,2 @@
+dataset,RMSE (test),MAE (test),MAPE (test),rRMSE (test),rMAE (test),rMAPE (test),maxError (test),R2 (test),RMSE (train),MAE (train),MAPE (train),rRMSE (train),rMAE (train),rMAPE (train),maxError (train),R2 (train),rules,conditions_count,avg conditions per rule
+diabetes,0.39538229663684626,0.361111111111111,525419956526558.1,0.5560063546455651,0.5078124999999999,5254199565265.581,0.5833333333333333,-0.11662257495590778,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,35,69,15.44927536231884

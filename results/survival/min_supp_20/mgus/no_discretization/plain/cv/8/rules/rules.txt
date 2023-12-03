@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9999999691045529
+r2: 0.998642962614917
+r3: 0.9982004302104595
+r4: 0.9999354239734867
+r5: 0.9999991908330829
+r6: 0.9999999998535313
+r7: 0.941097286466642
+r8: 0.8613311963263767
+r9: 0.8788493930584382
+r10: 0.9999999854310243
+________________________________
+r1: IF age = (-inf, 59) THEN  (p=67.0, n=0.0, P=217.0, N=0.0)
+r2: IF mspike = (-inf, 2.25) AND pctime = (-inf, 3433) THEN  (p=26.0, n=0.0, P=217.0, N=0.0)
+r3: IF mspike = (-inf, 2.25) AND pctime = (-inf, 4170) THEN  (p=32.0, n=0.0, P=217.0, N=0.0)
+r4: IF mspike = (-inf, 2.75) AND dxyr = (-inf, 70.50) AND alb = <3.10, 4.60) THEN  (p=133.0, n=0.0, P=217.0, N=0.0)
+r5: IF hgb = (-inf, 12.40) AND alb = (-inf, 3.25) THEN  (p=33.0, n=0.0, P=217.0, N=0.0)
+r6: IF hgb = (-inf, 12.85) AND pcdx = {?} AND alb = (-inf, 3.25) AND sex = {male} THEN  (p=27.0, n=0.0, P=217.0, N=0.0)
+r7: IF mspike = (-inf, 1.60) AND dxyr = <67.50, inf) AND hgb = <12.95, inf) AND alb = <2.20, inf) AND sex = {male} THEN  (p=15.0, n=0.0, P=217.0, N=0.0)
+r8: IF mspike = <1.45, 1.75) AND pcdx = {?} AND alb = <2.90, 3.10) THEN  (p=4.0, n=0.0, P=217.0, N=0.0)
+r9: IF mspike = (-inf, 2.10) AND creat = <0.85, inf) AND dxyr = <67.50, inf) AND hgb = <12.75, inf) AND alb = (-inf, 3.25) AND sex = {male} THEN  (p=19.0, n=0.0, P=217.0, N=0.0)
+r10: IF age = (-inf, 74) THEN  (p=168.0, n=0.0, P=217.0, N=0.0)

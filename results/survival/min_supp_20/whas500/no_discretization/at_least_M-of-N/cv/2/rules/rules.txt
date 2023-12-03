@@ -1,0 +1,8 @@
+Rules qualities:
+r1: 0.9999999983766169
+r2: 1.0
+r3: 1.0
+________________________________
+r1: IF cvd > av3 = {1} AND gender > sho = {0} AND cvd > sho = {1} AND gender = chf = {1} AND age = <70.50, inf) = {0} THEN  (p=75.0, n=0.0, P=450.0, N=0.0)
+r2: IF age = (-inf, 71.50) = {1} THEN  (p=218.0, n=0.0, P=450.0, N=0.0)
+r3: IF age = <70.50, inf) = {1} THEN  (p=241.0, n=0.0, P=450.0, N=0.0)

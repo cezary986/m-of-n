@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.8679245283018868
+r2: 0.8867924528301887
+r3: 0.9245283018867925
+r4: 0.9622641509433962
+r5: 0.8828125
+r6: 0.859375
+r7: 0.6484375
+r8: 0.796875
+r9: 0.8953488372093024
+r10: 0.9302325581395349
+r11: 0.9418604651162791
+________________________________
+r1: IF Proline = <987.50, inf) = {1} THEN class = {1} (p=39.0, n=0.0, P=53.0, N=107.0)
+r2: IF Proline = <953.50, inf) = {1} AND Alcalinity_of_ash = (-inf, 27.50) = {1} THEN class = {1} (p=41.0, n=0.0, P=53.0, N=107.0)
+r3: IF Proline = <840, inf) = {1} AND Alcohol = <13.02, inf) = {1} THEN class = {1} (p=45.0, n=0.0, P=53.0, N=107.0)
+r4: IF 2-of-3(Alcalinity_of_ash = (-inf, 27.50), Flavanoids = <2.30, inf), OD280/OD315_of_diluted_wines = (-inf, 3.82)) = {0} AND Proline = <730, inf) = {1} THEN class = {1} (p=49.0, n=0.0, P=53.0, N=107.0)
+r5: IF Color_intensity = (-inf, 3.46) = {1} THEN class = {2} (p=49.0, n=0.0, P=64.0, N=96.0)
+r6: IF Alcohol = (-inf, 12.44) = {1} AND Flavanoids = (-inf, 0.99) = {0} THEN class = {2} (p=46.0, n=0.0, P=64.0, N=96.0)
+r7: IF Ash = (-inf, 2.03) = {1} THEN class = {2} (p=19.0, n=0.0, P=64.0, N=96.0)
+r8: IF Magnesium = <89.50, 132) = {0} AND 2-of-3(Alcohol < Alcalinity_of_ash, Flavanoids = <1.23, inf), OD280/OD315_of_diluted_wines = (-inf, 3.82)) = {0} AND Proline = <987.50, inf) = {0} THEN class = {2} (p=38.0, n=0.0, P=64.0, N=96.0)
+r9: IF Flavanoids = (-inf, 0.99) = {1} AND Alcohol < Alcalinity_of_ash = {1} THEN class = {3} (p=34.0, n=0.0, P=43.0, N=117.0)
+r10: IF Flavanoids = <1.23, inf) = {0} AND Color_intensity = (-inf, 3.46) = {0} THEN class = {3} (p=37.0, n=0.0, P=43.0, N=117.0)
+r11: IF OD280/OD315_of_diluted_wines = (-inf, 2.12) = {1} AND Hue = (-inf, 0.90) = {1} THEN class = {3} (p=38.0, n=0.0, P=43.0, N=117.0)

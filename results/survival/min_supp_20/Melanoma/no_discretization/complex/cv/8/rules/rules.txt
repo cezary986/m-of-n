@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9999999999998671
+r2: 0.9999999999999993
+r3: 0.999999999999877
+r4: 0.9999999999996577
+r5: 0.9999999999993752
+r6: 0.9999999999996831
+r7: 1.0
+r8: 0.9999999708350054
+r9: 0.9999999990159562
+r10: 0.999946960853838
+________________________________
+r1: IF age != <70.50, 73) AND age != <55.50, 59) AND age != <63.50, 67) AND age = (-inf, 77.50) AND thick = <2.17, 2.58) AND age != <74.50, 77) THEN  (p=91.0, n=0.0, P=185.0, N=0.0)
+r2: IF thick != <4.35, 4.83) AND thick != <6.91, 7.41) AND ulcer != {not present} AND thick != <0.13, 3.54) THEN  (p=39.0, n=0.0, P=185.0, N=0.0)
+r3: IF age != <70.50, 73) AND age != <55.50, 59) AND age != <63.50, 66) AND age = (-inf, 77.50) AND thick = (-inf, 3.06) AND thick != <2.17, 2.58) AND age != <74.50, 77) THEN  (p=84.0, n=0.0, P=185.0, N=0.0)
+r4: IF age != <70.50, 73) AND age != <55.50, 59) AND age = (-inf, 77.50) AND age != <64.50, 67) AND thick = <2.17, 2.58) AND age != <74.50, 77) THEN  (p=95.0, n=0.0, P=185.0, N=0.0)
+r5: IF age != <70.50, 73) AND age != <55.50, 59) AND age = (-inf, 77.50) AND thick = <2.17, 2.58) AND age != <74.50, 77) THEN  (p=100.0, n=0.0, P=185.0, N=0.0)
+r6: IF age != <70.50, 73) AND age != <63.50, 67) AND age = (-inf, 77.50) AND age != <49.50, 54) AND thick != <1.58, 1.78) AND age != <58.50, 61) AND thick != <1.32, 1.45) AND thick = <2.17, 2.58) AND age != <74.50, 77) THEN  (p=87.0, n=0.0, P=185.0, N=0.0)
+r7: IF ulcer != {not present} AND thick != <0.13, 3.54) AND age != <28.50, 43) THEN  (p=39.0, n=0.0, P=185.0, N=0.0)
+r8: IF thick != <1.77, 2.10) AND thick = <1.46, inf) AND thick != <2.66, 3.06) AND age != <35.50, 42) THEN  (p=94.0, n=0.0, P=185.0, N=0.0)
+r9: IF age != <19.50, 29) AND thick != <2.02, 3.06) AND age != <68.50, 77) AND age != <35.50, 42) AND thick != <0.73, 1.13) AND age != <24, 35) AND epicel != ulcer AND thick = <0.75, inf) AND age != <49.50, 54) AND thick != <1.36, 1.53) AND ici = <1.50, inf) THEN  (p=37.0, n=0.0, P=185.0, N=0.0)
+r10: IF age = <56.50, inf) AND epicel = ulcer AND thick != <1.62, 2.90) AND age != <43, 71) THEN  (p=9.0, n=0.0, P=185.0, N=0.0)

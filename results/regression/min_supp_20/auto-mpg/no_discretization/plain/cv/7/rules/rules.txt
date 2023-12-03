@@ -1,0 +1,50 @@
+Rules qualities:
+r1: 0.5625
+r2: 0.6420236596292934
+r3: 0.32599959815149687
+r4: 0.5146696252465484
+r5: 0.4389570552147239
+r6: 0.45467622136206715
+r7: 0.4496052796457959
+r8: 0.411898047919661
+r9: 0.40018593644354294
+r10: 0.45560991909114773
+r11: 0.4302480296236531
+r12: 0.45148929259911164
+r13: 0.3829088224437061
+r14: 0.40780439470769947
+r15: 0.4726682352662973
+r16: 0.4006363636363637
+r17: 0.5769230769230769
+r18: 0.5470111757451729
+r19: 0.5593039772727273
+r20: 0.40836338736965977
+r21: 0.40106589656077707
+r22: 0.47232590453356577
+r23: 0.6363592937174871
+r24: 0.4247603237039857
+________________________________
+r1: IF displacement = <454.50, inf) AND model = {70} THEN class = {0.13} [0.13,0.13] (p=2.0, n=0.0, P=16.0, N=342.0)
+r2: IF weight = <3720, inf) THEN class = {0.13} [0.063,0.20] (p=60.0, n=18.0, P=74.0, N=284.0)
+r3: IF acceleration = <22.85, inf) THEN class = {0.91} [0.66,1.17] (p=2.0, n=1.0, P=42.0, N=316.0)
+r4: IF acceleration = (-inf, 16.90) AND model = {82} AND displacement = (-inf, 107.50) THEN class = {0.77} [0.71,0.83] (p=5.0, n=1.0, P=20.0, N=338.0)
+r5: IF origin = {3} AND weight = <1967.50, inf) AND model = {82} AND displacement = (-inf, 126) THEN class = {0.72} [0.65,0.78] (p=4.0, n=1.0, P=32.0, N=326.0)
+r6: IF horsepower = (-inf, 90) AND weight = (-inf, 2460) THEN class = {0.59} [0.44,0.73] (p=74.0, n=30.0, P=121.0, N=237.0)
+r7: IF acceleration = <18.40, 22.10) AND origin = {1} AND displacement = (-inf, 137.50) THEN class = {0.51} [0.41,0.60] (p=7.0, n=1.0, P=89.0, N=269.0)
+r8: IF acceleration = <16.10, 17.80) AND displacement = <110, 142) THEN class = {0.40} [0.31,0.48] (p=9.0, n=2.0, P=95.0, N=263.0)
+r9: IF origin = {1} AND weight = (-inf, 2850) AND displacement = <143, inf) AND cylinders = {4} THEN class = {0.48} [0.41,0.55] (p=7.0, n=2.0, P=68.0, N=290.0)
+r10: IF acceleration = (-inf, 19) AND origin = {1} AND weight = <2460, 2850) AND cylinders = {4} THEN class = {0.48} [0.42,0.54] (p=17.0, n=5.0, P=65.0, N=293.0)
+r11: IF acceleration = (-inf, 17.10) AND weight = <2382.50, 2850) THEN class = {0.43} [0.32,0.54] (p=43.0, n=14.0, P=119.0, N=239.0)
+r12: IF acceleration = <16.60, 17.65) AND horsepower = <84.50, 91) THEN class = {0.36} [0.22,0.50] (p=11.0, n=1.0, P=164.0, N=194.0)
+r13: IF origin = {2} AND model = {81} THEN class = {0.64} [0.57,0.70] (p=3.0, n=1.0, P=43.0, N=315.0)
+r14: IF horsepower = <70.50, 118) AND origin = {3} AND model = {81} THEN class = {0.62} [0.54,0.70] (p=4.0, n=1.0, P=57.0, N=301.0)
+r15: IF acceleration = (-inf, 22.75) AND horsepower = (-inf, 91) AND cylinders = {4} THEN class = {0.56} [0.41,0.70] (p=97.0, n=44.0, P=122.0, N=236.0)
+r16: IF acceleration = (-inf, 20) AND horsepower = (-inf, 98.50) AND model = {80} AND displacement = <97.50, inf) THEN class = {0.61} [0.46,0.77] (p=9.0, n=2.0, P=108.0, N=250.0)
+r17: IF acceleration = (-inf, 17.25) AND horsepower = (-inf, 94) AND weight = (-inf, 3292) AND displacement = <241, 254) THEN class = {0.24} [0.24,0.24] (p=2.0, n=0.0, P=13.0, N=345.0)
+r18: IF acceleration = (-inf, 18.45) AND horsepower = (-inf, 113.50) AND weight = (-inf, 3292) AND cylinders = {6} THEN class = {0.29} [0.20,0.39] (p=33.0, n=4.0, P=111.0, N=247.0)
+r19: IF acceleration = (-inf, 18.10) AND horsepower = (-inf, 117.50) AND model = {78} AND displacement = (-inf, 231.50) AND cylinders = {6} THEN class = {0.31} [0.30,0.31] (p=3.0, n=1.0, P=6.0, N=352.0)
+r20: IF acceleration = (-inf, 16) AND origin = {1} THEN class = {0.21} [0.037,0.38] (p=108.0, n=33.0, P=185.0, N=173.0)
+r21: IF acceleration = <15.55, 17.05) AND horsepower = <97.50, inf) AND weight = (-inf, 3370) AND displacement = <212.50, inf) THEN class = {0.27} [0.21,0.32] (p=4.0, n=1.0, P=65.0, N=293.0)
+r22: IF acceleration = <15.90, 17.05) AND weight = (-inf, 3462) AND displacement = <228, 254) THEN class = {0.27} [0.22,0.31] (p=7.0, n=1.0, P=62.0, N=296.0)
+r23: IF displacement = <212.50, inf) THEN class = {0.19} [0.09,0.28] (p=109.0, n=31.0, P=120.0, N=238.0)
+r24: IF weight = (-inf, 2937.50) AND displacement = (-inf, 170.50) THEN class = {0.51} [0.35,0.66] (p=124.0, n=61.0, P=142.0, N=216.0)

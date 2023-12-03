@@ -1,0 +1,78 @@
+Rules qualities:
+r1: 0.725609756097561
+r2: 0.7880636749155077
+r3: 0.7868634526167286
+r4: 0.781474454963072
+r5: 0.7195121951219512
+r6: 0.7195121951219512
+r7: 0.6772445143806276
+r8: 0.725609756097561
+r9: 0.7134146341463414
+r10: 0.5426829268292683
+r11: 0.7333638621164438
+r12: 0.6646341463414634
+r13: 0.6005769735116706
+r14: 0.6666666666666666
+r15: 0.6333333333333333
+r16: 0.6333333333333333
+r17: 0.7
+r18: 0.8
+r19: 0.5384615384615384
+r20: 0.5961538461538461
+r21: 0.5769230769230769
+r22: 0.5769230769230769
+r23: 0.5576923076923077
+r24: 0.6153846153846154
+r25: 0.6346153846153846
+r26: 0.5961538461538461
+r27: 0.6923076923076923
+r28: 0.7596153846153846
+r29: 0.7211538461538461
+r30: 0.6565289385411335
+r31: 0.5288461538461539
+r32: 0.5288461538461539
+r33: 0.7788461538461539
+r34: 0.5384615384615384
+r35: 0.7211538461538461
+r36: 0.7307692307692308
+r37: 0.7419090056285178
+r38: 0.7211538461538461
+________________________________
+r1: IF landmass = {5} THEN class = {1} (p=37.0, n=0.0, P=82.0, N=93.0)
+r2: IF crosses = saltires AND language != {1} AND landmass = {5, 3} THEN class = {1} (p=52.0, n=1.0, P=82.0, N=93.0)
+r3: IF mainhue != {blue} AND language != {1} AND landmass = {5, 3} THEN class = {1} (p=56.0, n=2.0, P=82.0, N=93.0)
+r4: IF language != {1} AND landmass = {5, 3} THEN class = {1} (p=59.0, n=3.0, P=82.0, N=93.0)
+r5: IF white != {0} AND language != {3} AND landmass = {5, 3, 4} AND religion = {2, 6, 3} THEN class = {1} (p=36.0, n=0.0, P=82.0, N=93.0)
+r6: IF area > sunstars AND white != {0} AND landmass = {5, 3, 4} AND religion = {2, 6, 3} THEN class = {1} (p=36.0, n=0.0, P=82.0, N=93.0)
+r7: IF bars < colours AND area > sunstars AND landmass = {5, 3, 4} AND religion = {2, 6, 7} THEN class = {1} (p=40.0, n=2.0, P=82.0, N=93.0)
+r8: IF crosses = saltires AND gold = text AND language != {1} AND landmass = {5, 3, 6} AND population = (-inf, 137.50) THEN class = {1} (p=37.0, n=0.0, P=82.0, N=93.0)
+r9: IF crosses = saltires AND crosses = quarters AND gold = animate AND botright != {orange} AND landmass = {5, 3, 6} AND saltires = (-inf, 0.50) AND triangle != {1} AND population = (-inf, 137.50) THEN class = {1} (p=35.0, n=0.0, P=82.0, N=93.0)
+r10: IF blue != black AND area = <509.50, 753) THEN class = {1} (p=7.0, n=0.0, P=82.0, N=93.0)
+r11: IF bars < colours AND colours > sunstars AND language != {1} AND landmass = {5, 3, 4} AND religion != {5} AND colours = (-inf, 4.50) THEN class = {1} (p=59.0, n=5.0, P=82.0, N=93.0)
+r12: IF green = icon = text AND landmass = {5, 3, 4} AND population = <1.50, 38) THEN class = {1} (p=27.0, n=0.0, P=82.0, N=93.0)
+r13: IF stripes = (-inf, 4) AND area = (-inf, 1231) AND botright = {red, gold, black} AND language != {1} AND landmass = {5, 3, 4} THEN class = {1} (p=38.0, n=4.0, P=82.0, N=93.0)
+r14: IF landmass = {2} AND population = <2.50, 15) THEN class = {3} (p=5.0, n=0.0, P=15.0, N=160.0)
+r15: IF blue = white = text AND landmass = {2} THEN class = {3} (p=4.0, n=0.0, P=15.0, N=160.0)
+r16: IF red = green = text AND landmass = {2} THEN class = {3} (p=4.0, n=0.0, P=15.0, N=160.0)
+r17: IF bars < circles AND landmass = {2, 6} THEN class = {3} (p=6.0, n=0.0, P=15.0, N=160.0)
+r18: IF orange = animate = triangle AND topleft = {red, green, blue} AND mainhue = {green, red, blue} AND language != {10} AND landmass = {2, 6} THEN class = {3} (p=9.0, n=0.0, P=15.0, N=160.0)
+r19: IF area = <13.50, 18) THEN class = {2} (p=2.0, n=0.0, P=26.0, N=149.0)
+r20: IF red = green = animate AND religion = {5} THEN class = {2} (p=5.0, n=0.0, P=26.0, N=149.0)
+r21: IF botright = {white, black, brown} AND religion = {5} THEN class = {2} (p=4.0, n=0.0, P=26.0, N=149.0)
+r22: IF area = <688, 1247) AND religion = {5} THEN class = {2} (p=4.0, n=0.0, P=26.0, N=149.0)
+r23: IF religion = {5} AND population = <4.50, 7) THEN class = {2} (p=3.0, n=0.0, P=26.0, N=149.0)
+r24: IF botright = {blue, black, brown} AND language = {10, 2, 3} AND religion = {5} THEN class = {2} (p=6.0, n=0.0, P=26.0, N=149.0)
+r25: IF area > colours AND landmass = {6} THEN class = {2} (p=7.0, n=0.0, P=26.0, N=149.0)
+r26: IF circles < crosses AND landmass = {6} THEN class = {2} (p=5.0, n=0.0, P=26.0, N=149.0)
+r27: IF crescent = icon AND botright != {red} AND mainhue != {gold} AND language = {10, 6, 2} AND landmass = {4, 6} AND religion = {1, 5, 3} AND colours = <2.50, inf) THEN class = {2} (p=10.0, n=0.0, P=26.0, N=149.0)
+r28: IF landmass = {1} THEN class = {4} (p=27.0, n=0.0, P=52.0, N=123.0)
+r29: IF orange = text AND area = (-inf, 249.50) AND landmass = {1, 2} THEN class = {4} (p=23.0, n=0.0, P=52.0, N=123.0)
+r30: IF area = (-inf, 1212) AND topleft != {red} AND quarters = (-inf, 0.50) AND landmass = {1, 2} THEN class = {4} (p=21.0, n=1.0, P=52.0, N=123.0)
+r31: IF area = <238, 256) THEN class = {4} (p=3.0, n=0.0, P=52.0, N=123.0)
+r32: IF area = <68, 84) THEN class = {4} (p=3.0, n=0.0, P=52.0, N=123.0)
+r33: IF language = {2, 1} AND landmass = {3, 1} THEN class = {4} (p=29.0, n=0.0, P=52.0, N=123.0)
+r34: IF black = animate = triangle AND area = <101, 113) THEN class = {4} (p=4.0, n=0.0, P=52.0, N=123.0)
+r35: IF botright = {red, blue, orange} AND language = {2, 1, 3} AND landmass = {3, 4, 1} AND religion != {5} AND colours = (-inf, 6.50) AND population = (-inf, 46) THEN class = {4} (p=23.0, n=0.0, P=52.0, N=123.0)
+r36: IF area = (-inf, 526) AND botright != {white} AND topleft != {green} AND language = {2, 1, 3} AND landmass = {3, 4, 1} AND religion = {1, 5, 0} AND colours = (-inf, 6.50) THEN class = {4} (p=24.0, n=0.0, P=52.0, N=123.0)
+r37: IF mainhue != {orange} AND language = {6, 2, 1} AND landmass = {4, 1} AND colours = (-inf, 6.50) THEN class = {4} (p=29.0, n=1.0, P=52.0, N=123.0)
+r38: IF botright = {green, red, blue} AND circles = (-inf, 0.50) AND language = {8, 2, 1} AND landmass = {4, 1} AND colours = <1.50, 7) THEN class = {4} (p=23.0, n=0.0, P=52.0, N=123.0)

@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.9240506329113924
+r2: 0.8495463748628306
+r3: 0.8670886075949367
+r4: 0.8293735800064913
+r5: 0.8158569206146684
+r6: 0.8717948717948718
+r7: 0.8555460889321648
+r8: 0.5769230769230769
+r9: 0.6794871794871795
+r10: 0.5769230769230769
+________________________________
+r1: IF #(survival = <21.50, inf) OR survival = <11, 15) OR survival = <15.50, 19)) AND #(wall-motion-index = (-inf, 1.91) OR wall-motion-index = <1.98, inf)) AND #(age-at-heart-attack = (-inf, 73.50) OR age-at-heart-attack = <76, inf)) THEN class = {0} (p=67.0, n=0.0, P=79.0, N=39.0)
+r2: IF #(survival = <21.50, inf) OR survival = <11, 19)) AND survival = <15.50, inf) AND wall-motion-index = (-inf, 1.91) THEN class = {0} (p=62.0, n=1.0, P=79.0, N=39.0)
+r3: IF #(survival = <20.50, inf) OR survival = <8.75, 15) OR survival = <15.50, 19.50)) AND age-at-heart-attack = (-inf, 69.50) AND wall-motion-index = (-inf, 1.77) THEN class = {0} (p=58.0, n=0.0, P=79.0, N=39.0)
+r4: IF epss = (-inf, 19.15) AND survival = <15.50, inf) THEN class = {0} (p=59.0, n=1.0, P=79.0, N=39.0)
+r5: IF fractional-shortening = <0.033, inf) AND wall-motion-score = (-inf, 20.50) AND survival = <11, inf) AND age-at-heart-attack = (-inf, 69.50) AND wall-motion-index = (-inf, 2.23) THEN class = {0} (p=57.0, n=1.0, P=79.0, N=39.0)
+r6: IF #(mult < group OR mult = <0.21, 0.93)) AND survival = (-inf, 8.75) THEN class = {1} (p=29.0, n=0.0, P=39.0, N=79.0)
+r7: IF survival = (-inf, 11) AND alive-at-1 != {0} THEN class = {1} (p=31.0, n=1.0, P=39.0, N=79.0)
+r8: IF epss = <19.15, 23.60) THEN class = {1} (p=6.0, n=0.0, P=39.0, N=79.0)
+r9: IF fractional-shortening = <0.11, 0.19) AND survival = (-inf, 19.75) THEN class = {1} (p=14.0, n=0.0, P=39.0, N=79.0)
+r10: IF fractional-shortening = <0.20, inf) AND mult = <0.75, inf) AND epss = <7.75, 28.90) AND age-at-heart-attack = <60.50, inf) AND wall-motion-index = <1.39, inf) THEN class = {1} (p=6.0, n=0.0, P=39.0, N=79.0)

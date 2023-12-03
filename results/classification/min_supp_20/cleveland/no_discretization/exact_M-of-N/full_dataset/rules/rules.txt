@@ -1,0 +1,192 @@
+Rules qualities:
+r1: 0.5365853658536586
+r2: 0.5274390243902439
+r3: 0.5274390243902439
+r4: 0.524390243902439
+r5: 0.5213414634146342
+r6: 0.5182926829268293
+r7: 0.5152439024390244
+r8: 0.5152439024390244
+r9: 0.5152439024390244
+r10: 0.5152439024390244
+r11: 0.5121951219512195
+r12: 0.5121951219512195
+r13: 0.5121951219512195
+r14: 0.5091463414634146
+r15: 0.5091463414634146
+r16: 0.5091463414634146
+r17: 0.5091463414634146
+r18: 0.5701219512195121
+r19: 0.7303025049839647
+r20: 0.7233526878549055
+r21: 0.7142549280490361
+r22: 0.7211042772174187
+r23: 0.7073170731707317
+r24: 0.6887995701000177
+r25: 0.625
+r26: 0.6189024390243902
+r27: 0.705565690107831
+r28: 0.6293529448030236
+r29: 0.6255167933811989
+r30: 0.5924748466298292
+r31: 0.714424357214372
+r32: 0.5131365563037376
+r33: 0.5277777777777778
+r34: 0.5277777777777778
+r35: 0.5277777777777778
+r36: 0.5277777777777778
+r37: 0.5277777777777778
+r38: 0.5416666666666666
+r39: 0.5416666666666666
+r40: 0.5416666666666666
+r41: 0.5972222222222222
+r42: 0.625
+r43: 0.5277777777777778
+r44: 0.5277777777777778
+r45: 0.5555555555555556
+r46: 0.5555555555555556
+r47: 0.5694444444444444
+r48: 0.5694444444444444
+r49: 0.5181818181818182
+r50: 0.5363636363636364
+r51: 0.5272727272727272
+r52: 0.5363636363636364
+r53: 0.5181818181818182
+r54: 0.5181818181818182
+r55: 0.5272727272727272
+r56: 0.5272727272727272
+r57: 0.5272727272727272
+r58: 0.5363636363636364
+r59: 0.5181818181818182
+r60: 0.5181818181818182
+r61: 0.5545454545454546
+r62: 0.5272727272727272
+r63: 0.5272727272727272
+r64: 0.5181818181818182
+r65: 0.5272727272727272
+r66: 0.5272727272727272
+r67: 0.5272727272727272
+r68: 0.5181818181818182
+r69: 0.5636363636363636
+r70: 0.4053005865102639
+r71: 0.5272727272727272
+r72: 0.31322314049586775
+r73: 0.5285714285714286
+r74: 0.5285714285714286
+r75: 0.5285714285714286
+r76: 0.5285714285714286
+r77: 0.5428571428571428
+r78: 0.5428571428571428
+r79: 0.5285714285714286
+r80: 0.5285714285714286
+r81: 0.5285714285714286
+r82: 0.5428571428571428
+r83: 0.5428571428571428
+r84: 0.4351964666463599
+r85: 0.5428571428571428
+r86: 0.5571428571428572
+r87: 0.5285714285714286
+r88: 0.5285714285714286
+r89: 0.5428571428571428
+r90: 0.5769230769230769
+r91: 0.5769230769230769
+r92: 0.5769230769230769
+r93: 0.5769230769230769
+r94: 0.6153846153846154
+r95: 0.5769230769230769
+________________________________
+r1: IF thalach = <177.50, 181) = {1} THEN class = {0} (p=12.0, n=0.0, P=164.0, N=139.0)
+r2: IF chol = <207.50, 212) = {1} THEN class = {0} (p=9.0, n=0.0, P=164.0, N=139.0)
+r3: IF thalach = <183, 195) = {1} THEN class = {0} (p=9.0, n=0.0, P=164.0, N=139.0)
+r4: IF trestbps = <100.50, 108) = {1} THEN class = {0} (p=8.0, n=0.0, P=164.0, N=139.0)
+r5: IF chol = <219.50, 223) = {1} THEN class = {0} (p=7.0, n=0.0, P=164.0, N=139.0)
+r6: IF chol = <225.50, 228) = {1} THEN class = {0} (p=6.0, n=0.0, P=164.0, N=139.0)
+r7: IF chol < thalach = {1} THEN class = {0} (p=5.0, n=0.0, P=164.0, N=139.0)
+r8: IF chol = <212.50, 216) = {1} THEN class = {0} (p=5.0, n=0.0, P=164.0, N=139.0)
+r9: IF chol = <301, 304) = {1} THEN class = {0} (p=5.0, n=0.0, P=164.0, N=139.0)
+r10: IF thalach = <147.50, 150) = {1} THEN class = {0} (p=5.0, n=0.0, P=164.0, N=139.0)
+r11: IF age = <70.50, 76) = {1} THEN class = {0} (p=4.0, n=0.0, P=164.0, N=139.0)
+r12: IF chol = <177.50, 184) = {1} THEN class = {0} (p=4.0, n=0.0, P=164.0, N=139.0)
+r13: IF chol = <249.50, 253) = {1} THEN class = {0} (p=4.0, n=0.0, P=164.0, N=139.0)
+r14: IF chol != <128.50, 417) = {1} THEN class = {0} (p=3.0, n=0.0, P=164.0, N=139.0)
+r15: IF chol = <194, 197) = {1} THEN class = {0} (p=3.0, n=0.0, P=164.0, N=139.0)
+r16: IF chol = <276.50, 281) = {1} THEN class = {0} (p=3.0, n=0.0, P=164.0, N=139.0)
+r17: IF chol = <353.50, 407) = {1} THEN class = {0} (p=3.0, n=0.0, P=164.0, N=139.0)
+r18: IF thal = {7} = {0} AND thalach = <177.50, 195) = {1} THEN class = {0} (p=23.0, n=0.0, P=164.0, N=139.0)
+r19: IF age = <60.50, inf) = {0} AND oldpeak = (-inf, 1.70) = {1} AND ca = <0.50, inf) = {0} AND 2-of-3(chol = (-inf, 327.50), trestbps = (-inf, 153), thalach = <83.50, inf)) = {0} AND thal = {3} = {1} THEN class = {0} (p=82.0, n=1.0, P=164.0, N=139.0)
+r20: IF oldpeak = (-inf, 1.70) = {1} AND ca = <0.50, inf) = {0} AND 2-of-3(chol = (-inf, 327.50), trestbps = (-inf, 153), thalach = <83.50, inf)) = {0} AND thal = {3} = {1} THEN class = {0} (p=91.0, n=3.0, P=164.0, N=139.0)
+r21: IF 2-of-3(trestbps = (-inf, 153), oldpeak = (-inf, 2.70), thalach = <83.50, inf)) = {0} AND chol = <328.50, 340) = {0} AND ca = <0.50, inf) = {0} AND thal = {3} = {1} THEN class = {0} (p=98.0, n=5.0, P=164.0, N=139.0)
+r22: IF trestbps = <122.50, 125) = {0} AND 2-of-3(chol = (-inf, 327.50), oldpeak = (-inf, 2.70), thalach = <83.50, inf)) = {0} AND ca = <0.50, inf) = {0} AND thal = {3} = {1} AND age = <56.50, 62) = {0} THEN class = {0} (p=85.0, n=2.0, P=164.0, N=139.0)
+r23: IF 2-of-3(chol = <153, inf), trestbps = <113.50, inf), thalach = <83.50, inf)) = {0} AND age = <54.50, inf) = {0} AND trestbps > thalach = {0} AND thal = {3} = {1} THEN class = {0} (p=68.0, n=0.0, P=164.0, N=139.0)
+r24: IF 2-of-3(ca = (-inf, 2.50), oldpeak = (-inf, 2.50), thalach = <83.50, inf)) = {0} AND trestbps = <113.50, inf) = {1} AND chol = <240.50, 250) = {0} AND thal = {3} = {1} AND age = <56.50, 62) = {0} THEN class = {0} (p=81.0, n=3.0, P=164.0, N=139.0)
+r25: IF oldpeak = ca = {1} AND thalach = <160.50, inf) = {1} AND chol = <328.50, 340) = {0} AND trestbps = (-inf, 142.50) = {1} THEN class = {0} (p=41.0, n=0.0, P=164.0, N=139.0)
+r26: IF oldpeak = ca = {1} AND trestbps = <116, 145) = {1} AND chol = (-inf, 272) = {1} AND thalach = <133.50, 137) = {0} THEN class = {0} (p=39.0, n=0.0, P=164.0, N=139.0)
+r27: IF trestbps = (-inf, 153) = {1} AND thal = {7} = {0} AND 2-of-3(chol = (-inf, 327.50), oldpeak = (-inf, 2.70), thalach = <83.50, inf)) = {0} AND ca = <0.50, inf) = {0} THEN class = {0} (p=100.0, n=6.0, P=164.0, N=139.0)
+r28: IF thalach = <160.50, inf) = {1} AND 2-of-3(chol = (-inf, 327.50), trestbps = (-inf, 153), oldpeak = (-inf, 3.65)) = {0} AND ca = <0.50, inf) = {0} THEN class = {0} (p=70.0, n=4.0, P=164.0, N=139.0)
+r29: IF age = (-inf, 57.50) = {1} AND thalach = (-inf, 155) = {0} AND trestbps = <123.50, 129) = {0} AND ca = <0.50, inf) = {0} AND 2-of-3(chol = (-inf, 327.50), oldpeak = (-inf, 2.50), thalach = <83.50, inf)) = {0} THEN class = {0} (p=69.0, n=4.0, P=164.0, N=139.0)
+r30: IF thalach = <142.50, 195) = {1} AND age = <60.50, inf) = {0} AND 2-of-3(chol = (-inf, 327.50), oldpeak = (-inf, 2.70), trestbps = (-inf, 167)) = {0} AND ca = <0.50, inf) = {0} THEN class = {0} (p=94.0, n=12.0, P=164.0, N=139.0)
+r31: IF oldpeak = <0.95, 4.20) = {0} AND trestbps = <122.50, 125) = {0} AND ca = <0.50, inf) = {0} AND chol = <240.50, 250) = {0} AND 2-of-3(chol = (-inf, 327.50), oldpeak = (-inf, 2.50), thalach = <83.50, inf)) = {0} AND trestbps = (-inf, 142.50) = {1} THEN class = {0} (p=83.0, n=2.0, P=164.0, N=139.0)
+r32: IF thalach = <150.50, 162) = {0} AND 2-of-3(chol = (-inf, 327.50), age = (-inf, 64.50), trestbps = (-inf, 185)) = {0} AND oldpeak = (-inf, 0.25) = {1} AND age = <56.50, 62) = {0} THEN class = {0} (p=57.0, n=7.0, P=164.0, N=139.0)
+r33: IF chol = <289.50, 294) = {1} THEN class = {2} (p=2.0, n=0.0, P=36.0, N=267.0)
+r34: IF chol = <325.50, 330) = {1} THEN class = {2} (p=2.0, n=0.0, P=36.0, N=267.0)
+r35: IF ca = (-inf, 2.50) = {1} AND chol = <186.50, 192) = {1} THEN class = {2} (p=2.0, n=0.0, P=36.0, N=267.0)
+r36: IF thalach = <105.50, 109) = {1} AND age = (-inf, 55.50) = {0} THEN class = {2} (p=2.0, n=0.0, P=36.0, N=267.0)
+r37: IF oldpeak = ca = {0} AND thalach = <133.50, 137) = {1} THEN class = {2} (p=2.0, n=0.0, P=36.0, N=267.0)
+r38: IF thalach = <116.50, 121) = {1} AND trestbps = (-inf, 139) = {0} THEN class = {2} (p=3.0, n=0.0, P=36.0, N=267.0)
+r39: IF oldpeak = <2.70, 3) = {1} AND thalach = <141.50, inf) = {1} THEN class = {2} (p=3.0, n=0.0, P=36.0, N=267.0)
+r40: IF thalach = <140.50, 143) = {1} AND oldpeak = <0.45, 1.50) = {1} THEN class = {2} (p=3.0, n=0.0, P=36.0, N=267.0)
+r41: IF oldpeak = <2.70, 3.50) = {1} AND thalach = <131.50, 147) = {1} AND chol = <254.50, 259) = {0} THEN class = {2} (p=7.0, n=0.0, P=36.0, N=267.0)
+r42: IF oldpeak = <2.70, 3.80) = {1} AND chol = <257.50, 260) = {0} AND thalach = <126.50, 147) = {1} THEN class = {2} (p=9.0, n=0.0, P=36.0, N=267.0)
+r43: IF thalach = <96.50, 105) = {1} AND exang = fbs = sex = {1} THEN class = {2} (p=2.0, n=0.0, P=36.0, N=267.0)
+r44: IF thalach = <145, 159) = {1} AND chol = <252.50, 255) = {1} THEN class = {2} (p=2.0, n=0.0, P=36.0, N=267.0)
+r45: IF age = <60.50, inf) = {1} AND 2-of-3(thalach = <83.50, inf), oldpeak = (-inf, 2.50), trestbps = (-inf, 185)) = {1} AND exang != sex = {1} THEN class = {2} (p=4.0, n=0.0, P=36.0, N=267.0)
+r46: IF thal = {7} = {1} AND age = <58.50, 62) = {1} AND oldpeak < ca = {1} THEN class = {2} (p=4.0, n=0.0, P=36.0, N=267.0)
+r47: IF oldpeak = <1.70, 3.50) = {1} AND trestbps = <133, 140) = {1} THEN class = {2} (p=5.0, n=0.0, P=36.0, N=267.0)
+r48: IF age = (-inf, 57.50) = {0} AND age = <70.50, 76) = {0} AND fbs != sex = {1} AND trestbps = <119, 140) = {0} AND ca = <0.50, inf) = {1} AND oldpeak = (-inf, 0.25) = {1} THEN class = {2} (p=5.0, n=0.0, P=36.0, N=267.0)
+r49: IF chol = <183.50, 186) = {1} THEN class = {1} (p=2.0, n=0.0, P=55.0, N=248.0)
+r50: IF chol = <247.50, 250) = {1} AND thalach = (-inf, 131) = {0} THEN class = {1} (p=4.0, n=0.0, P=55.0, N=248.0)
+r51: IF age = (-inf, 57.50) = {1} AND chol = <228.50, 231) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r52: IF fbs != sex = {1} AND trestbps = <151, 155) = {1} THEN class = {1} (p=4.0, n=0.0, P=55.0, N=248.0)
+r53: IF exang != fbs = {1} AND chol = <274.50, 277) = {1} THEN class = {1} (p=2.0, n=0.0, P=55.0, N=248.0)
+r54: IF age = (-inf, 58.50) = {1} AND chol = <298.50, 302) = {1} THEN class = {1} (p=2.0, n=0.0, P=55.0, N=248.0)
+r55: IF age = (-inf, 58.50) = {1} AND oldpeak = <2.05, 2.30) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r56: IF ca = (-inf, 2.50) = {1} AND chol = <228.50, 232) = {1} AND thalach = (-inf, 155) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r57: IF exang != sex = {1} AND chol = <281.50, 286) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r58: IF oldpeak = (-inf, 1.95) = {0} AND thalach = <104, 111) = {1} THEN class = {1} (p=4.0, n=0.0, P=55.0, N=248.0)
+r59: IF age = (-inf, 55.50) = {0} AND chol = <304.50, 308) = {1} THEN class = {1} (p=2.0, n=0.0, P=55.0, N=248.0)
+r60: IF oldpeak = ca = {1} AND chol = <328.50, 340) = {1} THEN class = {1} (p=2.0, n=0.0, P=55.0, N=248.0)
+r61: IF chol = <246.50, 254) = {1} AND thalach = <132.50, 161) = {1} THEN class = {1} (p=6.0, n=0.0, P=55.0, N=248.0)
+r62: IF thalach = <128.50, 132) = {1} AND trestbps = <115, 128) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r63: IF thalach = <102, 163) = {1} AND trestbps = <122.50, 125) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r64: IF oldpeak = ca = {1} AND chol = <272, 286) = {1} AND ca = (-inf, 0.50) = {1} THEN class = {1} (p=2.0, n=0.0, P=55.0, N=248.0)
+r65: IF thalach = <157.50, 160) = {1} AND thal = {3} = {0} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r66: IF thalach = <150.50, 162) = {1} AND chol = <240.50, 250) = {1} AND age = <46.50, inf) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r67: IF oldpeak = (-inf, 1.10) = {0} AND chol = <263.50, 268) = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r68: IF trestbps = <123.50, 129) = {1} AND exang != sex = {0} AND chol = <254.50, 259) = {1} THEN class = {1} (p=2.0, n=0.0, P=55.0, N=248.0)
+r69: IF 2-of-3(trestbps = <108, inf), fbs != {0}, chol = <153, inf)) = {0} AND oldpeak = (-inf, 2.50) = {1} AND trestbps < thalach = {0} AND age = <56.50, 62) = {1} AND thalach = <110, 113) = {0} THEN class = {1} (p=7.0, n=0.0, P=55.0, N=248.0)
+r70: IF 2-of-3(trestbps = <108, inf), fbs != {0}, chol = <153, inf)) = {0} AND thal = {7} = {0} AND ca = <0.50, inf) = {1} AND 2-of-3(chol > thalach, oldpeak = (-inf, 2.50), thalach = <83.50, inf)) = {0} AND age = <56.50, 62) = {1} THEN class = {1} (p=4.0, n=1.0, P=55.0, N=248.0)
+r71: IF trestbps = <107, 112) = {1} AND thalach = <167.50, inf) = {1} AND exang != sex = {1} THEN class = {1} (p=3.0, n=0.0, P=55.0, N=248.0)
+r72: IF oldpeak = ca = {0} AND ca = <1.50, inf) = {0} AND thal = {7} = {1} AND thalach = (-inf, 131) = {0} AND 2-of-3(trestbps = <109, inf), chol = (-inf, 310), oldpeak = (-inf, 3.65)) = {0} AND age = <54.50, inf) = {0} AND exang != fbs = {0} THEN class = {1} (p=7.0, n=4.0, P=55.0, N=248.0)
+r73: IF oldpeak = <5, inf) = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r74: IF thalach = <89, 96) = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r75: IF chol = <201.50, 311) = {0} AND trestbps = thalach = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r76: IF oldpeak = <3.05, 3.40) = {1} AND exang = fbs = sex = {0} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r77: IF oldpeak > ca = {1} AND thalach = <110, 113) = {1} THEN class = {3} (p=3.0, n=0.0, P=35.0, N=268.0)
+r78: IF oldpeak = <3.90, inf) = {1} AND age = (-inf, 56.50) = {1} THEN class = {3} (p=3.0, n=0.0, P=35.0, N=268.0)
+r79: IF exang = fbs = sex = {0} AND oldpeak > ca = {1} AND thalach = <89, 105) = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r80: IF thalach = (-inf, 131) = {1} AND chol = <204.50, 207) = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r81: IF ca = (-inf, 1.50) = {0} AND chol = <257.50, 260) = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r82: IF thalach = <110, 117) = {1} AND 2-of-3(chol = <153, inf), trestbps = <111, inf), oldpeak = (-inf, 3.65)) = {1} THEN class = {3} (p=3.0, n=0.0, P=35.0, N=268.0)
+r83: IF trestbps = <176, inf) = {1} AND fbs != {0} = {0} THEN class = {3} (p=3.0, n=0.0, P=35.0, N=268.0)
+r84: IF thal = {7} = {1} AND chol = <255.50, 269) = {0} AND 2-of-3(ca = (-inf, 2.50), thalach = <121.50, inf), trestbps = (-inf, 185)) = {1} AND oldpeak = (-inf, 1.70) = {0} AND age = <56.50, 62) = {0} THEN class = {3} (p=10.0, n=4.0, P=35.0, N=268.0)
+r85: IF ca = <1.50, inf) = {1} AND thalach = <162.50, 169) = {1} THEN class = {3} (p=3.0, n=0.0, P=35.0, N=268.0)
+r86: IF ca = <1.50, inf) = {1} AND chol = <255.50, 269) = {1} AND chol = <263.50, 268) = {0} THEN class = {3} (p=4.0, n=0.0, P=35.0, N=268.0)
+r87: IF ca = <1.50, inf) = {1} AND fbs != sex = {1} AND thalach = <121.50, inf) = {1} AND oldpeak < ca = {1} AND 2-of-3(oldpeak = (-inf, 3.65), chol = (-inf, 310), trestbps = <108, inf)) = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r88: IF thalach = <125.50, 128) = {1} AND age = <49.50, 57) = {1} THEN class = {3} (p=2.0, n=0.0, P=35.0, N=268.0)
+r89: IF age = <43.50, 56) = {1} AND thal = {7} = {1} AND oldpeak = <0.95, 4.20) = {0} AND trestbps = <116, 145) = {1} AND chol = (-inf, 272) = {0} THEN class = {3} (p=3.0, n=0.0, P=35.0, N=268.0)
+r90: IF chol = <288.50, 293) = {1} AND exang != fbs = {1} THEN class = {4} (p=2.0, n=0.0, P=13.0, N=290.0)
+r91: IF oldpeak = <3.70, 4.20) = {1} AND slope = {2} = {1} THEN class = {4} (p=2.0, n=0.0, P=13.0, N=290.0)
+r92: IF oldpeak = <2.35, 2.80) = {1} AND thalach = <122.50, 129) = {1} THEN class = {4} (p=2.0, n=0.0, P=13.0, N=290.0)
+r93: IF oldpeak = <2.35, 2.80) = {1} AND age = <54.50, 61) = {1} AND exang = fbs = sex = {0} THEN class = {4} (p=2.0, n=0.0, P=13.0, N=290.0)
+r94: IF oldpeak = <3.55, 5.60) = {1} AND chol = <201.50, 311) = {0} AND chol = <186.50, 192) = {0} THEN class = {4} (p=3.0, n=0.0, P=13.0, N=290.0)
+r95: IF trestbps = (-inf, 153) = {1} AND oldpeak = (-inf, 1.10) = {1} AND 2-of-3(chol = (-inf, 318.50), age = (-inf, 64.50), thalach = <83.50, inf)) = {1} AND ca = <2.50, inf) = {1} THEN class = {4} (p=2.0, n=0.0, P=13.0, N=290.0)

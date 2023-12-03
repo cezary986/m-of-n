@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999992877144
+r2: 1.0
+r3: 0.999999458680135
+r4: 1.0
+r5: 1.0
+________________________________
+r1: IF sq2 = feq1 = {1} AND cacent != <-1.15, 4.19) = {0} AND znqt = znq1 = {1} AND pq2 = znq2 = {1} AND sq4 = niq2 = {1} AND sq3 = feq1 = {1} THEN  (p=5.0, n=0.0, P=388.0, N=0.0)
+r2: IF cacent != <-1.15, 4.19) = {0} AND dysp1 = (-inf, 2.50) = {0} AND znqt = znq1 = {1} AND sq1 = cuq1 = {0} THEN  (p=11.0, n=0.0, P=388.0, N=0.0)
+r3: IF dysp1 = (-inf, 2.50) = {0} AND znqt = znq1 = {1} AND sq1 = feq2 = {0} AND sq4 = cuq1 = {1} THEN  (p=10.0, n=0.0, P=388.0, N=0.0)
+r4: IF sqt > feq2 = {1} THEN  (p=103.0, n=0.0, P=388.0, N=0.0)
+r5: IF cacent != <-1.15, 4.19) = {1} AND znqt > cuq1 = {0} AND znqt = znq1 = {0} THEN  (p=285.0, n=0.0, P=388.0, N=0.0)

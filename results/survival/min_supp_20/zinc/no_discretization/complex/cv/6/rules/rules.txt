@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.9999999996951573
+r2: 1.0
+r3: 0.9999999999999787
+r4: 0.9999999999999986
+________________________________
+r1: IF dysp1 = <1.50, inf) AND agepill != <56.50, 59) THEN  (p=154.0, n=0.0, P=388.0, N=0.0)
+r2: IF znquartiles = {?, Q4, Q2} THEN  (p=318.0, n=0.0, P=388.0, N=0.0)
+r3: IF sq3 = feq3 AND sq3 = niq1 AND znqt = sq1 THEN  (p=10.0, n=0.0, P=388.0, N=0.0)
+r4: IF znq4 < stdagepill THEN  (p=54.0, n=0.0, P=388.0, N=0.0)

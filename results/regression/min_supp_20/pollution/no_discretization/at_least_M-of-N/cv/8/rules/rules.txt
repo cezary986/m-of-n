@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.4432565789473684
+r2: 0.3751724137931034
+r3: 0.5281818181818182
+r4: 0.3864795918367347
+r5: 0.4184962406015038
+r6: 0.5390625
+r7: 0.25520833333333337
+r8: 0.4241071428571429
+r9: 0.23863636363636362
+r10: 0.5432692307692308
+r11: 0.4373608903020669
+r12: 0.44812925170068024
+________________________________
+r1: IF EDUC > NONW = {1} AND HC > NOX = {1} AND OVR65 > HC = {1} THEN class = {0.34} [0.23,0.44] (p=6.0, n=2.0, P=16.0, N=38.0)
+r2: IF POOR > SO = {0} AND POOR < HC = {0} AND WWDRK = (-inf, 45.60) = {1} THEN class = {0.48} [0.37,0.59] (p=7.0, n=2.0, P=25.0, N=29.0)
+r3: IF POOR > SO = {0} AND HOUS = <72.65, 79.80) = {1} AND WWDRK = (-inf, 45.60) = {0} THEN class = {0.56} [0.52,0.60] (p=4.0, n=1.0, P=10.0, N=44.0)
+r4: IF EDUC < HC = {1} AND NONW < POOR = {0} THEN class = {0.61} [0.45,0.76] (p=11.0, n=3.0, P=28.0, N=26.0)
+r5: IF EDUC < HC = {0} AND EDUC > NONW = {0} AND WWDRK = (-inf, 45.60) = {0} THEN class = {0.31} [0.20,0.42] (p=4.0, n=1.0, P=19.0, N=35.0)
+r6: IF WWDRK > SO = {0} AND EDUC = <9.75, 10.90) = {1} AND PREC > WWDRK = {0} AND NONW < POOR = {1} AND POOR < HC = {1} THEN class = {0.62} [0.59,0.65] (p=3.0, n=1.0, P=6.0, N=48.0)
+r7: IF 2-of-3(WWDRK > NOX, NONW < POOR, JULT > NOX) = {1} AND 2-of-3(WWDRK > NOX, HC < SO, PREC > NOX) = {0} AND 2-of-3(WWDRK > NOX, HC > NOX, JULT > NOX) = {1} THEN class = {0.15} [0.076,0.23] (p=1.0, n=1.0, P=6.0, N=48.0)
+r8: IF EDUC > NONW = {1} AND 2-of-3(PREC > HC, HC < SO, JULT > NOX) = {0} THEN class = {0.22} [0.10,0.34] (p=3.0, n=1.0, P=12.0, N=42.0)
+r9: IF POOR > SO = {0} AND OVR65 > NOX = {1} AND OVR65 > HC = {0} AND WWDRK = (-inf, 45.60) = {0} THEN class = {0.34} [0.21,0.46] (p=2.0, n=1.0, P=22.0, N=32.0)
+r10: IF WWDRK > SO = {0} AND 2-of-3(WWDRK > NOX, PREC > NOX, JULT > NOX) = {1} AND PREC > JANT = {1} AND HC > NOX = {1} THEN class = {0.53} [0.40,0.65] (p=9.0, n=1.0, P=26.0, N=28.0)
+r11: IF 2-of-3(WWDRK > NOX, PREC > NOX, JULT > NOX) = {1} AND EDUC = <9.75, 10.90) = {0} AND PREC < SO = {1} AND EDUC > NONW = {1} AND OVR65 > NOX = {0} THEN class = {0.41} [0.32,0.50] (p=4.0, n=1.0, P=17.0, N=37.0)
+r12: IF EDUC = <9.75, 10.90) = {1} AND NOX = SO = {0} AND HC > NOX = {1} AND HOUS = <72.65, 79.80) = {0} THEN class = {0.56} [0.51,0.61] (p=5.0, n=2.0, P=12.0, N=42.0)

@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999999999999
+r2: 1.0
+r3: 0.9063067500296403
+r4: 1.0
+r5: 1.0
+________________________________
+r1: IF CHF = <0.50, inf) THEN  (p=177.0, n=0.0, P=433.0, N=0.0)
+r2: IF SHO = <0.50, inf) THEN  (p=34.0, n=0.0, P=433.0, N=0.0)
+r3: IF MITYPE = <1.50, inf) AND SEX = <0.50, inf) AND MIORD = <0.50, inf) AND AGE = (-inf, 65) AND CPK = (-inf, 198) THEN  (p=3.0, n=0.0, P=433.0, N=0.0)
+r4: IF CHF = (-inf, 0.50) AND AGE = (-inf, 72) THEN  (p=177.0, n=0.0, P=433.0, N=0.0)
+r5: IF AGE = <68, inf) THEN  (p=218.0, n=0.0, P=433.0, N=0.0)

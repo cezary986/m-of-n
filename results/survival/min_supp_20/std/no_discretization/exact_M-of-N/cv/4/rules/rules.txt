@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.9612207863484833
+r2: 0.9853480829239917
+r3: 0.9999708105759458
+r4: 0.9997489515373498
+r5: 0.8654194263397801
+r6: 0.9999421466355415
+r7: 0.9998388341129271
+r8: 0.9425190257992847
+r9: 0.999998352514643
+________________________________
+r1: IF os30d = itch = {0} AND iinfct = condom = {0} AND iinfct = npartner = {0} AND rs30d < abdpain = {0} AND npartner = discharge = {0} AND discharge > lesion = {1} AND os30d < dchexam = {1} THEN  (p=11.0, n=0.0, P=789.0, N=0.0)
+r2: IF os30d = rash = {1} AND os30d = itch = {1} AND discharge > vagina = {1} AND os12m = itch = {1} AND npartner = discharge = {0} AND os30d = vagina = {1} THEN  (p=46.0, n=0.0, P=789.0, N=0.0)
+r3: IF os30d = rash = {1} AND discharge > vagina = {0} AND iinfct = npartner = {0} AND os30d = lesion = {1} AND os30d = vagina = {0} THEN  (p=52.0, n=0.0, P=789.0, N=0.0)
+r4: IF os30d = abdpain = {1} THEN  (p=558.0, n=0.0, P=789.0, N=0.0)
+r5: IF os30d = itch = {0} AND os30d < dchexam = {1} AND abdpain = discharge = {1} AND abdpain > vagina = {1} THEN  (p=7.0, n=0.0, P=789.0, N=0.0)
+r6: IF os30d = lesion = {1} THEN  (p=603.0, n=0.0, P=789.0, N=0.0)
+r7: IF discharge > vagina = {0} AND rs30d < discharge = {0} AND os30d = abdpain = {0} AND os30d = vagina = {0} THEN  (p=89.0, n=0.0, P=789.0, N=0.0)
+r8: IF os30d = itch = {1} AND iinfct = condom = {1} AND rs30d < discharge = {1} AND os30d = abdpain = {0} AND os30d = vagina = {0} THEN  (p=9.0, n=0.0, P=789.0, N=0.0)
+r9: IF iinfct = npartner = {0} AND os30d = lesion = {0} AND abdpain > vagina = {0} THEN  (p=128.0, n=0.0, P=789.0, N=0.0)

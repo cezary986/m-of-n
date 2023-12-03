@@ -1,0 +1,52 @@
+Rules qualities:
+r1: 0.43912649432480255
+r2: 0.37560414269275033
+r3: 0.4306106264869151
+r4: 0.3108643933386201
+r5: 0.3955688246385921
+r6: 0.25066371681415933
+r7: 0.30330882352941174
+r8: 0.39180990899898893
+r9: 0.3108643933386201
+r10: 0.42916666666666664
+r11: 0.39846743295019166
+r12: 0.36346153846153845
+r13: 0.507085020242915
+r14: 0.5948546511627907
+r15: 0.4168848671544089
+r16: 0.5627665245202558
+r17: 0.46551906779661023
+r18: 0.5070475531871619
+r19: 0.4269675925925926
+r20: 0.4726270053475936
+r21: 0.38778409090909094
+r22: 0.37913989125061787
+r23: 0.3641203703703704
+r24: 0.31373015873015875
+r25: 0.368801652892562
+________________________________
+r1: IF celltype = {2} AND age = (-inf, 61) THEN class = {0.051} [-0.038,0.14] (p=16.0, n=1.0, P=94.0, N=29.0)
+r2: IF karnofsky = (-inf, 75) AND status = {0} THEN class = {0.10} [0.051,0.15] (p=4.0, n=1.0, P=44.0, N=79.0)
+r3: IF karnofsky = <70, inf) AND status = {0} THEN class = {0.086} [0.058,0.11] (p=4.0, n=1.0, P=26.0, N=97.0)
+r4: IF celltype = {4} AND months = <11.50, inf) AND therapy = {0} THEN class = {0.22} [0.12,0.31] (p=2.0, n=1.0, P=26.0, N=97.0)
+r5: IF celltype = {4} AND treatment = {1} AND months = (-inf, 11.50) THEN class = {0.14} [0.085,0.20] (p=4.0, n=1.0, P=37.0, N=86.0)
+r6: IF treatment = {2} AND months = (-inf, 9.50) AND age = <64.50, 65.50) THEN class = {0.38} [0.26,0.50] (p=1.0, n=1.0, P=10.0, N=113.0)
+r7: IF celltype = {4} AND treatment = {2} AND months = (-inf, 9.50) AND age = (-inf, 64.50) THEN class = {0.051} [0.013,0.09] (p=3.0, n=1.0, P=51.0, N=72.0)
+r8: IF months = (-inf, 17) AND age = <67, inf) THEN class = {0.047} [-0.0096,0.10] (p=20.0, n=3.0, P=80.0, N=43.0)
+r9: IF celltype = {4} AND months = <7.50, inf) AND karnofsky = <77.50, inf) AND age = (-inf, 64.50) THEN class = {0.20} [0.12,0.28] (p=2.0, n=1.0, P=26.0, N=97.0)
+r10: IF celltype = {4} AND treatment = {1} AND karnofsky = (-inf, 70) AND age = (-inf, 66.50) THEN class = {0.22} [0.15,0.28] (p=3.0, n=1.0, P=15.0, N=108.0)
+r11: IF celltype = {4} AND months = <10.50, inf) AND therapy = {10} AND karnofsky = <55, inf) THEN class = {0.16} [0.095,0.23] (p=4.0, n=1.0, P=36.0, N=87.0)
+r12: IF celltype = {3} AND months = (-inf, 6.50) AND karnofsky = <55, inf) THEN class = {0.094} [0.049,0.14] (p=9.0, n=3.0, P=45.0, N=78.0)
+r13: IF months = (-inf, 9) AND therapy = {0} AND karnofsky = (-inf, 55) AND age = (-inf, 61.50) AND status = {1} THEN class = {0.006} [-0.0017,0.014] (p=5.0, n=1.0, P=19.0, N=104.0)
+r14: IF treatment = {2} AND months = <3, inf) AND karnofsky = (-inf, 55) AND age = (-inf, 67.50) AND status = {1} THEN class = {0.014} [-0.005,0.033] (p=14.0, n=1.0, P=43.0, N=80.0)
+r15: IF celltype = {3} AND treatment = {2} AND karnofsky = (-inf, 85) AND age = (-inf, 61.50) THEN class = {0.03} [0.0048,0.055] (p=6.0, n=1.0, P=53.0, N=70.0)
+r16: IF karnofsky = (-inf, 60) AND age = (-inf, 69.50) AND status = {1} THEN class = {0.018} [-0.047,0.083] (p=36.0, n=5.0, P=67.0, N=56.0)
+r17: IF celltype = {2} AND treatment = {1} AND months = (-inf, 8.50) AND karnofsky = (-inf, 77.50) AND age = (-inf, 66) THEN class = {0.026} [-0.007,0.059] (p=9.0, n=1.0, P=59.0, N=64.0)
+r18: IF celltype = {2} AND treatment = {1} AND months = (-inf, 8.50) AND age = <54.50, inf) AND status = {1} THEN class = {0.03} [-0.0027,0.063] (p=12.0, n=1.0, P=61.0, N=62.0)
+r19: IF celltype = {2} AND treatment = {2} AND karnofsky = <45, 72.50) AND age = <60.50, inf) THEN class = {0.079} [0.052,0.11] (p=4.0, n=1.0, P=27.0, N=96.0)
+r20: IF months = <3.50, inf) AND karnofsky = <55, inf) AND age = <59, 63.50) THEN class = {0.091} [0.023,0.16] (p=11.0, n=1.0, P=68.0, N=55.0)
+r21: IF treatment = {2} AND karnofsky = <87.50, inf) AND status = {1} THEN class = {0.47} [0.15,0.78] (p=3.0, n=1.0, P=24.0, N=99.0)
+r22: IF treatment = {2} AND months = (-inf, 6) AND karnofsky = (-inf, 77.50) AND age = (-inf, 66.50) THEN class = {0.051} [-0.08,0.18] (p=16.0, n=1.0, P=102.0, N=21.0)
+r23: IF months = <12, inf) AND karnofsky = <65, 82.50) THEN class = {0.16} [0.079,0.25] (p=7.0, n=2.0, P=48.0, N=75.0)
+r24: IF celltype = {1} AND months = <10, 13.50) AND therapy = {10} AND karnofsky = (-inf, 75) THEN class = {0.043} [0.0021,0.084] (p=4.0, n=1.0, P=63.0, N=60.0)
+r25: IF celltype = {1} AND months = (-inf, 7.50) AND karnofsky = <45, 75) AND age = <36.50, 51.50) THEN class = {0.99} [0.61,1.37] (p=1.0, n=1.0, P=2.0, N=121.0)

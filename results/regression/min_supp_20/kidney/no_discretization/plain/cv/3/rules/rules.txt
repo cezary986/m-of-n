@@ -1,0 +1,44 @@
+Rules qualities:
+r1: 0.2055944055944056
+r2: 0.75
+r3: 0.484375
+r4: 1.0
+r5: 0.40433455433455434
+r6: 0.4921875
+r7: 0.36551724137931035
+r8: 0.4223214285714285
+r9: 0.75
+r10: 0.26190476190476186
+r11: 0.4110576923076923
+r12: 0.6428571428571428
+r13: 0.6428571428571428
+r14: 0.6666666666666666
+r15: 0.35509031198686364
+r16: 0.6428571428571428
+r17: 0.6666666666666666
+r18: 0.6666666666666666
+r19: 0.4943409247757074
+r20: 0.4229390681003584
+r21: 0.20886615515771517
+________________________________
+r1: IF time = <491.50, inf) THEN class = {0.071} [0.036,0.11] (p=1.0, n=1.0, P=13.0, N=55.0)
+r2: IF disease_type = {2} AND age = <58.50, inf) THEN class = {0.36} [0.36,0.36] (p=2.0, n=0.0, P=4.0, N=64.0)
+r3: IF disease_type = {2} AND sex = {2} THEN class = {0.96} [0.83,1.10] (p=2.0, n=1.0, P=4.0, N=64.0)
+r4: IF disease_type = {1} AND sex = {2} AND time = (-inf, 81) AND age = <54, inf) THEN class = {0.54} [0.54,0.54] (p=4.0, n=0.0, P=4.0, N=64.0)
+r5: IF sex = {2} AND time = (-inf, 81) AND status = <0.50, inf) THEN class = {0.54} [0.35,0.73] (p=11.0, n=4.0, P=26.0, N=42.0)
+r6: IF disease_type = {1} AND sex = {2} AND time = (-inf, 267) AND age = (-inf, 60) AND status = <0.50, inf) THEN class = {0.43} [0.28,0.57] (p=7.0, n=1.0, P=28.0, N=40.0)
+r7: IF disease_type = {1} AND sex = {2} AND time = (-inf, 58) AND age = <42.50, 51.50) THEN class = {0.39} [0.34,0.44] (p=2.0, n=1.0, P=10.0, N=58.0)
+r8: IF disease_type = {0} AND sex = {2} AND time = (-inf, 187.50) AND status = <0.50, inf) THEN class = {0.46} [0.31,0.62] (p=5.0, n=1.0, P=28.0, N=40.0)
+r9: IF disease_type = {3} AND age = <52, inf) THEN class = {0.21} [0.21,0.21] (p=2.0, n=0.0, P=4.0, N=64.0)
+r10: IF disease_type = {3} AND time = (-inf, 181) AND age = <19, 52) AND status = <0.50, inf) THEN class = {0.71} [0.51,0.92] (p=4.0, n=4.0, P=12.0, N=56.0)
+r11: IF time = <238.50, inf) THEN class = {0.11} [0.045,0.17] (p=5.0, n=2.0, P=16.0, N=52.0)
+r12: IF time = <187.50, 198.50) THEN class = {0.18} [0.18,0.18] (p=2.0, n=0.0, P=7.0, N=61.0)
+r13: IF disease_type = {0} AND age = <52.50, inf) AND status = (-inf, 0.50) THEN class = {0.11} [0.11,0.11] (p=2.0, n=0.0, P=7.0, N=61.0)
+r14: IF disease_type = {1} AND age = (-inf, 42.50) AND status = (-inf, 0.50) THEN class = {0.071} [0.071,0.071] (p=2.0, n=0.0, P=6.0, N=62.0)
+r15: IF sex = {2} AND age = (-inf, 50.50) THEN class = {0.21} [0.027,0.40] (p=23.0, n=6.0, P=42.0, N=26.0)
+r16: IF disease_type = {1} AND sex = {1} AND age = (-inf, 51.50) THEN class = {0.18} [0.18,0.18] (p=2.0, n=0.0, P=7.0, N=61.0)
+r17: IF disease_type = {0} AND sex = {1} AND age = <52.50, inf) THEN class = {0.46} [0.46,0.46] (p=2.0, n=0.0, P=6.0, N=62.0)
+r18: IF sex = {1} AND age = (-inf, 19) THEN class = {0.46} [0.46,0.46] (p=2.0, n=0.0, P=6.0, N=62.0)
+r19: IF sex = {1} AND age = <51.50, inf) THEN class = {0.36} [0.24,0.48] (p=6.0, n=1.0, P=23.0, N=45.0)
+r20: IF disease_type = {0} AND sex = {1} AND time = (-inf, 11) THEN class = {1} [0.75,1.25] (p=2.0, n=1.0, P=6.0, N=62.0)
+r21: IF time = <12, inf) AND age = <50.50, inf) THEN class = {0.36} [0.10,0.61] (p=19.0, n=4.0, P=51.0, N=17.0)

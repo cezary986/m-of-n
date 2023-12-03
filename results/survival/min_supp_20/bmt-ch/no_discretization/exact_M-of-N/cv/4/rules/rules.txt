@@ -1,0 +1,38 @@
+Rules qualities:
+r1: 0.9940322066759048
+r2: 0.9868785731146936
+r3: 0.9999999865090974
+r4: 0.9999961909775773
+r5: 0.9989741541457705
+r6: 0.9999999999862536
+r7: 0.9999969276892826
+r8: 0.9999872530044217
+r9: 0.9990338749053663
+r10: 0.99999999999999
+r11: 0.94678850978929
+r12: 0.9997957436361073
+r13: 0.9999999999999372
+r14: 0.9999999816428046
+r15: 0.9999761275951129
+r16: 0.9073392811041076
+r17: 0.9999796691667543
+r18: 0.9585743799326083
+________________________________
+r1: IF 2-of-3(CD34kgx10d6 < Rbodymass, Donorage > Rbodymass, Recipientage < ANCrecovery) = {1} AND CD34kgx10d6 < Rbodymass = {0} AND Rbodymass > PLTrecovery = {0} AND aGvHDIIIIV = Relapse = {0} THEN  (p=12.0, n=0.0, P=168.0, N=0.0)
+r2: IF 2-of-3(CD34kgx10d6 < Rbodymass, RecipientRh = DonorCMV, Recipientage < ANCrecovery) = {1} AND 2-of-3(CD34kgx10d6 < Rbodymass, Donorage > Rbodymass, Recipientage < ANCrecovery) = {0} AND Recipientgender != HLAmismatch = {0} AND 2-of-3(aGvHDIIIIV != IIIV, Txpostrelapse != IIIV, Recipientage < ANCrecovery) = {1} THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r3: IF ABOmatch != extcGvHD = {0} THEN  (p=92.0, n=0.0, P=168.0, N=0.0)
+r4: IF extcGvHD = RecipientCMV = {0} AND extcGvHD != DonorCMV = {1} AND HLAgrI != {5} = {0} AND Rbodymass > PLTrecovery = {1} AND Recipientgender != Riskgroup = {1} AND Donorage > Rbodymass = {1} THEN  (p=6.0, n=0.0, P=168.0, N=0.0)
+r5: IF extcGvHD = RecipientCMV = {0} AND 2-of-3(Recipientage != <9.25, 14.10), aGvHDIIIIV = Stemcellsource, CD34kgx10d6 < Rbodymass) = {0} AND 2-of-3(Recipientage < ANCrecovery, Rbodymass > PLTrecovery, CD34kgx10d6 < Rbodymass) = {1} AND Recipientgender != Riskgroup = {1} AND Recipientage < CD34kgx10d6 = {0} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r6: IF extcGvHD = RecipientCMV = {0} AND extcGvHD = RecipientRh = {0} AND Rbodymass > PLTrecovery = {0} AND 2-of-3(Recipientage < ANCrecovery, Rbodymass > PLTrecovery, CD34kgx10d6 < Rbodymass) = {1} THEN  (p=9.0, n=0.0, P=168.0, N=0.0)
+r7: IF 2-of-3(Recipientage != <9.25, 14.10), Diseasegroup = Recipientage10, CD34kgx10d6 < Rbodymass) = {0} AND CD3dCD34 > CD3dkgx10d8 = {1} AND Rbodymass > PLTrecovery = {0} AND 2-of-3(Recipientage < ANCrecovery, Rbodymass > PLTrecovery, CD34kgx10d6 < Rbodymass) = {1} AND 2-of-3(CD34kgx10d6 < Rbodymass, Recipientgender != Riskgroup, Recipientage < ANCrecovery) = {1} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r8: IF Recipientage != <9.25, 14.10) = {1} AND Rbodymass > PLTrecovery = {1} AND 2-of-3(Recipientage < ANCrecovery, Rbodymass > PLTrecovery, CD34kgx10d6 < Rbodymass) = {0} AND Recipientgender != Riskgroup = {0} AND 2-of-3(CD34kgx10d6 < Rbodymass, Relapse = Recipientage10, Recipientage < ANCrecovery) = {1} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r9: IF Recipientage10 != IIIV = {1} AND Recipientgender != HLAmismatch = {1} AND extcGvHD = RecipientRh = {0} AND Rbodymass > PLTrecovery = {0} THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r10: IF aGvHDIIIIV = Stemcellsource = {1} AND extcGvHD = RecipientRh = {0} AND 2-of-3(CD34kgx10d6 < Rbodymass, Rbodymass < PLTrecovery, Recipientage < ANCrecovery) = {0} AND Donorage > Rbodymass = {0} AND Recipientage < CD34kgx10d6 = {0} THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r11: IF aGvHDIIIIV != Recipientage10 = {1} AND CD3dCD34 > CD3dkgx10d8 = {0} AND Donorage > Rbodymass = {0} THEN  (p=14.0, n=0.0, P=168.0, N=0.0)
+r12: IF extcGvHD = RecipientCMV = {0} AND 2-of-3(CD34kgx10d6 < Rbodymass, Recipientgender = Recipientage10, Recipientage < ANCrecovery) = {1} AND Recipientage < CD34kgx10d6 = {0} THEN  (p=17.0, n=0.0, P=168.0, N=0.0)
+r13: IF 2-of-3(Recipientage != <9.25, 14.10), extcGvHD != DonorCMV, CD34kgx10d6 < Rbodymass) = {0} AND aGvHDIIIIV = IIIV = {0} AND ABOmatch != extcGvHD = {1} THEN  (p=28.0, n=0.0, P=168.0, N=0.0)
+r14: IF extcGvHD = RecipientRh = {0} AND Recipientage != <9.25, 14.10) = {1} THEN  (p=55.0, n=0.0, P=168.0, N=0.0)
+r15: IF Recipientgender = Recipientage10 = {0} AND extcGvHD != DonorCMV = {1} AND Rbodymass > PLTrecovery = {0} AND 2-of-3(Recipientage < ANCrecovery, Rbodymass > PLTrecovery, CD34kgx10d6 < Rbodymass) = {1} AND 2-of-3(Antigen != RecipientABO, aGvHDIIIIV = Stemcellsource, CD34kgx10d6 < Rbodymass) = {0} THEN  (p=8.0, n=0.0, P=168.0, N=0.0)
+r16: IF 2-of-3(Antigen != RecipientABO, Txpostrelapse = Recipientage10, Recipientage < ANCrecovery) = {0} AND 2-of-3(CD34kgx10d6 < Rbodymass, RecipientRh = DonorCMV, Recipientage < ANCrecovery) = {0} AND Rbodymass > PLTrecovery = {1} AND 2-of-3(Recipientage < ANCrecovery, Rbodymass > PLTrecovery, CD34kgx10d6 < Rbodymass) = {0} AND ABOmatch != extcGvHD = {1} AND 2-of-3(aGvHDIIIIV != IIIV, CD34kgx10d6 < Rbodymass, Recipientage != <9.25, 14.10)) = {0} THEN  (p=5.0, n=0.0, P=168.0, N=0.0)
+r17: IF aGvHDIIIIV = Relapse = {0} THEN  (p=112.0, n=0.0, P=168.0, N=0.0)
+r18: IF Recipientage < CD34kgx10d6 = {1} THEN  (p=88.0, n=0.0, P=168.0, N=0.0)

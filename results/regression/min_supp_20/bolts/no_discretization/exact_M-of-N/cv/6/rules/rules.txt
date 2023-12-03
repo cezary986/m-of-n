@@ -1,0 +1,18 @@
+Rules qualities:
+r1: 0.62890625
+r2: 0.6470588235294118
+r3: 0.74375
+r4: 0.6710743801652893
+r5: 0.3541666666666667
+r6: 0.42857142857142855
+r7: 0.49350649350649356
+r8: 0.546875
+________________________________
+r1: IF RUN < TOTAL = {0} AND 2-of-3(TOTAL > SENS, SPEED1 < SENS, SENS < TIME) = {1} AND 2-of-3(TOTAL > SENS, RUN < TOTAL, SENS < TIME) = {1} AND TIME = <10.56, 27.02) = {0} THEN class = {0.96} [0.81,1.11] (p=3.0, n=1.0, P=4.0, N=32.0)
+r2: IF RUN < TOTAL = {1} AND SPEED2 > SENS = {1} THEN class = {0.80} [0.79,0.80] (p=2.0, n=1.0, P=2.0, N=34.0)
+r3: IF 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, RUN > SENS) = {0} AND RUN < TIME = {1} AND TIME = <10.56, 27.02) = {0} THEN class = {0.80} [0.57,1.03] (p=9.0, n=1.0, P=12.0, N=24.0)
+r4: IF 2-of-3(TOTAL > SENS, SPEED1 < SENS, SENS < TIME) = {1} AND 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, SENS < TIME) = {0} THEN class = {0.80} [0.60,0.99] (p=9.0, n=2.0, P=11.0, N=25.0)
+r5: IF 2-of-3(TOTAL > SENS, SENS < TIME, RUN > SENS) = {1} THEN class = {0.081} [-0.18,0.34] (p=10.0, n=2.0, P=24.0, N=12.0)
+r6: IF 2-of-3(TOTAL > SENS, SPEED1 < SENS, SENS < TIME) = {0} AND 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, RUN > SENS) = {0} AND SPEED1 > SPEED2 = {1} THEN class = {0.12} [0.082,0.16] (p=4.0, n=2.0, P=8.0, N=28.0)
+r7: IF 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, RUN > SPEED1) = {1} AND 2-of-3(TOTAL > SENS, SPEED1 > SPEED2, SENS < TIME) = {1} AND 2-of-3(SPEED1 > SPEED2, SENS < TIME, RUN > SPEED1) = {1} THEN class = {0.14} [0.053,0.22] (p=5.0, n=1.0, P=14.0, N=22.0)
+r8: IF 2-of-3(TOTAL > SENS, SENS < TIME, RUN > SPEED1) = {0} AND 2-of-3(TOTAL > SENS, SPEED1 < SENS, RUN > SPEED1) = {1} THEN class = {0.80} [0.47,1.13] (p=9.0, n=3.0, P=12.0, N=24.0)

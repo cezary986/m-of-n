@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.8686281456953643
+r2: 0.8617581104870485
+r3: 0.7537014445606289
+r4: 0.9359773680965733
+r5: 0.7942991169977925
+r6: 0.7831694950331126
+r7: 0.7550789873068432
+r8: 0.7091489848379228
+r9: 0.6853579975655545
+________________________________
+r1: IF physician-fee-freeze = {y} AND synfuels-corporation-cutback = {n} THEN class = {republican} (p=122.0, n=3.0, P=151.0, N=240.0)
+r2: IF physician-fee-freeze = {y} THEN class = {republican} (p=146.0, n=12.0, P=151.0, N=240.0)
+r3: IF synfuels-corporation-cutback = {n} AND adoption-of-the-budget-resolution = {n} THEN class = {republican} (p=106.0, n=8.0, P=151.0, N=240.0)
+r4: IF physician-fee-freeze = {n} THEN class = {democrat} (p=220.0, n=2.0, P=240.0, N=151.0)
+r5: IF adoption-of-the-budget-resolution = {y} AND el-salvador-aid = {n} THEN class = {democrat} (p=166.0, n=4.0, P=240.0, N=151.0)
+r6: IF aid-to-nicaraguan-contras = {y} AND el-salvador-aid = {n} THEN class = {democrat} (p=177.0, n=7.0, P=240.0, N=151.0)
+r7: IF education-spending = {n} AND adoption-of-the-budget-resolution = {y} THEN class = {democrat} (p=175.0, n=9.0, P=240.0, N=151.0)
+r8: IF adoption-of-the-budget-resolution = {y} THEN class = {democrat} (p=207.0, n=21.0, P=240.0, N=151.0)
+r9: IF education-spending = {n} THEN class = {democrat} (p=194.0, n=20.0, P=240.0, N=151.0)

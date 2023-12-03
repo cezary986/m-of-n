@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.59064039408867
+r2: 0.4290322580645161
+r3: 0.8333333333333333
+r4: 0.6628571428571428
+r5: 0.5303030303030303
+r6: 0.6470588235294118
+r7: 0.6909677419354839
+r8: 0.6909677419354839
+r9: 0.4072727272727273
+r10: 0.5303030303030303
+________________________________
+r1: IF SPEED1 = <3, inf) AND TIME = (-inf, 18.29) AND RUN = (-inf, 15) THEN class = {0.042} [0.022,0.063] (p=4.0, n=1.0, P=7.0, N=29.0)
+r2: IF NUMBER2 = <1.50, inf) AND TIME = (-inf, 10.31) AND RUN = (-inf, 19) THEN class = {0.12} [0.082,0.15] (p=2.0, n=1.0, P=5.0, N=31.0)
+r3: IF SPEED1 = (-inf, 5) AND TIME = (-inf, 28.57) AND RUN = (-inf, 29.50) THEN class = {0.061} [-0.015,0.14] (p=16.0, n=1.0, P=18.0, N=18.0)
+r4: IF SPEED1 = (-inf, 3) AND RUN = (-inf, 38.50) AND TIME = <9.84, inf) THEN class = {0.13} [0.049,0.21] (p=9.0, n=1.0, P=15.0, N=21.0)
+r5: IF TIME = <109.19, inf) THEN class = {0.96} [0.88,1.05] (p=2.0, n=1.0, P=3.0, N=33.0)
+r6: IF TIME = <106.92, inf) AND RUN = (-inf, 25) THEN class = {0.80} [0.79,0.80] (p=2.0, n=1.0, P=2.0, N=34.0)
+r7: IF TIME = <70.09, inf) AND RUN = (-inf, 29.50) THEN class = {0.78} [0.76,0.81] (p=4.0, n=1.0, P=5.0, N=31.0)
+r8: IF TIME = <34.94, inf) AND RUN = <8.50, 26) THEN class = {0.80} [0.76,0.84] (p=4.0, n=1.0, P=5.0, N=31.0)
+r9: IF SPEED1 = <4, inf) AND NUMBER2 = (-inf, 1.50) AND RUN = <20.50, inf) AND TIME = <10.67, inf) THEN class = {0.75} [0.48,1.01] (p=3.0, n=1.0, P=11.0, N=25.0)
+r10: IF TOTAL = (-inf, 25) AND RUN = <36, inf) THEN class = {0.32} [0.26,0.37] (p=2.0, n=1.0, P=3.0, N=33.0)

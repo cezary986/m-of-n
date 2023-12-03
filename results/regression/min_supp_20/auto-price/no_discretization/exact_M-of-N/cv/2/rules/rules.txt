@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.40031177010343677
+r2: 0.49389030974708725
+r3: 0.510989010989011
+r4: 0.36674989144594006
+r5: 0.3870967741935484
+r6: 0.5777173782609739
+r7: 0.6009231138107418
+r8: 0.5684081695633266
+r9: 0.5680762852404644
+r10: 0.4604308390022676
+r11: 0.5223300970873787
+________________________________
+r1: IF highway-mpg = <37.50, inf) = {1} THEN class = {0.049} [0.018,0.079] (p=17.0, n=10.0, P=32.0, N=111.0)
+r2: IF normalized-losses = (-inf, 161) = {1} AND normalized-losses > engine-size = {1} THEN class = {0.073} [-0.049,0.19] (p=40.0, n=5.0, P=92.0, N=51.0)
+r3: IF engine-size > horsepower = {1} AND normalized-losses > horsepower = {0} AND 2-of-3(city-mpg = (-inf, 41.50), horsepower != <100.50, 111), curb-weight != <1882.50, 1900)) = {0} AND bore > stroke = {1} THEN class = {0.38} [0.17,0.59] (p=10.0, n=1.0, P=52.0, N=91.0)
+r4: IF width < horsepower = {0} THEN class = {0.066} [0.031,0.10] (p=9.0, n=3.0, P=49.0, N=94.0)
+r5: IF normalized-losses > wheel-base = {0} AND normalized-losses > horsepower = {1} AND bore > stroke = {1} THEN class = {0.069} [0.035,0.10] (p=10.0, n=3.0, P=50.0, N=93.0)
+r6: IF normalized-losses > wheel-base = {1} AND normalized-losses > engine-size = {0} AND compression-ratio = <9.46, inf) = {0} AND normalized-losses > horsepower = {1} THEN class = {0.15} [0.08,0.22] (p=16.0, n=1.0, P=57.0, N=86.0)
+r7: IF normalized-losses > horsepower = {1} AND bore < stroke = {1} THEN class = {0.083} [-0.028,0.19] (p=58.0, n=6.0, P=92.0, N=51.0)
+r8: IF wheel-base > horsepower = {1} THEN class = {0.089} [-0.0026,0.18] (p=76.0, n=13.0, P=89.0, N=54.0)
+r9: IF bore != <3.17, 3.35) = {0} AND engine-size > horsepower = {0} THEN class = {0.14} [0.13,0.15] (p=4.0, n=1.0, P=9.0, N=134.0)
+r10: IF normalized-losses < horsepower = {1} AND wheel-base > horsepower = {0} AND normalized-losses > engine-size = {0} AND peak-rpm = (-inf, 5750) = {1} AND length > engine-size = {1} THEN class = {0.39} [0.20,0.59] (p=17.0, n=5.0, P=45.0, N=98.0)
+r11: IF wheel-base > horsepower = {0} AND compression-ratio = <9.46, inf) = {0} AND wheel-base = (-inf, 96.40) = {0} THEN class = {0.38} [0.21,0.55] (p=24.0, n=8.0, P=40.0, N=103.0)

@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.8820199275362319
+r2: 0.8590928540864357
+r3: 0.8397978642257817
+r4: 0.8536920659858601
+r5: 0.933932186234818
+r6: 0.8634714806339521
+r7: 0.8118182212958139
+r8: 0.8358088731443996
+r9: 0.8281762683736368
+r10: 0.7881938549330315
+________________________________
+r1: IF physician-fee-freeze != {n} = {0} AND synfuels-corporation-cutback != {y} = {0} THEN class = {republican} (p=133.0, n=5.0, P=152.0, N=240.0)
+r2: IF physician-fee-freeze != {n} = {0} AND education-spending != {y} = {1} AND adoption-of-the-budget-resolution != {n} = {1} THEN class = {republican} (p=120.0, n=3.0, P=152.0, N=240.0)
+r3: IF physician-fee-freeze != {n} = {0} AND education-spending != {y} = {1} AND el-salvador-aid != {n} = {0} THEN class = {republican} (p=130.0, n=8.0, P=152.0, N=240.0)
+r4: IF physician-fee-freeze != {n} = {0} AND 2-of-3(education-spending != {y}, aid-to-nicaraguan-contras != {n}, el-salvador-aid != {y}) = {1} AND adoption-of-the-budget-resolution != {n} = {1} THEN class = {republican} (p=128.0, n=6.0, P=152.0, N=240.0)
+r5: IF physician-fee-freeze != {n} = {1} THEN class = {democrat} (p=219.0, n=2.0, P=240.0, N=152.0)
+r6: IF 2-of-3(education-spending != {y}, physician-fee-freeze != {y}, el-salvador-aid = physician-fee-freeze) = {0} THEN class = {democrat} (p=202.0, n=5.0, P=240.0, N=152.0)
+r7: IF 2-of-3(education-spending != {y}, aid-to-nicaraguan-contras != {n}, el-salvador-aid != {y}) = {0} THEN class = {democrat} (p=194.0, n=8.0, P=240.0, N=152.0)
+r8: IF 2-of-3(education-spending != {y}, physician-fee-freeze != {n}, el-salvador-aid != anti-satellite-test-ban) = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=179.0, n=3.0, P=240.0, N=152.0)
+r9: IF 2-of-3(aid-to-nicaraguan-contras != {n}, physician-fee-freeze != {n}, el-salvador-aid != anti-satellite-test-ban) = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=181.0, n=4.0, P=240.0, N=152.0)
+r10: IF education-spending != {y} = {0} AND 2-of-3(el-salvador-aid != anti-satellite-test-ban, synfuels-corporation-cutback != {y}, physician-fee-freeze != adoption-of-the-budget-resolution) = {1} THEN class = {democrat} (p=179.0, n=7.0, P=240.0, N=152.0)

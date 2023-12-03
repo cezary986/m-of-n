@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.8409090909090908
+r2: 0.8231582371117254
+r3: 0.8579545454545454
+r4: 0.8011363636363636
+r5: 0.7744519862022919
+r6: 0.8352272727272727
+r7: 0.8711517854557039
+r8: 0.9363532543038361
+r9: 0.8604651162790697
+r10: 0.8572674418604651
+r11: 0.6270303717836332
+r12: 0.5813953488372093
+r13: 0.5348837209302325
+r14: 0.5465116279069767
+________________________________
+r1: IF survival = <22.50, inf) = {1} AND lvdd = <5.79, 5.95) = {0} AND age-at-heart-attack = <73.50, inf) = {0} THEN class = {0} (p=60.0, n=0.0, P=88.0, N=43.0)
+r2: IF survival = <22.50, inf) = {1} AND lvdd = <5.79, 5.95) = {0} THEN class = {0} (p=64.0, n=1.0, P=88.0, N=43.0)
+r3: IF survival = <21.50, inf) = {1} AND lvdd = <5.79, 5.95) = {0} AND age-at-heart-attack = <73.50, inf) = {0} THEN class = {0} (p=63.0, n=0.0, P=88.0, N=43.0)
+r4: IF epss = <4.90, 17) = {1} AND survival > epss = {1} AND survival = (-inf, 16) = {0} THEN class = {0} (p=53.0, n=0.0, P=88.0, N=43.0)
+r5: IF epss = <4.90, 17) = {1} AND survival > epss = {1} THEN class = {0} (p=56.0, n=1.0, P=88.0, N=43.0)
+r6: IF epss = (-inf, 16.90) = {1} AND survival > epss = {1} AND survival = (-inf, 16) = {0} AND age-at-heart-attack = <73.50, inf) = {0} THEN class = {0} (p=59.0, n=0.0, P=88.0, N=43.0)
+r7: IF lvdd = (-inf, 5.69) = {1} AND epss = <19.15, 23.60) = {0} AND survival = <11, inf) = {1} AND age-at-heart-attack = <73.50, inf) = {0} THEN class = {0} (p=72.0, n=1.0, P=88.0, N=43.0)
+r8: IF survival = <8.25, inf) = {1} AND epss = <19.15, 23.60) = {0} AND lvdd = <5.79, 5.95) = {0} AND age-at-heart-attack = <73.50, inf) = {0} THEN class = {0} (p=83.0, n=1.0, P=88.0, N=43.0)
+r9: IF survival = <8.25, inf) = {0} AND mult < group = {1} THEN class = {1} (p=31.0, n=0.0, P=43.0, N=88.0)
+r10: IF survival = <8.25, inf) = {0} THEN class = {1} (p=34.0, n=1.0, P=43.0, N=88.0)
+r11: IF mult < group = {1} AND survival = <15.50, inf) = {0} THEN class = {1} (p=33.0, n=8.0, P=43.0, N=88.0)
+r12: IF epss = <19.15, 23.60) = {1} THEN class = {1} (p=7.0, n=0.0, P=43.0, N=88.0)
+r13: IF lvdd = <5.79, 5.95) = {1} THEN class = {1} (p=3.0, n=0.0, P=43.0, N=88.0)
+r14: IF epss = <4.90, 28.60) = {0} AND age-at-heart-attack = <73.50, inf) = {1} THEN class = {1} (p=4.0, n=0.0, P=43.0, N=88.0)

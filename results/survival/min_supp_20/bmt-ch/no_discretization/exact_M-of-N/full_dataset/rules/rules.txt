@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.9999970592905137
+r2: 0.999995260644263
+r3: 0.9999970613590317
+r4: 0.9996988376293017
+r5: 0.9999937147493708
+r6: 0.9999788033260978
+r7: 0.9999937337739061
+r8: 0.9999694505640724
+r9: 0.9999660927350348
+r10: 0.9999845282399497
+r11: 0.999116808966141
+r12: 0.8849030284497982
+r13: 0.9999865413342515
+r14: 0.9999757649484743
+r15: 0.9999743834298245
+r16: 0.9999126255128318
+________________________________
+r1: IF 2-of-3(Stemcellsource != Relapse, Recipientgender = HLAmismatch, Relapse = Gendermatch) = {0} AND aGvHDIIIIV = Relapse = {0} THEN  (p=72.0, n=0.0, P=187.0, N=0.0)
+r2: IF aGvHDIIIIV = Relapse = {0} AND 2-of-3(Stemcellsource != Gendermatch, Recipientgender = HLAmismatch, Relapse = Gendermatch) = {0} THEN  (p=74.0, n=0.0, P=187.0, N=0.0)
+r3: IF Stemcellsource = Txpostrelapse = {0} AND aGvHDIIIIV = Relapse = {0} AND 2-of-3(extcGvHD = RecipientCMV, Relapse = Gendermatch, aGvHDIIIIV != Gendermatch) = {0} THEN  (p=58.0, n=0.0, P=187.0, N=0.0)
+r4: IF Stemcellsource = Txpostrelapse = {1} AND Rbodymass < ANCrecovery = {0} AND 2-of-3(extcGvHD = RecipientCMV, Relapse = Gendermatch, aGvHDIIIIV != Gendermatch) = {0} AND Riskgroup != IIIV = {1} THEN  (p=17.0, n=0.0, P=187.0, N=0.0)
+r5: IF aGvHDIIIIV = Relapse = {0} AND 2-of-3(extcGvHD = RecipientCMV, Relapse = Gendermatch, aGvHDIIIIV != Gendermatch) = {0} THEN  (p=79.0, n=0.0, P=187.0, N=0.0)
+r6: IF 2-of-3(Stemcellsource != Gendermatch, Recipientgender != Donorage35, aGvHDIIIIV != Gendermatch) = {0} AND aGvHDIIIIV = Relapse = {0} THEN  (p=67.0, n=0.0, P=187.0, N=0.0)
+r7: IF 2-of-3(Relapse = Gendermatch, Stemcellsource != Gendermatch, aGvHDIIIIV = Stemcellsource) = {0} AND aGvHDIIIIV = Stemcellsource = {1} AND Stemcellsource = Txpostrelapse = {0} THEN  (p=87.0, n=0.0, P=187.0, N=0.0)
+r8: IF 2-of-3(Relapse = Gendermatch, Stemcellsource != Gendermatch, aGvHDIIIIV = Stemcellsource) = {0} AND aGvHDIIIIV = Stemcellsource = {1} THEN  (p=97.0, n=0.0, P=187.0, N=0.0)
+r9: IF aGvHDIIIIV = Txpostrelapse = {0} AND Relapse != Txpostrelapse = {0} THEN  (p=108.0, n=0.0, P=187.0, N=0.0)
+r10: IF Rbodymass < ANCrecovery = {0} AND aGvHDIIIIV = Relapse = {1} AND 2-of-3(Relapse = Gendermatch, ABOmatch = RecipientCMV, Stemcellsource != Gendermatch) = {0} THEN  (p=31.0, n=0.0, P=187.0, N=0.0)
+r11: IF Rbodymass < ANCrecovery = {1} AND Recipientgender = HLAmismatch = {0} AND Recipientage < CD3dCD34 = {0} THEN  (p=8.0, n=0.0, P=187.0, N=0.0)
+r12: IF Rbodymass < ANCrecovery = {1} AND Recipientgender = HLAmismatch = {0} AND Recipientage < CD3dCD34 = {1} THEN  (p=4.0, n=0.0, P=187.0, N=0.0)
+r13: IF 2-of-3(Relapse = Gendermatch, aGvHDIIIIV = Recipientgender, Stemcellsource != Relapse) = {0} AND Riskgroup != IIIV = {1} THEN  (p=46.0, n=0.0, P=187.0, N=0.0)
+r14: IF 2-of-3(Relapse = Gendermatch, aGvHDIIIIV = Recipientgender, Stemcellsource != Relapse) = {0} AND aGvHDIIIIV = Relapse = {1} THEN  (p=37.0, n=0.0, P=187.0, N=0.0)
+r15: IF aGvHDIIIIV = Relapse = {1} AND aGvHDIIIIV = HLAmismatch = {0} THEN  (p=31.0, n=0.0, P=187.0, N=0.0)
+r16: IF Rbodymass < ANCrecovery = {0} AND aGvHDIIIIV = Relapse = {1} AND Riskgroup != IIIV = {1} THEN  (p=33.0, n=0.0, P=187.0, N=0.0)

@@ -1,0 +1,54 @@
+Rules qualities:
+r1: 0.5190370370370371
+r2: 0.3634967320261438
+r3: 0.2808653846153847
+r4: 0.3719135802469136
+r5: 0.20212215320910973
+r6: 0.2963966836734694
+r7: 0.2598214285714286
+r8: 0.2868975903614458
+r9: 0.21412627551020405
+r10: 0.3196803196803196
+r11: 0.38395365168539325
+r12: 0.2636123136123137
+r13: 0.250549278091651
+r14: 0.31811797752809007
+r15: 0.3334967320261438
+r16: 0.32447368421052625
+r17: 0.34984056122448987
+r18: 0.20374269005847964
+r19: 0.28471771576898125
+r20: 0.2842078189300411
+r21: 0.2653720153720154
+r22: 0.2808653846153847
+r23: 0.24830097087378644
+r24: 0.44061736100275667
+r25: 0.13598519888991673
+r26: 0.12482083134257045
+________________________________
+r1: IF SLEEP = <0.91, inf) THEN class = {0.30} [0.17,0.44] (p=14.0, n=1.0, P=63.0, N=50.0)
+r2: IF SLEEP = (-inf, 0.89) AND THORAX = <78, inf) AND PARTNERS = {1} THEN class = {0.21} [0.13,0.29] (p=4.0, n=1.0, P=45.0, N=68.0)
+r3: IF SLEEP = <0.89, inf) AND THORAX = (-inf, 62) THEN class = {0.28} [0.14,0.43] (p=4.0, n=1.0, P=65.0, N=48.0)
+r4: IF THORAX = <58, 66.50) AND TYPE = {1} THEN class = {0.15} [0.047,0.25] (p=5.0, n=1.0, P=54.0, N=59.0)
+r5: IF SLEEP = <0.86, inf) AND THORAX = <48, 55) AND PARTNERS = {8} THEN class = {0.48} [0.35,0.60] (p=1.0, n=1.0, P=21.0, N=92.0)
+r6: IF SLEEP = <0.86, 0.89) AND THORAX = (-inf, 58) AND PARTNERS = {8} THEN class = {0.35} [0.21,0.50] (p=3.0, n=1.0, P=49.0, N=64.0)
+r7: IF SLEEP = (-inf, 0.75) AND TYPE = {1} AND PARTNERS = {1} THEN class = {0.74} [0.54,0.95] (p=1.0, n=1.0, P=8.0, N=105.0)
+r8: IF SLEEP = <0.75, 0.89) AND THORAX = (-inf, 50.50) AND PARTNERS = {1} THEN class = {0.33} [0.10,0.56] (p=7.0, n=1.0, P=83.0, N=30.0)
+r9: IF SLEEP = <0.83, 0.89) AND THORAX = <40.50, 50.50) AND PARTNERS = {8} THEN class = {0.35} [0.21,0.49] (p=2.0, n=1.0, P=49.0, N=64.0)
+r10: IF SLEEP = <0.83, 0.89) AND THORAX = (-inf, 44.50) THEN class = {0.34} [0.27,0.41] (p=2.0, n=1.0, P=22.0, N=91.0)
+r11: IF SLEEP = <0.81, 0.83) THEN class = {0.13} [0.089,0.18] (p=3.0, n=1.0, P=24.0, N=89.0)
+r12: IF SLEEP = (-inf, 0.83) AND THORAX = (-inf, 43) AND PARTNERS = {8} THEN class = {0.26} [0.028,0.48] (p=14.0, n=1.0, P=99.0, N=14.0)
+r13: IF THORAX = <50.50, 58) AND PARTNERS = {1} THEN class = {0.45} [0.20,0.71] (p=3.0, n=1.0, P=59.0, N=54.0)
+r14: IF SLEEP = (-inf, 0.91) AND THORAX = <66.50, 71.50) THEN class = {0.27} [0.065,0.47] (p=10.0, n=1.0, P=89.0, N=24.0)
+r15: IF SLEEP = <0.89, inf) AND THORAX = <71.50, inf) THEN class = {0.30} [0.15,0.46] (p=10.0, n=2.0, P=68.0, N=45.0)
+r16: IF SLEEP = <0.83, 0.86) AND TYPE = {0} THEN class = {0.20} [0.13,0.26] (p=7.0, n=3.0, P=38.0, N=75.0)
+r17: IF SLEEP = (-inf, 0.83) AND THORAX = <54, 67.50) AND PARTNERS = {1} THEN class = {0.26} [0.17,0.34] (p=4.0, n=1.0, P=49.0, N=64.0)
+r18: IF SLEEP = (-inf, 0.72) AND THORAX = (-inf, 47) THEN class = {0.21} [-0.0035,0.42] (p=9.0, n=1.0, P=95.0, N=18.0)
+r19: IF SLEEP = <0.83, 0.89) AND THORAX = (-inf, 83.50) AND TYPE = {0} AND PARTNERS = {1} THEN class = {0.20} [0.067,0.32] (p=8.0, n=2.0, P=67.0, N=46.0)
+r20: IF SLEEP = <0.86, inf) AND THORAX = (-inf, 61.50) AND TYPE = {9} THEN class = {0.41} [0.29,0.54] (p=2.0, n=1.0, P=32.0, N=81.0)
+r21: IF SLEEP = (-inf, 0.89) AND THORAX = (-inf, 66) AND TYPE = {9} THEN class = {0.15} [-0.023,0.32] (p=9.0, n=2.0, P=74.0, N=39.0)
+r22: IF SLEEP = <0.83, 0.86) AND TYPE = {9} THEN class = {0.17} [0.054,0.29] (p=4.0, n=1.0, P=65.0, N=48.0)
+r23: IF SLEEP = (-inf, 0.83) AND THORAX = <64, 67.50) AND PARTNERS = {8} THEN class = {0.98} [0.57,1.38] (p=1.0, n=1.0, P=10.0, N=103.0)
+r24: IF THORAX = <58.50, 67.50) THEN class = {0.17} [-0.036,0.38] (p=16.0, n=1.0, P=87.0, N=26.0)
+r25: IF THORAX = (-inf, 48) AND PARTNERS = {8} THEN class = {0.26} [0.055,0.46] (p=20.0, n=3.0, P=94.0, N=19.0)
+r26: IF SLEEP = (-inf, 0.89) AND THORAX = (-inf, 91) THEN class = {0.21} [0.0064,0.41] (p=75.0, n=16.0, P=90.0, N=23.0)

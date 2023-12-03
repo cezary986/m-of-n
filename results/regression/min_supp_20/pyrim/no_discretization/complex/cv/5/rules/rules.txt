@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.5831632653061225
+r2: 0.5167968749999999
+r3: 0.5425347222222221
+r4: 0.3624424356131673
+r5: 0.3543906810035842
+r6: 0.5710927960927961
+r7: 0.39949494949494946
+r8: 0.36346153846153845
+r9: 0.4717233985526669
+r10: 0.44602272727272724
+r11: 0.2931141439205956
+________________________________
+r1: IF p2_sigma < p3_sigma THEN class = {0.92} [0.67,1.17] (p=13.0, n=1.0, P=35.0, N=32.0)
+r2: IF p2_size < p3_size THEN class = {0.91} [0.67,1.16] (p=14.0, n=2.0, P=35.0, N=32.0)
+r3: IF p1_flex < p3_polar AND p1_polar > p1_h_doner AND p1_sigma > p2_size AND p1_size > p2_polar AND p1_size > p3_polar THEN class = {0.67} [0.66,0.67] (p=2.0, n=1.0, P=3.0, N=64.0)
+r4: IF p1_h_doner = p1_pi_acceptor AND p1_pi_acceptor = p2_size AND p1_pi_acceptor = p3_size AND p1_sigma < p3_polar THEN class = {0.63} [0.57,0.68] (p=8.0, n=3.0, P=26.0, N=41.0)
+r5: IF p1_sigma > p2_pi_doner AND p1_sigma > p3_sigma AND p1_size < p1_pi_doner THEN class = {0.67} [0.58,0.76] (p=4.0, n=1.0, P=31.0, N=36.0)
+r6: IF p1_polar > p1_pi_acceptor AND p1_sigma > p2_sigma AND p1_sigma > p3_sigma THEN class = {0.65} [0.54,0.76] (p=14.0, n=1.0, P=39.0, N=28.0)
+r7: IF p2_h_acceptor = p2_pi_doner AND p1_polar = p1_flex AND p1_sigma = p2_flex AND p1_sigma = p2_pi_acceptor AND p1_sigma = p3_size THEN class = {0.63} [0.58,0.67] (p=6.0, n=2.0, P=22.0, N=45.0)
+r8: IF p1_size < p1_pi_acceptor AND p1_size = p2_polar THEN class = {0.68} [0.68,0.69] (p=1.0, n=1.0, P=2.0, N=65.0)
+r9: IF p2_size < p2_sigma AND p2_size > p3_size THEN class = {0.59} [0.52,0.65] (p=6.0, n=1.0, P=26.0, N=41.0)
+r10: IF p2_h_doner = p2_pi_doner AND p1_size = p2_h_acceptor AND p2_size > p2_h_acceptor THEN class = {0.61} [0.58,0.63] (p=3.0, n=1.0, P=11.0, N=56.0)
+r11: IF p2_h_doner = p3_size THEN class = {0.64} [0.55,0.73] (p=27.0, n=12.0, P=36.0, N=31.0)

@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 0.9999999999995237
+________________________________
+r1: IF 2-of-3(AGE != <75.50, 79), SHO = (-inf, 0.50), CPK != <456.50, 465)) = {0} THEN  (p=373.0, n=0.0, P=433.0, N=0.0)
+r2: IF SHO = (-inf, 0.50) = {1} THEN  (p=400.0, n=0.0, P=433.0, N=0.0)
+r3: IF SHO = MITYPE = {0} THEN  (p=410.0, n=0.0, P=433.0, N=0.0)
+r4: IF CPK = (-inf, 645) = {0} AND 2-of-3(AGE != <75.50, 79), SHO = (-inf, 0.50), CPK != <33.50, 101)) = {1} AND SEX = SHO = {0} AND SEX = MITYPE = {0} THEN  (p=16.0, n=0.0, P=433.0, N=0.0)
+r5: IF SEX = SHO = {1} AND SEX = MITYPE = {1} THEN  (p=10.0, n=0.0, P=433.0, N=0.0)

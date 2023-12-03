@@ -1,0 +1,54 @@
+Rules qualities:
+r1: 0.7856009070294785
+r2: 0.5810881370091896
+r3: 0.5145098039215685
+r4: 0.6579113924050632
+r5: 0.7102173913043477
+r6: 0.6649110486891385
+r7: 0.6732736572890027
+r8: 0.36099390529770287
+r9: 0.5988970588235293
+r10: 0.6134242424242424
+r11: 0.7028276955602536
+r12: 0.7979322638146168
+r13: 0.5740986344434621
+r14: 0.5466903073286051
+r15: 0.6906022313296903
+r16: 0.6660752688172042
+r17: 0.5545925123389913
+r18: 0.37750488758553274
+r19: 0.4678676470588235
+r20: 0.5123803928151754
+r21: 0.48047667342799183
+r22: 0.4753086419753086
+r23: 0.6468413978494624
+r24: 0.7240460157126825
+r25: 0.5905567300916138
+r26: 0.6089939024390243
+________________________________
+r1: IF SC < NWC AND NC = <0.065, 0.24) THEN class = {0.032} [0.016,0.047] (p=6.0, n=1.0, P=7.0, N=90.0)
+r2: IF NC != <1.17, 1.33) AND NC > SC AND SC != <0.91, 3.97) AND period = (-inf, 153.50) AND NC != <1.96, 2.39) AND season = {AUTUMN, WINTER, SPRING} THEN class = {0.13} [0.10,0.15] (p=10.0, n=2.0, P=21.0, N=76.0)
+r3: IF NC != <0.045, 0.13) AND SC < NWC AND NC != <0.37, 0.83) AND NC = (-inf, 1.17) AND NC < SC AND NC != <0.96, 1.19) AND season = {WINTER, SPRING, SUMMER} THEN class = {0.065} [0.049,0.081] (p=4.0, n=1.0, P=12.0, N=85.0)
+r4: IF NC != <0.70, 0.83) AND SC != <0.91, 3.97) AND period = (-inf, 153.50) AND NC != <1.26, 1.50) AND season = {WINTER, SPRING, SUMMER} AND NWC = <0.68, 2.06) THEN class = {0.09} [0.065,0.12] (p=9.0, n=1.0, P=18.0, N=79.0)
+r5: IF NC != <0.045, 0.13) AND NC != <0.60, 0.83) AND season = {WINTER, SPRING, SUMMER} AND NWC = <0.60, 0.89) THEN class = {0.067} [0.062,0.071] (p=4.0, n=1.0, P=5.0, N=92.0)
+r6: IF NC != <1.69, 2.76) AND SC = <0.43, 0.64) AND NC != <1.26, 1.50) AND season != {SUMMER} THEN class = {0.07} [0.062,0.078] (p=5.0, n=1.0, P=8.0, N=89.0)
+r7: IF SC != <0.91, 3.97) AND period = (-inf, 132.50) AND season = {AUTUMN, SPRING, SUMMER} THEN class = {0.077} [-0.0088,0.16] (p=24.0, n=1.0, P=51.0, N=46.0)
+r8: IF NC != <0.005, 0.49) AND NC > SC AND period = <110.50, inf) AND NC != <0.66, 2.22) AND season = {WINTER, SPRING, SUMMER} AND NWC != <0.59, 2.68) THEN class = {0.68} [0.35,1.00] (p=4.0, n=2.0, P=18.0, N=79.0)
+r9: IF NC != <0.37, 0.48) AND NC != <0.40, 0.66) AND NC != <0.045, 0.13) AND NC != <0.51, 0.83) AND NC < NWC AND SC < NWC AND SC != <0.24, 0.38) AND NC != <1.17, 1.33) AND NWC = <0.45, 1.59) THEN class = {0.073} [0.045,0.10] (p=7.0, n=1.0, P=17.0, N=80.0)
+r10: IF NC != <0.19, 0.83) AND NC != <1.06, 1.14) AND NC = <0.03, 1.50) AND SC != <0.91, 3.97) AND NC != <1.17, 1.33) AND season = {AUTUMN, WINTER, SUMMER} THEN class = {0.042} [9.6E-4,0.082] (p=9.0, n=1.0, P=22.0, N=75.0)
+r11: IF NC != <0.055, 0.13) AND NC != <0.14, 0.24) AND NC != <0.40, 0.49) AND SC != <0.65, 0.85) AND SC != <0.91, 3.97) AND period = (-inf, 188.50) AND NC != <0.03, 0.10) AND season != {SUMMER} AND NWC = <0.08, 0.51) THEN class = {0.067} [0.053,0.081] (p=7.0, n=1.0, P=11.0, N=86.0)
+r12: IF NC != <0.28, 0.45) AND NC != <0.31, 1.03) AND NC < NWC AND SC != <0.91, 3.97) AND NC != <1.09, 1.19) AND NWC = <0.05, 1.95) THEN class = {0.042} [0.0017,0.082] (p=16.0, n=1.0, P=22.0, N=75.0)
+r13: IF NWC = <1.13, 3.45) AND SC < NWC AND NWC = (-inf, 2.77) AND period != <66, 105) AND NWC != <1.05, 1.35) THEN class = {0.15} [0.079,0.21] (p=16.0, n=2.0, P=39.0, N=58.0)
+r14: IF NC != <0.33, 0.45) AND NWC = <0.69, 0.71) THEN class = {0.11} [0.11,0.12] (p=2.0, n=1.0, P=3.0, N=94.0)
+r15: IF NWC = (-inf, 1.09) THEN class = {0.067} [-0.073,0.21] (p=31.0, n=1.0, P=61.0, N=36.0)
+r16: IF NC < SC AND NWC = (-inf, 1.59) THEN class = {0.077} [-0.067,0.22] (p=29.0, n=1.0, P=62.0, N=35.0)
+r17: IF NC != <1.43, 1.46) AND NC != <0.93, 1.07) AND NC = <0.93, inf) AND NC > SC AND period != <122.50, 171) AND NC != <1.68, 5.95) AND NWC = (-inf, 3.16) THEN class = {0.13} [0.094,0.17] (p=8.0, n=1.0, P=26.0, N=71.0)
+r18: IF NC != <0.82, 1.03) AND NC != <1.06, 1.33) AND NC = <0.58, 1.50) AND SC < NWC AND NC != <1.40, 1.50) AND season = {AUTUMN, WINTER, SPRING} THEN class = {0.14} [0.087,0.18] (p=6.0, n=2.0, P=31.0, N=66.0)
+r19: IF NC = <1.21, 1.62) AND SC < NWC AND NC != <1.06, 1.38) AND NWC != <0.93, 1.77) THEN class = {0.26} [0.20,0.31] (p=4.0, n=1.0, P=17.0, N=80.0)
+r20: IF NC != <0.51, 0.80) AND NC != <0.12, 0.45) AND NC = <0.25, inf) AND NC < NWC AND NC < SC AND NC != <1.68, 5.95) AND season = {AUTUMN, SPRING} THEN class = {0.26} [0.18,0.33] (p=6.0, n=1.0, P=23.0, N=74.0)
+r21: IF period > NWC AND SC = (-inf, 1.33) AND SC != <0.70, 0.85) AND period = (-inf, 116.50) AND NC = <1.96, inf) AND season = {AUTUMN, WINTER, SPRING} THEN class = {0.20} [0.13,0.28] (p=6.0, n=1.0, P=29.0, N=68.0)
+r22: IF period != <103.50, 114) AND period != <5, 16) AND NC > SC AND SC = <0.86, 1.32) AND period != <124.50, 136) AND NC != <1.38, 1.50) AND season != {SUMMER} THEN class = {0.20} [0.16,0.24] (p=4.0, n=1.0, P=16.0, N=81.0)
+r23: IF NC = <3.14, 4.34) THEN class = {0.41} [0.40,0.42] (p=3.0, n=1.0, P=4.0, N=93.0)
+r24: IF SC = <1.57, 3.14) AND NC = <1.68, 3.27) THEN class = {0.37} [0.30,0.45] (p=10.0, n=1.0, P=16.0, N=81.0)
+r25: IF NC != <1.44, 1.52) AND SC < NWC AND period = <65, 129) AND NC = <1.30, 1.38) AND season = {SPRING, SUMMER} AND NWC != <2.59, 3.01) THEN class = {0.32} [0.27,0.37] (p=5.0, n=1.0, P=11.0, N=86.0)
+r26: IF period != <10.50, 61) AND period > NWC AND period = (-inf, 188) AND period != <98, 113) AND SC = <0.86, 3.97) AND period != <114.50, 128) AND NC != <2.50, 2.84) AND season != {SUMMER} AND NWC != <0.55, 1.22) THEN class = {0.37} [0.17,0.57] (p=15.0, n=1.0, P=41.0, N=56.0)

@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.9993201549800966
+r2: 0.9999445255851316
+r3: 0.9953937059039794
+r4: 0.9991518416371925
+r5: 0.9152317410844439
+r6: 0.8805779165590978
+r7: 0.9786222905893959
+r8: 0.9993226187117789
+r9: 0.9999999992430274
+r10: 1.0
+r11: 0.999982875052371
+r12: 0.9999106641437273
+r13: 1.0
+________________________________
+r1: IF Diseasegroup != IIIV AND Donorage35 = IIIV AND Txpostrelapse = IIIV THEN  (p=27.0, n=0.0, P=168.0, N=0.0)
+r2: IF Relapse = IIIV AND Txpostrelapse = IIIV AND aGvHDIIIIV != IIIV AND extcGvHD = RecipientRh THEN  (p=33.0, n=0.0, P=168.0, N=0.0)
+r3: IF Stemcellsource = IIIV AND aGvHDIIIIV != HLAmismatch AND aGvHDIIIIV != Recipientgender AND aGvHDIIIIV != Riskgroup AND aGvHDIIIIV = IIIV AND CD34kgx10d6 != <7.76, 8.03) THEN  (p=19.0, n=0.0, P=168.0, N=0.0)
+r4: IF aGvHDIIIIV = Stemcellsource AND extcGvHD = RecipientCMV THEN  (p=54.0, n=0.0, P=168.0, N=0.0)
+r5: IF Gendermatch != Donorage35 AND Txpostrelapse = Riskgroup AND aGvHDIIIIV != Recipientgender AND aGvHDIIIIV = HLAmismatch AND aGvHDIIIIV = Txpostrelapse THEN  (p=5.0, n=0.0, P=168.0, N=0.0)
+r6: IF ABOmatch = DonorCMV AND Stemcellsource = Riskgroup AND Recipientgender = IIIV AND Relapse != IIIV AND Txpostrelapse != IIIV AND aGvHDIIIIV = IIIV THEN  (p=4.0, n=0.0, P=168.0, N=0.0)
+r7: IF Recipientage > CD3dCD34 AND Stemcellsource != Riskgroup AND aGvHDIIIIV != IIIV AND aGvHDIIIIV = Recipientgender THEN  (p=25.0, n=0.0, P=168.0, N=0.0)
+r8: IF aGvHDIIIIV = Relapse THEN  (p=55.0, n=0.0, P=168.0, N=0.0)
+r9: IF ABOmatch = extcGvHD THEN  (p=95.0, n=0.0, P=168.0, N=0.0)
+r10: IF extcGvHD = {1, 0} THEN  (p=141.0, n=0.0, P=168.0, N=0.0)
+r11: IF Stemcellsource != Relapse AND Stemcellsource != Txpostrelapse AND aGvHDIIIIV = Stemcellsource THEN  (p=78.0, n=0.0, P=168.0, N=0.0)
+r12: IF Diseasegroup = IIIV AND Recipientgender != Donorage35 AND Stemcellsource = Gendermatch AND aGvHDIIIIV != Riskgroup AND aGvHDIIIIV != Stemcellsource THEN  (p=6.0, n=0.0, P=168.0, N=0.0)
+r13: IF PLTrecovery = (-inf, 500094.50) THEN  (p=154.0, n=0.0, P=168.0, N=0.0)

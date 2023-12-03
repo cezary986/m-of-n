@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.9999999999991167
+r2: 0.9999994216585772
+r3: 1.0
+r4: 1.0
+r5: 1.0
+r6: 0.9999999776543044
+r7: 1.0
+________________________________
+r1: IF Cell_Type = Stage2 AND Stage1 = Stage2 AND Cell_Type = (-inf, 1.50) THEN  (p=89.0, n=0.0, P=928.0, N=0.0)
+r2: IF Means_of_Detection < Stage2 AND Stage1 < Stage2 THEN  (p=73.0, n=0.0, P=928.0, N=0.0)
+r3: IF Stage3 = <0.50, inf) THEN  (p=423.0, n=0.0, P=928.0, N=0.0)
+r4: IF Stage3 = (-inf, 0.50) THEN  (p=400.0, n=0.0, P=928.0, N=0.0)
+r5: IF Stage4 = {1, ?} THEN  (p=247.0, n=0.0, P=928.0, N=0.0)
+r6: IF Means_of_Detection = Cell_Type AND Means_of_Detection = Stage1 AND Cell_Type != <0.50, 3) THEN  (p=110.0, n=0.0, P=928.0, N=0.0)
+r7: IF Stage1 = <2.50, inf) THEN  (p=505.0, n=0.0, P=928.0, N=0.0)

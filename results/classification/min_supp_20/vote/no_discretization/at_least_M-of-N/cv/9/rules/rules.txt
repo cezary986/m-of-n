@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.8714028776978417
+r2: 0.8659842105263159
+r3: 0.8643296196696121
+r4: 0.8364697120158886
+r5: 0.933932186234818
+r6: 0.8281762683736368
+r7: 0.8229597625905561
+r8: 0.8178515625000001
+r9: 0.8102704678362573
+r10: 0.4691386815920398
+________________________________
+r1: IF physician-fee-freeze != {n} = {0} AND 2-of-3(physician-fee-freeze = crime, adoption-of-the-budget-resolution != {n}, superfund-right-to-sue != adoption-of-the-budget-resolution) = {1} AND el-salvador-aid != {n} = {0} THEN class = {republican} (p=133.0, n=6.0, P=152.0, N=240.0)
+r2: IF physician-fee-freeze != {n} = {0} AND 2-of-3(physician-fee-freeze = crime, adoption-of-the-budget-resolution != {n}, superfund-right-to-sue != adoption-of-the-budget-resolution) = {1} AND synfuels-corporation-cutback != {y} = {0} THEN class = {republican} (p=122.0, n=3.0, P=152.0, N=240.0)
+r3: IF physician-fee-freeze != {n} = {0} AND synfuels-corporation-cutback != {y} = {0} THEN class = {republican} (p=131.0, n=6.0, P=152.0, N=240.0)
+r4: IF physician-fee-freeze != {n} = {0} AND 2-of-3(physician-fee-freeze = crime, aid-to-nicaraguan-contras != {n}, superfund-right-to-sue != adoption-of-the-budget-resolution) = {1} THEN class = {republican} (p=145.0, n=14.0, P=152.0, N=240.0)
+r5: IF physician-fee-freeze != {n} = {1} THEN class = {democrat} (p=219.0, n=2.0, P=240.0, N=152.0)
+r6: IF 2-of-3(aid-to-nicaraguan-contras != {n}, physician-fee-freeze != {y}, el-salvador-aid != {y}) = {0} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=181.0, n=4.0, P=240.0, N=152.0)
+r7: IF 2-of-3(aid-to-nicaraguan-contras != {n}, physician-fee-freeze != {y}, el-salvador-aid != {y}) = {0} THEN class = {democrat} (p=194.0, n=7.0, P=240.0, N=152.0)
+r8: IF aid-to-nicaraguan-contras != {n} = {0} AND physician-fee-freeze != anti-satellite-test-ban = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=159.0, n=1.0, P=240.0, N=152.0)
+r9: IF physician-fee-freeze != anti-satellite-test-ban = {1} AND adoption-of-the-budget-resolution != {n} = {0} THEN class = {democrat} (p=173.0, n=4.0, P=240.0, N=152.0)
+r10: IF synfuels-corporation-cutback != {y} = {1} THEN class = {democrat} (p=115.0, n=19.0, P=240.0, N=152.0)

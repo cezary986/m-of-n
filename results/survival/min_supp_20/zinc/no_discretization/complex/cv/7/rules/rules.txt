@@ -1,0 +1,6 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+________________________________
+r1: IF znquartiles = {?, Q4, Q3} THEN  (p=321.0, n=0.0, P=388.0, N=0.0)
+r2: IF znqt > niq4 THEN  (p=107.0, n=0.0, P=388.0, N=0.0)

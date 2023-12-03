@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 0.9999999999999746
+r6: 1.0
+r7: 0.999999999999957
+r8: 1.0
+r9: 0.9999999999929674
+r10: 1.0
+________________________________
+r1: IF edema = <0.75, inf) THEN  (p=18.0, n=0.0, P=376.0, N=0.0)
+r2: IF stage = <3.50, inf) AND albumin = (-inf, 3.57) THEN  (p=95.0, n=0.0, P=376.0, N=0.0)
+r3: IF bili = (-inf, 1.95) THEN  (p=224.0, n=0.0, P=376.0, N=0.0)
+r4: IF bili = (-inf, 3.15) THEN  (p=269.0, n=0.0, P=376.0, N=0.0)
+r5: IF protime = (-inf, 10.85) THEN  (p=235.0, n=0.0, P=376.0, N=0.0)
+r6: IF bili = (-inf, 3.45) THEN  (p=283.0, n=0.0, P=376.0, N=0.0)
+r7: IF sex = {f} AND albumin = (-inf, 3.76) AND platelet = (-inf, 241) AND protime = <10.55, inf) THEN  (p=74.0, n=0.0, P=376.0, N=0.0)
+r8: IF bili = (-inf, 5.45) THEN  (p=310.0, n=0.0, P=376.0, N=0.0)
+r9: IF ascites = (-inf, 0.50) AND albumin = <2.84, inf) AND copper = (-inf, 194) THEN  (p=226.0, n=0.0, P=376.0, N=0.0)
+r10: IF bili = (-inf, 8.95) THEN  (p=342.0, n=0.0, P=376.0, N=0.0)

@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.45707904447465525
+r2: 0.6340852130325816
+r3: 0.4144179894179894
+r4: 0.5460719609577476
+r5: 0.563317987088955
+r6: 0.33422459893048134
+r7: 0.5857238795692669
+r8: 0.4352765321375187
+r9: 0.5987204237520665
+r10: 0.6258445732804706
+________________________________
+r1: IF Nuclear = (-inf, 176289.50) = {0} AND Hydroelectric < Coal = {1} AND Fuel > Gas = {0} AND Nuclear > Coal = {1} AND Fuel > Special = {0} THEN class = {0.37} [0.33,0.41] (p=6.0, n=1.0, P=57.0, N=271.0)
+r2: IF Coal = (-inf, 187284.50) = {1} AND Hydroelectric > Gas = {1} THEN class = {0.31} [0.21,0.42] (p=115.0, n=25.0, P=138.0, N=190.0)
+r3: IF Hydroelectric < Coal = {1} AND Gas != <41685.55, 48428.30) = {1} AND Gas > Special = {1} AND Nuclear > Coal = {0} AND Fuel > Special = {0} THEN class = {0.42} [0.31,0.52] (p=44.0, n=16.0, P=112.0, N=216.0)
+r4: IF Special != <9234, 10149) = {1} AND Nuclear = (-inf, 168771) = {1} AND Fuel > Gas = {0} AND Fuel > Special = {1} THEN class = {0.74} [0.57,0.92] (p=89.0, n=25.0, P=127.0, N=201.0)
+r5: IF Nuclear != <147273.50, 149376) = {1} AND Hydroelectric > Fuel = {1} AND Fuel > Special = {1} AND Hydroelectric > Gas = {0} THEN class = {0.75} [0.64,0.86] (p=42.0, n=9.0, P=87.0, N=241.0)
+r6: IF Special = <10625.50, inf) = {1} AND Fuel > Gas = {1} THEN class = {0.30} [0.079,0.52] (p=14.0, n=3.0, P=176.0, N=152.0)
+r7: IF Coal = <110783, 185218) = {0} AND Hydroelectric > Nuclear = {0} AND Fuel > Gas = {0} AND Hydroelectric > Fuel = {1} AND Fuel > Special = {1} THEN class = {0.74} [0.59,0.89] (p=100.0, n=33.0, P=113.0, N=215.0)
+r8: IF Gas != <19597.50, 24408.30) = {1} AND Fuel > Gas = {1} AND Nuclear > Coal = {0} AND Gas > Special = {1} THEN class = {0.67} [0.54,0.80] (p=7.0, n=1.0, P=105.0, N=223.0)
+r9: IF Nuclear != <147273.50, 149376) = {1} AND Nuclear = (-inf, 176613.50) = {1} AND Hydroelectric != <91860.25, 105054) = {1} AND Special = (-inf, 14301.50) = {1} AND Fuel != <6874.21, 10072) = {1} AND Coal = (-inf, 194047.50) = {0} AND Hydroelectric > Fuel = {1} AND Gas = <831.31, 37469.80) = {0} AND Hydroelectric != <89882.05, 100055) = {1} THEN class = {0.75} [0.61,0.89] (p=70.0, n=16.0, P=107.0, N=221.0)
+r10: IF Gas = (-inf, 27495.65) = {1} THEN class = {0.30} [0.19,0.40] (p=97.0, n=20.0, P=130.0, N=198.0)

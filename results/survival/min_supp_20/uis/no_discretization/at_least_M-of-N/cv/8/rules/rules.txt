@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999999997107
+r2: 0.9999999999914388
+r3: 1.0
+r4: 1.0
+r5: 0.9999999999999999
+r6: 1.0
+________________________________
+r1: IF SITE = IV3 = {1} AND RACE > SITE = {1} THEN  (p=28.0, n=0.0, P=518.0, N=0.0)
+r2: IF SITE = IV3 = {1} AND RACE = SITE = {1} THEN  (p=68.0, n=0.0, P=518.0, N=0.0)
+r3: IF TREAT < LNDT = {1} AND TREAT > SITE = {0} AND TREAT = IV3 = {0} THEN  (p=222.0, n=0.0, P=518.0, N=0.0)
+r4: IF IV > LNDT = {1} AND TREAT > SITE = {0} AND TREAT = IV3 = {0} THEN  (p=195.0, n=0.0, P=518.0, N=0.0)
+r5: IF TREAT < LNDT = {0} AND TREAT = IV3 = {1} THEN  (p=175.0, n=0.0, P=518.0, N=0.0)
+r6: IF TREAT < LNDT = {1} AND TREAT = IV3 = {1} THEN  (p=77.0, n=0.0, P=518.0, N=0.0)

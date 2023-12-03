@@ -1,0 +1,24 @@
+Rules qualities:
+r1: 0.75
+r2: 0.5910714285714286
+r3: 0.5666666666666667
+r4: 0.5501040221914009
+r5: 0.8333333333333333
+r6: 0.5243506493506493
+r7: 0.3060070036814223
+r8: 0.4801980198019801
+r9: 0.5666666666666667
+r10: 0.4601725521669342
+r11: 0.6794826364280652
+________________________________
+r1: IF wall_index = <1.65, 1.73) THEN class = {0.33} [0.33,0.33] (p=2.0, n=0.0, P=4.0, N=113.0)
+r2: IF fractional = <0.32, 0.35) THEN class = {0.91} [0.87,0.96] (p=3.0, n=1.0, P=5.0, N=112.0)
+r3: IF age = <83, inf) THEN class = {0.0} [0.0,0.0] (p=2.0, n=0.0, P=15.0, N=102.0)
+r4: IF fractional = <0.32, 0.38) THEN class = {0.88} [0.75,1.00] (p=5.0, n=1.0, P=14.0, N=103.0)
+r5: IF age > wall_score AND epss < wall_score AND wall_index = <1.06, 1.14) AND lvdd = <4.66, 5.57) THEN class = {0.72} [0.72,0.72] (p=2.0, n=0.0, P=3.0, N=114.0)
+r6: IF epss > lvdd AND wall_index = <1.06, 1.14) AND epss = (-inf, 18) AND lvdd != <4.86, 5.47) THEN class = {0.84} [0.79,0.90] (p=3.0, n=1.0, P=7.0, N=110.0)
+r7: IF wall_index = (-inf, 1.11) AND age = (-inf, 52.50) THEN class = {0.58} [0.42,0.74] (p=5.0, n=2.0, P=43.0, N=74.0)
+r8: IF wall_index = <1.09, 1.15) THEN class = {0.84} [0.72,0.97] (p=4.0, n=1.0, P=16.0, N=101.0)
+r9: IF wall_index = <1.98, 2.25) AND epss = <16, 23) THEN class = {0.0} [0.0,0.0] (p=2.0, n=0.0, P=15.0, N=102.0)
+r10: IF fractional < epss AND wall_index = <1.98, 2.25) AND fractional = (-inf, 0.27) THEN class = {0.018} [-0.065,0.1] (p=5.0, n=1.0, P=28.0, N=89.0)
+r11: IF still_alive != {0} THEN class = {0.018} [-0.15,0.18] (p=31.0, n=8.0, P=34.0, N=83.0)

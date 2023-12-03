@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.5284640171858217
+r2: 0.5326086956521738
+r3: 0.6458333333333333
+r4: 0.3435517970401692
+r5: 0.437799043062201
+r6: 0.44736842105263164
+r7: 0.5458823529411766
+________________________________
+r1: IF 2-of-3(WWDRK > HC, PREC < WWDRK, JANT < WWDRK) = {1} AND 2-of-3(JANT < WWDRK, NONW < POOR, WWDRK > HC) = {1} AND OVR65 > NOX = {0} AND OVR65 < NONW = {1} THEN class = {0.57} [0.45,0.70] (p=11.0, n=3.0, P=19.0, N=35.0)
+r2: IF JANT < WWDRK = {1} AND OVR65 < NONW = {0} THEN class = {0.30} [0.16,0.45] (p=18.0, n=5.0, P=24.0, N=30.0)
+r3: IF HOUS = (-inf, 79.05) = {0} AND HUMID = (-inf, 60.50) = {1} AND PREC > JANT = {0} AND DENS != <3160.50, 4213) = {1} THEN class = {0.13} [0.09,0.17] (p=4.0, n=1.0, P=6.0, N=48.0)
+r4: IF 2-of-3(POPN < NONW, PREC > JANT, WWDRK > HC) = {0} AND 2-of-3(WWDRK > HC, POPN < NONW, JANT > NOX) = {0} THEN class = {0.13} [0.028,0.24] (p=2.0, n=1.0, P=11.0, N=43.0)
+r5: IF HC > SO = {1} THEN class = {0.26} [-0.0033,0.53] (p=10.0, n=1.0, P=38.0, N=16.0)
+r6: IF POPN < NONW = {1} AND PREC > SO = {1} AND 2-of-3(PREC > JANT, NONW < SO, JANT < WWDRK) = {1} AND DENS != <3160.50, 4213) = {0} AND PREC < WWDRK = {1} THEN class = {0.33} [0.24,0.42] (p=4.0, n=1.0, P=16.0, N=38.0)
+r7: IF JANT > SO = {0} AND HC > SO = {0} AND OVR65 < NONW = {1} THEN class = {0.57} [0.44,0.70] (p=12.0, n=3.0, P=20.0, N=34.0)

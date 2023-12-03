@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.549560351718625
+r2: 0.3377232142857143
+r3: 0.46809067131647775
+r4: 0.22250748823277708
+r5: 0.15932287776947968
+r6: 0.8
+r7: 0.42985151049667175
+r8: 0.4612242974505584
+r9: 0.32730483497746926
+r10: 0.4356763925729442
+r11: 0.5419781698564593
+r12: 0.5493917721132099
+r13: 0.5722876082251083
+r14: 0.518655975563192
+r15: 0.45815085158150853
+r16: 0.5689707828565612
+r17: 0.5283682237939947
+________________________________
+r1: IF Sex = {0} AND Length1 = <44, inf) THEN class = {0.94} [0.70,1.18] (p=2.0, n=1.0, P=3.0, N=139.0)
+r2: IF Length1 = <44, inf) THEN class = {0.76} [0.55,0.96] (p=3.0, n=2.0, P=14.0, N=128.0)
+r3: IF Length1 = (-inf, 54) AND Height = (-inf, 16.10) AND Species = {6} THEN class = {0.28} [0.18,0.37] (p=8.0, n=2.0, P=31.0, N=111.0)
+r4: IF Width = <18.55, inf) THEN class = {0.51} [0.42,0.60] (p=1.0, n=1.0, P=19.0, N=123.0)
+r5: IF Height = <41.30, inf) THEN class = {0.61} [0.32,0.89] (p=1.0, n=1.0, P=39.0, N=103.0)
+r6: IF Length2 = <42.50, inf) AND Species = {7} THEN class = {0.61} [0.61,0.61] (p=3.0, n=0.0, P=5.0, N=137.0)
+r7: IF Length1 = (-inf, 41.55) AND Length3 = <45.05, inf) AND Width = <9.65, inf) THEN class = {0.59} [0.46,0.72] (p=5.0, n=2.0, P=18.0, N=124.0)
+r8: IF Sex = {?} AND Species = {7} THEN class = {0.082} [-0.032,0.20] (p=23.0, n=3.0, P=83.0, N=59.0)
+r9: IF Sex = {0} AND Height = (-inf, 30.45) AND Width = <17.45, inf) THEN class = {0.42} [0.33,0.52] (p=2.0, n=1.0, P=23.0, N=119.0)
+r10: IF Sex = {0} AND Height = (-inf, 25.60) AND Species = {7} AND Width = (-inf, 15.95) THEN class = {0.15} [0.11,0.19] (p=4.0, n=1.0, P=26.0, N=116.0)
+r11: IF Length1 = <19.50, 34.55) AND Height = (-inf, 27.75) AND Species = {7} AND Width = <14.40, 15.95) THEN class = {0.11} [0.03,0.20] (p=15.0, n=1.0, P=66.0, N=76.0)
+r12: IF Sex = {0} AND Height = (-inf, 28.45) AND Length1 = (-inf, 24.20) AND Width = <14.80, 15.95) THEN class = {0.091} [0.078,0.10] (p=6.0, n=1.0, P=19.0, N=123.0)
+r13: IF Height = <22.40, inf) AND Length1 = (-inf, 21.75) THEN class = {0.073} [0.045,0.10] (p=29.0, n=13.0, P=32.0, N=110.0)
+r14: IF Height = (-inf, 27.90) AND Species = {3} AND Width = (-inf, 15.35) THEN class = {0.088} [0.041,0.13] (p=13.0, n=2.0, P=45.0, N=97.0)
+r15: IF Length1 = (-inf, 32.90) AND Height = (-inf, 30.40) AND Species = {2} THEN class = {0.16} [0.15,0.17] (p=2.0, n=1.0, P=5.0, N=137.0)
+r16: IF Length1 = <31.10, inf) THEN class = {0.44} [0.26,0.61] (p=34.0, n=10.0, P=47.0, N=95.0)
+r17: IF Height = (-inf, 40.65) AND Length2 = (-inf, 34.50) THEN class = {0.091} [-0.013,0.19] (p=80.0, n=19.0, P=83.0, N=59.0)

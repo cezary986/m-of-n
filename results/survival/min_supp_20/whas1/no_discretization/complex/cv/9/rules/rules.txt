@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999999999936
+r2: 0.9718023215692103
+r3: 1.0
+r4: 0.9999999999995237
+r5: 1.0
+________________________________
+r1: IF AGE = (-inf, 71.50) THEN  (p=254.0, n=0.0, P=433.0, N=0.0)
+r2: IF CPK != <383.50, 403) AND CPK != <586, 673) AND CPK != <33.50, 101) AND AGE = (-inf, 77) AND CPK = (-inf, 645) AND AGE != <38.50, 72) AND CHF = MIORD AND SEX < MITYPE AND SEX = SHO AND CPK != <456.50, 465) AND AGE != <75.50, 79) THEN  (p=10.0, n=0.0, P=433.0, N=0.0)
+r3: IF SHO = (-inf, 0.50) THEN  (p=400.0, n=0.0, P=433.0, N=0.0)
+r4: IF SEX = MITYPE AND SEX = SHO THEN  (p=10.0, n=0.0, P=433.0, N=0.0)
+r5: IF SHO = MITYPE THEN  (p=23.0, n=0.0, P=433.0, N=0.0)

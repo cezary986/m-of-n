@@ -1,0 +1,40 @@
+Rules qualities:
+r1: 0.5588235294117647
+r2: 0.6176470588235294
+r3: 0.6625897309441613
+r4: 0.6666666666666666
+r5: 0.447475183426845
+r6: 0.4897683866935205
+r7: 0.4244410281841475
+r8: 0.49300201562106327
+r9: 0.4792319389093583
+r10: 0.6028819261084708
+r11: 0.3808917197452229
+r12: 0.48731265640976673
+r13: 0.4529544833072314
+r14: 0.4838871273175673
+r15: 0.4723830122093108
+r16: 0.49168038439293493
+r17: 0.46113936480485407
+r18: 0.5735160592199106
+r19: 0.4309760069354952
+________________________________
+r1: IF displacement = <454.50, inf) THEN class = {0.13} [0.13,0.13] (p=2.0, n=0.0, P=17.0, N=342.0)
+r2: IF displacement = <434.50, inf) THEN class = {0.13} [0.13,0.13] (p=4.0, n=0.0, P=17.0, N=342.0)
+r3: IF weight = <3713.50, inf) THEN class = {0.16} [0.092,0.23] (p=64.0, n=15.0, P=84.0, N=275.0)
+r4: IF acceleration = (-inf, 14.75) AND origin = {3} AND model = {82} AND displacement = (-inf, 132) THEN class = {0.72} [0.72,0.72] (p=2.0, n=0.0, P=6.0, N=353.0)
+r5: IF acceleration = (-inf, 17.25) AND origin = {3} AND model = {82} AND displacement = (-inf, 132) THEN class = {0.72} [0.66,0.77] (p=4.0, n=1.0, P=28.0, N=331.0)
+r6: IF acceleration = (-inf, 22.55) AND displacement = (-inf, 107.50) THEN class = {0.60} [0.45,0.74] (p=74.0, n=26.0, P=121.0, N=238.0)
+r7: IF horsepower = (-inf, 90) AND weight = (-inf, 2460) THEN class = {0.61} [0.46,0.76] (p=73.0, n=38.0, P=109.0, N=250.0)
+r8: IF origin = {1} AND weight = <2485, inf) AND displacement = (-inf, 137.50) THEN class = {0.51} [0.47,0.54] (p=6.0, n=1.0, P=35.0, N=324.0)
+r9: IF acceleration = <13.45, 17.10) AND weight = (-inf, 2827.50) AND displacement = <137.50, 153.50) AND cylinders = {4} THEN class = {0.47} [0.41,0.52] (p=11.0, n=2.0, P=62.0, N=297.0)
+r10: IF origin = {1} AND displacement = <147.50, inf) THEN class = {0.21} [0.10,0.32] (p=134.0, n=35.0, P=152.0, N=207.0)
+r11: IF origin = {2} AND model = {81} THEN class = {0.64} [0.57,0.70] (p=3.0, n=1.0, P=45.0, N=314.0)
+r12: IF acceleration = (-inf, 20.75) AND horsepower = (-inf, 102.50) AND displacement = (-inf, 118.50) AND cylinders = {4} THEN class = {0.59} [0.45,0.72] (p=77.0, n=30.0, P=116.0, N=243.0)
+r13: IF horsepower = <75.50, inf) AND weight = (-inf, 2546.50) AND displacement = <114, 121.50) THEN class = {0.43} [0.32,0.53] (p=8.0, n=1.0, P=106.0, N=253.0)
+r14: IF acceleration = (-inf, 20) AND horsepower = (-inf, 120) AND weight = (-inf, 2671.50) AND displacement = (-inf, 121.50) AND cylinders = {4} THEN class = {0.59} [0.45,0.72] (p=82.0, n=34.0, P=116.0, N=243.0)
+r15: IF acceleration = (-inf, 21.25) AND weight = (-inf, 2906.50) AND displacement = (-inf, 121.50) AND cylinders = {4} THEN class = {0.56} [0.42,0.70] (p=90.0, n=37.0, P=126.0, N=233.0)
+r16: IF origin = {2} AND weight = <2482, inf) AND displacement = (-inf, 126.50) AND cylinders = {4} THEN class = {0.35} [0.24,0.45] (p=12.0, n=1.0, P=112.0, N=247.0)
+r17: IF acceleration = (-inf, 22.60) AND weight = (-inf, 2968) AND displacement = (-inf, 136) THEN class = {0.55} [0.39,0.70] (p=110.0, n=45.0, P=142.0, N=217.0)
+r18: IF cylinders = {6} THEN class = {0.27} [0.18,0.35] (p=61.0, n=14.0, P=108.0, N=251.0)
+r19: IF weight = <2582, 2877.50) AND displacement = <137.50, 145.50) THEN class = {0.43} [0.35,0.51] (p=6.0, n=1.0, P=91.0, N=268.0)

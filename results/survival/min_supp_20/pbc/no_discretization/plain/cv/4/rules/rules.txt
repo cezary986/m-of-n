@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999999999987
+r2: 1.0
+r3: 1.0
+r4: 1.0
+r5: 0.999999999925786
+r6: 1.0
+________________________________
+r1: IF albumin = (-inf, 3.33) AND chol = (-inf, 226) THEN  (p=14.0, n=0.0, P=376.0, N=0.0)
+r2: IF ascites = <0.50, inf) THEN  (p=22.0, n=0.0, P=376.0, N=0.0)
+r3: IF bili = <2.95, inf) THEN  (p=117.0, n=0.0, P=376.0, N=0.0)
+r4: IF bili = (-inf, 2.05) THEN  (p=228.0, n=0.0, P=376.0, N=0.0)
+r5: IF copper = (-inf, 87) THEN  (p=163.0, n=0.0, P=376.0, N=0.0)
+r6: IF bili = (-inf, 2.45) THEN  (p=247.0, n=0.0, P=376.0, N=0.0)

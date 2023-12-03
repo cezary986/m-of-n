@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999997745829
+r2: 0.9999999895419486
+r3: 1.0
+r4: 1.0
+r5: 1.0
+________________________________
+r1: IF sysbp = (-inf, 130.50) AND age = (-inf, 91) AND bmi = (-inf, 21.30) THEN  (p=31.0, n=0.0, P=450.0, N=0.0)
+r2: IF sysbp = (-inf, 130.50) AND age = (-inf, 91) AND bmi = (-inf, 23.56) THEN  (p=54.0, n=0.0, P=450.0, N=0.0)
+r3: IF chf = <0.50, inf) THEN  (p=140.0, n=0.0, P=450.0, N=0.0)
+r4: IF age = (-inf, 74.50) THEN  (p=249.0, n=0.0, P=450.0, N=0.0)
+r5: IF chf = (-inf, 0.50) THEN  (p=310.0, n=0.0, P=450.0, N=0.0)

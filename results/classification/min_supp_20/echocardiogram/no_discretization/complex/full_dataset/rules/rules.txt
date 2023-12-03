@@ -1,0 +1,36 @@
+Rules qualities:
+r1: 0.8011363636363636
+r2: 0.8068181818181819
+r3: 0.8125
+r4: 0.7839067204817733
+r5: 0.8068181818181819
+r6: 0.8011363636363636
+r7: 0.7744519862022919
+r8: 0.8238636363636364
+r9: 0.8240158428559959
+r10: 0.804991730887267
+r11: 0.5340909090909091
+r12: 0.8488372093023255
+r13: 0.8450286034075364
+r14: 0.7608162186650559
+r15: 0.5813953488372093
+r16: 0.5348837209302325
+r17: 0.3890650692976274
+________________________________
+r1: IF epss = <4.90, 28.60) AND survival = <22.50, inf) THEN class = {0} (p=53.0, n=0.0, P=88.0, N=43.0)
+r2: IF survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) AND wall-motion-index = (-inf, 1.89) THEN class = {0} (p=54.0, n=0.0, P=88.0, N=43.0)
+r3: IF wall-motion-score = (-inf, 20.50) AND survival = <22.50, inf) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=55.0, n=0.0, P=88.0, N=43.0)
+r4: IF survival = <22.50, inf) THEN class = {0} (p=64.0, n=2.0, P=88.0, N=43.0)
+r5: IF survival = <21.50, inf) AND lvdd = (-inf, 5.80) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=54.0, n=0.0, P=88.0, N=43.0)
+r6: IF epss = <4.90, 17) AND survival = <16, inf) THEN class = {0} (p=53.0, n=0.0, P=88.0, N=43.0)
+r7: IF survival > epss AND epss = <4.90, 17) THEN class = {0} (p=56.0, n=1.0, P=88.0, N=43.0)
+r8: IF epss = (-inf, 16.90) AND survival = <15.50, inf) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=57.0, n=0.0, P=88.0, N=43.0)
+r9: IF survival = <11, inf) AND lvdd = (-inf, 5.69) THEN class = {0} (p=76.0, n=3.0, P=88.0, N=43.0)
+r10: IF epss = (-inf, 15.80) AND survival = <8.25, inf) AND age-at-heart-attack = (-inf, 73.50) THEN class = {0} (p=61.0, n=1.0, P=88.0, N=43.0)
+r11: IF lvdd = <4.56, inf) AND lvdd != <4.63, 6.74) THEN class = {0} (p=6.0, n=0.0, P=88.0, N=43.0)
+r12: IF mult < group AND survival = (-inf, 8.25) THEN class = {1} (p=30.0, n=0.0, P=43.0, N=88.0)
+r13: IF survival = (-inf, 8.25) THEN class = {1} (p=33.0, n=1.0, P=43.0, N=88.0)
+r14: IF age-at-heart-attack > group AND survival = (-inf, 16) AND alive-at-1 != {0} THEN class = {1} (p=32.0, n=3.0, P=43.0, N=88.0)
+r15: IF epss = <19.15, 23.60) THEN class = {1} (p=7.0, n=0.0, P=43.0, N=88.0)
+r16: IF lvdd = <5.79, 5.95) THEN class = {1} (p=3.0, n=0.0, P=43.0, N=88.0)
+r17: IF age-at-heart-attack > mult AND survival = (-inf, 40.50) AND age-at-heart-attack = <73.50, inf) THEN class = {1} (p=7.0, n=2.0, P=43.0, N=88.0)

@@ -1,0 +1,22 @@
+Rules qualities:
+r1: 0.6818181818181819
+r2: 0.5860225524859672
+r3: 0.5854442727599071
+r4: 0.4083521344835212
+r5: 0.35921451758820716
+r6: 0.38606588059142816
+r7: 0.39830762026172717
+r8: 0.30361842105263154
+r9: 0.3896499238964992
+r10: 0.33423430333338444
+________________________________
+r1: IF pgain = {5, 6} AND vgain = {1, 2} THEN class = {0.059} [0.059,0.059] (p=4.0, n=0.0, P=11.0, N=156.0)
+r2: IF motor = {B, A, C} AND pgain = {5, 6} THEN class = {0.059} [0.043,0.075] (p=29.0, n=8.0, P=44.0, N=123.0)
+r3: IF motor != screw AND pgain = {5, 6} THEN class = {0.054} [0.038,0.07] (p=34.0, n=8.0, P=54.0, N=113.0)
+r4: IF motor = {E, D} THEN class = {0.082} [-0.10,0.26] (p=51.0, n=4.0, P=137.0, N=30.0)
+r5: IF motor != screw AND motor = {E, D, C} AND screw = {E, C, B} AND vgain = {4, 3, 1} THEN class = {0.081} [-0.023,0.18] (p=21.0, n=2.0, P=129.0, N=38.0)
+r6: IF motor = {E, D, C} AND pgain = {5, 4, 3} AND vgain = {4, 3, 1} THEN class = {0.091} [-0.072,0.26] (p=48.0, n=4.0, P=137.0, N=30.0)
+r7: IF motor != screw AND motor = {E, D, C} AND pgain = {5, 4, 3} AND screw = {E, C} THEN class = {0.097} [-0.03,0.22] (p=16.0, n=1.0, P=133.0, N=34.0)
+r8: IF motor = screw AND pgain != {3} AND screw = {E, C} AND vgain != {1} THEN class = {0.054} [0.022,0.086] (p=6.0, n=2.0, P=72.0, N=95.0)
+r9: IF motor = {E, D, C} AND pgain = {5, 6, 4} AND screw = {A, B} AND vgain != {1} THEN class = {0.059} [0.026,0.092] (p=21.0, n=6.0, P=73.0, N=94.0)
+r10: IF pgain != {3} AND vgain != {1} THEN class = {0.059} [0.023,0.095] (p=61.0, n=34.0, P=73.0, N=94.0)

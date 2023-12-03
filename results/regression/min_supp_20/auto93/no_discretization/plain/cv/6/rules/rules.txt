@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.4393939393939394
+r2: 0.47058823529411764
+r3: 0.46554054054054056
+r4: 0.5194805194805195
+r5: 0.32098765432098764
+r6: 0.36585365853658536
+r7: 0.31457489878542505
+r8: 0.32098765432098764
+r9: 0.310204081632653
+r10: 0.6772486772486772
+r11: 0.45565610859728506
+r12: 0.5373991457047934
+r13: 0.3428571428571428
+r14: 0.43079178885630504
+r15: 0.8214285714285713
+r16: 0.79
+________________________________
+r1: IF Engine_size = (-inf, 4.05) AND Wheelbase = <111, inf) THEN class = {0.23} [0.18,0.27] (p=8.0, n=3.0, P=21.0, N=63.0)
+r2: IF Type = {Van} AND Fuel_tank_capacity = (-inf, 20.50) AND Manual_transmission_available = {0} THEN class = {0.21} [0.19,0.24] (p=4.0, n=1.0, P=16.0, N=68.0)
+r3: IF Rear_seat_room = <30.50, inf) AND Air_Bags_standard = {2} THEN class = {0.56} [0.40,0.71] (p=3.0, n=1.0, P=10.0, N=74.0)
+r4: IF Type = {Midsize} AND Wheelbase = (-inf, 109.50) AND Air_Bags_standard = {2} THEN class = {0.51} [0.43,0.59] (p=3.0, n=1.0, P=7.0, N=77.0)
+r5: IF Engine_size = (-inf, 4.20) AND Engine_revolutions_per_mile = (-inf, 2410) AND Drive_train_type = {0} AND Air_Bags_standard = {2} THEN class = {1} [0.57,1.43] (p=1.0, n=1.0, P=3.0, N=81.0)
+r6: IF Type = {Compact} AND Air_Bags_standard = {2} THEN class = {0.19} [0.17,0.20] (p=1.0, n=1.0, P=2.0, N=82.0)
+r7: IF City_MPG = (-inf, 23) AND Manufacturer = {Volkswagen} THEN class = {0.23} [0.20,0.26] (p=2.0, n=1.0, P=19.0, N=65.0)
+r8: IF Manufacturer = {Toyota} AND RPM = <5300, inf) THEN class = {0.20} [0.20,0.20] (p=1.0, n=1.0, P=3.0, N=81.0)
+r9: IF Type = {Large} AND Drive_train_type = {0} THEN class = {0.30} [0.18,0.42] (p=3.0, n=1.0, P=35.0, N=49.0)
+r10: IF Type = {Small} AND Domestic = {0} AND Drive_train_type = {1} THEN class = {0.048} [0.008,0.087] (p=11.0, n=1.0, P=21.0, N=63.0)
+r11: IF Number_of_cylinders = <5, inf) AND Domestic = {1} AND U-turn_space = (-inf, 43.50) THEN class = {0.23} [0.13,0.34] (p=14.0, n=3.0, P=39.0, N=45.0)
+r12: IF City_MPG = <20.50, inf) AND Fuel_tank_capacity = (-inf, 19.80) THEN class = {0.086} [0.011,0.16] (p=32.0, n=11.0, P=35.0, N=49.0)
+r13: IF Type = {Midsize} AND Manual_transmission_available = {1} AND Air_Bags_standard = {1} THEN class = {0.38} [0.28,0.47] (p=2.0, n=1.0, P=14.0, N=70.0)
+r14: IF Fuel_tank_capacity = <18.90, inf) AND Domestic = {0} AND Air_Bags_standard = {1} THEN class = {0.41} [0.26,0.57] (p=4.0, n=1.0, P=22.0, N=62.0)
+r15: IF Length = (-inf, 184.50) AND Horsepower = (-inf, 145) AND Drive_train_type = {1} AND Weight = (-inf, 2917.50) THEN class = {0.068} [-0.0053,0.14] (p=24.0, n=2.0, P=28.0, N=56.0)
+r16: IF Engine_size = (-inf, 3.55) AND City_MPG = (-inf, 20.50) AND Drive_train_type = {1} AND Air_Bags_standard = {1} THEN class = {0.39} [0.37,0.41] (p=4.0, n=1.0, P=4.0, N=80.0)

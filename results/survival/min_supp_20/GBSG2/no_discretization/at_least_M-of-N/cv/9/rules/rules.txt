@@ -1,0 +1,6 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+________________________________
+r1: IF tsize != <17.50, 20) = {1} AND pnodes < progrec = {0} AND age != <65.50, 68) = {1} AND pnodes = (-inf, 8.50) = {0} THEN  (p=55.0, n=0.0, P=618.0, N=0.0)
+r2: IF 2-of-3(age != <25, 32), estrec != <37, 40), progrec != <117.50, 124)) = {1} THEN  (p=618.0, n=0.0, P=618.0, N=0.0)

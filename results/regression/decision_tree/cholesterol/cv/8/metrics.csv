@@ -1,0 +1,2 @@
+dataset,RMSE (test),MAE (test),MAPE (test),rRMSE (test),rMAE (test),rMAPE (test),maxError (test),R2 (test),RMSE (train),MAE (train),MAPE (train),rRMSE (train),rMAE (train),rMAPE (train),maxError (train),R2 (train),rules,conditions_count,avg conditions per rule
+cholesterol,0.33920536008932534,0.2928021224887947,67176980743122.11,0.6647005071400348,0.5737695868329684,671769807431.2211,0.6259870329725774,-0.9595688140149634,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,268,535,18.732710280373833

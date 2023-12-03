@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.9999999512103428
+r2: 0.9999984737315296
+r3: 0.9995254987970922
+r4: 0.9447217107128678
+r5: 0.9999994061438012
+r6: 0.9999929094460804
+r7: 0.9999999825741881
+r8: 0.9994038368405497
+r9: 0.9959099492688922
+r10: 0.9986692434483577
+r11: 0.999999994682625
+r12: 0.9999999944761042
+r13: 0.9999999998174903
+r14: 0.9999897772828511
+________________________________
+r1: IF abdpain = (-inf, 0.50) AND os12m = <0.50, inf) AND abnode = (-inf, 0.50) THEN  (p=223.0, n=0.0, P=789.0, N=0.0)
+r2: IF os30d = <0.50, inf) THEN  (p=179.0, n=0.0, P=789.0, N=0.0)
+r3: IF dchexam = <0.50, inf) AND marital = {S} AND iinfct = <1.50, 2.50) AND race = {W} AND dysuria = (-inf, 0.50) AND lesion = (-inf, 0.50) AND age = (-inf, 20.50) THEN  (p=88.0, n=0.0, P=789.0, N=0.0)
+r4: IF vagina = (-inf, 0.50) AND npartner = (-inf, 3.50) AND race = {B} AND abdpain = <0.50, inf) AND dysuria = (-inf, 0.50) AND age = <18.50, inf) AND condom = <1.50, 2.50) THEN  (p=11.0, n=0.0, P=789.0, N=0.0)
+r5: IF dysuria = (-inf, 0.50) AND os12m = <0.50, inf) THEN  (p=229.0, n=0.0, P=789.0, N=0.0)
+r6: IF rs12m = (-inf, 0.50) AND iinfct = <2.50, inf) AND lymph = (-inf, 0.50) AND dysuria = <0.50, inf) AND age = (-inf, 27.50) AND yschool = (-inf, 12.50) AND condom = (-inf, 2.50) THEN  (p=32.0, n=0.0, P=789.0, N=0.0)
+r7: IF os12m = (-inf, 0.50) AND yschool = (-inf, 12.50) AND age = (-inf, 31.50) THEN  (p=447.0, n=0.0, P=789.0, N=0.0)
+r8: IF iinfct = <2.50, inf) AND rash = (-inf, 0.50) AND vagina = <0.50, inf) AND race = {B} AND npartner = (-inf, 1.50) AND os12m = (-inf, 0.50) AND rs30d = (-inf, 0.50) AND yschool = (-inf, 13.50) THEN  (p=16.0, n=0.0, P=789.0, N=0.0)
+r9: IF rash = (-inf, 0.50) AND vagina = <0.50, inf) AND race = {B} AND npartner = (-inf, 1.50) AND os12m = (-inf, 0.50) AND rs30d = (-inf, 0.50) THEN  (p=35.0, n=0.0, P=789.0, N=0.0)
+r10: IF dchexam = <0.50, inf) AND iinfct = (-inf, 2.50) AND abdpain = (-inf, 0.50) AND dysuria = (-inf, 0.50) AND rs30d = (-inf, 0.50) AND age = <19.50, inf) THEN  (p=129.0, n=0.0, P=789.0, N=0.0)
+r11: IF marital = {S} AND itch = (-inf, 0.50) AND race = {B} AND os12m = (-inf, 0.50) AND abnode = (-inf, 0.50) AND yschool = (-inf, 13.50) AND age = (-inf, 20.50) AND condom = (-inf, 2.50) THEN  (p=151.0, n=0.0, P=789.0, N=0.0)
+r12: IF rs12m = (-inf, 0.50) AND itch = (-inf, 0.50) AND race = {B} AND os12m = (-inf, 0.50) AND abnode = (-inf, 0.50) AND lesion = (-inf, 0.50) AND yschool = (-inf, 14.50) AND age = (-inf, 29.50) AND condom = <1.50, 2.50) THEN  (p=171.0, n=0.0, P=789.0, N=0.0)
+r13: IF os12m = (-inf, 0.50) AND rs30d = (-inf, 0.50) AND yschool = (-inf, 13.50) AND condom = (-inf, 2.50) THEN  (p=324.0, n=0.0, P=789.0, N=0.0)
+r14: IF vagina = (-inf, 0.50) AND age = <18.50, inf) THEN  (p=408.0, n=0.0, P=789.0, N=0.0)

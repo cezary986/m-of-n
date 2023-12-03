@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.8712420584723211
+r2: 0.8487775747256086
+r3: 0.8282475349690439
+r4: 0.9249183951953743
+r5: 0.8030626940218853
+r6: 0.7706187307474532
+________________________________
+r1: IF physician-fee-freeze != {n} AND synfuels-corporation-cutback != {y} THEN class = {republican} (p=145.0, n=6.0, P=168.0, N=267.0)
+r2: IF physician-fee-freeze != adoption-of-the-budget-resolution AND physician-fee-freeze != {n} AND el-salvador-aid != {n} THEN class = {republican} (p=141.0, n=7.0, P=168.0, N=267.0)
+r3: IF physician-fee-freeze = el-salvador-aid AND physician-fee-freeze != {n} THEN class = {republican} (p=159.0, n=16.0, P=168.0, N=267.0)
+r4: IF physician-fee-freeze != {y} THEN class = {democrat} (p=253.0, n=5.0, P=267.0, N=168.0)
+r5: IF physician-fee-freeze != adoption-of-the-budget-resolution AND aid-to-nicaraguan-contras != {n} AND el-salvador-aid != {y} THEN class = {democrat} (p=192.0, n=5.0, P=267.0, N=168.0)
+r6: IF physician-fee-freeze != anti-satellite-test-ban AND adoption-of-the-budget-resolution != {n} THEN class = {democrat} (p=197.0, n=9.0, P=267.0, N=168.0)

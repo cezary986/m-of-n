@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 0.999999960816171
+r2: 0.9999981873046856
+r3: 0.929518009673119
+r4: 0.9999963846562172
+r5: 0.998079088633801
+r6: 0.9999981274548971
+r7: 0.9999999050857419
+r8: 0.999906944861422
+r9: 0.9998649604272453
+________________________________
+r1: IF Relapse = Gendermatch = {1} AND extcGvHD != DonorCMV = {1} AND PLTrecovery = (-inf, 28) = {0} AND Recipientage < CD34kgx10d6 = {0} THEN  (p=24.0, n=0.0, P=168.0, N=0.0)
+r2: IF 2-of-3(ANCrecovery = (-inf, 18.50), aGvHDIIIIV != Riskgroup, HLAmismatch = Txpostrelapse) = {0} AND extcGvHD != DonorCMV = {1} AND Recipientgender != IIIV = {1} THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r3: IF Stemcellsource != Gendermatch = {1} AND Relapse = IIIV = {1} AND Rbodymass > PLTrecovery = {1} AND PLTrecovery = (-inf, 28) = {1} AND CD3dCD34 < CD3dkgx10d8 = {0} THEN  (p=6.0, n=0.0, P=168.0, N=0.0)
+r4: IF 2-of-3(ANCrecovery = (-inf, 18.50), aGvHDIIIIV != Riskgroup, HLAmismatch = Txpostrelapse) = {0} AND Stemcellsource = IIIV = {0} AND PLTrecovery = (-inf, 28) = {0} THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r5: IF PLTrecovery = (-inf, 28) = {1} THEN  (p=110.0, n=0.0, P=168.0, N=0.0)
+r6: IF 2-of-3(ANCrecovery = (-inf, 18.50), aGvHDIIIIV != Riskgroup, HLAmismatch = Txpostrelapse) = {0} AND ABOmatch = RecipientCMV = {0} AND extcGvHD != DonorCMV = {1} THEN  (p=11.0, n=0.0, P=168.0, N=0.0)
+r7: IF 2-of-3(ANCrecovery = (-inf, 18.50), aGvHDIIIIV != Riskgroup, HLAmismatch = Txpostrelapse) = {0} AND Relapse = Gendermatch = {1} AND PLTrecovery = (-inf, 28) = {0} THEN  (p=13.0, n=0.0, P=168.0, N=0.0)
+r8: IF 2-of-3(ANCrecovery = (-inf, 18.50), aGvHDIIIIV != Riskgroup, HLAmismatch = Txpostrelapse) = {1} AND Stemcellsource = Relapse = {0} THEN  (p=102.0, n=0.0, P=168.0, N=0.0)
+r9: IF 2-of-3(ANCrecovery = (-inf, 18.50), aGvHDIIIIV != Riskgroup, HLAmismatch = Txpostrelapse) = {1} THEN  (p=137.0, n=0.0, P=168.0, N=0.0)

@@ -1,0 +1,10 @@
+Rules qualities:
+r1: 0.9999999999975109
+r2: 0.9999999999946682
+r3: 0.9999999999999982
+r4: 0.9999984185979602
+________________________________
+r1: IF sho = chf THEN  (p=317.0, n=0.0, P=450.0, N=0.0)
+r2: IF bmi != <25.23, 25.84) AND bmi != <28.04, 35.67) AND chf = miord AND sho < miord AND hr != <77.50, 91) AND bmi != <22.95, 23.17) THEN  (p=33.0, n=0.0, P=450.0, N=0.0)
+r3: IF sho < chf AND sho = mitype THEN  (p=96.0, n=0.0, P=450.0, N=0.0)
+r4: IF sho < mitype AND bmi != <23.62, 24.07) THEN  (p=119.0, n=0.0, P=450.0, N=0.0)

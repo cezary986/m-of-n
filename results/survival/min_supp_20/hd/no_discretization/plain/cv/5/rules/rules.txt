@@ -1,0 +1,14 @@
+Rules qualities:
+r1: 0.9999999999999857
+r2: 0.900614681351209
+r3: 1.0
+r4: 1.0
+r5: 1.0
+r6: 1.0
+________________________________
+r1: IF age = (-inf, 33.26) THEN  (p=451.0, n=0.0, P=778.0, N=0.0)
+r2: IF medwidsi = {S} AND sex = {M} AND trtgiven = {CMT} AND age = <33.26, 47.50) THEN  (p=4.0, n=0.0, P=778.0, N=0.0)
+r3: IF age = (-inf, 43) THEN  (p=574.0, n=0.0, P=778.0, N=0.0)
+r4: IF age = (-inf, 55.50) THEN  (p=677.0, n=0.0, P=778.0, N=0.0)
+r5: IF age = (-inf, 64.50) THEN  (p=726.0, n=0.0, P=778.0, N=0.0)
+r6: IF age = <64.50, inf) THEN  (p=52.0, n=0.0, P=778.0, N=0.0)

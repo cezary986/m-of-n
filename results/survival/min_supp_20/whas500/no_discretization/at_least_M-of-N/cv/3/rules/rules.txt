@@ -1,0 +1,8 @@
+Rules qualities:
+r1: 0.9999999999998108
+r2: 1.0
+r3: 1.0
+________________________________
+r1: IF sho < mitype = {0} AND gender = av3 = {0} AND gender = chf = {1} THEN  (p=65.0, n=0.0, P=450.0, N=0.0)
+r2: IF age = (-inf, 69.50) = {0} THEN  (p=247.0, n=0.0, P=450.0, N=0.0)
+r3: IF age = (-inf, 69.50) = {1} THEN  (p=203.0, n=0.0, P=450.0, N=0.0)

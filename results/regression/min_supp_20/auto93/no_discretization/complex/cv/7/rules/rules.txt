@@ -1,0 +1,46 @@
+Rules qualities:
+r1: 0.49913326110509215
+r2: 0.7012987012987014
+r3: 0.79
+r4: 0.6585365853658537
+r5: 0.605668016194332
+r6: 0.63828125
+r7: 0.6065557536145773
+r8: 0.5352213916043703
+r9: 0.6733301050210345
+r10: 0.7396990740740741
+r11: 0.44882591093117413
+r12: 0.7319743472285845
+r13: 0.6538461538461537
+r14: 0.45189873417721516
+r15: 0.48571428571428554
+r16: 0.708607594936709
+r17: 0.6470588235294118
+r18: 0.5452674897119342
+r19: 0.3352136752136753
+r20: 0.5208163265306122
+r21: 0.49753289473684215
+r22: 0.49753289473684215
+________________________________
+r1: IF Number_of_cylinders < Passenger_capacity AND Engine_revolutions_per_mile > Weight AND Highway_MPG < U-turn_space AND Horsepower < Wheelbase THEN class = {0.086} [0.052,0.12] (p=4.0, n=1.0, P=13.0, N=71.0)
+r2: IF Fuel_tank_capacity > Luggage_capacity AND Engine_revolutions_per_mile > Weight AND Horsepower < Wheelbase AND Domestic != Manual_transmission_available AND Highway_MPG = (-inf, 39) AND Weight != <2367.50, 2490) THEN class = {0.064} [0.041,0.087] (p=5.0, n=1.0, P=7.0, N=77.0)
+r3: IF Drive_train_type != Air_Bags_standard AND Highway_MPG > U-turn_space THEN class = {0.025} [0.019,0.031] (p=4.0, n=1.0, P=4.0, N=80.0)
+r4: IF City_MPG > Rear_seat_room AND Number_of_cylinders < Passenger_capacity AND Engine_revolutions_per_mile < Weight THEN class = {0.10} [0.096,0.11] (p=2.0, n=1.0, P=2.0, N=82.0)
+r5: IF Fuel_tank_capacity = (-inf, 14.25) THEN class = {0.064} [0.012,0.12] (p=15.0, n=5.0, P=19.0, N=65.0)
+r6: IF Highway_MPG > Rear_seat_room AND Engine_size = (-inf, 2.10) THEN class = {0.072} [0.017,0.13] (p=18.0, n=6.0, P=20.0, N=64.0)
+r7: IF Number_of_cylinders < Passenger_capacity AND Horsepower > Wheelbase AND Engine_size = <2.05, inf) AND Engine_revolutions_per_mile != <2407.50, 2505) THEN class = {0.23} [0.15,0.31] (p=16.0, n=2.0, P=33.0, N=51.0)
+r8: IF Horsepower < Length AND Fuel_tank_capacity > Luggage_capacity AND City_MPG < Rear_seat_room AND Horsepower > Wheelbase AND Length != <172.50, 180) AND Engine_revolutions_per_mile != <2572.50, 2710) AND U-turn_space != <34.50, 40) AND RPM = <4400, inf) THEN class = {0.25} [0.16,0.35] (p=14.0, n=2.0, P=37.0, N=47.0)
+r9: IF Number_of_cylinders < Passenger_capacity AND Engine_size = <2.05, inf) AND Engine_revolutions_per_mile = (-inf, 2572.50) THEN class = {0.22} [0.13,0.32] (p=18.0, n=1.0, P=37.0, N=47.0)
+r10: IF Highway_MPG != <22.50, 30) AND Weight != <2977.50, 4000) THEN class = {0.10} [-0.072,0.28] (p=29.0, n=1.0, P=48.0, N=36.0)
+r11: IF Domestic != Manual_transmission_available AND Engine_revolutions_per_mile < Weight AND Highway_MPG > Fuel_tank_capacity AND Horsepower < Length AND City_MPG < Rear_seat_room AND Drive_train_type != Air_Bags_standard AND Highway_MPG != <22.50, 30) THEN class = {0.29} [0.23,0.34] (p=4.0, n=1.0, P=19.0, N=65.0)
+r12: IF Highway_MPG != <22.50, 30) AND Engine_revolutions_per_mile != <2522.50, 2550) THEN class = {0.15} [-0.021,0.32] (p=36.0, n=1.0, P=59.0, N=25.0)
+r13: IF Manufacturer = {Mercedes-Benz, Lexus, Lincoln} THEN class = {0.66} [0.59,0.74] (p=4.0, n=1.0, P=6.0, N=78.0)
+r14: IF Fuel_tank_capacity > Luggage_capacity AND Drive_train_type != Air_Bags_standard AND Number_of_cylinders > Passenger_capacity AND Length = <194, inf) AND Engine_revolutions_per_mile != <1922.50, 2550) THEN class = {0.27} [0.26,0.29] (p=2.0, n=1.0, P=5.0, N=79.0)
+r15: IF City_MPG > Fuel_tank_capacity AND Engine_revolutions_per_mile < Weight AND Domestic != Manual_transmission_available AND Drive_train_type = Air_Bags_standard AND Passenger_capacity = <4.50, inf) AND Length != <174.50, 181) AND Fuel_tank_capacity = (-inf, 18.25) THEN class = {0.22} [0.11,0.33] (p=9.0, n=1.0, P=42.0, N=42.0)
+r16: IF Width = (-inf, 73.50) AND Rear_seat_room != <25.50, 30) AND Weight = <3492.50, 3705) THEN class = {0.66} [0.61,0.71] (p=4.0, n=1.0, P=5.0, N=79.0)
+r17: IF Engine_revolutions_per_mile != <1810, 2325) AND Weight = <3492.50, 3705) THEN class = {0.55} [0.40,0.69] (p=8.0, n=1.0, P=16.0, N=68.0)
+r18: IF Horsepower > Wheelbase AND Passenger_capacity < Luggage_capacity AND Manufacturer = {Mitsubishi, Dodge, Volvo} THEN class = {0.46} [0.45,0.47] (p=2.0, n=1.0, P=3.0, N=81.0)
+r19: IF Domestic != Manual_transmission_available AND Highway_MPG < Rear_seat_room AND Horsepower < Length AND City_MPG > Luggage_capacity AND Fuel_tank_capacity > Luggage_capacity AND Type != {Van} THEN class = {0.33} [0.15,0.51] (p=8.0, n=2.0, P=45.0, N=39.0)
+r20: IF City_MPG < Fuel_tank_capacity AND Drive_train_type != Air_Bags_standard AND Highway_MPG < Rear_seat_room AND Rear_seat_room = (-inf, 30.50) AND RPM = (-inf, 5500) THEN class = {0.30} [0.18,0.42] (p=9.0, n=1.0, P=35.0, N=49.0)
+r21: IF Horsepower > Length AND Rear_seat_room != <25.50, 31) THEN class = {0.76} [0.62,0.89] (p=3.0, n=1.0, P=8.0, N=76.0)
+r22: IF Horsepower > Length AND Wheelbase != <107.50, 113) AND Engine_revolutions_per_mile = <1967.50, inf) AND U-turn_space != <36.50, 40) THEN class = {0.45} [0.39,0.52] (p=3.0, n=1.0, P=8.0, N=76.0)

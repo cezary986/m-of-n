@@ -1,0 +1,34 @@
+Rules qualities:
+r1: 0.9999997334852369
+r2: 0.9976503317005244
+r3: 0.9999808983816763
+r4: 0.9601421596869752
+r5: 0.9983629325425313
+r6: 0.9999632464625068
+r7: 0.9999999999999991
+r8: 0.9791851690771313
+r9: 0.7504759579274828
+r10: 0.9894533103963016
+r11: 0.9815216761787854
+r12: 0.9968964381380728
+r13: 0.9779965601089702
+r14: 0.9983924736037605
+r15: 0.8316095916254215
+r16: 0.9777521021340272
+________________________________
+r1: IF ANCrecovery = <500007.50, inf) THEN  (p=5.0, n=0.0, P=168.0, N=0.0)
+r2: IF Recipientgender = {1} AND Stemcellsource = {0} AND Donorage35 = {0} AND RecipientABO = {-1} THEN  (p=6.0, n=0.0, P=168.0, N=0.0)
+r3: IF Recipientageint = {2} AND HLAgrI = {1} AND DonorCMV = {0} THEN  (p=8.0, n=0.0, P=168.0, N=0.0)
+r4: IF aGvHDIIIIV = {0} AND CD34kgx10d6 = <5.73, inf) AND Riskgroup = {1} AND HLAmatch = {1} THEN  (p=3.0, n=0.0, P=168.0, N=0.0)
+r5: IF Diseasegroup = {1} AND Recipientgender = {1} AND CD34kgx10d6 = <3.53, inf) AND Donorage35 = {1} AND RecipientABO = {-1} AND DonorCMV = {0} THEN  (p=7.0, n=0.0, P=168.0, N=0.0)
+r6: IF ABOmatch = {1} AND RecipientCMV = {?} AND Rbodymass = <24.50, inf) THEN  (p=6.0, n=0.0, P=168.0, N=0.0)
+r7: IF extcGvHD = {1} THEN  (p=114.0, n=0.0, P=168.0, N=0.0)
+r8: IF CD34kgx10d6 = <5.85, inf) AND Donorage35 = {0} AND HLAmatch = {0} AND DonorCMV = {1} THEN  (p=17.0, n=0.0, P=168.0, N=0.0)
+r9: IF Antigen = {1} AND extcGvHD = {0} AND HLAgrI = {4} THEN  (p=2.0, n=0.0, P=168.0, N=0.0)
+r10: IF Stemcellsource = {1} AND extcGvHD = {0} AND DonorCMV = {0} THEN  (p=12.0, n=0.0, P=168.0, N=0.0)
+r11: IF Antigen = {0} AND Riskgroup = {0} AND DonorCMV = {1} THEN  (p=3.0, n=0.0, P=168.0, N=0.0)
+r12: IF aGvHDIIIIV = {0} AND HLAmismatch = {1} AND RecipientABO = {1} THEN  (p=6.0, n=0.0, P=168.0, N=0.0)
+r13: IF Stemcellsource = {0} AND Riskgroup = {0} AND RecipientABO = {-1} THEN  (p=10.0, n=0.0, P=168.0, N=0.0)
+r14: IF Relapse = {1} THEN  (p=28.0, n=0.0, P=168.0, N=0.0)
+r15: IF Recipientgender = {0} AND Donorage = <24.19, inf) AND extcGvHD = {0} AND RecipientCMV = {0} AND Riskgroup = {1} THEN  (p=3.0, n=0.0, P=168.0, N=0.0)
+r16: IF ANCrecovery = <12, inf) AND Txpostrelapse = {0} AND RecipientABO = {1} AND IIIV = {1} THEN  (p=30.0, n=0.0, P=168.0, N=0.0)

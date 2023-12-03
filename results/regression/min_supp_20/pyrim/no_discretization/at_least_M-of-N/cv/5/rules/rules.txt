@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.5425347222222221
+r2: 0.5852907200616096
+r3: 0.6656641604010026
+r4: 0.6680769230769231
+r5: 0.5704246411483253
+r6: 0.21742424242424252
+r7: 0.2144607843137255
+r8: 0.4645550527903469
+r9: 0.28174603174603174
+r10: 0.47708333333333336
+r11: 0.48290598290598286
+r12: 0.42456073338426287
+________________________________
+r1: IF 2-of-3(p2_h_acceptor = p2_pi_doner, p2_size > p3_size, p1_flex < p3_polar) = {0} AND 2-of-3(p2_h_acceptor = p2_pi_doner, p2_h_doner = p3_size, p1_sigma < p3_polar) = {0} AND p1_sigma > p2_size = {1} THEN class = {1} [1.00,1.00] (p=2.0, n=1.0, P=3.0, N=64.0)
+r2: IF 2-of-3(p2_h_acceptor = p2_pi_doner, p2_size > p3_size, p1_flex < p3_polar) = {1} AND p1_sigma > p2_size = {0} AND p2_sigma < p3_sigma = {1} THEN class = {0.92} [0.83,1.02] (p=6.0, n=1.0, P=14.0, N=53.0)
+r3: IF 2-of-3(p2_h_doner = p3_size, p1_sigma < p3_polar, p1_h_doner = p1_pi_acceptor) = {1} AND p1_size < p1_pi_doner = {1} AND p2_size > p3_size = {0} AND p2_sigma < p3_sigma = {1} THEN class = {0.95} [0.88,1.02] (p=6.0, n=1.0, P=10.0, N=57.0)
+r4: IF p1_polar > p1_pi_acceptor = {1} AND p1_sigma > p3_sigma = {0} AND 2-of-3(p1_sigma < p3_polar, p2_size > p3_size, p1_h_doner = p1_pi_acceptor) = {1} THEN class = {0.92} [0.82,1.01] (p=12.0, n=3.0, P=15.0, N=52.0)
+r5: IF p1_sigma > p2_sigma = {0} AND p1_sigma > p2_size = {0} AND p1_sigma = p3_size = {0} THEN class = {0.81} [0.71,0.91] (p=16.0, n=6.0, P=19.0, N=48.0)
+r6: IF 2-of-3(p2_h_doner = p3_size, p1_sigma < p3_polar, p1_h_doner = p1_pi_acceptor) = {0} AND 2-of-3(p2_h_acceptor = p2_pi_doner, p2_size > p3_size, p1_flex < p3_polar) = {1} THEN class = {0.65} [0.44,0.87] (p=8.0, n=1.0, P=55.0, N=12.0)
+r7: IF p1_size = p2_h_acceptor = {1} THEN class = {0.61} [0.56,0.65] (p=4.0, n=4.0, P=16.0, N=51.0)
+r8: IF p2_size > p2_h_acceptor = {0} AND p1_size = p2_h_acceptor = {0} AND p1_sigma = p2_pi_acceptor = {1} THEN class = {0.63} [0.55,0.70] (p=11.0, n=2.0, P=33.0, N=34.0)
+r9: IF p2_h_doner = p2_pi_doner = {0} AND p1_sigma = p2_flex = {0} AND 2-of-3(p2_h_acceptor = p2_pi_doner, p2_h_doner = p2_pi_doner, p1_sigma < p3_polar) = {1} AND p1_sigma = p2_pi_acceptor = {1} THEN class = {0.52} [0.43,0.61] (p=2.0, n=1.0, P=21.0, N=46.0)
+r10: IF 2-of-3(p1_size < p1_pi_doner, p1_sigma < p3_polar, p1_flex < p3_polar) = {0} AND 2-of-3(p2_h_acceptor = p2_pi_doner, p2_h_doner = p2_pi_doner, p1_sigma < p3_polar) = {1} AND 2-of-3(p2_h_acceptor = p2_pi_doner, p1_polar > p1_pi_acceptor, p1_sigma < p3_polar) = {1} THEN class = {0.61} [0.55,0.67] (p=7.0, n=1.0, P=30.0, N=37.0)
+r11: IF 2-of-3(p1_sigma < p3_polar, p2_size > p3_size, p1_flex < p3_polar) = {1} AND p1_sigma > p3_sigma = {1} AND 2-of-3(p1_sigma < p3_polar, p2_size > p3_size, p1_h_doner = p1_pi_acceptor) = {1} THEN class = {0.77} [0.72,0.83] (p=7.0, n=3.0, P=13.0, N=54.0)
+r12: IF 2-of-3(p2_h_doner = p3_size, p1_sigma < p3_polar, p1_h_doner = p1_pi_acceptor) = {1} AND 2-of-3(p2_h_acceptor = p2_pi_doner, p2_size > p3_size, p1_flex < p3_polar) = {1} AND p1_sigma > p2_size = {1} AND 2-of-3(p1_size < p1_pi_doner, p1_sigma < p3_polar, p1_flex < p3_polar) = {1} THEN class = {0.68} [0.58,0.77] (p=6.0, n=1.0, P=33.0, N=34.0)

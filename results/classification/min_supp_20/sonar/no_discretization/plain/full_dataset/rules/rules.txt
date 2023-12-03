@@ -1,0 +1,106 @@
+Rules qualities:
+r1: 0.6597938144329897
+r2: 0.654639175257732
+r3: 0.6443298969072164
+r4: 0.634020618556701
+r5: 0.5309278350515464
+r6: 0.5309278350515464
+r7: 0.5257731958762887
+r8: 0.5257731958762887
+r9: 0.5257731958762887
+r10: 0.7422680412371134
+r11: 0.7422680412371134
+r12: 0.5103092783505154
+r13: 0.5103092783505154
+r14: 0.5103092783505154
+r15: 0.6855670103092784
+r16: 0.731958762886598
+r17: 0.7525773195876289
+r18: 0.7422680412371134
+r19: 0.6597938144329897
+r20: 0.6907216494845361
+r21: 0.7371134020618557
+r22: 0.5721649484536082
+r23: 0.5721649484536082
+r24: 0.6958762886597938
+r25: 0.5309278350515464
+r26: 0.545045045045045
+r27: 0.5990990990990991
+r28: 0.5405405405405406
+r29: 0.536036036036036
+r30: 0.5315315315315315
+r31: 0.5900900900900901
+r32: 0.527027027027027
+r33: 0.5180180180180181
+r34: 0.5135135135135135
+r35: 0.5135135135135135
+r36: 0.6351351351351351
+r37: 0.509009009009009
+r38: 0.509009009009009
+r39: 0.509009009009009
+r40: 0.509009009009009
+r41: 0.509009009009009
+r42: 0.5720720720720721
+r43: 0.6036036036036037
+r44: 0.5855855855855856
+r45: 0.6081081081081081
+r46: 0.5945945945945946
+r47: 0.6711711711711712
+r48: 0.6621621621621622
+r49: 0.7207207207207207
+r50: 0.7432432432432432
+r51: 0.7522522522522522
+r52: 0.5585585585585585
+________________________________
+r1: IF attribute_4 = (-inf, 0.045) AND attribute_11 = (-inf, 0.11) THEN class = {Rock} (p=31.0, n=0.0, P=97.0, N=111.0)
+r2: IF attribute_5 = (-inf, 0.07) AND attribute_11 = (-inf, 0.11) THEN class = {Rock} (p=30.0, n=0.0, P=97.0, N=111.0)
+r3: IF attribute_11 = (-inf, 0.11) AND attribute_26 = <0.50, inf) THEN class = {Rock} (p=28.0, n=0.0, P=97.0, N=111.0)
+r4: IF attribute_11 = (-inf, 0.11) AND attribute_48 = (-inf, 0.072) THEN class = {Rock} (p=26.0, n=0.0, P=97.0, N=111.0)
+r5: IF attribute_17 = (-inf, 0.079) THEN class = {Rock} (p=6.0, n=0.0, P=97.0, N=111.0)
+r6: IF attribute_19 = (-inf, 0.11) THEN class = {Rock} (p=6.0, n=0.0, P=97.0, N=111.0)
+r7: IF attribute_13 = (-inf, 0.056) THEN class = {Rock} (p=5.0, n=0.0, P=97.0, N=111.0)
+r8: IF attribute_30 = (-inf, 0.16) THEN class = {Rock} (p=5.0, n=0.0, P=97.0, N=111.0)
+r9: IF attribute_47 = (-inf, 0.022) THEN class = {Rock} (p=5.0, n=0.0, P=97.0, N=111.0)
+r10: IF attribute_16 = (-inf, 0.33) AND attribute_11 = (-inf, 0.17) AND attribute_47 = (-inf, 0.27) THEN class = {Rock} (p=47.0, n=0.0, P=97.0, N=111.0)
+r11: IF attribute_4 = (-inf, 0.078) AND attribute_11 = (-inf, 0.17) AND attribute_45 = (-inf, 0.16) THEN class = {Rock} (p=47.0, n=0.0, P=97.0, N=111.0)
+r12: IF attribute_12 = <0.62, inf) THEN class = {Rock} (p=2.0, n=0.0, P=97.0, N=111.0)
+r13: IF attribute_16 = <0.97, inf) THEN class = {Rock} (p=2.0, n=0.0, P=97.0, N=111.0)
+r14: IF attribute_6 = <0.29, inf) THEN class = {Rock} (p=2.0, n=0.0, P=97.0, N=111.0)
+r15: IF attribute_42 = (-inf, 0.43) AND attribute_12 = (-inf, 0.13) AND attribute_25 = <0.55, inf) THEN class = {Rock} (p=36.0, n=0.0, P=97.0, N=111.0)
+r16: IF attribute_20 = (-inf, 0.78) AND attribute_12 = (-inf, 0.17) AND attribute_45 = (-inf, 0.39) THEN class = {Rock} (p=45.0, n=0.0, P=97.0, N=111.0)
+r17: IF attribute_5 = (-inf, 0.07) AND attribute_11 = (-inf, 0.18) AND attribute_44 = <0.03, 0.31) AND attribute_22 = (-inf, 1.00) THEN class = {Rock} (p=49.0, n=0.0, P=97.0, N=111.0)
+r18: IF attribute_4 = (-inf, 0.078) AND attribute_10 = (-inf, 0.17) AND attribute_11 = (-inf, 0.20) AND attribute_45 = (-inf, 0.16) THEN class = {Rock} (p=47.0, n=0.0, P=97.0, N=111.0)
+r19: IF attribute_9 = (-inf, 0.10) AND attribute_30 = <0.55, inf) THEN class = {Rock} (p=31.0, n=0.0, P=97.0, N=111.0)
+r20: IF attribute_9 = (-inf, 0.10) AND attribute_31 = <0.41, inf) AND attribute_1 = (-inf, 0.059) THEN class = {Rock} (p=37.0, n=0.0, P=97.0, N=111.0)
+r21: IF attribute_16 = (-inf, 0.35) AND attribute_49 = (-inf, 0.074) AND attribute_12 = (-inf, 0.23) THEN class = {Rock} (p=46.0, n=0.0, P=97.0, N=111.0)
+r22: IF attribute_47 = (-inf, 0.037) AND attribute_15 = (-inf, 0.56) THEN class = {Rock} (p=14.0, n=0.0, P=97.0, N=111.0)
+r23: IF attribute_52 = (-inf, 0.0039) AND attribute_21 = (-inf, 0.81) THEN class = {Rock} (p=14.0, n=0.0, P=97.0, N=111.0)
+r24: IF attribute_45 = (-inf, 0.27) AND attribute_36 = <0.50, inf) AND attribute_59 = (-inf, 0.013) THEN class = {Rock} (p=38.0, n=0.0, P=97.0, N=111.0)
+r25: IF attribute_16 = <0.74, inf) AND attribute_51 = (-inf, 0.012) THEN class = {Rock} (p=6.0, n=0.0, P=97.0, N=111.0)
+r26: IF attribute_58 = <0.02, inf) THEN class = {Mine} (p=10.0, n=0.0, P=111.0, N=97.0)
+r27: IF attribute_10 = <0.078, inf) AND attribute_44 = <0.43, inf) THEN class = {Mine} (p=22.0, n=0.0, P=111.0, N=97.0)
+r28: IF attribute_55 = <0.024, inf) THEN class = {Mine} (p=9.0, n=0.0, P=111.0, N=97.0)
+r29: IF attribute_54 = <0.027, inf) THEN class = {Mine} (p=8.0, n=0.0, P=111.0, N=97.0)
+r30: IF attribute_1 = <0.091, inf) THEN class = {Mine} (p=7.0, n=0.0, P=111.0, N=97.0)
+r31: IF attribute_54 = <0.022, inf) AND attribute_10 = <0.03, inf) THEN class = {Mine} (p=20.0, n=0.0, P=111.0, N=97.0)
+r32: IF attribute_60 = <0.018, inf) THEN class = {Mine} (p=6.0, n=0.0, P=111.0, N=97.0)
+r33: IF attribute_36 = (-inf, 0.033) THEN class = {Mine} (p=4.0, n=0.0, P=111.0, N=97.0)
+r34: IF attribute_31 = (-inf, 0.12) THEN class = {Mine} (p=3.0, n=0.0, P=111.0, N=97.0)
+r35: IF attribute_41 = (-inf, 0.046) THEN class = {Mine} (p=3.0, n=0.0, P=111.0, N=97.0)
+r36: IF attribute_39 = (-inf, 0.88) AND attribute_45 = <0.39, inf) THEN class = {Mine} (p=30.0, n=0.0, P=111.0, N=97.0)
+r37: IF attribute_10 = (-inf, 0.022) THEN class = {Mine} (p=2.0, n=0.0, P=111.0, N=97.0)
+r38: IF attribute_14 = (-inf, 0.038) THEN class = {Mine} (p=2.0, n=0.0, P=111.0, N=97.0)
+r39: IF attribute_29 = (-inf, 0.056) THEN class = {Mine} (p=2.0, n=0.0, P=111.0, N=97.0)
+r40: IF attribute_54 = (-inf, 0.0012) THEN class = {Mine} (p=2.0, n=0.0, P=111.0, N=97.0)
+r41: IF attribute_60 = (-inf, 9.0E-4) THEN class = {Mine} (p=2.0, n=0.0, P=111.0, N=97.0)
+r42: IF attribute_28 = <0.99, inf) AND attribute_1 = (-inf, 0.064) THEN class = {Mine} (p=16.0, n=0.0, P=111.0, N=97.0)
+r43: IF attribute_28 = <0.96, inf) AND attribute_52 = <0.0078, inf) THEN class = {Mine} (p=23.0, n=0.0, P=111.0, N=97.0)
+r44: IF attribute_2 = <0.081, inf) AND attribute_12 = <0.082, inf) THEN class = {Mine} (p=19.0, n=0.0, P=111.0, N=97.0)
+r45: IF attribute_28 = <0.92, inf) AND attribute_36 = (-inf, 0.23) THEN class = {Mine} (p=24.0, n=0.0, P=111.0, N=97.0)
+r46: IF attribute_17 = (-inf, 0.58) AND attribute_11 = <0.34, inf) THEN class = {Mine} (p=21.0, n=0.0, P=111.0, N=97.0)
+r47: IF attribute_49 = <0.059, inf) AND attribute_17 = (-inf, 0.93) AND attribute_12 = <0.24, inf) THEN class = {Mine} (p=38.0, n=0.0, P=111.0, N=97.0)
+r48: IF attribute_49 = <0.059, inf) AND attribute_39 = <0.20, inf) AND attribute_60 = (-inf, 0.01) THEN class = {Mine} (p=36.0, n=0.0, P=111.0, N=97.0)
+r49: IF attribute_27 = <0.82, inf) AND attribute_11 = <0.22, inf) AND attribute_15 = (-inf, 0.55) THEN class = {Mine} (p=49.0, n=0.0, P=111.0, N=97.0)
+r50: IF attribute_16 = (-inf, 0.67) AND attribute_18 = (-inf, 0.68) AND attribute_11 = <0.22, inf) AND attribute_48 = <0.076, inf) THEN class = {Mine} (p=54.0, n=0.0, P=111.0, N=97.0)
+r51: IF attribute_17 = (-inf, 0.67) AND attribute_18 = <0.13, inf) AND attribute_51 = <0.0053, inf) AND attribute_11 = <0.17, inf) AND attribute_33 = (-inf, 0.76) AND attribute_36 = (-inf, 0.46) THEN class = {Mine} (p=56.0, n=0.0, P=111.0, N=97.0)
+r52: IF attribute_9 = <0.16, inf) AND attribute_37 = (-inf, 0.12) THEN class = {Mine} (p=13.0, n=0.0, P=111.0, N=97.0)

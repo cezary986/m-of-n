@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999812115326391
+r2: 0.9992010066123533
+r3: 0.9999915261156944
+r4: 0.9999948668116343
+r5: 0.9999772792541599
+________________________________
+r1: IF ph.ecog = (-inf, 1.50) AND age = (-inf, 74.50) THEN  (p=151.0, n=0.0, P=206.0, N=0.0)
+r2: IF sex = <1.50, inf) THEN  (p=81.0, n=0.0, P=206.0, N=0.0)
+r3: IF meal.cal = (-inf, 1362.50) AND ph.ecog = <1.50, inf) AND wt.loss = (-inf, 24.50) THEN  (p=30.0, n=0.0, P=206.0, N=0.0)
+r4: IF ph.ecog = <0.50, inf) AND sex = (-inf, 1.50) AND age = (-inf, 76.50) THEN  (p=86.0, n=0.0, P=206.0, N=0.0)
+r5: IF sex = (-inf, 1.50) AND ph.karno = (-inf, 85) THEN  (p=65.0, n=0.0, P=206.0, N=0.0)

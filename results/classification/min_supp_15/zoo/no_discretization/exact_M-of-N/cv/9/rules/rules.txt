@@ -1,0 +1,20 @@
+Rules qualities:
+r1: 1.0
+r2: 1.0
+r3: 1.0
+r4: 0.8333333333333333
+r5: 0.8333333333333333
+r6: 1.0
+r7: 1.0
+r8: 0.625
+r9: 0.875
+________________________________
+r1: IF milk != {false} = {0} THEN class = {mammal} (p=37.0, n=0.0, P=37.0, N=54.0)
+r2: IF airborne = feathers = aquatic = {0} AND eggs = fins = backbone = {1} THEN class = {fish} (p=12.0, n=0.0, P=12.0, N=79.0)
+r3: IF feathers != {false} = {0} THEN class = {bird} (p=18.0, n=0.0, P=18.0, N=73.0)
+r4: IF feathers = toothed = breathes = {1} THEN class = {invertebrate} (p=6.0, n=0.0, P=9.0, N=82.0)
+r5: IF airborne = fins = backbone = {1} AND 2-of-3(feathers != {false}, milk != {false}, legs = (-inf, 5.50)) = {0} THEN class = {invertebrate} (p=6.0, n=0.0, P=9.0, N=82.0)
+r6: IF legs = (-inf, 5.50) = {0} AND predator = feathers = toothed = {1} THEN class = {insect} (p=7.0, n=0.0, P=7.0, N=84.0)
+r7: IF airborne = feathers = aquatic = {0} AND eggs = toothed = breathes = {1} THEN class = {amphibian} (p=4.0, n=0.0, P=4.0, N=87.0)
+r8: IF eggs = fins = breathes = {1} THEN class = {reptile} (p=1.0, n=0.0, P=4.0, N=87.0)
+r9: IF airborne = feathers = aquatic = {1} AND eggs = toothed = breathes = {1} THEN class = {reptile} (p=3.0, n=0.0, P=4.0, N=87.0)

@@ -1,0 +1,12 @@
+Rules qualities:
+r1: 0.9999999999957544
+r2: 0.9999999997135255
+r3: 0.9999999999968027
+r4: 0.9999971019205451
+r5: 0.9996951130989545
+________________________________
+r1: IF sho = chf THEN  (p=316.0, n=0.0, P=450.0, N=0.0)
+r2: IF hr != <105, 114) AND hr = (-inf, 123) AND chf = miord AND sho < miord AND hr != <81, 89) AND diasbp = (-inf, 78) THEN  (p=23.0, n=0.0, P=450.0, N=0.0)
+r3: IF cvd = chf AND cvd > av3 THEN  (p=114.0, n=0.0, P=450.0, N=0.0)
+r4: IF diasbp = (-inf, 69) THEN  (p=137.0, n=0.0, P=450.0, N=0.0)
+r5: IF cvd < chf AND cvd = mitype THEN  (p=15.0, n=0.0, P=450.0, N=0.0)

@@ -1,0 +1,42 @@
+Rules qualities:
+r1: 0.5466903073286051
+r2: 0.5099462365591398
+r3: 0.5352303523035229
+r4: 0.431712962962963
+r5: 0.5501373626373626
+r6: 0.5609201213346814
+r7: 0.5630050505050505
+r8: 0.4384615384615384
+r9: 0.48521147589470565
+r10: 0.44911764705882357
+r11: 0.3488238668961561
+r12: 0.6404367469879517
+r13: 0.5100152129817445
+r14: 0.4810146280734515
+r15: 0.5808304453857013
+r16: 0.43841642228739003
+r17: 0.5466903073286051
+r18: 0.4241337043662625
+r19: 0.4225609756097561
+r20: 0.5463998852553069
+________________________________
+r1: IF NC = <4.76, inf) THEN class = {0.85} [0.68,1.03] (p=2.0, n=1.0, P=3.0, N=94.0)
+r2: IF SC = <3.07, inf) THEN class = {0.68} [0.48,0.87] (p=3.0, n=2.0, P=4.0, N=93.0)
+r3: IF SC = (-inf, 3.79) AND NC = <3.91, inf) THEN class = {0.57} [0.35,0.79] (p=5.0, n=1.0, P=15.0, N=82.0)
+r4: IF SC = <2.73, inf) THEN class = {0.56} [0.34,0.78] (p=5.0, n=2.0, P=16.0, N=81.0)
+r5: IF period = (-inf, 103.50) AND NC = (-inf, 0.29) AND NWC = (-inf, 0.62) THEN class = {0.032} [0.021,0.042] (p=3.0, n=1.0, P=6.0, N=91.0)
+r6: IF SC = (-inf, 1.04) AND period = (-inf, 75.50) THEN class = {0.09} [0.02,0.16] (p=20.0, n=3.0, P=43.0, N=54.0)
+r7: IF SC = (-inf, 0.41) AND period = <74.50, 118.50) THEN class = {0.012} [-0.015,0.038] (p=4.0, n=1.0, P=9.0, N=88.0)
+r8: IF period = <76.50, inf) AND NC = (-inf, 1.30) AND season = {SUMMER} THEN class = {0.077} [0.028,0.13] (p=8.0, n=2.0, P=32.0, N=65.0)
+r9: IF SC = <0.51, inf) AND NC = (-inf, 1.72) AND season = {SUMMER} AND seeded = {U} THEN class = {0.15} [0.098,0.20] (p=6.0, n=1.0, P=28.0, N=69.0)
+r10: IF SC = <1.00, 1.96) AND NC = (-inf, 2.46) AND NWC = <1.23, inf) AND seeded = {S} THEN class = {0.28} [0.22,0.33] (p=7.0, n=3.0, P=17.0, N=80.0)
+r11: IF NC = <2.29, inf) AND season = {SPRING} AND seeded = {U} THEN class = {0.40} [0.31,0.48] (p=2.0, n=1.0, P=14.0, N=83.0)
+r12: IF NC = (-inf, 3.05) AND NWC = <2.89, 4.77) AND seeded = {S} THEN class = {0.31} [0.26,0.35] (p=7.0, n=1.0, P=14.0, N=83.0)
+r13: IF NWC = <4.30, 5.69) THEN class = {0.41} [0.24,0.58] (p=7.0, n=1.0, P=29.0, N=68.0)
+r14: IF SC = (-inf, 1.80) AND period = (-inf, 191) AND NC = (-inf, 1.44) AND season = {SPRING} THEN class = {0.09} [0.037,0.14] (p=10.0, n=2.0, P=34.0, N=63.0)
+r15: IF SC = (-inf, 1.09) THEN class = {0.087} [0.0018,0.17] (p=43.0, n=10.0, P=49.0, N=48.0)
+r16: IF SC = (-inf, 1.96) AND NC = (-inf, 2.55) AND season = {AUTUMN} AND seeded = {U} THEN class = {0.16} [0.095,0.22] (p=5.0, n=1.0, P=31.0, N=66.0)
+r17: IF period = (-inf, 185) AND NC = <2.33, 3.12) AND NWC = (-inf, 4.11) AND seeded = {U} THEN class = {0.24} [0.23,0.24] (p=2.0, n=1.0, P=3.0, N=94.0)
+r18: IF SC = (-inf, 1.96) AND NC = (-inf, 2.06) THEN class = {0.11} [0.017,0.20] (p=49.0, n=16.0, P=54.0, N=43.0)
+r19: IF season = {WINTER} AND NWC = <1.98, 2.83) AND seeded = {S} THEN class = {0.18} [0.15,0.21] (p=3.0, n=1.0, P=15.0, N=82.0)
+r20: IF SC = <1.96, 3.07) AND season = {SPRING} THEN class = {0.40} [0.31,0.48] (p=5.0, n=1.0, P=14.0, N=83.0)

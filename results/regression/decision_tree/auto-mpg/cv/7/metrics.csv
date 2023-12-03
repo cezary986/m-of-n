@@ -1,0 +1,2 @@
+dataset,RMSE (test),MAE (test),MAPE (test),rRMSE (test),rMAE (test),rMAPE (test),maxError (test),R2 (test),RMSE (train),MAE (train),MAPE (train),rRMSE (train),rMAE (train),rMAPE (train),maxError (train),R2 (train),rules,conditions_count,avg conditions per rule
+auto-mpg,0.15078490349107923,0.11443456427163348,41921805042013.2,0.4310107287005278,0.32710519284950934,419218050420.132,0.44717388348854614,0.6825980422162483,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,305,609,16.170771756978652

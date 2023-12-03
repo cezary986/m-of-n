@@ -1,0 +1,30 @@
+Rules qualities:
+r1: 0.7731914893617021
+r2: 0.7479432624113476
+r3: 0.7161702127659575
+r4: 0.7831205673758865
+r5: 0.9161702127659574
+r6: 0.86822695035461
+r7: 0.8539007092198582
+r8: 0.7516312056737589
+r9: 0.770354609929078
+r10: 0.9008534504308265
+r11: 0.9027065277530779
+r12: 0.7066780737583772
+r13: 0.5477950884605228
+r14: 0.5476630578294164
+________________________________
+r1: IF odor = {f} = {1} THEN class = {p} (p=1926.0, n=0.0, P=3525.0, N=3787.0)
+r2: IF 2-of-3(odor = {f}, gill-color = {b}, population = {v}) = {1} THEN class = {p} (p=1748.0, n=0.0, P=3525.0, N=3787.0)
+r3: IF 2-of-3(population = {v}, odor = {f}, stalk-surface-above-ring = {k}) = {1} THEN class = {p} (p=1524.0, n=0.0, P=3525.0, N=3787.0)
+r4: IF stalk-surface-above-ring = {k} = {1} AND gill-spacing != {w} = {0} THEN class = {p} (p=1996.0, n=0.0, P=3525.0, N=3787.0)
+r5: IF odor != {n} = {0} AND bruises? != {t} = {0} THEN class = {p} (p=2934.0, n=0.0, P=3525.0, N=3787.0)
+r6: IF odor != {n} = {0} AND 2-of-3(bruises? != {t}, gill-size != {b}, population = {v}) = {0} THEN class = {p} (p=2596.0, n=0.0, P=3525.0, N=3787.0)
+r7: IF odor != {n} = {0} AND 2-of-3(bruises? != {t}, cap-surface != {f}, gill-size != {b}) = {0} AND gill-spacing != {w} = {0} THEN class = {p} (p=2495.0, n=0.0, P=3525.0, N=3787.0)
+r8: IF cap-surface != {f} = {0} AND stalk-surface-below-ring != {f} = {0} AND 2-of-3(population = {v}, odor != {n}, bruises? != {t}) = {0} AND gill-size != {b} = {0} THEN class = {p} (p=1774.0, n=0.0, P=3525.0, N=3787.0)
+r9: IF cap-surface != {f} = {0} AND stalk-surface-below-ring != {f} = {0} AND gill-size != {b} = {0} AND stalk-color-below-ring != {n} = {0} AND odor != {l} = {0} AND odor = {a} = {0} THEN class = {p} (p=1906.0, n=0.0, P=3525.0, N=3787.0)
+r10: IF odor != {n} = {1} AND spore-print-color != {r} = {0} AND stalk-surface-below-ring != {y} = {0} AND cap-surface != {g} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3050.0, n=3.0, P=3787.0, N=3525.0)
+r11: IF 2-of-3(stalk-surface-above-ring = {k}, gill-color = {b}, population = {v}) = {0} AND odor != {n} = {1} AND spore-print-color != {r} = {0} AND cap-surface != {g} = {0} AND cap-color != {y} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=3064.0, n=3.0, P=3787.0, N=3525.0)
+r12: IF 2-of-3(bruises? != {t}, cap-surface != {f}, odor != {n}) = {1} AND spore-print-color != {r} = {0} AND stalk-surface-below-ring != {y} = {0} AND cap-shape != {c} = {0} THEN class = {e} (p=1607.0, n=6.0, P=3787.0, N=3525.0)
+r13: IF odor = {a} = {1} THEN class = {e} (p=362.0, n=0.0, P=3787.0, N=3525.0)
+r14: IF odor != {l} = {1} THEN class = {e} (p=361.0, n=0.0, P=3787.0, N=3525.0)

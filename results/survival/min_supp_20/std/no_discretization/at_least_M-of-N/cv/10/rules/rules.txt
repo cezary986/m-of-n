@@ -1,0 +1,46 @@
+Rules qualities:
+r1: 0.9997359474660132
+r2: 0.999999352719729
+r3: 0.9998919837401623
+r4: 0.9993932276590543
+r5: 0.9506529208578433
+r6: 0.6399946091496698
+r7: 0.9419528041794972
+r8: 0.944719364215405
+r9: 0.9926235958661604
+r10: 0.9924265886882249
+r11: 0.8650381933933989
+r12: 0.994546565013376
+r13: 0.842926240365474
+r14: 0.9391536221664197
+r15: 0.910432333641367
+r16: 0.8260564498475643
+r17: 0.9774242288339055
+r18: 0.9972235775991781
+r19: 0.8434989769037099
+r20: 0.9923501891294721
+r21: 0.9224260832236962
+r22: 0.9961670122078302
+________________________________
+r1: IF rs12m < vagina = {1} AND rash < vagina = {1} AND os30d < vagina = {1} THEN  (p=66.0, n=0.0, P=790.0, N=0.0)
+r2: IF condom = (-inf, 2.50) = {1} AND discharge > itch = {1} AND os30d < discharge = {1} THEN  (p=127.0, n=0.0, P=790.0, N=0.0)
+r3: IF os12m = discharge = {1} AND iinfct = condom = {0} AND rs30d < discharge = {0} AND iinfct > npartner = {0} THEN  (p=61.0, n=0.0, P=790.0, N=0.0)
+r4: IF discharge = vagina = {1} AND iinfct = <1.50, inf) = {1} AND npartner < condom = {1} AND itch = dchexam = {1} AND discharge = lymph = {1} THEN  (p=32.0, n=0.0, P=790.0, N=0.0)
+r5: IF iinfct = condom = {1} AND itch > vagina = {1} AND rs30d < itch = {1} THEN  (p=50.0, n=0.0, P=790.0, N=0.0)
+r6: IF npartner = rash = {1} AND rs30d < rash = {1} AND rs30d < itch = {1} THEN  (p=5.0, n=0.0, P=790.0, N=0.0)
+r7: IF npartner > discharge = {0} AND condom = (-inf, 2.50) = {0} AND yschool = (-inf, 11.50) = {1} AND iinfct > npartner = {0} THEN  (p=4.0, n=0.0, P=790.0, N=0.0)
+r8: IF condom = (-inf, 2.50) = {0} AND iinfct < condom = {1} AND dysuria < dchexam = {1} AND yschool = (-inf, 11.50) = {1} AND npartner = discharge = {1} AND os30d < dchexam = {1} AND iinfct > npartner = {1} THEN  (p=16.0, n=0.0, P=790.0, N=0.0)
+r9: IF itch > vagina = {1} AND itch = dchexam = {1} AND iinfct > npartner = {1} THEN  (p=76.0, n=0.0, P=790.0, N=0.0)
+r10: IF itch > abnode = {1} AND os30d < abdpain = {0} AND itch > vagina = {1} AND iinfct > dchexam = {1} AND itch = dchexam = {1} AND npartner = discharge = {0} AND rs30d < itch = {1} THEN  (p=42.0, n=0.0, P=790.0, N=0.0)
+r11: IF iinfct = (-inf, 2.50) = {1} AND npartner > vagina = {1} AND abdpain > discharge = {1} AND os30d = lesion = {1} AND vagina < dchexam = {1} AND abdpain > dysuria = {1} AND iinfct > npartner = {1} THEN  (p=7.0, n=0.0, P=790.0, N=0.0)
+r12: IF iinfct = (-inf, 2.50) = {1} AND discharge = vagina = {1} AND discharge = rash = {1} AND condom = (-inf, 2.50) = {0} AND os30d = discharge = {1} AND rs12m = discharge = {1} AND discharge < dchexam = {1} THEN  (p=56.0, n=0.0, P=790.0, N=0.0)
+r13: IF iinfct = (-inf, 2.50) = {0} AND npartner = vagina = {1} AND rs30d = discharge = {1} AND npartner > dysuria = {0} THEN  (p=8.0, n=0.0, P=790.0, N=0.0)
+r14: IF npartner > discharge = {1} AND iinfct < condom = {0} AND npartner > dysuria = {0} AND yschool = (-inf, 11.50) = {1} THEN  (p=11.0, n=0.0, P=790.0, N=0.0)
+r15: IF discharge < dysuria = {1} AND abdpain = dysuria = {0} AND iinfct > npartner = {1} THEN  (p=21.0, n=0.0, P=790.0, N=0.0)
+r16: IF iinfct = (-inf, 2.50) = {0} AND npartner = dchexam = {1} AND discharge = itch = {1} AND os12m = discharge = {1} AND rs30d = discharge = {1} THEN  (p=72.0, n=0.0, P=790.0, N=0.0)
+r17: IF iinfct = (-inf, 2.50) = {0} AND npartner > dchexam = {1} AND dysuria > rash = {0} AND rs12m = discharge = {1} AND iinfct > npartner = {1} THEN  (p=29.0, n=0.0, P=790.0, N=0.0)
+r18: IF npartner = dchexam = {1} AND npartner = rash = {0} AND npartner > discharge = {1} AND npartner > os30d = {1} AND age != <17.50, 44) = {1} AND npartner > itch = {1} AND npartner < condom = {1} AND npartner > dysuria = {1} THEN  (p=52.0, n=0.0, P=790.0, N=0.0)
+r19: IF npartner = rash = {1} AND npartner > vagina = {0} AND iinfct = condom = {1} AND age != <17.50, 44) = {1} AND npartner = discharge = {1} THEN  (p=5.0, n=0.0, P=790.0, N=0.0)
+r20: IF os30d < discharge = {0} THEN  (p=511.0, n=0.0, P=790.0, N=0.0)
+r21: IF condom = (-inf, 2.50) = {0} AND iinfct = condom = {1} AND discharge > itch = {1} AND age != <17.50, 44) = {1} AND npartner > dysuria = {1} THEN  (p=6.0, n=0.0, P=790.0, N=0.0)
+r22: IF rs12m < discharge = {1} AND os30d < discharge = {1} THEN  (p=266.0, n=0.0, P=790.0, N=0.0)

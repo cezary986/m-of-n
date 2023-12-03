@@ -1,0 +1,26 @@
+Rules qualities:
+r1: 0.27056277056277056
+r2: 0.3666666666666667
+r3: 0.4127579737335835
+r4: 0.49523809523809526
+r5: 0.48373579545454537
+r6: 0.4896661367249603
+r7: 0.3804347826086957
+r8: 0.4432565789473684
+r9: 0.3966565349544073
+r10: 0.3898026315789473
+r11: 0.4624999999999999
+r12: 0.3804347826086957
+________________________________
+r1: IF POOR > HC = {1} AND 2-of-3(WWDRK > NOX, JULT < HOUS, POPN < NONW) = {1} AND 2-of-3(WWDRK > NOX, PREC > JANT, JANT > NOX) = {0} AND 2-of-3(WWDRK > NOX, POPN < NONW, JANT > NOX) = {0} THEN class = {0.59} [0.50,0.69] (p=4.0, n=2.0, P=21.0, N=33.0)
+r2: IF POOR < NOX = {1} AND 2-of-3(WWDRK > HC, PREC > JANT, POPN < NONW) = {1} AND 2-of-3(WWDRK > NOX, JULT < HOUS, POPN < NONW) = {0} THEN class = {0.55} [0.51,0.59] (p=2.0, n=1.0, P=9.0, N=45.0)
+r3: IF 2-of-3(HOUS > SO, OVR65 < SO, WWDRK > NOX) = {0} AND 2-of-3(WWDRK > NOX, EDUC < POOR, POPN < NONW) = {0} AND 2-of-3(WWDRK > NOX, JULT < HOUS, JANT < WWDRK) = {1} THEN class = {0.67} [0.59,0.75] (p=3.0, n=1.0, P=13.0, N=41.0)
+r4: IF 2-of-3(WWDRK > NOX, JANT > NOX, HOUS > SO) = {0} AND PREC < SO = {1} AND 2-of-3(WWDRK > NOX, PREC > JANT, POPN < NONW) = {0} AND EDUC != <9.90, 11.40) = {0} AND 2-of-3(WWDRK > HC, JULT < HOUS, JANT < WWDRK) = {0} AND 2-of-3(WWDRK > NOX, EDUC < POOR, JANT < WWDRK) = {0} THEN class = {0.65} [0.58,0.73] (p=4.0, n=1.0, P=12.0, N=42.0)
+r5: IF 2-of-3(WWDRK > HC, PREC > JANT, JANT < WWDRK) = {0} AND 2-of-3(WWDRK > NOX, HOUS > SO, POPN < NONW) = {0} AND 2-of-3(POPN < NOX, JANT > NOX, WWDRK > HC) = {0} AND EDUC > POOR = {0} THEN class = {0.51} [0.35,0.67] (p=17.0, n=3.0, P=32.0, N=22.0)
+r6: IF POOR < NOX = {1} AND 2-of-3(WWDRK > NOX, EDUC < POOR, POPN < NONW) = {0} AND EDUC > POOR = {0} AND 2-of-3(WWDRK > HC, POPN < NOX, JANT < WWDRK) = {0} THEN class = {0.62} [0.53,0.71] (p=5.0, n=1.0, P=17.0, N=37.0)
+r7: IF 2-of-3(WWDRK > HC, PREC > JANT, POPN < NONW) = {0} AND 2-of-3(WWDRK > HC, HOUS > SO, POPN < NONW) = {1} AND 2-of-3(WWDRK > HC, JULT < HOUS, JANT < WWDRK) = {0} AND NONW = <15.70, 36.70) = {0} AND 2-of-3(WWDRK > HC, OVR65 < SO, POPN < NOX) = {0} AND EDUC > POOR = {0} THEN class = {0.63} [0.58,0.69] (p=2.0, n=1.0, P=8.0, N=46.0)
+r8: IF 2-of-3(WWDRK > NOX, EDUC < POOR, POPN < NONW) = {0} AND 2-of-3(POPN < NOX, EDUC < POOR, WWDRK > NOX) = {1} THEN class = {0.22} [0.067,0.37] (p=6.0, n=2.0, P=16.0, N=38.0)
+r9: IF 2-of-3(WWDRK > NOX, EDUC < POOR, POPN < NONW) = {1} AND 2-of-3(WWDRK > NOX, POPN < NOX, JANT < WWDRK) = {1} AND 2-of-3(WWDRK > NOX, OVR65 < SO, POPN < NONW) = {0} THEN class = {0.33} [0.29,0.36] (p=2.0, n=1.0, P=7.0, N=47.0)
+r10: IF 2-of-3(WWDRK > NOX, EDUC < POOR, POPN < NONW) = {1} AND OVR65 > HC = {1} THEN class = {0.34} [0.24,0.43] (p=5.0, n=2.0, P=16.0, N=38.0)
+r11: IF NONW = <15.70, 36.70) = {0} AND EDUC > POOR = {1} THEN class = {0.34} [0.18,0.50] (p=9.0, n=2.0, P=24.0, N=30.0)
+r12: IF 2-of-3(WWDRK > NOX, POPN < NOX, JANT > NOX) = {0} AND POOR > HC = {0} AND 2-of-3(WWDRK > HC, OVR65 < SO, POPN < NONW) = {1} AND EDUC > POOR = {0} THEN class = {0.22} [0.15,0.29] (p=2.0, n=1.0, P=8.0, N=46.0)

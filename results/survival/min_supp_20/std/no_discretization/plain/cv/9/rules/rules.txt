@@ -1,0 +1,28 @@
+Rules qualities:
+r1: 0.9999805255439395
+r2: 0.9999994621014426
+r3: 0.9999873621824777
+r4: 0.9999728986503279
+r5: 0.9999900141373163
+r6: 0.999715120337024
+r7: 0.9999300862711298
+r8: 0.9999978081622014
+r9: 0.9999943123457793
+r10: 0.9553929246620712
+r11: 0.9831411919025884
+r12: 0.9771612216101967
+r13: 0.997328353082856
+________________________________
+r1: IF rs12m = (-inf, 0.50) AND iinfct = <1.50, inf) AND os30d = <0.50, inf) THEN  (p=132.0, n=0.0, P=790.0, N=0.0)
+r2: IF vagina = (-inf, 0.50) AND npartner = (-inf, 5.50) AND os12m = <0.50, inf) AND abnode = (-inf, 0.50) AND lesion = (-inf, 0.50) THEN  (p=220.0, n=0.0, P=790.0, N=0.0)
+r3: IF os30d = <0.50, inf) AND dysuria = (-inf, 0.50) AND condom = (-inf, 2.50) THEN  (p=91.0, n=0.0, P=790.0, N=0.0)
+r4: IF iinfct = <1.50, inf) AND os30d = (-inf, 0.50) AND vagina = <0.50, inf) AND yschool = (-inf, 12.50) THEN  (p=52.0, n=0.0, P=790.0, N=0.0)
+r5: IF os12m = <0.50, inf) THEN  (p=260.0, n=0.0, P=790.0, N=0.0)
+r6: IF age = (-inf, 25.50) AND yschool = <13, inf) THEN  (p=104.0, n=0.0, P=790.0, N=0.0)
+r7: IF age = (-inf, 16.50) THEN  (p=140.0, n=0.0, P=790.0, N=0.0)
+r8: IF os12m = (-inf, 0.50) AND age = (-inf, 19.50) THEN  (p=343.0, n=0.0, P=790.0, N=0.0)
+r9: IF rash = (-inf, 0.50) AND lymph = (-inf, 0.50) AND vagina = <0.50, inf) AND npartner = (-inf, 2.50) AND yschool = (-inf, 13.50) THEN  (p=71.0, n=0.0, P=790.0, N=0.0)
+r10: IF dchexam = <0.50, inf) AND rash = (-inf, 0.50) AND vagina = (-inf, 0.50) AND race = {B} AND dysuria = (-inf, 0.50) AND os12m = (-inf, 0.50) AND age = (-inf, 22.50) AND condom = <2.50, inf) THEN  (p=81.0, n=0.0, P=790.0, N=0.0)
+r11: IF iinfct = <1.50, inf) AND npartner = <1.50, inf) AND lesion = (-inf, 0.50) AND yschool = (-inf, 11.50) AND condom = <2.50, inf) THEN  (p=14.0, n=0.0, P=790.0, N=0.0)
+r12: IF itch = (-inf, 0.50) AND npartner = (-inf, 1.50) AND dysuria = <0.50, inf) AND age = <22.50, inf) AND condom = <2.50, inf) THEN  (p=7.0, n=0.0, P=790.0, N=0.0)
+r13: IF yschool = (-inf, 14.50) THEN  (p=756.0, n=0.0, P=790.0, N=0.0)

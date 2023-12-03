@@ -1,0 +1,16 @@
+Rules qualities:
+r1: 0.7572463768115942
+r2: 0.7135251798561151
+r3: 0.5892086330935252
+r4: 0.65
+r5: 0.5452662721893491
+r6: 0.5845580171090151
+r7: 0.6635951453297936
+________________________________
+r1: IF curb-weight = <3274, inf) AND height = (-inf, 57.60) THEN class = {0.88} [0.66,1.11] (p=5.0, n=1.0, P=6.0, N=138.0)
+r2: IF length = <189.85, inf) THEN class = {0.77} [0.60,0.95] (p=4.0, n=1.0, P=5.0, N=139.0)
+r3: IF compression-ratio = <14.65, inf) AND curb-weight = <3207, inf) THEN class = {0.77} [0.61,0.93] (p=4.0, n=2.0, P=5.0, N=139.0)
+r4: IF symboling = {-1} AND width = <68.85, inf) AND curb-weight = (-inf, 3366) THEN class = {0.58} [0.50,0.66] (p=3.0, n=1.0, P=4.0, N=140.0)
+r5: IF city-mpg = (-inf, 25) AND curb-weight = (-inf, 3632.50) THEN class = {0.35} [0.20,0.50] (p=36.0, n=16.0, P=40.0, N=104.0)
+r6: IF width = <66.45, inf) THEN class = {0.38} [0.17,0.59] (p=35.0, n=10.0, P=47.0, N=97.0)
+r7: IF length = (-inf, 176.10) THEN class = {0.089} [-0.0054,0.18] (p=86.0, n=11.0, P=92.0, N=52.0)

@@ -47,13 +47,14 @@ def prepare_candidates(
     for _, row in fsets.iterrows():
         fset: set = row['itemsets']
         fset_support = row['support']
-        for element in fset:
-            if element not in items_map:
-                items_map[element] = MapItem()
+        for key in list(combinations(fset, r=config.M - 1)):
+            if key not in items_map:
+                items_map[key] = MapItem()
 
-            item = items_map[element]
+            item = items_map[key]
             tmp_set = set(fset)
-            tmp_set.remove(element)
+            for e in key:
+                tmp_set.remove(e)
             tmp_item = tmp_set.pop()
             item.items.append(tmp_item)
             item.supports[tmp_item] = fset_support
@@ -61,14 +62,14 @@ def prepare_candidates(
     candidates: List[List[str]] = []
     for key_item, map_item in items_map.items():
         map_item: MapItem = map_item
-        new_candidates = list(combinations(map_item.items, r=config.M))
+        new_candidates = list(combinations(map_item.items, r=config.N - 1))
         mapped_candidates = []
         candidates_to_remove = []
         for new_candidate in new_candidates:
             # make sure attrubute appears only once in conditions
             items_attributes = {}
             new_candidate = list(new_candidate)
-            new_candidate.append(key_item)
+            new_candidate += list(key_item)
             mapped_candidate = {
                 'candidate': new_candidate,
                 'avg_support': (
@@ -91,7 +92,7 @@ def prepare_candidates(
     candidates = sorted(
         candidates, key=lambda k: k['avg_support'], reverse=True)
 
-    limit: int = config.N * elementary_conditions_count
+    limit: int = 10000# config.N * elementary_conditions_count
 
     if limit > config.MAX_CANDIDATES and len(candidates) > limit:
         candidates = candidates[:config.MAX_CANDIDATES]
